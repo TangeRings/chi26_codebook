@@ -41,7 +41,7 @@ export function SemanticCodeSelector({ codes, onChange }: SemanticCodeSelectorPr
   const handleAddCode = (codeName: string) => {
     const trimmed = codeName.trim();
     if (!trimmed) return;
-    onChange([...codes, { instanceId: makeId(), code: trimmed, reason: "" }]);
+    onChange([...codes, { instanceId: makeId(), code: trimmed }]);
     setIsOpen(false);
     setShowCustomInput(false);
     setCustomInput("");
@@ -117,18 +117,6 @@ export function SemanticCodeSelector({ codes, onChange }: SemanticCodeSelectorPr
                 />
               </div>
             )}
-            <div>
-              <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-indigo-400">
-                Notes
-              </label>
-              <textarea
-                value={item.reason || ""}
-                onChange={(e) => patchCode(item.instanceId, { reason: e.target.value })}
-                placeholder="Reasoning for this code..."
-                rows={2}
-                className="w-full resize-none rounded border border-indigo-600 bg-indigo-900 px-2 py-1 text-xs leading-relaxed text-indigo-100 placeholder:text-indigo-400 focus:border-indigo-300 focus:outline-none focus:ring-1 focus:ring-indigo-300"
-              />
-            </div>
           </div>
         </div>
       ))}

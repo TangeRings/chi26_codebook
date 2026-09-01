@@ -1,0 +1,168 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-7"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "no content strategy articulated"
+    ],
+    "post_concepts": [
+      "short videos",
+      "pilates moves to do before your day",
+      "using the equipment",
+      "demonstrating exercises with equipment"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "no content strategy articulated",
+        "post": "short videos",
+        "continuity": "no direct conceptual continuity; PRE is a placeholder",
+        "scope": "PRE = null/silent; POST = specific format",
+        "frame": "PRE has no frame; POST frames as video content",
+        "stretch": "strong stretch; PRE contains nothing to map",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "no content strategy articulated",
+        "post": "pilates moves to do before your day",
+        "continuity": "no direct conceptual continuity",
+        "scope": "PRE = null/silent; POST = specific topic",
+        "frame": "PRE has no frame; POST frames as exercise demonstration",
+        "stretch": "strong stretch",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "no content strategy articulated",
+        "post": "using the equipment",
+        "continuity": "no direct conceptual continuity",
+        "scope": "PRE = null/silent; POST = specific subject",
+        "frame": "PRE has no frame; POST frames as product-focused demo",
+        "stretch": "strong stretch",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "no content strategy articulated",
+        "post": "short videos",
+        "reason": "PRE contains no articulated concept; cannot pair a placeholder absence with a substantive POST concept via lineage"
+      },
+      {
+        "pre": "no content strategy articulated",
+        "post": "pilates moves to do before your day",
+        "reason": "PRE has no content to map; this is not a lineage question"
+      },
+      {
+        "pre": "no content strategy articulated",
+        "post": "using the equipment",
+        "reason": "PRE has no content to map; this is not a lineage question"
+      }
+    ],
+    "matched_pairs": [],
+    "unmatched_pre": [
+      "no content strategy articulated"
+    ],
+    "unmatched_post": [
+      "short videos",
+      "pilates moves to do before your day",
+      "using the equipment"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "no content strategy articulated",
+        "direction": "removed",
+        "nearest_counterpart": "short videos",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "PRE is a placeholder non-answer ('no idea yet'), not a concept. The nearest POST counterpart 'short videos' cannot be Narrowed, Reframed, Elaborated, or Expanded from 'no idea yet' because there is no antecedent idea to transform. However, since PRE contains no articulated concept at all, this is not a true Removed event \u2014 it is the absence of prior content. The corresponding New events for the actual content ideas introduced in POST stand on their own. Treating the placeholder as Removed would be incorrect; the PRE simply has nothing to remove."
+      },
+      {
+        "concept": "short videos",
+        "direction": "new",
+        "nearest_counterpart": "no idea yet",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE counterpart is the placeholder 'no idea yet', which contains no concept, scope, or frame that could be Narrowed, Reframed, Elaborated, or Expanded into 'short videos'. Full PRE set searched; no other antecedent exists. Genuinely New."
+      },
+      {
+        "concept": "pilates moves to do before your day",
+        "direction": "new",
+        "nearest_counterpart": "no idea yet",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE counterpart is 'no idea yet'. No antecedent idea exists in PRE. Full PRE set searched. Genuinely New."
+      },
+      {
+        "concept": "using the equipment",
+        "direction": "new",
+        "nearest_counterpart": "no idea yet",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE counterpart is 'no idea yet'. No antecedent exists. Full PRE set searched. Genuinely New."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE is a three-word non-answer ('no idea yet') with no articulated content strategy. POST contains multiple complete clauses specifying format (short videos), subject (pilates moves to do before your day), and approach (person using the equipment). The post-response introduces an entire content strategy where the pre-response had none. This is a substantial expansion at the clause and sentence level."
+  },
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Mostly thinking of short videos",
+      "rationale": "The student introduces a content format (short videos) that has no antecedent in the PRE response. The PRE was a placeholder 'no idea yet' with no articulated concept. Nearest PRE counterpart ('no idea yet') contains no concept, frame, or scope that could be Narrowed, Reframed, Elaborated, or Expanded into 'short videos'. Full PRE set searched.",
+      "alternative_considered": "Removed+New not applicable; this is a single New event.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "three pilates moves to do before your day",
+      "rationale": "The student introduces a specific content topic (pilates moves for the morning routine) with no antecedent in PRE. Nearest PRE counterpart ('no idea yet') contains no concept that could be Narrowed, Reframed, Elaborated, or Expanded into this specific topic. Full PRE set searched.",
+      "alternative_considered": "Removed+New not applicable.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "the person is using the equipment",
+      "rationale": "The student introduces a demonstration approach (showing equipment use) with no antecedent in PRE. Nearest PRE counterpart ('no idea yet') contains no concept that could be transformed into this approach. Full PRE set searched.",
+      "alternative_considered": "Removed+New not applicable.",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "PRE response is a placeholder ('no idea yet') rather than an articulated concept set. Treated as containing no semantic content rather than as a single Removed unit. The three POST clauses are coded as separate New events because they represent distinct semantic introductions (format, topic, approach). The 'no idea yet' placeholder does not constitute a concept that can be removed \u2014 it is the absence of a prior answer, and forcing a Removed event would incorrectly imply a prior idea was discarded."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

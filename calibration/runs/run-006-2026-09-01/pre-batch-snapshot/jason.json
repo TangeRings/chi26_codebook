@@ -1,0 +1,1107 @@
+{
+  "studentId": "jason",
+  "name": "Jason",
+  "_seedVersion": "run-004-2026-09-01-lineage-recovery",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "Fun, Community-Building, & Lifestyle-Oriented"
+      },
+      "post": {
+        "answer": "Relatable, Interactive, and Expressive"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "Both responses are three descriptor lists of equivalent length and structural form; no clauses, sentences, or explanatory passages added or removed. Differences are entirely at the descriptor level.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Fun",
+            "Community-Building",
+            "Lifestyle-Oriented"
+          ],
+          "postConcepts": [
+            "Relatable",
+            "Interactive",
+            "Expressive"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Fun",
+              "post": "Interactive",
+              "continuity": "Both describe experiential qualities of the brand; engagement/activity territory",
+              "scope": "Interactivity is a specific mode or mechanism of experiential appeal",
+              "frame": "Generic experiential → specific experiential modality",
+              "stretch": "Mild lexical stretch but PRE is a generic filler word",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Fun",
+              "post": "Relatable",
+              "continuity": "Both relate to audience reception but in different facets (experience vs identification)",
+              "scope": "No clear subsumption relation",
+              "frame": "Experiential → social identification",
+              "stretch": "Conceptual frames differ",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Fun",
+              "post": "Expressive",
+              "continuity": "Both touch on affective/identity dimensions but differently",
+              "scope": "No subsumption; different facets",
+              "frame": "Generic experience → individual self-presentation",
+              "stretch": "Topical adjacency only",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Community-Building",
+              "post": "Relatable",
+              "continuity": "Both belong to social-connection territory",
+              "scope": "No subsumption (relatability is not a subtype of community-building)",
+              "frame": "Relational/structural → audience-reception",
+              "stretch": "Reasonable within social-connection neighborhood",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Community-Building",
+              "post": "Interactive",
+              "continuity": "Both touch on engagement/social participation",
+              "scope": "No subsumption",
+              "frame": "Community structure → experiential engagement mechanism",
+              "stretch": "Some neighborhood overlap but frames differ",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Community-Building",
+              "post": "Expressive",
+              "continuity": "Both relate to identity/social expression but from different angles",
+              "scope": "No subsumption",
+              "frame": "Relational/communal → individual self-presentation",
+              "stretch": "Weak adjacency",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Lifestyle-Oriented",
+              "post": "Expressive",
+              "continuity": "Both relate to identity/self-presentation topically",
+              "scope": "No subsumption; lifestyle-aspiration vs individual-expression are sibling identity facets but the only shared territory is the broad umbrella of 'identity/self-presentation' which fails the abstraction ceiling",
+              "frame": "Aspirational lifestyle → individual expression",
+              "stretch": "Topical adjacency only; no defensible transformation",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Lifestyle-Oriented",
+              "post": "Relatable",
+              "continuity": "Adjacent only through broad 'brand identity' umbrella",
+              "scope": "No subsumption",
+              "frame": "Aspirational lifestyle → audience identification",
+              "stretch": "Topically adjacent but different conceptual domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Lifestyle-Oriented",
+              "post": "Interactive",
+              "continuity": "Only topical adjacency through broad umbrella",
+              "scope": "No subsumption",
+              "frame": "Lifestyle → engagement",
+              "stretch": "Different conceptual domains",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Lifestyle-Oriented",
+              "post": "Relatable",
+              "reason": "Different conceptual domains (lifestyle aspiration vs audience identification); only broad-umbrella overlap"
+            },
+            {
+              "pre": "Lifestyle-Oriented",
+              "post": "Interactive",
+              "reason": "Different conceptual domains; no shared semantic neighborhood at specific level"
+            },
+            {
+              "pre": "Fun",
+              "post": "Relatable",
+              "reason": "Community-Building→Relatable is a stronger lineage match for Relatable; Fun→Relatable frames differ and would double-map"
+            },
+            {
+              "pre": "Fun",
+              "post": "Expressive",
+              "reason": "Lifestyle-Oriented→Expressive is the closer adjacency; Fun→Expressive would force a mismatch"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Fun",
+              "post": "Interactive",
+              "basis": "Generic experiential filler specified into concrete engagement modality; subsumption holds"
+            },
+            {
+              "pre": "Community-Building",
+              "post": "Relatable",
+              "basis": "Both occupy social-connection territory; sibling quality with frame shift from relational/communal structure to audience-receptive identification"
+            }
+          ],
+          "unmatchedPre": [
+            "Lifestyle-Oriented"
+          ],
+          "unmatchedPost": [
+            "Expressive"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Lifestyle-Oriented",
+              "direction": "removed",
+              "nearestCounterpart": "Expressive",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Subsumption test: 'Expressive is a specific way of being Lifestyle-Oriented' = FALSE. Reframed: shared territory would have to be claimed via the broad umbrella 'identity/self-presentation', which fails the abstraction ceiling. Elaborated: PRE not retained in POST. Expanded: no broadening of a PRE seed; concepts are sibling identity facets at best. All four transformation codes fail across only topically adjacent concepts."
+            },
+            {
+              "concept": "Expressive",
+              "direction": "new",
+              "nearestCounterpart": "Lifestyle-Oriented",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Subsumption test: 'Expressive is a specific way of being Lifestyle-Oriented' = FALSE. Reframed: shared territory only at the broad umbrella level (identity/self-presentation), which fails the abstraction ceiling. Elaborated: Lifestyle-Oriented is not retained. Expanded: no broadening of a PRE seed. All four transformation codes fail; only topical adjacency remains."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Fun",
+              "post": "Interactive",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption test holds: 'Interactive is a specific way of being Fun' = TRUE. PRE is a generic filler word, PRE-genericness signal supports Narrowed. Pass-1 code is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "Community-Building",
+              "post": "Relatable",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Subsumption test fails (Relatable is not a specific way of being Community-Building); both occupy social-connection territory but as sibling concepts with a frame shift from relational/communal structure to audience-receptive identification. Do not downgrade to Narrowed. Pass-1 code is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "Lifestyle-Oriented",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "BC-003 human-verified non-neighborhood. The only shared territory with Expressive is the broad umbrella 'identity/self-presentation', which fails the abstraction ceiling. All four transformation codes fail. Removed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Expressive",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "BC-003 human-verified non-neighborhood with Lifestyle-Oriented. Nearest counterpart (Lifestyle-Oriented) fails all four transformation codes; no other PRE concept is a defensible antecedent (Fun, Community-Building are already matched). New is correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti5drn0ui2f1kmd86",
+            "code": "Narrowed",
+            "preEvidence": "Fun",
+            "postEvidence": "Interactive",
+            "rationale": "Subsumption holds: 'Interactive is a specific way of being Fun' = TRUE. PRE is generic filler; POST concretizes the experiential idea into a specific engagement modality.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti5drn0i10bau67s7",
+            "code": "Reframed",
+            "preEvidence": "Community-Building",
+            "postEvidence": "Relatable",
+            "rationale": "Both occupy social-connection territory but as siblings, not subtypes. Frame shifts from relational/communal structure (how the brand organizes people) to audience-reception/identification (how the brand is perceived).",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti5drn07lf7ct43dnw",
+            "code": "Removed",
+            "preEvidence": "Lifestyle-Oriented",
+            "postEvidence": null,
+            "rationale": "No defensible POST successor. Nearest counterpart (Expressive) fails subsumption, fails Reframed at the specific neighborhood level (only broad 'identity/self-presentation' umbrella, which hits abstraction ceiling), PRE not retained, no broadening of a PRE seed. BC-003 confirmed non-neighborhood.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti5drn0gtycahfzy3f",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Expressive",
+            "rationale": "No defensible PRE antecedent. Nearest counterpart (Lifestyle-Oriented) fails all four transformation codes; other PRE concepts are already matched. Only topical adjacency remains. BC-003 confirmed non-neighborhood.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "neighborhood_tested_no_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Lifestyle-Oriented → Expressive is a textbook BC-003 case (human-confirmed provisional resolution). Resolved to Removed + New after full ladder testing; only the broad 'identity/self-presentation' umbrella could be claimed as shared territory, which fails the abstraction ceiling. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "I'm hopefully creating an MBTI-themed brand that brings together people of all personalities, lifestyles, and backgrounds through a designed physical products. I would want my brand to focus on connection and self-expression, uniting individuals under a shared passion and building a community (CRM)."
+      },
+      "post": {
+        "answer": "I'm creating an MBTI-themed brand that celebrates individuality while bringing together people of all personalities, lifestyles, and backgrounds through cute physical merchandised products. My vision is for my brand to transform personality theory into a shared experience, uniting enthusiasts under a common passion and creating a community-driven space (similar to CRM)."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST introduces the 'celebrates individuality' and 'transform personality theory into a shared experience' clauses, which add substantive new framing material; the CRM qualifier shifts from declarative to aspirational ('similar to CRM'). Core ideas are present in both, but meaningful new clauses and qualifications have been added. Not enough to qualify as Significant (the underlying architecture of the response — audience, products, community, passion — is preserved).",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "MBTI-themed brand",
+            "brings together people of all personalities, lifestyles, and backgrounds",
+            "designed physical products",
+            "focus on connection",
+            "self-expression",
+            "uniting individuals",
+            "shared passion",
+            "building a community (CRM)"
+          ],
+          "postConcepts": [
+            "MBTI-themed brand",
+            "celebrates individuality",
+            "bringing together people of all personalities, lifestyles, and backgrounds",
+            "cute physical merchandised products",
+            "transform personality theory into a shared experience",
+            "uniting enthusiasts",
+            "common passion",
+            "creating a community-driven space (similar to CRM)"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "MBTI-themed brand",
+              "post": "MBTI-themed brand",
+              "continuity": "identical identifier",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "brings together people of all personalities, lifestyles, and backgrounds",
+              "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+              "continuity": "near-identical phrasing",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "designed physical products",
+              "post": "cute physical merchandised products",
+              "continuity": "both refer to physical branded goods",
+              "scope": "slight shift from 'designed' to 'cute merchandised'",
+              "frame": "design-oriented to product/aesthetic-oriented",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "focus on connection",
+              "post": "transform personality theory into a shared experience",
+              "continuity": "shared-experience/connection neighborhood",
+              "scope": "PRE narrower interpersonal bond, POST shared collective experience",
+              "frame": "relational -> experiential",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "self-expression",
+              "post": "celebrates individuality",
+              "continuity": "self-expression / individuality neighborhood",
+              "scope": "similar",
+              "frame": "expressive act -> celebratory recognition of individual identity",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "uniting individuals",
+              "post": "uniting enthusiasts",
+              "continuity": "audience-orientation neighborhood; population scope",
+              "scope": "POST restricts individuals to enthusiasts",
+              "frame": "same",
+              "stretch": "mild",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "shared passion",
+              "post": "common passion",
+              "continuity": "near-synonym",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "building a community (CRM)",
+              "post": "creating a community-driven space (similar to CRM)",
+              "continuity": "both about community construction, both reference CRM",
+              "scope": "similar",
+              "frame": "building -> creating a community-driven space",
+              "stretch": "mild",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "MBTI-themed brand",
+              "post": "MBTI-themed brand",
+              "basis": "identical identifier retained"
+            },
+            {
+              "pre": "brings together people of all personalities, lifestyles, and backgrounds",
+              "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+              "basis": "near-identical phrasing preserved"
+            },
+            {
+              "pre": "designed physical products",
+              "post": "cute physical merchandised products",
+              "basis": "physical-goods frame retained; descriptors added"
+            },
+            {
+              "pre": "focus on connection",
+              "post": "transform personality theory into a shared experience",
+              "basis": "shared social/collective-coming-together territory; relational -> experiential frame shift"
+            },
+            {
+              "pre": "self-expression",
+              "post": "celebrates individuality",
+              "basis": "identity/self-expression neighborhood; expressive-act -> celebratory-recognition frame shift"
+            },
+            {
+              "pre": "uniting individuals",
+              "post": "uniting enthusiasts",
+              "basis": "enthusiasts subset of individuals (scope restriction)"
+            },
+            {
+              "pre": "shared passion",
+              "post": "common passion",
+              "basis": "near-synonym"
+            },
+            {
+              "pre": "building a community (CRM)",
+              "post": "creating a community-driven space (similar to CRM)",
+              "basis": "community-construction frame retained; modifier and CRM-reference softening added"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "MBTI-themed brand",
+              "post": "MBTI-themed brand",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical identifier; pass 1 correct"
+            },
+            {
+              "type": "confirm",
+              "pre": "brings together people of all personalities, lifestyles, and backgrounds",
+              "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "near-identical phrasing; pass 1 correct"
+            },
+            {
+              "type": "confirm",
+              "pre": "designed physical products",
+              "post": "cute physical merchandised products",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "same underlying category (physical products); only descriptors added ('cute', 'merchandised'). Per BC-P001 this is descriptor addition, not a frame shift. Confirm Elaborated."
+            },
+            {
+              "type": "confirm",
+              "pre": "focus on connection",
+              "post": "transform personality theory into a shared experience",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "subsumption test fails ('shared experience is a specific way of being connection' = false). Both share social/collective-coming-together territory but the organizing frame shifts (relational -> experiential, and POST introduces 'personality theory' as the object). Confirm Reframed."
+            },
+            {
+              "type": "confirm",
+              "pre": "self-expression",
+              "post": "celebrates individuality",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "identity/self-expression neighborhood is nameable specifically (individual distinctness via expression). Subsumption test: 'celebrating individuality is a specific way of being self-expression' is arguable but PRE is already substantive (not a generic filler), so the two read as sibling angles on identity territory. Confirm Reframed; Narrowed would over-correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "uniting individuals",
+              "post": "uniting enthusiasts",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "enthusiasts are a proper subset of individuals; scope restriction holds. Per SCOPE-RESTRICTION rule this is Narrowed regardless of surrounding wording. Confirm."
+            },
+            {
+              "type": "confirm",
+              "pre": "shared passion",
+              "post": "common passion",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "near-synonym; pass 1 correct"
+            },
+            {
+              "type": "confirm",
+              "pre": "building a community (CRM)",
+              "post": "creating a community-driven space (similar to CRM)",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "community-construction frame retained; POST adds modifier 'community-driven space' and only softens the CRM reference. No frame shift. Confirm Elaborated."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti5cuqm7n7kgp5ocnh",
+            "code": "Elaborated",
+            "preEvidence": "designed physical products",
+            "postEvidence": "cute physical merchandised products",
+            "rationale": "Same category retained. POST adds aesthetic qualifier ('cute') and shifts descriptor ('designed' -> 'merchandised') but the underlying frame (physical branded goods) is intact. Per BC-P001, descriptor addition within the same frame is Elaborated, not Reframed.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti5cuqmqt37k25ox2",
+            "code": "Reframed",
+            "preEvidence": "focus on connection",
+            "postEvidence": "transform personality theory into a shared experience",
+            "rationale": "Both occupy a shared social/collective-coming-together territory. PRE frames the vision relationally (interpersonal connection); POST reframes it experientially and makes personality theory the explicit object of the shared experience. Subsumption test fails; the organizing frame shifts.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti5cuqm1z18c69azwji",
+            "code": "Reframed",
+            "preEvidence": "self-expression",
+            "postEvidence": "celebrates individuality",
+            "rationale": "Identity/self-expression neighborhood. PRE frames it as an act (expression); POST reframes it as celebratory recognition of individual distinctness. No subsumption; sibling angles on identity territory. PRE is substantive, so Narrowed is not warranted.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti5cuqmgdsenxh67tr",
+            "code": "Narrowed",
+            "preEvidence": "uniting individuals",
+            "postEvidence": "uniting enthusiasts",
+            "rationale": "Enthusiasts are a proper subset of individuals. Scope restriction holds regardless of surrounding phrasing. 'Uniting enthusiasts is a specific way of uniting individuals' = TRUE.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti5cuqmh9sfhkf53xf",
+            "code": "Elaborated",
+            "preEvidence": "building a community (CRM)",
+            "postEvidence": "creating a community-driven space (similar to CRM)",
+            "rationale": "Community-construction frame is retained. POST adds the modifier 'community-driven space' and softens the CRM reference from declarative to aspirational ('similar to CRM'). No frame shift; only modifiers and hedging added.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "boundary_case_narrow_vs_reframe"
+          ],
+          "coderNotes": "Both BC-P002 (relational -> experiential) and BC-002 (sibling concepts) are relevant. Two pairs (connection->shared experience; self-expression->celebrates individuality) required close Tier 1 vs Tier 2 discrimination and are recorded as Reframed with Narrowed as alternative_considered. The 'building a community (CRM)' -> 'creating a community-driven space (similar to CRM)' pair sits at the Elaborated/Reframed boundary; coded as Elaborated because the community construction frame persists. Critic applied 8 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "Customer-Centricity & Emotion-Appealing"
+      },
+      "post": {
+        "answer": "Authentic & Theory-Based"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "Both responses are two-descriptor sets of equal length and equivalent surface structure (two descriptors joined by '&'). No addition or removal at the phrase/clause/sentence level; the change is purely semantic at the descriptor level.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Customer-Centricity",
+            "Emotion-Appealing"
+          ],
+          "postConcepts": [
+            "Authentic",
+            "Theory-Based"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Customer-Centricity",
+              "post": "Authentic",
+              "continuity": "weak — audience-orientation vs affective register are different conceptual domains",
+              "scope": "no clear subset relation",
+              "frame": "different frames entirely",
+              "stretch": "implausible; would require a forced pairing across different domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Customer-Centricity",
+              "post": "Theory-Based",
+              "continuity": "weak — audience-orientation vs epistemic grounding are different conceptual domains",
+              "scope": "no clear subset relation",
+              "frame": "different frames entirely",
+              "stretch": "implausible; cannot defend lineage across these domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Emotion-Appealing",
+              "post": "Authentic",
+              "continuity": "strong — both concern how the brand is affectively experienced/received",
+              "scope": "Authentic is a specific register of emotional appeal; PRE is generic",
+              "frame": "generic affect frame → specific affective-authenticity frame",
+              "stretch": "moderate but defensible; subsumption test passes",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Emotion-Appealing",
+              "post": "Theory-Based",
+              "continuity": "weak — affect vs epistemic grounding are different domains",
+              "scope": "no clear subset relation",
+              "frame": "different frames entirely",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Customer-Centricity",
+              "post": "Authentic",
+              "reason": "Different conceptual domains (audience-orientation vs affective register); implausible match — IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+            },
+            {
+              "pre": "Customer-Centricity",
+              "post": "Theory-Based",
+              "reason": "Different conceptual domains (audience-orientation vs epistemic grounding); implausible match — IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+            },
+            {
+              "pre": "Emotion-Appealing",
+              "post": "Theory-Based",
+              "reason": "Different conceptual domains (affect vs epistemology); implausible match"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Emotion-Appealing",
+              "post": "Authentic",
+              "basis": "Shared affect/brand-experience neighborhood; subsumption holds (Authentic is a specific way of being Emotion-Appealing); PRE is generic filler descriptor consistent with Narrowed."
+            }
+          ],
+          "unmatchedPre": [
+            "Customer-Centricity"
+          ],
+          "unmatchedPost": [
+            "Theory-Based"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Customer-Centricity",
+              "direction": "removed",
+              "nearestCounterpart": "Theory-Based",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Full POST search performed. Nearest counterpart is Theory-Based; audience-orientation and epistemic grounding occupy different conceptual domains with no shared semantic neighborhood. Subsumption fails, no shared territory, no elaboration or broadening defensible across these domains. Genuine lineage failure — Removed stands."
+            },
+            {
+              "concept": "Theory-Based",
+              "direction": "new",
+              "nearestCounterpart": "Customer-Centricity",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Full PRE search performed. Nearest counterpart is Customer-Centricity; epistemic grounding and audience-orientation are different conceptual domains. None of the four transformation codes defensible. Genuine lineage failure — New stands."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Emotion-Appealing",
+              "post": "Authentic",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption test passes ('Authentic is a specific way of being Emotion-Appealing'); shared affect/brand-experience neighborhood; PRE is generic filler consistent with Narrowed. Pass-1 is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Customer-Centricity has no POST successor in a shared neighborhood; Theory-Based occupies a different conceptual domain (epistemic grounding vs audience-orientation). Lineage search exhausted."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Theory-Based has no PRE antecedent in a shared neighborhood; nearest counterpart Customer-Centricity is a different conceptual domain. Lineage search exhausted."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti5e5e1hl40a8eeiau",
+            "code": "Narrowed",
+            "preEvidence": "Emotion-Appealing",
+            "postEvidence": "Authentic",
+            "rationale": "Subsumption test passes: 'Authentic is a specific way of being Emotion-Appealing' is TRUE. Both occupy the affect/brand-experience neighborhood; Emotion-Appealing is a generic filler descriptor and Authentic is a specific affective register, so POST concretizes the same vague idea into a specific mode. Tier 1 of the transformation ladder holds.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti5e5e26ftuwhkhrtu",
+            "code": "Removed",
+            "preEvidence": "Customer-Centricity",
+            "postEvidence": null,
+            "rationale": "Customer-Centricity has no successor in POST sharing a semantic neighborhood. Nearest counterpart Theory-Based occupies a different conceptual domain (audience-orientation vs epistemic grounding); no tier of the transformation ladder is defensible across these domains.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti5e5e26fhi9njh5f",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Theory-Based",
+            "rationale": "Theory-Based has no antecedent in PRE sharing a semantic neighborhood. Nearest counterpart Customer-Centricity is a different conceptual domain; no tier of the transformation ladder is defensible across these domains.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Worked reasoning pattern for Q1c Core Values from item-guidance.md is directly applicable here. Customer-Centricity vs Theory-Based is the documented different-domains case resolving to Removed + New. Emotion-Appealing vs Authentic is the documented generic-PRE case resolving to Narrowed (BC-001). Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Female students aged 18-25 who are interested in connecting with friends through personality/psychology themed-ideas"
+      },
+      "post": {
+        "answer": "Primary Audiences:\n1️⃣ Young women (18-25) who are passionate about personality psychology and self-expression, seeking fun and engaging ways to connect with friends through MBTI-themed experiences. Ideally, they enjoy sharing, discussing, and bonding over personality insights - making them natural advocates for word-of-mouth marketing.\n\n💡 Overall Focus: The brand appeals to individuals who love psychology, personality exploration, and self-expression - creating a community-driven experience through thoughtfully designed physical products that spark conversations and deepen connections."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The post-response expands from a single descriptive sentence to a multi-part structured response including a primary audience definition with multiple qualifiers plus an 'Overall Focus' summary that introduces new dimensions (psychology exploration, self-expression, community-driven experience, physical products, conversation-sparking). Multiple new clauses and explanatory passages have been added, going well beyond stylistic rephrasing.",
+        "semanticChanges": [
+          {
+            "instanceId": "mthypnx9htdft2ow17g",
+            "code": "Elaborated",
+            "preEvidence": "interested in connecting with friends through personality/psychology themed-ideas",
+            "postEvidence": "seeking fun and engaging ways to connect with friends through MBTI-themed experiences",
+            "rationale": "The post version specifies 'MBTI-themed' (a particular branch of personality psychology), adds 'fun and engaging' descriptors, and elaborates the connection mode. The conceptual frame — connecting with friends via personality-themed content — remains intact; detail has been added within the same frame."
+          },
+          {
+            "instanceId": "mthypnx94bm9witw179",
+            "code": "Expanded",
+            "preEvidence": "Female students aged 18-25",
+            "postEvidence": "Young women (18-25) who are passionate about personality psychology and self-expression",
+            "rationale": "The post version retains the female/18-25 antecedent and broadens it by adding 'passionate about personality psychology and self-expression' — qualities beyond the demographic baseline. The pre-antecedent is recognizably broadened, not replaced. See EXPAND-vs-NEW: a seed ('female students aged 18-25') exists in pre."
+          },
+          {
+            "instanceId": "mthypnx9krykaz6kb9",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "making them natural advocates for word-of-mouth marketing",
+            "rationale": "The marketing-channel framing (word-of-mouth advocacy) has no antecedent in the pre-response. No pre element addresses how these customers function for the brand's marketing. See EXPAND-vs-NEW: no reasonable seed exists in pre."
+          },
+          {
+            "instanceId": "mthypnx9r6ht5ifvxph",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "creating a community-driven experience through thoughtfully designed physical products that spark conversations and deepen connections",
+            "rationale": "The 'Overall Focus' summary introduces multiple new ideas — community-driven experience, physical products as the medium, products sparking conversations, deepening connections — none of which appear in the pre-response. This is a new conceptual layer about the brand mechanism, not a broadening of an existing pre element."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_expand_vs_new"
+          ],
+          "coderNotes": "Two New events captured separately: (1) word-of-mouth marketing framing and (2) the 'Overall Focus' community/physical-products layer. The Expand vs New boundary was applied: the demographic expansion kept an antecedent ('Female students aged 18-25'), but the marketing-mechanism and physical-product-community framings had no pre-seed. The post-response also shifts from describing customers alone to describing both customers and brand mechanism, but only customer-focused changes were coded as semantic events per the item's scope (Target Customer Identification). No learner-agency events because the artifact contains no explicit self-reference or metacognitive statement."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "MBTI under the corporate setting"
+      },
+      "post": {
+        "answer": "Secondary Audiences:\n2️⃣ Corporate Professionals & Team-Oriented Individuals – Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools.\n\n3️⃣ Anime & Fandom Enthusiasts – Fans of anime, gaming, and internet culture who actively engage in personality discussions, MBTI character typing, and fandom-driven merchandise. They seek aesthetic, collectible, and shareable products that reflect their identity."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The post-response contains substantially more content than the pre-response. The pre is a single short phrase identifying a niche; the post enumerates multiple secondary audience segments with detailed descriptors, motivations, and product preferences. The overall scope and depth of the response is meaningfully larger.",
+        "semanticChanges": [
+          {
+            "instanceId": "mthypusx7tzxaisc8g5",
+            "code": "Elaborated",
+            "preEvidence": "MBTI under the corporate setting",
+            "postEvidence": "Corporate Professionals & Team-Oriented Individuals – Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools.",
+            "rationale": "The pre-response identifies a corporate MBTI niche; the post-response expands this niche with attributes about the people (young professionals, workplace teams), their uses (collaboration, self-awareness, productivity), and the product category (stylish MBTI-inspired office accessories, team-building tools). The core concept (MBTI for corporate users) persists and detail is added within the same frame."
+          },
+          {
+            "instanceId": "mthypusxsiy2p0ns4v",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Anime & Fandom Enthusiasts – Fans of anime, gaming, and internet culture who actively engage in personality discussions, MBTI character typing, and fandom-driven merchandise. They seek aesthetic, collectible, and shareable products that reflect their identity.",
+            "rationale": "This audience segment has no antecedent in the pre-response. The pre-response only mentions the corporate niche; the anime/fandom enthusiast segment is introduced for the first time without any pre-existing seed."
+          },
+          {
+            "instanceId": "mthypusxipahnwq3g1",
+            "code": "Expanded",
+            "preEvidence": "MBTI under the corporate setting",
+            "postEvidence": "Secondary Audiences: (enumerated as segments 2 and 3)",
+            "rationale": "The pre identifies one niche; the post frames niches as multiple secondary audience segments (numbered 2 and 3), implying a broader audience architecture exists beyond what is shown. The original corporate seed has been broadened into a multi-segment audience structure."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_expand_vs_new"
+          ],
+          "coderNotes": "The 'Secondary Audiences' framing in post (numbered 2 and 3) suggests additional segments not shown; the corporate elaboration has a clear antecedent (Expanded/Elaborated dual-coding is permitted as distinct events), but whether the anime/fandom segment is genuinely New vs a broadened antecedent of the pre is borderline. Lean New per EXPAND-vs-NEW default. The numbered secondary-audience structure in post also introduces a structural reorganization not fully captured at event level."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)\nCommerce-Based Platforms: Amazon + EBay"
+      },
+      "post": {
+        "answer": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)\nCommerce-Based Platforms: Amazon + Ebay"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The pre and post responses are identical in propositional content. The only difference is capitalization of 'EBay' to 'Ebay' in the post-response, which is a purely stylistic/orthographic change with no semantic or structural implication.",
+        "semanticChanges": [],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "The sole difference between pre and post is capitalization ('EBay' → 'Ebay'). Per the STYLE-vs-SEMANTIC rule (STABLE), this is a stylistic rewrite and is correctly excluded from semantic events. Structural Development is No Change."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "50% product reviews, 30% influencer reviews, 20% product knowledge"
+      },
+      "post": {
+        "answer": "50% product reviews, 30% influencer reviews, 20% product knowledge"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The pre-response and post-response are identical in content, structure, and wording. Both contain the same three percentage allocations for content types.",
+        "semanticChanges": [],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "Pre and post responses are character-for-character identical. No semantic change events detected. No learner agency evidence present."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "A MBTI-themed merch (e.g. plushes) - though, I am still trying to figure out the legal issues. Through some research, I have found that the MBTI demographic is very active in the United States, but there is not many physical products that they can buy."
+      },
+      "post": {
+        "answer": "I am developing a MBTI-themed merchandise (e.g., plushies, apparel, and collectibles) while navigating the legal considerations surrounding MBTI trademarks and branding. Through research, I've found that MBTI has a highly engaged fanbase in the U.S., yet there is a noticeable lack of high-quality, personality-driven physical products available for consumers. This gap presents a unique opportunity to create tangible, aesthetically appealing, and shareable merchandise that resonates with MBTI enthusiasts!"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The post-response expands substantially compared to the pre-response. New product categories (apparel, collectibles) are enumerated, legal navigation is framed as an ongoing development activity, the gap analysis is elaborated with descriptive qualifiers ('high-quality, personality-driven'), and a new concluding sentence identifies a market opportunity and product positioning (tangible, aesthetically appealing, shareable merchandise resonating with enthusiasts). Multiple new clauses and an explanatory passage have been added.",
+        "semanticChanges": [
+          {
+            "instanceId": "mthyq6pmlwyilzdvr3m",
+            "code": "Elaborated",
+            "preEvidence": "A MBTI-themed merch (e.g. plushes)",
+            "postEvidence": "MBTI-themed merchandise (e.g., plushies, apparel, and collectibles)",
+            "rationale": "The product offerings concept is retained and made more specific by enumerating additional product categories (apparel, collectibles) alongside the original (plushies). The core concept of MBTI-themed merch persists; this is added detail within the same frame."
+          },
+          {
+            "instanceId": "mthyq6pmljvkfcg2jmi",
+            "code": "Elaborated",
+            "preEvidence": "I am still trying to figure out the legal issues",
+            "postEvidence": "while navigating the legal considerations surrounding MBTI trademarks and branding",
+            "rationale": "The legal-issues concept is retained and refined with more specificity (trademarks and branding) and reformulated as an ongoing activity (navigating) rather than an unresolved state. Same conceptual frame, added detail."
+          },
+          {
+            "instanceId": "mthyq6pmn7pocdvxkha",
+            "code": "Elaborated",
+            "preEvidence": "there is not many physical products that they can buy",
+            "postEvidence": "there is a noticeable lack of high-quality, personality-driven physical products available for consumers",
+            "rationale": "The market-gap concept is retained and elaborated with descriptive qualifiers (high-quality, personality-driven) and rephrased with more precision. The frame of a supply gap persists; descriptive detail is added."
+          },
+          {
+            "instanceId": "mthyq6pmbx3qx9lccg",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "This gap presents a unique opportunity to create tangible, aesthetically appealing, and shareable merchandise that resonates with MBTI enthusiasts!",
+            "rationale": "The closing sentence introduces an opportunity-framing and product-positioning claim that has no meaningful antecedent in the pre-response. The pre identifies a gap but does not articulate an opportunity or product vision statement. Applying EXPAND-vs-NEW: the pre gap mention is a factual observation, not a seed for this forward-looking strategic framing."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_expand_vs_new"
+          ],
+          "coderNotes": "Flagged EXPAND-vs-NEW uncertainty on the final sentence: the pre mentions the gap in physical products, which could be read as a loose antecedent to the post's opportunity-framing statement. However, the post introduces a new strategic/positioning articulation (unique opportunity, tangible/aesthetically appealing/shareable, resonates with enthusiasts) that goes beyond expansion of the gap observation. Resolved as New per the principle that forward-looking positioning language requires interpretive effort to tie to the pre's factual gap statement. Structural threshold judgment (Significant vs Moderate Addition) leans Significant because the post adds multiple distinct new elements (product categories, opportunity framing, concluding sentence), but the boundary is not stark; flagging for calibration review."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 4,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 4
+        }
+      },
+      "post": {
+        "answer": null
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-11",
+      "questionId": "Pre-Survey 2 / Post-Survey 2",
+      "label": "Personal Brand Confidence",
+      "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating a small personal brand on social media at the moment?",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-12",
+      "questionId": "Pre-Survey 4 / Post-Survey 3",
+      "label": "Independent Brand Creation Confidence",
+      "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating this brand all by yourself at the moment?",
+      "pre": {
+        "answer": 9
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ],
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "I have an considerable amount of exposure to branding and marketing (being a senior marketing major at NYU Shanghai & also completing internships in tech + FMCG sectors)."
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 5
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Frequent user: 5-10 times per week"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "No, I have independently learned as Chatgpt and other AI models have emerged."
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 7
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "I believe AI has been incredibly helpful in expanding my thinking by considering multiple perspectives and potential untapped audiences. When you have a broad idea, AI can help narrow it down and provide more concrete support. However, since my idea was already well thought-out, I wanted to avoid broad questions. Instead, I focused on asking secondary questions that would lead to more specific and targeted answers, as I had originally intended.\n\nI think that it is also helpful to take breaks - and come-back to AI when you have new perspectives in your idea. If you continue to insert prompts into AI for a consecutive period -that is when answers start to become obsolete.\n\nTherefore, I believe that I knew this fact, and deliberately asked the AI very targeted questions - and re-adjusted it when it gave me questions that were off-track. I think it definitely helped me positively in refining my brand concept."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "While AI models like (Chatgpt 4o and Chatgpt-4 Mini) can provide a wide variety of answers, this diversity can sometimes be overwhelming and confusing - especially when responses become saturated or inconsistent. This can make it difficult for users to find clear, specific answers.\n\nFor me, the key challenge is personalizing AI prompts to ensure that the responses are more tailored to my needs and context."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 8
+      }
+    ]
+  }
+}

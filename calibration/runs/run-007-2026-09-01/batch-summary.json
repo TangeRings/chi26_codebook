@@ -1,0 +1,33 @@
+{
+  "runId": "run-007-2026-09-01",
+  "endpoint": "http://localhost:3001/api/ai-code-item",
+  "attempted": 2,
+  "succeeded": 2,
+  "failed": {},
+  "skipped": [
+    "jason:comp-1a",
+    "jason:comp-1b",
+    "jason:comp-1c",
+    "jason:comp-3",
+    "jason:comp-5",
+    "jason:comp-6",
+    "jason:comp-7",
+    "jason:comp-8",
+    "aliyah:comp-1a",
+    "aliyah:comp-1b",
+    "aliyah:comp-1c",
+    "aliyah:comp-5",
+    "aliyah:comp-6",
+    "aliyah:comp-7",
+    "aliyah:comp-8",
+    "sophia:comp-1a",
+    "sophia:comp-1c",
+    "sophia:comp-3",
+    "sophia:comp-5",
+    "sophia:comp-6",
+    "sophia:comp-7",
+    "sophia:comp-8"
+  ],
+  "elapsedSeconds": 115.5,
+  "itemsWritten": 2
+}

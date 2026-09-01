@@ -1,0 +1,276 @@
+{
+  "coding_unit": {
+    "student_id": "aliyah",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Instagram",
+      "TikTok",
+      "Amazon",
+      "brand website with scent consultation"
+    ],
+    "post_concepts": [
+      "TikTok",
+      "Instagram",
+      "brand website",
+      "Amazon"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Instagram",
+        "post": "TikTok",
+        "continuity": "platform name (different)",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "weak - these are simply two different platforms",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Instagram",
+        "continuity": "identical platform",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none - exact match",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "brand website",
+        "continuity": "different platform category (content vs commerce)",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "weak",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Amazon",
+        "continuity": "platform-to-platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "weak",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "TikTok",
+        "continuity": "identical platform",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none - exact match",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "Instagram",
+        "continuity": "platform-to-platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "weak",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "brand website",
+        "continuity": "different platform type",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "weak",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "Amazon",
+        "continuity": "platform-to-platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "weak",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Amazon",
+        "post": "TikTok",
+        "continuity": "different platform category",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "weak",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Amazon",
+        "post": "Instagram",
+        "continuity": "different platform category",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "weak",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Amazon",
+        "post": "brand website",
+        "continuity": "both commerce/sales channels",
+        "scope": "similar domain",
+        "frame": "similar",
+        "stretch": "weak",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Amazon",
+        "post": "Amazon",
+        "continuity": "identical platform",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none - exact match",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "TikTok",
+        "continuity": "different platform category",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "Instagram",
+        "continuity": "different platform category",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "brand website",
+        "continuity": "same platform core; scent consultation condition dropped",
+        "scope": "POST loses the consultation qualifier",
+        "frame": "platform distribution frame",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "Amazon",
+        "continuity": "different platforms",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "weak",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Instagram",
+        "post": "TikTok",
+        "reason": "two distinct platforms; positional proximity is not semantic lineage"
+      },
+      {
+        "pre": "Instagram",
+        "post": "brand website",
+        "reason": "different platform categories"
+      },
+      {
+        "pre": "TikTok",
+        "post": "Instagram",
+        "reason": "platform swap, not semantic shift"
+      },
+      {
+        "pre": "TikTok",
+        "post": "brand website",
+        "reason": "different platform types"
+      },
+      {
+        "pre": "Amazon",
+        "post": "brand website",
+        "reason": "Amazon is third-party marketplace; website is owned. Despite both being sales channels, the lineage as a transformation is weak."
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "TikTok",
+        "reason": "implausible domain match"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "Instagram",
+        "reason": "implausible domain match"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "Amazon",
+        "reason": "different platforms"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Instagram",
+        "post": "Instagram",
+        "basis": "identical platform name"
+      },
+      {
+        "pre": "TikTok",
+        "post": "TikTok",
+        "basis": "identical platform name"
+      },
+      {
+        "pre": "Amazon",
+        "post": "Amazon",
+        "basis": "identical platform name"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "brand website",
+        "basis": "same platform; consultative qualifier dropped"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [
+      "Platform order changed: PRE Instagram, TikTok, Amazon / POST TikTok, Instagram, brand website, Amazon. The order is different but the same platform units are present (with the consultation qualifier dropped). Per ORDER-vs-SEMANTIC, reordering alone is not a semantic change."
+    ],
+    "new_removed_recheck": [
+      {
+        "concept": "brand website with scent consultation",
+        "direction": "removed",
+        "nearest_counterpart": "brand website",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "The PRE phrase 'brand website' maps semantically to the POST 'brand website'; the scent-consultation qualifier is the only delta. This is Narrowing by losing the conditional/specialized qualifier (the POST is a general version of the conditional PRE). Converted from Removed to a Narrowed event on the brand-website pair."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Reduction",
+    "rationale": "The POST retains the same three core platforms (Instagram, TikTok, Amazon) plus the brand website but drops the scent-consultation qualifier and the explanatory clause 'Mainly sold on the brand's website if they want a scent consultation.' One meaningful clause/sentence has been removed."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Mainly sold on the brand's website if they want a scent consultation",
+      "post_evidence": "brand website",
+      "rationale": "The PRE frames the website as the sales channel specifically for customers who want a scent consultation - a conditional/qualified usage. The POST drops the qualifier, presenting the website as a general branding platform alongside the others. The POST is a broader (less condition-restricted) version of the PRE, i.e., the conditional scope has been relaxed: this is a Narrowing reversal in the wide-to-narrow direction - the PRE is the narrower formulation and the POST is its generalisation. Per the ladder, this sits closer to Narrowed (scope restriction change on the same underlying brand-website concept): PRE is a specific way of describing the website (consultation-purposed), POST is the general platform. Alternative considered: Reframed (condition-restricted commerce channel vs general branding platform could be seen as sibling frames), but both refer to the same website and the only delta is qualifier scope, so Narrowed is better supported. Reclassified from provisional Removed after MANDATORY-NEW-REMOVED-RECHECK.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "possible_missed_event"
+    ],
+    "coder_notes": "The Narrowed classification reflects that the PRE phrase was the more specific (conditional) version and the POST is the more general version; this is technically Narrowing in the abstract-attribute sense but reverses the usual PRE-is-broad / POST-is-narrow pattern. Confidence is medium because this reversal-of-direction is unusual and could alternatively be read as a simple qualifier drop (Elaborated-style) or a frame shift (Reframed). No learner-agency text is present."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}

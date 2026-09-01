@@ -1,0 +1,288 @@
+{
+  "_seedVersion": "upload-1788188051510",
+  "name": "Julia",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "Intro to Marketing (NYU Shanghai), Business of Entertainment, Media & Technology minor (NYU New York), Marketing Intern at PlayHybrid (tech startup)"
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 4
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 7
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 7
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 5
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Occasional user: 2-4 times per week"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "No"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 6
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "Using AI helped refine my brand concept by expanding my vocabulary and articulating my ideas more clearly, ensuring my messaging aligns with my vision. It also helped elaborate on specific aspects, like positioning within mid-tier luxury, making the brand feel more intentional and structured."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "It often became too wordy, or restructured the formatting."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 8
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 8
+      }
+    ]
+  },
+  "studentId": "julia",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "The brand embodies understated elegance, minimalist, timeless, and refined luxury."
+      },
+      "post": {
+        "answer": "The brand embodies understated elegance, minimalist design, and refined luxury, drawing inspiration from late 1900s fine jewelry. Every piece is crafted with high-quality materials—sterling silver and high-micron gold vermeil—not costume jewelry. It is timeless yet modern, offering sophisticated pieces that elevate everyday style with ease."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "To redefine accessible luxury by offering demi-fine jewelry that blends simplicity and sophistication. The goal is to set a new standard for sustainability and quality in mid-tier luxury, with potential expansion into sustainable fashion."
+      },
+      "post": {
+        "answer": "To redefine mid-tier luxury jewelry by offering heirloom-quality pieces that bridge affordability and exclusivity. The brand is designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs. Future expansion includes select boutique placements and potential growth into sustainable fashion."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "The brand will prioritize transparency in materials, ethical sourcing, responsible production, quality craftsmanship and timeless design to create pieces that endure beyond trends."
+      },
+      "post": {
+        "answer": "The brand will prioritize transparency in materials, ethical sourcing, responsible production, quality craftsmanship and timeless design to create pieces that endure beyond trends."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Modern, career-driven women aged 24-38 (120k+ a year) who appreciate minimalist luxury and invest in timeless, high-quality pieces over quantity of pieces, building a collection. (They prioritize ethical craftsmanship, follow brands like COS and The Row, and seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication.)"
+      },
+      "post": {
+        "answer": "High-achieving, career-driven, urban women aged 24-38, earning $120K+ annually, who appreciate minimalist luxury and invest in timeless, high-quality pieces to build a refined jewelry collection. They prioritize craftsmanship and longevity over trends, choosing understated elegance over flashy statement pieces. They follow brands like COS, The Row, and Toteme, value quiet luxury, and seek jewelry that seamlessly integrates into their wardrobe. While they appreciate ethical production, their primary focus is on quality, design, and exclusivity."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "sustainability, quiet luxury, and artistic minimalism?"
+      },
+      "post": {
+        "answer": "Brand conscious but practical?"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "nstagram, TikTok, and Pinterest for branding and engagement. SSENSE for direct sales and luxury positioning."
+      },
+      "post": {
+        "answer": "nstagram, TikTok, and Pinterest for branding and engagement. SSENSE for direct sales and luxury positioning."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "50% styling and product showcases, 30% behind-the-scenes (ethical production, design process, brand story), 20% influencer collaborations and UGC."
+      },
+      "post": {
+        "answer": "50% styling and product showcases, 30% behind-the-scenes (ethical production, design process, brand story), 20% influencer collaborations and UGC. Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "14k to 20k Gold and 925 Sterling Silver Demi-fine vermeil jewelry"
+      },
+      "post": {
+        "answer": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ]
+}

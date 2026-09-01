@@ -1,0 +1,73 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "Community-Building",
+      "post": "Relatable",
+      "from_code": "Reframed",
+      "to_code": "Narrowed",
+      "reason": "Relatable is a more specific/constrained manifestation of the broader social-connection aim of Community-Building (a quality that enables connection vs. the broader act of constructing bonds). Narrowed is better-supported than Reframed per the no-default-Reframed rule; Reframed lacks a clear organizing-frame shift, just a scope restriction from collective structure to audience resonance."
+    },
+    {
+      "type": "recode",
+      "pre": "Lifestyle-Oriented",
+      "post": "Expressive",
+      "from_code": "Reframed",
+      "to_code": "Narrowed",
+      "reason": "Expressive is a more specific manifestation of the identity/self-expression territory held by Lifestyle-Oriented (specific identity-output vs. broad aspirational positioning). Narrowed is preferred over Reframed; no clear organizing-frame shift, just a restriction from holistic positioning to one specific output dimension."
+    },
+    {
+      "type": "confirm",
+      "pre": "Fun",
+      "post": "Interactive",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "NARROW-ABSTRACT clearly applies; Interactive is a more specific participatory engagement mode within the broader experiential/enjoyment territory of Fun. Shared engagement neighborhood. Pair is protected."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Fun",
+      "post": "Interactive",
+      "basis": "Shared engagement/experience neighborhood; Interactive concretizes vague Fun into a specific participatory mode (NARROW-ABSTRACT)"
+    },
+    {
+      "pre": "Community-Building",
+      "post": "Relatable",
+      "basis": "Shared social-connection neighborhood; Relatable is a more specific/constrained manifestation (audience resonance/identifiability) of the broader community-building aim"
+    },
+    {
+      "pre": "Lifestyle-Oriented",
+      "post": "Expressive",
+      "basis": "Shared identity/self-expression neighborhood; Expressive is a more specific manifestation (identity output) of the broader aspirational lifestyle positioning"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Fun",
+      "post_evidence": "Interactive",
+      "rationale": "Fun is a vague experiential/enjoyment descriptor; Interactive concretizes it into a specific participatory engagement mode. NARROW-ABSTRACT applies: POST is a more specific manifestation of the broader PRE attribute. Shared engagement/experience neighborhood (protected).",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Community-Building",
+      "post_evidence": "Relatable",
+      "rationale": "Community-Building names the broader aim of fostering social bonds/connection; Relatable is a more specific/constrained quality (being identifiable and resonant to audiences) that operationalizes that aim. Scope restriction within the social-connection neighborhood rather than a frame shift.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Lifestyle-Oriented",
+      "post_evidence": "Expressive",
+      "rationale": "Lifestyle-Oriented names the broad aspirational positioning (a way of living the audience aspires to); Expressive narrows to one specific output dimension (identity/self-expression). Same identity/expression neighborhood persists; POST is a more specific manifestation of PRE.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

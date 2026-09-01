@@ -1,0 +1,61 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "25% behind the scenes",
+      "post": "25% behind the scenes",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical text between PRE and POST; no transformation event is needed because the student did not change the idea."
+    },
+    {
+      "type": "confirm",
+      "pre": "50% idea to product and the story behind one order",
+      "post": "50% idea to product and the story behind one order",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical text between PRE and POST; no transformation event is needed."
+    },
+    {
+      "type": "confirm",
+      "pre": "15% product reviews",
+      "post": "15% product reviews",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical text between PRE and POST; no transformation event is needed."
+    },
+    {
+      "type": "confirm",
+      "pre": "5% tutorials for those interested in the science behind a perfume",
+      "post": "5% tutorials for those interested in the science behind a perfume",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical text between PRE and POST; no transformation event is needed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "25% behind the scenes",
+      "post": "25% behind the scenes",
+      "basis": "identical text"
+    },
+    {
+      "pre": "50% idea to product and the story behind one order",
+      "post": "50% idea to product and the story behind one order",
+      "basis": "identical text"
+    },
+    {
+      "pre": "15% product reviews",
+      "post": "15% product reviews",
+      "basis": "identical text"
+    },
+    {
+      "pre": "5% tutorials for those interested in the science behind a perfume",
+      "post": "5% tutorials for those interested in the science behind a perfume",
+      "basis": "identical text"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

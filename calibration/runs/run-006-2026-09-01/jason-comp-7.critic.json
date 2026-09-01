@@ -1,0 +1,48 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "50% product reviews",
+      "post": "50% product reviews",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical wording and proportion; no transformation."
+    },
+    {
+      "type": "confirm",
+      "pre": "30% influencer reviews",
+      "post": "30% influencer reviews",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical wording and proportion; no transformation."
+    },
+    {
+      "type": "confirm",
+      "pre": "20% product knowledge",
+      "post": "20% product knowledge",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical wording and proportion; no transformation."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "50% product reviews",
+      "post": "50% product reviews",
+      "basis": "identical wording and proportion"
+    },
+    {
+      "pre": "30% influencer reviews",
+      "post": "30% influencer reviews",
+      "basis": "identical wording and proportion"
+    },
+    {
+      "pre": "20% product knowledge",
+      "post": "20% product knowledge",
+      "basis": "identical wording and proportion"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

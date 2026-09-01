@@ -41,7 +41,7 @@ export function AgencyCodeSelector({ codes, onChange }: AgencyCodeSelectorProps)
   const handleAddCode = (codeName: string) => {
     const trimmed = codeName.trim();
     if (!trimmed) return;
-    onChange([...codes, { instanceId: makeId(), code: trimmed, reason: "" }]);
+    onChange([...codes, { instanceId: makeId(), code: trimmed }]);
     setIsOpen(false);
     setShowCustomInput(false);
     setCustomInput("");
@@ -114,18 +114,6 @@ export function AgencyCodeSelector({ codes, onChange }: AgencyCodeSelectorProps)
                 />
               </div>
             )}
-            <div>
-              <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-emerald-400">
-                Notes
-              </label>
-              <textarea
-                value={item.reason || ""}
-                onChange={(e) => patchCode(item.instanceId, { reason: e.target.value })}
-                placeholder="Reasoning for this code..."
-                rows={2}
-                className="w-full resize-none rounded border border-emerald-600 bg-emerald-900 px-2 py-1 text-xs leading-relaxed text-emerald-100 placeholder:text-emerald-500 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
-              />
-            </div>
           </div>
         </div>
       ))}

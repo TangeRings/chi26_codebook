@@ -1,0 +1,238 @@
+{
+  "coding_unit": {
+    "student_id": "aliyah",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Perfumes",
+      "perfume dupes",
+      "custom perfumes",
+      "perfume replication",
+      "perfume bottles (both custom and standard)",
+      "special sized bottles that aren't standard",
+      "bottle engraving",
+      "scent consultations"
+    ],
+    "post_concepts": [
+      "Perfumes",
+      "perfume dupes",
+      "custom perfumes",
+      "perfume replication",
+      "perfume bottles (both custom and standard)",
+      "special sized bottles",
+      "bottle engraving",
+      "scent consultations"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Perfumes",
+        "post": "Perfumes",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "perfume dupes",
+        "post": "perfume dupes",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "custom perfumes",
+        "post": "custom perfumes",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "perfume replication",
+        "post": "perfume replication",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "perfume bottles (both custom and standard)",
+        "post": "perfume bottles (both custom and standard)",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "special sized bottles that aren't standard",
+        "post": "special sized bottles",
+        "continuity": "same product category; parenthetical qualifier removed",
+        "scope": "unchanged",
+        "frame": "unchanged",
+        "stretch": "light stylistic condensation",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "bottle engraving",
+        "post": "bottle engraving",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "scent consultations",
+        "post": "scent consultations",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "Perfumes",
+        "post": "Perfumes",
+        "basis": "identical listing"
+      },
+      {
+        "pre": "perfume dupes",
+        "post": "perfume dupes",
+        "basis": "identical listing"
+      },
+      {
+        "pre": "custom perfumes",
+        "post": "custom perfumes",
+        "basis": "identical listing"
+      },
+      {
+        "pre": "perfume replication",
+        "post": "perfume replication",
+        "basis": "identical listing"
+      },
+      {
+        "pre": "perfume bottles (both custom and standard)",
+        "post": "perfume bottles (both custom and standard)",
+        "basis": "identical listing"
+      },
+      {
+        "pre": "special sized bottles that aren't standard",
+        "post": "special sized bottles",
+        "basis": "same category; parenthetical qualifier condensed"
+      },
+      {
+        "pre": "bottle engraving",
+        "post": "bottle engraving",
+        "basis": "identical listing"
+      },
+      {
+        "pre": "scent consultations",
+        "post": "scent consultations",
+        "basis": "identical listing"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "Perfumes",
+        "post": "Perfumes",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical listing; no change"
+      },
+      {
+        "type": "confirm",
+        "pre": "perfume dupes",
+        "post": "perfume dupes",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical listing; no change"
+      },
+      {
+        "type": "confirm",
+        "pre": "custom perfumes",
+        "post": "custom perfumes",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical listing; no change"
+      },
+      {
+        "type": "confirm",
+        "pre": "perfume replication",
+        "post": "perfume replication",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical listing; no change"
+      },
+      {
+        "type": "confirm",
+        "pre": "perfume bottles (both custom and standard)",
+        "post": "perfume bottles (both custom and standard)",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical listing; no change"
+      },
+      {
+        "type": "recode",
+        "pre": "special sized bottles that aren't standard",
+        "post": "special sized bottles",
+        "from_code": null,
+        "to_code": "Elaborated",
+        "reason": "Same underlying category (special sized bottles) intact; PRE adds qualifier 'that aren't standard' while POST drops the parenthetical qualifier. Category preserved, only stylistic detail shifted \u2014 fits Elaborated rather than un-coded stylization. No scope change, no frame shift, no subsumption reversal."
+      },
+      {
+        "type": "confirm",
+        "pre": "bottle engraving",
+        "post": "bottle engraving",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical listing; no change"
+      },
+      {
+        "type": "confirm",
+        "pre": "scent consultations",
+        "post": "scent consultations",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical listing; no change"
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "The post-response preserves every product category from the pre-response. The only textual difference is the removal of the parenthetical qualifier 'that aren't standard' from the 'special sized bottles' listing, which is a stylistic condensation that does not change the propositional content of any product offering. No clauses or product categories were added or removed."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "special sized bottles that aren't standard",
+      "post_evidence": "special sized bottles",
+      "rationale": "Underlying product category (special sized bottles) is preserved; the qualifier 'that aren't standard' is condensed in the POST version. Same category, stylistic detail trimmed \u2014 Elaborated.",
+      "alternative_considered": "unchanged/identity (rejected: a small wording shift still warrants a coded event)",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "The two responses are substantively identical. The only difference is the deletion of the explanatory phrase 'that aren't standard' from one listing, which is a stylistic compression rather than a semantic change. No semantic events warranted. Critic applied 8 correction(s)."
+  },
+  "coded_at": "2026-05-14T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

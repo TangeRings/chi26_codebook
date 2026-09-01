@@ -1,0 +1,49 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "TikTok",
+      "post": "TikTok",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same platform persists across PRE/POST; POST adds functional detail (linking to Amazon storefront) without shifting the organizing frame. Elaborated is correct; Reframed would require the frame to change, which it does not here."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Amazon storefront (commerce platform)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "TikTok (content platform) and Amazon storefront (commerce platform) occupy different conceptual domains per the survey's own categorization. The nearest-counterpart search tested all four transformation tiers and all failed. No shared semantic neighborhood at a specific level \u2014 'platform choice' is an umbrella that proves nothing. New is correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "TikTok",
+      "post": "TikTok",
+      "basis": "Identical platform named in both responses; the elaboration about linking to Amazon is additive detail on TikTok usage."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "Amazon storefront (commerce platform)"
+  ],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "TikTok for now",
+      "post_evidence": "TikTok linking it to an amazon storefront",
+      "rationale": "TikTok as the chosen branding platform persists across both responses. The POST version adds functional detail (linking to an Amazon storefront) without shifting the platform choice or its organizing frame (TikTok as branding channel).",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "amazon storefront",
+      "rationale": "The Amazon storefront (commerce-based platform) has no antecedent in PRE, which names only TikTok (content-based platform). These sit in different conceptual domains (content vs commerce platforms), as the survey itself categorizes them. Mandatory nearest-counterpart search tested Narrowed, Reframed, Elaborated, and Expanded against TikTok; all four fail. No transformation code is defensible.",
+      "alternative_considered": "Removed+New pair with TikTok (Narrowed considered and rejected on different-domain grounds)",
+      "confidence": "high"
+    }
+  ]
+}

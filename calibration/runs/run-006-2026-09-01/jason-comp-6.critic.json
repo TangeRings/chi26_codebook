@@ -1,0 +1,35 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+      "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical string on both sides; nothing changed. No transformation event needed \u2014 carryover/same concept."
+    },
+    {
+      "type": "confirm",
+      "pre": "Commerce-Based Platforms: Amazon + EBay",
+      "post": "Commerce-Based Platforms: Amazon + Ebay",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical platform set; 'EBay' vs 'Ebay' is a capitalization/stylistic variant only. Carryover."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+      "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+      "basis": "Identical string; same platforms and audience qualifier \u2014 unchanged carryover"
+    },
+    {
+      "pre": "Commerce-Based Platforms: Amazon + EBay",
+      "post": "Commerce-Based Platforms: Amazon + Ebay",
+      "basis": "Identical platform set; capitalization of 'eBay' is stylistic only \u2014 unchanged carryover"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

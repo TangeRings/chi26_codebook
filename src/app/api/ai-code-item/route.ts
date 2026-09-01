@@ -1,9 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import {
+  applyCriticCorrections,
   buildArtifactCodingPrompt,
+  buildCriticInputFromPass1,
+  buildCriticPrompt,
+  enforceEventConsistency,
   mapOutputToArtifactCoding,
   parseAiOutput,
+  parseCriticOutput,
+  type ArtifactCodingAiOutput,
   type ArtifactCodingInput,
+  type CriticOutput,
 } from "@/lib/research/artifactCodingPrompt";
 
 const MINIMAX_MESSAGES_URL =
@@ -14,9 +21,13 @@ type RequestBody = {
   studentId?: unknown;
   itemId?: unknown;
   itemName?: unknown;
+  /** Survey question id (e.g. Q1a, Q1c). Drives item-specific unitization routing. */
+  questionId?: unknown;
   questionText?: unknown;
   preResponse?: unknown;
   postResponse?: unknown;
+  /** When true, skip the lightweight pass-2 critic. Default: run critic. */
+  skipCritic?: unknown;
 };
 
 function isNonEmptyString(value: unknown): value is string {
@@ -56,6 +67,32 @@ async function callMiniMaxText(prompt: string): Promise<string> {
   return text;
 }
 
+function normalizeCodingUnit(
+  rawOutput: ArtifactCodingAiOutput,
+  input: ArtifactCodingInput
+): ArtifactCodingAiOutput {
+  let next = rawOutput;
+  if (
+    next.coding_unit.student_id !== input.student_id ||
+    next.coding_unit.item_id !== input.item_id
+  ) {
+    next = {
+      ...next,
+      coding_unit: {
+        student_id: input.student_id,
+        item_id: input.item_id,
+      },
+    };
+  }
+  if (!next.model) {
+    next = { ...next, model: MINIMAX_MODEL };
+  }
+  if (!next.coded_at) {
+    next = { ...next, coded_at: new Date().toISOString() };
+  }
+  return next;
+}
+
 export async function POST(req: NextRequest) {
   try {
     const body = (await req.json()) as RequestBody;
@@ -84,10 +121,16 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    const skipCritic = body.skipCritic === true;
+
     const input: ArtifactCodingInput = {
       student_id: body.studentId.trim(),
       item_id: body.itemId.trim(),
       item_name: body.itemName.trim(),
+      question_id:
+        typeof body.questionId === "string" && body.questionId.trim()
+          ? body.questionId.trim()
+          : undefined,
       question_text:
         typeof body.questionText === "string" && body.questionText.trim()
           ? body.questionText.trim()
@@ -105,57 +148,72 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: message }, { status: 500 });
     }
 
-    let rawText: string;
+    let rawTextPass1: string;
     try {
-      rawText = await callMiniMaxText(prompt);
+      rawTextPass1 = await callMiniMaxText(prompt);
     } catch (err: unknown) {
       const message =
         err instanceof Error ? err.message : "MiniMax API request failed.";
       return NextResponse.json({ error: message }, { status: 500 });
     }
 
-    let rawOutput;
+    let pass1Output: ArtifactCodingAiOutput;
     try {
-      rawOutput = parseAiOutput(rawText);
+      pass1Output = normalizeCodingUnit(parseAiOutput(rawTextPass1), input);
     } catch (err: unknown) {
       const message =
         err instanceof Error ? err.message : "Invalid MiniMax output.";
       return NextResponse.json(
         {
           error: message,
-          rawResponse: rawText.slice(0, 2000),
+          rawResponse: rawTextPass1.slice(0, 2000),
         },
         { status: 422 }
       );
     }
 
-    // Ensure identifiers match the requested unit
-    if (
-      rawOutput.coding_unit.student_id !== input.student_id ||
-      rawOutput.coding_unit.item_id !== input.item_id
-    ) {
-      rawOutput = {
-        ...rawOutput,
-        coding_unit: {
-          student_id: input.student_id,
-          item_id: input.item_id,
-        },
-      };
+    let criticOutput: CriticOutput | null = null;
+    let criticRawText: string | null = null;
+    let finalOutput = pass1Output;
+
+    if (!skipCritic) {
+      try {
+        const criticInput = buildCriticInputFromPass1(input, pass1Output);
+        const criticPrompt = await buildCriticPrompt(criticInput);
+        criticRawText = await callMiniMaxText(criticPrompt);
+        criticOutput = parseCriticOutput(criticRawText);
+        finalOutput = applyCriticCorrections(pass1Output, criticOutput);
+      } catch (err: unknown) {
+        const message =
+          err instanceof Error ? err.message : "Critic pass failed.";
+        // Fall back to pass-1 so calibration is not blocked; surface the critic error.
+        return NextResponse.json(
+          {
+            success: true,
+            criticFailed: true,
+            criticError: message,
+            coding: mapOutputToArtifactCoding(
+              enforceEventConsistency(pass1Output)
+            ),
+            rawOutput: enforceEventConsistency(pass1Output),
+            pass1Output,
+            criticRawResponse: criticRawText?.slice(0, 2000) ?? null,
+          },
+          { status: 200 }
+        );
+      }
     }
 
-    if (!rawOutput.model) {
-      rawOutput.model = MINIMAX_MODEL;
-    }
-    if (!rawOutput.coded_at) {
-      rawOutput.coded_at = new Date().toISOString();
-    }
-
-    const coding = mapOutputToArtifactCoding(rawOutput);
+    finalOutput = enforceEventConsistency(finalOutput);
+    const coding = mapOutputToArtifactCoding(finalOutput);
 
     return NextResponse.json({
       success: true,
       coding,
-      rawOutput,
+      rawOutput: finalOutput,
+      pass1Output,
+      criticOutput,
+      skipCritic,
     });
   } catch (err: unknown) {
     console.error("AI code item error:", err);

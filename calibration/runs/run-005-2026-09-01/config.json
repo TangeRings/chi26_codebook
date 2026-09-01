@@ -1,0 +1,26 @@
+{
+  "runId": "run-005-2026-09-01",
+  "model": "MiniMax-M3",
+  "critic": true,
+  "criticMode": "bidirectional-ladder",
+  "items": [
+    "comp-1a",
+    "comp-1b",
+    "comp-1c"
+  ],
+  "notes": "Transformation ladder + NARROW-REQUIRES-SUBSUMPTION. Neighborhood now mandates testing rather than forcing a transformation code; tier 5 (Removed+New) reachable after honest testing. Critic given an explicit anti-over-correction guard against recoding Reframed to Narrowed without subsumption.",
+  "goldExpectations": {
+    "comp-1a": {
+      "Fun -> Interactive": "Narrowed (BC-001)",
+      "Community-Building -> Relatable": "Reframed (BC-002)",
+      "Lifestyle-Oriented / Expressive": "Removed + New (BC-003, provisional)"
+    },
+    "comp-1c": {
+      "Emotion-Appealing -> Authentic": "Narrowed (subsumption holds, PRE generic)",
+      "Customer-Centricity / Theory-Based": "Removed + New (different domains)"
+    },
+    "comp-1b": {
+      "self-expression -> individuality": "transformation, not Removed + New (regression check)"
+    }
+  }
+}

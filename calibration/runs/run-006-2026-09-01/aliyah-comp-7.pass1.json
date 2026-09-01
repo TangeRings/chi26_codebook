@@ -1,0 +1,101 @@
+{
+  "coding_unit": {
+    "student_id": "aliyah",
+    "item_id": "comp-7"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "25% behind the scenes",
+      "50% idea to product and the story behind one order",
+      "15% product reviews",
+      "5% tutorials for those interested in the science behind a perfume"
+    ],
+    "post_concepts": [
+      "25% behind the scenes",
+      "50% idea to product and the story behind one order",
+      "15% product reviews",
+      "5% tutorials for those interested in the science behind a perfume"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "25% behind the scenes",
+        "post": "25% behind the scenes",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "50% idea to product and the story behind one order",
+        "post": "50% idea to product and the story behind one order",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "15% product reviews",
+        "post": "15% product reviews",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "5% tutorials for those interested in the science behind a perfume",
+        "post": "5% tutorials for those interested in the science behind a perfume",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "25% behind the scenes",
+        "post": "25% behind the scenes",
+        "basis": "identical text"
+      },
+      {
+        "pre": "50% idea to product and the story behind one order",
+        "post": "50% idea to product and the story behind one order",
+        "basis": "identical text"
+      },
+      {
+        "pre": "15% product reviews",
+        "post": "15% product reviews",
+        "basis": "identical text"
+      },
+      {
+        "pre": "5% tutorials for those interested in the science behind a perfume",
+        "post": "5% tutorials for those interested in the science behind a perfume",
+        "basis": "identical text"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [
+      "order of content categories preserved verbatim"
+    ],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "PRE and POST responses are byte-identical (ignoring any incidental whitespace). No clauses added, removed, or modified."
+  },
+  "semantic_events": [],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "PRE and POST responses are verbatim identical. All four content-distribution categories match exactly. No semantic events warranted."
+  },
+  "coded_at": "2025-01-24T00:00:00Z",
+  "model": "MiniMax-M3"
+}

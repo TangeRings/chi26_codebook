@@ -1,0 +1,345 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "PRE and POST responses are character-for-character identical: same three content categories with the same percentages in the same order. No structural change is present.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "postConcepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "continuity": "identical wording, same proportion, same content type",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "continuity": "identical wording, same proportion, same content type",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "continuity": "identical wording, same proportion, same content type",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [],
+      "matchedPairs": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "basis": "identical wording and proportion"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "basis": "identical wording and proportion"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "basis": "identical wording and proportion"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical wording and proportion; no transformation."
+        },
+        {
+          "type": "confirm",
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical wording and proportion; no transformation."
+        },
+        {
+          "type": "confirm",
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical wording and proportion; no transformation."
+        }
+      ]
+    },
+    "semanticChanges": [],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coderNotes": "Pre and post responses are identical for this item; no semantic events are coded. Critic applied 3 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "post_concepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "continuity": "identical wording, same proportion, same content type",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "continuity": "identical wording, same proportion, same content type",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "continuity": "identical wording, same proportion, same content type",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "basis": "identical wording and proportion"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "basis": "identical wording and proportion"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "basis": "identical wording and proportion"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical wording and proportion; no transformation."
+        },
+        {
+          "type": "confirm",
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical wording and proportion; no transformation."
+        },
+        {
+          "type": "confirm",
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical wording and proportion; no transformation."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "PRE and POST responses are character-for-character identical: same three content categories with the same percentages in the same order. No structural change is present."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "Pre and post responses are identical for this item; no semantic events are coded. Critic applied 3 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "post_concepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "continuity": "identical wording, same proportion, same content type",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "continuity": "identical wording, same proportion, same content type",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "continuity": "identical wording, same proportion, same content type",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "basis": "identical wording and proportion"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "basis": "identical wording and proportion"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "basis": "identical wording and proportion"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "PRE and POST responses are character-for-character identical: same three content categories with the same percentages in the same order. No structural change is present."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "Pre and post responses are identical for this item; no semantic events are coded."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "50% product reviews",
+        "post": "50% product reviews",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical wording and proportion; no transformation."
+      },
+      {
+        "type": "confirm",
+        "pre": "30% influencer reviews",
+        "post": "30% influencer reviews",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical wording and proportion; no transformation."
+      },
+      {
+        "type": "confirm",
+        "pre": "20% product knowledge",
+        "post": "20% product knowledge",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical wording and proportion; no transformation."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "50% product reviews",
+        "post": "50% product reviews",
+        "basis": "identical wording and proportion"
+      },
+      {
+        "pre": "30% influencer reviews",
+        "post": "30% influencer reviews",
+        "basis": "identical wording and proportion"
+      },
+      {
+        "pre": "20% product knowledge",
+        "post": "20% product knowledge",
+        "basis": "identical wording and proportion"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": []
+  },
+  "skipCritic": false
+}

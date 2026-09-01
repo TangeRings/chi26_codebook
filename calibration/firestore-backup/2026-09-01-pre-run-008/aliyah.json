@@ -1,0 +1,302 @@
+{
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "Sustainable, luxurious, creative, unique, narration"
+      },
+      "post": {
+        "answer": "Individuality, Nostalgia, Customization, Quality, Accessibility, Eco-Friendly"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "semanticChanges": [],
+        "learnerAgency": []
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "I hope to create a future where people can get any scent that they want replicated and be able to relive moments in life with this scent and also be able to create their own bottle based off of the story associated with that scent."
+      },
+      "post": {
+        "answer": "Creating a world where everyone has their own unique scent with their own unique bottle, and they can relive memories with them."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": null,
+        "semanticChanges": [
+          {
+            "instanceId": "mthw5r7nw1tm55dxbp",
+            "code": "Narrowed",
+            "reason": ""
+          }
+        ],
+        "learnerAgency": []
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "Quality, accuracy, eco-friendliness, customer focused, making a unique story"
+      },
+      "post": {
+        "answer": "Quality, telling a story, customer centricity"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 10
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "This will be focused towards a young adult and older audience, from 18+, but it will also cater to kids in a price friendly way. It will cater to both men and women who are more interested in replicating scents from when they were younger, or scents that have been discontinued, or a scent that they would like to modify. Location wise I am thinking about all around the world, with an emphasis in California, New York, Italy, France, China, and the Middle East, as they seem to like perfumes a lot. Income wise, I want my brand to cater to all brands and have a range of prices depending on how unique you want your perfume. The main focus would be to wealthier people who are willing to spend a lot on a good quality perfume."
+      },
+      "post": {
+        "answer": "Young adults (18-25): those looking for affordable, unique and nostalgic scents, lower income, willing to try new things and be different from the rest.\nMature adults: those looking to relive the past through scent, luxurious scents, and personalization, higher income.\nAcross the globe: those looking to experience another culture through scent, higher income."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "Unique perfume enthusiasts, or perfume collectors looking for something different from the rest of the market."
+      },
+      "post": {
+        "answer": "Perfume enthusiasts, nostalgia seekers"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "Instagram, TikTok, Amazon. Mainly sold on the brand's website if they want a scent consultation."
+      },
+      "post": {
+        "answer": "TikTok, Instagram, brand website, Amazon"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "25% behind the scenes, 50% idea to product and the story behind one order, 15% product reviews, 5% tutorials for those interested in the science behind a perfume"
+      },
+      "post": {
+        "answer": "25% behind the scenes, 50% idea to product and the story behind one order, 15% product reviews, 5% tutorials for those interested in the science behind a perfume"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "Perfumes, perfume dupes, custom perfumes, perfume replication, perfume bottles (both custom and standard), special sized bottles that aren't standard, bottle engraving, scent consultations."
+      },
+      "post": {
+        "answer": "Perfumes, perfume dupes, custom perfumes, perfume replication, perfume bottles (both custom and standard), special sized bottles, bottle engraving, scent consultations."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 9
+      },
+      "post": {
+        "answer": 10
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 4,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other (replicate grandmother's perfume)": 4
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 4,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 3,
+          "Alignment with Personal Values": 4,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-11",
+      "questionId": "Pre-Survey 2 / Post-Survey 2",
+      "label": "Personal Brand Confidence",
+      "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating a small personal brand on social media at the moment?",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 10
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-12",
+      "questionId": "Pre-Survey 4 / Post-Survey 3",
+      "label": "Independent Brand Creation Confidence",
+      "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating this brand all by yourself at the moment?",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ],
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "No formal courses or internship, however I have experience from my mother in marketing (she was a marketing major) and I have experience in making my own businesses: my mother has a photography business and I was the second photographer, I also had my own crochet business and social media accounts and made around $5k off of it. I also had a business during covid for making masks and made about $20k in two months. I have experience in creating business cards and websites, but not sourcing materials at the manufacturing level."
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 7
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 10
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Other: I am becoming a frequent user as of this month"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "No"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 10
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "It helped in refining my brand identity. I didn't think about it very deeply and it made me remember things in my life I experienced with perfumes (my grandmother's perfume). It increased my confidence in my brand a lot and helped me visualize what my brand can look like in the future."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "They provided the depth I was looking for and helped me a lot with my brand image."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 10
+      }
+    ]
+  },
+  "studentId": "aliyah",
+  "name": "Aliyah Rivera",
+  "_seedVersion": "2026-09-01-aliyah-v2"
+}

@@ -1,0 +1,379 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "PRE and POST responses are character-for-character identical. No clauses added, removed, or elaborated at any structural level.",
+    "conceptAlignment": {
+      "unitizationMode": "scoped_category",
+      "preConcepts": [
+        "Female students aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "postConcepts": [
+        "Female students aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Female students aged 18-25",
+          "post": "Female students aged 18-25",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Female students aged 18-25",
+          "post": "interested in safe Pilates equipment",
+          "continuity": "demographic vs psychographic/interests",
+          "scope": "different category",
+          "frame": "demographic vs interest-based",
+          "stretch": "none",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "Female students aged 18-25",
+          "continuity": "interest-based vs demographic",
+          "scope": "different category",
+          "frame": "interest vs demographic",
+          "stretch": "none",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Female students aged 18-25",
+          "post": "interested in safe Pilates equipment",
+          "reason": "Cross-category alignment (demographic to interest/psychographic); not the strongest semantic successor and would force a pairing across different conceptual domains."
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "Female students aged 18-25",
+          "reason": "Cross-category alignment (interest to demographic); different conceptual domains, no semantic lineage."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Female students aged 18-25",
+          "post": "Female students aged 18-25",
+          "basis": "identical string, identical demographic scope"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "basis": "identical string, identical psychographic/interests scope"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Female students aged 18-25",
+          "post": "Female students aged 18-25",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+        },
+        {
+          "type": "confirm",
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Cross-category pairings (demographic \u2194 interest/psychographic) correctly rejected \u2014 no shared semantic neighborhood and no defensible lineage. Both rejected_alignments stand."
+        }
+      ]
+    },
+    "semanticChanges": [],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coderNotes": "PRE and POST responses are identical. No semantic events warranted. Empty new_removed_recheck array because no provisional New or Removed events exist (no removed/new to recheck). Critic applied 3 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "Female students aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "post_concepts": [
+        "Female students aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Female students aged 18-25",
+          "post": "Female students aged 18-25",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Female students aged 18-25",
+          "post": "interested in safe Pilates equipment",
+          "continuity": "demographic vs psychographic/interests",
+          "scope": "different category",
+          "frame": "demographic vs interest-based",
+          "stretch": "none",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "Female students aged 18-25",
+          "continuity": "interest-based vs demographic",
+          "scope": "different category",
+          "frame": "interest vs demographic",
+          "stretch": "none",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Female students aged 18-25",
+          "post": "interested in safe Pilates equipment",
+          "reason": "Cross-category alignment (demographic to interest/psychographic); not the strongest semantic successor and would force a pairing across different conceptual domains."
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "Female students aged 18-25",
+          "reason": "Cross-category alignment (interest to demographic); different conceptual domains, no semantic lineage."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Female students aged 18-25",
+          "post": "Female students aged 18-25",
+          "basis": "identical string, identical demographic scope"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "basis": "identical string, identical psychographic/interests scope"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Female students aged 18-25",
+          "post": "Female students aged 18-25",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+        },
+        {
+          "type": "confirm",
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "from_code": null,
+          "to_code": null,
+          "reason": "Cross-category pairings (demographic \u2194 interest/psychographic) correctly rejected \u2014 no shared semantic neighborhood and no defensible lineage. Both rejected_alignments stand."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "PRE and POST responses are character-for-character identical. No clauses added, removed, or elaborated at any structural level."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "PRE and POST responses are identical. No semantic events warranted. Empty new_removed_recheck array because no provisional New or Removed events exist (no removed/new to recheck). Critic applied 3 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "Female students aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "post_concepts": [
+        "Female students aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Female students aged 18-25",
+          "post": "Female students aged 18-25",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Female students aged 18-25",
+          "post": "interested in safe Pilates equipment",
+          "continuity": "demographic vs psychographic/interests",
+          "scope": "different category",
+          "frame": "demographic vs interest-based",
+          "stretch": "none",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "Female students aged 18-25",
+          "continuity": "interest-based vs demographic",
+          "scope": "different category",
+          "frame": "interest vs demographic",
+          "stretch": "none",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Female students aged 18-25",
+          "post": "interested in safe Pilates equipment",
+          "reason": "Cross-category alignment (demographic to interest/psychographic); not the strongest semantic successor and would force a pairing across different conceptual domains."
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "Female students aged 18-25",
+          "reason": "Cross-category alignment (interest to demographic); different conceptual domains, no semantic lineage."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Female students aged 18-25",
+          "post": "Female students aged 18-25",
+          "basis": "identical string, identical demographic scope"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "basis": "identical string, identical psychographic/interests scope"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "PRE and POST responses are character-for-character identical. No clauses added, removed, or elaborated at any structural level."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "PRE and POST responses are identical. No semantic events warranted. Empty new_removed_recheck array because no provisional New or Removed events exist (no removed/new to recheck)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Female students aged 18-25",
+        "post": "Female students aged 18-25",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+      },
+      {
+        "type": "confirm",
+        "pre": "interested in safe Pilates equipment",
+        "post": "interested in safe Pilates equipment",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": null,
+        "to_code": null,
+        "reason": "Cross-category pairings (demographic \u2194 interest/psychographic) correctly rejected \u2014 no shared semantic neighborhood and no defensible lineage. Both rejected_alignments stand."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Female students aged 18-25",
+        "post": "Female students aged 18-25",
+        "basis": "identical string, identical demographic scope"
+      },
+      {
+        "pre": "interested in safe Pilates equipment",
+        "post": "interested in safe Pilates equipment",
+        "basis": "identical string, identical psychographic/interests scope"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": []
+  },
+  "skipCritic": false
+}

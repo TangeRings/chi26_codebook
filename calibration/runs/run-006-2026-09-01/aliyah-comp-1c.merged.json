@@ -1,0 +1,352 @@
+{
+  "coding_unit": {
+    "student_id": "aliyah",
+    "item_id": "comp-1c"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Quality",
+      "accuracy",
+      "eco-friendliness",
+      "customer focused",
+      "making a unique story"
+    ],
+    "post_concepts": [
+      "Quality",
+      "telling a story",
+      "customer centricity"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Quality",
+        "post": "Quality",
+        "continuity": "identical term",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Quality",
+        "post": "telling a story",
+        "continuity": "weak; quality vs narrative",
+        "scope": "unrelated dimensions",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Quality",
+        "post": "customer centricity",
+        "continuity": "weak; product quality vs audience orientation",
+        "scope": "different dimensions",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "accuracy",
+        "post": "Quality",
+        "continuity": "related; both concern product/execution standards",
+        "scope": "similar (both standards of excellence)",
+        "frame": "standards-of-excellence frame",
+        "stretch": "moderate \u2014 accuracy is a specific type of quality",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "accuracy",
+        "post": "telling a story",
+        "continuity": "weak; precision vs narrative",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "accuracy",
+        "post": "customer centricity",
+        "continuity": "weak; precision vs audience orientation",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "eco-friendliness",
+        "post": "Quality",
+        "continuity": "weak; environmental vs general quality",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "eco-friendliness",
+        "post": "telling a story",
+        "continuity": "weak; environmental vs narrative",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "eco-friendliness",
+        "post": "customer centricity",
+        "continuity": "weak; environmental vs audience orientation",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "customer focused",
+        "post": "Quality",
+        "continuity": "weak; audience vs product quality",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "customer focused",
+        "post": "telling a story",
+        "continuity": "weak; audience vs narrative",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "customer focused",
+        "post": "customer centricity",
+        "continuity": "strong; essentially same concept with slightly different phrasing",
+        "scope": "identical",
+        "frame": "audience-orientation frame",
+        "stretch": "minimal",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "making a unique story",
+        "post": "Quality",
+        "continuity": "weak; narrative vs product quality",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "making a unique story",
+        "post": "telling a story",
+        "continuity": "strong; both about narrative/storytelling",
+        "scope": "near-identical (POST drops 'unique' and 'making')",
+        "frame": "narrative frame",
+        "stretch": "minimal",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "making a unique story",
+        "post": "customer centricity",
+        "continuity": "weak; narrative vs audience",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Quality",
+        "post": "telling a story",
+        "reason": "different conceptual domains; quality and narrative are unrelated descriptors"
+      },
+      {
+        "pre": "Quality",
+        "post": "customer centricity",
+        "reason": "different conceptual domains; product quality and audience orientation are unrelated"
+      },
+      {
+        "pre": "accuracy",
+        "post": "telling a story",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "accuracy",
+        "post": "customer centricity",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "eco-friendliness",
+        "post": "Quality",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "eco-friendliness",
+        "post": "telling a story",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "eco-friendliness",
+        "post": "customer centricity",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "customer focused",
+        "post": "Quality",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "customer focused",
+        "post": "telling a story",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "making a unique story",
+        "post": "Quality",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "making a unique story",
+        "post": "customer centricity",
+        "reason": "different conceptual domains"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Quality",
+        "post": "Quality",
+        "basis": "identical descriptor preserved across PRE and POST"
+      },
+      {
+        "pre": "accuracy",
+        "post": "Quality",
+        "basis": "subsumption: accuracy is a specific register of the broader Quality/excellence concept"
+      },
+      {
+        "pre": "customer focused",
+        "post": "customer centricity",
+        "basis": "near-synonymous lexical standardization within audience-orientation territory"
+      },
+      {
+        "pre": "making a unique story",
+        "post": "telling a story",
+        "basis": "same storytelling territory; POST drops 'unique' qualifier and shifts gerund, slight frame shift from creation-of-distinctiveness to communication-of-narrative"
+      }
+    ],
+    "unmatched_pre": [
+      "eco-friendliness"
+    ],
+    "unmatched_post": [],
+    "order_only_changes": [
+      "PRE lists 'Quality' first in both; relative ordering of descriptors is not preserved but no descriptor-level events are order-only"
+    ],
+    "new_removed_recheck": [
+      {
+        "concept": "eco-friendliness",
+        "direction": "removed",
+        "nearest_counterpart": "Quality",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Eco-friendliness (environmental/sustainability orientation) vs Quality (general excellence standard) occupy different conceptual domains. 'Eco-friendly quality is a specific way of being quality' is FALSE \u2014 eco-friendliness is a substantive distinct value, not a subtype of general quality. No Narrowed, Reframed (territory not shared \u2014 environmental vs general-excellence), Elaborated, or Expanded relationship is defensible."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "recode",
+        "pre": "accuracy",
+        "post": "Quality",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Confirm pass-1. 'Accuracy is a specific way of being Quality' is TRUE (accuracy is a specific register of general excellence). Subsumption holds."
+      },
+      {
+        "type": "recode",
+        "pre": "customer focused",
+        "post": "customer centricity",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Confirm pass-1. Near-synonymous lexical variants; no frame shift, just label standardization. Reframed is the safer descriptor-level code (alternative Elaborated also defensible but Reframed better captures label shift within same territory)."
+      },
+      {
+        "type": "recode",
+        "pre": "making a unique story",
+        "post": "telling a story",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Confirm pass-1. Same storytelling territory; POST drops 'unique' qualifier and shifts 'making' to 'telling'. No subsumption ('telling a story is a specific way of making a unique story' is FALSE due to the qualifier loss). Frame shifts subtly from creation-of-distinctiveness to communication-of-narrative. Reframed holds."
+      },
+      {
+        "type": "confirm",
+        "pre": "Quality",
+        "post": "Quality",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical descriptor preserved. No event needed."
+      },
+      {
+        "type": "confirm",
+        "pre": "eco-friendliness",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Confirm pass-1. Eco-friendliness (environmental/sustainability value) shares no defensible neighborhood with any POST concept (Quality, telling a story, customer centricity). Tested Narrowed, Reframed, Elaborated, Expanded against Quality \u2014 all fail. Genuinely removed."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Reduction",
+    "rationale": "POST contains three descriptors versus PRE's five; two descriptors (accuracy, eco-friendliness) were removed and the narrative descriptor was simplified. The reduction is contained rather than extensive, and one core concept (Quality) is preserved verbatim, supporting Moderate Reduction rather than Significant Reduction."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "accuracy",
+      "post_evidence": "Quality",
+      "rationale": "Subsumption test: 'accuracy is a specific way of being Quality' is TRUE. Accuracy denotes a specific, restricted manifestation of the broader quality/excellence concept (precision/correctness as one register of high standards). Tier 1 Narrowed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "customer focused",
+      "post_evidence": "customer centricity",
+      "rationale": "Both occupy the audience-orientation territory. No true subsumption (the relation is near-tautological stylistic variation, not subtype). Frame persists; the change is a label standardization from the loose 'customer focused' to the conventional compound 'customer centricity'. Reframed chosen as the closest descriptor-level code for label shift within same territory.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "making a unique story",
+      "post_evidence": "telling a story",
+      "rationale": "Both occupy the narrative/storytelling territory. POST drops the 'unique' qualifier and shifts the verb from 'making' (crafting-distinctiveness frame) to 'telling' (communication-of-narrative frame). Subsumption fails because the 'unique' qualifier is dropped in POST. Same storytelling territory with a shifted organizing frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "eco-friendliness",
+      "post_evidence": null,
+      "rationale": "No defensible POST successor. Eco-friendliness (environmental/sustainability orientation) shares no semantic neighborhood with Quality (general excellence standard), telling a story (narrative), or customer centricity (audience orientation). Tested Narrowed (eco-friendliness is not a subtype of quality), Reframed (no shared territory \u2014 environmental vs general-excellence vs narrative vs audience-orientation are all distinct domains), Elaborated (no PRE seed being expanded), Expanded (quality is not a seed that broadens into eco-friendliness). All four fail.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "vague_to_specific_lineage",
+      "neighborhood_tested_no_lineage",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "Accuracy \u2192 Quality is read as Narrowed because accuracy is a specific way of being quality (subsumption holds) and PRE is generic enough to contain POST as a subtype. Confidence medium because the subsumption direction can be read in two ways. The 'customer focused' \u2192 'customer centricity' pair is essentially a near-synonym label standardization; coded Reframed with low confidence rather than treated as purely stylistic because the canonical spelling changed. Eco-friendliness removal was tested against all four transformation codes against Quality and confirmed as genuine different-domain removal. Critic applied 5 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

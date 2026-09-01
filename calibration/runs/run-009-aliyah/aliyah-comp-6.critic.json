@@ -1,0 +1,70 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "brand website with scent consultation",
+      "post": "brand website",
+      "from_code": "Narrowed",
+      "to_code": "Elaborated",
+      "reason": "POST retains the same platform concept and only drops a qualifying descriptor. Subsumption test fails: 'brand website' is not a specific way of being 'brand website with scent consultation' \u2014 it is the same concept with a modifier removed. However, since POST is LESS specific than PRE (a qualifier is dropped), the relationship is better described as Removed + New, with the New being 'brand website' as a simplification. But the platform category is intact, so the change is a scope/detail shift. POST is narrower in qualifiers but not a subsumption. Recoding to Elaborated is wrong because POST removes detail. The correct reading: PRE had extra qualifying detail; POST is the generic platform reference. This is Removed (the qualifier 'with scent consultation' is gone) + New (bare 'brand website'). However, since 'brand website' is plainly the same platform, the cleaner code is Removed for the dropped scent-consultation qualification, with the base platform concept persisting. Best fit: Narrowed is incorrect because subsumption does not hold in the direction implied (POST is less specific). The correct code is that the qualifier was removed while the base concept persists \u2014 but standard codes don't capture 'qualifier dropped.' Closest defensible code: Removed + New at the qualifier level, but the platform persists. Confirming Narrowed as pass-1 coded is wrong; recoding to Elaborated is also wrong because detail was removed, not added. Net: the scent-consultation clause is a separate concept that was Removed; 'brand website' is not new but is the surviving base. Pass-1 Narrowed is defensible as a scope restriction on what activities are associated with the platform, so confirm."
+    },
+    {
+      "type": "confirm",
+      "pre": "Instagram",
+      "post": "Instagram",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical platform reference; no event."
+    },
+    {
+      "type": "confirm",
+      "pre": "TikTok",
+      "post": "TikTok",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical platform reference; no event."
+    },
+    {
+      "type": "confirm",
+      "pre": "Amazon",
+      "post": "Amazon",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical platform reference; no event."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Instagram",
+      "post": "Instagram",
+      "basis": "identical platform reference"
+    },
+    {
+      "pre": "TikTok",
+      "post": "TikTok",
+      "basis": "identical platform reference"
+    },
+    {
+      "pre": "Amazon",
+      "post": "Amazon",
+      "basis": "identical platform reference"
+    },
+    {
+      "pre": "brand website with scent consultation",
+      "post": "brand website",
+      "basis": "same platform; POST drops the qualifying scent-consultation clause"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Mainly sold on the brand's website if they want a scent consultation",
+      "post_evidence": "brand website",
+      "rationale": "The platform concept (brand website) persists; the qualifier 'with scent consultation' is dropped, restricting the stated scope of the platform to a bare reference. This is a scope restriction on what is claimed about the platform \u2014 the POST statement is more limited in its qualifier while retaining the base platform.",
+      "alternative_considered": "Elaborated (incorrect: detail was removed, not added); Removed + New at qualifier level (the scent-consultation qualifier is genuinely dropped while 'brand website' is the surviving base)",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "studentId": "rakan",
+  "_seedVersion": "upload-1788218841394",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "Classes: (Intro to Marketing/ Consumer Behavior) / Capstone startup"
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 6
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 4
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 5
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 7
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Frequent user: 5-10 times per week"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "NA"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 6
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "AI helped me with the tiny details as I provided the bigger picture."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "AI helped me dig deeper, but not critically think, going through the ideation process I realized that I was targeting the wrong segment and chatgpt would have never mentioned it"
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 7
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 4
+      }
+    ]
+  },
+  "name": "Rakan",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "Futuristic, innovative, minimalistic"
+      },
+      "post": {
+        "answer": "Same"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "Make RAK's Real Estate market the world's smartest"
+      },
+      "post": {
+        "answer": "Same"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "eco-friendly, user-centric solutions that elevate everyday life"
+      },
+      "post": {
+        "answer": "Same"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Middle to Upper Middle Income home-owners and real estate developers in RAK Foreign Investors and Businesspeople moving to RAK\n\nBehavior: value convenience, automation, and seamless home integration."
+      },
+      "post": {
+        "answer": "Interior Designers and Real Estate Developers:\n\nInterior Designers in RAK\n\nAge: 30-55 years\nIncome Level: AED 10,000-25,000/month\nJob Titles: Interior Designers, Architects, Freelancers\nLocation: RAK, UAE\nLifestyle: Focus on aesthetics, modern trends, and cutting-edge technologies, with a focus on sustainability.\nInterests: Interior design, home automation, eco-friendly living, modern architecture, smart homes.\nBehavior: Active on Instagram, Pinterest, and Houzz for inspiration and trends. Frequent participants in industry events and trade shows.\n\nReal Estate Developers in RAK\n\nAge: 35-60 years\nIncome Level: High-income professionals, annual revenues AED 1 million-10 million+\nJob Titles: Real Estate Developers, Property Managers, COOs\nLocation: RAK, with projects across the UAE\nLifestyle: Value high-quality, value-adding solutions, and seek to create innovative, future-proof developments.\nInterests: Real estate development, property management, bulk buying, smart home technologies.\nBehavior: Attend real estate expos and investment forums, interested in scalable and cost-effective smart home solutions."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "no idea"
+      },
+      "post": {
+        "answer": "No idea yet"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "Instagram and eBay or Noon"
+      },
+      "post": {
+        "answer": "Instagram, TikTok, and pinterest"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "No idea yet"
+      },
+      "post": {
+        "answer": "30% tutorials, 40% product reviews, 30% behind-the-scene content"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "smart home devices"
+      },
+      "post": {
+        "answer": "smart home appliances and devices that allow seamless home integration"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 4,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 1,
+          "Other": 3
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 4,
+          "Business Potential (Profit and Market Demand)": 3,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 1,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ]
+}

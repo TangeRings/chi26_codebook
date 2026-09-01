@@ -1,0 +1,147 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Sustainable",
+      "post": "Eco-Friendly",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption passes: Eco-Friendly is a specific way of being Sustainable (material/environmental facet of a broader ethic). PRE-genericness signal supports Narrowed. Confirm."
+    },
+    {
+      "type": "confirm",
+      "pre": "Luxurious",
+      "post": "Quality",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption passes: Quality (craftsmanship, premium materials) is a specific way of being Luxurious. Luxury as status/aesthetic register specifies down to the underlying attribute. Confirm."
+    },
+    {
+      "type": "confirm",
+      "pre": "Unique",
+      "post": "Individuality",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Shared identity-differentiation neighborhood at a specific level (standing-apart). Subsumption fails (Individuality is not a specific way of being Unique \u2014 sibling qualities). Frame shifts from brand-trait to selfhood stance. Reframed is correct; do not over-correct to Narrowed."
+    },
+    {
+      "type": "confirm",
+      "pre": "Narration",
+      "post": "Nostalgia",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Shared narrative/temporal territory at a specific level. Subsumption fails. Frame shifts from story-as-form to memory/emotional-resonance register. Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": "Removed/Creative",
+      "to_code": "Removed/Creative",
+      "reason": "Nearest counterpart Customization occupies a different conceptual domain (consumer-side personalization vs producer-side generation). No shared semantic neighborhood at a specific nameable level \u2014 only the broad 'making' umbrella, which is above the abstraction ceiling. Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": "New/Customization",
+      "to_code": "New/Customization",
+      "reason": "Full PRE search: nearest antecedent Creative fails all four transformation tiers. Customization is personalization, Creative is generation \u2014 different domains. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": "New/Accessibility",
+      "to_code": "New/Accessibility",
+      "reason": "Full PRE search: nearest counterpart Luxurious is conceptually opposed (premium exclusivity vs broad access). No subsumption, no shared frame. New stands."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Sustainable",
+      "post": "Eco-Friendly",
+      "basis": "Narrowed: Eco-Friendly is a material-level realization of the broader sustainability ethic"
+    },
+    {
+      "pre": "Luxurious",
+      "post": "Quality",
+      "basis": "Narrowed: Quality (craftsmanship, materials) is a specific attribute underlying luxury positioning"
+    },
+    {
+      "pre": "Unique",
+      "post": "Individuality",
+      "basis": "Reframed: same identity-differentiation neighborhood; frame shifts from brand-differentiating trait to selfhood stance"
+    },
+    {
+      "pre": "Narration",
+      "post": "Nostalgia",
+      "basis": "Reframed: same narrative/temporal territory; frame shifts from story-as-form to memory/emotional-resonance register"
+    }
+  ],
+  "unmatched_pre": [
+    "Creative"
+  ],
+  "unmatched_post": [
+    "Customization",
+    "Accessibility"
+  ],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Sustainable",
+      "post_evidence": "Eco-Friendly",
+      "rationale": "Eco-Friendly is a concrete product/material realization of the broader sustainability stance. Subsumption test passes; PRE-genericness signal supports Narrowed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Luxurious",
+      "post_evidence": "Quality",
+      "rationale": "Quality operationalizes luxury positioning (premium materials, craftsmanship). Subsumption test passes: 'Quality is a specific way of being Luxurious.'",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Unique",
+      "post_evidence": "Individuality",
+      "rationale": "Shared identity-differentiation neighborhood. Frame shifts from differentiating-trait (brand) to selfhood stance (customer). Subsumption fails; sibling qualities.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Narration",
+      "post_evidence": "Nostalgia",
+      "rationale": "Shared narrative/temporal territory. Frame shifts from story-as-form to memory/emotional-resonance. Subsumption fails.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Creative",
+      "post_evidence": null,
+      "rationale": "Nearest counterpart Customization is consumer-side personalization; Creative is producer-side generation. No neighborhood at a specific level (only broad 'making' umbrella, above abstraction ceiling). All four transformation tiers tested and fail.",
+      "alternative_considered": "Reframed to Customization",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Customization",
+      "rationale": "No defensible PRE antecedent. Creative tested \u2014 different conceptual domain. New stands after full PRE search.",
+      "alternative_considered": "Expanded from Creative",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Accessibility",
+      "rationale": "No defensible PRE antecedent. Luxurious tested but conceptually opposed. New stands after full PRE search.",
+      "alternative_considered": "Reframed from Luxurious",
+      "confidence": "high"
+    }
+  ]
+}

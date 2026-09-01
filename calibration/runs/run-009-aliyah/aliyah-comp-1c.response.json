@@ -1,0 +1,1148 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Reduction",
+    "structuralRationale": "The PRE response contains five descriptors spanning quality, accuracy, environmental responsibility, customer orientation, and narrative uniqueness. The POST response contains only three descriptors (Quality, telling a story, customer centricity). Two distinct value dimensions (accuracy, eco-friendliness) are removed entirely, and 'making a unique story' is condensed to 'telling a story' (the 'unique' modifier is dropped). The response has meaningfully contracted in scope across multiple dimensions, not just shortened stylistically.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "Quality",
+        "accuracy",
+        "eco-friendliness",
+        "customer focused",
+        "making a unique story"
+      ],
+      "postConcepts": [
+        "Quality",
+        "telling a story",
+        "customer centricity"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Quality",
+          "post": "Quality",
+          "continuity": "identical descriptor",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Quality",
+          "post": "telling a story",
+          "continuity": "both about brand/product quality, but different domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Quality",
+          "post": "customer centricity",
+          "continuity": "quality vs audience-orientation",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "accuracy",
+          "post": "Quality",
+          "continuity": "accuracy and quality are related but distinct values (precision vs standard)",
+          "scope": "overlapping but different",
+          "frame": "different organizing frames",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "accuracy",
+          "post": "telling a story",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "accuracy",
+          "post": "customer centricity",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "Quality",
+          "continuity": "environmental value vs product quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "telling a story",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "customer centricity",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "customer focused",
+          "post": "Quality",
+          "continuity": "audience-orientation vs product quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "customer focused",
+          "post": "telling a story",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "customer focused",
+          "post": "customer centricity",
+          "continuity": "essentially same concept, just different phrasing",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "Quality",
+          "continuity": "narrative vs product quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "telling a story",
+          "continuity": "both about crafting a narrative; POST is a simplification/specific phrase",
+          "scope": "narrowing",
+          "frame": "story-crafting persists",
+          "stretch": "strong",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "customer centricity",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Quality",
+          "post": "telling a story",
+          "reason": "different conceptual domains (product standard vs narrative); neighborhood too abstract"
+        },
+        {
+          "pre": "Quality",
+          "post": "customer centricity",
+          "reason": "product quality vs audience-orientation; different domains, implausible"
+        },
+        {
+          "pre": "accuracy",
+          "post": "Quality",
+          "reason": "related but distinct values (precision vs standard); subsumption fails, territory not shared"
+        },
+        {
+          "pre": "accuracy",
+          "post": "telling a story",
+          "reason": "different domains"
+        },
+        {
+          "pre": "accuracy",
+          "post": "customer centricity",
+          "reason": "different domains"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "Quality",
+          "reason": "environmental sustainability vs product quality; different domains"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "telling a story",
+          "reason": "different domains"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "customer centricity",
+          "reason": "different domains"
+        },
+        {
+          "pre": "customer focused",
+          "post": "Quality",
+          "reason": "audience-orientation vs product quality; different domains"
+        },
+        {
+          "pre": "customer focused",
+          "post": "telling a story",
+          "reason": "different domains"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "Quality",
+          "reason": "narrative vs product quality; different domains"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "customer centricity",
+          "reason": "narrative vs audience-orientation; different domains"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Quality",
+          "post": "Quality",
+          "basis": "identical descriptor retained"
+        },
+        {
+          "pre": "customer focused",
+          "post": "customer centricity",
+          "basis": "same audience-orientation territory; stylistic shift from adjectival phrase to established compound noun; Reframed (boundary_case_narrow_vs_reframe)"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "telling a story",
+          "basis": "same organizing frame (story-crafting as value); 'unique' modifier dropped; Elaborated"
+        }
+      ],
+      "unmatchedPre": [
+        "accuracy",
+        "eco-friendliness"
+      ],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "accuracy",
+          "direction": "removed",
+          "nearestCounterpart": "Quality",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "accuracy (precision/correctness) and Quality (standard/excellence) are adjacent values but occupy different semantic roles. Subsumption test fails: 'Quality is a specific way of being accuracy' is FALSE. They are sibling values, not a subtype relation. No elaboration or expansion defensible. Full-response search performed; no POST concept continues the accuracy semantic role. Kept as Removed."
+        },
+        {
+          "concept": "eco-friendliness",
+          "direction": "removed",
+          "nearestCounterpart": "Quality",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "eco-friendliness (environmental sustainability) and Quality (product standard) are in different conceptual domains. Subsumption fails. Reframe fails (no shared territory at a specific level). No elaboration/expansion defensible. Full-response search performed; no POST concept continues the environmental semantic role. Kept as Removed."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Quality",
+          "post": "Quality",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical descriptor retained; no event code needed."
+        },
+        {
+          "type": "confirm",
+          "pre": "customer focused",
+          "post": "customer centricity",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Pass 1 is correct. Shared audience-orientation neighborhood. Subsumption test: 'Customer centricity is a specific way of being customer focused' is TRUE-ish but the dominant shift is stylistic (adjectival phrase \u2192 established compound noun), not a true scope or population restriction. PRE is substantive ('customer focused'), not a generic filler, so subsumption is not a clean win. Reframed is the right verdict; Narrowed was the runner-up. boundary_case_narrow_vs_reframe stands."
+        },
+        {
+          "type": "recode",
+          "pre": "making a unique story",
+          "post": "telling a story",
+          "fromCode": "Reframed",
+          "toCode": "Elaborated",
+          "reason": "Both sit in the same organizing frame (story-crafting as a value). The change is dropping the 'unique' modifier from the same underlying category (story), not a frame shift. PRE-frame and POST-frame are the same (narrative as value). Reframed requires the organizing frame to change; here only modifiers are adjusted. Per the Elaborated rule: same underlying noun/category with dropped/added descriptors \u2192 Elaborated. Subsumption: 'Telling a story is a specific way of making a unique story' is FALSE (not a subtype). Narrowed also fails. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "accuracy: nearest POST counterpart would be Quality, but accuracy (precision) and Quality (excellence/standard) are sibling values in different semantic roles; subsumption fails; no elaboration/expansion defensible. Kept as Removed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "eco-friendliness: no POST concept continues the environmental semantic role. Sustainability and product quality are different conceptual domains. Kept as Removed."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6p0h1j5has9wevp",
+        "code": "Reframed",
+        "preEvidence": "customer focused",
+        "postEvidence": "customer centricity",
+        "rationale": "Shared audience-orientation neighborhood. Shift is from informal adjectival phrase ('customer focused') to established brand-strategy noun ('customer centricity'). PRE is substantive, so subsumption is not a clean win; the change is a label/frame polish within the same territory. PRE-frame: behavioral adjective; POST-frame: established strategy noun.",
+        "confidence": "medium",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6p0h1k4dbhqjhgk",
+        "code": "Elaborated",
+        "preEvidence": "making a unique story",
+        "postEvidence": "telling a story",
+        "rationale": "Same organizing frame (narrative-crafting as core value). POST keeps the same underlying category (story) and drops the 'unique' modifier. Per the Elaborated rule, when POST simply adjusts modifiers of the same underlying noun/category, the code is Elaborated, not Reframed. Subsumption fails (telling-a-story is not a subtype of making-a-unique-story), so Narrowed is also rejected.",
+        "confidence": "medium",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6p0h1n841w9c0pbs",
+        "code": "Removed",
+        "preEvidence": "accuracy",
+        "postEvidence": null,
+        "rationale": "No POST concept continues the accuracy/precision semantic role. Nearest counterpart Quality is a sibling value (standard/excellence), not a subtype; subsumption fails; no elaboration or expansion defensible.",
+        "confidence": "high",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6p0h1ww7vyjrbjq",
+        "code": "Removed",
+        "preEvidence": "eco-friendliness",
+        "postEvidence": null,
+        "rationale": "Environmental sustainability does not appear in POST. No defensible transformation to any POST concept; different conceptual domain from the remaining POST values.",
+        "confidence": "high",
+        "alternativeConsidered": "New"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "vague_to_specific_lineage",
+        "reframe_downgraded",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "The customer-focused \u2192 customer centricity pair could plausibly be coded Narrowed (label refinement, 'centricity' is a specific way of being 'focused') or Reframed (frame shift from adjectival phrase to strategy noun). Treated as Reframed per the frame-shift reading; Narrowed recorded as alternative. Similarly 'making a unique story' \u2192 'telling a story' involves both a modifier drop (potentially Narrowed) and a frame shift to a simpler narrative emphasis; treated as Reframed. Two descriptor-level removals (accuracy, eco-friendliness) are clear because no POST concept occupies their conceptual domain. Critic applied 5 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "aliyah",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Quality",
+        "accuracy",
+        "eco-friendliness",
+        "customer focused",
+        "making a unique story"
+      ],
+      "post_concepts": [
+        "Quality",
+        "telling a story",
+        "customer centricity"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Quality",
+          "post": "Quality",
+          "continuity": "identical descriptor",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Quality",
+          "post": "telling a story",
+          "continuity": "both about brand/product quality, but different domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Quality",
+          "post": "customer centricity",
+          "continuity": "quality vs audience-orientation",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "accuracy",
+          "post": "Quality",
+          "continuity": "accuracy and quality are related but distinct values (precision vs standard)",
+          "scope": "overlapping but different",
+          "frame": "different organizing frames",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "accuracy",
+          "post": "telling a story",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "accuracy",
+          "post": "customer centricity",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "Quality",
+          "continuity": "environmental value vs product quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "telling a story",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "customer centricity",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "customer focused",
+          "post": "Quality",
+          "continuity": "audience-orientation vs product quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "customer focused",
+          "post": "telling a story",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "customer focused",
+          "post": "customer centricity",
+          "continuity": "essentially same concept, just different phrasing",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "Quality",
+          "continuity": "narrative vs product quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "telling a story",
+          "continuity": "both about crafting a narrative; POST is a simplification/specific phrase",
+          "scope": "narrowing",
+          "frame": "story-crafting persists",
+          "stretch": "strong",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "customer centricity",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Quality",
+          "post": "telling a story",
+          "reason": "different conceptual domains (product standard vs narrative); neighborhood too abstract"
+        },
+        {
+          "pre": "Quality",
+          "post": "customer centricity",
+          "reason": "product quality vs audience-orientation; different domains, implausible"
+        },
+        {
+          "pre": "accuracy",
+          "post": "Quality",
+          "reason": "related but distinct values (precision vs standard); subsumption fails, territory not shared"
+        },
+        {
+          "pre": "accuracy",
+          "post": "telling a story",
+          "reason": "different domains"
+        },
+        {
+          "pre": "accuracy",
+          "post": "customer centricity",
+          "reason": "different domains"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "Quality",
+          "reason": "environmental sustainability vs product quality; different domains"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "telling a story",
+          "reason": "different domains"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "customer centricity",
+          "reason": "different domains"
+        },
+        {
+          "pre": "customer focused",
+          "post": "Quality",
+          "reason": "audience-orientation vs product quality; different domains"
+        },
+        {
+          "pre": "customer focused",
+          "post": "telling a story",
+          "reason": "different domains"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "Quality",
+          "reason": "narrative vs product quality; different domains"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "customer centricity",
+          "reason": "narrative vs audience-orientation; different domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Quality",
+          "post": "Quality",
+          "basis": "identical descriptor retained"
+        },
+        {
+          "pre": "customer focused",
+          "post": "customer centricity",
+          "basis": "same audience-orientation territory; stylistic shift from adjectival phrase to established compound noun; Reframed (boundary_case_narrow_vs_reframe)"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "telling a story",
+          "basis": "same organizing frame (story-crafting as value); 'unique' modifier dropped; Elaborated"
+        }
+      ],
+      "unmatched_pre": [
+        "accuracy",
+        "eco-friendliness"
+      ],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "accuracy",
+          "direction": "removed",
+          "nearest_counterpart": "Quality",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "accuracy (precision/correctness) and Quality (standard/excellence) are adjacent values but occupy different semantic roles. Subsumption test fails: 'Quality is a specific way of being accuracy' is FALSE. They are sibling values, not a subtype relation. No elaboration or expansion defensible. Full-response search performed; no POST concept continues the accuracy semantic role. Kept as Removed."
+        },
+        {
+          "concept": "eco-friendliness",
+          "direction": "removed",
+          "nearest_counterpart": "Quality",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "eco-friendliness (environmental sustainability) and Quality (product standard) are in different conceptual domains. Subsumption fails. Reframe fails (no shared territory at a specific level). No elaboration/expansion defensible. Full-response search performed; no POST concept continues the environmental semantic role. Kept as Removed."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Quality",
+          "post": "Quality",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical descriptor retained; no event code needed."
+        },
+        {
+          "type": "confirm",
+          "pre": "customer focused",
+          "post": "customer centricity",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Pass 1 is correct. Shared audience-orientation neighborhood. Subsumption test: 'Customer centricity is a specific way of being customer focused' is TRUE-ish but the dominant shift is stylistic (adjectival phrase \u2192 established compound noun), not a true scope or population restriction. PRE is substantive ('customer focused'), not a generic filler, so subsumption is not a clean win. Reframed is the right verdict; Narrowed was the runner-up. boundary_case_narrow_vs_reframe stands."
+        },
+        {
+          "type": "recode",
+          "pre": "making a unique story",
+          "post": "telling a story",
+          "from_code": "Reframed",
+          "to_code": "Elaborated",
+          "reason": "Both sit in the same organizing frame (story-crafting as a value). The change is dropping the 'unique' modifier from the same underlying category (story), not a frame shift. PRE-frame and POST-frame are the same (narrative as value). Reframed requires the organizing frame to change; here only modifiers are adjusted. Per the Elaborated rule: same underlying noun/category with dropped/added descriptors \u2192 Elaborated. Subsumption: 'Telling a story is a specific way of making a unique story' is FALSE (not a subtype). Narrowed also fails. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "accuracy: nearest POST counterpart would be Quality, but accuracy (precision) and Quality (excellence/standard) are sibling values in different semantic roles; subsumption fails; no elaboration/expansion defensible. Kept as Removed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "eco-friendliness: no POST concept continues the environmental semantic role. Sustainability and product quality are different conceptual domains. Kept as Removed."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Reduction",
+      "rationale": "The PRE response contains five descriptors spanning quality, accuracy, environmental responsibility, customer orientation, and narrative uniqueness. The POST response contains only three descriptors (Quality, telling a story, customer centricity). Two distinct value dimensions (accuracy, eco-friendliness) are removed entirely, and 'making a unique story' is condensed to 'telling a story' (the 'unique' modifier is dropped). The response has meaningfully contracted in scope across multiple dimensions, not just shortened stylistically."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "customer focused",
+        "post_evidence": "customer centricity",
+        "rationale": "Shared audience-orientation neighborhood. Shift is from informal adjectival phrase ('customer focused') to established brand-strategy noun ('customer centricity'). PRE is substantive, so subsumption is not a clean win; the change is a label/frame polish within the same territory. PRE-frame: behavioral adjective; POST-frame: established strategy noun.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "making a unique story",
+        "post_evidence": "telling a story",
+        "rationale": "Same organizing frame (narrative-crafting as core value). POST keeps the same underlying category (story) and drops the 'unique' modifier. Per the Elaborated rule, when POST simply adjusts modifiers of the same underlying noun/category, the code is Elaborated, not Reframed. Subsumption fails (telling-a-story is not a subtype of making-a-unique-story), so Narrowed is also rejected.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "accuracy",
+        "post_evidence": null,
+        "rationale": "No POST concept continues the accuracy/precision semantic role. Nearest counterpart Quality is a sibling value (standard/excellence), not a subtype; subsumption fails; no elaboration or expansion defensible.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "eco-friendliness",
+        "post_evidence": null,
+        "rationale": "Environmental sustainability does not appear in POST. No defensible transformation to any POST concept; different conceptual domain from the remaining POST values.",
+        "alternative_considered": "New",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "vague_to_specific_lineage",
+        "reframe_downgraded",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "The customer-focused \u2192 customer centricity pair could plausibly be coded Narrowed (label refinement, 'centricity' is a specific way of being 'focused') or Reframed (frame shift from adjectival phrase to strategy noun). Treated as Reframed per the frame-shift reading; Narrowed recorded as alternative. Similarly 'making a unique story' \u2192 'telling a story' involves both a modifier drop (potentially Narrowed) and a frame shift to a simpler narrative emphasis; treated as Reframed. Two descriptor-level removals (accuracy, eco-friendliness) are clear because no POST concept occupies their conceptual domain. Critic applied 5 correction(s)."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "aliyah",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Quality",
+        "accuracy",
+        "eco-friendliness",
+        "customer focused",
+        "making a unique story"
+      ],
+      "post_concepts": [
+        "Quality",
+        "telling a story",
+        "customer centricity"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Quality",
+          "post": "Quality",
+          "continuity": "identical descriptor",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Quality",
+          "post": "telling a story",
+          "continuity": "both about brand/product quality, but different domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Quality",
+          "post": "customer centricity",
+          "continuity": "quality vs audience-orientation",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "accuracy",
+          "post": "Quality",
+          "continuity": "accuracy and quality are related but distinct values (precision vs standard)",
+          "scope": "overlapping but different",
+          "frame": "different organizing frames",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "accuracy",
+          "post": "telling a story",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "accuracy",
+          "post": "customer centricity",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "Quality",
+          "continuity": "environmental value vs product quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "telling a story",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "customer centricity",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "customer focused",
+          "post": "Quality",
+          "continuity": "audience-orientation vs product quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "customer focused",
+          "post": "telling a story",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "customer focused",
+          "post": "customer centricity",
+          "continuity": "essentially same concept, just different phrasing",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "Quality",
+          "continuity": "narrative vs product quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "telling a story",
+          "continuity": "both about crafting a narrative; POST is a simplification/specific phrase",
+          "scope": "narrowing",
+          "frame": "story-crafting persists",
+          "stretch": "strong",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "customer centricity",
+          "continuity": "different conceptual domains",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Quality",
+          "post": "telling a story",
+          "reason": "different conceptual domains (product standard vs narrative); neighborhood too abstract"
+        },
+        {
+          "pre": "Quality",
+          "post": "customer centricity",
+          "reason": "product quality vs audience-orientation; different domains, implausible"
+        },
+        {
+          "pre": "accuracy",
+          "post": "Quality",
+          "reason": "related but distinct values (precision vs standard); subsumption fails, territory not shared"
+        },
+        {
+          "pre": "accuracy",
+          "post": "telling a story",
+          "reason": "different domains"
+        },
+        {
+          "pre": "accuracy",
+          "post": "customer centricity",
+          "reason": "different domains"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "Quality",
+          "reason": "environmental sustainability vs product quality; different domains"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "telling a story",
+          "reason": "different domains"
+        },
+        {
+          "pre": "eco-friendliness",
+          "post": "customer centricity",
+          "reason": "different domains"
+        },
+        {
+          "pre": "customer focused",
+          "post": "Quality",
+          "reason": "audience-orientation vs product quality; different domains"
+        },
+        {
+          "pre": "customer focused",
+          "post": "telling a story",
+          "reason": "different domains"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "Quality",
+          "reason": "narrative vs product quality; different domains"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "customer centricity",
+          "reason": "narrative vs audience-orientation; different domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Quality",
+          "post": "Quality",
+          "basis": "identical descriptor retained"
+        },
+        {
+          "pre": "customer focused",
+          "post": "customer centricity",
+          "basis": "essentially synonymous audience-orientation value; minor stylistic shift (hyphenated phrase \u2192 compound noun)"
+        },
+        {
+          "pre": "making a unique story",
+          "post": "telling a story",
+          "basis": "both express narrative/story-crafting as a core value; POST is a streamlined version of PRE"
+        }
+      ],
+      "unmatched_pre": [
+        "accuracy",
+        "eco-friendliness"
+      ],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "accuracy",
+          "direction": "removed",
+          "nearest_counterpart": "Quality",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "accuracy (precision/correctness) and Quality (standard/excellence) are adjacent values but occupy different semantic roles. Subsumption test fails: 'Quality is a specific way of being accuracy' is FALSE. They are sibling values, not a subtype relation. No elaboration or expansion defensible. Full-response search performed; no POST concept continues the accuracy semantic role. Kept as Removed."
+        },
+        {
+          "concept": "eco-friendliness",
+          "direction": "removed",
+          "nearest_counterpart": "Quality",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "eco-friendliness (environmental sustainability) and Quality (product standard) are in different conceptual domains. Subsumption fails. Reframe fails (no shared territory at a specific level). No elaboration/expansion defensible. Full-response search performed; no POST concept continues the environmental semantic role. Kept as Removed."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Reduction",
+      "rationale": "The PRE response contains five descriptors spanning quality, accuracy, environmental responsibility, customer orientation, and narrative uniqueness. The POST response contains only three descriptors (Quality, telling a story, customer centricity). Two distinct value dimensions (accuracy, eco-friendliness) are removed entirely, and 'making a unique story' is condensed to 'telling a story' (the 'unique' modifier is dropped). The response has meaningfully contracted in scope across multiple dimensions, not just shortened stylistically."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "customer focused",
+        "post_evidence": "customer centricity",
+        "rationale": "Same audience-orientation semantic territory persists. PRE uses an adjectival/compound phrase ('customer focused'); POST uses the more conventional compound noun ('customer centricity'). The organizing frame shifts slightly from a behavioral adjective to an established brand-strategy term, but the underlying value is the same. Say-it-out-loud: 'Customer centricity is a specific way of being customer focused' is TRUE \u2014 this could read as Narrowed (a label refinement). However, the change is primarily a label/frame polish within the same territory, not a true scope restriction. Treated as Reframed for the slight frame shift from informal adjectival phrase to established strategy noun. Flag: boundary_case_narrow_vs_reframe.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "making a unique story",
+        "post_evidence": "telling a story",
+        "rationale": "Both concepts express narrative-crafting as a core value. The 'unique' modifier is dropped in POST, which could be read as a scope restriction (POST narrows away from uniqueness as a requirement) or as a stylistic simplification. The dominant change is a framing shift from 'making a unique story' (active, distinctive emphasis) to 'telling a story' (simpler, more conventional narrative frame). Same semantic territory (story as value), different organizing frame (uniqueness-as-differentiation vs storytelling-as-craft). Subsumption test: 'Telling a story is a specific way of making a unique story' \u2014 FALSE (telling is not a subtype of making-unique). PRE-frame: uniqueness/differentiation emphasis. POST-frame: storytelling-as-craft emphasis.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "accuracy",
+        "post_evidence": null,
+        "rationale": "Accuracy (precision/correctness as a value) is absent from POST. Full-response search of POST found no concept continuing the accuracy semantic role. Nearest counterpart was Quality, but accuracy and Quality are sibling values (precision vs standard/excellence), not a subtype relation. Subsumption fails; no defensible transformation. Kept as Removed.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "eco-friendliness",
+        "post_evidence": null,
+        "rationale": "Eco-friendliness (environmental sustainability as a value) is absent from POST. Full-response search of POST found no concept continuing the environmental semantic role. Nearest counterpart was Quality, but environmental sustainability and product quality are in different conceptual domains. All four transformations fail. Kept as Removed.",
+        "alternative_considered": "New",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "vague_to_specific_lineage"
+      ],
+      "coder_notes": "The customer-focused \u2192 customer centricity pair could plausibly be coded Narrowed (label refinement, 'centricity' is a specific way of being 'focused') or Reframed (frame shift from adjectival phrase to strategy noun). Treated as Reframed per the frame-shift reading; Narrowed recorded as alternative. Similarly 'making a unique story' \u2192 'telling a story' involves both a modifier drop (potentially Narrowed) and a frame shift to a simpler narrative emphasis; treated as Reframed. Two descriptor-level removals (accuracy, eco-friendliness) are clear because no POST concept occupies their conceptual domain."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Quality",
+        "post": "Quality",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical descriptor retained; no event code needed."
+      },
+      {
+        "type": "confirm",
+        "pre": "customer focused",
+        "post": "customer centricity",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Pass 1 is correct. Shared audience-orientation neighborhood. Subsumption test: 'Customer centricity is a specific way of being customer focused' is TRUE-ish but the dominant shift is stylistic (adjectival phrase \u2192 established compound noun), not a true scope or population restriction. PRE is substantive ('customer focused'), not a generic filler, so subsumption is not a clean win. Reframed is the right verdict; Narrowed was the runner-up. boundary_case_narrow_vs_reframe stands."
+      },
+      {
+        "type": "recode",
+        "pre": "making a unique story",
+        "post": "telling a story",
+        "from_code": "Reframed",
+        "to_code": "Elaborated",
+        "reason": "Both sit in the same organizing frame (story-crafting as a value). The change is dropping the 'unique' modifier from the same underlying category (story), not a frame shift. PRE-frame and POST-frame are the same (narrative as value). Reframed requires the organizing frame to change; here only modifiers are adjusted. Per the Elaborated rule: same underlying noun/category with dropped/added descriptors \u2192 Elaborated. Subsumption: 'Telling a story is a specific way of making a unique story' is FALSE (not a subtype). Narrowed also fails. Elaborated is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "accuracy: nearest POST counterpart would be Quality, but accuracy (precision) and Quality (excellence/standard) are sibling values in different semantic roles; subsumption fails; no elaboration/expansion defensible. Kept as Removed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "eco-friendliness: no POST concept continues the environmental semantic role. Sustainability and product quality are different conceptual domains. Kept as Removed."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Quality",
+        "post": "Quality",
+        "basis": "identical descriptor retained"
+      },
+      {
+        "pre": "customer focused",
+        "post": "customer centricity",
+        "basis": "same audience-orientation territory; stylistic shift from adjectival phrase to established compound noun; Reframed (boundary_case_narrow_vs_reframe)"
+      },
+      {
+        "pre": "making a unique story",
+        "post": "telling a story",
+        "basis": "same organizing frame (story-crafting as value); 'unique' modifier dropped; Elaborated"
+      }
+    ],
+    "unmatched_pre": [
+      "accuracy",
+      "eco-friendliness"
+    ],
+    "unmatched_post": [],
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "customer focused",
+        "post_evidence": "customer centricity",
+        "rationale": "Shared audience-orientation neighborhood. Shift is from informal adjectival phrase ('customer focused') to established brand-strategy noun ('customer centricity'). PRE is substantive, so subsumption is not a clean win; the change is a label/frame polish within the same territory. PRE-frame: behavioral adjective; POST-frame: established strategy noun.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "making a unique story",
+        "post_evidence": "telling a story",
+        "rationale": "Same organizing frame (narrative-crafting as core value). POST keeps the same underlying category (story) and drops the 'unique' modifier. Per the Elaborated rule, when POST simply adjusts modifiers of the same underlying noun/category, the code is Elaborated, not Reframed. Subsumption fails (telling-a-story is not a subtype of making-a-unique-story), so Narrowed is also rejected.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "accuracy",
+        "post_evidence": null,
+        "rationale": "No POST concept continues the accuracy/precision semantic role. Nearest counterpart Quality is a sibling value (standard/excellence), not a subtype; subsumption fails; no elaboration or expansion defensible.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "eco-friendliness",
+        "post_evidence": null,
+        "rationale": "Environmental sustainability does not appear in POST. No defensible transformation to any POST concept; different conceptual domain from the remaining POST values.",
+        "alternative_considered": "New",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

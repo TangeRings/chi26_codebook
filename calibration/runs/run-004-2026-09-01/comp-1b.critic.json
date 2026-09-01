@@ -1,0 +1,125 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "focus on self-expression",
+      "post": "celebrates individuality",
+      "from_code": "Reframed",
+      "to_code": "Narrowed",
+      "reason": "Individuality is a more specific manifestation of the broader self-expression concept within the protected identity-expression neighborhood. 'Celebrates individuality' narrows the scope of who/what is being valued (the individual's distinctness) compared to the broader act/possibility of self-expression. Frame remains identity-centered; no genuine organizing-frame shift."
+    },
+    {
+      "type": "recode",
+      "pre": "focus on connection",
+      "post": "transform personality theory into a shared experience",
+      "from_code": "Reframed",
+      "to_code": "Narrowed",
+      "reason": "Connection is reconceived specifically as a 'shared experience' tied to 'personality theory' — the relational concept is narrowed into a more specific experiential manifestation (collective engagement with personality theory). Same social-connection neighborhood; POST is a more constrained/specific version, not a different organizing frame."
+    },
+    {
+      "type": "confirm",
+      "pre": "through designed physical products",
+      "post": "through cute physical merchandised products",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Core product frame persists; added descriptors ('cute', 'merchandised') elaborate within same frame. Narrowed would require scope restriction, not present here."
+    },
+    {
+      "type": "confirm",
+      "pre": "uniting individuals under a shared passion",
+      "post": "uniting enthusiasts under a common passion",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Population restricted from generic 'individuals' to narrower 'enthusiasts'; unifying action preserved. Valid."
+    },
+    {
+      "type": "recode",
+      "pre": "building a community (CRM)",
+      "post": "creating a community-driven space (similar to CRM)",
+      "from_code": "Reframed",
+      "to_code": "Elaborated",
+      "reason": "Same community-relational neighborhood; POST adds the 'space' descriptor and the 'community-driven' qualifier while preserving CRM parallel. This is added specificity within the community-building frame rather than a shift from relational-building to spatial-container organizing frame. 'Similar to CRM' elaboration preserves the core."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "MBTI-themed brand",
+      "post": "MBTI-themed brand",
+      "basis": "identical descriptor; no semantic change"
+    },
+    {
+      "pre": "bringing together people of all personalities, lifestyles, and backgrounds",
+      "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+      "basis": "verbatim phrase; no semantic change"
+    },
+    {
+      "pre": "through designed physical products",
+      "post": "through cute physical merchandised products",
+      "basis": "core 'physical products' concept persists; POST adds 'cute' and 'merchandised' descriptors within same product frame"
+    },
+    {
+      "pre": "focus on self-expression",
+      "post": "celebrates individuality",
+      "basis": "shared identity/expression neighborhood; individuality is a more specific manifestation of self-expression"
+    },
+    {
+      "pre": "uniting individuals under a shared passion",
+      "post": "uniting enthusiasts under a common passion",
+      "basis": "population restricted from 'individuals' to narrower 'enthusiasts'; unifying action and passion concept preserved"
+    },
+    {
+      "pre": "building a community (CRM)",
+      "post": "creating a community-driven space (similar to CRM)",
+      "basis": "community concept and CRM parallel preserved; POST adds 'space' and 'community-driven' qualifiers within same community-building frame"
+    },
+    {
+      "pre": "focus on connection",
+      "post": "transform personality theory into a shared experience",
+      "basis": "shared social-connection neighborhood; connection narrowed into a specific experiential manifestation tied to personality theory"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "through designed physical products",
+      "post_evidence": "through cute physical merchandised products",
+      "rationale": "Core 'physical products' concept persists; POST adds 'cute' and 'merchandised' as descriptive attributes within the same product frame. No scope or frame shift.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "focus on self-expression",
+      "post_evidence": "celebrates individuality",
+      "rationale": "Shared identity/self-expression neighborhood protects lineage. Individuality is a more specific, constrained manifestation of the broader self-expression idea — POST narrows scope to what is celebrated about the individual rather than the agentic act of expressing. Frame stays identity-centered.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "uniting individuals under a shared passion",
+      "post_evidence": "uniting enthusiasts under a common passion",
+      "rationale": "Population scope is restricted from generic 'individuals' to 'enthusiasts' — a narrower subpopulation with active interest. The unifying action and 'passion' concept persist; 'shared'→'common' is stylistic.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "building a community (CRM)",
+      "post_evidence": "creating a community-driven space (similar to CRM)",
+      "rationale": "Community concept and CRM parallel preserved. POST adds 'space' and 'community-driven' qualifiers as descriptive specificity within the same community-building frame — elaboration rather than frame shift.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "focus on connection",
+      "post_evidence": "transform personality theory into a shared experience",
+      "rationale": "Shared social-connection neighborhood; connection is reconceived as the narrower, more specific experiential manifestation 'shared experience' tied to personality theory. Scope is constrained and made more concrete, not reframed.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -9,6 +9,8 @@ export type SemanticCode = {
   rationale?: string;
   /** Optional per-event coder confidence. */
   confidence?: "low" | "medium" | "high";
+  /** Strongest runner-up interpretation (e.g. Reframed, Narrowed, Removed+New). */
+  alternativeConsidered?: string | null;
   /** Legacy free-text field. Kept for backward compatibility. */
   reason?: string;
 };
@@ -19,13 +21,61 @@ export type ConceptAlignmentPair = {
   basis?: string;
 };
 
+export type CandidateAlignment = {
+  pre: string;
+  post: string;
+  continuity?: string;
+  scope?: string;
+  frame?: string;
+  stretch?: string;
+  verdict?: "plausible" | "weak" | "implausible";
+};
+
+export type RejectedAlignment = {
+  pre: string;
+  post: string;
+  reason: string;
+};
+
+export type CriticCorrection = {
+  type:
+    | "restore_lineage"
+    | "reject_pairing"
+    | "recode"
+    | "add_pairing"
+    | "confirm";
+  pre?: string | null;
+  post?: string | null;
+  fromCode?: string | null;
+  toCode?: string | null;
+  reason: string;
+};
+
+/** One mandatory nearest-counterpart search performed before finalizing a New or Removed. */
+export type NewRemovedRecheck = {
+  concept: string;
+  direction: "new" | "removed";
+  nearestCounterpart?: string | null;
+  codesTested?: string[];
+  outcome: "kept" | "converted";
+  reason?: string;
+};
+
 export type ConceptAlignment = {
+  unitizationMode?:
+    | "descriptor_set_special"
+    | "semantic_phrase"
+    | "scoped_category";
   preConcepts?: string[];
   postConcepts?: string[];
+  candidateAlignments?: CandidateAlignment[];
+  rejectedAlignments?: RejectedAlignment[];
   matchedPairs?: ConceptAlignmentPair[];
   unmatchedPre?: string[];
   unmatchedPost?: string[];
   orderOnlyChanges?: string[];
+  newRemovedRecheck?: NewRemovedRecheck[];
+  criticCorrections?: CriticCorrection[];
 };
 
 export type AgencyCode = {

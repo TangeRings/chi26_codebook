@@ -1,0 +1,288 @@
+{
+  "name": "Sophia",
+  "_seedVersion": "2026-09-01-sophia-v2",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "No experience first hand. However, I have observed the different ways people brand or market through social media."
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 7
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 7
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Frequent user: 5-10 times per week"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "No"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 7
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "Learning how to tune into specific aspects of my brand and understanding my thoughts of what i want to do in a more consist way."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "I didn't really run into a problem because I tried to be specific and tell it exactly what I wanted. In return, it provided me with answers and advice of other things I can look out for."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 8
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "Pilates sets- mat, ring, wrist weights."
+      },
+      "post": {
+        "answer": "Beginners at pilates, affordable but good quality, minimalist, mature. I also want to create a community with this brand and not just an item to sell."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "create a space for women aged 18-25 that can depend on my items"
+      },
+      "post": {
+        "answer": "To create a brand that prioritizes the well-being of both individuals and the planet."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "eco-friendly and safe"
+      },
+      "post": {
+        "answer": "My brand believes that pilates is a powerful tool for promoting physical and mental well-being. I want my brand to empower young women to try pilates to strengthen their bodies and be in peace with themselves."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 6
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Female students aged 18-25 who are interested in safe Pilates equipment"
+      },
+      "post": {
+        "answer": "Female students aged 18-25 who are interested in safe Pilates equipment"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "A possible niche would be active people, women who are into health"
+      },
+      "post": {
+        "answer": "Someone who may travel frequently and might want to keep their pilates routine consistent and on the go."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "TikTok for now"
+      },
+      "post": {
+        "answer": "TikTok linking it to an amazon storefront"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "no idea yet"
+      },
+      "post": {
+        "answer": "Mostly thinking of short videos using the equipment. For example- \"three pilates moves to do before your day\" and the person is using the equipment."
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "pilates equipment that are safe and eco-friendly"
+      },
+      "post": {
+        "answer": "Eco-friendly equipment, easily packable for travel"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 4,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 4,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-11",
+      "questionId": "Pre-Survey 2 / Post-Survey 2",
+      "label": "Personal Brand Confidence",
+      "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating a small personal brand on social media at the moment?",
+      "pre": {
+        "answer": 4
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-12",
+      "questionId": "Pre-Survey 4 / Post-Survey 3",
+      "label": "Independent Brand Creation Confidence",
+      "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating this brand all by yourself at the moment?",
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ],
+  "studentId": "sophia"
+}

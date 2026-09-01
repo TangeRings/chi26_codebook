@@ -1,0 +1,57 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "MBTI under the corporate setting",
+      "post": "Corporate Professionals & Team-Oriented Individuals (Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools).",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Pass-1 verdict is correct. Subject matter (MBTI in corporate/workplace context) is shared, but the organizing frame shifts from 'niche intersection label' to 'fully scoped audience persona with psychographic attributes and product affinities' \u2014 a frame change, not a subset restriction. Subsumption test: 'Corporate Professionals & Team-Oriented Individuals persona is a specific way of being MBTI under the corporate setting' \u2014 FALSE; the POST is an elaborated audience segment, not a subtype of the PRE intersection label. Reframed is the correct tier. Narrowed was the runner-up; it does not pass the subsumption test."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Anime & Fandom Enthusiasts (Fans of anime, gaming, and internet culture who engage in personality discussions, MBTI character typing, and fandom-driven merchandise, seeking aesthetic, collectible, and shareable identity-reflecting products).",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass-1 is correct. The only PRE concept is the corporate-MBTI niche. Anime/fandom subculture is a genuinely different conceptual domain (fan subculture vs corporate workplace). Neighborhood gate fails: the only shared umbrella would be 'identity/self-presentation' or 'MBTI as broad topic,' which sits above the abstraction ceiling. Nearest-counterpart search confirmed: Narrowed/Reframed/Elaborated/Expanded all fail. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": "MBTI under the corporate setting",
+      "post": "Anime & Fandom Enthusiasts",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Rejection is correct: different conceptual domains; forcing the pairing would require ignoring PRE's explicit 'corporate setting' framing."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "MBTI under the corporate setting",
+      "post": "Corporate Professionals & Team-Oriented Individuals (Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools).",
+      "basis": "Same subject matter (MBTI applied in corporate/professional context). Organizing frame shifts from a brief niche intersection label to a fully scoped audience persona with psychographic attributes, behaviors, and product affinities."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "Anime & Fandom Enthusiasts (Fans of anime, gaming, and internet culture who engage in personality discussions, MBTI character typing, and fandom-driven merchandise, seeking aesthetic, collectible, and shareable identity-reflecting products)."
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "MBTI under the corporate setting",
+      "post_evidence": "Corporate Professionals & Team-Oriented Individuals \u2013 Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools.",
+      "rationale": "Subject matter (MBTI in the corporate context) persists, but the organizing frame shifts: PRE is a brief niche intersection label, POST is a fully scoped audience persona with psychographic attributes, behaviors, and product affinities. Subsumption test fails (the persona is not a 'specific way of being' the niche intersection), so Reframed applies rather than Narrowed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Anime & Fandom Enthusiasts \u2013 Fans of anime, gaming, and internet culture who actively engage in personality discussions, MBTI character typing, and fandom-driven merchandise. They seek aesthetic, collectible, and shareable products that reflect their identity.",
+      "rationale": "POST introduces an anime/gaming/fandom audience segment with no antecedent in PRE. The only PRE concept (corporate-MBTI niche) occupies a different conceptual domain (corporate workplace vs fan subculture). Narrowed/Reframed/Elaborated/Expanded all fail; the only shared umbrella would be 'identity' or 'MBTI broadly,' which is above the abstraction ceiling.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ]
+}

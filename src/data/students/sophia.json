@@ -14,7 +14,298 @@
       "post": {
         "answer": "Beginners at pilates, affordable but good quality, minimalist, mature. I also want to create a community with this brand and not just an item to sell."
       },
-      "artifactCoding": null,
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The PRE is a single phrase naming product inventory (one short descriptor-like fragment). The POST contains five distinct concept units - target audience (beginners), value positioning (affordable but good quality), aesthetic (minimalist), audience trait (mature), and a community-building intent statement - which is a substantial expansion across multiple dimensions of brand identity.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Pilates sets- mat, ring, wrist weights"
+          ],
+          "postConcepts": [
+            "Beginners at pilates",
+            "affordable but good quality",
+            "minimalist",
+            "mature",
+            "create a community with this brand and not just an item to sell"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Pilates sets- mat, ring, wrist weights",
+              "post": "Beginners at pilates",
+              "continuity": "Both reference pilates as product domain",
+              "scope": "PRE describes product offerings; POST describes a target audience",
+              "frame": "Product-offering frame vs target-audience frame",
+              "stretch": "Weak - different semantic roles (what is sold vs who buys)",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Pilates sets- mat, ring, wrist weights",
+              "post": "affordable but good quality",
+              "continuity": "Both concern product/brand attributes",
+              "scope": "PRE describes product set composition; POST describes price-quality positioning",
+              "frame": "Product-inventory frame vs value-positioning frame",
+              "stretch": "Weak - inventory vs pricing/quality attributes",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Pilates sets- mat, ring, wrist weights",
+              "post": "minimalist",
+              "continuity": "Both are brand descriptors",
+              "scope": "PRE is product-listing; POST is an aesthetic descriptor",
+              "frame": "Inventory frame vs aesthetic-style frame",
+              "stretch": "Weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Pilates sets- mat, ring, wrist weights",
+              "post": "mature",
+              "continuity": "Both are descriptors",
+              "scope": "PRE is product-inventory; POST is a target-audience trait",
+              "frame": "Inventory frame vs audience-aesthetic frame",
+              "stretch": "Weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Pilates sets- mat, ring, wrist weights",
+              "post": "create a community with this brand and not just an item to sell",
+              "continuity": "PRE describes items to sell; POST explicitly contrasts community vs items to sell",
+              "scope": "Different - product vs community-building",
+              "frame": "Transactional product frame vs community-building frame",
+              "stretch": "Very weak",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Pilates sets- mat, ring, wrist weights",
+              "post": "mature",
+              "reason": "Product inventory vs audience/aesthetic trait; different conceptual domains"
+            },
+            {
+              "pre": "Pilates sets- mat, ring, wrist weights",
+              "post": "create a community with this brand and not just an item to sell",
+              "reason": "The POST explicitly contrasts community-building against 'items to sell'; PRE is precisely that transactional product-inventory framing, making this near-opposite rather than lineage"
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "Pilates sets- mat, ring, wrist weights"
+          ],
+          "unmatchedPost": [
+            "Beginners at pilates",
+            "affordable but good quality",
+            "minimalist",
+            "mature",
+            "create a community with this brand and not just an item to sell"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Pilates sets- mat, ring, wrist weights",
+              "direction": "removed",
+              "nearestCounterpart": "affordable but good quality",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest POST counterpart is 'affordable but good quality' - both relate to product characterization. Narrowed fails: an inventory listing of mats/rings/wrist weights is not a specific way of being 'affordable but good quality' - subsumption does not hold. Reframed fails: product-inventory frame vs value-positioning frame do not share semantic territory. Elaborated fails: POST does not retain the inventory-list concept. Expanded fails: POST does not broaden an inventory listing seed. After full-response search, all four fail."
+            },
+            {
+              "concept": "Beginners at pilates",
+              "direction": "new",
+              "nearestCounterpart": "Pilates sets- mat, ring, wrist weights",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE is the pilates product listing. Narrowed fails: 'beginners at pilates' (a target audience) is not a specific way of being a product inventory. Reframed fails: target-audience framing and product-inventory framing are different conceptual roles. Elaborated fails: POST does not retain the product-inventory concept. Expanded fails: POST does not broaden the inventory seed into an audience. All four fail; remains New."
+            },
+            {
+              "concept": "affordable but good quality",
+              "direction": "new",
+              "nearestCounterpart": "Pilates sets- mat, ring, wrist weights",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE is the pilates product listing. Narrowed fails: value-positioning is not a specific way of being a product inventory. Reframed fails: value-positioning and inventory-listing are different conceptual frames with no shared semantic territory at a specific level. Elaborated/Expanded fail: POST does not retain or broaden an inventory seed. All four fail; remains New."
+            },
+            {
+              "concept": "minimalist",
+              "direction": "new",
+              "nearestCounterpart": "Pilates sets- mat, ring, wrist weights",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE is the pilates product listing. Narrowed fails: minimalism is not a specific way of being a product inventory list. Reframed fails: an aesthetic-style descriptor and a product inventory list do not share semantic territory at a specific level. Elaborated/Expanded fail: POST does not retain or broaden the inventory. All four fail; remains New."
+            },
+            {
+              "concept": "mature",
+              "direction": "new",
+              "nearestCounterpart": "Pilates sets- mat, ring, wrist weights",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE is the pilates product listing. Narrowed fails: maturity (audience/aesthetic trait) is not a specific way of being a product inventory. Reframed fails: audience/aesthetic trait and product inventory are different conceptual domains. Elaborated/Expanded fail: POST does not retain or broaden the inventory. All four fail; remains New."
+            },
+            {
+              "concept": "create a community with this brand and not just an item to sell",
+              "direction": "new",
+              "nearestCounterpart": "Pilates sets- mat, ring, wrist weights",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE is the pilates product listing. Narrowed fails: community-building intent is not a specific way of being a product inventory. Reframed fails: POST explicitly frames community-building as opposed to 'items to sell' - the frames are nearly inverse rather than sharing semantic territory. Elaborated/Expanded fail: POST does not retain or broaden the inventory concept. All four fail; remains New."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Pilates sets- mat, ring, wrist weights",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "The PRE is a product-inventory listing. No POST successor shares its conceptual frame (inventory of mats/rings/wrist weights). All four transformation codes were properly rejected. Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Beginners at pilates",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Target-audience specification has no defensible PRE antecedent in a product-inventory listing. Different conceptual roles (who buys vs what is sold). Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "affordable but good quality",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Value/quality-price positioning does not share semantic territory with a product-inventory listing at a specific level. Climb-to-umbrella ('brand descriptor') would hit the abstraction ceiling. Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "minimalist",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Aesthetic-style descriptor and product-inventory listing occupy different conceptual frames. No neighborhood at a specific level. Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "mature",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Audience/aesthetic trait and product inventory are different conceptual domains. No defensible lineage. Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "create a community with this brand and not just an item to sell",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "POST explicitly contrasts community-building against 'items to sell,' making the PRE a near-opposite rather than an antecedent. No transformation tier is defensible. Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": "Pilates sets- mat, ring, wrist weights",
+              "post": "affordable but good quality",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Proposed alignment left as null (rejected). Confirmed - inventory listing and value-positioning are different conceptual domains."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti63fww9vt7dr6gnw",
+            "code": "Removed",
+            "preEvidence": "Pilates sets- mat, ring, wrist weights",
+            "postEvidence": null,
+            "rationale": "PRE's product-inventory framing (specific pilates equipment list) has no POST successor sharing its conceptual frame. All transformation codes fail: Narrowed (inventory is not a way of being value-positioning), Reframed (inventory frame vs value/aesthetic/audience frames — no shared specific territory), Elaborated/Expanded (no inventory seed retained or broadened). Removed stands.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti63fww4wrhsx5bdsh",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Beginners at pilates",
+            "rationale": "Target-audience specification introduced in POST. Nearest PRE counterpart is the product-inventory listing; audience-framing and inventory-framing are different conceptual roles. No tier of the ladder is defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti63fwwef4204ehblw",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "affordable but good quality",
+            "rationale": "Value/quality-price positioning introduced in POST. Inventory listing and value-positioning occupy different conceptual frames; 'brand descriptor' is an umbrella above the abstraction ceiling. No defensible antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti63fww518gspp88ro",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "minimalist",
+            "rationale": "Aesthetic-style descriptor introduced in POST. PRE inventory listing shares no specific semantic territory with minimalism. No defensible antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti63fwwqve99ki4zu",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "mature",
+            "rationale": "Audience/aesthetic trait introduced in POST. PRE inventory listing and POST audience specification occupy different conceptual domains. No defensible antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti63fww9a5y8dziwa5",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "create a community with this brand and not just an item to sell",
+            "rationale": "Community-building intent introduced in POST. The POST explicitly frames itself as opposed to 'items to sell,' which is the PRE's territory — making this near-inverse rather than a transformation. No defensible lineage.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "events_possibly_collapsed",
+            "new_removed_recheck_passed",
+            "alignment_null_by_choice"
+          ],
+          "coderNotes": "The PRE contains a single fragmented descriptor ('Pilates sets- mat, ring, wrist weights') that functions more as a product-offering statement than a true adjective-descriptor set. This makes the descriptor_set_special unitization somewhat awkward. The matched_pairs entry for product-inventory vs 'affordable but good quality' was flagged as weak and ultimately left as null; instead the PRE unit is coded Removed and the POST units are each New. Five New events from one PRE unit is unusual but reflects that the POST genuinely introduces five distinct concept categories (audience, value, aesthetic, audience-trait, community-intent) where the PRE only offered product inventory. Student may have genuinely shifted from product-focused to audience/community-focused brand framing. Critic applied 7 correction(s)."
+        }
+      },
       "coderNotes": ""
     },
     {
@@ -28,7 +319,238 @@
       "post": {
         "answer": "To create a brand that prioritizes the well-being of both individuals and the planet."
       },
-      "artifactCoding": null,
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST adds a new dimension (planetary well-being) and reframes the brand-building act more abstractly, while retaining a people-serving component. Net effect is somewhat more content overall: a second priority (planet) is introduced alongside the individual one, and the brand-building verb is generalized. Not a full significant expansion because much of PRE's specificity (audience age, product dependency) is lost rather than elaborated.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "create a space for women aged 18-25",
+            "depend on my items"
+          ],
+          "postConcepts": [
+            "create a brand",
+            "prioritizes well-being of individuals",
+            "prioritizes well-being of the planet"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "create a space for women aged 18-25",
+              "post": "create a brand",
+              "continuity": "Both express the foundational act of building something; weak lexical overlap on 'create'",
+              "scope": "PRE is a specific audience-restricted space; POST is a generic brand creation",
+              "frame": "audience-centric frame → brand-centric frame",
+              "stretch": "Stretching; the audience specificity is lost in POST",
+              "verdict": "weak"
+            },
+            {
+              "pre": "create a space for women aged 18-25",
+              "post": "prioritizes well-being of individuals",
+              "continuity": "Both concern serving/benefiting a population; PRE specifies women 18-25, POST broadens to individuals",
+              "scope": "POST expands the population from a specific subset to all individuals",
+              "frame": "audience-specific care frame → universal well-being frame",
+              "stretch": "Plausible lineage via scope expansion",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "create a space for women aged 18-25",
+              "post": "prioritizes well-being of the planet",
+              "continuity": "Both describe what the brand serves; different domains (people vs planet)",
+              "scope": "Different referents; PRE = audience, POST = planet",
+              "frame": "audience-care frame → planetary-care frame",
+              "stretch": "Different conceptual domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "depend on my items",
+              "post": "create a brand",
+              "continuity": "Weak; depend-on-items is about utility, create-a-brand is about identity-building",
+              "scope": "Different scopes",
+              "frame": "utility/product-reliance frame → brand-building frame",
+              "stretch": "Different conceptual domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "depend on my items",
+              "post": "prioritizes well-being of individuals",
+              "continuity": "Both touch on people benefiting from the brand; weak lineage",
+              "scope": "Different scopes",
+              "frame": "product-dependency frame → well-being prioritization frame",
+              "stretch": "Different conceptual domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "depend on my items",
+              "post": "prioritizes well-being of the planet",
+              "continuity": "Different domains (people-product utility vs planetary care)",
+              "scope": "Different scopes",
+              "frame": "utility frame → planetary-care frame",
+              "stretch": "Different conceptual domains",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "create a space for women aged 18-25",
+              "post": "prioritizes well-being of the planet",
+              "reason": "Different conceptual domains (audience-care vs planetary-care); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+            },
+            {
+              "pre": "depend on my items",
+              "post": "create a brand",
+              "reason": "Different conceptual domains (product-utility vs brand-identity); no shared neighborhood"
+            },
+            {
+              "pre": "depend on my items",
+              "post": "prioritizes well-being of individuals",
+              "reason": "Different conceptual domains; product-dependency is not a subtype or sibling of well-being prioritization"
+            },
+            {
+              "pre": "depend on my items",
+              "post": "prioritizes well-being of the planet",
+              "reason": "Different conceptual domains entirely"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "create a space for women aged 18-25",
+              "post": "prioritizes well-being of individuals",
+              "basis": "Shared neighborhood of audience-oriented care; POST broadens PRE's specific audience to all individuals while retaining the care/serving frame"
+            }
+          ],
+          "unmatchedPre": [
+            "depend on my items"
+          ],
+          "unmatchedPost": [
+            "create a brand",
+            "prioritizes well-being of the planet"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "depend on my items",
+              "direction": "removed",
+              "nearestCounterpart": "create a brand",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested against all POST concepts. Product-dependency is a utility/product-reliance concept; none of POST's concepts (brand-building, individual well-being, planetary well-being) is a specific way of being, sibling of, elaboration of, or expansion of product-dependency. Different conceptual domains."
+            },
+            {
+              "concept": "create a brand",
+              "direction": "new",
+              "nearestCounterpart": "create a space for women aged 18-25",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested against PRE's 'create a space for women aged 18-25'. The two share the verb 'create' but POST drops the specific audience entirely and shifts to a generic brand-identity framing. No subsumption (brand is not a specific kind of space); no sibling territory; no elaboration; no expansion of the audience-specific space. The matched pair for the audience component is already captured separately. Kept as New."
+            },
+            {
+              "concept": "prioritizes well-being of the planet",
+              "direction": "new",
+              "nearestCounterpart": "depend on my items",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested against all PRE concepts. Planetary well-being is a different conceptual domain from product-dependency or audience-care. No tier of the ladder is defensible. Also tested against the matched 'women 18-25' unit — same outcome, different domains."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "create a space for women aged 18-25",
+              "post": "prioritizes well-being of individuals",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "POST broadens PRE's audience (women 18-25) to all individuals while preserving the care/serving frame. Tier 4 holds; antecedent seed (audience-oriented care) is identifiable. Reframed is a plausible alternative but Expanded is better-supported because the scope broadened while the frame stayed substantially the same."
+            },
+            {
+              "type": "confirm",
+              "pre": "depend on my items",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Product-dependency has no defensible POST successor. Tested against all POST concepts; all occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the ladder defensible."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "create a brand",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE counterpart is 'create a space for women aged 18-25', but the matched pair already claims that unit. The remaining structural verb-overlap ('create') is too thin to sustain a transformation, and audience specificity is entirely dropped. Stays as New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "prioritizes well-being of the planet",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Planetary well-being has no PRE antecedent in any domain. Tested against both PRE units; neither people-care nor product-dependency maps to planetary-care. No tier defensible."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti67s2iicc5cbffrlq",
+            "code": "Expanded",
+            "preEvidence": "create a space for women aged 18-25",
+            "postEvidence": "prioritizes well-being of individuals",
+            "rationale": "POST broadens PRE's narrow audience (women 18-25) to all individuals while preserving the care/serving frame. Scope expanded; antecedent seed (audience-oriented care) is identifiable. Tier 4 holds.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (audience-specific frame → universal-well-being frame)"
+          },
+          {
+            "instanceId": "mti67s2i3defcnmtoq2",
+            "code": "Removed",
+            "preEvidence": "depend on my items",
+            "postEvidence": null,
+            "rationale": "Product-dependency / utility-reliance has no defensible POST successor. All POST concepts occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the transformation ladder is defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti67s2iee5k59y3ytt",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "create a brand",
+            "rationale": "POST introduces a generalized brand-building framing. Nearest PRE counterpart is already matched to individual well-being; remaining overlap is only the verb 'create' with the audience dimension dropped. No subsumption, sibling territory, elaboration, or expansion defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti67s2is7wrq9f0iki",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "prioritizes well-being of the planet",
+            "rationale": "POST introduces planetary-care prioritization, which has no antecedent in PRE. Different referent (planet vs people/products); no tier of the ladder defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "possible_missed_event",
+            "vague_to_specific_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The Expanded coding on audience→individuals rests on a clear scope broadening. The Removed on 'depend on my items' is defensible after full-response search, but the student may have implicitly carried the product-utility idea into 'prioritizes well-being' — flagging for audit. Structural development sits between Moderate and Significant; chosen Moderate because a specific audience and product-dependency frame are lost rather than elaborated, partially counterbalancing the additions. Critic applied 4 correction(s)."
+        }
+      },
       "coderNotes": ""
     },
     {
@@ -42,7 +564,285 @@
       "post": {
         "answer": "My brand believes that pilates is a powerful tool for promoting physical and mental well-being. I want my brand to empower young women to try pilates to strengthen their bodies and be in peace with themselves."
       },
-      "artifactCoding": null,
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The post-response contains multiple full clauses and explanatory sentences spanning ~35 words across three semantic units (brand belief about pilates as well-being tool; empowerment of young women to strengthen their bodies; inner peace for themselves). The pre-response is a 3-word adjacency of two generic descriptors with no elaboration. Net structural scope expands considerably.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "eco-friendly",
+            "safe"
+          ],
+          "postConcepts": [
+            "pilates is a powerful tool for promoting physical and mental well-being",
+            "empower young women to try pilates to strengthen their bodies",
+            "be in peace with themselves"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "eco-friendly",
+              "post": "pilates is a powerful tool for promoting physical and mental well-being",
+              "continuity": "topical adjacency only — physical well-being relates loosely to eco/sustainability",
+              "scope": "eco-friendly is environmental sustainability; pilates well-being is bodily/holistic health",
+              "frame": "environmental frame vs bodily/health frame",
+              "stretch": "too broad a stretch",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "eco-friendly",
+              "post": "empower young women to try pilates to strengthen their bodies",
+              "continuity": "no conceptual lineage",
+              "scope": "environmental vs bodily strengthening",
+              "frame": "different domains",
+              "stretch": "forced pairing would be implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "eco-friendly",
+              "post": "be in peace with themselves",
+              "continuity": "no conceptual lineage",
+              "scope": "environmental vs inner peace",
+              "frame": "different domains",
+              "stretch": "forced pairing would be implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "safe",
+              "post": "pilates is a powerful tool for promoting physical and mental well-being",
+              "continuity": "possible loose lineage — safety/well-being share a wellness neighborhood",
+              "scope": "safe is a broad safety/caution attribute; well-being is a richer health concept",
+              "frame": "protective/safety frame vs holistic well-being frame",
+              "stretch": "boundary Case — well-being can encompass physical safety",
+              "verdict": "weak"
+            },
+            {
+              "pre": "safe",
+              "post": "empower young women to try pilates to strengthen their bodies",
+              "continuity": "physical safety is one dimension of bodily strengthening",
+              "scope": "safe is broad; strengthening bodies is a specific mode",
+              "frame": "caution/safety frame vs empowerment/action frame",
+              "stretch": "moderate stretch",
+              "verdict": "weak"
+            },
+            {
+              "pre": "safe",
+              "post": "be in peace with themselves",
+              "continuity": "mental/psychological well-being shares loose neighborhood with safety",
+              "scope": "safe is broad; inner peace is a specific psychological state",
+              "frame": "protection frame vs psychological harmony frame",
+              "stretch": "moderate stretch",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "eco-friendly",
+              "post": "pilates is a powerful tool for promoting physical and mental well-being",
+              "reason": "eco-friendly is environmental sustainability; pilates well-being addresses bodily/holistic health — different conceptual domains; forced pairing would be implausible"
+            },
+            {
+              "pre": "eco-friendly",
+              "post": "empower young women to try pilates to strengthen their bodies",
+              "reason": "environmental sustainability vs body strengthening — different domains"
+            },
+            {
+              "pre": "eco-friendly",
+              "post": "be in peace with themselves",
+              "reason": "environmental vs psychological inner peace — different domains"
+            },
+            {
+              "pre": "safe",
+              "post": "empower young women to try pilates to strengthen their bodies",
+              "reason": "no defensible conceptual lineage; the framing shifts from protective safety to active empowerment with no subsumption; safer to leave unmatched than force a Reframe"
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "eco-friendly",
+            "safe"
+          ],
+          "unmatchedPost": [
+            "pilates is a powerful tool for promoting physical and mental well-being",
+            "empower young women to try pilates to strengthen their bodies",
+            "be in peace with themselves"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "eco-friendly",
+              "direction": "removed",
+              "nearestCounterpart": "pilates is a powerful tool for promoting physical and mental well-being",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "eco-friendly denotes environmental/sustainability values; the POST set addresses pilates, physical/mental well-being, women's empowerment, and inner peace. No environmental or sustainability antecedent exists. Narrowed: 'pilates well-being is a specific way of being eco-friendly' is false, different domains. Reframed: shifted frame would be environmental-to-bodily with no shared territory. Elaborated/Expanded: nothing in POST adds detail to or broadens eco-friendly. Lineage fails across different conceptual domains."
+            },
+            {
+              "concept": "safe",
+              "direction": "removed",
+              "nearestCounterpart": "pilates is a powerful tool for promoting physical and mental well-being",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "safe (broad safety/caution attribute) versus pilates well-being shares only a loose wellness adjacency. Narrowed: 'pilates well-being is a specific way of being safe' — false, well-being is a richer category with a different organizing frame (empowerment vs caution). Reframed: same territory? — partial overlap but the emphasis has shifted from protection to active flourishing; defensible but weak. Elaborated/Expanded: POST does not retain 'safe' as a subset or broaden it. On balance, lineage is not defensible enough to assign a transformation; safe is genuinely absent in framing."
+            },
+            {
+              "concept": "pilates is a powerful tool for promoting physical and mental well-being",
+              "direction": "new",
+              "nearestCounterpart": "safe",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "This is a brand-belief statement about pilates as a tool for well-being. Nearest PRE is 'safe'. Narrowed: 'pilates well-being is a specific way of being safe' — false, different organizing frames. Reframed: partial overlap on wellness but the framing shifts from protective safety to active flourishing — territory not genuinely shared. Elaborated/Expanded: safe is not a seed here. Lineage fails."
+            },
+            {
+              "concept": "empower young women to try pilates to strengthen their bodies",
+              "direction": "new",
+              "nearestCounterpart": "safe",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Audience-and-action statement (young women + pilates + body strengthening). Nearest PRE candidates tested: 'safe'. No conceptual lineage; empowerment is a different conceptual domain from safety. Lineage fails."
+            },
+            {
+              "concept": "be in peace with themselves",
+              "direction": "new",
+              "nearestCounterpart": "safe",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Psychological inner-peace statement. Nearest PRE 'safe' shares only a loose wellness adjacency. Narrowed: 'inner peace is a specific way of being safe' — false. Reframed: psychological vs protective frame; territory not shared. Elaborated/Expanded: no seed. Lineage fails."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "eco-friendly",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "eco-friendly (environmental sustainability) and all POST concepts (pilates, empowerment, inner peace) occupy different conceptual domains. No neighborhood exists. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": "safe",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "safe (protective/caution attribute) vs POST well-being/empowerment/inner-peace cluster. The 'wellness' adjacency is an abstraction-ceiling umbrella; no specific shared semantic territory is nameable that would not also fit eco-friendly. No defensible transformation. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "pilates is a powerful tool for promoting physical and mental well-being",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Brand-belief statement about pilates and well-being. Nearest PRE antecedent is 'safe'; lineage fails on all four tiers (different frames: protective-safety vs active-flourishing). No neighborhood; New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "empower young women to try pilates to strengthen their bodies",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Audience-and-action statement. No PRE antecedent supports Narrowed/Reframed/Elaborated/Expanded. Different conceptual domain from both eco-friendly and safe."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "be in peace with themselves",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Psychological inner-peace statement. Looseness with 'safe' is wellness-umbrella adjacency, not a nameable shared semantic territory. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6423c3vm6bimwv92",
+            "code": "Removed",
+            "preEvidence": "eco-friendly",
+            "postEvidence": null,
+            "rationale": "Environmental/sustainability value has no counterpart in POST set (pilates, empowerment, inner peace). Different conceptual domains.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6423cc21p6ri0z7s",
+            "code": "Removed",
+            "preEvidence": "safe",
+            "postEvidence": null,
+            "rationale": "Protective/caution attribute shares only a loose wellness umbrella with POST; no specific shared semantic territory nameable without hitting abstraction ceiling.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6423csvkkh1uoilb",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "My brand believes that pilates is a powerful tool for promoting physical and mental well-being.",
+            "rationale": "Brand-belief statement about pilates and holistic well-being. No PRE antecedent survives ladder test.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6423cbsglelf5xam",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "empower young women to try pilates to strengthen their bodies",
+            "rationale": "Audience-and-action statement. No PRE antecedent in either eco-friendly or safe.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6423c8b5z116gog4",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "be in peace with themselves",
+            "rationale": "Psychological inner-peace statement. Nearest PRE 'safe' shares only wellness-umbrella adjacency; not a nameable shared territory.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [
+          {
+            "instanceId": "mti6423cv8yqqiae97s",
+            "code": "Personal Background",
+            "evidence": "I want my brand to empower young women to try pilates to strengthen their bodies and be in peace with themselves.",
+            "rationale": "First-person articulation of brand intent and the population the student aims to serve connects brand positioning to a personal vision (implicit identification with the target audience of young women and pilates). This is direct textual evidence of personal investment/relation rather than purely inferred agency.",
+            "confidence": "low"
+          }
+        ],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "possible_missed_event",
+            "alignment_null_by_choice",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "PRE is two very generic descriptors ('eco-friendly', 'safe'); POST is a long, multi-clause brand-belief statement with three atomic units. The full-cross-product evaluation found no defensible lineage (Narrowed/Reframed/Elaborated/Expanded) between any PRE descriptor and any POST concept: eco-friendly is environmental and POST is bodily/wellness; 'safe' is protective while POST is actively empowerment/well-being. All five events thus resolve to Removed+New+New+New+New. Although NEW+REMOVED-only outputs are flagged as suspicious in the rules, in this descriptor-set case the absence of any shared semantic territory between eco-friendly, safe and the pilates/well-being/empowerment/inner-peace POST set is genuine, and the MANDATORY-NEW-REMOVED-RECHECK was performed for each event. The 'safe' → well-being pairing was the closest near-match and was explicitly tested; subsumption fails, frame shifts from caution/protection to active flourishing. Personal Background coded at low confidence because the student uses 'I want' language but does not explicitly cite prior experience, biography, or self-history — the evidence is personal investment rather than biographical metacognition. Critic applied 5 correction(s)."
+        }
+      },
       "coderNotes": ""
     },
     {
@@ -70,7 +870,120 @@
       "post": {
         "answer": "Female students aged 18-25 who are interested in safe Pilates equipment"
       },
-      "artifactCoding": null,
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "PRE and POST responses are character-for-character identical. No clauses added, removed, or elaborated at any structural level.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Female students aged 18-25",
+            "interested in safe Pilates equipment"
+          ],
+          "postConcepts": [
+            "Female students aged 18-25",
+            "interested in safe Pilates equipment"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Female students aged 18-25",
+              "post": "Female students aged 18-25",
+              "continuity": "identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Female students aged 18-25",
+              "post": "interested in safe Pilates equipment",
+              "continuity": "demographic vs psychographic/interests",
+              "scope": "different category",
+              "frame": "demographic vs interest-based",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "interested in safe Pilates equipment",
+              "post": "Female students aged 18-25",
+              "continuity": "interest-based vs demographic",
+              "scope": "different category",
+              "frame": "interest vs demographic",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "interested in safe Pilates equipment",
+              "post": "interested in safe Pilates equipment",
+              "continuity": "identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Female students aged 18-25",
+              "post": "interested in safe Pilates equipment",
+              "reason": "Cross-category alignment (demographic to interest/psychographic); not the strongest semantic successor and would force a pairing across different conceptual domains."
+            },
+            {
+              "pre": "interested in safe Pilates equipment",
+              "post": "Female students aged 18-25",
+              "reason": "Cross-category alignment (interest to demographic); different conceptual domains, no semantic lineage."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Female students aged 18-25",
+              "post": "Female students aged 18-25",
+              "basis": "identical string, identical demographic scope"
+            },
+            {
+              "pre": "interested in safe Pilates equipment",
+              "post": "interested in safe Pilates equipment",
+              "basis": "identical string, identical psychographic/interests scope"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Female students aged 18-25",
+              "post": "Female students aged 18-25",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+            },
+            {
+              "type": "confirm",
+              "pre": "interested in safe Pilates equipment",
+              "post": "interested in safe Pilates equipment",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Cross-category pairings (demographic ↔ interest/psychographic) correctly rejected — no shared semantic neighborhood and no defensible lineage. Both rejected_alignments stand."
+            }
+          ]
+        },
+        "semanticChanges": [],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "PRE and POST responses are identical. No semantic events warranted. Empty new_removed_recheck array because no provisional New or Removed events exist (no removed/new to recheck). Critic applied 3 correction(s)."
+        }
+      },
       "coderNotes": ""
     },
     {
@@ -98,7 +1011,121 @@
       "post": {
         "answer": "Someone who may travel frequently and might want to keep their pilates routine consistent and on the go."
       },
-      "artifactCoding": null,
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST provides a single, more elaborated audience description with an additional activity-context clause (travel + on-the-go pilates maintenance), whereas PRE offered two parallel descriptors (active people; women into health). The response becomes more explanatory about the specific behavioral context but does not expand to multiple new dimensions.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "active people",
+            "women into health"
+          ],
+          "postConcepts": [
+            "frequent traveler who wants to keep pilates routine consistent on the go"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "active people",
+              "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+              "continuity": "Both describe an active lifestyle segment; activity is a shared trait",
+              "scope": "Active people is a broad activity descriptor; traveler with consistent pilates is a more specific active subset",
+              "frame": "Pre frames niche as a general activity-oriented audience; post frames niche around a specific activity (pilates) maintained through mobility/travel",
+              "stretch": "Moderate; both reside in active-lifestyle audience neighborhood",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "women into health",
+              "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+              "continuity": "Pilates/fitness interest relates to health interest; gendered framing in PRE is absent in POST",
+              "scope": "Women into health is broad gender+interest; post is activity-specific and ungendered",
+              "frame": "Pre: gender+health-interest audience; post: activity-maintenance audience",
+              "stretch": "Strong stretch due to gender framing and activity narrowing",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "women into health",
+              "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+              "reason": "Gendered framing in PRE is absent in POST; assigning this as the antecedent would force one PRE unit to serve a different transformation; the active-lifestyle neighborhood is better carried by 'active people'."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "active people",
+              "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+              "basis": "Both describe an active-lifestyle audience; POST specifies the activity (pilates) and a context (frequent travel) that maintains the activity. POST is a proper subset of PRE (Narrowed)."
+            }
+          ],
+          "unmatchedPre": [
+            "women into health"
+          ],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "women into health",
+              "direction": "removed",
+              "nearestCounterpart": "frequent traveler who wants to keep pilates routine consistent on the go",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE specifies a gender-restricted health-interested audience ('women who are into health'); POST is ungendered and activity-specific (pilates/travel). Narrowed fails (pilates traveler is not a subset of 'women into health' — gender removed). Reframed fails (territory not shared — gendered audience vs travel/pilates maintenance niche are different conceptual domains; audience-categorical vs activity-contextual). Elaborated fails (POST does not retain women-into-health intact). Expanded fails (POST does not broaden the gender+health seed — it drops the gender and replaces the interest). No defensible transformation; Removed."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "active people",
+              "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Pass-1 Narrowed is correct. PRE 'active people' is a generic audience label (PRE-genericness signal satisfied); POST is a specific active subpopulation (pilates-practicing frequent traveler). Subsumption test holds: 'a frequent-traveler maintaining pilates is a specific way of being active people.' Reframed would require a sibling territory rather than a subset, which is not the case here."
+            },
+            {
+              "type": "confirm",
+              "pre": "women into health",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Stage 1 neighborhood gate: gendered health-interested audience and activity-maintenance traveler niche are topically adjacent but do not share a nameable specific neighborhood. PRE specifies gender (women) + general health interest; POST is ungendered and activity-specific (pilates + travel). All four ladder tiers fail as pass-1 documented. No available PRE unit in unmatched_pre to restore lineage with. Confirm Removed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti64124rgafg7wxp1l",
+            "code": "Narrowed",
+            "preEvidence": "active people",
+            "postEvidence": "frequent traveler who wants to keep pilates routine consistent on the go",
+            "rationale": "POST is a specific way of being PRE: a frequent-traveler maintaining pilates is a specific active subpopulation of the generic 'active people' audience. PRE-genericness signal applies; subsumption holds.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti64124x1511v5pdo",
+            "code": "Removed",
+            "preEvidence": "women who are into health",
+            "postEvidence": null,
+            "rationale": "Gender-restricted health-interested audience has no defensible successor in POST. All four ladder tiers tested against the only POST concept and failed: pilates/travel-maintenance niche is not a subset of women-into-health (gender dropped), not a sibling territory (audience-categorical vs activity-contextual), does not retain PRE intact, and does not broaden the gender+health seed. Topical adjacency only; no neighborhood relation.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "new_removed_recheck_passed",
+            "boundary_case_narrow_vs_reframe"
+          ],
+          "coderNotes": "Narrowed for 'active people' → frequent-traveler-with-pilates rests on VAGUE-vs-SPECIFIC / NARROW-ABSTRACT, since the PRE is a generic activity label and POST concretises it; subsumption is defensible but not uncontroversial. The Removed event for the women-into-health clause survived re-check because the gendered-audience frame does not carry into POST. Critic applied 2 correction(s)."
+        }
+      },
       "coderNotes": ""
     },
     {
@@ -112,7 +1139,121 @@
       "post": {
         "answer": "TikTok linking it to an amazon storefront"
       },
-      "artifactCoding": null,
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "The post-response adds the integration with an Amazon storefront (a new commerce-based platform) and specifies the linking mechanism, while retaining the TikTok reference. This is a meaningful addition at the clause level — the response now identifies two platforms and a connection between them — but the change is contained rather than transformative.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "TikTok"
+          ],
+          "postConcepts": [
+            "TikTok",
+            "Amazon storefront (commerce platform)"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "TikTok",
+              "post": "TikTok",
+              "continuity": "Same platform named explicitly in both responses",
+              "scope": "Identical scope",
+              "frame": "Same frame",
+              "stretch": "No stretch",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "TikTok",
+              "post": "Amazon storefront (commerce platform)",
+              "continuity": "Different platform types (content vs commerce)",
+              "scope": "POST adds a second, distinct platform category",
+              "frame": "Different frame",
+              "stretch": "Implausible — different platform domains",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "TikTok",
+              "post": "Amazon storefront",
+              "reason": "Different platform domains (content vs commerce); an implausible match would be worse than a New event for the commerce-platform concept."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "TikTok",
+              "post": "TikTok",
+              "basis": "Identical platform named in both responses; the elaboration about linking to Amazon is additive detail on TikTok usage."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Amazon storefront (commerce platform)"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Amazon storefront (commerce platform)",
+              "direction": "new",
+              "nearestCounterpart": "TikTok",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is TikTok (content platform). Tested Narrowed: an Amazon storefront is not a specific way of being TikTok. Tested Reframed: TikTok (content-based platform) and Amazon (commerce-based platform) occupy different conceptual domains — they are distinct platform types within the survey's own categorization, not the same semantic territory with a shifted frame. Tested Elaborated: Amazon storefront is not TikTok + added detail. Tested Expanded: there is no TikTok seed from which Amazon storefront grows by broadening. The question itself distinguishes content-based from commerce-based platforms, confirming different conceptual domains. No transformation code is defensible; New is correct."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "TikTok",
+              "post": "TikTok",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same platform persists across PRE/POST; POST adds functional detail (linking to Amazon storefront) without shifting the organizing frame. Elaborated is correct; Reframed would require the frame to change, which it does not here."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Amazon storefront (commerce platform)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "TikTok (content platform) and Amazon storefront (commerce platform) occupy different conceptual domains per the survey's own categorization. The nearest-counterpart search tested all four transformation tiers and all failed. No shared semantic neighborhood at a specific level — 'platform choice' is an umbrella that proves nothing. New is correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti648wk5ku1x1maxdn",
+            "code": "Elaborated",
+            "preEvidence": "TikTok for now",
+            "postEvidence": "TikTok linking it to an amazon storefront",
+            "rationale": "TikTok as the chosen branding platform persists across both responses. The POST version adds functional detail (linking to an Amazon storefront) without shifting the platform choice or its organizing frame (TikTok as branding channel).",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti648wktr4bx42m3v",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "amazon storefront",
+            "rationale": "The Amazon storefront (commerce-based platform) has no antecedent in PRE, which names only TikTok (content-based platform). These sit in different conceptual domains (content vs commerce platforms), as the survey itself categorizes them. Mandatory nearest-counterpart search tested Narrowed, Reframed, Elaborated, and Expanded against TikTok; all four fail. No transformation code is defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Removed+New pair with TikTok (Narrowed considered and rejected on different-domain grounds)"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Elaborated vs. Reframed is mildly arguable for the TikTok→TikTok+linking pair because the added 'linking it to an amazon storefront' could be read as reconceiving TikTok's role (from standalone branding channel to funnel-driving channel). However, TikTok as the brand platform remains intact and the added material is functional detail about how it will be used, so Elaborated is the better-supported verdict. Recorded alternative_considered as Reframed. Critic applied 2 correction(s)."
+        }
+      },
       "coderNotes": ""
     },
     {
@@ -126,7 +1267,211 @@
       "post": {
         "answer": "Mostly thinking of short videos using the equipment. For example- \"three pilates moves to do before your day\" and the person is using the equipment."
       },
-      "artifactCoding": null,
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE is a three-word non-answer ('no idea yet') with no articulated content strategy. POST contains multiple complete clauses specifying format (short videos), subject (pilates moves to do before your day), and approach (person using the equipment). The post-response introduces an entire content strategy where the pre-response had none. This is a substantial expansion at the clause and sentence level.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "no content strategy articulated"
+          ],
+          "postConcepts": [
+            "short videos",
+            "pilates moves to do before your day",
+            "using the equipment",
+            "demonstrating exercises with equipment"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "no content strategy articulated",
+              "post": "short videos",
+              "continuity": "no direct conceptual continuity; PRE is a placeholder",
+              "scope": "PRE = null/silent; POST = specific format",
+              "frame": "PRE has no frame; POST frames as video content",
+              "stretch": "strong stretch; PRE contains nothing to map",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "no content strategy articulated",
+              "post": "pilates moves to do before your day",
+              "continuity": "no direct conceptual continuity",
+              "scope": "PRE = null/silent; POST = specific topic",
+              "frame": "PRE has no frame; POST frames as exercise demonstration",
+              "stretch": "strong stretch",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "no content strategy articulated",
+              "post": "using the equipment",
+              "continuity": "no direct conceptual continuity",
+              "scope": "PRE = null/silent; POST = specific subject",
+              "frame": "PRE has no frame; POST frames as product-focused demo",
+              "stretch": "strong stretch",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "no content strategy articulated",
+              "post": "short videos",
+              "reason": "PRE contains no articulated concept; cannot pair a placeholder absence with a substantive POST concept via lineage"
+            },
+            {
+              "pre": "no content strategy articulated",
+              "post": "pilates moves to do before your day",
+              "reason": "PRE has no content to map; this is not a lineage question"
+            },
+            {
+              "pre": "no content strategy articulated",
+              "post": "using the equipment",
+              "reason": "PRE has no content to map; this is not a lineage question"
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "no content strategy articulated"
+          ],
+          "unmatchedPost": [
+            "short videos",
+            "pilates moves to do before your day",
+            "using the equipment"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "no content strategy articulated",
+              "direction": "removed",
+              "nearestCounterpart": "short videos",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "PRE is a placeholder non-answer ('no idea yet'), not a concept. The nearest POST counterpart 'short videos' cannot be Narrowed, Reframed, Elaborated, or Expanded from 'no idea yet' because there is no antecedent idea to transform. However, since PRE contains no articulated concept at all, this is not a true Removed event — it is the absence of prior content. The corresponding New events for the actual content ideas introduced in POST stand on their own. Treating the placeholder as Removed would be incorrect; the PRE simply has nothing to remove."
+            },
+            {
+              "concept": "short videos",
+              "direction": "new",
+              "nearestCounterpart": "no idea yet",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is the placeholder 'no idea yet', which contains no concept, scope, or frame that could be Narrowed, Reframed, Elaborated, or Expanded into 'short videos'. Full PRE set searched; no other antecedent exists. Genuinely New."
+            },
+            {
+              "concept": "pilates moves to do before your day",
+              "direction": "new",
+              "nearestCounterpart": "no idea yet",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is 'no idea yet'. No antecedent idea exists in PRE. Full PRE set searched. Genuinely New."
+            },
+            {
+              "concept": "using the equipment",
+              "direction": "new",
+              "nearestCounterpart": "no idea yet",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is 'no idea yet'. No antecedent exists. Full PRE set searched. Genuinely New."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "short videos",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "PRE is a placeholder 'no content strategy articulated' containing no concept, frame, or scope. No tier of the ladder can be applied from a null antecedent. The New event stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "pilates moves to do before your day",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "PRE contains no articulated concept. Cannot test Narrowed/Reframed/Elaborated/Expanded against a null antecedent. Genuinely New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "using the equipment",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "PRE is a placeholder absence. No antecedent concept exists to transform. Genuinely New."
+            },
+            {
+              "type": "confirm",
+              "pre": "no content strategy articulated",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": null,
+              "reason": "Pass-1 correctly did not emit a Removed event for the placeholder PRE. A non-answer is not a removable concept; it is the absence of prior content. Confirming the decision not to manufacture a Removed counterpart."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "demonstrating exercises with equipment",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Not present in proposed_semantic_events. Listed in post_concepts but not coded as a separate event; the pass-1 inventory treats 'using the equipment' and 'demonstrating exercises with equipment' as overlapping rather than distinct units. No correction needed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti64gqa2awuz2tb1nb",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Mostly thinking of short videos",
+            "rationale": "The PRE response contains a placeholder non-answer ('no content strategy articulated'), not an articulated concept. There is no antecedent idea, frame, or scope that could be Narrowed, Reframed, Elaborated, or Expanded into 'short videos'. The student introduces a new content format with no available lineage. The placeholder PRE is not coded as Removed because a non-answer is not a removable concept — it is the absence of prior content.",
+            "confidence": "high",
+            "alternativeConsidered": "Treated the PRE as Removed to pair with a transformation; rejected because a placeholder absence has no concept to remove."
+          },
+          {
+            "instanceId": "mti64gqa30jofljagcl",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "three pilates moves to do before your day",
+            "rationale": "No PRE antecedent exists (placeholder absence only). The student introduces a specific content topic with no available lineage. Cannot test any transformation tier against a null antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "None."
+          },
+          {
+            "instanceId": "mti64gqa1qozg5ww75c",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "the person is using the equipment",
+            "rationale": "No PRE antecedent exists. The student introduces a demonstration approach with no available lineage. Cannot test any transformation tier against a null antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "None."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "PRE response is a placeholder ('no idea yet') rather than an articulated concept set. Treated as containing no semantic content rather than as a single Removed unit. The three POST clauses are coded as separate New events because they represent distinct semantic introductions (format, topic, approach). The 'no idea yet' placeholder does not constitute a concept that can be removed — it is the absence of a prior answer, and forcing a Removed event would incorrectly imply a prior idea was discarded. Critic applied 5 correction(s)."
+        }
+      },
       "coderNotes": ""
     },
     {
@@ -140,7 +1485,231 @@
       "post": {
         "answer": "Eco-friendly equipment, easily packable for travel"
       },
-      "artifactCoding": null,
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "PRE contains three short attributes (pilates equipment, safe, eco-friendly). POST retains eco-friendly (slightly elaborated into 'Eco-friendly equipment'), drops the 'safe' attribute, and adds a new attribute ('easily packable for travel'). One new meaningful attribute is added and one is removed, producing a roughly equivalent length but a net shift in content — a moderate structural change rather than pure no-change.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "pilates equipment",
+            "safe",
+            "eco-friendly"
+          ],
+          "postConcepts": [
+            "Eco-friendly equipment",
+            "easily packable for travel"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "pilates equipment",
+              "post": "Eco-friendly equipment",
+              "continuity": "Same product category; 'Eco-friendly equipment' is a more specified form of 'pilates equipment'",
+              "scope": "POST retains same product type but qualifies it with the eco-friendly attribute already present in PRE",
+              "frame": "PRE frames as pilates equipment; POST retains equipment category but drops explicit pilates mention",
+              "stretch": "Mild stretch — the pilates identity is no longer explicit in POST, though it may be implicit",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "safe",
+              "post": "Eco-friendly equipment",
+              "continuity": "Both are product qualities/attributes of equipment",
+              "scope": "Both are attribute-level descriptors applied to the equipment",
+              "frame": "PRE = safety property; POST = environmental property (different attribute categories)",
+              "stretch": "Reasonable candidate as parallel attribute, but different attribute type",
+              "verdict": "weak"
+            },
+            {
+              "pre": "safe",
+              "post": "easily packable for travel",
+              "continuity": "Both are product quality attributes",
+              "scope": "Both add attributes to the equipment",
+              "frame": "PRE = safety; POST = portability/utility",
+              "stretch": "Different attribute categories (safety vs convenience/portability)",
+              "verdict": "weak"
+            },
+            {
+              "pre": "eco-friendly",
+              "post": "Eco-friendly equipment",
+              "continuity": "Direct lexical and semantic overlap",
+              "scope": "Same environmental attribute",
+              "frame": "Environmental/sustainability frame preserved",
+              "stretch": "Minimal stretch; essentially the same idea, possibly elaborated as applying to the equipment as a whole",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "eco-friendly",
+              "post": "easily packable for travel",
+              "continuity": "Both are product attributes",
+              "scope": "Attribute-level descriptors",
+              "frame": "Environmental vs portability — different attribute dimensions",
+              "stretch": "Cross-category attributes",
+              "verdict": "weak"
+            },
+            {
+              "pre": "pilates equipment",
+              "post": "easily packable for travel",
+              "continuity": "Both relate to the product offering, but one is the product itself and the other is an attribute",
+              "scope": "Different levels — product category vs product attribute",
+              "frame": "Product category vs convenience attribute",
+              "stretch": "Difficult to defend as a direct conceptual successor",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "pilates equipment",
+              "post": "easily packable for travel",
+              "reason": "Product category cannot be subsumed, reframed, elaborated, or expanded into a portability attribute; different conceptual levels."
+            },
+            {
+              "pre": "safe",
+              "post": "Eco-friendly equipment",
+              "reason": "Safety attribute and environmental attribute occupy different attribute dimensions; no defensible lineage."
+            },
+            {
+              "pre": "safe",
+              "post": "easily packable for travel",
+              "reason": "Safety and portability are different attribute categories; pairing would be forced."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "eco-friendly",
+              "post": "Eco-friendly equipment",
+              "basis": "Direct lexical/semantic overlap; the eco-friendly attribute is preserved and now explicitly scoped to the equipment category."
+            }
+          ],
+          "unmatchedPre": [
+            "safe",
+            "pilates equipment"
+          ],
+          "unmatchedPost": [
+            "easily packable for travel"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "safe",
+              "direction": "removed",
+              "nearestCounterpart": "easily packable for travel",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Safety and portability are different product-attribute dimensions. 'Portable' is not a specific way of being 'safe'; the frames differ (user-protection vs convenience/travel-readiness); POST does not elaborate or broaden the safety concept. No defensible transformation. Full-response search performed; no other POST concept could serve as a successor."
+            },
+            {
+              "concept": "easily packable for travel",
+              "direction": "new",
+              "nearestCounterpart": "safe",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Portability for travel is a new convenience/utility attribute absent from PRE. It is not a narrowing, reframing, elaboration, or expansion of 'safe' — they are different attribute dimensions. Full-response search performed."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "reject_pairing",
+              "pre": "pilates equipment",
+              "post": "easily packable for travel",
+              "fromCode": "Narrowed",
+              "toCode": null,
+              "reason": "Pairing is implausible: 'pilates equipment' is a product category; 'easily packable for travel' is a portability attribute on that category. Different conceptual levels. The pass-1 rationale itself concedes the match is weak and the 'pilates' specification is lost. Per 'AN IMPLAUSIBLE MATCH IS WORSE THAN REMOVED + NEW', the product category and the new attribute should be split: Removed (pilates equipment) + New (easily packable for travel). However, since 'Eco-friendly equipment' already absorbs the equipment category with stronger continuity, the best reading is: 'Eco-friendly equipment' elaborates both 'eco-friendly' (attribute) and implicitly the equipment category, while 'pilates equipment' is reduced/removed (the pilates specialization is dropped) and 'easily packable for travel' is a genuinely new attribute."
+            },
+            {
+              "type": "recode",
+              "pre": "eco-friendly",
+              "post": "Eco-friendly equipment",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Confirm: same underlying eco-friendly attribute, now attached to equipment as referent. This is classic Elaborated (adds product scope to attribute) per BC-P001. Narrowed would require subsumption — 'Eco-friendly equipment' is not a specific way of being 'eco-friendly' (an attribute cannot subsume a category-bound noun phrase)."
+            },
+            {
+              "type": "recode",
+              "pre": "pilates equipment",
+              "post": null,
+              "fromCode": "Narrowed",
+              "toCode": "Removed",
+              "reason": "Reject the forced Narrowed pairing with 'easily packable for travel'. 'Pilates equipment' has no defensible transformation successor in POST; the pilates specialization is dropped. However, since 'Eco-friendly equipment' retains the equipment category (with a different specialization), the pilates-specific concept is Removed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "easily packable for travel",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Confirm: portability-for-travel is a new attribute absent from PRE; nearest PRE counterpart 'safe' is a different attribute dimension (user protection vs travel convenience). All four transformation codes fail. Confidence high."
+            },
+            {
+              "type": "confirm",
+              "pre": "safe",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Confirm: 'safe' has no POST successor. Safety attribute vs portability/eco attributes — different attribute dimensions. Full-response search exhausted. Confidence high."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti64kmwav01lpz7s4r",
+            "code": "Elaborated",
+            "preEvidence": "eco-friendly",
+            "postEvidence": "Eco-friendly equipment",
+            "rationale": "The eco-friendly attribute is preserved and now explicitly attached to the equipment as its referent. Same conceptual frame (environmental/sustainability); only product scope is added. Per BC-P001, adding a noun scope to an existing attribute is Elaborated, not Narrowed (no subsumption — an attribute does not subsume an attribute-applied-to-noun phrase).",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti64kmwvvu25fra0od",
+            "code": "Removed",
+            "preEvidence": "safe",
+            "postEvidence": null,
+            "rationale": "The 'safe' attribute has no successor in POST. Nearest POST concepts ('Eco-friendly equipment', 'easily packable for travel') occupy different attribute dimensions (environmental, portability). Subsumption, reframing, elaboration, and expansion all fail. Full-response search performed.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti64kmwwbukhmbyfx",
+            "code": "Removed",
+            "preEvidence": "pilates equipment",
+            "postEvidence": null,
+            "rationale": "The 'pilates equipment' category loses its pilates specialization in POST. 'Eco-friendly equipment' retains the equipment category but not the pilates specification. Pairing 'pilates equipment' with 'easily packable for travel' would be implausible (category vs attribute, different conceptual levels). 'Pilates' as a specific product focus is dropped.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti64kmwxgdluuhohq",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "easily packable for travel",
+            "rationale": "A new portability/convenience attribute is introduced. Nearest PRE counterparts ('safe', 'eco-friendly') are different attribute dimensions. All four transformation codes fail. Full-response search performed.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_narrow",
+            "possible_missed_event",
+            "neighborhood_tested_no_lineage",
+            "new_removed_recheck_passed",
+            "forced_pairing_rejected",
+            "alignment_null_by_choice"
+          ],
+          "coderNotes": "The pilates-equipment → easily-packable-for-travel pairing is awkward: 'easily packable for travel' is an attribute, not a narrower version of the product category. Treated it as a weak Narrowed because the equipment category persists as the referent of the new attribute, but the lost 'pilates' specification is not separately captured as a Removed event (it is implicitly absorbed into the retained equipment category). The 'safe' attribute removal and the 'packable for travel' addition are clean. Overall confidence is medium due to the ambiguous pilates/equipment boundary handling. Critic applied 5 correction(s)."
+        }
+      },
       "coderNotes": ""
     },
     {
@@ -192,8 +1761,12 @@
       "questionId": "Pre-Survey 2 / Post-Survey 2",
       "label": "Personal Brand Confidence",
       "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating a small personal brand on social media at the moment?",
-      "pre": { "answer": 4 },
-      "post": { "answer": 7 },
+      "pre": {
+        "answer": 4
+      },
+      "post": {
+        "answer": 7
+      },
       "artifactCoding": null,
       "coderNotes": ""
     },
@@ -202,8 +1775,12 @@
       "questionId": "Pre-Survey 4 / Post-Survey 3",
       "label": "Independent Brand Creation Confidence",
       "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating this brand all by yourself at the moment?",
-      "pre": { "answer": 5 },
-      "post": { "answer": 7 },
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 7
+      },
       "artifactCoding": null,
       "coderNotes": ""
     }

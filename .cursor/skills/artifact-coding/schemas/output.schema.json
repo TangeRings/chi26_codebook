@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "artifact-coding-output",
   "title": "ArtifactCodingOutput",
-  "description": "Structured coding output for one PRE/POST artifact pair. Produced by the artifact-coding skill following the 11-step concept-inventory-first procedure.",
+  "description": "Structured coding output for one PRE/POST artifact pair. Produced by the artifact-coding skill following the unitization → inventory → cross-product → critique procedure.",
   "type": "object",
   "required": ["coding_unit", "structural_development", "semantic_events", "uncertainty"],
   "additionalProperties": false,
@@ -21,22 +21,75 @@
 
     "concept_alignment": {
       "type": "object",
-      "description": "Optional but strongly preferred. Records the PRE/POST concept inventories and global alignment produced before classification.",
+      "description": "Optional but strongly preferred. Records unitization, inventories, candidate/rejected alignments, and final matches produced before classification.",
       "additionalProperties": false,
       "properties": {
+        "unitization_mode": {
+          "type": "string",
+          "enum": ["descriptor_set_special", "semantic_phrase", "scoped_category"],
+          "description": "Segmentation strategy used before inventory. descriptor_set_special is reserved for Q1a Brand Identity and Q1c Core Values."
+        },
         "pre_concepts": {
           "type": "array",
-          "description": "Unordered inventory of distinct concepts identified in PRE.",
+          "description": "Unordered inventory of distinct atomic concepts identified in PRE.",
           "items": { "type": "string" }
         },
         "post_concepts": {
           "type": "array",
-          "description": "Unordered inventory of distinct concepts identified in POST.",
+          "description": "Unordered inventory of distinct atomic concepts identified in POST.",
           "items": { "type": "string" }
+        },
+        "candidate_alignments": {
+          "type": "array",
+          "description": "Full (or relevant) PRE × POST cross-product assessments before final selection.",
+          "items": {
+            "type": "object",
+            "required": ["pre", "post"],
+            "additionalProperties": false,
+            "properties": {
+              "pre": { "type": "string" },
+              "post": { "type": "string" },
+              "continuity": {
+                "type": "string",
+                "description": "Brief assessment of conceptual continuity / semantic role."
+              },
+              "scope": {
+                "type": "string",
+                "description": "Brief assessment of scope relationship (narrower/broader/same/unclear)."
+              },
+              "frame": {
+                "type": "string",
+                "description": "Brief assessment of frame relationship."
+              },
+              "stretch": {
+                "type": "string",
+                "description": "Whether the pairing requires interpretive stretch, and how much."
+              },
+              "verdict": {
+                "type": "string",
+                "enum": ["plausible", "weak", "implausible"],
+                "description": "Candidate viability before final selection."
+              }
+            }
+          }
+        },
+        "rejected_alignments": {
+          "type": "array",
+          "description": "Candidate pairings rejected during alignment critique.",
+          "items": {
+            "type": "object",
+            "required": ["pre", "post", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "pre": { "type": "string" },
+              "post": { "type": "string" },
+              "reason": { "type": "string" }
+            }
+          }
         },
         "matched_pairs": {
           "type": "array",
-          "description": "Global conceptual matches. Cross-position matches are expected.",
+          "description": "Final provisional/global conceptual matches after critique. Cross-position matches are expected. NULL is allowed by omission.",
           "items": {
             "type": "object",
             "required": ["pre", "post"],
@@ -53,18 +106,79 @@
         },
         "unmatched_pre": {
           "type": "array",
-          "description": "PRE concepts with no plausible POST successor after a full-response search.",
+          "description": "PRE concepts with no plausible POST successor after candidate comparison and full-response search.",
           "items": { "type": "string" }
         },
         "unmatched_post": {
           "type": "array",
-          "description": "POST concepts with no plausible PRE antecedent after a full-response search.",
+          "description": "POST concepts with no plausible PRE antecedent after candidate comparison and full-response search.",
           "items": { "type": "string" }
         },
         "order_only_changes": {
           "type": "array",
           "description": "Observed reorderings that were deliberately not coded as semantic events.",
           "items": { "type": "string" }
+        },
+        "new_removed_recheck": {
+          "type": "array",
+          "description": "Mandatory nearest-counterpart search performed before finalizing any New or Removed. Every New/Removed event must have a corresponding entry here.",
+          "items": {
+            "type": "object",
+            "required": ["concept", "direction", "outcome"],
+            "additionalProperties": false,
+            "properties": {
+              "concept": {
+                "type": "string",
+                "description": "The provisional New or Removed concept being re-checked."
+              },
+              "direction": {
+                "type": "string",
+                "enum": ["new", "removed"],
+                "description": "Whether the search was for a PRE antecedent (new) or a POST successor (removed)."
+              },
+              "nearest_counterpart": {
+                "type": ["string", "null"],
+                "description": "The nearest semantic counterpart found in the opposite response, or null if none exists at all."
+              },
+              "codes_tested": {
+                "type": "array",
+                "description": "Transformation codes explicitly tested against the nearest counterpart.",
+                "items": {
+                  "type": "string",
+                  "enum": ["Narrowed", "Reframed", "Elaborated", "Expanded"]
+                }
+              },
+              "outcome": {
+                "type": "string",
+                "enum": ["kept", "converted"],
+                "description": "kept = remained New/Removed after all four tests failed. converted = replaced by a matched transformation event."
+              },
+              "reason": {
+                "type": "string",
+                "description": "Concise justification for the outcome."
+              }
+            }
+          }
+        },
+        "critic_corrections": {
+          "type": "array",
+          "description": "Audit log of pass-2 critic corrections merged into this draft.",
+          "items": {
+            "type": "object",
+            "required": ["type", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["restore_lineage", "reject_pairing", "recode", "add_pairing", "confirm"]
+              },
+              "pre": { "type": ["string", "null"] },
+              "post": { "type": ["string", "null"] },
+              "from_code": { "type": ["string", "null"] },
+              "to_code": { "type": ["string", "null"] },
+              "reason": { "type": "string" }
+            }
+          }
         }
       }
     },
@@ -116,7 +230,11 @@
           },
           "rationale": {
             "type": "string",
-            "description": "Concise rationale explaining the classification. If a decision rule was applied, name it here (e.g., 'applied ELAB-vs-REFRAME: relational frame → experiential frame')."
+            "description": "Concise rationale explaining the classification. If a decision rule was applied, name it here (e.g., 'applied NARROW-ABSTRACT: Emotion-Appealing → Authentic')."
+          },
+          "alternative_considered": {
+            "type": ["string", "null"],
+            "description": "Strongest runner-up interpretation (e.g. 'Reframed', 'Narrowed', 'Removed+New')."
           },
           "confidence": {
             "type": "string",
@@ -185,7 +303,19 @@
               "events_possibly_collapsed",
               "order_change_only",
               "positional_alignment_rejected",
-              "vague_to_specific_lineage"
+              "vague_to_specific_lineage",
+              "forced_pairing_rejected",
+              "alignment_null_by_choice",
+              "reframe_downgraded",
+              "neighborhood_lineage_only",
+              "new_removed_recheck_passed",
+              "lineage_restored_by_critic",
+              "neighborhood_protected",
+              "neighborhood_tested_no_lineage",
+              "boundary_case_narrow_vs_reframe",
+              "critic_restore_rejected_unit_already_matched",
+              "double_counted_event_dropped",
+              "duplicate_pre_antecedent"
             ]
           }
         },
@@ -204,7 +334,7 @@
 
     "model": {
       "type": "string",
-      "description": "Identifier of the model or coder that produced this output (e.g. 'human', 'claude-sonnet-4-6'). Required in calibration outputs."
+      "description": "Identifier of the model or coder that produced this output (e.g. 'human', 'MiniMax-M3', 'MiniMax-M3+critic'). Required in calibration outputs."
     }
 
   }

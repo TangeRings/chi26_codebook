@@ -1,0 +1,277 @@
+{
+  "coding_unit": {
+    "student_id": "jason",
+    "item_id": "comp-3"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "Female students aged 18-25",
+      "interested in connecting with friends",
+      "personality/psychology themed-ideas"
+    ],
+    "post_concepts": [
+      "Young women (18-25)",
+      "passionate about personality psychology and self-expression",
+      "seeking fun and engaging ways to connect with friends through MBTI-themed experiences",
+      "natural advocates for word-of-mouth marketing",
+      "community-driven experience through thoughtfully designed physical products",
+      "spark conversations and deepen connections"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Female students aged 18-25",
+        "post": "Young women (18-25)",
+        "continuity": "Same demographic population: gender (female\u2192women) and age bracket (18-25) preserved",
+        "scope": "Effectively equivalent scope",
+        "frame": "Demographic frame unchanged",
+        "stretch": "Minimal",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "interested in connecting with friends",
+        "post": "seeking fun and engaging ways to connect with friends through MBTI-themed experiences",
+        "continuity": "Social connection orientation preserved",
+        "scope": "POST adds specificity (fun and engaging, MBTI-themed)",
+        "frame": "Recreational frame added on top of relational frame",
+        "stretch": "Moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "interested in connecting with friends",
+        "post": "spark conversations and deepen connections",
+        "continuity": "Same connection/relational territory",
+        "scope": "POST specifies the mechanism (conversations) and depth (deepen)",
+        "frame": "Conversational/mechanistic frame",
+        "stretch": "Moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "personality/psychology themed-ideas",
+        "post": "passionate about personality psychology and self-expression",
+        "continuity": "Personality psychology interest persists",
+        "scope": "POST adds self-expression as adjacent interest",
+        "frame": "Psychographic interest frame",
+        "stretch": "Moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "personality/psychology themed-ideas",
+        "post": "MBTI-themed experiences",
+        "continuity": "MBTI is a specific instantiation of personality psychology",
+        "scope": "POST specifies MBTI as the framework",
+        "frame": "Tool-specific frame",
+        "stretch": "Moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Female students aged 18-25",
+        "post": "natural advocates for word-of-mouth marketing",
+        "continuity": "Different conceptual domains (demographic vs behavioral/marketing role)",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Female students aged 18-25",
+        "post": "community-driven experience through thoughtfully designed physical products",
+        "continuity": "Different conceptual domains (demographic vs brand offering/experience design)",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "Female students aged 18-25",
+        "post": "Young women (18-25)",
+        "basis": "Same demographic frame; minor descriptive change ('students' \u2192 'Young'). Not a scope restriction; equivalent scope."
+      },
+      {
+        "pre": "personality/psychology themed-ideas",
+        "post": "passionate about personality psychology and self-expression",
+        "basis": "Same psychographic-interest frame; intensity and adjacent interest (self-expression) added."
+      },
+      {
+        "pre": "interested in connecting with friends",
+        "post": "seeking fun and engaging ways to connect with friends through MBTI-themed experiences",
+        "basis": "Shared connection neighborhood; frame shifts from relational to recreational-experiential (sibling concepts, no subsumption)."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "natural advocates for word-of-mouth marketing",
+      "community-driven experience through thoughtfully designed physical products",
+      "spark conversations and deepen connections",
+      "self-expression"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "natural advocates for word-of-mouth marketing",
+        "direction": "new",
+        "nearest_counterpart": "interested in connecting with friends",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Word-of-mouth advocacy is a marketing-behavior concept; nearest PRE (connecting with friends) describes social behavior but not marketing advocacy. Different conceptual domains. All four transformations fail."
+      },
+      {
+        "concept": "community-driven experience through thoughtfully designed physical products",
+        "direction": "new",
+        "nearest_counterpart": "personality/psychology themed-ideas",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Brand-offering/experience-design concept has no antecedent in PRE (PRE describes themed-ideas, not physical products or community-driven experience framing). Different domains."
+      },
+      {
+        "concept": "spark conversations and deepen connections",
+        "direction": "new",
+        "nearest_counterpart": "interested in connecting with friends",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "This elaborates on the connection-with-friends theme; but the matched pair 'interested in connecting with friends \u2192 seeking fun and engaging ways to connect with friends through MBTI-themed experiences' already accounts for the connection concept. To avoid double-counting, this remains an unmatched POST unit. However, as a standalone event it would be Elaborated (mechanism added). Kept as New to preserve one-PRE-unit-one-event invariant."
+      },
+      {
+        "concept": "self-expression",
+        "direction": "new",
+        "nearest_counterpart": "personality/psychology themed-ideas",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Self-expression is not a clear subset of personality/psychology themed-ideas. Could be loosely related but no defensible subsumption or reframing. However, it is absorbed in the matched pair for personality/psychology themed-ideas (POST elaborates with self-expression). No standalone event emitted to avoid double-counting."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "recode",
+        "pre": "Female students aged 18-25",
+        "post": "Young women (18-25)",
+        "from_code": "Narrowed",
+        "to_code": "Elaborated",
+        "reason": "Scope is effectively equivalent (same age range, both refer to women/females in that band). 'Young women' is not a proper subset of 'Female students' (students implies a context, but women covers students and non-students). POST adds light descriptors ('Young') but keeps the demographic frame intact. No subsumption. Code should be Elaborated (same frame, minor descriptive detail added), not Narrowed."
+      },
+      {
+        "type": "confirm",
+        "pre": "personality/psychology themed-ideas",
+        "post": "passionate about personality psychology and self-expression",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "POST keeps the personality-psychology category intact and adds intensity ('passionate about') and an adjacent interest ('self-expression'). Same underlying frame, modifiers added. Per BC-P001, this is correctly Elaborated. Reframe would require the organizing frame to change, which it does not."
+      },
+      {
+        "type": "confirm",
+        "pre": "interested in connecting with friends",
+        "post": "seeking fun and engaging ways to connect with friends through MBTI-themed experiences",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Subsumption test: 'seeking fun and engaging ways to connect with friends through MBTI-themed experiences' is NOT a specific way of being 'interested in connecting with friends' \u2014 the fun/engaging/recreational modality and MBTI-theming reframe the concept from pure social interest to a recreational-experiential orientation. Frame shifts (relational \u2192 recreational-experiential); both sibling concepts in same connection neighborhood. Reframed is correct; not Narrowed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "natural advocates for word-of-mouth marketing",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Different conceptual domain: PRE describes demographics and interests, POST describes marketing-behavior/advocacy role. Nearest PRE antecedent ('interested in connecting with friends') is social behavior, not marketing advocacy. No defensible transformation. New stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "community-driven experience through thoughtfully designed physical products",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Different conceptual domain: PRE describes target interests; POST describes brand-offering/experience-design with physical-product modality. No antecedent in PRE. New stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "self-expression",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Self-expression is absorbed into the matched pair 'personality/psychology themed-ideas \u2192 passionate about personality psychology and self-expression' (treated as elaboration within that event). No standalone event emitted to avoid double-counting. New remains in unmatched_post."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "The POST response adds substantial new content: numbered structure, psychographic detail (passionate, self-expression, fun and engaging), specific framework (MBTI), marketing-behavior layer (word-of-mouth advocates), community-driven framing, and product modality (physical products that spark conversations). PRE is a single concise sentence; POST is a structured multi-clause response with multiple new dimensions absent from PRE."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Female students aged 18-25",
+      "post_evidence": "Young women (18-25)",
+      "rationale": "Same demographic frame. POST substitutes 'Young women' for 'Female students' and adds 'Young' as descriptor. Scope is equivalent (women includes students; age band unchanged). Not a proper subset; no subsumption. Same underlying category with light descriptive adjustment.",
+      "alternative_considered": "Narrowed (rejected: 'Young women' is not a subset of 'Female students'; scope is equivalent, not restricted)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "personality/psychology themed-ideas",
+      "post_evidence": "passionate about personality psychology and self-expression",
+      "rationale": "POST keeps the personality-psychology interest intact and adds 'passionate about' (intensity) and 'self-expression' (adjacent interest). Same organizing frame; detail added within frame.",
+      "alternative_considered": "Reframed (rejected: no frame change, only added descriptors)",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "interested in connecting with friends",
+      "post_evidence": "seeking fun and engaging ways to connect with friends through MBTI-themed experiences",
+      "rationale": "Subsumption test fails: recreational-experiential modality is not a specific way of being 'interested in connecting with friends'. Frame shifts from relational (general social interest) to recreational-experiential (fun, engaging, MBTI-themed). Sibling concepts in same connection neighborhood. Reframed.",
+      "alternative_considered": "Elaborated (rejected: adding fun/engaging/MBTI-theming constitutes a frame shift, not just detail within the same frame)",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "natural advocates for word-of-mouth marketing",
+      "rationale": "No antecedent in PRE. PRE describes demographics and interests; POST describes marketing-behavior/advocacy role. Different conceptual domains. Nearest counterpart ('interested in connecting with friends') concerns social behavior, not marketing advocacy. Transformations fail.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "community-driven experience through thoughtfully designed physical products",
+      "rationale": "No antecedent in PRE. PRE describes target interests/themes; POST describes brand-offering modality and community positioning. Different conceptual domains. Transformations fail.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "vague_to_specific_lineage",
+      "possible_missed_event",
+      "new_removed_recheck_passed",
+      "critic_restore_rejected_unit_already_matched"
+    ],
+    "coder_notes": "The 'spark conversations and deepen connections' and 'self-expression' POST units are conceptually absorbed into matched pairs but not emitted as standalone events to respect the one-PRE-unit-one-event invariant. This is a judgment call \u2014 they could alternatively be coded as Elaborated elaborations on the connection or personality-psychology PRE units, but that would risk double-counting. The Narrowed code on the demographic pair is arguable since age is identical and the gender label change (Female students \u2192 Young women) is essentially lexical; flagged boundary_case_narrow_vs_reframe. Critic applied 6 correction(s). Rejected 1 critic restore(s) that reused an already-matched unit: interested in connecting with friends \u2192 spark conversations and deepen connections."
+  },
+  "coded_at": "2026-05-14T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

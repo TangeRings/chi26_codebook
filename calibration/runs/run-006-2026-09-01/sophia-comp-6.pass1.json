@@ -1,0 +1,102 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "TikTok"
+    ],
+    "post_concepts": [
+      "TikTok",
+      "Amazon storefront (commerce platform)"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "TikTok",
+        "post": "TikTok",
+        "continuity": "Same platform named explicitly in both responses",
+        "scope": "Identical scope",
+        "frame": "Same frame",
+        "stretch": "No stretch",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "Amazon storefront (commerce platform)",
+        "continuity": "Different platform types (content vs commerce)",
+        "scope": "POST adds a second, distinct platform category",
+        "frame": "Different frame",
+        "stretch": "Implausible \u2014 different platform domains",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "TikTok",
+        "post": "Amazon storefront",
+        "reason": "Different platform domains (content vs commerce); an implausible match would be worse than a New event for the commerce-platform concept."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "TikTok",
+        "post": "TikTok",
+        "basis": "Identical platform named in both responses; the elaboration about linking to Amazon is additive detail on TikTok usage."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Amazon storefront (commerce platform)"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Amazon storefront (commerce platform)",
+        "direction": "new",
+        "nearest_counterpart": "TikTok",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE counterpart is TikTok (content platform). Tested Narrowed: an Amazon storefront is not a specific way of being TikTok. Tested Reframed: TikTok (content-based platform) and Amazon (commerce-based platform) occupy different conceptual domains \u2014 they are distinct platform types within the survey's own categorization, not the same semantic territory with a shifted frame. Tested Elaborated: Amazon storefront is not TikTok + added detail. Tested Expanded: there is no TikTok seed from which Amazon storefront grows by broadening. The question itself distinguishes content-based from commerce-based platforms, confirming different conceptual domains. No transformation code is defensible; New is correct."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The post-response adds the integration with an Amazon storefront (a new commerce-based platform) and specifies the linking mechanism, while retaining the TikTok reference. This is a meaningful addition at the clause level \u2014 the response now identifies two platforms and a connection between them \u2014 but the change is contained rather than transformative."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "TikTok for now",
+      "post_evidence": "TikTok linking it to an amazon storefront",
+      "rationale": "TikTok as the chosen platform persists across both responses. The POST version adds detail about how TikTok will be used (linking to an Amazon storefront) without shifting the platform choice or its frame. Same frame (TikTok as branding channel) with added functional detail.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "amazon storefront",
+      "rationale": "The Amazon storefront (a commerce-based platform) has no antecedent in PRE. PRE names only TikTok (a content-based platform). The survey question itself distinguishes content-based from commerce-based platforms, so these sit in different conceptual domains. MANDATORY-NEW-REMOVED-RECHECK performed: nearest PRE counterpart is TikTok; Narrowed (no \u2014 Amazon is not a specific way of being TikTok), Reframed (no \u2014 different platform domains), Elaborated (no \u2014 Amazon is not TikTok plus detail), Expanded (no \u2014 no TikTok seed broadens into Amazon). All four fail; New is correct.",
+      "alternative_considered": "Removed+New (Narrowed considered for TikTok\u2192Amazon, rejected on different-domain grounds)",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe"
+    ],
+    "coder_notes": "Elaborated vs. Reframed is mildly arguable for the TikTok\u2192TikTok+linking pair because the added 'linking it to an amazon storefront' could be read as reconceiving TikTok's role (from standalone branding channel to funnel-driving channel). However, TikTok as the brand platform remains intact and the added material is functional detail about how it will be used, so Elaborated is the better-supported verdict. Recorded alternative_considered as Reframed."
+  },
+  "coded_at": "2026-01-20T12:00:00Z",
+  "model": "MiniMax-M3"
+}

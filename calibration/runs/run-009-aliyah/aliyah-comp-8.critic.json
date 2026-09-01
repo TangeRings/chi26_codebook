@@ -1,0 +1,122 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Perfumes",
+      "post": "Perfumes",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical listing; no change"
+    },
+    {
+      "type": "confirm",
+      "pre": "perfume dupes",
+      "post": "perfume dupes",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical listing; no change"
+    },
+    {
+      "type": "confirm",
+      "pre": "custom perfumes",
+      "post": "custom perfumes",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical listing; no change"
+    },
+    {
+      "type": "confirm",
+      "pre": "perfume replication",
+      "post": "perfume replication",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical listing; no change"
+    },
+    {
+      "type": "confirm",
+      "pre": "perfume bottles (both custom and standard)",
+      "post": "perfume bottles (both custom and standard)",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical listing; no change"
+    },
+    {
+      "type": "recode",
+      "pre": "special sized bottles that aren't standard",
+      "post": "special sized bottles",
+      "from_code": null,
+      "to_code": "Elaborated",
+      "reason": "Same underlying category (special sized bottles) intact; PRE adds qualifier 'that aren't standard' while POST drops the parenthetical qualifier. Category preserved, only stylistic detail shifted \u2014 fits Elaborated rather than un-coded stylization. No scope change, no frame shift, no subsumption reversal."
+    },
+    {
+      "type": "confirm",
+      "pre": "bottle engraving",
+      "post": "bottle engraving",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical listing; no change"
+    },
+    {
+      "type": "confirm",
+      "pre": "scent consultations",
+      "post": "scent consultations",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical listing; no change"
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Perfumes",
+      "post": "Perfumes",
+      "basis": "identical listing"
+    },
+    {
+      "pre": "perfume dupes",
+      "post": "perfume dupes",
+      "basis": "identical listing"
+    },
+    {
+      "pre": "custom perfumes",
+      "post": "custom perfumes",
+      "basis": "identical listing"
+    },
+    {
+      "pre": "perfume replication",
+      "post": "perfume replication",
+      "basis": "identical listing"
+    },
+    {
+      "pre": "perfume bottles (both custom and standard)",
+      "post": "perfume bottles (both custom and standard)",
+      "basis": "identical listing"
+    },
+    {
+      "pre": "special sized bottles that aren't standard",
+      "post": "special sized bottles",
+      "basis": "same category; parenthetical qualifier condensed"
+    },
+    {
+      "pre": "bottle engraving",
+      "post": "bottle engraving",
+      "basis": "identical listing"
+    },
+    {
+      "pre": "scent consultations",
+      "post": "scent consultations",
+      "basis": "identical listing"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "special sized bottles that aren't standard",
+      "post_evidence": "special sized bottles",
+      "rationale": "Underlying product category (special sized bottles) is preserved; the qualifier 'that aren't standard' is condensed in the POST version. Same category, stylistic detail trimmed \u2014 Elaborated.",
+      "alternative_considered": "unchanged/identity (rejected: a small wording shift still warrants a coded event)",
+      "confidence": "medium"
+    }
+  ]
+}

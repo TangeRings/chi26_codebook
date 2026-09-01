@@ -1,0 +1,757 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Moderate Addition",
+    "structuralRationale": "POST adds a new dimension (planetary well-being) and reframes the brand-building act more abstractly, while retaining a people-serving component. Net effect is somewhat more content overall: a second priority (planet) is introduced alongside the individual one, and the brand-building verb is generalized. Not a full significant expansion because much of PRE's specificity (audience age, product dependency) is lost rather than elaborated.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "create a space for women aged 18-25",
+        "depend on my items"
+      ],
+      "postConcepts": [
+        "create a brand",
+        "prioritizes well-being of individuals",
+        "prioritizes well-being of the planet"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "create a brand",
+          "continuity": "Both express the foundational act of building something; weak lexical overlap on 'create'",
+          "scope": "PRE is a specific audience-restricted space; POST is a generic brand creation",
+          "frame": "audience-centric frame \u2192 brand-centric frame",
+          "stretch": "Stretching; the audience specificity is lost in POST",
+          "verdict": "weak"
+        },
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of individuals",
+          "continuity": "Both concern serving/benefiting a population; PRE specifies women 18-25, POST broadens to individuals",
+          "scope": "POST expands the population from a specific subset to all individuals",
+          "frame": "audience-specific care frame \u2192 universal well-being frame",
+          "stretch": "Plausible lineage via scope expansion",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of the planet",
+          "continuity": "Both describe what the brand serves; different domains (people vs planet)",
+          "scope": "Different referents; PRE = audience, POST = planet",
+          "frame": "audience-care frame \u2192 planetary-care frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "create a brand",
+          "continuity": "Weak; depend-on-items is about utility, create-a-brand is about identity-building",
+          "scope": "Different scopes",
+          "frame": "utility/product-reliance frame \u2192 brand-building frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of individuals",
+          "continuity": "Both touch on people benefiting from the brand; weak lineage",
+          "scope": "Different scopes",
+          "frame": "product-dependency frame \u2192 well-being prioritization frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of the planet",
+          "continuity": "Different domains (people-product utility vs planetary care)",
+          "scope": "Different scopes",
+          "frame": "utility frame \u2192 planetary-care frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of the planet",
+          "reason": "Different conceptual domains (audience-care vs planetary-care); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "create a brand",
+          "reason": "Different conceptual domains (product-utility vs brand-identity); no shared neighborhood"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of individuals",
+          "reason": "Different conceptual domains; product-dependency is not a subtype or sibling of well-being prioritization"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of the planet",
+          "reason": "Different conceptual domains entirely"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of individuals",
+          "basis": "Shared neighborhood of audience-oriented care; POST broadens PRE's specific audience to all individuals while retaining the care/serving frame"
+        }
+      ],
+      "unmatchedPre": [
+        "depend on my items"
+      ],
+      "unmatchedPost": [
+        "create a brand",
+        "prioritizes well-being of the planet"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "depend on my items",
+          "direction": "removed",
+          "nearestCounterpart": "create a brand",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested against all POST concepts. Product-dependency is a utility/product-reliance concept; none of POST's concepts (brand-building, individual well-being, planetary well-being) is a specific way of being, sibling of, elaboration of, or expansion of product-dependency. Different conceptual domains."
+        },
+        {
+          "concept": "create a brand",
+          "direction": "new",
+          "nearestCounterpart": "create a space for women aged 18-25",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested against PRE's 'create a space for women aged 18-25'. The two share the verb 'create' but POST drops the specific audience entirely and shifts to a generic brand-identity framing. No subsumption (brand is not a specific kind of space); no sibling territory; no elaboration; no expansion of the audience-specific space. The matched pair for the audience component is already captured separately. Kept as New."
+        },
+        {
+          "concept": "prioritizes well-being of the planet",
+          "direction": "new",
+          "nearestCounterpart": "depend on my items",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested against all PRE concepts. Planetary well-being is a different conceptual domain from product-dependency or audience-care. No tier of the ladder is defensible. Also tested against the matched 'women 18-25' unit \u2014 same outcome, different domains."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of individuals",
+          "fromCode": "Expanded",
+          "toCode": "Expanded",
+          "reason": "POST broadens PRE's audience (women 18-25) to all individuals while preserving the care/serving frame. Tier 4 holds; antecedent seed (audience-oriented care) is identifiable. Reframed is a plausible alternative but Expanded is better-supported because the scope broadened while the frame stayed substantially the same."
+        },
+        {
+          "type": "confirm",
+          "pre": "depend on my items",
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "Product-dependency has no defensible POST successor. Tested against all POST concepts; all occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the ladder defensible."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "create a brand",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Nearest PRE counterpart is 'create a space for women aged 18-25', but the matched pair already claims that unit. The remaining structural verb-overlap ('create') is too thin to sustain a transformation, and audience specificity is entirely dropped. Stays as New."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "prioritizes well-being of the planet",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Planetary well-being has no PRE antecedent in any domain. Tested against both PRE units; neither people-care nor product-dependency maps to planetary-care. No tier defensible."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti67s2iicc5cbffrlq",
+        "code": "Expanded",
+        "preEvidence": "create a space for women aged 18-25",
+        "postEvidence": "prioritizes well-being of individuals",
+        "rationale": "POST broadens PRE's narrow audience (women 18-25) to all individuals while preserving the care/serving frame. Scope expanded; antecedent seed (audience-oriented care) is identifiable. Tier 4 holds.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed (audience-specific frame \u2192 universal-well-being frame)"
+      },
+      {
+        "instanceId": "mti67s2i3defcnmtoq2",
+        "code": "Removed",
+        "preEvidence": "depend on my items",
+        "postEvidence": null,
+        "rationale": "Product-dependency / utility-reliance has no defensible POST successor. All POST concepts occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the transformation ladder is defensible.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti67s2iee5k59y3ytt",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "create a brand",
+        "rationale": "POST introduces a generalized brand-building framing. Nearest PRE counterpart is already matched to individual well-being; remaining overlap is only the verb 'create' with the audience dimension dropped. No subsumption, sibling territory, elaboration, or expansion defensible.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti67s2is7wrq9f0iki",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "prioritizes well-being of the planet",
+        "rationale": "POST introduces planetary-care prioritization, which has no antecedent in PRE. Different referent (planet vs people/products); no tier of the ladder defensible.",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "possible_missed_event",
+        "vague_to_specific_lineage",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "The Expanded coding on audience\u2192individuals rests on a clear scope broadening. The Removed on 'depend on my items' is defensible after full-response search, but the student may have implicitly carried the product-utility idea into 'prioritizes well-being' \u2014 flagging for audit. Structural development sits between Moderate and Significant; chosen Moderate because a specific audience and product-dependency frame are lost rather than elaborated, partially counterbalancing the additions. Critic applied 4 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-1b"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "create a space for women aged 18-25",
+        "depend on my items"
+      ],
+      "post_concepts": [
+        "create a brand",
+        "prioritizes well-being of individuals",
+        "prioritizes well-being of the planet"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "create a brand",
+          "continuity": "Both express the foundational act of building something; weak lexical overlap on 'create'",
+          "scope": "PRE is a specific audience-restricted space; POST is a generic brand creation",
+          "frame": "audience-centric frame \u2192 brand-centric frame",
+          "stretch": "Stretching; the audience specificity is lost in POST",
+          "verdict": "weak"
+        },
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of individuals",
+          "continuity": "Both concern serving/benefiting a population; PRE specifies women 18-25, POST broadens to individuals",
+          "scope": "POST expands the population from a specific subset to all individuals",
+          "frame": "audience-specific care frame \u2192 universal well-being frame",
+          "stretch": "Plausible lineage via scope expansion",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of the planet",
+          "continuity": "Both describe what the brand serves; different domains (people vs planet)",
+          "scope": "Different referents; PRE = audience, POST = planet",
+          "frame": "audience-care frame \u2192 planetary-care frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "create a brand",
+          "continuity": "Weak; depend-on-items is about utility, create-a-brand is about identity-building",
+          "scope": "Different scopes",
+          "frame": "utility/product-reliance frame \u2192 brand-building frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of individuals",
+          "continuity": "Both touch on people benefiting from the brand; weak lineage",
+          "scope": "Different scopes",
+          "frame": "product-dependency frame \u2192 well-being prioritization frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of the planet",
+          "continuity": "Different domains (people-product utility vs planetary care)",
+          "scope": "Different scopes",
+          "frame": "utility frame \u2192 planetary-care frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of the planet",
+          "reason": "Different conceptual domains (audience-care vs planetary-care); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "create a brand",
+          "reason": "Different conceptual domains (product-utility vs brand-identity); no shared neighborhood"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of individuals",
+          "reason": "Different conceptual domains; product-dependency is not a subtype or sibling of well-being prioritization"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of the planet",
+          "reason": "Different conceptual domains entirely"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of individuals",
+          "basis": "Shared neighborhood of audience-oriented care; POST broadens PRE's specific audience to all individuals while retaining the care/serving frame"
+        }
+      ],
+      "unmatched_pre": [
+        "depend on my items"
+      ],
+      "unmatched_post": [
+        "create a brand",
+        "prioritizes well-being of the planet"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "depend on my items",
+          "direction": "removed",
+          "nearest_counterpart": "create a brand",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested against all POST concepts. Product-dependency is a utility/product-reliance concept; none of POST's concepts (brand-building, individual well-being, planetary well-being) is a specific way of being, sibling of, elaboration of, or expansion of product-dependency. Different conceptual domains."
+        },
+        {
+          "concept": "create a brand",
+          "direction": "new",
+          "nearest_counterpart": "create a space for women aged 18-25",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested against PRE's 'create a space for women aged 18-25'. The two share the verb 'create' but POST drops the specific audience entirely and shifts to a generic brand-identity framing. No subsumption (brand is not a specific kind of space); no sibling territory; no elaboration; no expansion of the audience-specific space. The matched pair for the audience component is already captured separately. Kept as New."
+        },
+        {
+          "concept": "prioritizes well-being of the planet",
+          "direction": "new",
+          "nearest_counterpart": "depend on my items",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested against all PRE concepts. Planetary well-being is a different conceptual domain from product-dependency or audience-care. No tier of the ladder is defensible. Also tested against the matched 'women 18-25' unit \u2014 same outcome, different domains."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of individuals",
+          "from_code": "Expanded",
+          "to_code": "Expanded",
+          "reason": "POST broadens PRE's audience (women 18-25) to all individuals while preserving the care/serving frame. Tier 4 holds; antecedent seed (audience-oriented care) is identifiable. Reframed is a plausible alternative but Expanded is better-supported because the scope broadened while the frame stayed substantially the same."
+        },
+        {
+          "type": "confirm",
+          "pre": "depend on my items",
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "Product-dependency has no defensible POST successor. Tested against all POST concepts; all occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the ladder defensible."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "create a brand",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Nearest PRE counterpart is 'create a space for women aged 18-25', but the matched pair already claims that unit. The remaining structural verb-overlap ('create') is too thin to sustain a transformation, and audience specificity is entirely dropped. Stays as New."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "prioritizes well-being of the planet",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Planetary well-being has no PRE antecedent in any domain. Tested against both PRE units; neither people-care nor product-dependency maps to planetary-care. No tier defensible."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "POST adds a new dimension (planetary well-being) and reframes the brand-building act more abstractly, while retaining a people-serving component. Net effect is somewhat more content overall: a second priority (planet) is introduced alongside the individual one, and the brand-building verb is generalized. Not a full significant expansion because much of PRE's specificity (audience age, product dependency) is lost rather than elaborated."
+    },
+    "semantic_events": [
+      {
+        "code": "Expanded",
+        "pre_evidence": "create a space for women aged 18-25",
+        "post_evidence": "prioritizes well-being of individuals",
+        "rationale": "POST broadens PRE's narrow audience (women 18-25) to all individuals while preserving the care/serving frame. Scope expanded; antecedent seed (audience-oriented care) is identifiable. Tier 4 holds.",
+        "alternative_considered": "Reframed (audience-specific frame \u2192 universal-well-being frame)",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "depend on my items",
+        "post_evidence": null,
+        "rationale": "Product-dependency / utility-reliance has no defensible POST successor. All POST concepts occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the transformation ladder is defensible.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "create a brand",
+        "rationale": "POST introduces a generalized brand-building framing. Nearest PRE counterpart is already matched to individual well-being; remaining overlap is only the verb 'create' with the audience dimension dropped. No subsumption, sibling territory, elaboration, or expansion defensible.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "prioritizes well-being of the planet",
+        "rationale": "POST introduces planetary-care prioritization, which has no antecedent in PRE. Different referent (planet vs people/products); no tier of the ladder defensible.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "possible_missed_event",
+        "vague_to_specific_lineage",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "The Expanded coding on audience\u2192individuals rests on a clear scope broadening. The Removed on 'depend on my items' is defensible after full-response search, but the student may have implicitly carried the product-utility idea into 'prioritizes well-being' \u2014 flagging for audit. Structural development sits between Moderate and Significant; chosen Moderate because a specific audience and product-dependency frame are lost rather than elaborated, partially counterbalancing the additions. Critic applied 4 correction(s)."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-1b"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "create a space for women aged 18-25",
+        "depend on my items"
+      ],
+      "post_concepts": [
+        "create a brand",
+        "prioritizes well-being of individuals",
+        "prioritizes well-being of the planet"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "create a brand",
+          "continuity": "Both express the foundational act of building something; weak lexical overlap on 'create'",
+          "scope": "PRE is a specific audience-restricted space; POST is a generic brand creation",
+          "frame": "audience-centric frame \u2192 brand-centric frame",
+          "stretch": "Stretching; the audience specificity is lost in POST",
+          "verdict": "weak"
+        },
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of individuals",
+          "continuity": "Both concern serving/benefiting a population; PRE specifies women 18-25, POST broadens to individuals",
+          "scope": "POST expands the population from a specific subset to all individuals",
+          "frame": "audience-specific care frame \u2192 universal well-being frame",
+          "stretch": "Plausible lineage via scope expansion",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of the planet",
+          "continuity": "Both describe what the brand serves; different domains (people vs planet)",
+          "scope": "Different referents; PRE = audience, POST = planet",
+          "frame": "audience-care frame \u2192 planetary-care frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "create a brand",
+          "continuity": "Weak; depend-on-items is about utility, create-a-brand is about identity-building",
+          "scope": "Different scopes",
+          "frame": "utility/product-reliance frame \u2192 brand-building frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of individuals",
+          "continuity": "Both touch on people benefiting from the brand; weak lineage",
+          "scope": "Different scopes",
+          "frame": "product-dependency frame \u2192 well-being prioritization frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of the planet",
+          "continuity": "Different domains (people-product utility vs planetary care)",
+          "scope": "Different scopes",
+          "frame": "utility frame \u2192 planetary-care frame",
+          "stretch": "Different conceptual domains",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of the planet",
+          "reason": "Different conceptual domains (audience-care vs planetary-care); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "create a brand",
+          "reason": "Different conceptual domains (product-utility vs brand-identity); no shared neighborhood"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of individuals",
+          "reason": "Different conceptual domains; product-dependency is not a subtype or sibling of well-being prioritization"
+        },
+        {
+          "pre": "depend on my items",
+          "post": "prioritizes well-being of the planet",
+          "reason": "Different conceptual domains entirely"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "create a space for women aged 18-25",
+          "post": "prioritizes well-being of individuals",
+          "basis": "Shared neighborhood of 'serving/benefiting a population'; POST broadens PRE's specific audience (women 18-25) to all individuals while retaining the care/serving frame"
+        }
+      ],
+      "unmatched_pre": [
+        "depend on my items"
+      ],
+      "unmatched_post": [
+        "create a brand",
+        "prioritizes well-being of the planet"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "depend on my items",
+          "direction": "removed",
+          "nearest_counterpart": "create a brand",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested against all POST concepts. Product-dependency is a utility/product-reliance concept; none of POST's concepts (brand-building, individual well-being, planetary well-being) is a specific way of being, sibling of, elaboration of, or expansion of product-dependency. Different conceptual domains."
+        },
+        {
+          "concept": "create a brand",
+          "direction": "new",
+          "nearest_counterpart": "create a space for women aged 18-25",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested against PRE's 'create a space for women aged 18-25'. The two share the verb 'create' but POST drops the specific audience entirely and shifts to a generic brand-identity framing. No subsumption (brand is not a specific kind of space); no sibling territory; no elaboration; no expansion of the audience-specific space. The matched pair for the audience component is already captured separately. Kept as New."
+        },
+        {
+          "concept": "prioritizes well-being of the planet",
+          "direction": "new",
+          "nearest_counterpart": "depend on my items",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested against all PRE concepts. Planetary well-being is a different conceptual domain from product-dependency or audience-care. No tier of the ladder is defensible. Also tested against the matched 'women 18-25' unit \u2014 same outcome, different domains."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "POST adds a new dimension (planetary well-being) and reframes the brand-building act more abstractly, while retaining a people-serving component. Net effect is somewhat more content overall: a second priority (planet) is introduced alongside the individual one, and the brand-building verb is generalized. Not a full significant expansion because much of PRE's specificity (audience age, product dependency) is lost rather than elaborated."
+    },
+    "semantic_events": [
+      {
+        "code": "Expanded",
+        "pre_evidence": "create a space for women aged 18-25",
+        "post_evidence": "prioritizes well-being of individuals",
+        "rationale": "PRE specifies a narrow audience (women aged 18-25); POST broadens the served population to all 'individuals' while preserving the care/serving frame. The scope has clearly expanded; the antecedent seed (audience-oriented care) is identifiable. Tier 4 holds.",
+        "alternative_considered": "Reframed (audience-specific frame \u2192 universal-well-being frame)",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "depend on my items",
+        "post_evidence": null,
+        "rationale": "PRE's product-dependency concept (audience relying on the student's items) has no semantic successor in POST. Tested against all POST concepts (create a brand, individual well-being, planetary well-being): all occupy different conceptual domains (brand-identity and care frames vs product-utility frame). No tier of the transformation ladder is defensible. Nearest-counterpart re-check performed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "create a brand",
+        "rationale": "POST introduces a brand-building/generalized-identity framing that has no clear antecedent in PRE. Nearest PRE counterpart is 'create a space for women aged 18-25', but the specific-audience dimension is dropped entirely in POST and the framing shifts to generic brand identity. No subsumption, no sibling relationship, no elaboration or expansion defensible. Nearest-counterpart re-check performed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "prioritizes well-being of the planet",
+        "rationale": "POST introduces planetary well-being as a brand priority, which has no antecedent. Tested against 'depend on my items' and the audience-care span; both occupy different conceptual domains (product utility and people-care vs planetary care). No transformation tier defensible. Nearest-counterpart re-check performed.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "possible_missed_event",
+        "vague_to_specific_lineage"
+      ],
+      "coder_notes": "The Expanded coding on audience\u2192individuals rests on a clear scope broadening. The Removed on 'depend on my items' is defensible after full-response search, but the student may have implicitly carried the product-utility idea into 'prioritizes well-being' \u2014 flagging for audit. Structural development sits between Moderate and Significant; chosen Moderate because a specific audience and product-dependency frame are lost rather than elaborated, partially counterbalancing the additions."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "create a space for women aged 18-25",
+        "post": "prioritizes well-being of individuals",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "POST broadens PRE's audience (women 18-25) to all individuals while preserving the care/serving frame. Tier 4 holds; antecedent seed (audience-oriented care) is identifiable. Reframed is a plausible alternative but Expanded is better-supported because the scope broadened while the frame stayed substantially the same."
+      },
+      {
+        "type": "confirm",
+        "pre": "depend on my items",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Product-dependency has no defensible POST successor. Tested against all POST concepts; all occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the ladder defensible."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "create a brand",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Nearest PRE counterpart is 'create a space for women aged 18-25', but the matched pair already claims that unit. The remaining structural verb-overlap ('create') is too thin to sustain a transformation, and audience specificity is entirely dropped. Stays as New."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "prioritizes well-being of the planet",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Planetary well-being has no PRE antecedent in any domain. Tested against both PRE units; neither people-care nor product-dependency maps to planetary-care. No tier defensible."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "create a space for women aged 18-25",
+        "post": "prioritizes well-being of individuals",
+        "basis": "Shared neighborhood of audience-oriented care; POST broadens PRE's specific audience to all individuals while retaining the care/serving frame"
+      }
+    ],
+    "unmatched_pre": [
+      "depend on my items"
+    ],
+    "unmatched_post": [
+      "create a brand",
+      "prioritizes well-being of the planet"
+    ],
+    "semantic_events": [
+      {
+        "code": "Expanded",
+        "pre_evidence": "create a space for women aged 18-25",
+        "post_evidence": "prioritizes well-being of individuals",
+        "rationale": "POST broadens PRE's narrow audience (women 18-25) to all individuals while preserving the care/serving frame. Scope expanded; antecedent seed (audience-oriented care) is identifiable. Tier 4 holds.",
+        "alternative_considered": "Reframed (audience-specific frame \u2192 universal-well-being frame)",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "depend on my items",
+        "post_evidence": null,
+        "rationale": "Product-dependency / utility-reliance has no defensible POST successor. All POST concepts occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the transformation ladder is defensible.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "create a brand",
+        "rationale": "POST introduces a generalized brand-building framing. Nearest PRE counterpart is already matched to individual well-being; remaining overlap is only the verb 'create' with the audience dimension dropped. No subsumption, sibling territory, elaboration, or expansion defensible.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "prioritizes well-being of the planet",
+        "rationale": "POST introduces planetary-care prioritization, which has no antecedent in PRE. Different referent (planet vs people/products); no tier of the ladder defensible.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

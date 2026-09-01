@@ -1,0 +1,43 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Female students aged 18-25",
+      "post": "Female students aged 18-25",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+    },
+    {
+      "type": "confirm",
+      "pre": "interested in safe Pilates equipment",
+      "post": "interested in safe Pilates equipment",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical string, identical scope. No transformation applies; this is unchanged content carried forward, not a semantic event."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": null,
+      "to_code": null,
+      "reason": "Cross-category pairings (demographic \u2194 interest/psychographic) correctly rejected \u2014 no shared semantic neighborhood and no defensible lineage. Both rejected_alignments stand."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Female students aged 18-25",
+      "post": "Female students aged 18-25",
+      "basis": "identical string, identical demographic scope"
+    },
+    {
+      "pre": "interested in safe Pilates equipment",
+      "post": "interested in safe Pilates equipment",
+      "basis": "identical string, identical psychographic/interests scope"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

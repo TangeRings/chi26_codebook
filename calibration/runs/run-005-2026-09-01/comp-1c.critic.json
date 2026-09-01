@@ -1,0 +1,67 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Emotion-Appealing",
+      "post": "Authentic",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption test passes ('Authentic is a specific way of being Emotion-Appealing'); shared affect/brand-experience neighborhood; PRE is generic filler consistent with Narrowed. Pass-1 is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Customer-Centricity has no POST successor in a shared neighborhood; Theory-Based occupies a different conceptual domain (epistemic grounding vs audience-orientation). Lineage search exhausted."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Theory-Based has no PRE antecedent in a shared neighborhood; nearest counterpart Customer-Centricity is a different conceptual domain. Lineage search exhausted."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Emotion-Appealing",
+      "post": "Authentic",
+      "basis": "Shared affect/brand-experience neighborhood; subsumption holds (Authentic is a specific way of being Emotion-Appealing); PRE is generic filler descriptor consistent with Narrowed."
+    }
+  ],
+  "unmatched_pre": [
+    "Customer-Centricity"
+  ],
+  "unmatched_post": [
+    "Theory-Based"
+  ],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Emotion-Appealing",
+      "post_evidence": "Authentic",
+      "rationale": "Subsumption test passes: 'Authentic is a specific way of being Emotion-Appealing' is TRUE. Both occupy the affect/brand-experience neighborhood; Emotion-Appealing is a generic filler descriptor and Authentic is a specific affective register, so POST concretizes the same vague idea into a specific mode. Tier 1 of the transformation ladder holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Customer-Centricity",
+      "post_evidence": null,
+      "rationale": "Customer-Centricity has no successor in POST sharing a semantic neighborhood. Nearest counterpart Theory-Based occupies a different conceptual domain (audience-orientation vs epistemic grounding); no tier of the transformation ladder is defensible across these domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Theory-Based",
+      "rationale": "Theory-Based has no antecedent in PRE sharing a semantic neighborhood. Nearest counterpart Customer-Centricity is a different conceptual domain; no tier of the transformation ladder is defensible across these domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

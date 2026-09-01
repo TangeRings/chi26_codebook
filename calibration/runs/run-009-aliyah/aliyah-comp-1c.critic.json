@@ -1,0 +1,100 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Quality",
+      "post": "Quality",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical descriptor retained; no event code needed."
+    },
+    {
+      "type": "confirm",
+      "pre": "customer focused",
+      "post": "customer centricity",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Pass 1 is correct. Shared audience-orientation neighborhood. Subsumption test: 'Customer centricity is a specific way of being customer focused' is TRUE-ish but the dominant shift is stylistic (adjectival phrase \u2192 established compound noun), not a true scope or population restriction. PRE is substantive ('customer focused'), not a generic filler, so subsumption is not a clean win. Reframed is the right verdict; Narrowed was the runner-up. boundary_case_narrow_vs_reframe stands."
+    },
+    {
+      "type": "recode",
+      "pre": "making a unique story",
+      "post": "telling a story",
+      "from_code": "Reframed",
+      "to_code": "Elaborated",
+      "reason": "Both sit in the same organizing frame (story-crafting as a value). The change is dropping the 'unique' modifier from the same underlying category (story), not a frame shift. PRE-frame and POST-frame are the same (narrative as value). Reframed requires the organizing frame to change; here only modifiers are adjusted. Per the Elaborated rule: same underlying noun/category with dropped/added descriptors \u2192 Elaborated. Subsumption: 'Telling a story is a specific way of making a unique story' is FALSE (not a subtype). Narrowed also fails. Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "accuracy: nearest POST counterpart would be Quality, but accuracy (precision) and Quality (excellence/standard) are sibling values in different semantic roles; subsumption fails; no elaboration/expansion defensible. Kept as Removed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "eco-friendliness: no POST concept continues the environmental semantic role. Sustainability and product quality are different conceptual domains. Kept as Removed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Quality",
+      "post": "Quality",
+      "basis": "identical descriptor retained"
+    },
+    {
+      "pre": "customer focused",
+      "post": "customer centricity",
+      "basis": "same audience-orientation territory; stylistic shift from adjectival phrase to established compound noun; Reframed (boundary_case_narrow_vs_reframe)"
+    },
+    {
+      "pre": "making a unique story",
+      "post": "telling a story",
+      "basis": "same organizing frame (story-crafting as value); 'unique' modifier dropped; Elaborated"
+    }
+  ],
+  "unmatched_pre": [
+    "accuracy",
+    "eco-friendliness"
+  ],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "customer focused",
+      "post_evidence": "customer centricity",
+      "rationale": "Shared audience-orientation neighborhood. Shift is from informal adjectival phrase ('customer focused') to established brand-strategy noun ('customer centricity'). PRE is substantive, so subsumption is not a clean win; the change is a label/frame polish within the same territory. PRE-frame: behavioral adjective; POST-frame: established strategy noun.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "making a unique story",
+      "post_evidence": "telling a story",
+      "rationale": "Same organizing frame (narrative-crafting as core value). POST keeps the same underlying category (story) and drops the 'unique' modifier. Per the Elaborated rule, when POST simply adjusts modifiers of the same underlying noun/category, the code is Elaborated, not Reframed. Subsumption fails (telling-a-story is not a subtype of making-a-unique-story), so Narrowed is also rejected.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "accuracy",
+      "post_evidence": null,
+      "rationale": "No POST concept continues the accuracy/precision semantic role. Nearest counterpart Quality is a sibling value (standard/excellence), not a subtype; subsumption fails; no elaboration or expansion defensible.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "eco-friendliness",
+      "post_evidence": null,
+      "rationale": "Environmental sustainability does not appear in POST. No defensible transformation to any POST concept; different conceptual domain from the remaining POST values.",
+      "alternative_considered": "New",
+      "confidence": "high"
+    }
+  ]
+}

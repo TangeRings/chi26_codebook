@@ -1,0 +1,88 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Fun",
+      "post": "Interactive",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption test holds: 'Interactive is a specific way of being Fun' = TRUE. PRE is a generic filler word, PRE-genericness signal supports Narrowed. Pass-1 code is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "Community-Building",
+      "post": "Relatable",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Subsumption test fails (Relatable is not a specific way of being Community-Building); both occupy social-connection territory but as sibling concepts with a frame shift from relational/communal structure to audience-receptive identification. Do not downgrade to Narrowed. Pass-1 code is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "Lifestyle-Oriented",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "BC-003 human-verified non-neighborhood. The only shared territory with Expressive is the broad umbrella 'identity/self-presentation', which fails the abstraction ceiling. All four transformation codes fail. Removed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Expressive",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "BC-003 human-verified non-neighborhood with Lifestyle-Oriented. Nearest counterpart (Lifestyle-Oriented) fails all four transformation codes; no other PRE concept is a defensible antecedent (Fun, Community-Building are already matched). New is correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Fun",
+      "post": "Interactive",
+      "basis": "Generic experiential filler specified into concrete engagement modality; subsumption holds"
+    },
+    {
+      "pre": "Community-Building",
+      "post": "Relatable",
+      "basis": "Both occupy social-connection territory; sibling quality with frame shift from relational/communal structure to audience-receptive identification"
+    }
+  ],
+  "unmatched_pre": [
+    "Lifestyle-Oriented"
+  ],
+  "unmatched_post": [
+    "Expressive"
+  ],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Fun",
+      "post_evidence": "Interactive",
+      "rationale": "Subsumption holds: 'Interactive is a specific way of being Fun' = TRUE. PRE is generic filler; POST concretizes the experiential idea into a specific engagement modality.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Community-Building",
+      "post_evidence": "Relatable",
+      "rationale": "Both occupy social-connection territory but as siblings, not subtypes. Frame shifts from relational/communal structure (how the brand organizes people) to audience-reception/identification (how the brand is perceived).",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Lifestyle-Oriented",
+      "post_evidence": null,
+      "rationale": "No defensible POST successor. Nearest counterpart (Expressive) fails subsumption, fails Reframed at the specific neighborhood level (only broad 'identity/self-presentation' umbrella, which hits abstraction ceiling), PRE not retained, no broadening of a PRE seed. BC-003 confirmed non-neighborhood.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Expressive",
+      "rationale": "No defensible PRE antecedent. Nearest counterpart (Lifestyle-Oriented) fails all four transformation codes; other PRE concepts are already matched. Only topical adjacency remains. BC-003 confirmed non-neighborhood.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

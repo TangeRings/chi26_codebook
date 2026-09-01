@@ -1,0 +1,242 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-1a"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Pilates sets- mat, ring, wrist weights"
+    ],
+    "post_concepts": [
+      "Beginners at pilates",
+      "affordable but good quality",
+      "minimalist",
+      "mature",
+      "create a community with this brand and not just an item to sell"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights",
+        "post": "Beginners at pilates",
+        "continuity": "Both reference pilates as product domain",
+        "scope": "PRE describes product offerings; POST describes a target audience",
+        "frame": "Product-offering frame vs target-audience frame",
+        "stretch": "Weak - different semantic roles (what is sold vs who buys)",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights",
+        "post": "affordable but good quality",
+        "continuity": "Both concern product/brand attributes",
+        "scope": "PRE describes product set composition; POST describes price-quality positioning",
+        "frame": "Product-inventory frame vs value-positioning frame",
+        "stretch": "Weak - inventory vs pricing/quality attributes",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights",
+        "post": "minimalist",
+        "continuity": "Both are brand descriptors",
+        "scope": "PRE is product-listing; POST is an aesthetic descriptor",
+        "frame": "Inventory frame vs aesthetic-style frame",
+        "stretch": "Weak",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights",
+        "post": "mature",
+        "continuity": "Both are descriptors",
+        "scope": "PRE is product-inventory; POST is a target-audience trait",
+        "frame": "Inventory frame vs audience-aesthetic frame",
+        "stretch": "Weak",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights",
+        "post": "create a community with this brand and not just an item to sell",
+        "continuity": "PRE describes items to sell; POST explicitly contrasts community vs items to sell",
+        "scope": "Different - product vs community-building",
+        "frame": "Transactional product frame vs community-building frame",
+        "stretch": "Very weak",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights",
+        "post": "mature",
+        "reason": "Product inventory vs audience/aesthetic trait; different conceptual domains"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights",
+        "post": "create a community with this brand and not just an item to sell",
+        "reason": "The POST explicitly contrasts community-building against 'items to sell'; PRE is precisely that transactional product-inventory framing, making this near-opposite rather than lineage"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights",
+        "post": "affordable but good quality",
+        "basis": "Both concern the product/brand offering characterization; weakest plausible match but PRE's product description is repositioned in POST as a value-quality descriptor pair. Genuinely weak - better left as null."
+      }
+    ],
+    "unmatched_pre": [
+      "Pilates sets- mat, ring, wrist weights"
+    ],
+    "unmatched_post": [
+      "Beginners at pilates",
+      "affordable but good quality",
+      "minimalist",
+      "mature",
+      "create a community with this brand and not just an item to sell"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Pilates sets- mat, ring, wrist weights",
+        "direction": "removed",
+        "nearest_counterpart": "affordable but good quality",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest POST counterpart is 'affordable but good quality' - both relate to product characterization. Narrowed fails: an inventory listing of mats/rings/wrist weights is not a specific way of being 'affordable but good quality' - subsumption does not hold. Reframed fails: product-inventory frame vs value-positioning frame do not share semantic territory. Elaborated fails: POST does not retain the inventory-list concept. Expanded fails: POST does not broaden an inventory listing seed. After full-response search, all four fail."
+      },
+      {
+        "concept": "Beginners at pilates",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE is the pilates product listing. Narrowed fails: 'beginners at pilates' (a target audience) is not a specific way of being a product inventory. Reframed fails: target-audience framing and product-inventory framing are different conceptual roles. Elaborated fails: POST does not retain the product-inventory concept. Expanded fails: POST does not broaden the inventory seed into an audience. All four fail; remains New."
+      },
+      {
+        "concept": "affordable but good quality",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE is the pilates product listing. Narrowed fails: value-positioning is not a specific way of being a product inventory. Reframed fails: value-positioning and inventory-listing are different conceptual frames with no shared semantic territory at a specific level. Elaborated/Expanded fail: POST does not retain or broaden an inventory seed. All four fail; remains New."
+      },
+      {
+        "concept": "minimalist",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE is the pilates product listing. Narrowed fails: minimalism is not a specific way of being a product inventory list. Reframed fails: an aesthetic-style descriptor and a product inventory list do not share semantic territory at a specific level. Elaborated/Expanded fail: POST does not retain or broaden the inventory. All four fail; remains New."
+      },
+      {
+        "concept": "mature",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE is the pilates product listing. Narrowed fails: maturity (audience/aesthetic trait) is not a specific way of being a product inventory. Reframed fails: audience/aesthetic trait and product inventory are different conceptual domains. Elaborated/Expanded fail: POST does not retain or broaden the inventory. All four fail; remains New."
+      },
+      {
+        "concept": "create a community with this brand and not just an item to sell",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE is the pilates product listing. Narrowed fails: community-building intent is not a specific way of being a product inventory. Reframed fails: POST explicitly frames community-building as opposed to 'items to sell' - the frames are nearly inverse rather than sharing semantic territory. Elaborated/Expanded fail: POST does not retain or broaden the inventory concept. All four fail; remains New."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "The PRE is a single phrase naming product inventory (one short descriptor-like fragment). The POST contains five distinct concept units - target audience (beginners), value positioning (affordable but good quality), aesthetic (minimalist), audience trait (mature), and a community-building intent statement - which is a substantial expansion across multiple dimensions of brand identity."
+  },
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "Pilates sets- mat, ring, wrist weights",
+      "post_evidence": null,
+      "rationale": "The PRE's product-inventory characterization of the brand (listing specific pilates equipment) has no semantic successor in POST; nearest counterpart 'affordable but good quality' tested under all four transformation codes - subsumption does not hold, territory is not shared, no elaboration or expansion of the inventory concept. The POST instead repositions the brand around audience, value, aesthetic, and community - the product-inventory frame is dropped.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Beginners at pilates",
+      "rationale": "No PRE antecedent for target-audience specification. Nearest PRE counterpart (product inventory listing) tested under all four transformation codes; audience-framing and inventory-framing are different conceptual roles, so all four fail. The POST introduces a defined beginner audience where PRE had none.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "affordable but good quality",
+      "rationale": "No PRE antecedent for value/quality-price positioning. Nearest PRE (product inventory) tested under all four codes; value-positioning is not subsumption, refinement, elaboration, or expansion of an inventory listing. Different conceptual frame.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "minimalist",
+      "rationale": "No PRE antecedent for minimalist aesthetic. PRE is a product-inventory listing, not an aesthetic descriptor; no tier of the ladder is defensible. Different conceptual frame (aesthetic style vs product inventory).",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "mature",
+      "rationale": "No PRE antecedent for mature audience/aesthetic trait. PRE is a product-inventory listing with no audience specification; nearest counterpart tested under all four codes and all fail. Different conceptual role.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "create a community with this brand and not just an item to sell",
+      "rationale": "No PRE antecedent for community-building intent. The POST explicitly contrasts community-building with 'items to sell,' which is the nearest PRE territory; testing shows the relationship is nearly inverse rather than a transformation. All four codes fail.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "events_possibly_collapsed",
+      "new_removed_recheck_passed",
+      "alignment_null_by_choice"
+    ],
+    "coder_notes": "The PRE contains a single fragmented descriptor ('Pilates sets- mat, ring, wrist weights') that functions more as a product-offering statement than a true adjective-descriptor set. This makes the descriptor_set_special unitization somewhat awkward. The matched_pairs entry for product-inventory vs 'affordable but good quality' was flagged as weak and ultimately left as null; instead the PRE unit is coded Removed and the POST units are each New. Five New events from one PRE unit is unusual but reflects that the POST genuinely introduces five distinct concept categories (audience, value, aesthetic, audience-trait, community-intent) where the PRE only offered product inventory. Student may have genuinely shifted from product-focused to audience/community-focused brand framing."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}

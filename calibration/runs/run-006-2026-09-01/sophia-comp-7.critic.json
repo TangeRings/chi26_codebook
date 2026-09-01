@@ -1,0 +1,79 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "short videos",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "PRE is a placeholder 'no content strategy articulated' containing no concept, frame, or scope. No tier of the ladder can be applied from a null antecedent. The New event stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "pilates moves to do before your day",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "PRE contains no articulated concept. Cannot test Narrowed/Reframed/Elaborated/Expanded against a null antecedent. Genuinely New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "using the equipment",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "PRE is a placeholder absence. No antecedent concept exists to transform. Genuinely New."
+    },
+    {
+      "type": "confirm",
+      "pre": "no content strategy articulated",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": null,
+      "reason": "Pass-1 correctly did not emit a Removed event for the placeholder PRE. A non-answer is not a removable concept; it is the absence of prior content. Confirming the decision not to manufacture a Removed counterpart."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "demonstrating exercises with equipment",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Not present in proposed_semantic_events. Listed in post_concepts but not coded as a separate event; the pass-1 inventory treats 'using the equipment' and 'demonstrating exercises with equipment' as overlapping rather than distinct units. No correction needed."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "no content strategy articulated"
+  ],
+  "unmatched_post": [
+    "short videos",
+    "pilates moves to do before your day",
+    "using the equipment"
+  ],
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Mostly thinking of short videos",
+      "rationale": "The PRE response contains a placeholder non-answer ('no content strategy articulated'), not an articulated concept. There is no antecedent idea, frame, or scope that could be Narrowed, Reframed, Elaborated, or Expanded into 'short videos'. The student introduces a new content format with no available lineage. The placeholder PRE is not coded as Removed because a non-answer is not a removable concept \u2014 it is the absence of prior content.",
+      "alternative_considered": "Treated the PRE as Removed to pair with a transformation; rejected because a placeholder absence has no concept to remove.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "three pilates moves to do before your day",
+      "rationale": "No PRE antecedent exists (placeholder absence only). The student introduces a specific content topic with no available lineage. Cannot test any transformation tier against a null antecedent.",
+      "alternative_considered": "None.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "the person is using the equipment",
+      "rationale": "No PRE antecedent exists. The student introduces a demonstration approach with no available lineage. Cannot test any transformation tier against a null antecedent.",
+      "alternative_considered": "None.",
+      "confidence": "high"
+    }
+  ]
+}

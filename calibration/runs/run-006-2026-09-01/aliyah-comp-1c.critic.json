@@ -1,0 +1,104 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "accuracy",
+      "post": "Quality",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Confirm pass-1. 'Accuracy is a specific way of being Quality' is TRUE (accuracy is a specific register of general excellence). Subsumption holds."
+    },
+    {
+      "type": "recode",
+      "pre": "customer focused",
+      "post": "customer centricity",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Confirm pass-1. Near-synonymous lexical variants; no frame shift, just label standardization. Reframed is the safer descriptor-level code (alternative Elaborated also defensible but Reframed better captures label shift within same territory)."
+    },
+    {
+      "type": "recode",
+      "pre": "making a unique story",
+      "post": "telling a story",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Confirm pass-1. Same storytelling territory; POST drops 'unique' qualifier and shifts 'making' to 'telling'. No subsumption ('telling a story is a specific way of making a unique story' is FALSE due to the qualifier loss). Frame shifts subtly from creation-of-distinctiveness to communication-of-narrative. Reframed holds."
+    },
+    {
+      "type": "confirm",
+      "pre": "Quality",
+      "post": "Quality",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical descriptor preserved. No event needed."
+    },
+    {
+      "type": "confirm",
+      "pre": "eco-friendliness",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Confirm pass-1. Eco-friendliness (environmental/sustainability value) shares no defensible neighborhood with any POST concept (Quality, telling a story, customer centricity). Tested Narrowed, Reframed, Elaborated, Expanded against Quality \u2014 all fail. Genuinely removed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Quality",
+      "post": "Quality",
+      "basis": "identical descriptor preserved across PRE and POST"
+    },
+    {
+      "pre": "accuracy",
+      "post": "Quality",
+      "basis": "subsumption: accuracy is a specific register of the broader Quality/excellence concept"
+    },
+    {
+      "pre": "customer focused",
+      "post": "customer centricity",
+      "basis": "near-synonymous lexical standardization within audience-orientation territory"
+    },
+    {
+      "pre": "making a unique story",
+      "post": "telling a story",
+      "basis": "same storytelling territory; POST drops 'unique' qualifier and shifts gerund, slight frame shift from creation-of-distinctiveness to communication-of-narrative"
+    }
+  ],
+  "unmatched_pre": [
+    "eco-friendliness"
+  ],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "accuracy",
+      "post_evidence": "Quality",
+      "rationale": "Subsumption test: 'accuracy is a specific way of being Quality' is TRUE. Accuracy denotes a specific, restricted manifestation of the broader quality/excellence concept (precision/correctness as one register of high standards). Tier 1 Narrowed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "customer focused",
+      "post_evidence": "customer centricity",
+      "rationale": "Both occupy the audience-orientation territory. No true subsumption (the relation is near-tautological stylistic variation, not subtype). Frame persists; the change is a label standardization from the loose 'customer focused' to the conventional compound 'customer centricity'. Reframed chosen as the closest descriptor-level code for label shift within same territory.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "making a unique story",
+      "post_evidence": "telling a story",
+      "rationale": "Both occupy the narrative/storytelling territory. POST drops the 'unique' qualifier and shifts the verb from 'making' (crafting-distinctiveness frame) to 'telling' (communication-of-narrative frame). Subsumption fails because the 'unique' qualifier is dropped in POST. Same storytelling territory with a shifted organizing frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "eco-friendliness",
+      "post_evidence": null,
+      "rationale": "No defensible POST successor. Eco-friendliness (environmental/sustainability orientation) shares no semantic neighborhood with Quality (general excellence standard), telling a story (narrative), or customer centricity (audience orientation). Tested Narrowed (eco-friendliness is not a subtype of quality), Reframed (no shared territory \u2014 environmental vs general-excellence vs narrative vs audience-orientation are all distinct domains), Elaborated (no PRE seed being expanded), Expanded (quality is not a seed that broadens into eco-friendliness). All four fail.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

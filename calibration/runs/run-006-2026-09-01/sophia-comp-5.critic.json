@@ -1,0 +1,49 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "active people",
+      "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Pass-1 Narrowed is correct. PRE 'active people' is a generic audience label (PRE-genericness signal satisfied); POST is a specific active subpopulation (pilates-practicing frequent traveler). Subsumption test holds: 'a frequent-traveler maintaining pilates is a specific way of being active people.' Reframed would require a sibling territory rather than a subset, which is not the case here."
+    },
+    {
+      "type": "confirm",
+      "pre": "women into health",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Stage 1 neighborhood gate: gendered health-interested audience and activity-maintenance traveler niche are topically adjacent but do not share a nameable specific neighborhood. PRE specifies gender (women) + general health interest; POST is ungendered and activity-specific (pilates + travel). All four ladder tiers fail as pass-1 documented. No available PRE unit in unmatched_pre to restore lineage with. Confirm Removed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "active people",
+      "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+      "basis": "Both describe an active-lifestyle audience; POST specifies the activity (pilates) and a context (frequent travel) that maintains the activity. POST is a proper subset of PRE (Narrowed)."
+    }
+  ],
+  "unmatched_pre": [
+    "women into health"
+  ],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "active people",
+      "post_evidence": "frequent traveler who wants to keep pilates routine consistent on the go",
+      "rationale": "POST is a specific way of being PRE: a frequent-traveler maintaining pilates is a specific active subpopulation of the generic 'active people' audience. PRE-genericness signal applies; subsumption holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "women who are into health",
+      "post_evidence": null,
+      "rationale": "Gender-restricted health-interested audience has no defensible successor in POST. All four ladder tiers tested against the only POST concept and failed: pilates/travel-maintenance niche is not a subset of women-into-health (gender dropped), not a sibling territory (audience-categorical vs activity-contextual), does not retain PRE intact, and does not broaden the gender+health seed. Topical adjacency only; no neighborhood relation.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-1c"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "eco-friendly",
+      "safe"
+    ],
+    "post_concepts": [
+      "pilates is a powerful tool for promoting physical and mental well-being",
+      "empower young women to try pilates to strengthen their bodies",
+      "be in peace with themselves"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "eco-friendly",
+        "post": "pilates is a powerful tool for promoting physical and mental well-being",
+        "continuity": "topical adjacency only \u2014 physical well-being relates loosely to eco/sustainability",
+        "scope": "eco-friendly is environmental sustainability; pilates well-being is bodily/holistic health",
+        "frame": "environmental frame vs bodily/health frame",
+        "stretch": "too broad a stretch",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "eco-friendly",
+        "post": "empower young women to try pilates to strengthen their bodies",
+        "continuity": "no conceptual lineage",
+        "scope": "environmental vs bodily strengthening",
+        "frame": "different domains",
+        "stretch": "forced pairing would be implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "eco-friendly",
+        "post": "be in peace with themselves",
+        "continuity": "no conceptual lineage",
+        "scope": "environmental vs inner peace",
+        "frame": "different domains",
+        "stretch": "forced pairing would be implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "safe",
+        "post": "pilates is a powerful tool for promoting physical and mental well-being",
+        "continuity": "possible loose lineage \u2014 safety/well-being share a wellness neighborhood",
+        "scope": "safe is a broad safety/caution attribute; well-being is a richer health concept",
+        "frame": "protective/safety frame vs holistic well-being frame",
+        "stretch": "boundary Case \u2014 well-being can encompass physical safety",
+        "verdict": "weak"
+      },
+      {
+        "pre": "safe",
+        "post": "empower young women to try pilates to strengthen their bodies",
+        "continuity": "physical safety is one dimension of bodily strengthening",
+        "scope": "safe is broad; strengthening bodies is a specific mode",
+        "frame": "caution/safety frame vs empowerment/action frame",
+        "stretch": "moderate stretch",
+        "verdict": "weak"
+      },
+      {
+        "pre": "safe",
+        "post": "be in peace with themselves",
+        "continuity": "mental/psychological well-being shares loose neighborhood with safety",
+        "scope": "safe is broad; inner peace is a specific psychological state",
+        "frame": "protection frame vs psychological harmony frame",
+        "stretch": "moderate stretch",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "eco-friendly",
+        "post": "pilates is a powerful tool for promoting physical and mental well-being",
+        "reason": "eco-friendly is environmental sustainability; pilates well-being addresses bodily/holistic health \u2014 different conceptual domains; forced pairing would be implausible"
+      },
+      {
+        "pre": "eco-friendly",
+        "post": "empower young women to try pilates to strengthen their bodies",
+        "reason": "environmental sustainability vs body strengthening \u2014 different domains"
+      },
+      {
+        "pre": "eco-friendly",
+        "post": "be in peace with themselves",
+        "reason": "environmental vs psychological inner peace \u2014 different domains"
+      },
+      {
+        "pre": "safe",
+        "post": "empower young women to try pilates to strengthen their bodies",
+        "reason": "no defensible conceptual lineage; the framing shifts from protective safety to active empowerment with no subsumption; safer to leave unmatched than force a Reframe"
+      }
+    ],
+    "matched_pairs": [],
+    "unmatched_pre": [
+      "eco-friendly",
+      "safe"
+    ],
+    "unmatched_post": [
+      "pilates is a powerful tool for promoting physical and mental well-being",
+      "empower young women to try pilates to strengthen their bodies",
+      "be in peace with themselves"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "eco-friendly",
+        "direction": "removed",
+        "nearest_counterpart": "pilates is a powerful tool for promoting physical and mental well-being",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "eco-friendly denotes environmental/sustainability values; the POST set addresses pilates, physical/mental well-being, women's empowerment, and inner peace. No environmental or sustainability antecedent exists. Narrowed: 'pilates well-being is a specific way of being eco-friendly' is false, different domains. Reframed: shifted frame would be environmental-to-bodily with no shared territory. Elaborated/Expanded: nothing in POST adds detail to or broadens eco-friendly. Lineage fails across different conceptual domains."
+      },
+      {
+        "concept": "safe",
+        "direction": "removed",
+        "nearest_counterpart": "pilates is a powerful tool for promoting physical and mental well-being",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "safe (broad safety/caution attribute) versus pilates well-being shares only a loose wellness adjacency. Narrowed: 'pilates well-being is a specific way of being safe' \u2014 false, well-being is a richer category with a different organizing frame (empowerment vs caution). Reframed: same territory? \u2014 partial overlap but the emphasis has shifted from protection to active flourishing; defensible but weak. Elaborated/Expanded: POST does not retain 'safe' as a subset or broaden it. On balance, lineage is not defensible enough to assign a transformation; safe is genuinely absent in framing."
+      },
+      {
+        "concept": "pilates is a powerful tool for promoting physical and mental well-being",
+        "direction": "new",
+        "nearest_counterpart": "safe",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "This is a brand-belief statement about pilates as a tool for well-being. Nearest PRE is 'safe'. Narrowed: 'pilates well-being is a specific way of being safe' \u2014 false, different organizing frames. Reframed: partial overlap on wellness but the framing shifts from protective safety to active flourishing \u2014 territory not genuinely shared. Elaborated/Expanded: safe is not a seed here. Lineage fails."
+      },
+      {
+        "concept": "empower young women to try pilates to strengthen their bodies",
+        "direction": "new",
+        "nearest_counterpart": "safe",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Audience-and-action statement (young women + pilates + body strengthening). Nearest PRE candidates tested: 'safe'. No conceptual lineage; empowerment is a different conceptual domain from safety. Lineage fails."
+      },
+      {
+        "concept": "be in peace with themselves",
+        "direction": "new",
+        "nearest_counterpart": "safe",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Psychological inner-peace statement. Nearest PRE 'safe' shares only a loose wellness adjacency. Narrowed: 'inner peace is a specific way of being safe' \u2014 false. Reframed: psychological vs protective frame; territory not shared. Elaborated/Expanded: no seed. Lineage fails."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "eco-friendly",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "eco-friendly (environmental sustainability) and all POST concepts (pilates, empowerment, inner peace) occupy different conceptual domains. No neighborhood exists. Removed stands."
+      },
+      {
+        "type": "confirm",
+        "pre": "safe",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "safe (protective/caution attribute) vs POST well-being/empowerment/inner-peace cluster. The 'wellness' adjacency is an abstraction-ceiling umbrella; no specific shared semantic territory is nameable that would not also fit eco-friendly. No defensible transformation. Removed stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "pilates is a powerful tool for promoting physical and mental well-being",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Brand-belief statement about pilates and well-being. Nearest PRE antecedent is 'safe'; lineage fails on all four tiers (different frames: protective-safety vs active-flourishing). No neighborhood; New stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "empower young women to try pilates to strengthen their bodies",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Audience-and-action statement. No PRE antecedent supports Narrowed/Reframed/Elaborated/Expanded. Different conceptual domain from both eco-friendly and safe."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "be in peace with themselves",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Psychological inner-peace statement. Looseness with 'safe' is wellness-umbrella adjacency, not a nameable shared semantic territory. New stands."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "The post-response contains multiple full clauses and explanatory sentences spanning ~35 words across three semantic units (brand belief about pilates as well-being tool; empowerment of young women to strengthen their bodies; inner peace for themselves). The pre-response is a 3-word adjacency of two generic descriptors with no elaboration. Net structural scope expands considerably."
+  },
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "eco-friendly",
+      "post_evidence": null,
+      "rationale": "Environmental/sustainability value has no counterpart in POST set (pilates, empowerment, inner peace). Different conceptual domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "safe",
+      "post_evidence": null,
+      "rationale": "Protective/caution attribute shares only a loose wellness umbrella with POST; no specific shared semantic territory nameable without hitting abstraction ceiling.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "My brand believes that pilates is a powerful tool for promoting physical and mental well-being.",
+      "rationale": "Brand-belief statement about pilates and holistic well-being. No PRE antecedent survives ladder test.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "empower young women to try pilates to strengthen their bodies",
+      "rationale": "Audience-and-action statement. No PRE antecedent in either eco-friendly or safe.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "be in peace with themselves",
+      "rationale": "Psychological inner-peace statement. Nearest PRE 'safe' shares only wellness-umbrella adjacency; not a nameable shared territory.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [
+    {
+      "code": "Personal Background",
+      "evidence": "I want my brand to empower young women to try pilates to strengthen their bodies and be in peace with themselves.",
+      "rationale": "First-person articulation of brand intent and the population the student aims to serve connects brand positioning to a personal vision (implicit identification with the target audience of young women and pilates). This is direct textual evidence of personal investment/relation rather than purely inferred agency.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "possible_missed_event",
+      "alignment_null_by_choice",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "PRE is two very generic descriptors ('eco-friendly', 'safe'); POST is a long, multi-clause brand-belief statement with three atomic units. The full-cross-product evaluation found no defensible lineage (Narrowed/Reframed/Elaborated/Expanded) between any PRE descriptor and any POST concept: eco-friendly is environmental and POST is bodily/wellness; 'safe' is protective while POST is actively empowerment/well-being. All five events thus resolve to Removed+New+New+New+New. Although NEW+REMOVED-only outputs are flagged as suspicious in the rules, in this descriptor-set case the absence of any shared semantic territory between eco-friendly, safe and the pilates/well-being/empowerment/inner-peace POST set is genuine, and the MANDATORY-NEW-REMOVED-RECHECK was performed for each event. The 'safe' \u2192 well-being pairing was the closest near-match and was explicitly tested; subsumption fails, frame shifts from caution/protection to active flourishing. Personal Background coded at low confidence because the student uses 'I want' language but does not explicitly cite prior experience, biography, or self-history \u2014 the evidence is personal investment rather than biographical metacognition. Critic applied 5 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

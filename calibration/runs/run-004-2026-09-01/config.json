@@ -1,0 +1,12 @@
+{
+  "runId": "run-004-2026-09-01",
+  "model": "MiniMax-M3",
+  "critic": true,
+  "criticMode": "bidirectional",
+  "items": [
+    "comp-1a",
+    "comp-1b",
+    "comp-1c"
+  ],
+  "notes": "descriptor_set_special for Q1a/Q1c; mandatory New/Removed re-check; neighborhood-gated critic."
+}

@@ -1,0 +1,559 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "Both PRE and POST contain two short descriptors joined by '&'. Same surface length, same syntactic shape, same number of atomic concepts. No structural expansion or contraction at clause/sentence/explanation level.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "Customer-Centricity",
+        "Emotion-Appealing"
+      ],
+      "postConcepts": [
+        "Authentic",
+        "Theory-Based"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Customer-Centricity",
+          "post": "Authentic",
+          "continuity": "Weak. Customer-Centricity concerns audience orientation; Authentic concerns brand-experience veracity. Shared affect/branding neighborhood loosely.",
+          "scope": "Different scopes — audience orientation vs affect grounding.",
+          "frame": "Relational/audience frame vs experiential/authenticity frame",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Customer-Centricity",
+          "post": "Theory-Based",
+          "continuity": "Very weak. Audience orientation vs epistemic grounding — different conceptual domains.",
+          "scope": "Incompatible scopes.",
+          "frame": "Relational vs epistemic/rational",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "continuity": "Strong. Both concern how the brand is affectively experienced and received. Shared affect/brand-experience neighborhood — protected pair.",
+          "scope": "Authentic is a more specific/constrained manifestation of emotion-appealing brand experience.",
+          "frame": "Affective appeal frame → affective authenticity frame",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Theory-Based",
+          "continuity": "Weak. Affective vs epistemic — different domains.",
+          "scope": "Incompatible.",
+          "frame": "Affective vs rational",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Customer-Centricity",
+          "post": "Theory-Based",
+          "reason": "Different conceptual domains (audience orientation vs epistemic grounding). No shared semantic neighborhood. IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies; prefer NULL."
+        },
+        {
+          "pre": "Customer-Centricity",
+          "post": "Authentic",
+          "reason": "Considered as alternative successor for Customer-Centricity, but Authentic fits Emotion-Appealing more naturally in the affect/brand-experience neighborhood. Customer-Centricity has no defensible lineage to Authentic across different domains (audience vs affect). Forced pairing rejected."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "basis": "Shared affect/brand-experience neighborhood (NEIGHBORHOOD-PROTECTS-LINEAGE). Authentic is a more specific/constrained affective register than the broader Emotion-Appealing descriptor — Narrowed."
+        }
+      ],
+      "unmatchedPre": [
+        "Customer-Centricity"
+      ],
+      "unmatchedPost": [
+        "Theory-Based"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "Customer-Centricity",
+          "direction": "removed",
+          "nearestCounterpart": "Authentic",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Customer-Centricity concerns audience/customer orientation; Authentic concerns brand-experience veracity. Narrowed fails (not a specific subset of audience focus). Reframed fails (audience-relational frame vs affect-authenticity frame — different domains). Elaborated fails (no shared frame to elaborate within). Expanded fails (cannot broaden audience orientation into affect authenticity). All four transformations fail across different conceptual domains; nearest candidate was Authentic but lineage not defensible. Outcome kept as Removed."
+        },
+        {
+          "concept": "Theory-Based",
+          "direction": "new",
+          "nearestCounterpart": "Customer-Centricity",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Theory-Based concerns epistemic/rational grounding of the brand; Customer-Centricity concerns audience orientation. Narrowed fails (not a subset). Reframed fails (epistemic vs audience — different domains). Elaborated fails (no shared frame). Expanded fails (cannot expand audience orientation into epistemic grounding). All four transformations fail across different conceptual domains. Outcome kept as New."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "fromCode": "Narrowed",
+          "toCode": "Narrowed",
+          "reason": "Protected pair in shared affect/brand-experience neighborhood. Authentic is a more specific, constrained manifestation of broader Emotion-Appealing. Narrowed is well-supported; Reframed considered but not preferred. Confirm."
+        },
+        {
+          "type": "confirm",
+          "pre": "Customer-Centricity",
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "Customer-Centricity (audience orientation) tested against both POST concepts. Authentic occupies affect/brand-experience neighborhood, not audience orientation — different domains, so all four transformations fail (not a subset, not a reframe within audience frame, no shared frame to elaborate, cannot broaden audience into affect). Theory-Based is epistemic, also different domain. No defensible POST successor. Removed stands."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Theory-Based",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Theory-Based (epistemic grounding) tested against both PRE concepts. Customer-Centricity is audience-relational — different domain; Emotion-Appealing is affective — different domain. No Narrowed, Reframed, Elaborated, or Expanded reading is defensible. New stands."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti4f8yotjj7fbqxhi",
+        "code": "Narrowed",
+        "preEvidence": "Emotion-Appealing",
+        "postEvidence": "Authentic",
+        "rationale": "Protected pair in affect/brand-experience neighborhood. Authentic concretizes the broader affective appeal descriptor into a specific mode of brand experience (authenticity); scope is restricted, not reframed.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti4f8yoh5bnlx8f3lp",
+        "code": "Removed",
+        "preEvidence": "Customer-Centricity",
+        "postEvidence": null,
+        "rationale": "Customer-Centricity (audience orientation) has no defensible POST successor. Nearest counterparts (Authentic, Theory-Based) occupy different conceptual domains; all four transformations tested and fail.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed (to Authentic)"
+      },
+      {
+        "instanceId": "mti4f8yomx3raa6txqn",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Theory-Based",
+        "rationale": "Theory-Based (epistemic grounding) has no defensible PRE antecedent. Nearest counterpart (Customer-Centricity) occupies a different conceptual domain; all four transformations fail.",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded (from Customer-Centricity)"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "new_removed_recheck_passed",
+        "neighborhood_protected",
+        "reframe_downgraded"
+      ],
+      "coderNotes": "Descriptor-set item (Q1c Core Values) coded descriptor-by-descriptor. Emotion-Appealing → Authentic is a protected neighborhood pair resolved as Narrowed via NARROW-ABSTRACT (Authentic as specific manifestation of broader affective appeal); Reframed was the runner-up but downgraded because scope is restricted, not re-framed (reframe_downgraded). Customer-Centricity and Theory-Based occupy different conceptual domains (audience orientation vs epistemic grounding); MANDATORY-NEW-REMOVED-RECHECK performed for both and lineage not defensible across transformations, so Removed + New is the appropriate outcome. Critic applied 3 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Customer-Centricity",
+        "Emotion-Appealing"
+      ],
+      "post_concepts": [
+        "Authentic",
+        "Theory-Based"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Customer-Centricity",
+          "post": "Authentic",
+          "continuity": "Weak. Customer-Centricity concerns audience orientation; Authentic concerns brand-experience veracity. Shared affect/branding neighborhood loosely.",
+          "scope": "Different scopes — audience orientation vs affect grounding.",
+          "frame": "Relational/audience frame vs experiential/authenticity frame",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Customer-Centricity",
+          "post": "Theory-Based",
+          "continuity": "Very weak. Audience orientation vs epistemic grounding — different conceptual domains.",
+          "scope": "Incompatible scopes.",
+          "frame": "Relational vs epistemic/rational",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "continuity": "Strong. Both concern how the brand is affectively experienced and received. Shared affect/brand-experience neighborhood — protected pair.",
+          "scope": "Authentic is a more specific/constrained manifestation of emotion-appealing brand experience.",
+          "frame": "Affective appeal frame → affective authenticity frame",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Theory-Based",
+          "continuity": "Weak. Affective vs epistemic — different domains.",
+          "scope": "Incompatible.",
+          "frame": "Affective vs rational",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Customer-Centricity",
+          "post": "Theory-Based",
+          "reason": "Different conceptual domains (audience orientation vs epistemic grounding). No shared semantic neighborhood. IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies; prefer NULL."
+        },
+        {
+          "pre": "Customer-Centricity",
+          "post": "Authentic",
+          "reason": "Considered as alternative successor for Customer-Centricity, but Authentic fits Emotion-Appealing more naturally in the affect/brand-experience neighborhood. Customer-Centricity has no defensible lineage to Authentic across different domains (audience vs affect). Forced pairing rejected."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "basis": "Shared affect/brand-experience neighborhood (NEIGHBORHOOD-PROTECTS-LINEAGE). Authentic is a more specific/constrained affective register than the broader Emotion-Appealing descriptor — Narrowed."
+        }
+      ],
+      "unmatched_pre": [
+        "Customer-Centricity"
+      ],
+      "unmatched_post": [
+        "Theory-Based"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Customer-Centricity",
+          "direction": "removed",
+          "nearest_counterpart": "Authentic",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Customer-Centricity concerns audience/customer orientation; Authentic concerns brand-experience veracity. Narrowed fails (not a specific subset of audience focus). Reframed fails (audience-relational frame vs affect-authenticity frame — different domains). Elaborated fails (no shared frame to elaborate within). Expanded fails (cannot broaden audience orientation into affect authenticity). All four transformations fail across different conceptual domains; nearest candidate was Authentic but lineage not defensible. Outcome kept as Removed."
+        },
+        {
+          "concept": "Theory-Based",
+          "direction": "new",
+          "nearest_counterpart": "Customer-Centricity",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Theory-Based concerns epistemic/rational grounding of the brand; Customer-Centricity concerns audience orientation. Narrowed fails (not a subset). Reframed fails (epistemic vs audience — different domains). Elaborated fails (no shared frame). Expanded fails (cannot expand audience orientation into epistemic grounding). All four transformations fail across different conceptual domains. Outcome kept as New."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "from_code": "Narrowed",
+          "to_code": "Narrowed",
+          "reason": "Protected pair in shared affect/brand-experience neighborhood. Authentic is a more specific, constrained manifestation of broader Emotion-Appealing. Narrowed is well-supported; Reframed considered but not preferred. Confirm."
+        },
+        {
+          "type": "confirm",
+          "pre": "Customer-Centricity",
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "Customer-Centricity (audience orientation) tested against both POST concepts. Authentic occupies affect/brand-experience neighborhood, not audience orientation — different domains, so all four transformations fail (not a subset, not a reframe within audience frame, no shared frame to elaborate, cannot broaden audience into affect). Theory-Based is epistemic, also different domain. No defensible POST successor. Removed stands."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Theory-Based",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Theory-Based (epistemic grounding) tested against both PRE concepts. Customer-Centricity is audience-relational — different domain; Emotion-Appealing is affective — different domain. No Narrowed, Reframed, Elaborated, or Expanded reading is defensible. New stands."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "Both PRE and POST contain two short descriptors joined by '&'. Same surface length, same syntactic shape, same number of atomic concepts. No structural expansion or contraction at clause/sentence/explanation level."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Emotion-Appealing",
+        "post_evidence": "Authentic",
+        "rationale": "Protected pair in affect/brand-experience neighborhood. Authentic concretizes the broader affective appeal descriptor into a specific mode of brand experience (authenticity); scope is restricted, not reframed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Customer-Centricity",
+        "post_evidence": null,
+        "rationale": "Customer-Centricity (audience orientation) has no defensible POST successor. Nearest counterparts (Authentic, Theory-Based) occupy different conceptual domains; all four transformations tested and fail.",
+        "alternative_considered": "Reframed (to Authentic)",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Theory-Based",
+        "rationale": "Theory-Based (epistemic grounding) has no defensible PRE antecedent. Nearest counterpart (Customer-Centricity) occupies a different conceptual domain; all four transformations fail.",
+        "alternative_considered": "Expanded (from Customer-Centricity)",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "new_removed_recheck_passed",
+        "neighborhood_protected",
+        "reframe_downgraded"
+      ],
+      "coder_notes": "Descriptor-set item (Q1c Core Values) coded descriptor-by-descriptor. Emotion-Appealing → Authentic is a protected neighborhood pair resolved as Narrowed via NARROW-ABSTRACT (Authentic as specific manifestation of broader affective appeal); Reframed was the runner-up but downgraded because scope is restricted, not re-framed (reframe_downgraded). Customer-Centricity and Theory-Based occupy different conceptual domains (audience orientation vs epistemic grounding); MANDATORY-NEW-REMOVED-RECHECK performed for both and lineage not defensible across transformations, so Removed + New is the appropriate outcome. Critic applied 3 correction(s)."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Customer-Centricity",
+        "Emotion-Appealing"
+      ],
+      "post_concepts": [
+        "Authentic",
+        "Theory-Based"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Customer-Centricity",
+          "post": "Authentic",
+          "continuity": "Weak. Customer-Centricity concerns audience orientation; Authentic concerns brand-experience veracity. Shared affect/branding neighborhood loosely.",
+          "scope": "Different scopes — audience orientation vs affect grounding.",
+          "frame": "Relational/audience frame vs experiential/authenticity frame",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Customer-Centricity",
+          "post": "Theory-Based",
+          "continuity": "Very weak. Audience orientation vs epistemic grounding — different conceptual domains.",
+          "scope": "Incompatible scopes.",
+          "frame": "Relational vs epistemic/rational",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "continuity": "Strong. Both concern how the brand is affectively experienced and received. Shared affect/brand-experience neighborhood — protected pair.",
+          "scope": "Authentic is a more specific/constrained manifestation of emotion-appealing brand experience.",
+          "frame": "Affective appeal frame → affective authenticity frame",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Theory-Based",
+          "continuity": "Weak. Affective vs epistemic — different domains.",
+          "scope": "Incompatible.",
+          "frame": "Affective vs rational",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Customer-Centricity",
+          "post": "Theory-Based",
+          "reason": "Different conceptual domains (audience orientation vs epistemic grounding). No shared semantic neighborhood. IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies; prefer NULL."
+        },
+        {
+          "pre": "Customer-Centricity",
+          "post": "Authentic",
+          "reason": "Considered as alternative successor for Customer-Centricity, but Authentic fits Emotion-Appealing more naturally in the affect/brand-experience neighborhood. Customer-Centricity has no defensible lineage to Authentic across different domains (audience vs affect). Forced pairing rejected."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "basis": "Shared affect/brand-experience neighborhood; protected pair per NEIGHBORHOOD-PROTECTS-LINEAGE. Emotion-Appealing is a broad affective descriptor; Authentic concretizes it into a specific mode of brand experience."
+        }
+      ],
+      "unmatched_pre": [
+        "Customer-Centricity"
+      ],
+      "unmatched_post": [
+        "Theory-Based"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Customer-Centricity",
+          "direction": "removed",
+          "nearest_counterpart": "Authentic",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Customer-Centricity concerns audience/customer orientation; Authentic concerns brand-experience veracity. Narrowed fails (not a specific subset of audience focus). Reframed fails (audience-relational frame vs affect-authenticity frame — different domains). Elaborated fails (no shared frame to elaborate within). Expanded fails (cannot broaden audience orientation into affect authenticity). All four transformations fail across different conceptual domains; nearest candidate was Authentic but lineage not defensible. Outcome kept as Removed."
+        },
+        {
+          "concept": "Theory-Based",
+          "direction": "new",
+          "nearest_counterpart": "Customer-Centricity",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Theory-Based concerns epistemic/rational grounding of the brand; Customer-Centricity concerns audience orientation. Narrowed fails (not a subset). Reframed fails (epistemic vs audience — different domains). Elaborated fails (no shared frame). Expanded fails (cannot expand audience orientation into epistemic grounding). All four transformations fail across different conceptual domains. Outcome kept as New."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "Both PRE and POST contain two short descriptors joined by '&'. Same surface length, same syntactic shape, same number of atomic concepts. No structural expansion or contraction at clause/sentence/explanation level."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Emotion-Appealing",
+        "post_evidence": "Authentic",
+        "rationale": "Shared affect/brand-experience neighborhood protects this pairing (NEIGHBORHOOD-PROTECTS-LINEAGE). Authentic represents a more specific, constrained manifestation of the broader Emotion-Appealing attribute — NARROW-ABSTRACT applies. POST concretizes vague affective appeal into a specific mode (authenticity). Apply NARROW-ABSTRACT per item guidance; alternative Reframed considered but Narrowed better supported because scope is restricted (vague affect → specific affect-grounding principle) rather than reframed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Customer-Centricity",
+        "post_evidence": null,
+        "rationale": "Customer-Centricity (audience orientation) has no defensible lineage to any POST concept. Nearest counterpart tested was Authentic; Customer-Centricity and Authentic occupy different conceptual domains (audience vs affect), so all four transformations (Narrowed/Reframed/Elaborated/Expanded) fail. Theory-Based also tested; different domains (audience vs epistemic). MANDATORY-NEW-REMOVED-RECHECK passed; outcome kept as Removed.",
+        "alternative_considered": "Reframed (to Authentic)",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Theory-Based",
+        "rationale": "Theory-Based (epistemic grounding) has no defensible antecedent. Nearest PRE counterpart was Customer-Centricity; audience orientation vs epistemic grounding are different conceptual domains. All four transformations fail. MANDATORY-NEW-REMOVED-RECHECK passed; outcome kept as New.",
+        "alternative_considered": "Expanded (from Customer-Centricity)",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "new_removed_recheck_passed",
+        "neighborhood_protected",
+        "reframe_downgraded"
+      ],
+      "coder_notes": "Descriptor-set item (Q1c Core Values) coded descriptor-by-descriptor. Emotion-Appealing → Authentic is a protected neighborhood pair resolved as Narrowed via NARROW-ABSTRACT (Authentic as specific manifestation of broader affective appeal); Reframed was the runner-up but downgraded because scope is restricted, not re-framed (reframe_downgraded). Customer-Centricity and Theory-Based occupy different conceptual domains (audience orientation vs epistemic grounding); MANDATORY-NEW-REMOVED-RECHECK performed for both and lineage not defensible across transformations, so Removed + New is the appropriate outcome."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Emotion-Appealing",
+        "post": "Authentic",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Protected pair in shared affect/brand-experience neighborhood. Authentic is a more specific, constrained manifestation of broader Emotion-Appealing. Narrowed is well-supported; Reframed considered but not preferred. Confirm."
+      },
+      {
+        "type": "confirm",
+        "pre": "Customer-Centricity",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Customer-Centricity (audience orientation) tested against both POST concepts. Authentic occupies affect/brand-experience neighborhood, not audience orientation — different domains, so all four transformations fail (not a subset, not a reframe within audience frame, no shared frame to elaborate, cannot broaden audience into affect). Theory-Based is epistemic, also different domain. No defensible POST successor. Removed stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Theory-Based",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Theory-Based (epistemic grounding) tested against both PRE concepts. Customer-Centricity is audience-relational — different domain; Emotion-Appealing is affective — different domain. No Narrowed, Reframed, Elaborated, or Expanded reading is defensible. New stands."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Emotion-Appealing",
+        "post": "Authentic",
+        "basis": "Shared affect/brand-experience neighborhood (NEIGHBORHOOD-PROTECTS-LINEAGE). Authentic is a more specific/constrained affective register than the broader Emotion-Appealing descriptor — Narrowed."
+      }
+    ],
+    "unmatched_pre": [
+      "Customer-Centricity"
+    ],
+    "unmatched_post": [
+      "Theory-Based"
+    ],
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Emotion-Appealing",
+        "post_evidence": "Authentic",
+        "rationale": "Protected pair in affect/brand-experience neighborhood. Authentic concretizes the broader affective appeal descriptor into a specific mode of brand experience (authenticity); scope is restricted, not reframed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Customer-Centricity",
+        "post_evidence": null,
+        "rationale": "Customer-Centricity (audience orientation) has no defensible POST successor. Nearest counterparts (Authentic, Theory-Based) occupy different conceptual domains; all four transformations tested and fail.",
+        "alternative_considered": "Reframed (to Authentic)",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Theory-Based",
+        "rationale": "Theory-Based (epistemic grounding) has no defensible PRE antecedent. Nearest counterpart (Customer-Centricity) occupies a different conceptual domain; all four transformations fail.",
+        "alternative_considered": "Expanded (from Customer-Centricity)",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

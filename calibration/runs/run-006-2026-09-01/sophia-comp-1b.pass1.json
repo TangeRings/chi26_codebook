@@ -1,0 +1,150 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-1b"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "create a space for women aged 18-25",
+      "can depend on my items"
+    ],
+    "post_concepts": [
+      "create a brand that prioritizes the well-being of individuals",
+      "prioritizes the well-being of the planet"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "create a space for women aged 18-25",
+        "post": "create a brand that prioritizes the well-being of individuals",
+        "continuity": "Both about creating something for a target audience; both invoke a creating-act frame",
+        "scope": "POST removes the age/gender restriction (women 18-25 \u2192 individuals, broader)",
+        "frame": "PRE is audience-specific space; POST is well-being-prioritizing brand for individuals",
+        "stretch": "Weak conceptual continuity on the surface; need to test the neighborhood",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "create a space for women aged 18-25",
+        "post": "prioritizes the well-being of the planet",
+        "continuity": "Topical adjacency only \u2014 both involve 'prioritizing/well-being' but aimed at different referents (humans vs planet)",
+        "scope": "Incommensurable referents",
+        "frame": "Audience-space vs planetary-care",
+        "stretch": "Different conceptual domains",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "can depend on my items",
+        "post": "create a brand that prioritizes the well-being of individuals",
+        "continuity": "Both express what the brand delivers to a person",
+        "scope": "PRE is reliability of products; POST is well-being of individuals",
+        "frame": "Product-dependability vs holistic well-being",
+        "stretch": "Weak-to-moderate continuity; sibling concepts in service-provision territory",
+        "verdict": "weak"
+      },
+      {
+        "pre": "can depend on my items",
+        "post": "prioritizes the well-being of the planet",
+        "continuity": "Both describe what the brand does/stands for; service to a beneficiary",
+        "scope": "PRE is personal reliability of items; POST is planetary welfare",
+        "frame": "Product reliability vs planetary well-being",
+        "stretch": "Different conceptual domains",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "create a space for women aged 18-25",
+        "post": "prioritizes the well-being of the planet",
+        "reason": "Different conceptual domains (audience-space vs planetary well-being); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+      },
+      {
+        "pre": "can depend on my items",
+        "post": "prioritizes the well-being of the planet",
+        "reason": "Different conceptual domains (product dependability vs planetary well-being); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "create a space for women aged 18-25",
+        "post": "create a brand that prioritizes the well-being of individuals",
+        "basis": "Both involve creating something for people; audience framing persists but the audience is broadened (women 18-25 \u2192 individuals) and the organizing frame shifts from 'space' to 'well-being-prioritizing brand'. Concept of serving a human audience with a created offering persists."
+      }
+    ],
+    "unmatched_pre": [
+      "can depend on my items"
+    ],
+    "unmatched_post": [
+      "prioritizes the well-being of the planet"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "can depend on my items",
+        "direction": "removed",
+        "nearest_counterpart": "create a brand that prioritizes the well-being of individuals",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "The product/service provision frame of 'dependable items' maps into the 'brand that prioritizes well-being of individuals' as an Expanded/Reframed transformation. 'Depend on items' (reliable products serving a person) is reconceived under a broader well-being frame. Best fit is Reframed: product-reliability frame \u2192 holistic-well-being frame for individuals."
+      },
+      {
+        "concept": "prioritizes the well-being of the planet",
+        "direction": "new",
+        "nearest_counterpart": "create a space for women aged 18-25",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested against nearest PRE counterpart 'create a space for women aged 18-25'. Narrowed fails: planetary well-being is not a subset of an audience-space. Reframed fails: audience-space and planet-care are not the same semantic territory. Elaborated fails: planet-care does not elaborate on serving women 18-25. Expanded fails: serving women 18-25 is not a seed from which planet-care grows. Different conceptual domains (audience provisioning vs planetary welfare). Survives as New."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The pre-response is a single clause focused on a narrow demographic and product reliability. The post-response adds a second beneficiary (the planet) and reframes the offering around well-being, expanding both the audience and the value proposition while retaining the brand-creation frame. One meaningful new dimension (planetary well-being) is added and the human-audience concept is broadened. Moderate rather than Significant because the response remains a single sentence and the addition, while conceptually distinct, does not introduce multiple new clauses or explanatory passages."
+  },
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "create a space for women aged 18-25",
+      "post_evidence": "create a brand that prioritizes the well-being of individuals",
+      "rationale": "The audience scope broadens from a specific demographic subset (women aged 18-25) to all individuals. The creating-a-brand-for-people frame persists; the audience is widened rather than reconceived. Scope expansion (women 18-25 \u2192 individuals) is the primary semantic shift, applying SCOPE RESTRICTION logic in reverse (Expansion = broadened scope). Tested against Reframed (audience-space vs well-being-of-individuals \u2014 different organizing frames, but the lineage through audience-broadening is stronger and identifiable) and against Narrowed (individuals is broader, not narrower, than women 18-25, so subsumption does not hold).",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "can depend on my items",
+      "post_evidence": "create a brand that prioritizes the well-being of individuals",
+      "rationale": "The product-reliability frame ('can depend on my items') is reconceived under a holistic-well-being frame ('prioritizes the well-being of individuals'). Both describe what the brand delivers to a person, but PRE frames it as functional dependability of items, while POST frames it as comprehensive well-being. Pre-frame: product-reliability/dependability. Post-frame: holistic individual well-being. Same semantic territory (brand serving individuals) with a shifted organizing frame. Subsumption test fails: 'well-being of individuals' is not a specific way of being 'dependable items', so Narrowed is rejected.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "prioritizes the well-being of the planet",
+      "rationale": "The planetary well-being dimension has no antecedent in the pre-response. The pre-response is entirely human-audience-focused (women aged 18-25, dependability of items). MANDATORY-NEW-REMOVED-RECHECK performed: nearest PRE counterpart is 'create a space for women aged 18-25' (audience-provisioning territory). Narrowed fails (planet is not a subset of women 18-25). Reframed fails (audience provisioning and planetary welfare are different conceptual territories, not the same territory with a shifted frame). Elaborated fails (no pre seed to elaborate). Expanded fails (serving women 18-25 is not an identifiable seed from which planetary welfare grows). Different conceptual domains (human-audience service vs planetary welfare). Outcome: kept as New.",
+      "alternative_considered": "Removed+New",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe",
+      "boundary_case_expand_vs_new"
+    ],
+    "coder_notes": "Audience expansion (women 18-25 \u2192 individuals) could be read as Expanded (broadening the audience scope while keeping the brand-for-people frame) or as Reframed (audience-space frame \u2192 well-being-prioritizing frame for individuals). Selected Expanded because the dominant semantic shift is scope-broadening of an identifiable audience antecedent, with the frame persisting around serving people. The Reframed event for product-reliability \u2192 well-being is moderate-confidence because while the lineage is defensible, the frames differ substantially; an alternative reading of Removed + New for that pair was considered but rejected because both clearly concern what the brand provides to individuals. The New event for planetary well-being is high-confidence because the pre-response is entirely human-focused."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

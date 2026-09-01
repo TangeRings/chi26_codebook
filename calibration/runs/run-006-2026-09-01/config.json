@@ -1,0 +1,21 @@
+{
+  "runId": "run-006-2026-09-01",
+  "model": "MiniMax-M3",
+  "critic": true,
+  "criticMode": "bidirectional-ladder",
+  "scope": "batch — all students, all codeable items",
+  "students": ["jason", "sophia", "aliyah"],
+  "itemsAttempted": 21,
+  "itemsSucceeded": 21,
+  "skipped": {
+    "jason:comp-1a": "already verified against human gold labels in run-005",
+    "jason:comp-1b": "already verified against human gold labels in run-005",
+    "jason:comp-1c": "already verified against human gold labels in run-005"
+  },
+  "notCodeable": {
+    "comp-2, comp-4, comp-9, comp-11, comp-12": "Likert / numeric answers — not open text",
+    "comp-10": "grid answer object — not open text"
+  },
+  "notes": "First full-corpus batch after the subsumption / transformation-ladder calibration (run-005). Ruleset: NARROW-REQUIRES-SUBSUMPTION, transformation ladder with reachable tier 5, abstraction ceiling on neighborhood claims, one-PRE-unit-one-event invariant.",
+  "followUp": "run-007 re-coded aliyah:comp-3 and sophia:comp-1b after the enforceEventConsistency guard was added; those two items had a duplicate PRE antecedent and a matched/Removed contradiction respectively."
+}

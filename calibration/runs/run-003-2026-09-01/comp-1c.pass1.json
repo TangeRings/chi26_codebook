@@ -1,0 +1,129 @@
+{
+  "coding_unit": {
+    "student_id": "jason",
+    "item_id": "comp-1c"
+  },
+  "concept_alignment": {
+    "unitization_mode": "atomic_descriptor_set",
+    "pre_concepts": [
+      "Customer-Centricity",
+      "Emotion-Appealing"
+    ],
+    "post_concepts": [
+      "Authentic",
+      "Theory-Based"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Customer-Centricity",
+        "post": "Authentic",
+        "continuity": "Weak. Customer-Centricity is about orienting decisions around customers; Authentic is about genuine/credible identity. Related only loosely via brand-trust neighborhood.",
+        "scope": "Customer-Centricity scopes brand action to customer needs; Authentic does not restrict scope.",
+        "frame": "Different frames: relational/audience-orientation vs identity-credibility.",
+        "stretch": "Significant interpretive stretch required to connect the two.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Customer-Centricity",
+        "post": "Theory-Based",
+        "continuity": "None. Customer-orientation and theoretical grounding are conceptually unrelated.",
+        "scope": "Incompatible.",
+        "frame": "Audience-orientation vs epistemic grounding.",
+        "stretch": "Extreme stretch.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Emotion-Appealing",
+        "post": "Authentic",
+        "continuity": "Some neighborhood overlap: both relate to how the brand is experienced/perceived. Vague PRE concept can be concretised; Authentic could be read as a more specific way to be emotionally appealing (genuine emotional appeal rather than generic emotional appeal).",
+        "scope": "Emotion-Appealing is broad affective orientation; Authentic narrows the affective register to genuineness.",
+        "frame": "Both could be argued as expressive/relational frames, though emphasis shifts from evoking emotion to being perceived as genuine.",
+        "stretch": "Moderate. Vague-to-specific lineage defensible via VAGUE-vs-SPECIFIC and NARROW-ABSTRACT.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Emotion-Appealing",
+        "post": "Theory-Based",
+        "continuity": "None. Affective/experiential appeal and epistemic grounding are conceptually unrelated.",
+        "scope": "Incompatible.",
+        "frame": "Affective vs epistemic.",
+        "stretch": "Extreme stretch.",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Customer-Centricity",
+        "post": "Authentic",
+        "reason": "Different frames (audience-orientation vs identity-credibility); pairing survives only with significant interpretive stretch. Forced pairing rejected per IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED."
+      },
+      {
+        "pre": "Customer-Centricity",
+        "post": "Theory-Based",
+        "reason": "Conceptually unrelated; no defensible lineage."
+      },
+      {
+        "pre": "Emotion-Appealing",
+        "post": "Theory-Based",
+        "reason": "Conceptually unrelated; no defensible lineage."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Emotion-Appealing",
+        "post": "Authentic",
+        "basis": "Weak-but-defensible neighborhood lineage under VAGUE-vs-SPECIFIC/NARROW-ABSTRACT: vague affective-expressive PRE concretised as a specific register (genuineness). Selected over NULL because lineage can be defended, though only weakly."
+      }
+    ],
+    "unmatched_pre": [
+      "Customer-Centricity"
+    ],
+    "unmatched_post": [
+      "Theory-Based"
+    ],
+    "order_only_changes": []
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "Both responses consist of two hyphenated/multi-word descriptors joined by '&'. Same length, same structural shape, same list-style format. No clauses, sentences, or explanatory passages added or removed."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Emotion-Appealing",
+      "post_evidence": "Authentic",
+      "rationale": "Under VAGUE-vs-SPECIFIC and NARROW-ABSTRACT: vague affective value (Emotion-Appealing) concretised in POST as a more specific qualitative attribute (Authentic/genuine emotional register). Scope of the affective orientation is restricted from 'emotion-appealing' broadly to the specific kind of genuineness. Same semantic neighborhood (brand affect/expression) persists; scope narrows. REFRAME-NOT-DEFAULT and NARROW-ABSTRACT applied.",
+      "alternative_considered": "Reframed (emotion-evocation frame → genuineness-credibility frame)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Customer-Centricity",
+      "post_evidence": null,
+      "rationale": "Full-response POST search found no successor for Customer-Centricity. Neither Authentic nor Theory-Based conceptually continues the audience-orientation role of Customer-Centricity. No defensible semantic-role lineage exists. Per IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED, Removed is more defensible than forced pairing.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Theory-Based",
+      "rationale": "Full-response PRE search found no antecedent for a theory-/knowledge-grounding value. Neither Customer-Centricity nor Emotion-Appealing provides a seed from which Theory-Based could be Expanded. Per LAST-RESORT-NEW-REMOVED, assigned New.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe",
+      "vague_to_specific_lineage",
+      "alignment_null_by_choice",
+      "forced_pairing_rejected"
+    ],
+    "coder_notes": "Emotion-Appealing → Authentic is borderline Narrowed vs Reframed. Narrowed chosen because the same affective/expressive neighborhood persists and the change appears to be vague-to-specific concretisation rather than a true frame shift. Reframe remains a plausible alternative and the boundary is flagged. Customer-Centricity and Theory-Based are coded Removed + New on the basis of full-response searches returning no defensible lineage; forced pairings (with either Authentic or Theory-Based) were rejected as implausible."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

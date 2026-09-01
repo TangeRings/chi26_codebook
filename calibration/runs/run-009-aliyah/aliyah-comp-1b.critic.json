@@ -1,0 +1,91 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "relive moments in life with scent",
+      "post": "relive memories with them",
+      "from_code": "Elaborated",
+      "to_code": "Reframed",
+      "reason": "POST does not merely compress PRE; it shifts the frame from 'relive moments in life' (broad life-moments) to 'relive memories' (memory-recall specifically), and the medium reference shifts from 'scent' to 'them' (the bottles/scent products). Same semantic territory (nostalgic return via product) with a shifted organizing frame \u2014 memory-recall frame rather than life-moments frame. Reframed, not Elaborated."
+    },
+    {
+      "type": "add_pairing",
+      "pre": "future/world framing",
+      "post": null,
+      "from_code": null,
+      "to_code": null,
+      "reason": "PRE 'future/world framing' is a framing/emphasis concept, not a content claim. POST does not contain an explicit future/world framing statement, so there is no defensible POST successor. This is a genuine Removed: the future/world framing dropped out of the POST set. Recording as Removed rather than forcing a pairing into the 'everyone has their own unique scent' slot."
+    },
+    {
+      "type": "confirm",
+      "pre": "get any scent replicated",
+      "post": "everyone has their own unique scent",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Subsumption test: 'everyone having a unique scent is a specific way of getting any scent replicated' \u2014 FALSE. Shared personalization neighborhood with shifted frame (replication-service \u2192 personal-uniqueness/ownership). Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "create your own bottle based on a story",
+      "post": "their own unique bottle",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Subsumption test: 'a unique bottle is a specific way of being a story-based bottle' \u2014 FALSE. Shared personalization territory with shifted organizing frame (narrative-driven \u2192 uniqueness-driven). Reframed is correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "get any scent replicated",
+      "post": "everyone has their own unique scent",
+      "basis": "shared personalization/scent-access neighborhood; PRE frames as replication service, POST frames as personal uniqueness/ownership \u2014 Reframed"
+    },
+    {
+      "pre": "relive moments in life with scent",
+      "post": "relive memories with them",
+      "basis": "shared nostalgic-return-via-product territory; PRE frames as broad life-moments via scent, POST frames as memory-recall via the products \u2014 Reframed"
+    },
+    {
+      "pre": "create your own bottle based on a story",
+      "post": "their own unique bottle",
+      "basis": "shared personalization/bottle-ownership territory; PRE frames as narrative-driven customization, POST frames as uniqueness \u2014 Reframed"
+    }
+  ],
+  "unmatched_pre": [
+    "future/world framing"
+  ],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "get any scent that they want replicated",
+      "post_evidence": "everyone has their own unique scent",
+      "rationale": "Shared neighborhood of personalized scent access. PRE organizes around a replication-service frame (any scent can be reproduced on demand); POST organizes around a personal-uniqueness/ownership frame (each person has their own scent). Subsumption fails: owning a unique scent is not a specific way of getting any scent replicated. Frame shifts, territory persists. Reframed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "relive moments in life with this scent",
+      "post_evidence": "relive memories with them",
+      "rationale": "Same nostalgic-return territory, but the organizing frame shifts: PRE frames the return as 'moments in life' mediated by scent; POST frames it as 'memories' mediated by the products ('them'). The medium reference also shifts from 'scent' to 'them' (the bottles/products). No subsumption ('reliving memories is a specific way of reliving moments in life' is too loose to hold). Same territory, shifted frame. Reframed, not Elaborated (which would require the same frame with added detail).",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "create their own bottle based off of the story associated with that scent",
+      "post_evidence": "their own unique bottle",
+      "rationale": "Shared personalization/bottle-ownership neighborhood. PRE organizes around narrative-driven customization; POST organizes around uniqueness/individuality. Subsumption fails: a unique bottle is not a specific way of being a story-based bottle. Frame shifts, territory persists. Reframed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "framing the brand vision in future/world terms (world where everyone has their own unique scent)",
+      "post_evidence": null,
+      "rationale": "The future/world framing present in PRE (aspirational, world-building tone) is a meta-framing device that does not have a defensible POST successor in the POST concept set. The closest POST concept ('everyone has their own unique scent') is already matched as the successor of 'get any scent replicated' and cannot serve a second event. Recording as Removed rather than manufacturing a pairing.",
+      "alternative_considered": null,
+      "confidence": "medium"
+    }
+  ]
+}

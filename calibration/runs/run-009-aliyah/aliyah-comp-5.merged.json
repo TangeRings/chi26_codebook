@@ -1,0 +1,199 @@
+{
+  "coding_unit": {
+    "student_id": "aliyah",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "Unique perfume enthusiasts",
+      "Perfume collectors seeking something different from the rest of the market"
+    ],
+    "post_concepts": [
+      "Perfume enthusiasts",
+      "Nostalgia seekers"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Unique perfume enthusiasts",
+        "post": "Perfume enthusiasts",
+        "continuity": "Both refer to perfume enthusiasts as a niche audience segment",
+        "scope": "PRE restricts to 'unique' enthusiasts (subset); POST broadens to all perfume enthusiasts",
+        "frame": "Differentiation-by-uniqueness vs general enthusiast identity",
+        "stretch": "Low \u2014 direct conceptual lineage",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Unique perfume enthusiasts",
+        "post": "Nostalgia seekers",
+        "continuity": "Both are audience-niche descriptors but operate in different conceptual territory",
+        "scope": "Different categories of person",
+        "frame": "Distinctiveness-driven vs affect/memory-driven audience",
+        "stretch": "High \u2014 no shared anchor in audience definition",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Perfume collectors seeking something different from the rest of the market",
+        "post": "Perfume enthusiasts",
+        "continuity": "Perfume enthusiasts is a superordinate category that subsumes collectors",
+        "scope": "POST is broader \u2014 enthusiasts \u2283 collectors",
+        "frame": "Difference-from-market vs general enthusiast orientation",
+        "stretch": "Moderate \u2014 categorical broadening",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Perfume collectors seeking something different from the rest of the market",
+        "post": "Nostalgia seekers",
+        "continuity": "Both describe a niche audience but different conceptual territory",
+        "scope": "Different psychographic dimensions",
+        "frame": "Market-differentiation seeking vs affect/nostalgia-driven",
+        "stretch": "High \u2014 no shared anchor",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Unique perfume enthusiasts",
+        "post": "Nostalgia seekers",
+        "reason": "Different conceptual domains (distinctiveness vs affect/nostalgia); no shared anchor to defend lineage"
+      },
+      {
+        "pre": "Perfume collectors seeking something different from the rest of the market",
+        "post": "Nostalgia seekers",
+        "reason": "Different conceptual domains (market-differentiation seeking vs nostalgia-driven motivation); no defensible lineage"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Unique perfume enthusiasts",
+        "post": "Perfume enthusiasts",
+        "basis": "Audience-niche lineage with scope broadening. PRE restricts to 'unique' subset; POST broadens to all enthusiasts."
+      },
+      {
+        "pre": "Perfume collectors seeking something different from the rest of the market",
+        "post": "Perfume enthusiasts",
+        "basis": "Audience-niche lineage with categorical broadening. Collectors \u2282 enthusiasts; POST drops the market-differentiation qualifier and broadens scope."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Nostalgia seekers"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Nostalgia seekers",
+        "direction": "new",
+        "nearest_counterpart": "Perfume collectors seeking something different from the rest of the market",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE counterpart is the 'collectors seeking something different' framing. Tested: Narrowed (nostalgia seekers are NOT a subset of 'seeking something different' \u2014 they are motivated by affect/memory, not market differentiation) \u2014 fails. Reframed (no shared organizing frame: market-differentiation vs nostalgia affect) \u2014 fails. Elaborated (POST does not retain PRE) \u2014 fails. Expanded (no identifiable seed for nostalgia in PRE) \u2014 fails. Concept genuinely occupies different conceptual territory."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "recode",
+        "pre": "Unique perfume enthusiasts",
+        "post": "Perfume enthusiasts",
+        "from_code": "Expanded",
+        "to_code": "Narrowed",
+        "reason": "Subsumption test: 'Perfume enthusiasts is a specific way of being Unique perfume enthusiasts' is FALSE \u2014 the direction is reversed. PRE is the restricted set (unique enthusiasts), POST is the superordinate. POST is broader than PRE, so this is Expanded. However, pass-1's direction claim is internally inverted. Both PRE and POST are audience-niche descriptors; PRE adds 'unique' qualifier. POST removes the uniqueness restriction and broadens to all enthusiasts. This is genuine scope-expansion, not narrowing. But the second pair 'Perfume collectors seeking something different from the rest of the market' -> 'Perfume enthusiasts' is also Expanded (collectors \u2282 enthusiasts). Both confirm as Expanded. No recode."
+      },
+      {
+        "type": "confirm",
+        "pre": "Unique perfume enthusiasts",
+        "post": "Perfume enthusiasts",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "Confirmed Expanded. PRE 'Unique perfume enthusiasts' is a restricted subset; POST 'Perfume enthusiasts' is the broader superordinate. POST broadens an identifiable PRE seed by removing the 'unique' restriction. Alternative Reframed considered: rejected because the dominant change is scope broadening, not frame shifting."
+      },
+      {
+        "type": "confirm",
+        "pre": "Perfume collectors seeking something different from the rest of the market",
+        "post": "Perfume enthusiasts",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "Confirmed Expanded. Collectors are a subset of enthusiasts; POST broadens to the full enthusiast category. The market-differentiation qualifier is dropped. Alternative Reframed considered: there is some frame shift (market-differentiation vs general enthusiast orientation), but the dominant change is categorical scope broadening, which is the stronger characterization."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Nostalgia seekers",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Confirmed New. No PRE antecedent for nostalgia-seeking. Tested against nearest counterpart 'Perfume collectors seeking something different from the rest of the market': Narrowed fails (nostalgia seekers \u2260 subset of market-differentiation seekers), Reframed fails (no shared organizing frame), Elaborated fails (no PRE retention), Expanded fails (no seed). Different conceptual territory (affect/memory motivation vs market differentiation)."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "No Removed events in provisional pass-1; all PRE concepts are matched. Nothing to confirm."
+      },
+      {
+        "type": "confirm",
+        "pre": "Unique perfume enthusiasts",
+        "post": "Nostalgia seekers",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Confirmed rejection. Distinctiveness-driven vs affect/memory-driven audience; different conceptual domains; no shared anchor."
+      },
+      {
+        "type": "confirm",
+        "pre": "Perfume collectors seeking something different from the rest of the market",
+        "post": "Nostalgia seekers",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Confirmed rejection. Market-differentiation seeking vs nostalgia-driven motivation; different psychographic dimensions; no defensible lineage."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Reduction",
+    "rationale": "POST is shorter and less descriptive than PRE. PRE contains two elaborated audience descriptions (with qualifying clauses like 'looking for something different from the rest of the market'); POST contains two short labels. One PRE clause-level elaboration is lost, though a new niche (nostalgia seekers) is added. Net effect is a structural reduction \u2014 the response is more compressed and less explanatory, even though a new concept appears."
+  },
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "Unique perfume enthusiasts",
+      "post_evidence": "Perfume enthusiasts",
+      "rationale": "PRE 'Unique perfume enthusiasts' is a restricted subset of the POST category 'Perfume enthusiasts'. POST broadens an identifiable PRE seed by removing the 'unique' restriction. Scope-expansion with lineage preserved.",
+      "alternative_considered": "Reframed (uniqueness-restricted vs general enthusiast framing)",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "Perfume collectors seeking something different from the rest of the market",
+      "post_evidence": "Perfume enthusiasts",
+      "rationale": "Collectors are a subset of enthusiasts; POST broadens the audience from the specific collector segment to the wider enthusiast category. The market-differentiation qualifier is dropped. Scope broadening dominates over any frame shift.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Nostalgia seekers",
+      "rationale": "No antecedent for nostalgia-seeking in PRE. Nearest-counterpart tested against 'Perfume collectors seeking something different from the rest of the market': Narrowed fails (nostalgia seekers are not a subset of market-differentiation seekers), Reframed fails (no shared organizing frame \u2014 market differentiation vs affect/memory motivation), Elaborated fails (no PRE retention), Expanded fails (no seed). Different conceptual domain.",
+      "alternative_considered": "Reframed from collectors-seeking-different",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_expand_vs_new",
+      "vague_to_specific_lineage",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "Both PRE niche descriptions map to the single POST 'Perfume enthusiasts', creating two Expanded events sharing one POST successor. The second Expanded event ('collectors \u2192 enthusiasts') is also somewhat characterized by the loss of the 'different from the rest of the market' qualifier \u2014 that qualifier could be read as a separate Removed concept, but it is bound within the same atomic descriptor unit and treating it as a standalone Removed would double-count. Flagging boundary_case_expand_vs_new because 'Nostalgia seekers' could be loosely read as an affective variant of 'something different from the rest of the market' (i.e., old/vintage = different), but the conceptual frame is genuinely distinct (nostalgia-driven affect vs market-positioning differentiation) so New is defensible. Critic applied 7 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

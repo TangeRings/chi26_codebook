@@ -1,0 +1,227 @@
+{
+  "coding_unit": {
+    "student_id": "jason",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "MBTI-themed merch (e.g. plushes)",
+      "figuring out legal issues",
+      "MBTI demographic is very active in the United States",
+      "not many physical products available for them to buy"
+    ],
+    "post_concepts": [
+      "MBTI-themed merchandise (e.g., plushies, apparel, and collectibles)",
+      "navigating legal considerations surrounding MBTI trademarks and branding",
+      "MBTI has a highly engaged fanbase in the U.S.",
+      "noticeable lack of high-quality, personality-driven physical products",
+      "opportunity to create tangible, aesthetically appealing, and shareable merchandise that resonates with MBTI enthusiasts"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "MBTI-themed merch (e.g. plushes)",
+        "post": "MBTI-themed merchandise (e.g., plushies, apparel, and collectibles)",
+        "continuity": "Same product category with expanded examples",
+        "scope": "POST broadens the product examples",
+        "frame": "Both describe the same product line concept",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "MBTI-themed merch (e.g. plushes)",
+        "post": "opportunity to create tangible, aesthetically appealing, and shareable merchandise that resonates with MBTI enthusiasts",
+        "continuity": "Related, both about merchandise",
+        "scope": "POST adds aspirational qualities",
+        "frame": "Different frame: PRE describes current offerings, POST frames as future opportunity",
+        "stretch": "medium",
+        "verdict": "weak"
+      },
+      {
+        "pre": "figuring out the legal issues",
+        "post": "navigating the legal considerations surrounding MBTI trademarks and branding",
+        "continuity": "Same activity (addressing legal concerns)",
+        "scope": "POST specifies the type of legal considerations",
+        "frame": "Same frame, elaborated",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "MBTI demographic is very active in the United States",
+        "post": "MBTI has a highly engaged fanbase in the U.S.",
+        "continuity": "Nearly synonymous rewording",
+        "scope": "Equivalent",
+        "frame": "Same frame",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "not many physical products that they can buy",
+        "post": "noticeable lack of high-quality, personality-driven physical products",
+        "continuity": "Same market gap observation",
+        "scope": "POST elaborates on the type of gap",
+        "frame": "Same frame, elaborated",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "not many physical products that they can buy",
+        "post": "opportunity to create tangible, aesthetically appealing, and shareable merchandise",
+        "continuity": "Related through market positioning",
+        "scope": "POST frames as opportunity rather than just gap",
+        "frame": "Different frame: observation \u2192 opportunity",
+        "stretch": "medium",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "MBTI-themed merch (e.g. plushes)",
+        "post": "navigating legal considerations surrounding MBTI trademarks and branding",
+        "reason": "Different conceptual units: product description vs. legal activity"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "MBTI-themed merch (e.g. plushes)",
+        "post": "MBTI-themed merchandise (e.g., plushies, apparel, and collectibles)",
+        "basis": "Same product-line concept with broadened product example set"
+      },
+      {
+        "pre": "figuring out the legal issues",
+        "post": "navigating the legal considerations surrounding MBTI trademarks and branding",
+        "basis": "Same legal-activity frame with added specificity about the nature of considerations"
+      },
+      {
+        "pre": "MBTI demographic is very active in the United States",
+        "post": "MBTI has a highly engaged fanbase in the U.S.",
+        "basis": "Same MBTI-community-engagement observation with shifted frame from demographic to fanbase"
+      },
+      {
+        "pre": "not many physical products that they can buy",
+        "post": "noticeable lack of high-quality, personality-driven physical products",
+        "basis": "Same market-gap observation with added qualifiers about the type of products lacking"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "opportunity to create tangible, aesthetically appealing, and shareable merchandise that resonates with MBTI enthusiasts"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "opportunity to create tangible, aesthetically appealing, and shareable merchandise that resonates with MBTI enthusiasts",
+        "direction": "new",
+        "nearest_counterpart": "not many physical products that they can buy",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "The POST concept shifts from observing a market gap to framing a creative opportunity with specific aspirational qualities (tangible, aesthetically appealing, shareable). Tested Narrowed: 'opportunity to create X' is not a specific way of being 'not many products available' \u2014 fails. Tested Reframed: the gap-observation frame and the opportunity-creation frame share territory but the organizing emphasis shifts from observation to aspiration/creation; the aspirational qualities are introduced as new content not present in the gap observation. However, the gap-observation's primary content (lack of products) is already accounted for in the Elaborated match with 'noticeable lack of high-quality, personality-driven physical products'. The 'opportunity' framing is genuinely new framing about the creative direction. No PRE span contains the idea of creating tangible/aesthetic/shareable merchandise as an opportunity. After full response search, no defensible Narrowed/Reframed/Elaborated/Expanded relationship from a single PRE unit holds \u2014 the aspirational framing has no seed in PRE."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "MBTI-themed merch (e.g. plushes)",
+        "post": "MBTI-themed merchandise (e.g., plushies, apparel, and collectibles)",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "POST retains the MBTI-themed merch concept and broadens the example set from plushies to multiple product categories. Expanded is correct; the organizing frame (MBTI-themed product line) is preserved. Elaborated was the alternative but Expansion fits better since the product-set is widened."
+      },
+      {
+        "type": "confirm",
+        "pre": "figuring out the legal issues",
+        "post": "navigating the legal considerations surrounding MBTI trademarks and branding",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Same legal-activity frame; POST adds specificity about the nature of the considerations. Frame unchanged, only descriptors added."
+      },
+      {
+        "type": "confirm",
+        "pre": "MBTI demographic is very active in the United States",
+        "post": "MBTI has a highly engaged fanbase in the U.S.",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Both describe the same observation about MBTI community engagement in the U.S. The organizing lens shifts from a passive 'demographic' framing to an engaged 'fanbase' framing \u2014 same territory, shifted frame. Not Narrowed because 'fanbase' is not a specific way of being 'demographic'; they are sibling concepts. Low confidence is appropriate because the shift is modest."
+      },
+      {
+        "type": "confirm",
+        "pre": "not many physical products that they can buy",
+        "post": "noticeable lack of high-quality, personality-driven physical products",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Same market-gap frame; POST adds qualifiers (high-quality, personality-driven) about the type of products lacking. Underlying noun/category (physical products available for purchase) is intact."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "opportunity to create tangible, aesthetically appealing, and shareable merchandise that resonates with MBTI enthusiasts",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Tested nearest PRE antecedent ('not many physical products that they can buy'): already matched to its elaborated POST counterpart, so cannot be reused. The aspirational opportunity framing (tangible, aesthetically appealing, shareable merchandise resonating with enthusiasts) introduces a creative-direction idea absent from PRE. No defensible Narrowed/Reframed/Elaborated/Expanded relationship holds. New stands."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST elaborates the existing PRE content with more specific product categories, more detailed legal considerations, and adds a new aspirational opportunity statement. The response gains a full additional clause (the opportunity framing) and the existing points are noticeably elaborated, but the overall scope of the response is not dramatically expanded."
+  },
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "A MBTI-themed merch (e.g. plushes)",
+      "post_evidence": "MBTI-themed merchandise (e.g., plushies, apparel, and collectibles)",
+      "rationale": "POST retains the MBTI-themed merch concept and broadens the example set from a single category (plushes) to multiple categories (plushies, apparel, and collectibles). The organizing frame (MBTI-themed product line) is preserved while the product-set widens.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "figuring out the legal issues",
+      "post_evidence": "navigating the legal considerations surrounding MBTI trademarks and branding",
+      "rationale": "POST keeps the same legal-activity frame and adds specificity about what the legal considerations concern (MBTI trademarks and branding). Underlying frame intact, descriptive detail added.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "MBTI demographic is very active in the United States",
+      "post_evidence": "MBTI has a highly engaged fanbase in the U.S.",
+      "rationale": "Both describe the same observation about MBTI community engagement in the U.S. The organizing lens shifts from a passive 'demographic' framing to an engaged 'fanbase' framing. Same semantic territory, sibling concepts, shifted frame. Narrowed fails: 'fanbase' is not a specific way of being 'demographic' \u2014 they are sibling-level concepts.",
+      "alternative_considered": "Stylistic rewrite only \u2014 rejected; the demographic \u2192 fanbase shift changes the conceptual lens",
+      "confidence": "low"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "not many physical products that they can buy",
+      "post_evidence": "noticeable lack of high-quality, personality-driven physical products",
+      "rationale": "POST keeps the same market-gap frame and adds qualifiers (high-quality, personality-driven) about the type of products lacking. Underlying category (physical products available for purchase) is intact; only descriptive detail was added.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "This gap presents a unique opportunity to create tangible, aesthetically appealing, and shareable merchandise that resonates with MBTI enthusiasts!",
+      "rationale": "Nearest PRE antecedent tested: 'not many physical products that they can buy' \u2014 already matched to its elaborated POST counterpart, so unavailable for reuse. The aspirational opportunity-framing (tangible, aesthetically appealing, shareable merchandise) introduces a creative-direction idea with no seed in PRE. Narrowed, Reframed, Elaborated, and Expanded all fail against any available PRE unit. Full-response search performed; no defensible transformation found.",
+      "alternative_considered": "Reframed from 'not many physical products that they can buy' \u2014 rejected; nearest PRE antecedent is already matched",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe",
+      "vague_to_specific_lineage",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "The MBTI demographic/fanbase pairing is borderline stylistic vs. Reframed; flagged for calibration. The product-merch pairing sits between Expanded (broader examples) and Elaborated (added examples within same category); chose Expanded because new product categories (apparel, collectibles) broaden the scope beyond just plushies. The New event for the opportunity-framing passed mandatory re-check with nearest counterpart being the gap-observation, but that span was already paired with its elaborated counterpart, so the aspirational creative-direction content is genuinely new. Critic applied 5 correction(s)."
+  },
+  "coded_at": "2025-01-24T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

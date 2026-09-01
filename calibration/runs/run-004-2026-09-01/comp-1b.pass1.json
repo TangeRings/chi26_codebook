@@ -1,0 +1,308 @@
+{
+  "coding_unit": {
+    "student_id": "jason",
+    "item_id": "comp-1b"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "MBTI-themed brand",
+      "bringing together people of all personalities, lifestyles, and backgrounds",
+      "through designed physical products",
+      "focus on connection",
+      "focus on self-expression",
+      "uniting individuals under a shared passion",
+      "building a community (CRM)"
+    ],
+    "post_concepts": [
+      "MBTI-themed brand",
+      "celebrates individuality",
+      "bringing together people of all personalities, lifestyles, and backgrounds",
+      "through cute physical merchandised products",
+      "transform personality theory into a shared experience",
+      "uniting enthusiasts under a common passion",
+      "creating a community-driven space (similar to CRM)"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "MBTI-themed brand",
+        "post": "MBTI-themed brand",
+        "continuity": "identical descriptor",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "MBTI-themed brand",
+        "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+        "continuity": "core idea persists",
+        "scope": "broad-to-broad",
+        "frame": "unifying frame",
+        "stretch": "none",
+        "verdict": "weak"
+      },
+      {
+        "pre": "MBTI-themed brand",
+        "post": "transform personality theory into a shared experience",
+        "continuity": "MBTI mentioned implicitly",
+        "scope": "broad",
+        "frame": "theory-to-experience frame",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "bringing together people of all personalities, lifestyles, and backgrounds",
+        "post": "MBTI-themed brand",
+        "continuity": "different domains",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "too high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "bringing together people of all personalities, lifestyles, and backgrounds",
+        "post": "celebrates individuality",
+        "continuity": "related but distinct frames",
+        "scope": "universal vs individual",
+        "frame": "collective vs individual",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "bringing together people of all personalities, lifestyles, and backgrounds",
+        "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+        "continuity": "verbatim",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "bringing together people of all personalities, lifestyles, and backgrounds",
+        "post": "uniting enthusiasts under a common passion",
+        "continuity": "related unifying concept",
+        "scope": "broad vs narrower",
+        "frame": "similar",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "through designed physical products",
+        "post": "through cute physical merchandised products",
+        "continuity": "physical products concept",
+        "scope": "identical scope, more detail in POST",
+        "frame": "identical product frame",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "focus on connection",
+        "post": "transform personality theory into a shared experience",
+        "continuity": "connection expressed as shared experience",
+        "scope": "broad",
+        "frame": "relational vs experiential",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "focus on connection",
+        "post": "creating a community-driven space",
+        "continuity": "connection expressed as community space",
+        "scope": "broad",
+        "frame": "relational vs community",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "focus on connection",
+        "post": "celebrates individuality",
+        "continuity": "different frames",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "too high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "focus on self-expression",
+        "post": "celebrates individuality",
+        "continuity": "self-expression and individuality share identity/expression neighborhood",
+        "scope": "similar",
+        "frame": "self-expression vs individuality-as-celebration",
+        "stretch": "none — neighborhood protected",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "uniting individuals under a shared passion",
+        "post": "uniting enthusiasts under a common passion",
+        "continuity": "unifying concept, vocabulary almost identical",
+        "scope": "individuals broadened to enthusiasts (narrower population)",
+        "frame": "shared passion → common passion (near-synonym)",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "uniting individuals under a shared passion",
+        "post": "creating a community-driven space",
+        "continuity": "related community concept",
+        "scope": "passion vs space",
+        "frame": "action vs artifact",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "building a community (CRM)",
+        "post": "creating a community-driven space (similar to CRM)",
+        "continuity": "community concept preserved; CRM parallel preserved",
+        "scope": "community as activity vs community as space",
+        "frame": "building → creating / space emphasis",
+        "stretch": "none — neighborhood protected",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "MBTI-themed brand",
+        "post": "transform personality theory into a shared experience",
+        "reason": "different conceptual roles; MBTI-themed brand is a descriptor, not an antecedent for the experience framing"
+      },
+      {
+        "pre": "focus on connection",
+        "post": "celebrates individuality",
+        "reason": "different conceptual domains; connection is relational, individuality is identity-focused"
+      },
+      {
+        "pre": "bringing together people of all personalities, lifestyles, and backgrounds",
+        "post": "MBTI-themed brand",
+        "reason": "different domains; core unifying concept has no antecedent in MBTI-themed brand label"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "MBTI-themed brand",
+        "post": "MBTI-themed brand",
+        "basis": "identical descriptor; no semantic change"
+      },
+      {
+        "pre": "bringing together people of all personalities, lifestyles, and backgrounds",
+        "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+        "basis": "verbatim phrase; no semantic change"
+      },
+      {
+        "pre": "through designed physical products",
+        "post": "through cute physical merchandised products",
+        "basis": "physical products concept persists; adjectives added ('cute', 'merchandised') elaborate the same core idea"
+      },
+      {
+        "pre": "focus on self-expression",
+        "post": "celebrates individuality",
+        "basis": "shared identity/self-expression neighborhood; individuality is a more specific manifestation of self-expression (NARROW-ABSTRACT)"
+      },
+      {
+        "pre": "uniting individuals under a shared passion",
+        "post": "uniting enthusiasts under a common passion",
+        "basis": "same unifying concept; population shifts from generic 'individuals' to 'enthusiasts' (narrowed scope); 'shared passion' to 'common passion' is near-synonym stylistic"
+      },
+      {
+        "pre": "building a community (CRM)",
+        "post": "creating a community-driven space (similar to CRM)",
+        "basis": "community concept preserved with CRM parallel; reframed from community-as-activity/building to community-as-space (frame shift)"
+      }
+    ],
+    "unmatched_pre": [
+      "focus on connection"
+    ],
+    "unmatched_post": [
+      "transform personality theory into a shared experience"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "transform personality theory into a shared experience",
+        "direction": "new",
+        "nearest_counterpart": "focus on connection",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "connection as shared experience is a natural conceptual lineage; POST reframes relational 'connection' into 'shared experience' frame on the same subject matter. Classified as Reframed."
+      },
+      {
+        "concept": "focus on connection",
+        "direction": "removed",
+        "nearest_counterpart": "transform personality theory into a shared experience",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "shared experience is a reconception of connection under a different frame (experiential vs relational); same subject territory persists. Converted to Reframed."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST adds two meaningful elaborations ('cute merchandised', 'celebrates individuality', 'transform personality theory into a shared experience', 'community-driven space') without restructuring the response; net content increase is modest, not extensive."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "through designed physical products",
+      "post_evidence": "through cute physical merchandised products",
+      "rationale": "Core 'physical products' concept persists; POST adds 'cute' and 'merchandised' as descriptive attributes within the same product frame. No scope or frame shift.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "focus on self-expression",
+      "post_evidence": "celebrates individuality",
+      "rationale": "Shared identity/self-expression neighborhood protects lineage. POST shifts from the agentic self-expression frame to a celebratory individuality frame; same underlying identity-expression territory persists, but emphasis shifts from what users do (express) to what is celebrated about them (individuality). PRE-frame: self-expression; POST-frame: individuality-as-celebration.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "uniting individuals under a shared passion",
+      "post_evidence": "uniting enthusiasts under a common passion",
+      "rationale": "Population scope is restricted from generic 'individuals' to 'enthusiasts' — a narrower subpopulation of those with active interest/passion. The unifying action concept persists. 'Shared' to 'common' is a near-synonym stylistic shift with no semantic consequence.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "building a community (CRM)",
+      "post_evidence": "creating a community-driven space (similar to CRM)",
+      "rationale": "Community concept persists with CRM parallel preserved. POST reframes from community as something built/active to community as a space/environment — relational-building frame to spatial-container frame. PRE-frame: community-as-building; POST-frame: community-as-space.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "focus on connection",
+      "post_evidence": "transform personality theory into a shared experience",
+      "rationale": "Connection (relational frame) is reconceived as a shared experience (experiential frame) tied to personality theory; underlying subject (what the brand produces between people) persists but the conceptual lens shifts from interpersonal bond to collective event/undertaking. Both frames named.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_narrow",
+      "reframe_downgraded",
+      "neighborhood_protected",
+      "new_removed_recheck_passed",
+      "events_possibly_collapsed"
+    ],
+    "coder_notes": "Two near-synonym phrasing shifts (shared/common passion; individuals/enthusiasts) were treated as part of one event for the unifying-passage concept rather than split. The 'cute merchandised' elaboration could be read as narrow if 'merchandised' restricts scope, but treats products as a branded retail subset; defaulted to Elaborated with Narrowed as runner-up. The Reframed event for community-building→community-driven-space is moderate-confidence because the frame shift (activity→space) is real but small."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

@@ -1,0 +1,309 @@
+{
+  "coding_unit": {
+    "student_id": "aliyah",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Instagram",
+      "TikTok",
+      "Amazon",
+      "brand website with scent consultation"
+    ],
+    "post_concepts": [
+      "TikTok",
+      "Instagram",
+      "brand website",
+      "Amazon"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Instagram",
+        "post": "TikTok",
+        "continuity": "platform identity, different brand",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "strong cross-position match",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Instagram",
+        "continuity": "identical platform",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "trivial",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "brand website",
+        "continuity": "different platform types",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Amazon",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "TikTok",
+        "continuity": "identical platform",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "trivial",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "Instagram",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "brand website",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "Amazon",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Amazon",
+        "post": "Amazon",
+        "continuity": "identical platform",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "trivial",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Amazon",
+        "post": "TikTok",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Amazon",
+        "post": "Instagram",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Amazon",
+        "post": "brand website",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "brand website",
+        "continuity": "same platform, narrower qualifier dropped",
+        "scope": "POST is narrower",
+        "frame": "same",
+        "stretch": "subsumption plausible",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "TikTok",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "Instagram",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "Amazon",
+        "continuity": "different platforms",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Instagram",
+        "post": "TikTok",
+        "reason": "Different platforms; index alone does not license a match"
+      },
+      {
+        "pre": "TikTok",
+        "post": "Instagram",
+        "reason": "Different platforms; index alone does not license a match"
+      },
+      {
+        "pre": "Amazon",
+        "post": "TikTok",
+        "reason": "Different platforms"
+      },
+      {
+        "pre": "Amazon",
+        "post": "Instagram",
+        "reason": "Different platforms"
+      },
+      {
+        "pre": "Amazon",
+        "post": "brand website",
+        "reason": "Different platforms"
+      },
+      {
+        "pre": "Instagram",
+        "post": "brand website",
+        "reason": "Different platforms"
+      },
+      {
+        "pre": "TikTok",
+        "post": "brand website",
+        "reason": "Different platforms"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Instagram",
+        "post": "Instagram",
+        "basis": "identical platform reference"
+      },
+      {
+        "pre": "TikTok",
+        "post": "TikTok",
+        "basis": "identical platform reference"
+      },
+      {
+        "pre": "Amazon",
+        "post": "Amazon",
+        "basis": "identical platform reference"
+      },
+      {
+        "pre": "brand website with scent consultation",
+        "post": "brand website",
+        "basis": "same platform; POST drops the qualifying clause about scent consultation"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [
+      "Reordering of the same platform set (Instagram and TikTok swap positions; Amazon moves from third to fourth) is purely positional and not coded as a semantic event."
+    ],
+    "new_removed_recheck": [
+      {
+        "concept": "brand website with scent consultation",
+        "direction": "removed",
+        "nearest_counterpart": "brand website",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "POST retains the brand-website platform and drops the scent-consultation qualifier; this is a Narrowed reduction in scope of the qualifier, not a removal of the platform concept"
+      },
+      {
+        "concept": "Instagram",
+        "direction": "removed",
+        "nearest_counterpart": "Instagram",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "POST explicitly lists Instagram; matched on identity, no event"
+      },
+      {
+        "concept": "TikTok",
+        "direction": "removed",
+        "nearest_counterpart": "TikTok",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "POST explicitly lists TikTok; matched on identity, no event"
+      },
+      {
+        "concept": "Amazon",
+        "direction": "removed",
+        "nearest_counterpart": "Amazon",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "POST explicitly lists Amazon; matched on identity, no event"
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Reduction",
+    "rationale": "PRE includes an explanatory clause ('Mainly sold on the brand's website if they want a scent consultation') describing the channel and its use case; POST strips this clause and lists only platform names. One explanatory clause is lost."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Mainly sold on the brand's website if they want a scent consultation",
+      "post_evidence": "brand website",
+      "rationale": "The brand-website platform concept persists in POST; the scope of what is said about it is restricted by dropping the qualifying scent-consultation clause. The platform itself is retained, so the change is a scope reduction within the same concept. Subsumption holds: bare 'brand website' is a more specific/limited statement about the platform than 'brand website, especially for scent consultations.'",
+      "alternative_considered": "Removed (pre platform gone) + New (post bare 'brand website' introduced)",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "order_change_only"
+    ],
+    "coder_notes": "The remaining differences across the four platforms are purely positional (Instagram/TikTok swap; Amazon shifts from third to fourth position). Per ORDER-vs-SEMANTIC, no semantic event is emitted for reordering. The single semantic event captures the dropped scent-consultation qualifier around the brand website."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

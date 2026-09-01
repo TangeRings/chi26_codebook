@@ -1,0 +1,13 @@
+{
+  "runId": "run-009-aliyah",
+  "source": "calibration/firestore-backup/2026-09-01-pre-run-008",
+  "out": "calibration/runs/run-009-aliyah/docs",
+  "endpoint": "http://localhost:3001/api/ai-code-item",
+  "studentsInDump": 13,
+  "attempted": 8,
+  "succeeded": 8,
+  "failed": {},
+  "preserved": [],
+  "itemsWritten": 8,
+  "elapsedSeconds": 106.1
+}

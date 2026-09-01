@@ -1,0 +1,192 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "artifact-coding-critic",
+  "title": "ArtifactCodingCritic",
+  "description": "Input/output contract for the lightweight pass-2 alignment and code critic. Excludes the full codebook and raw PRE/POST prose.",
+  "definitions": {
+    "criticInput": {
+      "type": "object",
+      "required": [
+        "item_name",
+        "unitization_mode",
+        "pre_concepts",
+        "post_concepts",
+        "proposed_alignment",
+        "unmatched_pre",
+        "unmatched_post",
+        "proposed_semantic_events"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "item_name": { "type": "string" },
+        "unitization_mode": {
+          "type": ["string", "null"],
+          "enum": ["descriptor_set_special", "semantic_phrase", "scoped_category", null]
+        },
+        "pre_concepts": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "post_concepts": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "proposed_alignment": {
+          "type": "array",
+          "description": "Provisional matched pairs with provisional codes from pass 1.",
+          "items": {
+            "type": "object",
+            "required": ["pre", "post"],
+            "additionalProperties": false,
+            "properties": {
+              "pre": { "type": "string" },
+              "post": { "type": "string" },
+              "basis": { "type": "string" },
+              "provisional_code": {
+                "type": ["string", "null"],
+                "enum": ["Elaborated", "Narrowed", "Expanded", "Reframed", "New", "Removed", null]
+              },
+              "rationale": { "type": "string" },
+              "alternative_considered": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "unmatched_pre": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "unmatched_post": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "proposed_semantic_events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["code"],
+            "additionalProperties": false,
+            "properties": {
+              "code": {
+                "type": "string",
+                "enum": ["Elaborated", "Narrowed", "Expanded", "Reframed", "New", "Removed"]
+              },
+              "pre_evidence": { "type": ["string", "null"] },
+              "post_evidence": { "type": ["string", "null"] },
+              "rationale": { "type": "string" },
+              "alternative_considered": { "type": ["string", "null"] },
+              "confidence": {
+                "type": "string",
+                "enum": ["low", "medium", "high"]
+              }
+            }
+          }
+        },
+        "candidate_alignments": {
+          "type": "array",
+          "description": "Optional pass-1 cross-product for critic context.",
+          "items": {
+            "type": "object",
+            "required": ["pre", "post"],
+            "additionalProperties": true,
+            "properties": {
+              "pre": { "type": "string" },
+              "post": { "type": "string" },
+              "continuity": { "type": "string" },
+              "scope": { "type": "string" },
+              "frame": { "type": "string" },
+              "stretch": { "type": "string" },
+              "verdict": {
+                "type": "string",
+                "enum": ["plausible", "weak", "implausible"]
+              }
+            }
+          }
+        },
+        "rejected_alignments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["pre", "post", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "pre": { "type": "string" },
+              "post": { "type": "string" },
+              "reason": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "criticOutput": {
+      "type": "object",
+      "required": ["corrections", "final_alignments", "semantic_events"],
+      "additionalProperties": false,
+      "properties": {
+        "corrections": {
+          "type": "array",
+          "description": "Audit log of critic decisions.",
+          "items": {
+            "type": "object",
+            "required": ["type", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["restore_lineage", "reject_pairing", "recode", "add_pairing", "confirm"],
+                "description": "restore_lineage converts a provisional New+Removed pair into one matched transformation. reject_pairing splits a different-domain pair into Removed+New."
+              },
+              "pre": { "type": ["string", "null"] },
+              "post": { "type": ["string", "null"] },
+              "from_code": { "type": ["string", "null"] },
+              "to_code": { "type": ["string", "null"] },
+              "reason": { "type": "string" }
+            }
+          }
+        },
+        "final_alignments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["pre", "post"],
+            "additionalProperties": false,
+            "properties": {
+              "pre": { "type": "string" },
+              "post": { "type": "string" },
+              "basis": { "type": "string" }
+            }
+          }
+        },
+        "unmatched_pre": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "unmatched_post": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "semantic_events": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["code"],
+            "additionalProperties": false,
+            "properties": {
+              "code": {
+                "type": "string",
+                "enum": ["Elaborated", "Narrowed", "Expanded", "Reframed", "New", "Removed"]
+              },
+              "pre_evidence": { "type": ["string", "null"] },
+              "post_evidence": { "type": ["string", "null"] },
+              "rationale": { "type": "string" },
+              "alternative_considered": { "type": ["string", "null"] },
+              "confidence": {
+                "type": "string",
+                "enum": ["low", "medium", "high"]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

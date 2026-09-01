@@ -1,0 +1,288 @@
+{
+  "_seedVersion": "upload-1788218631291",
+  "studentId": "amy",
+  "name": "Amy",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "artsy, camp, and comfort"
+      },
+      "post": {
+        "answer": "Shoes brand based on comfort and style, with high heels at the forefront"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "artistic footwear aimed at performers"
+      },
+      "post": {
+        "answer": "To make fashionable shoes without compromising comfort and create representation in the fashion world for LGBTQ individuals"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "art and exclusivity"
+      },
+      "post": {
+        "answer": "Fashionable, comfortable, inclusive"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "female students/professionals(and gay men) aged 20-30 who are interested in fashionable functional artistic footwear"
+      },
+      "post": {
+        "answer": "Target customers include: female professionals from ages 20-35 who work on their feet and priorities comfort without losing out on wearability, dancers and performers(drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue, and gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "Drag queens"
+      },
+      "post": {
+        "answer": null
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "TikTok or Instagram"
+      },
+      "post": {
+        "answer": "Tiktok and Instagram"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "25% behind-the-scenes content, 25% influencer reviews, 50% product display"
+      },
+      "post": {
+        "answer": "50% product showcase(comfort tests, behind-the-scenes, quality comparison with competitors, etc), 25% trendy relatable content(\"what kind of heel are you\", \"what your heels say about you\", etc), 10% Styling Inspiration, 5% Educational/Informative Content(history of heels in men's fashion, how to walk in heels, etc)"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "heels"
+      },
+      "post": {
+        "answer": "comfortable and stylish heels/other footwear like heeled boots/low-mid heels"
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 2
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 0,
+          "Familiarity/Market Understanding": 0,
+          "Business Potential (Profit and Market Demand)": 0,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 0,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 1,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ],
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "None"
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 3
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 9
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 9
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 1
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Non-user: never use it"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "No"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 7
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "It provided more context to the brand and it's potential target customers, as well as identifying consumer pain points"
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "The prompts helped with using AI to refine brand ideas. The suggestions were quite general and had a lot of overlap but provided good starting points for further brainstorming."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 10
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 7
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 9
+      }
+    ]
+  }
+}

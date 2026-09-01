@@ -1,0 +1,81 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "get any scent replicated",
+      "post": "everyone has their own unique scent with their own unique bottle",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Subsumption test: 'everyone having their own unique scent is a specific way of getting any scent replicated' is FALSE. PRE is replication-oriented; POST is unique-ownership-oriented. Same personalization territory, shifted frame. Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "relive moments in life with this scent",
+      "post": "relive memories with them",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same conceptual frame (scent as memory trigger). POST compresses wording but does not add new dimensions nor shift the organizing frame. Elaborated is the best fit; not Removed+New because the core idea is retained."
+    },
+    {
+      "type": "recode",
+      "pre": "create their own bottle based off of the story associated with that scent",
+      "post": "everyone has their own unique scent with their own unique bottle",
+      "from_code": "Reframed",
+      "to_code": "Elaborated",
+      "reason": "The underlying category (own personalized bottle paired with own personalized scent) is intact in both PRE and POST. PRE adds the story-anchoring modifier ('based off of the story associated with that scent'); POST keeps the bottle + scent pairing and drops only the story modifier. The organizing frame does not shift \u2014 personalization-of-bottle-and-scent is preserved. This is POST retaining the PRE category with a modifier adjustment, which is Elaborated, not Reframed. Reframed requires the organizing frame to change."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": null,
+      "to_code": null,
+      "reason": "No provisional New or Removed events exist; no lineage recovery needed. All three POST concepts are accounted for in the three matched pairs; all three PRE concepts are likewise accounted for."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "get any scent replicated",
+      "post": "everyone has their own unique scent with their own unique bottle",
+      "basis": "Both address personalized scent; PRE is replication-oriented, POST is unique-ownership-oriented \u2014 same territory, shifted frame (Reframed)"
+    },
+    {
+      "pre": "relive moments in life with this scent",
+      "post": "relive memories with them",
+      "basis": "Near-identical semantic content \u2014 reliving past experiences through scent, with minor compression (Elaborated)"
+    },
+    {
+      "pre": "create their own bottle based off of the story associated with that scent",
+      "post": "everyone has their own unique scent with their own unique bottle",
+      "basis": "Both concern a personalized bottle paired with a personalized scent; POST drops the story-anchoring modifier while keeping the bottle+scent pairing intact (Elaborated)"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "get any scent that they want replicated",
+      "post_evidence": "everyone has their own unique scent",
+      "rationale": "Same personalization territory. PRE frame: replication-oriented (recreating existing scents). POST frame: uniqueness/ownership-oriented (one's own unique scent). Subsumption test fails; frame shifts from replication to unique ownership.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "relive moments in life with this scent",
+      "post_evidence": "relive memories with them",
+      "rationale": "Core concept (scent as memory trigger) preserved. POST condenses 'moments in life' to 'memories' and 'this scent' to 'them' (scent+bottle), but adds no new dimension and shifts no frame.",
+      "alternative_considered": "Removed+New",
+      "confidence": "low"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "create their own bottle based off of the story associated with that scent",
+      "post_evidence": "their own unique scent with their own unique bottle",
+      "rationale": "Same underlying category (personalized bottle paired with personalized scent) is intact. PRE specifies story-anchored creation; POST specifies unique ownership. The bottle+scent pairing frame is preserved; only a modifier shifts. POST keeps PRE intact and adjusts detail rather than changing the organizing frame.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

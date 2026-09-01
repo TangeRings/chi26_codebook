@@ -1,0 +1,219 @@
+{
+  "coding_unit": {
+    "student_id": "jason",
+    "item_id": "comp-1a"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Fun",
+      "Community-Building",
+      "Lifestyle-Oriented"
+    ],
+    "post_concepts": [
+      "Relatable",
+      "Interactive",
+      "Expressive"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Fun",
+        "post": "Interactive",
+        "continuity": "Both describe experiential qualities of the brand; engagement/activity territory",
+        "scope": "Interactivity is a specific mode or mechanism of experiential appeal",
+        "frame": "Generic experiential \u2192 specific experiential modality",
+        "stretch": "Mild lexical stretch but PRE is a generic filler word",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Fun",
+        "post": "Relatable",
+        "continuity": "Both relate to audience reception but in different facets (experience vs identification)",
+        "scope": "No clear subsumption relation",
+        "frame": "Experiential \u2192 social identification",
+        "stretch": "Conceptual frames differ",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Fun",
+        "post": "Expressive",
+        "continuity": "Both touch on affective/identity dimensions but differently",
+        "scope": "No subsumption; different facets",
+        "frame": "Generic experience \u2192 individual self-presentation",
+        "stretch": "Topical adjacency only",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Community-Building",
+        "post": "Relatable",
+        "continuity": "Both belong to social-connection territory",
+        "scope": "No subsumption (relatability is not a subtype of community-building)",
+        "frame": "Relational/structural \u2192 audience-reception",
+        "stretch": "Reasonable within social-connection neighborhood",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Community-Building",
+        "post": "Interactive",
+        "continuity": "Both touch on engagement/social participation",
+        "scope": "No subsumption",
+        "frame": "Community structure \u2192 experiential engagement mechanism",
+        "stretch": "Some neighborhood overlap but frames differ",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Community-Building",
+        "post": "Expressive",
+        "continuity": "Both relate to identity/social expression but from different angles",
+        "scope": "No subsumption",
+        "frame": "Relational/communal \u2192 individual self-presentation",
+        "stretch": "Weak adjacency",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Lifestyle-Oriented",
+        "post": "Expressive",
+        "continuity": "Both relate to identity/self-presentation topically",
+        "scope": "No subsumption; lifestyle-aspiration vs individual-expression are sibling identity facets but the only shared territory is the broad umbrella of 'identity/self-presentation' which fails the abstraction ceiling",
+        "frame": "Aspirational lifestyle \u2192 individual expression",
+        "stretch": "Topical adjacency only; no defensible transformation",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Lifestyle-Oriented",
+        "post": "Relatable",
+        "continuity": "Adjacent only through broad 'brand identity' umbrella",
+        "scope": "No subsumption",
+        "frame": "Aspirational lifestyle \u2192 audience identification",
+        "stretch": "Topically adjacent but different conceptual domains",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Lifestyle-Oriented",
+        "post": "Interactive",
+        "continuity": "Only topical adjacency through broad umbrella",
+        "scope": "No subsumption",
+        "frame": "Lifestyle \u2192 engagement",
+        "stretch": "Different conceptual domains",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Lifestyle-Oriented",
+        "post": "Relatable",
+        "reason": "Different conceptual domains (lifestyle aspiration vs audience identification); only broad-umbrella overlap"
+      },
+      {
+        "pre": "Lifestyle-Oriented",
+        "post": "Interactive",
+        "reason": "Different conceptual domains; no shared semantic neighborhood at specific level"
+      },
+      {
+        "pre": "Fun",
+        "post": "Relatable",
+        "reason": "Community-Building\u2192Relatable is a stronger lineage match for Relatable; Fun\u2192Relatable frames differ and would double-map"
+      },
+      {
+        "pre": "Fun",
+        "post": "Expressive",
+        "reason": "Lifestyle-Oriented\u2192Expressive is the closer adjacency; Fun\u2192Expressive would force a mismatch"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Fun",
+        "post": "Interactive",
+        "basis": "Generic experiential filler specified into a concrete engagement modality; subsumption holds (Interactive is a specific way of being Fun)"
+      },
+      {
+        "pre": "Community-Building",
+        "post": "Relatable",
+        "basis": "Both occupy social-connection territory; relatability is a sibling quality to community-building, not a subtype, so same-territory frame shift"
+      }
+    ],
+    "unmatched_pre": [
+      "Lifestyle-Oriented"
+    ],
+    "unmatched_post": [
+      "Expressive"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Lifestyle-Oriented",
+        "direction": "removed",
+        "nearest_counterpart": "Expressive",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Subsumption test: 'Expressive is a specific way of being Lifestyle-Oriented' = FALSE. Reframed: shared territory would have to be claimed via the broad umbrella 'identity/self-presentation', which fails the abstraction ceiling. Elaborated: PRE not retained in POST. Expanded: no broadening of a PRE seed; concepts are sibling identity facets at best. All four transformation codes fail across only topically adjacent concepts."
+      },
+      {
+        "concept": "Expressive",
+        "direction": "new",
+        "nearest_counterpart": "Lifestyle-Oriented",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Subsumption test: 'Expressive is a specific way of being Lifestyle-Oriented' = FALSE. Reframed: shared territory only at the broad umbrella level (identity/self-presentation), which fails the abstraction ceiling. Elaborated: Lifestyle-Oriented is not retained. Expanded: no broadening of a PRE seed. All four transformation codes fail; only topical adjacency remains."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "Both responses are three descriptor lists of equivalent length and structural form; no clauses, sentences, or explanatory passages added or removed. Differences are entirely at the descriptor level."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Fun",
+      "post_evidence": "Interactive",
+      "rationale": "PRE 'Fun' is a generic filler descriptor; POST 'Interactive' concretizes the same vague experiential idea into a specific mode of engagement. Subsumption test passes: 'Interactive is a specific way of being Fun' = TRUE. PRE-genericness signal supports Narrowed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Community-Building",
+      "post_evidence": "Relatable",
+      "rationale": "Both occupy social-connection territory, but relatability is a sibling quality, not a subtype of community-building. Subsumption test: 'Relatable is a specific way of being Community-Building' = FALSE. PRE is already substantive. Frame shifts from relational/communal structure (how the brand organizes people) to audience-reception/identification (how the brand is perceived). Pre-frame: relational/community-building; Post-frame: audience-receptive/identification.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Lifestyle-Oriented",
+      "post_evidence": null,
+      "rationale": "Full-response search of POST found no defensible successor. Nearest counterpart (Expressive) tested against all four transformation codes: subsumption fails, the only shared territory requires the broad umbrella 'identity/self-presentation' which fails the abstraction ceiling, PRE is not retained, and no broadening of a PRE seed exists. Adjacency is only topical. See BC-003.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Expressive",
+      "rationale": "Full-response search of PRE found no defensible antecedent at the specific level. Nearest counterpart (Lifestyle-Oriented) tested against all four transformation codes: subsumption fails (Expressive is not a specific way of being Lifestyle-Oriented), shared territory requires over-abstract umbrella, PRE not retained, no broadening from a PRE seed. Only topical adjacency remains. See BC-003.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "neighborhood_tested_no_lineage"
+    ],
+    "coder_notes": "Lifestyle-Oriented \u2192 Expressive is a textbook BC-003 case (human-confirmed provisional resolution). Resolved to Removed + New after full ladder testing; only the broad 'identity/self-presentation' umbrella could be claimed as shared territory, which fails the abstraction ceiling."
+  },
+  "coded_at": "2026-05-14T12:00:00Z",
+  "model": "MiniMax-M3"
+}

@@ -1,0 +1,14 @@
+{
+  "runId": "run-006-2026-09-01",
+  "endpoint": "http://localhost:3001/api/ai-code-item",
+  "attempted": 21,
+  "succeeded": 21,
+  "failed": {},
+  "skipped": [
+    "jason:comp-1a",
+    "jason:comp-1b",
+    "jason:comp-1c"
+  ],
+  "elapsedSeconds": 196.5,
+  "itemsWritten": 21
+}

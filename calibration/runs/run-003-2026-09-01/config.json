@@ -1,0 +1,9 @@
+{
+  "runId": "run-003-2026-09-01",
+  "model": "MiniMax-M3",
+  "critic": true,
+  "items": [
+    "comp-1c"
+  ],
+  "notes": "Two-pass critique calibration. Core Values only. Human coderNotes empty — AI draft overwritten in jason.json."
+}

@@ -1,0 +1,637 @@
+{
+  "coding_unit": {
+    "student_id": "aliyah",
+    "item_id": "comp-1a"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Sustainable",
+      "Luxurious",
+      "Creative",
+      "Unique",
+      "Narration"
+    ],
+    "post_concepts": [
+      "Individuality",
+      "Nostalgia",
+      "Customization",
+      "Quality",
+      "Accessibility",
+      "Eco-Friendly"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Sustainable",
+        "post": "Eco-Friendly",
+        "continuity": "both address environmental/ethical brand positioning",
+        "scope": "overlapping; Eco-Friendly is a specific form of sustainability",
+        "frame": "sustainability-as-ethic \u2192 sustainability-as-product/material attribute",
+        "stretch": "moderate; well-attested pairing",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Sustainable",
+        "post": "Individuality",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different conceptual domains",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Sustainable",
+        "post": "Nostalgia",
+        "continuity": "none",
+        "scope": "different",
+        "frame": "different conceptual domains",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Sustainable",
+        "post": "Customization",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different conceptual domains",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Sustainable",
+        "post": "Quality",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different conceptual domains",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Sustainable",
+        "post": "Accessibility",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different conceptual domains",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Quality",
+        "continuity": "both concern premium character; quality is a component of luxury",
+        "scope": "quality narrower than luxury",
+        "frame": "luxury-as-aesthetic/status \u2192 quality-as-attribute",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Individuality",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different conceptual domains",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Nostalgia",
+        "continuity": "some (nostalgia can evoke premium heritage)",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Customization",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Accessibility",
+        "continuity": "weak/none (in fact opposed)",
+        "scope": "different",
+        "frame": "opposed",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Eco-Friendly",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Creative",
+        "post": "Customization",
+        "continuity": "creative production \u2192 personalized product; related through making",
+        "scope": "different but adjacent",
+        "frame": "creative-as-generative \u2192 customization-as-personal-fit",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Creative",
+        "post": "Individuality",
+        "continuity": "both relate to self-expression",
+        "scope": "different",
+        "frame": "creative-as-process \u2192 individuality-as-identity",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Creative",
+        "post": "Nostalgia",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Creative",
+        "post": "Quality",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Creative",
+        "post": "Accessibility",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Creative",
+        "post": "Eco-Friendly",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Unique",
+        "post": "Individuality",
+        "continuity": "both relate to standing apart / being one-of-a-kind",
+        "scope": "overlapping; uniqueness is a property, individuality is the broader identity stance",
+        "frame": "unique-as-differentiating-trait \u2192 individuality-as-selfhood",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Unique",
+        "post": "Customization",
+        "continuity": "customization produces uniqueness; related",
+        "scope": "different",
+        "frame": "unique-as-output \u2192 customization-as-process",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Unique",
+        "post": "Nostalgia",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Unique",
+        "post": "Quality",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Unique",
+        "post": "Accessibility",
+        "continuity": "none",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Unique",
+        "post": "Eco-Friendly",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Narration",
+        "post": "Nostalgia",
+        "continuity": "both invoke a temporal/story-based quality; nostalgia is a specific affective narrative register",
+        "scope": "narrative-as-form \u2192 nostalgia-as-emotional-content",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Narration",
+        "post": "Individuality",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Narration",
+        "post": "Customization",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Narration",
+        "post": "Quality",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Narration",
+        "post": "Accessibility",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Narration",
+        "post": "Eco-Friendly",
+        "continuity": "weak",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "forced",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Sustainable",
+        "post": "Individuality",
+        "reason": "different conceptual domains (environmental vs identity)"
+      },
+      {
+        "pre": "Sustainable",
+        "post": "Nostalgia",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Sustainable",
+        "post": "Customization",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Sustainable",
+        "post": "Quality",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Sustainable",
+        "post": "Accessibility",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Accessibility",
+        "reason": "conceptually opposed (premium vs broad access)"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Individuality",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Nostalgia",
+        "reason": "weak; no defensible lineage"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Customization",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Eco-Friendly",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Creative",
+        "post": "Nostalgia",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Creative",
+        "post": "Quality",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Creative",
+        "post": "Accessibility",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Creative",
+        "post": "Eco-Friendly",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Unique",
+        "post": "Nostalgia",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Unique",
+        "post": "Quality",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Unique",
+        "post": "Accessibility",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Unique",
+        "post": "Eco-Friendly",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Narration",
+        "post": "Individuality",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Narration",
+        "post": "Customization",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Narration",
+        "post": "Quality",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Narration",
+        "post": "Accessibility",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Narration",
+        "post": "Eco-Friendly",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "Creative",
+        "post": "Customization",
+        "reason": "weak; subsumption fails, no defensible Reframe \u2014 coding Customization as New from fuller evidence"
+      },
+      {
+        "pre": "Creative",
+        "post": "Individuality",
+        "reason": "weak; Indivisibility better tracked to Unique"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Sustainable",
+        "post": "Eco-Friendly",
+        "basis": "Narrowed: Eco-Friendly is a material-level realization of the broader sustainability ethic"
+      },
+      {
+        "pre": "Luxurious",
+        "post": "Quality",
+        "basis": "Narrowed: Quality (craftsmanship, materials) is a specific attribute underlying luxury positioning"
+      },
+      {
+        "pre": "Unique",
+        "post": "Individuality",
+        "basis": "Reframed: same identity-differentiation neighborhood; frame shifts from brand-differentiating trait to selfhood stance"
+      },
+      {
+        "pre": "Narration",
+        "post": "Nostalgia",
+        "basis": "Reframed: same narrative/temporal territory; frame shifts from story-as-form to memory/emotional-resonance register"
+      }
+    ],
+    "unmatched_pre": [
+      "Creative"
+    ],
+    "unmatched_post": [
+      "Customization",
+      "Accessibility"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Creative",
+        "direction": "removed",
+        "nearest_counterpart": "Customization",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Customization is a product-personalization concept; Creative is a generative/originative concept. They share loose topical adjacency (both involve making) but no semantic neighborhood at a specific nameable level. Subsumption fails ('Customization is a specific way of being Creative' = false), no shared organizing frame, Customization does not elaborate or broaden Creative. Removed stands after full POST search."
+      },
+      {
+        "concept": "Creative",
+        "direction": "removed",
+        "nearest_counterpart": "Individuality",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Individuality is already paired with Unique on stronger identity-differentiation grounds. Re-pairing Creative\u2192Individuality would conflict and is weaker than Unique\u2192Individuality. Original verdict retained."
+      },
+      {
+        "concept": "Customization",
+        "direction": "new",
+        "nearest_counterpart": "Creative",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest counterpart is Creative. 'Customization is a specific way of being Creative' = false. Customization concerns consumer-side personalization; Creative concerns producer-side generation. No shared frame; no elaboration or expansion of Creative. New stands."
+      },
+      {
+        "concept": "Accessibility",
+        "direction": "new",
+        "nearest_counterpart": "Luxurious",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest semantic counterpart is Luxurious. The two are conceptually opposed (broad access vs premium exclusivity). No subsumption, no shared frame; Accessibility does not elaborate or broaden Luxurious. After full PRE search, no defensible lineage. New stands."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "Sustainable",
+        "post": "Eco-Friendly",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption passes: Eco-Friendly is a specific way of being Sustainable (material/environmental facet of a broader ethic). PRE-genericness signal supports Narrowed. Confirm."
+      },
+      {
+        "type": "confirm",
+        "pre": "Luxurious",
+        "post": "Quality",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption passes: Quality (craftsmanship, premium materials) is a specific way of being Luxurious. Luxury as status/aesthetic register specifies down to the underlying attribute. Confirm."
+      },
+      {
+        "type": "confirm",
+        "pre": "Unique",
+        "post": "Individuality",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Shared identity-differentiation neighborhood at a specific level (standing-apart). Subsumption fails (Individuality is not a specific way of being Unique \u2014 sibling qualities). Frame shifts from brand-trait to selfhood stance. Reframed is correct; do not over-correct to Narrowed."
+      },
+      {
+        "type": "confirm",
+        "pre": "Narration",
+        "post": "Nostalgia",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Shared narrative/temporal territory at a specific level. Subsumption fails. Frame shifts from story-as-form to memory/emotional-resonance register. Reframed is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": "Removed/Creative",
+        "to_code": "Removed/Creative",
+        "reason": "Nearest counterpart Customization occupies a different conceptual domain (consumer-side personalization vs producer-side generation). No shared semantic neighborhood at a specific nameable level \u2014 only the broad 'making' umbrella, which is above the abstraction ceiling. Removed stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": "New/Customization",
+        "to_code": "New/Customization",
+        "reason": "Full PRE search: nearest antecedent Creative fails all four transformation tiers. Customization is personalization, Creative is generation \u2014 different domains. New stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": "New/Accessibility",
+        "to_code": "New/Accessibility",
+        "reason": "Full PRE search: nearest counterpart Luxurious is conceptually opposed (premium exclusivity vs broad access). No subsumption, no shared frame. New stands."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST adds two descriptors (6 vs 5) and shifts vocabulary toward a more elaborated product/values vocabulary (Customization, Accessibility, Nostalgia, Quality). Net expansion is modest: one extra descriptor and several newly-introduced concepts, but no long passages added."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Sustainable",
+      "post_evidence": "Eco-Friendly",
+      "rationale": "Eco-Friendly is a concrete product/material realization of the broader sustainability stance. Subsumption test passes; PRE-genericness signal supports Narrowed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Luxurious",
+      "post_evidence": "Quality",
+      "rationale": "Quality operationalizes luxury positioning (premium materials, craftsmanship). Subsumption test passes: 'Quality is a specific way of being Luxurious.'",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Unique",
+      "post_evidence": "Individuality",
+      "rationale": "Shared identity-differentiation neighborhood. Frame shifts from differentiating-trait (brand) to selfhood stance (customer). Subsumption fails; sibling qualities.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Narration",
+      "post_evidence": "Nostalgia",
+      "rationale": "Shared narrative/temporal territory. Frame shifts from story-as-form to memory/emotional-resonance. Subsumption fails.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Creative",
+      "post_evidence": null,
+      "rationale": "Nearest counterpart Customization is consumer-side personalization; Creative is producer-side generation. No neighborhood at a specific level (only broad 'making' umbrella, above abstraction ceiling). All four transformation tiers tested and fail.",
+      "alternative_considered": "Reframed to Customization",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Customization",
+      "rationale": "No defensible PRE antecedent. Creative tested \u2014 different conceptual domain. New stands after full PRE search.",
+      "alternative_considered": "Expanded from Creative",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Accessibility",
+      "rationale": "No defensible PRE antecedent. Luxurious tested but conceptually opposed. New stands after full PRE search.",
+      "alternative_considered": "Reframed from Luxurious",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "POST has two more descriptors than PRE (6 vs 5). Luxurious\u2192Quality is borderline Narrowed vs Reframed because luxury also has status/aesthetic components that quality alone does not capture; flagged. Removed (Creative) and the two New events passed the mandatory re-check with their nearest counterparts explicitly tested. Critic applied 7 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

@@ -1,0 +1,96 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "eco-friendly",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "eco-friendly (environmental sustainability) and all POST concepts (pilates, empowerment, inner peace) occupy different conceptual domains. No neighborhood exists. Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": "safe",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "safe (protective/caution attribute) vs POST well-being/empowerment/inner-peace cluster. The 'wellness' adjacency is an abstraction-ceiling umbrella; no specific shared semantic territory is nameable that would not also fit eco-friendly. No defensible transformation. Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "pilates is a powerful tool for promoting physical and mental well-being",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Brand-belief statement about pilates and well-being. Nearest PRE antecedent is 'safe'; lineage fails on all four tiers (different frames: protective-safety vs active-flourishing). No neighborhood; New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "empower young women to try pilates to strengthen their bodies",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Audience-and-action statement. No PRE antecedent supports Narrowed/Reframed/Elaborated/Expanded. Different conceptual domain from both eco-friendly and safe."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "be in peace with themselves",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Psychological inner-peace statement. Looseness with 'safe' is wellness-umbrella adjacency, not a nameable shared semantic territory. New stands."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "eco-friendly",
+    "safe"
+  ],
+  "unmatched_post": [
+    "pilates is a powerful tool for promoting physical and mental well-being",
+    "empower young women to try pilates to strengthen their bodies",
+    "be in peace with themselves"
+  ],
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "eco-friendly",
+      "post_evidence": null,
+      "rationale": "Environmental/sustainability value has no counterpart in POST set (pilates, empowerment, inner peace). Different conceptual domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "safe",
+      "post_evidence": null,
+      "rationale": "Protective/caution attribute shares only a loose wellness umbrella with POST; no specific shared semantic territory nameable without hitting abstraction ceiling.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "My brand believes that pilates is a powerful tool for promoting physical and mental well-being.",
+      "rationale": "Brand-belief statement about pilates and holistic well-being. No PRE antecedent survives ladder test.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "empower young women to try pilates to strengthen their bodies",
+      "rationale": "Audience-and-action statement. No PRE antecedent in either eco-friendly or safe.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "be in peace with themselves",
+      "rationale": "Psychological inner-peace statement. Nearest PRE 'safe' shares only wellness-umbrella adjacency; not a nameable shared territory.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

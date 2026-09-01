@@ -1,0 +1,133 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Sustainable",
+      "post": "Eco-Friendly",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Subsumption test ('Eco-Friendly is a specific way of being Sustainable') is arguable but Sustainable is substantive; sibling relationship in environmental-values territory. Reframed is correct; Narrowed would over-correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "unique",
+      "post": "Individuality",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Identity/distinctiveness neighborhood. Individuality is broader than unique, so Narrowed fails; same territory, different organizing frame (product distinctiveness \u2192 selfhood). Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "creative",
+      "post": "Customization",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Customization is an operationalization of creative capacity, not a strict subtype. Frame shifts from general creative production to consumer-facing personalization. Reframed is correct; Narrowed would over-correct."
+    },
+    {
+      "type": "recode",
+      "pre": "narration",
+      "post": "Nostalgia",
+      "from_code": "Reframed",
+      "to_code": "Narrowed",
+      "reason": "Test: 'Nostalgia is a specific way of being narration/narrative' \u2014 TRUE. Nostalgia is a specific emotional register of storytelling (sentiment-driven memory narrative is a subtype of narration). POST is a proper subset of PRE. Narrowed is correct; PRE is substantive but nostalgia is still a recognizable narrative subtype."
+    },
+    {
+      "type": "confirm",
+      "pre": "luxurious",
+      "post": "Quality",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Quality is broader than luxury (luxury is a specific kind of quality positioning), so Narrowed fails. Same premium-standards territory with shifted frame (luxury positioning \u2192 underlying quality standards). Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Accessibility",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Accessibility (inclusivity/ease of access) is in a genuinely different conceptual domain from all PRE descriptors (environmental, luxury, creative, distinctiveness, narrative). No transformation defensible; no neighborhood. New stands."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Sustainable",
+      "post": "Eco-Friendly",
+      "basis": "Environmental/sustainability neighborhood; shifted frame from general sustainability to consumer-facing eco-friendly register"
+    },
+    {
+      "pre": "unique",
+      "post": "Individuality",
+      "basis": "Identity/distinctiveness neighborhood; frame shifts from product-level distinctiveness to selfhood"
+    },
+    {
+      "pre": "creative",
+      "post": "Customization",
+      "basis": "Creative-production neighborhood; frame shifts from general creative capacity to consumer-facing personalization"
+    },
+    {
+      "pre": "narration",
+      "post": "Nostalgia",
+      "basis": "Narrative/sentiment neighborhood; nostalgia is a specific emotional-memory submode of storytelling"
+    },
+    {
+      "pre": "luxurious",
+      "post": "Quality",
+      "basis": "Premium-standards neighborhood; frame shifts from luxury positioning to underlying quality standards"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "Accessibility"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "Sustainable",
+      "post_evidence": "Eco-Friendly",
+      "rationale": "Both occupy the environmental/sustainability neighborhood. POST shifts framing from general sustainability descriptor to consumer-facing eco-friendly positioning. Subsumption arguable but Sustainable is substantive; Reframed is better supported.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "unique",
+      "post_evidence": "Individuality",
+      "rationale": "Identity/distinctiveness neighborhood. POST shifts from product-level uniqueness to the broader selfhood concept of individuality. Individuality is broader than unique, so Narrowed fails.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "creative",
+      "post_evidence": "Customization",
+      "rationale": "Creative-production neighborhood. POST shifts from general creative capacity to consumer-facing personalization. Customization operationalizes creativity but is not a strict subtype.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "narration",
+      "post_evidence": "Nostalgia",
+      "rationale": "Narrative/sentiment neighborhood. Subsumption test: 'Nostalgia is a specific way of being narration' \u2014 TRUE. Nostalgia is a specific emotional-memory register of storytelling, a proper subset of narrative.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "luxurious",
+      "post_evidence": "Quality",
+      "rationale": "Premium-standards neighborhood. Quality is broader than luxury, so Narrowed fails. Frame shifts from luxury positioning to the underlying quality standards.",
+      "alternative_considered": "Narrowed",
+      "confidence": "low"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Accessibility",
+      "rationale": "Accessibility (inclusivity/ease of access) has no meaningful antecedent in PRE. All PRE descriptors occupy different conceptual domains (environmental, luxury, creative, distinctiveness, narrative); no transformation defensible.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "active people",
+      "women into health"
+    ],
+    "post_concepts": [
+      "frequent traveler who wants to keep pilates routine consistent on the go"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "active people",
+        "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+        "continuity": "Both describe an active lifestyle segment; activity is a shared trait",
+        "scope": "Active people is a broad activity descriptor; traveler with consistent pilates is a more specific active subset",
+        "frame": "Pre frames niche as a general activity-oriented audience; post frames niche around a specific activity (pilates) maintained through mobility/travel",
+        "stretch": "Moderate; both reside in active-lifestyle audience neighborhood",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "women into health",
+        "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+        "continuity": "Pilates/fitness interest relates to health interest; gendered framing in PRE is absent in POST",
+        "scope": "Women into health is broad gender+interest; post is activity-specific and ungendered",
+        "frame": "Pre: gender+health-interest audience; post: activity-maintenance audience",
+        "stretch": "Strong stretch due to gender framing and activity narrowing",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "women into health",
+        "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+        "reason": "Gendered framing in PRE is absent in POST; assigning this as the antecedent would force one PRE unit to serve a different transformation; the active-lifestyle neighborhood is better carried by 'active people'."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "active people",
+        "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+        "basis": "Both describe an active-lifestyle audience; POST specifies the activity (pilates) and a context (frequent travel) that maintains the activity. POST is a proper subset of PRE (Narrowed)."
+      }
+    ],
+    "unmatched_pre": [
+      "women into health"
+    ],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "women into health",
+        "direction": "removed",
+        "nearest_counterpart": "frequent traveler who wants to keep pilates routine consistent on the go",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE specifies a gender-restricted health-interested audience ('women who are into health'); POST is ungendered and activity-specific (pilates/travel). Narrowed fails (pilates traveler is not a subset of 'women into health' \u2014 gender removed). Reframed fails (territory not shared \u2014 gendered audience vs travel/pilates maintenance niche are different conceptual domains; audience-categorical vs activity-contextual). Elaborated fails (POST does not retain women-into-health intact). Expanded fails (POST does not broaden the gender+health seed \u2014 it drops the gender and replaces the interest). No defensible transformation; Removed."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "active people",
+        "post": "frequent traveler who wants to keep pilates routine consistent on the go",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Pass-1 Narrowed is correct. PRE 'active people' is a generic audience label (PRE-genericness signal satisfied); POST is a specific active subpopulation (pilates-practicing frequent traveler). Subsumption test holds: 'a frequent-traveler maintaining pilates is a specific way of being active people.' Reframed would require a sibling territory rather than a subset, which is not the case here."
+      },
+      {
+        "type": "confirm",
+        "pre": "women into health",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Stage 1 neighborhood gate: gendered health-interested audience and activity-maintenance traveler niche are topically adjacent but do not share a nameable specific neighborhood. PRE specifies gender (women) + general health interest; POST is ungendered and activity-specific (pilates + travel). All four ladder tiers fail as pass-1 documented. No available PRE unit in unmatched_pre to restore lineage with. Confirm Removed."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST provides a single, more elaborated audience description with an additional activity-context clause (travel + on-the-go pilates maintenance), whereas PRE offered two parallel descriptors (active people; women into health). The response becomes more explanatory about the specific behavioral context but does not expand to multiple new dimensions."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "active people",
+      "post_evidence": "frequent traveler who wants to keep pilates routine consistent on the go",
+      "rationale": "POST is a specific way of being PRE: a frequent-traveler maintaining pilates is a specific active subpopulation of the generic 'active people' audience. PRE-genericness signal applies; subsumption holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "women who are into health",
+      "post_evidence": null,
+      "rationale": "Gender-restricted health-interested audience has no defensible successor in POST. All four ladder tiers tested against the only POST concept and failed: pilates/travel-maintenance niche is not a subset of women-into-health (gender dropped), not a sibling territory (audience-categorical vs activity-contextual), does not retain PRE intact, and does not broaden the gender+health seed. Topical adjacency only; no neighborhood relation.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "new_removed_recheck_passed",
+      "boundary_case_narrow_vs_reframe"
+    ],
+    "coder_notes": "Narrowed for 'active people' \u2192 frequent-traveler-with-pilates rests on VAGUE-vs-SPECIFIC / NARROW-ABSTRACT, since the PRE is a generic activity label and POST concretises it; subsumption is defensible but not uncontroversial. The Removed event for the women-into-health clause survived re-check because the gendered-audience frame does not carry into POST. Critic applied 2 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

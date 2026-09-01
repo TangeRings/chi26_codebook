@@ -1,0 +1,199 @@
+{
+  "coding_unit": {
+    "student_id": "aliyah",
+    "item_id": "comp-3"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "young adult and older audience 18+",
+      "kids (price-friendly)",
+      "men and women interested in replicating scents / discontinued scents / modifying scents",
+      "location: worldwide with emphasis in California, New York, Italy, France, China, Middle East",
+      "income range: catering to all income levels with price ranges depending on uniqueness",
+      "main focus on wealthier people willing to spend on quality perfume"
+    ],
+    "post_concepts": [
+      "Young adults (18-25): affordable, unique, nostalgic scents, lower income, willing to try new things, want to be different",
+      "Mature adults: relive the past through scent, luxurious scents, personalization, higher income",
+      "Across the globe: experience another culture through scent, higher income"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "young adult and older audience 18+",
+        "post": "Young adults (18-25): affordable, unique and nostalgic scents, lower income, willing to try new things and be different from the rest",
+        "continuity": "Both describe the younger adult segment",
+        "scope": "PRE: 18+ adults broadly; POST: narrowed to 18-25 only",
+        "frame": "PRE: generic adult audience; POST: specific psychographic profile (nostalgic, willing to try new, want to be different)",
+        "stretch": "close",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "kids (price-friendly)",
+        "post": "Young adults (18-25)",
+        "continuity": "Some continuity on lower-income / affordable price",
+        "scope": "PRE: kids; POST: young adults \u2014 non-overlapping ages",
+        "frame": "Different demographic segment entirely",
+        "stretch": "weak \u2014 kids segment dropped",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "men and women interested in replicating scents / discontinued / modifying",
+        "post": "Mature adults: relive the past through scent, luxurious scents, personalization",
+        "continuity": "Both involve scent replication / past scents; mature adults also get personalization",
+        "scope": "PRE: any gender adult audience into replication/modification; POST: mature adult subset with reliving-past motive",
+        "frame": "PRE emphasizes gender-neutral adult with replication motive; POST segments by maturity and pairs with luxury/personalization",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "location: worldwide with emphasis in California, New York, Italy, France, China, Middle East",
+        "post": "Across the globe: those looking to experience another culture through scent, higher income",
+        "continuity": "Both assert global / international reach",
+        "scope": "PRE names specific countries; POST is a single umbrella global category with a cultural-experience psychographic",
+        "frame": "PRE: geographic enumeration; POST: psychographic-cultural orientation with income",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "income range: catering to all income levels with price ranges depending on uniqueness",
+        "post": "Young adults (18-25)... lower income",
+        "continuity": "Lower-income segment present in both",
+        "scope": "PRE: full range across all segments; POST: only in young-adult segment",
+        "frame": "PRE: pricing-tiered strategy; POST: segment-specific income",
+        "stretch": "weak \u2014 full income range collapses into segments",
+        "verdict": "weak"
+      },
+      {
+        "pre": "main focus on wealthier people willing to spend on quality perfume",
+        "post": "Mature adults... higher income",
+        "continuity": "Higher-income audience with willingness to pay for premium",
+        "scope": "PRE: premium focus as overall main focus; POST: income attribute of mature-adult segment",
+        "frame": "PRE: explicit main-focus on wealthy; POST: implicit higher-income segment",
+        "stretch": "close",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "kids (price-friendly)",
+        "post": "Young adults (18-25)",
+        "reason": "Kids segment has no direct lineage to young adults; demographic categories are non-overlapping. Different conceptual domain (children vs young adults)."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "young adult and older audience 18+",
+        "post": "Young adults (18-25): affordable, unique and nostalgic scents, lower income, willing to try new things and be different from the rest",
+        "basis": "Both describe the younger-adult customer segment; POST narrows the age range and adds psychographic detail"
+      },
+      {
+        "pre": "men and women interested in replicating scents / discontinued / modifying",
+        "post": "Mature adults: relive the past through scent, luxurious scents, and personalization, higher income",
+        "basis": "Both involve the scent-replication/past-scent motive; POST reframes this as a maturity-defined segment with luxury/personalization"
+      },
+      {
+        "pre": "location: worldwide with emphasis in California, New York, Italy, France, China, Middle East",
+        "post": "Across the globe: those looking to experience another culture through scent, higher income",
+        "basis": "Both assert international/global scope; POST reframes from geographic enumeration to cultural-experience psychographic"
+      },
+      {
+        "pre": "main focus on wealthier people willing to spend on quality perfume",
+        "post": "Mature adults: ... higher income",
+        "basis": "Both describe the premium-paying customer; POST reframes the wealth focus as a defining attribute of the mature-adult segment"
+      }
+    ],
+    "unmatched_pre": [
+      "kids (price-friendly)",
+      "income range: catering to all income levels with price ranges depending on uniqueness"
+    ],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "kids (price-friendly)",
+        "direction": "removed",
+        "nearest_counterpart": "Young adults (18-25)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Kids (children) and young adults are non-overlapping demographic categories. Narrowed would require kids as a subset of young adults (false). Reframed would require shared semantic territory (childhood vs young adulthood are different domains). Elaborated/Expanded require POST to keep PRE intact (PRE's kids segment is fully absent). Different conceptual domains: Removed stands."
+      },
+      {
+        "concept": "income range: catering to all income levels with price ranges depending on uniqueness",
+        "direction": "removed",
+        "nearest_counterpart": "lower income (within Young adults segment)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "Although the full income range is no longer stated explicitly, POST retains the lower-income component within the Young adults segment. Reclassified as part of the broader Young adults segment match (Restated/Reframed portion). The 'catering to all income levels' umbrella is absorbed into the segment-specific income attributes of POST \u2014 no separate Removed event emitted."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The pre-response was a single continuous paragraph mixing demographics, geography, and pricing with some hedging ('I am thinking about', 'I want my brand to'). The post-response restructures the audience into three clearly demarcated segments (Young adults 18-25, Mature adults, Across the globe) with explicit psychographic descriptors per segment. The overall content shifts from a hedge-heavy stream into a structured three-segment profile. New psychographic detail is added (nostalgic, willing to try new things, cultural experience, personalization). One PRE element (kids segment) is dropped and one (full income range) is collapsed into segment-specific income. Net change is moderate: more organized and slightly more elaborated, but not a full restructuring of dimensions."
+  },
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "This will be focused towards a young adult and older audience, from 18+",
+      "post_evidence": "Young adults (18-25): those looking for affordable, unique and nostalgic scents, lower income, willing to try new things and be different from the rest.",
+      "rationale": "PRE framed the 18+ adult segment in demographic/age terms. POST reframes the same segment through a psychographic lens (nostalgic, willing to try new, want to be different) and narrows age to 18-25. Pre-frame: demographic age range. Post-frame: psychographic-motivational profile. Per item guidance, scope restriction (18+ \u2192 18-25) is a Narrowed component, but the dominant change is the shift from demographic to psychographic framing, which is Reframed. (Scope restriction on age is captured within the same Reframed event as the dominant change.)",
+      "alternative_considered": "Narrowed (age restriction 18+ \u2192 18-25 is scope restriction; however the framing shift from demographic to psychographic is dominant, so Reframed is better-supported)",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "men and women... interested in replicating scents from when they were younger, or scents that have been discontinued, or a scent that they would like to modify",
+      "post_evidence": "Mature adults: those looking to relive the past through scent, luxurious scents, and personalization, higher income.",
+      "rationale": "PRE described a gender-neutral adult audience with replication/discontinuation/modification motives. POST reframes this customer through a maturity lens (Mature adults) and pairs the past-scent motive with luxury and personalization rather than modification. Pre-frame: replication/modification motive across adult gender. Post-frame: maturity-defined segment with luxury/personalization. The underlying scent-replication theme persists, but the organizing frame has shifted from motive-based to maturity-and-positioning-based.",
+      "alternative_considered": "Narrowed (mature adults as subset of 'men and women'); however the dominant change is the reframing of the audience organizing principle, not just scope restriction",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Location wise I am thinking about all around the world, with an emphasis in California, New York, Italy, France, China, and the Middle East",
+      "post_evidence": "Across the globe: those looking to experience another culture through scent, higher income.",
+      "rationale": "Both assert international reach, but PRE enumerated specific geographies while POST reframes the international customer through a cultural-experience psychographic. Pre-frame: geographic enumeration. Post-frame: cross-cultural experiential psychographic with higher-income attribute.",
+      "alternative_considered": "Elaborated (added psychographic to existing geography); however the specific country list is fully replaced by a cultural-experience frame, so Reframed is better-supported",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "The main focus would be to wealthier people who are willing to spend a lot on a good quality perfume.",
+      "post_evidence": "Mature adults: ... higher income.",
+      "rationale": "PRE explicitly identified 'the main focus' as wealthier premium-paying customers. POST reframes this wealthy customer as a defining attribute of the Mature adults segment rather than as a primary focus. Pre-frame: premium-paying as main focus. Post-frame: higher income as one attribute within a mature-adult segment. The underlying premium-customer concept persists under a different organizing frame.",
+      "alternative_considered": "Narrowed (wealthier customers are a subset of all customers); however the reframing from 'main focus' to segment attribute is the dominant change",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "it will also cater to kids in a price friendly way",
+      "post_evidence": null,
+      "rationale": "The kids segment is fully absent from the POST response. Nearest counterpart in POST is Young adults (18-25), but kids and young adults are non-overlapping demographic categories (different conceptual domains). Narrowed: kids are not a subset of young adults. Reframed: no shared demographic domain. Elaborated/Expanded: kids segment is not kept intact anywhere in POST. Full-response search performed; no defensible lineage. Removed stands.",
+      "alternative_considered": "Reframed (price-friendly continuity with Young adults affordable focus); rejected because the demographic shift (children \u2192 young adults) crosses conceptual domains",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "events_possibly_collapsed",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "Four pairs involve arguable Narrowed-vs-Reframed judgments because the PRE contains audience scope that POST restricts (18+ \u2192 18-25; men and women \u2192 mature adults; all customers \u2192 wealthier subset). In each case the dominant change is the shift in organizing frame (demographic/motive \u2192 psychographic/maturity), so Reframed was chosen over Narrowed; scope restriction is absorbed into the Reframed event. The kids-segment Removed passes the mandatory recheck (no lineage to any POST concept). The 'income range for all' PRE concept was converted during recheck into the Young adults segment match and is not emitted as a separate Removed event. One PRE concept (kids segment) is dropped without a POST counterpart, which is a real reduction at the segment level but does not change the overall Moderate Addition judgment because three new segment-level psychographics are added. The post is structurally more organized but not substantially more voluminous."
+  },
+  "coded_at": "2026-05-14T12:00:00Z",
+  "model": "MiniMax-M3"
+}

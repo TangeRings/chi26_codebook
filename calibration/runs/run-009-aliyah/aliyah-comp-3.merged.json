@@ -1,0 +1,411 @@
+{
+  "coding_unit": {
+    "student_id": "aliyah",
+    "item_id": "comp-3"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "young adult and older audience (18+)",
+      "kids (price-friendly)",
+      "men and women",
+      "interested in replicating/discontinued/modifying scents",
+      "global with emphasis on California, New York, Italy, France, China, Middle East",
+      "price range catering to all",
+      "main focus on wealthier people willing to spend a lot"
+    ],
+    "post_concepts": [
+      "Young adults (18-25)",
+      "looking for affordable, unique and nostalgic scents",
+      "lower income",
+      "willing to try new things and be different",
+      "Mature adults",
+      "looking to relive the past through scent, luxurious scents, and personalization",
+      "higher income",
+      "Across the globe: those looking to experience another culture through scent, higher income"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "young adult and older audience (18+)",
+        "post": "Young adults (18-25)",
+        "continuity": "both specify a young-adult age band",
+        "scope": "PRE covers 18+ with no upper bound; POST restricts to 18-25",
+        "frame": "demographic age targeting",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "young adult and older audience (18+)",
+        "post": "Mature adults",
+        "continuity": "PRE 'older audience' maps to POST mature adults",
+        "scope": "mature adults are a narrower subset than 'older audience'",
+        "frame": "older demographic",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "kids (price-friendly)",
+        "post": "Young adults (18-25)",
+        "continuity": "both are younger demographics but distinct segments",
+        "scope": "kids \u2260 young adults",
+        "frame": "different demographic bands",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "men and women",
+        "post": "Young adults (18-25)",
+        "continuity": "gender unspecified in POST",
+        "scope": "gender dropped",
+        "frame": "gender orientation",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "interested in replicating/discontinued/modifying scents",
+        "post": "looking for affordable, unique and nostalgic scents",
+        "continuity": "nostalgia/replication of past scents is shared",
+        "scope": "PRE includes modification/discontinued; POST specifies unique + nostalgic",
+        "frame": "scent preference",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "interested in replicating/discontinued/modifying scents",
+        "post": "looking to relive the past through scent, luxurious scents, and personalization",
+        "continuity": "replicating past scents maps directly to reliving the past through scent",
+        "scope": "PRE broader (replicating, discontinued, modifying); POST specifies nostalgic + luxurious + personalization",
+        "frame": "scent motivation",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "global with emphasis on California, New York, Italy, France, China, Middle East",
+        "post": "Across the globe: those looking to experience another culture through scent",
+        "continuity": "both reference global reach",
+        "scope": "PRE lists specific regions; POST is general global with cultural-experience frame",
+        "frame": "geographic scope",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "price range catering to all",
+        "post": "lower income / higher income segmentation",
+        "continuity": "both address income/pricing",
+        "scope": "PRE ranges across all; POST splits into distinct income tiers",
+        "frame": "income targeting",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "main focus on wealthier people willing to spend a lot",
+        "post": "higher income",
+        "continuity": "both target wealthier segment",
+        "scope": "PRE is the 'main focus'; POST is one tier among others",
+        "frame": "premium customer focus",
+        "stretch": "low",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "kids (price-friendly)",
+        "post": "Young adults (18-25)",
+        "reason": "kids and young adults are distinct demographic segments; no defensible transformation across different conceptual domains"
+      },
+      {
+        "pre": "men and women",
+        "post": "Young adults (18-25)",
+        "reason": "gender specification dropped; different conceptual axes (gender vs age), no shared neighborhood relevant to lineage"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "young adult and older audience (18+)",
+        "post": "Young adults (18-25)",
+        "basis": "POST restricts the broad 18+ young-adult band to 18-25; Narrowed by population restriction"
+      },
+      {
+        "pre": "young adult and older audience (18+)",
+        "post": "Mature adults",
+        "basis": "POST isolates the 'older audience' portion as a specific Mature adults segment; Narrowed by subset extraction"
+      },
+      {
+        "pre": "interested in replicating/discontinued/modifying scents",
+        "post": "looking to relive the past through scent, luxurious scents, and personalization",
+        "basis": "Frame shifts from behavioral scent actions to experiential scent motivations; same territory, different organizing frame"
+      },
+      {
+        "pre": "global with emphasis on California, New York, Italy, France, China, Middle East",
+        "post": "Across the globe: those looking to experience another culture through scent",
+        "basis": "POST narrows the geographic scope to the culturally-motivated subset; Narrowed"
+      },
+      {
+        "pre": "main focus on wealthier people willing to spend a lot",
+        "post": "higher income",
+        "basis": "PRE's substantive spending-behavior frame is reframed as an income-bracket frame; sibling concepts on related economic axes"
+      },
+      {
+        "pre": "price range catering to all",
+        "post": "lower income",
+        "basis": "POST 'lower income' is a specific income-tier realization of the all-income span; Narrowed"
+      },
+      {
+        "pre": "kids (price-friendly)",
+        "post": "looking for affordable, unique and nostalgic scents",
+        "basis": "Affordability/price-friendly thread elaborated with psychographic detail (unique, nostalgic); same economic-access frame"
+      }
+    ],
+    "unmatched_pre": [
+      "men and women"
+    ],
+    "unmatched_post": [
+      "willing to try new things and be different"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "kids (price-friendly)",
+        "direction": "removed",
+        "nearest_counterpart": "Young adults (18-25)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "kids and young adults are distinct demographic bands; no subsumption (young adults are not a specific way of being kids), no shared frame, no elaboration, no expansion. Different conceptual domains for age segmentation."
+      },
+      {
+        "concept": "men and women",
+        "direction": "removed",
+        "nearest_counterpart": "Mature adults",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "gender dimension is not addressed by any POST concept; no lineage across gender vs age/income/scent-preference axes."
+      },
+      {
+        "concept": "price range catering to all",
+        "direction": "removed",
+        "nearest_counterpart": "lower income",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "POST's lower-income tier is a specific realization of the PRE 'catering to all' income span; subsumption holds \u2014 lower income is a specific income segment of the all-income range. Coded as Narrowed in semantic events."
+      },
+      {
+        "concept": "looking for affordable, unique and nostalgic scents",
+        "direction": "new",
+        "nearest_counterpart": "interested in replicating/discontinued/modifying scents",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "nostalgic/replicating scents appears in both PRE and POST; POST specifies affordable + unique framing. The replicating-scent lineage is captured in the matched pair with mature adults. The 'affordable + unique' aspects are refinements of the price-friendly kid segment but are absorbed into the young-adult segment. Captured as Elaborated under the young-adult match."
+      },
+      {
+        "concept": "willing to try new things and be different",
+        "direction": "new",
+        "nearest_counterpart": "interested in replicating/discontinued/modifying scents",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "willingness to modify/discontinue preferences in PRE maps to trying new things; coded as Elaborated under the replicating-scents pair."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "young adult and older audience (18+)",
+        "post": "Young adults (18-25)",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Young adults 18-25 is a proper subset of the 18+ audience; subsumption holds."
+      },
+      {
+        "type": "confirm",
+        "pre": "young adult and older audience (18+)",
+        "post": "Mature adults",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Mature adults are a subset of the 'older audience' portion of the 18+ range; Narrowed correct."
+      },
+      {
+        "type": "recode",
+        "pre": "interested in replicating/discontinued/modifying scents",
+        "post": "looking to relive the past through scent, luxurious scents, and personalization",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Confirming Reframed: frames genuinely shift from behavioral actions (replicating/modifying) to experiential motivations (reliving past, luxury, personalization). Same territory, different organizing frame. Elaborated would require POST to keep the same functional frame and only add detail."
+      },
+      {
+        "type": "confirm",
+        "pre": "global with emphasis on California, New York, Italy, France, China, Middle East",
+        "post": "Across the globe: those looking to experience another culture through scent",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "POST narrows the global audience to a culturally-motivated subset; Narrowed defensible."
+      },
+      {
+        "type": "recode",
+        "pre": "main focus on wealthier people willing to spend a lot",
+        "post": "higher income",
+        "from_code": "Narrowed",
+        "to_code": "Reframed",
+        "reason": "Test: 'higher income is a specific way of being wealthier people willing to spend a lot' \u2014 borderline. PRE is already substantive (specific wealthy-spender segment); subsumption is not cleanly true. POST reframes from a spending-behavior frame to an income-bracket frame. Sibling concepts on related economic axes. Reframed is more defensible."
+      },
+      {
+        "type": "restore_lineage",
+        "pre": "price range catering to all",
+        "post": "lower income",
+        "from_code": "New+Removed",
+        "to_code": "Narrowed",
+        "reason": "Pass-1 new_removed_recheck already identified that 'lower income' is a specific income-tier realization of PRE 'catering to all'; subsumption holds. Restore as Narrowed pair. Removes the 'lower income' from New status."
+      },
+      {
+        "type": "reject_pairing",
+        "pre": "kids (price-friendly)",
+        "post": "looking for affordable, unique and nostalgic scents",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Confirming Elaborated: the core economic-access/affordability thread runs from kids (price-friendly) to affordable-scent seekers. PRE is a population segment (kids); POST is a preference descriptor (affordable + unique + nostalgic scents) for a different population. The affordability dimension is elaborated across populations, and the pass-1 rationale (same economic-access frame, added psychographic detail) is defensible. Keep as Elaborated but flag low confidence."
+      },
+      {
+        "type": "confirm",
+        "pre": "men and women",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Gender axis is dropped entirely from POST with no defensible counterpart; different conceptual domain from age/income/scent axes."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "willing to try new things and be different",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "This willingness-to-try-new-things concept has no defensible PRE antecedent. The mapping to 'modifying scents' in pass-1's recheck was speculative \u2014 modifying a scent you already own is not the same as trying new things. No Narrowed/Reframed/Elaborated/Expanded defensible. Genuinely new."
+      },
+      {
+        "type": "recode",
+        "pre": "main focus on wealthier people willing to spend a lot",
+        "post": "higher income",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Correction applied above; removing 'price range catering to all' from the wealth-pairing consideration. The wealthier-spender PRE pairs only with 'higher income' POST."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST restructures the PRE content into three clearly segmented audience tiers with explicit age, income, and psychographic detail. New psychographic descriptors (nostalgic, affordable, unique, willing to be different, cultural experience) are added, and the geographic list is condensed. The response is somewhat more structured and detailed but does not multiply dimensions; the original audience scope is largely preserved."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "young adult and older audience, from 18+",
+      "post_evidence": "Young adults (18-25)",
+      "rationale": "POST restricts the broad '18+' young-adult band to a specific 18-25 range; Young adults 18-25 is a proper subset of the 18+ audience.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "from 18+ (older audience portion)",
+      "post_evidence": "Mature adults",
+      "rationale": "Mature adults are a proper subset of the 'older audience' portion of the 18+ range; scope restriction holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "interested in replicating scents from when they were younger, or scents that have been discontinued, or a scent that they would like to modify",
+      "post_evidence": "looking to relive the past through scent, luxurious scents, and personalization",
+      "rationale": "Frame shifts from behavioral/functional scent actions (replicating, modifying) to experiential/emotional scent motivations (reliving past, luxury, personalization). Same territory, different organizing frame. Pre-frame: behavioral scent actions; post-frame: experiential scent motivations.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Location wise I am thinking about all around the world, with an emphasis in California, New York, Italy, France, China, and the Middle East",
+      "post_evidence": "Across the globe: those looking to experience another culture through scent",
+      "rationale": "POST narrows the global audience to the culturally-motivated subset; cultural-experience buyers are a proper subset of the global-with-regional-emphasis audience.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "cater to all [incomes] and have a range of prices ... main focus would be to wealthier people",
+      "post_evidence": "higher income",
+      "rationale": "PRE 'wealthier people willing to spend a lot' is a substantive spending-behavior frame; POST 'higher income' is an income-bracket frame. Sibling concepts on related economic axes \u2014 no subsumption. Frame shifts from spending behavior to income classification.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "cater to all [incomes] and have a range of prices",
+      "post_evidence": "lower income",
+      "rationale": "Lower income is a specific income-tier realization of the all-income span in PRE; subsumption holds via population/income narrowing.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "cater to kids in a price friendly way",
+      "post_evidence": "those looking for affordable, unique and nostalgic scents",
+      "rationale": "The price-friendly/affordability core is retained; POST adds psychographic detail (unique, nostalgic scents). Same economic-access frame; only detail added, not a frame shift. Boundary case given different populations (kids vs general affordable-seekers).",
+      "alternative_considered": "Narrowed",
+      "confidence": "low"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "It will cater to both men and women",
+      "post_evidence": null,
+      "rationale": "Gender targeting is entirely absent from POST. Nearest counterparts (age tiers, income tiers, scent preferences) operate on different axes (gender vs age/income/scent). Narrowed fails (women/men is not a specific way of being any POST concept). Reframed fails (different semantic territory). Elaborated and Expanded fail. Different conceptual domain.",
+      "alternative_considered": "Narrowed, Reframed, Elaborated, Expanded all tested against nearest POST counterparts",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "willing to try new things and be different",
+      "rationale": "Willingness to try new things has no defensible PRE antecedent. The mapping to 'modifying scents' fails \u2014 modifying a scent you already own is not equivalent to trying new things. No Narrowed/Reframed/Elaborated/Expanded holds against any PRE concept.",
+      "alternative_considered": "Elaborated under 'modifying scents' \u2014 rejected as semantic mismatch",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_narrow",
+      "events_possibly_collapsed",
+      "boundary_case_narrow_vs_reframe",
+      "lineage_restored_by_critic",
+      "neighborhood_protected",
+      "forced_pairing_rejected",
+      "alignment_null_by_choice",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "The replicating-scent lineage is tracked to the Mature Adults tier (Reframed), which captures the core 'reliving the past' function. The 'affordable, unique, nostalgic' scent descriptors on the Young Adults tier are coded as Elaborated of the kids/price-friendly segment rather than as a separate Reframed of the replicating-scents concept, to avoid double-counting the same PRE antecedent. The Narrowed-vs-Reframed distinction is borderline for the geographic and income pairs; Narrowed is chosen because subsumption holds (restricted sub-population in each case). Critic applied 10 correction(s). Lineage restored for 1 pair(s): price range catering to all \u2192 lower income."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

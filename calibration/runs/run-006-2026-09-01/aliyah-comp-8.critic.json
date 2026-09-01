@@ -1,0 +1,122 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "special sized bottles that aren't standard",
+      "post": "special sized bottles",
+      "from_code": null,
+      "to_code": "Elaborated",
+      "reason": "POST drops the explanatory qualifier 'that aren't standard' but retains the same underlying category (special sized bottles). The frame is unchanged; only detail/qualifier is removed. The pre is more explicit, the post is the same category expressed more tersely \u2014 this is Elaborated (detail removed within same frame). Code was null in pass 1 and needs a transformation label."
+    },
+    {
+      "type": "confirm",
+      "pre": "perfumes",
+      "post": "perfumes",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical product category; same in both versions"
+    },
+    {
+      "type": "confirm",
+      "pre": "perfume dupes",
+      "post": "perfume dupes",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical offering"
+    },
+    {
+      "type": "confirm",
+      "pre": "custom perfumes",
+      "post": "custom perfumes",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical offering"
+    },
+    {
+      "type": "confirm",
+      "pre": "perfume replication",
+      "post": "perfume replication",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical offering"
+    },
+    {
+      "type": "confirm",
+      "pre": "perfume bottles (both custom and standard)",
+      "post": "perfume bottles (both custom and standard)",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical offering"
+    },
+    {
+      "type": "confirm",
+      "pre": "bottle engraving",
+      "post": "bottle engraving",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical offering"
+    },
+    {
+      "type": "confirm",
+      "pre": "scent consultations",
+      "post": "scent consultations",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical offering"
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "perfumes",
+      "post": "perfumes",
+      "basis": "identical product category"
+    },
+    {
+      "pre": "perfume dupes",
+      "post": "perfume dupes",
+      "basis": "identical offering"
+    },
+    {
+      "pre": "custom perfumes",
+      "post": "custom perfumes",
+      "basis": "identical offering"
+    },
+    {
+      "pre": "perfume replication",
+      "post": "perfume replication",
+      "basis": "identical offering"
+    },
+    {
+      "pre": "perfume bottles (both custom and standard)",
+      "post": "perfume bottles (both custom and standard)",
+      "basis": "identical offering"
+    },
+    {
+      "pre": "special sized bottles that aren't standard",
+      "post": "special sized bottles",
+      "basis": "same category with explanatory qualifier removed"
+    },
+    {
+      "pre": "bottle engraving",
+      "post": "bottle engraving",
+      "basis": "identical offering"
+    },
+    {
+      "pre": "scent consultations",
+      "post": "scent consultations",
+      "basis": "identical offering"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "special sized bottles that aren't standard",
+      "post_evidence": "special sized bottles",
+      "rationale": "Same underlying category (special sized bottles); the post drops the explanatory qualifier 'that aren't standard' while the frame and referent are unchanged. Detail within the same frame was tightened.",
+      "alternative_considered": "Reframed (rejected: organizing frame is identical; only a qualifier was trimmed)",
+      "confidence": "high"
+    }
+  ]
+}

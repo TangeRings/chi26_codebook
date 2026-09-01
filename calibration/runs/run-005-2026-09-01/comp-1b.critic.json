@@ -1,0 +1,154 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "MBTI-themed brand",
+      "post": "MBTI-themed brand",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical identifier; pass 1 correct"
+    },
+    {
+      "type": "confirm",
+      "pre": "brings together people of all personalities, lifestyles, and backgrounds",
+      "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+      "from_code": null,
+      "to_code": null,
+      "reason": "near-identical phrasing; pass 1 correct"
+    },
+    {
+      "type": "confirm",
+      "pre": "designed physical products",
+      "post": "cute physical merchandised products",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "same underlying category (physical products); only descriptors added ('cute', 'merchandised'). Per BC-P001 this is descriptor addition, not a frame shift. Confirm Elaborated."
+    },
+    {
+      "type": "confirm",
+      "pre": "focus on connection",
+      "post": "transform personality theory into a shared experience",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "subsumption test fails ('shared experience is a specific way of being connection' = false). Both share social/collective-coming-together territory but the organizing frame shifts (relational -> experiential, and POST introduces 'personality theory' as the object). Confirm Reframed."
+    },
+    {
+      "type": "confirm",
+      "pre": "self-expression",
+      "post": "celebrates individuality",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "identity/self-expression neighborhood is nameable specifically (individual distinctness via expression). Subsumption test: 'celebrating individuality is a specific way of being self-expression' is arguable but PRE is already substantive (not a generic filler), so the two read as sibling angles on identity territory. Confirm Reframed; Narrowed would over-correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "uniting individuals",
+      "post": "uniting enthusiasts",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "enthusiasts are a proper subset of individuals; scope restriction holds. Per SCOPE-RESTRICTION rule this is Narrowed regardless of surrounding wording. Confirm."
+    },
+    {
+      "type": "confirm",
+      "pre": "shared passion",
+      "post": "common passion",
+      "from_code": null,
+      "to_code": null,
+      "reason": "near-synonym; pass 1 correct"
+    },
+    {
+      "type": "confirm",
+      "pre": "building a community (CRM)",
+      "post": "creating a community-driven space (similar to CRM)",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "community-construction frame retained; POST adds modifier 'community-driven space' and only softens the CRM reference. No frame shift. Confirm Elaborated."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "MBTI-themed brand",
+      "post": "MBTI-themed brand",
+      "basis": "identical identifier retained"
+    },
+    {
+      "pre": "brings together people of all personalities, lifestyles, and backgrounds",
+      "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+      "basis": "near-identical phrasing preserved"
+    },
+    {
+      "pre": "designed physical products",
+      "post": "cute physical merchandised products",
+      "basis": "physical-goods frame retained; descriptors added"
+    },
+    {
+      "pre": "focus on connection",
+      "post": "transform personality theory into a shared experience",
+      "basis": "shared social/collective-coming-together territory; relational -> experiential frame shift"
+    },
+    {
+      "pre": "self-expression",
+      "post": "celebrates individuality",
+      "basis": "identity/self-expression neighborhood; expressive-act -> celebratory-recognition frame shift"
+    },
+    {
+      "pre": "uniting individuals",
+      "post": "uniting enthusiasts",
+      "basis": "enthusiasts subset of individuals (scope restriction)"
+    },
+    {
+      "pre": "shared passion",
+      "post": "common passion",
+      "basis": "near-synonym"
+    },
+    {
+      "pre": "building a community (CRM)",
+      "post": "creating a community-driven space (similar to CRM)",
+      "basis": "community-construction frame retained; modifier and CRM-reference softening added"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "designed physical products",
+      "post_evidence": "cute physical merchandised products",
+      "rationale": "Same category retained. POST adds aesthetic qualifier ('cute') and shifts descriptor ('designed' -> 'merchandised') but the underlying frame (physical branded goods) is intact. Per BC-P001, descriptor addition within the same frame is Elaborated, not Reframed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "focus on connection",
+      "post_evidence": "transform personality theory into a shared experience",
+      "rationale": "Both occupy a shared social/collective-coming-together territory. PRE frames the vision relationally (interpersonal connection); POST reframes it experientially and makes personality theory the explicit object of the shared experience. Subsumption test fails; the organizing frame shifts.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "self-expression",
+      "post_evidence": "celebrates individuality",
+      "rationale": "Identity/self-expression neighborhood. PRE frames it as an act (expression); POST reframes it as celebratory recognition of individual distinctness. No subsumption; sibling angles on identity territory. PRE is substantive, so Narrowed is not warranted.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "uniting individuals",
+      "post_evidence": "uniting enthusiasts",
+      "rationale": "Enthusiasts are a proper subset of individuals. Scope restriction holds regardless of surrounding phrasing. 'Uniting enthusiasts is a specific way of uniting individuals' = TRUE.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "building a community (CRM)",
+      "post_evidence": "creating a community-driven space (similar to CRM)",
+      "rationale": "Community-construction frame is retained. POST adds the modifier 'community-driven space' and softens the CRM reference from declarative to aspirational ('similar to CRM'). No frame shift; only modifiers and hedging added.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

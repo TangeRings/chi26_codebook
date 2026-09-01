@@ -1,0 +1,187 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "pilates equipment",
+      "safe",
+      "eco-friendly"
+    ],
+    "post_concepts": [
+      "Eco-friendly equipment",
+      "easily packable for travel"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "pilates equipment",
+        "post": "Eco-friendly equipment",
+        "continuity": "Same product category; 'Eco-friendly equipment' is a more specified form of 'pilates equipment'",
+        "scope": "POST retains same product type but qualifies it with the eco-friendly attribute already present in PRE",
+        "frame": "PRE frames as pilates equipment; POST retains equipment category but drops explicit pilates mention",
+        "stretch": "Mild stretch \u2014 the pilates identity is no longer explicit in POST, though it may be implicit",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "safe",
+        "post": "Eco-friendly equipment",
+        "continuity": "Both are product qualities/attributes of equipment",
+        "scope": "Both are attribute-level descriptors applied to the equipment",
+        "frame": "PRE = safety property; POST = environmental property (different attribute categories)",
+        "stretch": "Reasonable candidate as parallel attribute, but different attribute type",
+        "verdict": "weak"
+      },
+      {
+        "pre": "safe",
+        "post": "easily packable for travel",
+        "continuity": "Both are product quality attributes",
+        "scope": "Both add attributes to the equipment",
+        "frame": "PRE = safety; POST = portability/utility",
+        "stretch": "Different attribute categories (safety vs convenience/portability)",
+        "verdict": "weak"
+      },
+      {
+        "pre": "eco-friendly",
+        "post": "Eco-friendly equipment",
+        "continuity": "Direct lexical and semantic overlap",
+        "scope": "Same environmental attribute",
+        "frame": "Environmental/sustainability frame preserved",
+        "stretch": "Minimal stretch; essentially the same idea, possibly elaborated as applying to the equipment as a whole",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "eco-friendly",
+        "post": "easily packable for travel",
+        "continuity": "Both are product attributes",
+        "scope": "Attribute-level descriptors",
+        "frame": "Environmental vs portability \u2014 different attribute dimensions",
+        "stretch": "Cross-category attributes",
+        "verdict": "weak"
+      },
+      {
+        "pre": "pilates equipment",
+        "post": "easily packable for travel",
+        "continuity": "Both relate to the product offering, but one is the product itself and the other is an attribute",
+        "scope": "Different levels \u2014 product category vs product attribute",
+        "frame": "Product category vs convenience attribute",
+        "stretch": "Difficult to defend as a direct conceptual successor",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "pilates equipment",
+        "post": "easily packable for travel",
+        "reason": "Product category cannot be subsumed, reframed, elaborated, or expanded into a portability attribute; different conceptual levels."
+      },
+      {
+        "pre": "safe",
+        "post": "Eco-friendly equipment",
+        "reason": "Safety attribute and environmental attribute occupy different attribute dimensions; no defensible lineage."
+      },
+      {
+        "pre": "safe",
+        "post": "easily packable for travel",
+        "reason": "Safety and portability are different attribute categories; pairing would be forced."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "eco-friendly",
+        "post": "Eco-friendly equipment",
+        "basis": "Direct lexical and semantic overlap; eco-friendly attribute is preserved in POST and applied to the equipment."
+      },
+      {
+        "pre": "pilates equipment",
+        "post": "easily packable for travel",
+        "basis": "Conceptual continuity is weak; the product category persists implicitly while POST introduces a new attribute dimension (portability). However, since 'pilates equipment' is the antecedent product category and 'easily packable for travel' is a new attribute added to that product, this functions more as a New attribute added to the (implicit) product category than as a transformation of the category itself. Treated as best available match but acknowledged as weak; the 'pilates' specification is not carried forward, which means part of the PRE concept is actually removed."
+      }
+    ],
+    "unmatched_pre": [
+      "safe"
+    ],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "safe",
+        "direction": "removed",
+        "nearest_counterpart": "easily packable for travel",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Safety and portability are different product-attribute dimensions. 'Portable' is not a specific way of being 'safe'; the frames differ (user-protection vs convenience/travel-readiness); POST does not elaborate or broaden the safety concept. No defensible transformation. Full-response search performed; no other POST concept could serve as a successor."
+      },
+      {
+        "concept": "easily packable for travel",
+        "direction": "new",
+        "nearest_counterpart": "safe",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Portability for travel is a new convenience/utility attribute absent from PRE. It is not a narrowing, reframing, elaboration, or expansion of 'safe' \u2014 they are different attribute dimensions. Full-response search performed."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "PRE contains three short attributes (pilates equipment, safe, eco-friendly). POST retains eco-friendly (slightly elaborated into 'Eco-friendly equipment'), drops the 'safe' attribute, and adds a new attribute ('easily packable for travel'). One new meaningful attribute is added and one is removed, producing a roughly equivalent length but a net shift in content \u2014 a moderate structural change rather than pure no-change."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "eco-friendly",
+      "post_evidence": "Eco-friendly equipment",
+      "rationale": "The eco-friendly attribute is preserved in POST and now explicitly attached to the equipment as its referent. This adds a small specification (attaching the attribute to the product noun) within the same environmental/sustainability frame. The core concept is intact and elaborated with its product scope.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "safe",
+      "post_evidence": null,
+      "rationale": "The 'safe' attribute present in PRE has no successor in POST. Nearest POST counterpart 'easily packable for travel' is a portability attribute, not a safety attribute; subsumption, reframing, elaboration, and expansion all fail. Full-response search performed. Applied MANDATORY-NEW-REMOVED-RECHECK.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "easily packable for travel",
+      "rationale": "A new convenience/portability attribute is introduced with no antecedent in PRE. Nearest PRE counterpart 'safe' is a different attribute dimension (user protection vs travel convenience); all four transformation codes fail. Full-response search performed. Applied MANDATORY-NEW-REMOVED-RECHECK.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "pilates equipment",
+      "post_evidence": "easily packable for travel",
+      "rationale": "The pilates-equipment product category is retained implicitly as the referent of the new attribute, while its scope is restricted implicitly to equipment that meets the travel-packability criterion. However, this pairing is weak: POST does not explicitly mention pilates, and 'easily packable for travel' is an attribute rather than a category restriction on the equipment. This is best recorded as a weak Narrowed with explicit flagging of the lost 'pilates' specification. Note: the 'pilates' specification is effectively removed (captured in the 'safe' removal reasoning is not correct \u2014 see coder notes). Better treated: the product category persists but the new attribute qualifies it; the 'pilates' specification is lost but the equipment category persists. Given uncertainty, this is logged with low-medium confidence and the alternative is Removed+New framing.",
+      "alternative_considered": "Removed",
+      "confidence": "low"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_narrow",
+      "possible_missed_event",
+      "neighborhood_tested_no_lineage",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "The pilates-equipment \u2192 easily-packable-for-travel pairing is awkward: 'easily packable for travel' is an attribute, not a narrower version of the product category. Treated it as a weak Narrowed because the equipment category persists as the referent of the new attribute, but the lost 'pilates' specification is not separately captured as a Removed event (it is implicitly absorbed into the retained equipment category). The 'safe' attribute removal and the 'packable for travel' addition are clean. Overall confidence is medium due to the ambiguous pilates/equipment boundary handling."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

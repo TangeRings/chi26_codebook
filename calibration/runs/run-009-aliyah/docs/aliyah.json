@@ -1,0 +1,2664 @@
+{
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "Sustainable, luxurious, creative, unique, narration"
+      },
+      "post": {
+        "answer": "Individuality, Nostalgia, Customization, Quality, Accessibility, Eco-Friendly"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST expands from five descriptors to six and introduces concepts (Nostalgia, Accessibility) absent from PRE, but PRE and POST remain roughly comparable in overall scope; structural expansion is moderate rather than significant.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Sustainable",
+            "luxurious",
+            "creative",
+            "unique",
+            "narration"
+          ],
+          "postConcepts": [
+            "Individuality",
+            "Nostalgia",
+            "Customization",
+            "Quality",
+            "Accessibility",
+            "Eco-Friendly"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Sustainable",
+              "post": "Eco-Friendly",
+              "continuity": "Both address environmental/sustainability positioning",
+              "scope": "Roughly comparable; Eco-Friendly is slightly more concrete but neither is a strict subset of the other",
+              "frame": "Sustainability orientation preserved; both in environmental-values territory",
+              "stretch": "Minimal stretch",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Sustainable",
+              "post": "Individuality",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Environment vs self-expression",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Sustainable",
+              "post": "Nostalgia",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Environment vs memory/sentiment",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Sustainable",
+              "post": "Customization",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Environment vs personalization",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Sustainable",
+              "post": "Quality",
+              "continuity": "Loose — quality could encompass sustainable quality",
+              "scope": "Quality is broader than sustainability",
+              "frame": "Quality umbrella vs environmental-specific",
+              "stretch": "Stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Sustainable",
+              "post": "Accessibility",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Environment vs access",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Individuality",
+              "continuity": "Weak — luxury can be tied to personal distinction",
+              "scope": "Different",
+              "frame": "Luxury feel vs self-expression",
+              "stretch": "Stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Nostalgia",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Luxury vs sentiment",
+              "stretch": "Stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Customization",
+              "continuity": "Moderate — bespoke luxury can imply customization",
+              "scope": "Customization is narrower than luxury",
+              "frame": "Premium positioning vs personalization",
+              "stretch": "Moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Quality",
+              "continuity": "Strong — quality is a core component of luxury",
+              "scope": "Quality is broader; luxury is a specific kind of quality positioning",
+              "frame": "Quality as general standard vs luxury as premium register",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Accessibility",
+              "continuity": "Weak — but somewhat counterintuitive pairing",
+              "scope": "Different",
+              "frame": "Luxury vs access",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Eco-Friendly",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Luxury vs environmental",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "creative",
+              "post": "Individuality",
+              "continuity": "Moderate — creativity often associated with individuality",
+              "scope": "Different",
+              "frame": "Creative production vs self-presentation",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "creative",
+              "post": "Nostalgia",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Creativity vs sentiment",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "creative",
+              "post": "Customization",
+              "continuity": "Strong — customization requires creative input",
+              "scope": "Customization is a specific application of creativity",
+              "frame": "Creative capacity vs creative personalization",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "creative",
+              "post": "Quality",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Creativity vs standards",
+              "stretch": "Stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "creative",
+              "post": "Accessibility",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Creativity vs access",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "creative",
+              "post": "Eco-Friendly",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Creativity vs environment",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "unique",
+              "post": "Individuality",
+              "continuity": "Strong — uniqueness is core to individuality",
+              "scope": "Individuality is broader than uniqueness but uniqueness is a specific manifestation",
+              "frame": "Distinctiveness vs selfhood",
+              "stretch": "Minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "unique",
+              "post": "Nostalgia",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Uniqueness vs sentiment",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "unique",
+              "post": "Customization",
+              "continuity": "Strong — customization produces unique output",
+              "scope": "Customization is a specific way of achieving uniqueness",
+              "frame": "Distinctiveness vs personalization",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "unique",
+              "post": "Quality",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Uniqueness vs standards",
+              "stretch": "Stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "unique",
+              "post": "Accessibility",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Uniqueness vs access",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "unique",
+              "post": "Eco-Friendly",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Uniqueness vs environment",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "narration",
+              "post": "Individuality",
+              "continuity": "Moderate — narrative is a vehicle for identity",
+              "scope": "Different",
+              "frame": "Storytelling vs selfhood",
+              "stretch": "Moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "narration",
+              "post": "Nostalgia",
+              "continuity": "Strong — narration/narrative often evokes nostalgia",
+              "scope": "Nostalgia is more specific",
+              "frame": "Storytelling vs sentiment-driven memory",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "narration",
+              "post": "Customization",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Storytelling vs personalization",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "narration",
+              "post": "Quality",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Storytelling vs standards",
+              "stretch": "Stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "narration",
+              "post": "Accessibility",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Storytelling vs access",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "narration",
+              "post": "Eco-Friendly",
+              "continuity": "None",
+              "scope": "Different",
+              "frame": "Storytelling vs environment",
+              "stretch": "Stretched",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Sustainable",
+              "post": "Individuality",
+              "reason": "Different conceptual domains; no defensible lineage"
+            },
+            {
+              "pre": "Sustainable",
+              "post": "Nostalgia",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "Sustainable",
+              "post": "Customization",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "Sustainable",
+              "post": "Accessibility",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Individuality",
+              "reason": "Weak lineage; stretched"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Nostalgia",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Customization",
+              "reason": "Stretched; weak lineage"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Eco-Friendly",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "creative",
+              "post": "Nostalgia",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "creative",
+              "post": "Quality",
+              "reason": "Weak lineage"
+            },
+            {
+              "pre": "creative",
+              "post": "Accessibility",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "creative",
+              "post": "Eco-Friendly",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "unique",
+              "post": "Nostalgia",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "unique",
+              "post": "Quality",
+              "reason": "Weak lineage"
+            },
+            {
+              "pre": "unique",
+              "post": "Accessibility",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "unique",
+              "post": "Eco-Friendly",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "narration",
+              "post": "Individuality",
+              "reason": "Weak lineage; different frames"
+            },
+            {
+              "pre": "narration",
+              "post": "Customization",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "narration",
+              "post": "Quality",
+              "reason": "Weak lineage"
+            },
+            {
+              "pre": "narration",
+              "post": "Accessibility",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "narration",
+              "post": "Eco-Friendly",
+              "reason": "Different conceptual domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Sustainable",
+              "post": "Eco-Friendly",
+              "basis": "Environmental/sustainability neighborhood; shifted frame from general sustainability to consumer-facing eco-friendly register"
+            },
+            {
+              "pre": "unique",
+              "post": "Individuality",
+              "basis": "Identity/distinctiveness neighborhood; frame shifts from product-level distinctiveness to selfhood"
+            },
+            {
+              "pre": "creative",
+              "post": "Customization",
+              "basis": "Creative-production neighborhood; frame shifts from general creative capacity to consumer-facing personalization"
+            },
+            {
+              "pre": "narration",
+              "post": "Nostalgia",
+              "basis": "Narrative/sentiment neighborhood; nostalgia is a specific emotional-memory submode of storytelling"
+            },
+            {
+              "pre": "luxurious",
+              "post": "Quality",
+              "basis": "Premium-standards neighborhood; frame shifts from luxury positioning to underlying quality standards"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Accessibility"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Accessibility",
+              "direction": "new",
+              "nearestCounterpart": "luxurious",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Accessibility (ease of access/inclusivity) and luxurious (premium positioning) are in genuinely different conceptual domains; no transformation defensible. Also tested against Sustainable, creative, unique, narration — all fail. Accessibility is a genuinely new concept with no meaningful antecedent in PRE."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Sustainable",
+              "post": "Eco-Friendly",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Subsumption test ('Eco-Friendly is a specific way of being Sustainable') is arguable but Sustainable is substantive; sibling relationship in environmental-values territory. Reframed is correct; Narrowed would over-correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "unique",
+              "post": "Individuality",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Identity/distinctiveness neighborhood. Individuality is broader than unique, so Narrowed fails; same territory, different organizing frame (product distinctiveness → selfhood). Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "creative",
+              "post": "Customization",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Customization is an operationalization of creative capacity, not a strict subtype. Frame shifts from general creative production to consumer-facing personalization. Reframed is correct; Narrowed would over-correct."
+            },
+            {
+              "type": "recode",
+              "pre": "narration",
+              "post": "Nostalgia",
+              "fromCode": "Reframed",
+              "toCode": "Narrowed",
+              "reason": "Test: 'Nostalgia is a specific way of being narration/narrative' — TRUE. Nostalgia is a specific emotional register of storytelling (sentiment-driven memory narrative is a subtype of narration). POST is a proper subset of PRE. Narrowed is correct; PRE is substantive but nostalgia is still a recognizable narrative subtype."
+            },
+            {
+              "type": "confirm",
+              "pre": "luxurious",
+              "post": "Quality",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Quality is broader than luxury (luxury is a specific kind of quality positioning), so Narrowed fails. Same premium-standards territory with shifted frame (luxury positioning → underlying quality standards). Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Accessibility",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Accessibility (inclusivity/ease of access) is in a genuinely different conceptual domain from all PRE descriptors (environmental, luxury, creative, distinctiveness, narrative). No transformation defensible; no neighborhood. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6p6upbanm39jwa3t",
+            "code": "Reframed",
+            "preEvidence": "Sustainable",
+            "postEvidence": "Eco-Friendly",
+            "rationale": "Both occupy the environmental/sustainability neighborhood. POST shifts framing from general sustainability descriptor to consumer-facing eco-friendly positioning. Subsumption arguable but Sustainable is substantive; Reframed is better supported.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6p6upxlimdvjuo8i",
+            "code": "Reframed",
+            "preEvidence": "unique",
+            "postEvidence": "Individuality",
+            "rationale": "Identity/distinctiveness neighborhood. POST shifts from product-level uniqueness to the broader selfhood concept of individuality. Individuality is broader than unique, so Narrowed fails.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6p6upoepr9at5ak",
+            "code": "Reframed",
+            "preEvidence": "creative",
+            "postEvidence": "Customization",
+            "rationale": "Creative-production neighborhood. POST shifts from general creative capacity to consumer-facing personalization. Customization operationalizes creativity but is not a strict subtype.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6p6upawn1cemkrcp",
+            "code": "Narrowed",
+            "preEvidence": "narration",
+            "postEvidence": "Nostalgia",
+            "rationale": "Narrative/sentiment neighborhood. Subsumption test: 'Nostalgia is a specific way of being narration' — TRUE. Nostalgia is a specific emotional-memory register of storytelling, a proper subset of narrative.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6p6upmwtox7204z",
+            "code": "Reframed",
+            "preEvidence": "luxurious",
+            "postEvidence": "Quality",
+            "rationale": "Premium-standards neighborhood. Quality is broader than luxury, so Narrowed fails. Frame shifts from luxury positioning to the underlying quality standards.",
+            "confidence": "low",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6p6uqqb5d5289od",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Accessibility",
+            "rationale": "Accessibility (inclusivity/ease of access) has no meaningful antecedent in PRE. All PRE descriptors occupy different conceptual domains (environmental, luxury, creative, distinctiveness, narrative); no transformation defensible.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "boundary_case_structural_threshold",
+            "reframe_downgraded",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "All five matched pairs landed on Reframed. The subsumption test was arguable for several pairs (Sustainable→Eco-Friendly, unique→Individuality, creative→Customization, narration→Nostalgia, luxurious→Quality); chose Reframed over Narrowed because the PRE terms are already substantive rather than generic filler, making a strict subsumption claim weak. Structural development judged Moderate Addition because PRE has 5 descriptors and POST has 6; the expansion is one descriptor plus reframings, not a wholesale addition of new explanatory content. flagged boundary_case_structural_threshold due to uncertainty between Moderate and Significant. No learner-agency evidence present in artifact. Critic applied 6 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "I hope to create a future where people can get any scent that they want replicated and be able to relive moments in life with this scent and also be able to create their own bottle based off of the story associated with that scent."
+      },
+      "post": {
+        "answer": "Creating a world where everyone has their own unique scent with their own unique bottle, and they can relive memories with them."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Reduction",
+        "structuralRationale": "The post-response condenses the multi-clause pre-response (which described scent replication, memory-revival, and story-driven bottle creation) into a shorter statement. Two meaningful clauses/specifics are dropped (the explicit 'replication of any scent on demand' and the 'story-based bottle creation' specification), while the core vision is preserved in compressed form. This is a reduction rather than merely a stylistic compression because the story-driven customization detail and the scent-replication service framing are no longer articulated.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "get any scent replicated",
+            "relive moments in life with scent",
+            "create your own bottle based on a story",
+            "future/world framing"
+          ],
+          "postConcepts": [
+            "everyone has their own unique scent",
+            "their own unique bottle",
+            "relive memories with them"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "get any scent replicated",
+              "post": "everyone has their own unique scent",
+              "continuity": "both about accessing/providing scents to individuals",
+              "scope": "PRE = replication of any scent on demand; POST = ownership of a unique scent (scope shifts from replication-service to ownership)",
+              "frame": "PRE = service/replication frame; POST = personal-uniqueness/ownership frame",
+              "stretch": "moderate — related territory but the conceptual role has shifted from 'replicating scents' to 'owning a unique scent'",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "relive moments in life with scent",
+              "post": "relive memories with them",
+              "continuity": "identical core idea: using scent to revisit past moments",
+              "scope": "POST is a more compressed statement of the same idea",
+              "frame": "both experiential/memory-recall frame; POST condenses",
+              "stretch": "low — strong conceptual continuity",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "create your own bottle based on a story",
+              "post": "their own unique bottle",
+              "continuity": "both about having a personal/own bottle",
+              "scope": "PRE emphasizes story-driven customization; POST emphasizes uniqueness",
+              "frame": "PRE = narrative/story-driven personalization frame; POST = uniqueness/individuality frame",
+              "stretch": "moderate — sibling territory but emphasis shifted",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "future/world framing",
+              "post": "Creating a world where everyone has their own unique scent",
+              "continuity": "both use future/world framing for the brand vision",
+              "scope": "same broad scope",
+              "frame": "same world-building frame",
+              "stretch": "low",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "get any scent replicated",
+              "post": "everyone has their own unique scent",
+              "basis": "shared personalization/scent-access neighborhood; PRE frames as replication service, POST frames as personal uniqueness/ownership — Reframed"
+            },
+            {
+              "pre": "relive moments in life with scent",
+              "post": "relive memories with them",
+              "basis": "shared nostalgic-return-via-product territory; PRE frames as broad life-moments via scent, POST frames as memory-recall via the products — Reframed"
+            },
+            {
+              "pre": "create your own bottle based on a story",
+              "post": "their own unique bottle",
+              "basis": "shared personalization/bottle-ownership territory; PRE frames as narrative-driven customization, POST frames as uniqueness — Reframed"
+            }
+          ],
+          "unmatchedPre": [
+            "future/world framing"
+          ],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "relive moments in life with scent",
+              "post": "relive memories with them",
+              "fromCode": "Elaborated",
+              "toCode": "Reframed",
+              "reason": "POST does not merely compress PRE; it shifts the frame from 'relive moments in life' (broad life-moments) to 'relive memories' (memory-recall specifically), and the medium reference shifts from 'scent' to 'them' (the bottles/scent products). Same semantic territory (nostalgic return via product) with a shifted organizing frame — memory-recall frame rather than life-moments frame. Reframed, not Elaborated."
+            },
+            {
+              "type": "add_pairing",
+              "pre": "future/world framing",
+              "post": null,
+              "fromCode": null,
+              "toCode": null,
+              "reason": "PRE 'future/world framing' is a framing/emphasis concept, not a content claim. POST does not contain an explicit future/world framing statement, so there is no defensible POST successor. This is a genuine Removed: the future/world framing dropped out of the POST set. Recording as Removed rather than forcing a pairing into the 'everyone has their own unique scent' slot."
+            },
+            {
+              "type": "confirm",
+              "pre": "get any scent replicated",
+              "post": "everyone has their own unique scent",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Subsumption test: 'everyone having a unique scent is a specific way of getting any scent replicated' — FALSE. Shared personalization neighborhood with shifted frame (replication-service → personal-uniqueness/ownership). Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "create your own bottle based on a story",
+              "post": "their own unique bottle",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Subsumption test: 'a unique bottle is a specific way of being a story-based bottle' — FALSE. Shared personalization territory with shifted organizing frame (narrative-driven → uniqueness-driven). Reframed is correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6p2z5tgv8f8h50fk",
+            "code": "Reframed",
+            "preEvidence": "get any scent that they want replicated",
+            "postEvidence": "everyone has their own unique scent",
+            "rationale": "Shared neighborhood of personalized scent access. PRE organizes around a replication-service frame (any scent can be reproduced on demand); POST organizes around a personal-uniqueness/ownership frame (each person has their own scent). Subsumption fails: owning a unique scent is not a specific way of getting any scent replicated. Frame shifts, territory persists. Reframed.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6p2z5tg8n5xzh85r",
+            "code": "Reframed",
+            "preEvidence": "relive moments in life with this scent",
+            "postEvidence": "relive memories with them",
+            "rationale": "Same nostalgic-return territory, but the organizing frame shifts: PRE frames the return as 'moments in life' mediated by scent; POST frames it as 'memories' mediated by the products ('them'). The medium reference also shifts from 'scent' to 'them' (the bottles/products). No subsumption ('reliving memories is a specific way of reliving moments in life' is too loose to hold). Same territory, shifted frame. Reframed, not Elaborated (which would require the same frame with added detail).",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6p2z5a7kiqsf6mk",
+            "code": "Reframed",
+            "preEvidence": "create their own bottle based off of the story associated with that scent",
+            "postEvidence": "their own unique bottle",
+            "rationale": "Shared personalization/bottle-ownership neighborhood. PRE organizes around narrative-driven customization; POST organizes around uniqueness/individuality. Subsumption fails: a unique bottle is not a specific way of being a story-based bottle. Frame shifts, territory persists. Reframed.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6p2z595lt5w4ygs",
+            "code": "Removed",
+            "preEvidence": "framing the brand vision in future/world terms (world where everyone has their own unique scent)",
+            "postEvidence": null,
+            "rationale": "The future/world framing present in PRE (aspirational, world-building tone) is a meta-framing device that does not have a defensible POST successor in the POST concept set. The closest POST concept ('everyone has their own unique scent') is already matched as the successor of 'get any scent replicated' and cannot serve a second event. Recording as Removed rather than manufacturing a pairing.",
+            "confidence": "medium",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The PRE 'relive moments in life with scent' → POST 'relive memories with them' is a near-identity pair; the judgment of Elaborated vs no-event vs Reframed is borderline. Treating it as Elaborated rather than omitting it because the wording does shift slightly ('moments in life' → 'memories') within the same experiential frame, but flagging low confidence. The two Reframed events (scent replication → unique scent; story-based bottle → unique bottle) both share a personalization/individuality territory; the subsumption test fails for both because POST 'unique' is not a subtype of PRE 'replicated' or PRE 'story-based'. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "Quality, accuracy, eco-friendliness, customer focused, making a unique story"
+      },
+      "post": {
+        "answer": "Quality, telling a story, customer centricity"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Reduction",
+        "structuralRationale": "The PRE response contains five descriptors spanning quality, accuracy, environmental responsibility, customer orientation, and narrative uniqueness. The POST response contains only three descriptors (Quality, telling a story, customer centricity). Two distinct value dimensions (accuracy, eco-friendliness) are removed entirely, and 'making a unique story' is condensed to 'telling a story' (the 'unique' modifier is dropped). The response has meaningfully contracted in scope across multiple dimensions, not just shortened stylistically.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Quality",
+            "accuracy",
+            "eco-friendliness",
+            "customer focused",
+            "making a unique story"
+          ],
+          "postConcepts": [
+            "Quality",
+            "telling a story",
+            "customer centricity"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Quality",
+              "post": "Quality",
+              "continuity": "identical descriptor",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Quality",
+              "post": "telling a story",
+              "continuity": "both about brand/product quality, but different domains",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Quality",
+              "post": "customer centricity",
+              "continuity": "quality vs audience-orientation",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "accuracy",
+              "post": "Quality",
+              "continuity": "accuracy and quality are related but distinct values (precision vs standard)",
+              "scope": "overlapping but different",
+              "frame": "different organizing frames",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "accuracy",
+              "post": "telling a story",
+              "continuity": "different conceptual domains",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "accuracy",
+              "post": "customer centricity",
+              "continuity": "different conceptual domains",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "eco-friendliness",
+              "post": "Quality",
+              "continuity": "environmental value vs product quality",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "eco-friendliness",
+              "post": "telling a story",
+              "continuity": "different conceptual domains",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "eco-friendliness",
+              "post": "customer centricity",
+              "continuity": "different conceptual domains",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "customer focused",
+              "post": "Quality",
+              "continuity": "audience-orientation vs product quality",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "customer focused",
+              "post": "telling a story",
+              "continuity": "different conceptual domains",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "customer focused",
+              "post": "customer centricity",
+              "continuity": "essentially same concept, just different phrasing",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "making a unique story",
+              "post": "Quality",
+              "continuity": "narrative vs product quality",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "making a unique story",
+              "post": "telling a story",
+              "continuity": "both about crafting a narrative; POST is a simplification/specific phrase",
+              "scope": "narrowing",
+              "frame": "story-crafting persists",
+              "stretch": "strong",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "making a unique story",
+              "post": "customer centricity",
+              "continuity": "different conceptual domains",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Quality",
+              "post": "telling a story",
+              "reason": "different conceptual domains (product standard vs narrative); neighborhood too abstract"
+            },
+            {
+              "pre": "Quality",
+              "post": "customer centricity",
+              "reason": "product quality vs audience-orientation; different domains, implausible"
+            },
+            {
+              "pre": "accuracy",
+              "post": "Quality",
+              "reason": "related but distinct values (precision vs standard); subsumption fails, territory not shared"
+            },
+            {
+              "pre": "accuracy",
+              "post": "telling a story",
+              "reason": "different domains"
+            },
+            {
+              "pre": "accuracy",
+              "post": "customer centricity",
+              "reason": "different domains"
+            },
+            {
+              "pre": "eco-friendliness",
+              "post": "Quality",
+              "reason": "environmental sustainability vs product quality; different domains"
+            },
+            {
+              "pre": "eco-friendliness",
+              "post": "telling a story",
+              "reason": "different domains"
+            },
+            {
+              "pre": "eco-friendliness",
+              "post": "customer centricity",
+              "reason": "different domains"
+            },
+            {
+              "pre": "customer focused",
+              "post": "Quality",
+              "reason": "audience-orientation vs product quality; different domains"
+            },
+            {
+              "pre": "customer focused",
+              "post": "telling a story",
+              "reason": "different domains"
+            },
+            {
+              "pre": "making a unique story",
+              "post": "Quality",
+              "reason": "narrative vs product quality; different domains"
+            },
+            {
+              "pre": "making a unique story",
+              "post": "customer centricity",
+              "reason": "narrative vs audience-orientation; different domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Quality",
+              "post": "Quality",
+              "basis": "identical descriptor retained"
+            },
+            {
+              "pre": "customer focused",
+              "post": "customer centricity",
+              "basis": "same audience-orientation territory; stylistic shift from adjectival phrase to established compound noun; Reframed (boundary_case_narrow_vs_reframe)"
+            },
+            {
+              "pre": "making a unique story",
+              "post": "telling a story",
+              "basis": "same organizing frame (story-crafting as value); 'unique' modifier dropped; Elaborated"
+            }
+          ],
+          "unmatchedPre": [
+            "accuracy",
+            "eco-friendliness"
+          ],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "accuracy",
+              "direction": "removed",
+              "nearestCounterpart": "Quality",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "accuracy (precision/correctness) and Quality (standard/excellence) are adjacent values but occupy different semantic roles. Subsumption test fails: 'Quality is a specific way of being accuracy' is FALSE. They are sibling values, not a subtype relation. No elaboration or expansion defensible. Full-response search performed; no POST concept continues the accuracy semantic role. Kept as Removed."
+            },
+            {
+              "concept": "eco-friendliness",
+              "direction": "removed",
+              "nearestCounterpart": "Quality",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "eco-friendliness (environmental sustainability) and Quality (product standard) are in different conceptual domains. Subsumption fails. Reframe fails (no shared territory at a specific level). No elaboration/expansion defensible. Full-response search performed; no POST concept continues the environmental semantic role. Kept as Removed."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Quality",
+              "post": "Quality",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical descriptor retained; no event code needed."
+            },
+            {
+              "type": "confirm",
+              "pre": "customer focused",
+              "post": "customer centricity",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass 1 is correct. Shared audience-orientation neighborhood. Subsumption test: 'Customer centricity is a specific way of being customer focused' is TRUE-ish but the dominant shift is stylistic (adjectival phrase → established compound noun), not a true scope or population restriction. PRE is substantive ('customer focused'), not a generic filler, so subsumption is not a clean win. Reframed is the right verdict; Narrowed was the runner-up. boundary_case_narrow_vs_reframe stands."
+            },
+            {
+              "type": "recode",
+              "pre": "making a unique story",
+              "post": "telling a story",
+              "fromCode": "Reframed",
+              "toCode": "Elaborated",
+              "reason": "Both sit in the same organizing frame (story-crafting as a value). The change is dropping the 'unique' modifier from the same underlying category (story), not a frame shift. PRE-frame and POST-frame are the same (narrative as value). Reframed requires the organizing frame to change; here only modifiers are adjusted. Per the Elaborated rule: same underlying noun/category with dropped/added descriptors → Elaborated. Subsumption: 'Telling a story is a specific way of making a unique story' is FALSE (not a subtype). Narrowed also fails. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "accuracy: nearest POST counterpart would be Quality, but accuracy (precision) and Quality (excellence/standard) are sibling values in different semantic roles; subsumption fails; no elaboration/expansion defensible. Kept as Removed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "eco-friendliness: no POST concept continues the environmental semantic role. Sustainability and product quality are different conceptual domains. Kept as Removed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6p0h1j5has9wevp",
+            "code": "Reframed",
+            "preEvidence": "customer focused",
+            "postEvidence": "customer centricity",
+            "rationale": "Shared audience-orientation neighborhood. Shift is from informal adjectival phrase ('customer focused') to established brand-strategy noun ('customer centricity'). PRE is substantive, so subsumption is not a clean win; the change is a label/frame polish within the same territory. PRE-frame: behavioral adjective; POST-frame: established strategy noun.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6p0h1k4dbhqjhgk",
+            "code": "Elaborated",
+            "preEvidence": "making a unique story",
+            "postEvidence": "telling a story",
+            "rationale": "Same organizing frame (narrative-crafting as core value). POST keeps the same underlying category (story) and drops the 'unique' modifier. Per the Elaborated rule, when POST simply adjusts modifiers of the same underlying noun/category, the code is Elaborated, not Reframed. Subsumption fails (telling-a-story is not a subtype of making-a-unique-story), so Narrowed is also rejected.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6p0h1n841w9c0pbs",
+            "code": "Removed",
+            "preEvidence": "accuracy",
+            "postEvidence": null,
+            "rationale": "No POST concept continues the accuracy/precision semantic role. Nearest counterpart Quality is a sibling value (standard/excellence), not a subtype; subsumption fails; no elaboration or expansion defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6p0h1ww7vyjrbjq",
+            "code": "Removed",
+            "preEvidence": "eco-friendliness",
+            "postEvidence": null,
+            "rationale": "Environmental sustainability does not appear in POST. No defensible transformation to any POST concept; different conceptual domain from the remaining POST values.",
+            "confidence": "high",
+            "alternativeConsidered": "New"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "vague_to_specific_lineage",
+            "reframe_downgraded",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The customer-focused → customer centricity pair could plausibly be coded Narrowed (label refinement, 'centricity' is a specific way of being 'focused') or Reframed (frame shift from adjectival phrase to strategy noun). Treated as Reframed per the frame-shift reading; Narrowed recorded as alternative. Similarly 'making a unique story' → 'telling a story' involves both a modifier drop (potentially Narrowed) and a frame shift to a simpler narrative emphasis; treated as Reframed. Two descriptor-level removals (accuracy, eco-friendliness) are clear because no POST concept occupies their conceptual domain. Critic applied 5 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 10
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "This will be focused towards a young adult and older audience, from 18+, but it will also cater to kids in a price friendly way. It will cater to both men and women who are more interested in replicating scents from when they were younger, or scents that have been discontinued, or a scent that they would like to modify. Location wise I am thinking about all around the world, with an emphasis in California, New York, Italy, France, China, and the Middle East, as they seem to like perfumes a lot. Income wise, I want my brand to cater to all brands and have a range of prices depending on how unique you want your perfume. The main focus would be to wealthier people who are willing to spend a lot on a good quality perfume."
+      },
+      "post": {
+        "answer": "Young adults (18-25): those looking for affordable, unique and nostalgic scents, lower income, willing to try new things and be different from the rest.\nMature adults: those looking to relive the past through scent, luxurious scents, and personalization, higher income.\nAcross the globe: those looking to experience another culture through scent, higher income."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST restructures the PRE content into three clearly segmented audience tiers with explicit age, income, and psychographic detail. New psychographic descriptors (nostalgic, affordable, unique, willing to be different, cultural experience) are added, and the geographic list is condensed. The response is somewhat more structured and detailed but does not multiply dimensions; the original audience scope is largely preserved.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "young adult and older audience (18+)",
+            "kids (price-friendly)",
+            "men and women",
+            "interested in replicating/discontinued/modifying scents",
+            "global with emphasis on California, New York, Italy, France, China, Middle East",
+            "price range catering to all",
+            "main focus on wealthier people willing to spend a lot"
+          ],
+          "postConcepts": [
+            "Young adults (18-25)",
+            "looking for affordable, unique and nostalgic scents",
+            "lower income",
+            "willing to try new things and be different",
+            "Mature adults",
+            "looking to relive the past through scent, luxurious scents, and personalization",
+            "higher income",
+            "Across the globe: those looking to experience another culture through scent, higher income"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "young adult and older audience (18+)",
+              "post": "Young adults (18-25)",
+              "continuity": "both specify a young-adult age band",
+              "scope": "PRE covers 18+ with no upper bound; POST restricts to 18-25",
+              "frame": "demographic age targeting",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "young adult and older audience (18+)",
+              "post": "Mature adults",
+              "continuity": "PRE 'older audience' maps to POST mature adults",
+              "scope": "mature adults are a narrower subset than 'older audience'",
+              "frame": "older demographic",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "kids (price-friendly)",
+              "post": "Young adults (18-25)",
+              "continuity": "both are younger demographics but distinct segments",
+              "scope": "kids ≠ young adults",
+              "frame": "different demographic bands",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "men and women",
+              "post": "Young adults (18-25)",
+              "continuity": "gender unspecified in POST",
+              "scope": "gender dropped",
+              "frame": "gender orientation",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "interested in replicating/discontinued/modifying scents",
+              "post": "looking for affordable, unique and nostalgic scents",
+              "continuity": "nostalgia/replication of past scents is shared",
+              "scope": "PRE includes modification/discontinued; POST specifies unique + nostalgic",
+              "frame": "scent preference",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "interested in replicating/discontinued/modifying scents",
+              "post": "looking to relive the past through scent, luxurious scents, and personalization",
+              "continuity": "replicating past scents maps directly to reliving the past through scent",
+              "scope": "PRE broader (replicating, discontinued, modifying); POST specifies nostalgic + luxurious + personalization",
+              "frame": "scent motivation",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "global with emphasis on California, New York, Italy, France, China, Middle East",
+              "post": "Across the globe: those looking to experience another culture through scent",
+              "continuity": "both reference global reach",
+              "scope": "PRE lists specific regions; POST is general global with cultural-experience frame",
+              "frame": "geographic scope",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "price range catering to all",
+              "post": "lower income / higher income segmentation",
+              "continuity": "both address income/pricing",
+              "scope": "PRE ranges across all; POST splits into distinct income tiers",
+              "frame": "income targeting",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "main focus on wealthier people willing to spend a lot",
+              "post": "higher income",
+              "continuity": "both target wealthier segment",
+              "scope": "PRE is the 'main focus'; POST is one tier among others",
+              "frame": "premium customer focus",
+              "stretch": "low",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "kids (price-friendly)",
+              "post": "Young adults (18-25)",
+              "reason": "kids and young adults are distinct demographic segments; no defensible transformation across different conceptual domains"
+            },
+            {
+              "pre": "men and women",
+              "post": "Young adults (18-25)",
+              "reason": "gender specification dropped; different conceptual axes (gender vs age), no shared neighborhood relevant to lineage"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "young adult and older audience (18+)",
+              "post": "Young adults (18-25)",
+              "basis": "POST restricts the broad 18+ young-adult band to 18-25; Narrowed by population restriction"
+            },
+            {
+              "pre": "young adult and older audience (18+)",
+              "post": "Mature adults",
+              "basis": "POST isolates the 'older audience' portion as a specific Mature adults segment; Narrowed by subset extraction"
+            },
+            {
+              "pre": "interested in replicating/discontinued/modifying scents",
+              "post": "looking to relive the past through scent, luxurious scents, and personalization",
+              "basis": "Frame shifts from behavioral scent actions to experiential scent motivations; same territory, different organizing frame"
+            },
+            {
+              "pre": "global with emphasis on California, New York, Italy, France, China, Middle East",
+              "post": "Across the globe: those looking to experience another culture through scent",
+              "basis": "POST narrows the geographic scope to the culturally-motivated subset; Narrowed"
+            },
+            {
+              "pre": "main focus on wealthier people willing to spend a lot",
+              "post": "higher income",
+              "basis": "PRE's substantive spending-behavior frame is reframed as an income-bracket frame; sibling concepts on related economic axes"
+            },
+            {
+              "pre": "price range catering to all",
+              "post": "lower income",
+              "basis": "POST 'lower income' is a specific income-tier realization of the all-income span; Narrowed"
+            },
+            {
+              "pre": "kids (price-friendly)",
+              "post": "looking for affordable, unique and nostalgic scents",
+              "basis": "Affordability/price-friendly thread elaborated with psychographic detail (unique, nostalgic); same economic-access frame"
+            }
+          ],
+          "unmatchedPre": [
+            "men and women"
+          ],
+          "unmatchedPost": [
+            "willing to try new things and be different"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "kids (price-friendly)",
+              "direction": "removed",
+              "nearestCounterpart": "Young adults (18-25)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "kids and young adults are distinct demographic bands; no subsumption (young adults are not a specific way of being kids), no shared frame, no elaboration, no expansion. Different conceptual domains for age segmentation."
+            },
+            {
+              "concept": "men and women",
+              "direction": "removed",
+              "nearestCounterpart": "Mature adults",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "gender dimension is not addressed by any POST concept; no lineage across gender vs age/income/scent-preference axes."
+            },
+            {
+              "concept": "price range catering to all",
+              "direction": "removed",
+              "nearestCounterpart": "lower income",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "POST's lower-income tier is a specific realization of the PRE 'catering to all' income span; subsumption holds — lower income is a specific income segment of the all-income range. Coded as Narrowed in semantic events."
+            },
+            {
+              "concept": "looking for affordable, unique and nostalgic scents",
+              "direction": "new",
+              "nearestCounterpart": "interested in replicating/discontinued/modifying scents",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "nostalgic/replicating scents appears in both PRE and POST; POST specifies affordable + unique framing. The replicating-scent lineage is captured in the matched pair with mature adults. The 'affordable + unique' aspects are refinements of the price-friendly kid segment but are absorbed into the young-adult segment. Captured as Elaborated under the young-adult match."
+            },
+            {
+              "concept": "willing to try new things and be different",
+              "direction": "new",
+              "nearestCounterpart": "interested in replicating/discontinued/modifying scents",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "willingness to modify/discontinue preferences in PRE maps to trying new things; coded as Elaborated under the replicating-scents pair."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "young adult and older audience (18+)",
+              "post": "Young adults (18-25)",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Young adults 18-25 is a proper subset of the 18+ audience; subsumption holds."
+            },
+            {
+              "type": "confirm",
+              "pre": "young adult and older audience (18+)",
+              "post": "Mature adults",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Mature adults are a subset of the 'older audience' portion of the 18+ range; Narrowed correct."
+            },
+            {
+              "type": "recode",
+              "pre": "interested in replicating/discontinued/modifying scents",
+              "post": "looking to relive the past through scent, luxurious scents, and personalization",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Confirming Reframed: frames genuinely shift from behavioral actions (replicating/modifying) to experiential motivations (reliving past, luxury, personalization). Same territory, different organizing frame. Elaborated would require POST to keep the same functional frame and only add detail."
+            },
+            {
+              "type": "confirm",
+              "pre": "global with emphasis on California, New York, Italy, France, China, Middle East",
+              "post": "Across the globe: those looking to experience another culture through scent",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "POST narrows the global audience to a culturally-motivated subset; Narrowed defensible."
+            },
+            {
+              "type": "recode",
+              "pre": "main focus on wealthier people willing to spend a lot",
+              "post": "higher income",
+              "fromCode": "Narrowed",
+              "toCode": "Reframed",
+              "reason": "Test: 'higher income is a specific way of being wealthier people willing to spend a lot' — borderline. PRE is already substantive (specific wealthy-spender segment); subsumption is not cleanly true. POST reframes from a spending-behavior frame to an income-bracket frame. Sibling concepts on related economic axes. Reframed is more defensible."
+            },
+            {
+              "type": "restore_lineage",
+              "pre": "price range catering to all",
+              "post": "lower income",
+              "fromCode": "New+Removed",
+              "toCode": "Narrowed",
+              "reason": "Pass-1 new_removed_recheck already identified that 'lower income' is a specific income-tier realization of PRE 'catering to all'; subsumption holds. Restore as Narrowed pair. Removes the 'lower income' from New status."
+            },
+            {
+              "type": "reject_pairing",
+              "pre": "kids (price-friendly)",
+              "post": "looking for affordable, unique and nostalgic scents",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Confirming Elaborated: the core economic-access/affordability thread runs from kids (price-friendly) to affordable-scent seekers. PRE is a population segment (kids); POST is a preference descriptor (affordable + unique + nostalgic scents) for a different population. The affordability dimension is elaborated across populations, and the pass-1 rationale (same economic-access frame, added psychographic detail) is defensible. Keep as Elaborated but flag low confidence."
+            },
+            {
+              "type": "confirm",
+              "pre": "men and women",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Gender axis is dropped entirely from POST with no defensible counterpart; different conceptual domain from age/income/scent axes."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "willing to try new things and be different",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "This willingness-to-try-new-things concept has no defensible PRE antecedent. The mapping to 'modifying scents' in pass-1's recheck was speculative — modifying a scent you already own is not the same as trying new things. No Narrowed/Reframed/Elaborated/Expanded defensible. Genuinely new."
+            },
+            {
+              "type": "recode",
+              "pre": "main focus on wealthier people willing to spend a lot",
+              "post": "higher income",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Correction applied above; removing 'price range catering to all' from the wealth-pairing consideration. The wealthier-spender PRE pairs only with 'higher income' POST."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6qhirjnb7po6c74d",
+            "code": "Narrowed",
+            "preEvidence": "young adult and older audience, from 18+",
+            "postEvidence": "Young adults (18-25)",
+            "rationale": "POST restricts the broad '18+' young-adult band to a specific 18-25 range; Young adults 18-25 is a proper subset of the 18+ audience.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6qhir0o5zmjs14xj",
+            "code": "Narrowed",
+            "preEvidence": "from 18+ (older audience portion)",
+            "postEvidence": "Mature adults",
+            "rationale": "Mature adults are a proper subset of the 'older audience' portion of the 18+ range; scope restriction holds.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6qhirlwgt52ezot",
+            "code": "Reframed",
+            "preEvidence": "interested in replicating scents from when they were younger, or scents that have been discontinued, or a scent that they would like to modify",
+            "postEvidence": "looking to relive the past through scent, luxurious scents, and personalization",
+            "rationale": "Frame shifts from behavioral/functional scent actions (replicating, modifying) to experiential/emotional scent motivations (reliving past, luxury, personalization). Same territory, different organizing frame. Pre-frame: behavioral scent actions; post-frame: experiential scent motivations.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6qhirt9etnwhq8qd",
+            "code": "Narrowed",
+            "preEvidence": "Location wise I am thinking about all around the world, with an emphasis in California, New York, Italy, France, China, and the Middle East",
+            "postEvidence": "Across the globe: those looking to experience another culture through scent",
+            "rationale": "POST narrows the global audience to the culturally-motivated subset; cultural-experience buyers are a proper subset of the global-with-regional-emphasis audience.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6qhirc0fliv4srrp",
+            "code": "Reframed",
+            "preEvidence": "cater to all [incomes] and have a range of prices ... main focus would be to wealthier people",
+            "postEvidence": "higher income",
+            "rationale": "PRE 'wealthier people willing to spend a lot' is a substantive spending-behavior frame; POST 'higher income' is an income-bracket frame. Sibling concepts on related economic axes — no subsumption. Frame shifts from spending behavior to income classification.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6qhir0wy90xbbu0o9",
+            "code": "Narrowed",
+            "preEvidence": "cater to all [incomes] and have a range of prices",
+            "postEvidence": "lower income",
+            "rationale": "Lower income is a specific income-tier realization of the all-income span in PRE; subsumption holds via population/income narrowing.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6qhir8d86m1nu8b6",
+            "code": "Elaborated",
+            "preEvidence": "cater to kids in a price friendly way",
+            "postEvidence": "those looking for affordable, unique and nostalgic scents",
+            "rationale": "The price-friendly/affordability core is retained; POST adds psychographic detail (unique, nostalgic scents). Same economic-access frame; only detail added, not a frame shift. Boundary case given different populations (kids vs general affordable-seekers).",
+            "confidence": "low",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6qhirvn68c0amhl8",
+            "code": "Removed",
+            "preEvidence": "It will cater to both men and women",
+            "postEvidence": null,
+            "rationale": "Gender targeting is entirely absent from POST. Nearest counterparts (age tiers, income tiers, scent preferences) operate on different axes (gender vs age/income/scent). Narrowed fails (women/men is not a specific way of being any POST concept). Reframed fails (different semantic territory). Elaborated and Expanded fail. Different conceptual domain.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed, Reframed, Elaborated, Expanded all tested against nearest POST counterparts"
+          },
+          {
+            "instanceId": "mti6qhirv00ai80f2e",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "willing to try new things and be different",
+            "rationale": "Willingness to try new things has no defensible PRE antecedent. The mapping to 'modifying scents' fails — modifying a scent you already own is not equivalent to trying new things. No Narrowed/Reframed/Elaborated/Expanded holds against any PRE concept.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated under 'modifying scents' — rejected as semantic mismatch"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_narrow",
+            "events_possibly_collapsed",
+            "boundary_case_narrow_vs_reframe",
+            "lineage_restored_by_critic",
+            "neighborhood_protected",
+            "forced_pairing_rejected",
+            "alignment_null_by_choice",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The replicating-scent lineage is tracked to the Mature Adults tier (Reframed), which captures the core 'reliving the past' function. The 'affordable, unique, nostalgic' scent descriptors on the Young Adults tier are coded as Elaborated of the kids/price-friendly segment rather than as a separate Reframed of the replicating-scents concept, to avoid double-counting the same PRE antecedent. The Narrowed-vs-Reframed distinction is borderline for the geographic and income pairs; Narrowed is chosen because subsumption holds (restricted sub-population in each case). Critic applied 10 correction(s). Lineage restored for 1 pair(s): price range catering to all → lower income."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "Unique perfume enthusiasts, or perfume collectors looking for something different from the rest of the market."
+      },
+      "post": {
+        "answer": "Perfume enthusiasts, nostalgia seekers"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Reduction",
+        "structuralRationale": "POST is shorter and less descriptive than PRE. PRE contains two elaborated audience descriptions (with qualifying clauses like 'looking for something different from the rest of the market'); POST contains two short labels. One PRE clause-level elaboration is lost, though a new niche (nostalgia seekers) is added. Net effect is a structural reduction — the response is more compressed and less explanatory, even though a new concept appears.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Unique perfume enthusiasts",
+            "Perfume collectors seeking something different from the rest of the market"
+          ],
+          "postConcepts": [
+            "Perfume enthusiasts",
+            "Nostalgia seekers"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Unique perfume enthusiasts",
+              "post": "Perfume enthusiasts",
+              "continuity": "Both refer to perfume enthusiasts as a niche audience segment",
+              "scope": "PRE restricts to 'unique' enthusiasts (subset); POST broadens to all perfume enthusiasts",
+              "frame": "Differentiation-by-uniqueness vs general enthusiast identity",
+              "stretch": "Low — direct conceptual lineage",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Unique perfume enthusiasts",
+              "post": "Nostalgia seekers",
+              "continuity": "Both are audience-niche descriptors but operate in different conceptual territory",
+              "scope": "Different categories of person",
+              "frame": "Distinctiveness-driven vs affect/memory-driven audience",
+              "stretch": "High — no shared anchor in audience definition",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Perfume collectors seeking something different from the rest of the market",
+              "post": "Perfume enthusiasts",
+              "continuity": "Perfume enthusiasts is a superordinate category that subsumes collectors",
+              "scope": "POST is broader — enthusiasts ⊃ collectors",
+              "frame": "Difference-from-market vs general enthusiast orientation",
+              "stretch": "Moderate — categorical broadening",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Perfume collectors seeking something different from the rest of the market",
+              "post": "Nostalgia seekers",
+              "continuity": "Both describe a niche audience but different conceptual territory",
+              "scope": "Different psychographic dimensions",
+              "frame": "Market-differentiation seeking vs affect/nostalgia-driven",
+              "stretch": "High — no shared anchor",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Unique perfume enthusiasts",
+              "post": "Nostalgia seekers",
+              "reason": "Different conceptual domains (distinctiveness vs affect/nostalgia); no shared anchor to defend lineage"
+            },
+            {
+              "pre": "Perfume collectors seeking something different from the rest of the market",
+              "post": "Nostalgia seekers",
+              "reason": "Different conceptual domains (market-differentiation seeking vs nostalgia-driven motivation); no defensible lineage"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Unique perfume enthusiasts",
+              "post": "Perfume enthusiasts",
+              "basis": "Audience-niche lineage with scope broadening. PRE restricts to 'unique' subset; POST broadens to all enthusiasts."
+            },
+            {
+              "pre": "Perfume collectors seeking something different from the rest of the market",
+              "post": "Perfume enthusiasts",
+              "basis": "Audience-niche lineage with categorical broadening. Collectors ⊂ enthusiasts; POST drops the market-differentiation qualifier and broadens scope."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Nostalgia seekers"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Nostalgia seekers",
+              "direction": "new",
+              "nearestCounterpart": "Perfume collectors seeking something different from the rest of the market",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is the 'collectors seeking something different' framing. Tested: Narrowed (nostalgia seekers are NOT a subset of 'seeking something different' — they are motivated by affect/memory, not market differentiation) — fails. Reframed (no shared organizing frame: market-differentiation vs nostalgia affect) — fails. Elaborated (POST does not retain PRE) — fails. Expanded (no identifiable seed for nostalgia in PRE) — fails. Concept genuinely occupies different conceptual territory."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "Unique perfume enthusiasts",
+              "post": "Perfume enthusiasts",
+              "fromCode": "Expanded",
+              "toCode": "Narrowed",
+              "reason": "Subsumption test: 'Perfume enthusiasts is a specific way of being Unique perfume enthusiasts' is FALSE — the direction is reversed. PRE is the restricted set (unique enthusiasts), POST is the superordinate. POST is broader than PRE, so this is Expanded. However, pass-1's direction claim is internally inverted. Both PRE and POST are audience-niche descriptors; PRE adds 'unique' qualifier. POST removes the uniqueness restriction and broadens to all enthusiasts. This is genuine scope-expansion, not narrowing. But the second pair 'Perfume collectors seeking something different from the rest of the market' -> 'Perfume enthusiasts' is also Expanded (collectors ⊂ enthusiasts). Both confirm as Expanded. No recode."
+            },
+            {
+              "type": "confirm",
+              "pre": "Unique perfume enthusiasts",
+              "post": "Perfume enthusiasts",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Confirmed Expanded. PRE 'Unique perfume enthusiasts' is a restricted subset; POST 'Perfume enthusiasts' is the broader superordinate. POST broadens an identifiable PRE seed by removing the 'unique' restriction. Alternative Reframed considered: rejected because the dominant change is scope broadening, not frame shifting."
+            },
+            {
+              "type": "confirm",
+              "pre": "Perfume collectors seeking something different from the rest of the market",
+              "post": "Perfume enthusiasts",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Confirmed Expanded. Collectors are a subset of enthusiasts; POST broadens to the full enthusiast category. The market-differentiation qualifier is dropped. Alternative Reframed considered: there is some frame shift (market-differentiation vs general enthusiast orientation), but the dominant change is categorical scope broadening, which is the stronger characterization."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Nostalgia seekers",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Confirmed New. No PRE antecedent for nostalgia-seeking. Tested against nearest counterpart 'Perfume collectors seeking something different from the rest of the market': Narrowed fails (nostalgia seekers ≠ subset of market-differentiation seekers), Reframed fails (no shared organizing frame), Elaborated fails (no PRE retention), Expanded fails (no seed). Different conceptual territory (affect/memory motivation vs market differentiation)."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "No Removed events in provisional pass-1; all PRE concepts are matched. Nothing to confirm."
+            },
+            {
+              "type": "confirm",
+              "pre": "Unique perfume enthusiasts",
+              "post": "Nostalgia seekers",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Confirmed rejection. Distinctiveness-driven vs affect/memory-driven audience; different conceptual domains; no shared anchor."
+            },
+            {
+              "type": "confirm",
+              "pre": "Perfume collectors seeking something different from the rest of the market",
+              "post": "Nostalgia seekers",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Confirmed rejection. Market-differentiation seeking vs nostalgia-driven motivation; different psychographic dimensions; no defensible lineage."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6pltsdgk0jl7rd1",
+            "code": "Expanded",
+            "preEvidence": "Unique perfume enthusiasts",
+            "postEvidence": "Perfume enthusiasts",
+            "rationale": "PRE 'Unique perfume enthusiasts' is a restricted subset of the POST category 'Perfume enthusiasts'. POST broadens an identifiable PRE seed by removing the 'unique' restriction. Scope-expansion with lineage preserved.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (uniqueness-restricted vs general enthusiast framing)"
+          },
+          {
+            "instanceId": "mti6pltszs230f6ym6",
+            "code": "Expanded",
+            "preEvidence": "Perfume collectors seeking something different from the rest of the market",
+            "postEvidence": "Perfume enthusiasts",
+            "rationale": "Collectors are a subset of enthusiasts; POST broadens the audience from the specific collector segment to the wider enthusiast category. The market-differentiation qualifier is dropped. Scope broadening dominates over any frame shift.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6pltsz88y3tqga5",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Nostalgia seekers",
+            "rationale": "No antecedent for nostalgia-seeking in PRE. Nearest-counterpart tested against 'Perfume collectors seeking something different from the rest of the market': Narrowed fails (nostalgia seekers are not a subset of market-differentiation seekers), Reframed fails (no shared organizing frame — market differentiation vs affect/memory motivation), Elaborated fails (no PRE retention), Expanded fails (no seed). Different conceptual domain.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed from collectors-seeking-different"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_expand_vs_new",
+            "vague_to_specific_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Both PRE niche descriptions map to the single POST 'Perfume enthusiasts', creating two Expanded events sharing one POST successor. The second Expanded event ('collectors → enthusiasts') is also somewhat characterized by the loss of the 'different from the rest of the market' qualifier — that qualifier could be read as a separate Removed concept, but it is bound within the same atomic descriptor unit and treating it as a standalone Removed would double-count. Flagging boundary_case_expand_vs_new because 'Nostalgia seekers' could be loosely read as an affective variant of 'something different from the rest of the market' (i.e., old/vintage = different), but the conceptual frame is genuinely distinct (nostalgia-driven affect vs market-positioning differentiation) so New is defensible. Critic applied 7 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "Instagram, TikTok, Amazon. Mainly sold on the brand's website if they want a scent consultation."
+      },
+      "post": {
+        "answer": "TikTok, Instagram, brand website, Amazon"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Reduction",
+        "structuralRationale": "PRE includes an explanatory clause ('Mainly sold on the brand's website if they want a scent consultation') describing the channel and its use case; POST strips this clause and lists only platform names. One explanatory clause is lost.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Instagram",
+            "TikTok",
+            "Amazon",
+            "brand website with scent consultation"
+          ],
+          "postConcepts": [
+            "TikTok",
+            "Instagram",
+            "brand website",
+            "Amazon"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Instagram",
+              "post": "TikTok",
+              "continuity": "platform identity, different brand",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "strong cross-position match",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Instagram",
+              "continuity": "identical platform",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "trivial",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "brand website",
+              "continuity": "different platform types",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Amazon",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "TikTok",
+              "post": "TikTok",
+              "continuity": "identical platform",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "trivial",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "TikTok",
+              "post": "Instagram",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "TikTok",
+              "post": "brand website",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "TikTok",
+              "post": "Amazon",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Amazon",
+              "post": "Amazon",
+              "continuity": "identical platform",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "trivial",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Amazon",
+              "post": "TikTok",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Amazon",
+              "post": "Instagram",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Amazon",
+              "post": "brand website",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "brand website with scent consultation",
+              "post": "brand website",
+              "continuity": "same platform, narrower qualifier dropped",
+              "scope": "POST is narrower",
+              "frame": "same",
+              "stretch": "subsumption plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "brand website with scent consultation",
+              "post": "TikTok",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "brand website with scent consultation",
+              "post": "Instagram",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "brand website with scent consultation",
+              "post": "Amazon",
+              "continuity": "different platforms",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Instagram",
+              "post": "TikTok",
+              "reason": "Different platforms; index alone does not license a match"
+            },
+            {
+              "pre": "TikTok",
+              "post": "Instagram",
+              "reason": "Different platforms; index alone does not license a match"
+            },
+            {
+              "pre": "Amazon",
+              "post": "TikTok",
+              "reason": "Different platforms"
+            },
+            {
+              "pre": "Amazon",
+              "post": "Instagram",
+              "reason": "Different platforms"
+            },
+            {
+              "pre": "Amazon",
+              "post": "brand website",
+              "reason": "Different platforms"
+            },
+            {
+              "pre": "Instagram",
+              "post": "brand website",
+              "reason": "Different platforms"
+            },
+            {
+              "pre": "TikTok",
+              "post": "brand website",
+              "reason": "Different platforms"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Instagram",
+              "post": "Instagram",
+              "basis": "identical platform reference"
+            },
+            {
+              "pre": "TikTok",
+              "post": "TikTok",
+              "basis": "identical platform reference"
+            },
+            {
+              "pre": "Amazon",
+              "post": "Amazon",
+              "basis": "identical platform reference"
+            },
+            {
+              "pre": "brand website with scent consultation",
+              "post": "brand website",
+              "basis": "same platform; POST drops the qualifying scent-consultation clause"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [
+            "Reordering of the same platform set (Instagram and TikTok swap positions; Amazon moves from third to fourth) is purely positional and not coded as a semantic event."
+          ],
+          "newRemovedRecheck": [
+            {
+              "concept": "brand website with scent consultation",
+              "direction": "removed",
+              "nearestCounterpart": "brand website",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "POST retains the brand-website platform and drops the scent-consultation qualifier; this is a Narrowed reduction in scope of the qualifier, not a removal of the platform concept"
+            },
+            {
+              "concept": "Instagram",
+              "direction": "removed",
+              "nearestCounterpart": "Instagram",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "POST explicitly lists Instagram; matched on identity, no event"
+            },
+            {
+              "concept": "TikTok",
+              "direction": "removed",
+              "nearestCounterpart": "TikTok",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "POST explicitly lists TikTok; matched on identity, no event"
+            },
+            {
+              "concept": "Amazon",
+              "direction": "removed",
+              "nearestCounterpart": "Amazon",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "POST explicitly lists Amazon; matched on identity, no event"
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "brand website with scent consultation",
+              "post": "brand website",
+              "fromCode": "Narrowed",
+              "toCode": "Elaborated",
+              "reason": "POST retains the same platform concept and only drops a qualifying descriptor. Subsumption test fails: 'brand website' is not a specific way of being 'brand website with scent consultation' — it is the same concept with a modifier removed. However, since POST is LESS specific than PRE (a qualifier is dropped), the relationship is better described as Removed + New, with the New being 'brand website' as a simplification. But the platform category is intact, so the change is a scope/detail shift. POST is narrower in qualifiers but not a subsumption. Recoding to Elaborated is wrong because POST removes detail. The correct reading: PRE had extra qualifying detail; POST is the generic platform reference. This is Removed (the qualifier 'with scent consultation' is gone) + New (bare 'brand website'). However, since 'brand website' is plainly the same platform, the cleaner code is Removed for the dropped scent-consultation qualification, with the base platform concept persisting. Best fit: Narrowed is incorrect because subsumption does not hold in the direction implied (POST is less specific). The correct code is that the qualifier was removed while the base concept persists — but standard codes don't capture 'qualifier dropped.' Closest defensible code: Removed + New at the qualifier level, but the platform persists. Confirming Narrowed as pass-1 coded is wrong; recoding to Elaborated is also wrong because detail was removed, not added. Net: the scent-consultation clause is a separate concept that was Removed; 'brand website' is not new but is the surviving base. Pass-1 Narrowed is defensible as a scope restriction on what activities are associated with the platform, so confirm."
+            },
+            {
+              "type": "confirm",
+              "pre": "Instagram",
+              "post": "Instagram",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical platform reference; no event."
+            },
+            {
+              "type": "confirm",
+              "pre": "TikTok",
+              "post": "TikTok",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical platform reference; no event."
+            },
+            {
+              "type": "confirm",
+              "pre": "Amazon",
+              "post": "Amazon",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical platform reference; no event."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6ptqd1vm441zspt5",
+            "code": "Narrowed",
+            "preEvidence": "Mainly sold on the brand's website if they want a scent consultation",
+            "postEvidence": "brand website",
+            "rationale": "The platform concept (brand website) persists; the qualifier 'with scent consultation' is dropped, restricting the stated scope of the platform to a bare reference. This is a scope restriction on what is claimed about the platform — the POST statement is more limited in its qualifier while retaining the base platform.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated (incorrect: detail was removed, not added); Removed + New at qualifier level (the scent-consultation qualifier is genuinely dropped while 'brand website' is the surviving base)"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "order_change_only"
+          ],
+          "coderNotes": "The remaining differences across the four platforms are purely positional (Instagram/TikTok swap; Amazon shifts from third to fourth position). Per ORDER-vs-SEMANTIC, no semantic event is emitted for reordering. The single semantic event captures the dropped scent-consultation qualifier around the brand website. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "25% behind the scenes, 50% idea to product and the story behind one order, 15% product reviews, 5% tutorials for those interested in the science behind a perfume"
+      },
+      "post": {
+        "answer": "25% behind the scenes, 50% idea to product and the story behind one order, 15% product reviews, 5% tutorials for those interested in the science behind a perfume"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "PRE and POST responses are character-for-character identical. No content has been added, removed, or rephrased at any level.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "25% behind the scenes",
+            "50% idea to product and the story behind one order",
+            "15% product reviews",
+            "5% tutorials for those interested in the science behind a perfume"
+          ],
+          "postConcepts": [
+            "25% behind the scenes",
+            "50% idea to product and the story behind one order",
+            "15% product reviews",
+            "5% tutorials for those interested in the science behind a perfume"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "25% behind the scenes",
+              "post": "25% behind the scenes",
+              "continuity": "identical wording",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "50% idea to product and the story behind one order",
+              "post": "50% idea to product and the story behind one order",
+              "continuity": "identical wording",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "15% product reviews",
+              "post": "15% product reviews",
+              "continuity": "identical wording",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "5% tutorials for those interested in the science behind a perfume",
+              "post": "5% tutorials for those interested in the science behind a perfume",
+              "continuity": "identical wording",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "25% behind the scenes",
+              "post": "25% behind the scenes",
+              "basis": "identical text"
+            },
+            {
+              "pre": "50% idea to product and the story behind one order",
+              "post": "50% idea to product and the story behind one order",
+              "basis": "identical text"
+            },
+            {
+              "pre": "15% product reviews",
+              "post": "15% product reviews",
+              "basis": "identical text"
+            },
+            {
+              "pre": "5% tutorials for those interested in the science behind a perfume",
+              "post": "5% tutorials for those interested in the science behind a perfume",
+              "basis": "identical text"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "25% behind the scenes",
+              "post": "25% behind the scenes",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical text between PRE and POST; no transformation event is needed because the student did not change the idea."
+            },
+            {
+              "type": "confirm",
+              "pre": "50% idea to product and the story behind one order",
+              "post": "50% idea to product and the story behind one order",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical text between PRE and POST; no transformation event is needed."
+            },
+            {
+              "type": "confirm",
+              "pre": "15% product reviews",
+              "post": "15% product reviews",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical text between PRE and POST; no transformation event is needed."
+            },
+            {
+              "type": "confirm",
+              "pre": "5% tutorials for those interested in the science behind a perfume",
+              "post": "5% tutorials for those interested in the science behind a perfume",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical text between PRE and POST; no transformation event is needed."
+            }
+          ]
+        },
+        "semanticChanges": [],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "PRE and POST responses are identical verbatim. No semantic events and no structural development. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "Perfumes, perfume dupes, custom perfumes, perfume replication, perfume bottles (both custom and standard), special sized bottles that aren't standard, bottle engraving, scent consultations."
+      },
+      "post": {
+        "answer": "Perfumes, perfume dupes, custom perfumes, perfume replication, perfume bottles (both custom and standard), special sized bottles, bottle engraving, scent consultations."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The post-response preserves every product category from the pre-response. The only textual difference is the removal of the parenthetical qualifier 'that aren't standard' from the 'special sized bottles' listing, which is a stylistic condensation that does not change the propositional content of any product offering. No clauses or product categories were added or removed.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Perfumes",
+            "perfume dupes",
+            "custom perfumes",
+            "perfume replication",
+            "perfume bottles (both custom and standard)",
+            "special sized bottles that aren't standard",
+            "bottle engraving",
+            "scent consultations"
+          ],
+          "postConcepts": [
+            "Perfumes",
+            "perfume dupes",
+            "custom perfumes",
+            "perfume replication",
+            "perfume bottles (both custom and standard)",
+            "special sized bottles",
+            "bottle engraving",
+            "scent consultations"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Perfumes",
+              "post": "Perfumes",
+              "continuity": "identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "perfume dupes",
+              "post": "perfume dupes",
+              "continuity": "identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "custom perfumes",
+              "post": "custom perfumes",
+              "continuity": "identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "perfume replication",
+              "post": "perfume replication",
+              "continuity": "identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "perfume bottles (both custom and standard)",
+              "post": "perfume bottles (both custom and standard)",
+              "continuity": "identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "special sized bottles that aren't standard",
+              "post": "special sized bottles",
+              "continuity": "same product category; parenthetical qualifier removed",
+              "scope": "unchanged",
+              "frame": "unchanged",
+              "stretch": "light stylistic condensation",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "bottle engraving",
+              "post": "bottle engraving",
+              "continuity": "identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "scent consultations",
+              "post": "scent consultations",
+              "continuity": "identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "Perfumes",
+              "post": "Perfumes",
+              "basis": "identical listing"
+            },
+            {
+              "pre": "perfume dupes",
+              "post": "perfume dupes",
+              "basis": "identical listing"
+            },
+            {
+              "pre": "custom perfumes",
+              "post": "custom perfumes",
+              "basis": "identical listing"
+            },
+            {
+              "pre": "perfume replication",
+              "post": "perfume replication",
+              "basis": "identical listing"
+            },
+            {
+              "pre": "perfume bottles (both custom and standard)",
+              "post": "perfume bottles (both custom and standard)",
+              "basis": "identical listing"
+            },
+            {
+              "pre": "special sized bottles that aren't standard",
+              "post": "special sized bottles",
+              "basis": "same category; parenthetical qualifier condensed"
+            },
+            {
+              "pre": "bottle engraving",
+              "post": "bottle engraving",
+              "basis": "identical listing"
+            },
+            {
+              "pre": "scent consultations",
+              "post": "scent consultations",
+              "basis": "identical listing"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Perfumes",
+              "post": "Perfumes",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical listing; no change"
+            },
+            {
+              "type": "confirm",
+              "pre": "perfume dupes",
+              "post": "perfume dupes",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical listing; no change"
+            },
+            {
+              "type": "confirm",
+              "pre": "custom perfumes",
+              "post": "custom perfumes",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical listing; no change"
+            },
+            {
+              "type": "confirm",
+              "pre": "perfume replication",
+              "post": "perfume replication",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical listing; no change"
+            },
+            {
+              "type": "confirm",
+              "pre": "perfume bottles (both custom and standard)",
+              "post": "perfume bottles (both custom and standard)",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical listing; no change"
+            },
+            {
+              "type": "recode",
+              "pre": "special sized bottles that aren't standard",
+              "post": "special sized bottles",
+              "fromCode": null,
+              "toCode": "Elaborated",
+              "reason": "Same underlying category (special sized bottles) intact; PRE adds qualifier 'that aren't standard' while POST drops the parenthetical qualifier. Category preserved, only stylistic detail shifted — fits Elaborated rather than un-coded stylization. No scope change, no frame shift, no subsumption reversal."
+            },
+            {
+              "type": "confirm",
+              "pre": "bottle engraving",
+              "post": "bottle engraving",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical listing; no change"
+            },
+            {
+              "type": "confirm",
+              "pre": "scent consultations",
+              "post": "scent consultations",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical listing; no change"
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6ppzwkneldgtvi0g",
+            "code": "Elaborated",
+            "preEvidence": "special sized bottles that aren't standard",
+            "postEvidence": "special sized bottles",
+            "rationale": "Underlying product category (special sized bottles) is preserved; the qualifier 'that aren't standard' is condensed in the POST version. Same category, stylistic detail trimmed — Elaborated.",
+            "confidence": "medium",
+            "alternativeConsidered": "unchanged/identity (rejected: a small wording shift still warrants a coded event)"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "The two responses are substantively identical. The only difference is the deletion of the explanatory phrase 'that aren't standard' from one listing, which is a stylistic compression rather than a semantic change. No semantic events warranted. Critic applied 8 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 9
+      },
+      "post": {
+        "answer": 10
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 4,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other (replicate grandmother's perfume)": 4
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 4,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 3,
+          "Alignment with Personal Values": 4,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-11",
+      "questionId": "Pre-Survey 2 / Post-Survey 2",
+      "label": "Personal Brand Confidence",
+      "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating a small personal brand on social media at the moment?",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 10
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-12",
+      "questionId": "Pre-Survey 4 / Post-Survey 3",
+      "label": "Independent Brand Creation Confidence",
+      "questionText": "On a scale of 1-10 (pre) / 1-5 (post), how confident are you about creating this brand all by yourself at the moment?",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ],
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "No formal courses or internship, however I have experience from my mother in marketing (she was a marketing major) and I have experience in making my own businesses: my mother has a photography business and I was the second photographer, I also had my own crochet business and social media accounts and made around $5k off of it. I also had a business during covid for making masks and made about $20k in two months. I have experience in creating business cards and websites, but not sourcing materials at the manufacturing level."
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 7
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 10
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Other: I am becoming a frequent user as of this month"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "No"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 10
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "It helped in refining my brand identity. I didn't think about it very deeply and it made me remember things in my life I experienced with perfumes (my grandmother's perfume). It increased my confidence in my brand a lot and helped me visualize what my brand can look like in the future."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "They provided the depth I was looking for and helped me a lot with my brand image."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 10
+      }
+    ]
+  },
+  "studentId": "aliyah",
+  "name": "Aliyah Rivera",
+  "_seedVersion": "2026-09-01-aliyah-v2"
+}

@@ -1,0 +1,84 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "create a space for women aged 18-25",
+      "post": "prioritizes well-being of individuals",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "POST broadens PRE's audience (women 18-25) to all individuals while preserving the care/serving frame. Tier 4 holds; antecedent seed (audience-oriented care) is identifiable. Reframed is a plausible alternative but Expanded is better-supported because the scope broadened while the frame stayed substantially the same."
+    },
+    {
+      "type": "confirm",
+      "pre": "depend on my items",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Product-dependency has no defensible POST successor. Tested against all POST concepts; all occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the ladder defensible."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "create a brand",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE counterpart is 'create a space for women aged 18-25', but the matched pair already claims that unit. The remaining structural verb-overlap ('create') is too thin to sustain a transformation, and audience specificity is entirely dropped. Stays as New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "prioritizes well-being of the planet",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Planetary well-being has no PRE antecedent in any domain. Tested against both PRE units; neither people-care nor product-dependency maps to planetary-care. No tier defensible."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "create a space for women aged 18-25",
+      "post": "prioritizes well-being of individuals",
+      "basis": "Shared neighborhood of audience-oriented care; POST broadens PRE's specific audience to all individuals while retaining the care/serving frame"
+    }
+  ],
+  "unmatched_pre": [
+    "depend on my items"
+  ],
+  "unmatched_post": [
+    "create a brand",
+    "prioritizes well-being of the planet"
+  ],
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "create a space for women aged 18-25",
+      "post_evidence": "prioritizes well-being of individuals",
+      "rationale": "POST broadens PRE's narrow audience (women 18-25) to all individuals while preserving the care/serving frame. Scope expanded; antecedent seed (audience-oriented care) is identifiable. Tier 4 holds.",
+      "alternative_considered": "Reframed (audience-specific frame \u2192 universal-well-being frame)",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "depend on my items",
+      "post_evidence": null,
+      "rationale": "Product-dependency / utility-reliance has no defensible POST successor. All POST concepts occupy different conceptual domains (brand-building, individual well-being, planetary well-being). No tier of the transformation ladder is defensible.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "create a brand",
+      "rationale": "POST introduces a generalized brand-building framing. Nearest PRE counterpart is already matched to individual well-being; remaining overlap is only the verb 'create' with the audience dimension dropped. No subsumption, sibling territory, elaboration, or expansion defensible.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "prioritizes well-being of the planet",
+      "rationale": "POST introduces planetary-care prioritization, which has no antecedent in PRE. Different referent (planet vs people/products); no tier of the ladder defensible.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ]
+}
