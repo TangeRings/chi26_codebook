@@ -41,7 +41,10 @@ export function AgencyCodeSelector({ codes, onChange }: AgencyCodeSelectorProps)
   const handleAddCode = (codeName: string) => {
     const trimmed = codeName.trim();
     if (!trimmed) return;
-    onChange([...codes, { instanceId: makeId(), code: trimmed }]);
+    onChange([
+      ...codes,
+      { instanceId: makeId(), code: trimmed, evidence: "", rationale: "" },
+    ]);
     setIsOpen(false);
     setShowCustomInput(false);
     setCustomInput("");
@@ -88,32 +91,31 @@ export function AgencyCodeSelector({ codes, onChange }: AgencyCodeSelectorProps)
             </button>
           </div>
 
-          {item.evidence && (
-            <div className="px-2.5 pt-1">
-              <div className="rounded border border-emerald-600/70 bg-emerald-950/50 px-2 py-1 text-[10px] leading-relaxed text-emerald-200">
-                <span className="mr-1 font-bold uppercase tracking-wider text-emerald-400">
-                  Evidence
-                </span>
-                “{item.evidence}”
-              </div>
+          <div className="space-y-1.5 px-2.5 pb-2 pt-1.5">
+            <div>
+              <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-emerald-400">
+                Evidence
+              </label>
+              <textarea
+                value={item.evidence ?? ""}
+                onChange={(e) => patchCode(item.instanceId, { evidence: e.target.value })}
+                placeholder="Direct textual evidence from the artifact…"
+                rows={2}
+                className="w-full resize-none rounded border border-emerald-600 bg-emerald-900 px-2 py-1 text-xs leading-relaxed text-emerald-100 placeholder:text-emerald-500 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
+              />
             </div>
-          )}
-
-          <div className="space-y-1.5 px-2.5 pb-2 pt-1">
-            {(item.rationale !== undefined || item.evidence) && (
-              <div>
-                <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-emerald-400">
-                  Rationale
-                </label>
-                <textarea
-                  value={item.rationale || ""}
-                  onChange={(e) => patchCode(item.instanceId, { rationale: e.target.value })}
-                  placeholder="Agency rationale..."
-                  rows={2}
-                  className="w-full resize-none rounded border border-emerald-600 bg-emerald-900 px-2 py-1 text-xs leading-relaxed text-emerald-100 placeholder:text-emerald-500 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
-                />
-              </div>
-            )}
+            <div>
+              <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-emerald-400">
+                Rationale
+              </label>
+              <textarea
+                value={item.rationale ?? ""}
+                onChange={(e) => patchCode(item.instanceId, { rationale: e.target.value })}
+                placeholder="Agency rationale…"
+                rows={2}
+                className="w-full resize-none rounded border border-emerald-600 bg-emerald-900 px-2 py-1 text-xs leading-relaxed text-emerald-100 placeholder:text-emerald-500 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
+              />
+            </div>
           </div>
         </div>
       ))}

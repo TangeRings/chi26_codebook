@@ -3,6 +3,11 @@ import { db, isFirebaseConfigured } from "./config";
 import { StudentRecord, ComparisonItem } from "@/types/research";
 import { getLocalStudent, getAllLocalStudents } from "@/data/students";
 
+/** Recursively remove keys whose value is `undefined` so Firestore doesn't reject the write. */
+function stripUndefined<T>(value: T): T {
+  return JSON.parse(JSON.stringify(value, (_key, val) => (val === undefined ? null : val)));
+}
+
 const LOCAL_STORAGE_KEY_PREFIX = "research_student_record_";
 
 export async function listStudents(): Promise<StudentRecord[]> {
@@ -92,7 +97,7 @@ export async function getStudent(studentId: string): Promise<StudentRecord | nul
             `Firestore data for "${normalizedId}" is outdated (v=${firestoreVersion}, seed v=${seedVersion}). Re-seeding…`
           );
           try {
-            await setDoc(studentDocRef, localSeed);
+            await setDoc(studentDocRef, stripUndefined(localSeed));
           } catch (reseedErr) {
             console.warn("Could not re-seed Firestore:", reseedErr);
           }
@@ -111,7 +116,7 @@ export async function getStudent(studentId: string): Promise<StudentRecord | nul
         // Document doesn't exist yet — auto-seed from local JSON
         if (localSeed) {
           try {
-            await setDoc(studentDocRef, localSeed);
+            await setDoc(studentDocRef, stripUndefined(localSeed));
             console.info(`Auto-seeded student "${normalizedId}" to Firestore`);
           } catch (seedErr) {
             console.warn("Could not auto-seed to Firestore:", seedErr);
@@ -176,7 +181,7 @@ export async function updateComparisons(
   if (isFirebaseConfigured && db) {
     try {
       const studentDocRef = doc(db, "students", normalizedId);
-      await updateDoc(studentDocRef, { comparisons });
+      await updateDoc(studentDocRef, { comparisons: stripUndefined(comparisons) });
       savedToFirestore = true;
     } catch (error: unknown) {
       // If doc doesn't exist yet, set it completely
@@ -189,7 +194,7 @@ export async function updateComparisons(
           comparisons,
         };
         recordToSave.comparisons = comparisons;
-        await setDoc(studentDocRef, recordToSave);
+        await setDoc(studentDocRef, stripUndefined(recordToSave));
         savedToFirestore = true;
       } catch (innerError) {
         console.error("Firestore updateComparisons setDoc fallback failed:", innerError);
@@ -232,7 +237,7 @@ export async function saveStudentRecord(record: StudentRecord): Promise<void> {
   if (isFirebaseConfigured && db) {
     try {
       const studentDocRef = doc(db, "students", normalizedId);
-      await setDoc(studentDocRef, record);
+      await setDoc(studentDocRef, stripUndefined(record));
     } catch (e) {
       console.error("Firestore saveStudentRecord error:", e);
     }

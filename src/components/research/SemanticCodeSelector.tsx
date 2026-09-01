@@ -41,7 +41,10 @@ export function SemanticCodeSelector({ codes, onChange }: SemanticCodeSelectorPr
   const handleAddCode = (codeName: string) => {
     const trimmed = codeName.trim();
     if (!trimmed) return;
-    onChange([...codes, { instanceId: makeId(), code: trimmed }]);
+    onChange([
+      ...codes,
+      { instanceId: makeId(), code: trimmed, preEvidence: "", postEvidence: "", rationale: "" },
+    ]);
     setIsOpen(false);
     setShowCustomInput(false);
     setCustomInput("");
@@ -81,42 +84,43 @@ export function SemanticCodeSelector({ codes, onChange }: SemanticCodeSelectorPr
             </button>
           </div>
 
-          {(item.preEvidence || item.postEvidence) && (
-            <div className="space-y-1 px-2.5 pt-1">
-              {item.preEvidence != null && item.preEvidence !== "" && (
-                <div className="rounded border border-indigo-600/70 bg-indigo-950/50 px-2 py-1 text-[10px] leading-relaxed text-indigo-200">
-                  <span className="mr-1 font-bold uppercase tracking-wider text-indigo-400">
-                    PRE
-                  </span>
-                  “{item.preEvidence}”
-                </div>
-              )}
-              {item.postEvidence != null && item.postEvidence !== "" && (
-                <div className="rounded border border-indigo-600/70 bg-indigo-950/50 px-2 py-1 text-[10px] leading-relaxed text-indigo-200">
-                  <span className="mr-1 font-bold uppercase tracking-wider text-indigo-400">
-                    POST
-                  </span>
-                  “{item.postEvidence}”
-                </div>
-              )}
+          <div className="space-y-1.5 px-2.5 pb-2 pt-1.5">
+            <div>
+              <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-indigo-400">
+                PRE
+              </label>
+              <textarea
+                value={item.preEvidence ?? ""}
+                onChange={(e) => patchCode(item.instanceId, { preEvidence: e.target.value })}
+                placeholder="Quoted/paraphrased span from pre-response…"
+                rows={2}
+                className="w-full resize-none rounded border border-indigo-600 bg-indigo-900 px-2 py-1 text-xs leading-relaxed text-indigo-100 placeholder:text-indigo-400 focus:border-indigo-300 focus:outline-none focus:ring-1 focus:ring-indigo-300"
+              />
             </div>
-          )}
-
-          <div className="space-y-1.5 px-2.5 pb-2 pt-1">
-            {(item.rationale !== undefined || item.preEvidence || item.postEvidence) && (
-              <div>
-                <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-indigo-400">
-                  Rationale
-                </label>
-                <textarea
-                  value={item.rationale || ""}
-                  onChange={(e) => patchCode(item.instanceId, { rationale: e.target.value })}
-                  placeholder="Coding rationale..."
-                  rows={2}
-                  className="w-full resize-none rounded border border-indigo-600 bg-indigo-900 px-2 py-1 text-xs leading-relaxed text-indigo-100 placeholder:text-indigo-400 focus:border-indigo-300 focus:outline-none focus:ring-1 focus:ring-indigo-300"
-                />
-              </div>
-            )}
+            <div>
+              <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-indigo-400">
+                POST
+              </label>
+              <textarea
+                value={item.postEvidence ?? ""}
+                onChange={(e) => patchCode(item.instanceId, { postEvidence: e.target.value })}
+                placeholder="Quoted/paraphrased span from post-response…"
+                rows={2}
+                className="w-full resize-none rounded border border-indigo-600 bg-indigo-900 px-2 py-1 text-xs leading-relaxed text-indigo-100 placeholder:text-indigo-400 focus:border-indigo-300 focus:outline-none focus:ring-1 focus:ring-indigo-300"
+              />
+            </div>
+            <div>
+              <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-indigo-400">
+                Rationale
+              </label>
+              <textarea
+                value={item.rationale ?? ""}
+                onChange={(e) => patchCode(item.instanceId, { rationale: e.target.value })}
+                placeholder="Coding rationale…"
+                rows={2}
+                className="w-full resize-none rounded border border-indigo-600 bg-indigo-900 px-2 py-1 text-xs leading-relaxed text-indigo-100 placeholder:text-indigo-400 focus:border-indigo-300 focus:outline-none focus:ring-1 focus:ring-indigo-300"
+              />
+            </div>
           </div>
         </div>
       ))}
