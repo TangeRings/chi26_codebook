@@ -52,8 +52,8 @@ export function AgencyCodeSelector({ codes, onChange }: AgencyCodeSelectorProps)
     handleAddCode(customInput);
   };
 
-  const handleReasonChange = (instanceId: string, reason: string) => {
-    onChange(codes.map((c) => (c.instanceId === instanceId ? { ...c, reason } : c)));
+  const patchCode = (instanceId: string, patch: Partial<AgencyCode>) => {
+    onChange(codes.map((c) => (c.instanceId === instanceId ? { ...c, ...patch } : c)));
   };
 
   const handleRemove = (instanceId: string) => {
@@ -67,10 +67,17 @@ export function AgencyCodeSelector({ codes, onChange }: AgencyCodeSelectorProps)
           key={item.instanceId}
           className="rounded-md border border-emerald-400 bg-emerald-800"
         >
-          <div className="flex items-center justify-between px-2.5 pt-2">
-            <span className="font-semibold text-emerald-100">
-              {item.code}
-            </span>
+          <div className="flex items-center justify-between gap-2 px-2.5 pt-2">
+            <div className="flex min-w-0 flex-wrap items-center gap-1.5">
+              <span className="font-semibold text-emerald-100">
+                {item.code}
+              </span>
+              {item.confidence && (
+                <span className="rounded bg-emerald-950/60 px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wider text-emerald-300">
+                  {item.confidence}
+                </span>
+              )}
+            </div>
             <button
               type="button"
               onClick={() => handleRemove(item.instanceId)}
@@ -80,14 +87,45 @@ export function AgencyCodeSelector({ codes, onChange }: AgencyCodeSelectorProps)
               ×
             </button>
           </div>
-          <div className="px-2.5 pb-2 pt-1">
-            <textarea
-              value={item.reason || ""}
-              onChange={(e) => handleReasonChange(item.instanceId, e.target.value)}
-              placeholder="Reasoning for this code..."
-              rows={2}
-              className="w-full resize-none rounded border border-emerald-600 bg-emerald-900 px-2 py-1 text-xs leading-relaxed text-emerald-100 placeholder:text-emerald-500 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
-            />
+
+          {item.evidence && (
+            <div className="px-2.5 pt-1">
+              <div className="rounded border border-emerald-600/70 bg-emerald-950/50 px-2 py-1 text-[10px] leading-relaxed text-emerald-200">
+                <span className="mr-1 font-bold uppercase tracking-wider text-emerald-400">
+                  Evidence
+                </span>
+                “{item.evidence}”
+              </div>
+            </div>
+          )}
+
+          <div className="space-y-1.5 px-2.5 pb-2 pt-1">
+            {(item.rationale !== undefined || item.evidence) && (
+              <div>
+                <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-emerald-400">
+                  Rationale
+                </label>
+                <textarea
+                  value={item.rationale || ""}
+                  onChange={(e) => patchCode(item.instanceId, { rationale: e.target.value })}
+                  placeholder="Agency rationale..."
+                  rows={2}
+                  className="w-full resize-none rounded border border-emerald-600 bg-emerald-900 px-2 py-1 text-xs leading-relaxed text-emerald-100 placeholder:text-emerald-500 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
+                />
+              </div>
+            )}
+            <div>
+              <label className="mb-0.5 block text-[9px] font-semibold uppercase tracking-wider text-emerald-400">
+                Notes
+              </label>
+              <textarea
+                value={item.reason || ""}
+                onChange={(e) => patchCode(item.instanceId, { reason: e.target.value })}
+                placeholder="Reasoning for this code..."
+                rows={2}
+                className="w-full resize-none rounded border border-emerald-600 bg-emerald-900 px-2 py-1 text-xs leading-relaxed text-emerald-100 placeholder:text-emerald-500 focus:border-emerald-300 focus:outline-none focus:ring-1 focus:ring-emerald-300"
+              />
+            </div>
           </div>
         </div>
       ))}
@@ -104,7 +142,7 @@ export function AgencyCodeSelector({ codes, onChange }: AgencyCodeSelectorProps)
         </button>
 
         {isOpen && (
-          <div className="absolute left-0 top-full z-20 mt-1 min-w-[180px] rounded-md border border-zinc-200 bg-white py-1 shadow-lg dark:border-zinc-700 dark:bg-zinc-900">
+          <div className="absolute bottom-full left-0 z-20 mb-1 min-w-[180px] rounded-md border border-zinc-200 bg-white py-1 shadow-lg dark:border-zinc-700 dark:bg-zinc-900">
             {learnerAgencyOptions.map((opt) => (
               <button
                 key={opt}

@@ -266,6 +266,7 @@ export function StudentArtifactPage({ studentId }: StudentArtifactPageProps) {
 
         <ArtifactComparisonTable
           items={comparisons}
+          studentId={studentId}
           onUpdateItem={handleUpdateItem}
         />
 

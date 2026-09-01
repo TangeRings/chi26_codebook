@@ -87,6 +87,7 @@ function AnswerDisplay({
 
 interface ArtifactComparisonRowProps {
   item: ComparisonItem;
+  studentId?: string;
   rowIndex?: number;
   onUpdate: (itemId: string, patch: Partial<ComparisonItem>) => void;
 }
@@ -99,7 +100,6 @@ export function ArtifactComparisonRow({
   const [showQuestionText, setShowQuestionText] = useState(false);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  // Auto-resize textarea as content changes
   const adjustTextareaHeight = () => {
     if (textareaRef.current) {
       textareaRef.current.style.height = "auto";

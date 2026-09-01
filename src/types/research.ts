@@ -1,19 +1,62 @@
 export type SemanticCode = {
   instanceId: string;
   code: string;
+  /** Quoted or paraphrased span from the pre-response. Null for New events. */
+  preEvidence?: string | null;
+  /** Quoted or paraphrased span from the post-response. Null for Removed events. */
+  postEvidence?: string | null;
+  /** Concise coding rationale. Names any decision rule applied. */
+  rationale?: string;
+  /** Optional per-event coder confidence. */
+  confidence?: "low" | "medium" | "high";
+  /** Legacy free-text field. Kept for backward compatibility. */
   reason?: string;
+};
+
+export type ConceptAlignmentPair = {
+  pre: string;
+  post: string;
+  basis?: string;
+};
+
+export type ConceptAlignment = {
+  preConcepts?: string[];
+  postConcepts?: string[];
+  matchedPairs?: ConceptAlignmentPair[];
+  unmatchedPre?: string[];
+  unmatchedPost?: string[];
+  orderOnlyChanges?: string[];
 };
 
 export type AgencyCode = {
   instanceId: string;
   code: string;
+  /** Direct textual evidence from the artifact supporting this agency event. */
+  evidence?: string;
+  /** Concise rationale for the agency classification. */
+  rationale?: string;
+  /** Coder confidence in this agency judgment. */
+  confidence?: "low" | "medium" | "high";
+  /** Legacy free-text field. Kept for backward compatibility. */
   reason?: string;
+};
+
+export type ArtifactCodingUncertainty = {
+  confidence?: "low" | "medium" | "high";
+  /** Named boundary flags from the decision-rules controlled vocabulary. */
+  flags?: string[];
+  coderNotes?: string;
 };
 
 export type ArtifactCoding = {
   structuralDevelopment?: string | null;
+  /** Concise rationale for the structural development judgment. */
+  structuralRationale?: string;
+  /** Global PRE/POST concept inventory and alignment produced before classification. */
+  conceptAlignment?: ConceptAlignment;
   semanticChanges?: SemanticCode[];
   learnerAgency?: AgencyCode[];
+  uncertainty?: ArtifactCodingUncertainty;
 };
 
 export type ComparisonItem = {

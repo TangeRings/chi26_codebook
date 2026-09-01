@@ -1,0 +1,120 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "Both responses are three-item keyword descriptors of similar length and structure. No clause- or sentence-level additions or removals; the difference lies in semantic content of the keywords, not in structural scope.",
+    "conceptAlignment": {
+      "preConcepts": [
+        "Fun",
+        "Community-Building",
+        "Lifestyle-Oriented"
+      ],
+      "postConcepts": [
+        "Relatable",
+        "Interactive",
+        "Expressive"
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Community-Building",
+          "post": "Interactive",
+          "basis": "Both concern social/relational engagement between brand and audience; interactive participation and community-building share conceptual overlap as modes of audience involvement."
+        },
+        {
+          "pre": "Lifestyle-Oriented",
+          "post": "Relatable",
+          "basis": "Both position the brand in relation to how it fits into audience life; a lifestyle-oriented brand is one audiences can relate to."
+        },
+        {
+          "pre": "Fun",
+          "post": "Expressive",
+          "basis": "Both concern personal/emotional engagement; fun as enjoyment maps loosely to expressive as personal emotional articulation."
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": []
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mthzpvnbcno9t0ug7gd",
+        "code": "Reframed",
+        "preEvidence": "Fun, Community-Building, & Lifestyle-Oriented",
+        "postEvidence": "Relatable, Interactive, and Expressive",
+        "rationale": "Applying GLOBAL-ALIGNMENT across the full sets, the three PRE descriptors are mapped to three POST descriptors by shared conceptual role. The transformation represents a Reframed shift at the whole-response level: PRE frame is community/lifestyle-oriented and externally social (fun as shared activity, community-building as collective participation, lifestyle as aspirational positioning); POST frame is individual/affective and internally focused (relatability as personal identification, interactivity as participatory engagement, expressiveness as personal emotional articulation). Pre-frame: social-lifestyle-experiential; Post-frame: affective-expressive-participatory. The underlying subject (brand character) persists, but the conceptual lens has shifted from outward/social lifestyle framing to inward/expressive personal framing. This is flagged as a possible single collapsed event because three keyword swaps co-occur; see BC-P005 (FLAGGED-FOR-CALIBRATION) regarding whether short keyword-list items warrant individual event coding or a single whole-item code. Treated here as one Reframed event spanning the full descriptor set.",
+        "confidence": "medium"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "events_possibly_collapsed",
+        "boundary_case_elab_vs_reframe"
+      ],
+      "coderNotes": "This is a short keyword-list descriptor item (Brand Identity). BC-P005 flags this item type as potentially warranting whole-item coding rather than event-level coding. All three PRE descriptors (Fun, Community-Building, Lifestyle-Oriented) map loosely to all three POST descriptors (Relatable, Interactive, Expressive) via conceptual role (emotional/social/lifestyle), but no single mapping is strong enough to defensibly stand alone. The strongest reading is one whole-set Reframed event from a social-lifestyle frame to an affective-expressive frame. Alternative readings include three independent Removed + New pairs or individual Elaborated events per keyword; these were judged less defensible because the conceptual lineages are weak and the overall frame shift is the most salient change. Confidence is medium pending calibration on BC-P005."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "pre_concepts": [
+        "Fun",
+        "Community-Building",
+        "Lifestyle-Oriented"
+      ],
+      "post_concepts": [
+        "Relatable",
+        "Interactive",
+        "Expressive"
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Community-Building",
+          "post": "Interactive",
+          "basis": "Both concern social/relational engagement between brand and audience; interactive participation and community-building share conceptual overlap as modes of audience involvement."
+        },
+        {
+          "pre": "Lifestyle-Oriented",
+          "post": "Relatable",
+          "basis": "Both position the brand in relation to how it fits into audience life; a lifestyle-oriented brand is one audiences can relate to."
+        },
+        {
+          "pre": "Fun",
+          "post": "Expressive",
+          "basis": "Both concern personal/emotional engagement; fun as enjoyment maps loosely to expressive as personal emotional articulation."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "Both responses are three-item keyword descriptors of similar length and structure. No clause- or sentence-level additions or removals; the difference lies in semantic content of the keywords, not in structural scope."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "Fun, Community-Building, & Lifestyle-Oriented",
+        "post_evidence": "Relatable, Interactive, and Expressive",
+        "rationale": "Applying GLOBAL-ALIGNMENT across the full sets, the three PRE descriptors are mapped to three POST descriptors by shared conceptual role. The transformation represents a Reframed shift at the whole-response level: PRE frame is community/lifestyle-oriented and externally social (fun as shared activity, community-building as collective participation, lifestyle as aspirational positioning); POST frame is individual/affective and internally focused (relatability as personal identification, interactivity as participatory engagement, expressiveness as personal emotional articulation). Pre-frame: social-lifestyle-experiential; Post-frame: affective-expressive-participatory. The underlying subject (brand character) persists, but the conceptual lens has shifted from outward/social lifestyle framing to inward/expressive personal framing. This is flagged as a possible single collapsed event because three keyword swaps co-occur; see BC-P005 (FLAGGED-FOR-CALIBRATION) regarding whether short keyword-list items warrant individual event coding or a single whole-item code. Treated here as one Reframed event spanning the full descriptor set.",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "events_possibly_collapsed",
+        "boundary_case_elab_vs_reframe"
+      ],
+      "coder_notes": "This is a short keyword-list descriptor item (Brand Identity). BC-P005 flags this item type as potentially warranting whole-item coding rather than event-level coding. All three PRE descriptors (Fun, Community-Building, Lifestyle-Oriented) map loosely to all three POST descriptors (Relatable, Interactive, Expressive) via conceptual role (emotional/social/lifestyle), but no single mapping is strong enough to defensibly stand alone. The strongest reading is one whole-set Reframed event from a social-lifestyle frame to an affective-expressive frame. Alternative readings include three independent Removed + New pairs or individual Elaborated events per keyword; these were judged less defensible because the conceptual lineages are weak and the overall frame shift is the most salient change. Confidence is medium pending calibration on BC-P005."
+    },
+    "coded_at": "2026-01-22T00:00:00Z",
+    "model": "MiniMax-M3"
+  }
+}

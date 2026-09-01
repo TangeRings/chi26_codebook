@@ -6,11 +6,13 @@ import { ArtifactComparisonRow } from "./ArtifactComparisonRow";
 
 interface ArtifactComparisonTableProps {
   items: ComparisonItem[];
+  studentId: string;
   onUpdateItem: (itemId: string, patch: Partial<ComparisonItem>) => void;
 }
 
 export function ArtifactComparisonTable({
   items,
+  studentId,
   onUpdateItem,
 }: ArtifactComparisonTableProps) {
   if (!items || items.length === 0) {
@@ -54,6 +56,7 @@ export function ArtifactComparisonTable({
               <ArtifactComparisonRow
                 key={item.id}
                 item={item}
+                studentId={studentId}
                 rowIndex={idx}
                 onUpdate={onUpdateItem}
               />

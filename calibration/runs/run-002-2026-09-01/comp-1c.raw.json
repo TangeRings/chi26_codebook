@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "Both responses consist of two paired core-value descriptors joined by an ampersand. The structural form (two-value list) is preserved. There is no meaningful change in clause, sentence, or explanation-level content beyond the label swap.",
+    "conceptAlignment": {
+      "preConcepts": [
+        "Customer-Centricity",
+        "Emotion-Appealing"
+      ],
+      "postConcepts": [
+        "Authentic",
+        "Theory-Based"
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "basis": "Both concern the affective/genuine character of the brand's communication style; emotional resonance → authenticity as a related value dimension"
+        },
+        {
+          "pre": "Customer-Centricity",
+          "post": "Theory-Based",
+          "basis": "Weakest possible conceptual lineage between remaining pair; no stronger alignment exists, but as the residual pairing after Authenticity absorbs Emotion-Appealing, this is the only defensible global match"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": []
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mthzqop6bysftcdqd5r",
+        "code": "Reframed",
+        "preEvidence": "Emotion-Appealing",
+        "postEvidence": "Authentic",
+        "rationale": "The pre-frame emphasizes an affective/emotional appeal strategy (brand appeals through emotion). The post-frame emphasizes genuineness and credibility (brand is real and grounded). The underlying subject — the character of brand communication — persists, but the conceptual lens shifts from an experiential/affective register to an integrity/credibility register. Apply ELAB-vs-REFRAME: frame persistence fails because 'authentic' is not a refinement of 'emotion-appealing' but a reconception of what the brand's expressive character is. Names both frames: emotion-appealing frame → authenticity frame. Flag boundary_case_elab_vs_reframe due to plausible alternative reading as elaboration of the affective/relational dimension."
+      },
+      {
+        "instanceId": "mthzqop6uyy3ogwjs6j",
+        "code": "Reframed",
+        "preEvidence": "Customer-Centricity",
+        "postEvidence": "Theory-Based",
+        "rationale": "The pre-frame is an audience-orientation frame (values centered on the customer). The post-frame is an epistemic/rational-grounding frame (values centered on a principled or theoretical foundation). These represent fundamentally different value orientations: the locus of value shifts from outward (who the brand serves) to inward (what grounds the brand). Although the global alignment is weak, this is the strongest lineage available across the cross-product; alternative global alignments were considered and rejected because Emotion-Appealing pairs more strongly with Authentic on a communication-style dimension. Names both frames: customer-orientation frame → theory-grounding frame. Confidence reduced to medium because the alignment itself is contested."
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "vague_to_specific_lineage"
+      ],
+      "coderNotes": "Core-values keyword-list item (see BC-P005). Two PRE values and two POST values share no lexical overlap, and global alignment requires pairing Emotion-Appealing→Authentic and Customer-Centricity→Theory-Based. The Emotion-Appealing→Authentic mapping is defensible under a communication-style lineage (VAGUE-vs-SPECIFIC), but could alternatively be coded as Removed+New given the categorical distance between emotion-appeal and authenticity. The Customer-Centricity→Theory-Based mapping is the weakest defensible alignment; a stronger reading might treat these as two independent Removed+New pairs, but GLOBAL-ALIGNMENT requires exhausting cross-product matches first. No order-only change was observed. No learner agency evidence is present in the artifact."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "pre_concepts": [
+        "Customer-Centricity",
+        "Emotion-Appealing"
+      ],
+      "post_concepts": [
+        "Authentic",
+        "Theory-Based"
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Emotion-Appealing",
+          "post": "Authentic",
+          "basis": "Both concern the affective/genuine character of the brand's communication style; emotional resonance → authenticity as a related value dimension"
+        },
+        {
+          "pre": "Customer-Centricity",
+          "post": "Theory-Based",
+          "basis": "Weakest possible conceptual lineage between remaining pair; no stronger alignment exists, but as the residual pairing after Authenticity absorbs Emotion-Appealing, this is the only defensible global match"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "Both responses consist of two paired core-value descriptors joined by an ampersand. The structural form (two-value list) is preserved. There is no meaningful change in clause, sentence, or explanation-level content beyond the label swap."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "Emotion-Appealing",
+        "post_evidence": "Authentic",
+        "rationale": "The pre-frame emphasizes an affective/emotional appeal strategy (brand appeals through emotion). The post-frame emphasizes genuineness and credibility (brand is real and grounded). The underlying subject — the character of brand communication — persists, but the conceptual lens shifts from an experiential/affective register to an integrity/credibility register. Apply ELAB-vs-REFRAME: frame persistence fails because 'authentic' is not a refinement of 'emotion-appealing' but a reconception of what the brand's expressive character is. Names both frames: emotion-appealing frame → authenticity frame. Flag boundary_case_elab_vs_reframe due to plausible alternative reading as elaboration of the affective/relational dimension."
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Customer-Centricity",
+        "post_evidence": "Theory-Based",
+        "rationale": "The pre-frame is an audience-orientation frame (values centered on the customer). The post-frame is an epistemic/rational-grounding frame (values centered on a principled or theoretical foundation). These represent fundamentally different value orientations: the locus of value shifts from outward (who the brand serves) to inward (what grounds the brand). Although the global alignment is weak, this is the strongest lineage available across the cross-product; alternative global alignments were considered and rejected because Emotion-Appealing pairs more strongly with Authentic on a communication-style dimension. Names both frames: customer-orientation frame → theory-grounding frame. Confidence reduced to medium because the alignment itself is contested."
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "vague_to_specific_lineage"
+      ],
+      "coder_notes": "Core-values keyword-list item (see BC-P005). Two PRE values and two POST values share no lexical overlap, and global alignment requires pairing Emotion-Appealing→Authentic and Customer-Centricity→Theory-Based. The Emotion-Appealing→Authentic mapping is defensible under a communication-style lineage (VAGUE-vs-SPECIFIC), but could alternatively be coded as Removed+New given the categorical distance between emotion-appeal and authenticity. The Customer-Centricity→Theory-Based mapping is the weakest defensible alignment; a stronger reading might treat these as two independent Removed+New pairs, but GLOBAL-ALIGNMENT requires exhausting cross-product matches first. No order-only change was observed. No learner agency evidence is present in the artifact."
+    },
+    "coded_at": "2026-05-14T00:00:00Z",
+    "model": "MiniMax-M3"
+  }
+}

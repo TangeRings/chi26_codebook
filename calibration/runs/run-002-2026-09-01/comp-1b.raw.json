@@ -1,0 +1,257 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Moderate Addition",
+    "structuralRationale": "POST adds the 'celebrates individuality' clause, the 'transform personality theory into a shared experience' vision statement, and elaborates descriptors on physical products. Several clauses and qualifications are added, but the response remains a single-paragraph vision statement rather than expanding into multiple new passages; extent fits Moderate rather than Significant.",
+    "conceptAlignment": {
+      "preConcepts": [
+        "MBTI-themed brand",
+        "bringing together people of all personalities/lifestyles/backgrounds",
+        "designed physical products",
+        "connection and self-expression",
+        "uniting individuals under a shared passion",
+        "building a community (CRM)",
+        "hoping/hopefully creating"
+      ],
+      "postConcepts": [
+        "MBTI-themed brand",
+        "celebrates individuality",
+        "bringing together people of all personalities/lifestyles/backgrounds",
+        "cute physical merchandised products",
+        "transform personality theory into a shared experience",
+        "uniting enthusiasts under a common passion",
+        "creating a community-driven space (similar to CRM)"
+      ],
+      "matchedPairs": [
+        {
+          "pre": "bringing together people of all personalities, lifestyles, and backgrounds",
+          "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+          "basis": "verbatim continuity"
+        },
+        {
+          "pre": "building a community (CRM)",
+          "post": "creating a community-driven space (similar to CRM)",
+          "basis": "community-building remains, with reframed expression"
+        },
+        {
+          "pre": "uniting individuals under a shared passion",
+          "post": "uniting enthusiasts under a common passion",
+          "basis": "uniting-under-shared-passion concept persists, with audience narrowing"
+        },
+        {
+          "pre": "designed physical products",
+          "post": "cute physical merchandised products",
+          "basis": "physical-products noun phrase persists, elaborated and reframed"
+        },
+        {
+          "pre": "MBTI-themed brand",
+          "post": "MBTI-themed brand",
+          "basis": "identical topic anchor"
+        },
+        {
+          "pre": "hoping/hopefully creating",
+          "post": "creating",
+          "basis": "ongoing brand-creation activity"
+        }
+      ],
+      "unmatchedPre": [
+        "connection and self-expression",
+        "hoping/hopefully (hedged modality)"
+      ],
+      "unmatchedPost": [
+        "celebrates individuality",
+        "transform personality theory into a shared experience",
+        "community-driven space (experiential/spatial framing)"
+      ],
+      "orderOnlyChanges": []
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mthzqbf7xljee4mq5fr",
+        "code": "Reframed",
+        "preEvidence": "I would want my brand to focus on connection and self-expression",
+        "postEvidence": "My vision is for my brand to transform personality theory into a shared experience",
+        "rationale": "PRE framed the brand's purpose in relational/intrapersonal terms (connection and self-expression as ends). POST reframes the same underlying purpose as an experiential transformation of theory into lived experience. Pre-frame: relational/personal-connection frame. Post-frame: experiential/transformative frame. VAGUE-vs-SPECIFIC and ELAB-vs-REFRAME both considered; the conceptual lens has shifted from who the brand connects to what it does with theory, supporting Reframed.",
+        "confidence": "medium"
+      },
+      {
+        "instanceId": "mthzqbf7d7cp7vhok5",
+        "code": "Narrowed",
+        "preEvidence": "uniting individuals under a shared passion",
+        "postEvidence": "uniting enthusiasts under a common passion",
+        "rationale": "Audience descriptor narrowed from the generic 'individuals' to the more specific subset 'enthusiasts'. ELAB-vs-NARROW: scope has been restricted to a more engaged sub-population rather than merely being described in more detail.",
+        "confidence": "high"
+      },
+      {
+        "instanceId": "mthzqbf7b04a0kooq9k",
+        "code": "Elaborated",
+        "preEvidence": "designed physical products",
+        "postEvidence": "cute physical merchandised products",
+        "rationale": "Physical-products concept retained; POST adds descriptors ('cute', 'merchandised') within the same product-line frame. BC-P001 pattern: descriptor addition to noun phrase. Stays within the same conceptual category (physical products) and does not shift the frame, so Elaborated.",
+        "confidence": "medium"
+      },
+      {
+        "instanceId": "mthzqbf7u9xixqfqxxn",
+        "code": "Reframed",
+        "preEvidence": "building a community (CRM)",
+        "postEvidence": "creating a community-driven space (similar to CRM)",
+        "rationale": "Community concept persists but is reconceived. PRE treats community as an outcome of bringing people together (CRM as the mechanism). POST treats community as a designed environment/space with the community itself driving it (community-driven space, CRM reframed as analogous). Pre-frame: community-as-outcome. Post-frame: community-as-designed-environment. REMOVE-vs-REFRAME considered: because CRM continuity is preserved as an analogy, Reframed takes priority over Removed+New.",
+        "confidence": "medium"
+      },
+      {
+        "instanceId": "mthzqbf7x7nu83ppurc",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "celebrates individuality",
+        "rationale": "Full-response PRE search found no antecedent for 'individuality' as an explicit value or theme. PRE mentions 'people of all personalities' and 'self-expression' but neither celebrates individuality as a distinct claim about the brand's stance toward the individual. EXPAND-vs-NEW: no identifiable seed in PRE from which this grew; treated as New.",
+        "confidence": "medium"
+      },
+      {
+        "instanceId": "mthzqbf76al38449rgt",
+        "code": "Removed",
+        "preEvidence": "connection and self-expression",
+        "postEvidence": null,
+        "rationale": "Full-response POST search found no successor. 'Connection' is partially absorbed into the reframed 'shared experience' but that move is already coded under the first Reframed event, so 'connection and self-expression' as the paired brand purpose is no longer present as such in POST. ELAB-vs-REFRAME rejected because the surviving POST language ('shared experience') is already accounted for inside the Reframed pairing, and 'self-expression' has no successor. Per the no-double-counting rule, Removed is appropriate here for the self-expression side and the residual framing that did not survive into POST.",
+        "confidence": "medium"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "boundary_case_remove_vs_reframe",
+        "vague_to_specific_lineage"
+      ],
+      "coderNotes": "Item is a narrative Brand Vision response. 'Connection' is partially absorbed into the reframed 'shared experience' but coded only once under Reframed to avoid double-counting. The Removed event captures 'self-expression' and any residual framing from the PRE pair not surviving in POST. BC-P002 (relational-to-experiential) pattern applies to the first Reframed event. BC-P005 keyword-list concerns do not apply here as this is extended prose."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-1b"
+    },
+    "concept_alignment": {
+      "pre_concepts": [
+        "MBTI-themed brand",
+        "bringing together people of all personalities/lifestyles/backgrounds",
+        "designed physical products",
+        "connection and self-expression",
+        "uniting individuals under a shared passion",
+        "building a community (CRM)",
+        "hoping/hopefully creating"
+      ],
+      "post_concepts": [
+        "MBTI-themed brand",
+        "celebrates individuality",
+        "bringing together people of all personalities/lifestyles/backgrounds",
+        "cute physical merchandised products",
+        "transform personality theory into a shared experience",
+        "uniting enthusiasts under a common passion",
+        "creating a community-driven space (similar to CRM)"
+      ],
+      "matched_pairs": [
+        {
+          "pre": "bringing together people of all personalities, lifestyles, and backgrounds",
+          "post": "bringing together people of all personalities, lifestyles, and backgrounds",
+          "basis": "verbatim continuity"
+        },
+        {
+          "pre": "building a community (CRM)",
+          "post": "creating a community-driven space (similar to CRM)",
+          "basis": "community-building remains, with reframed expression"
+        },
+        {
+          "pre": "uniting individuals under a shared passion",
+          "post": "uniting enthusiasts under a common passion",
+          "basis": "uniting-under-shared-passion concept persists, with audience narrowing"
+        },
+        {
+          "pre": "designed physical products",
+          "post": "cute physical merchandised products",
+          "basis": "physical-products noun phrase persists, elaborated and reframed"
+        },
+        {
+          "pre": "MBTI-themed brand",
+          "post": "MBTI-themed brand",
+          "basis": "identical topic anchor"
+        },
+        {
+          "pre": "hoping/hopefully creating",
+          "post": "creating",
+          "basis": "ongoing brand-creation activity"
+        }
+      ],
+      "unmatched_pre": [
+        "connection and self-expression",
+        "hoping/hopefully (hedged modality)"
+      ],
+      "unmatched_post": [
+        "celebrates individuality",
+        "transform personality theory into a shared experience",
+        "community-driven space (experiential/spatial framing)"
+      ],
+      "order_only_changes": []
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "POST adds the 'celebrates individuality' clause, the 'transform personality theory into a shared experience' vision statement, and elaborates descriptors on physical products. Several clauses and qualifications are added, but the response remains a single-paragraph vision statement rather than expanding into multiple new passages; extent fits Moderate rather than Significant."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "I would want my brand to focus on connection and self-expression",
+        "post_evidence": "My vision is for my brand to transform personality theory into a shared experience",
+        "rationale": "PRE framed the brand's purpose in relational/intrapersonal terms (connection and self-expression as ends). POST reframes the same underlying purpose as an experiential transformation of theory into lived experience. Pre-frame: relational/personal-connection frame. Post-frame: experiential/transformative frame. VAGUE-vs-SPECIFIC and ELAB-vs-REFRAME both considered; the conceptual lens has shifted from who the brand connects to what it does with theory, supporting Reframed.",
+        "confidence": "medium"
+      },
+      {
+        "code": "Narrowed",
+        "pre_evidence": "uniting individuals under a shared passion",
+        "post_evidence": "uniting enthusiasts under a common passion",
+        "rationale": "Audience descriptor narrowed from the generic 'individuals' to the more specific subset 'enthusiasts'. ELAB-vs-NARROW: scope has been restricted to a more engaged sub-population rather than merely being described in more detail.",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "designed physical products",
+        "post_evidence": "cute physical merchandised products",
+        "rationale": "Physical-products concept retained; POST adds descriptors ('cute', 'merchandised') within the same product-line frame. BC-P001 pattern: descriptor addition to noun phrase. Stays within the same conceptual category (physical products) and does not shift the frame, so Elaborated.",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "building a community (CRM)",
+        "post_evidence": "creating a community-driven space (similar to CRM)",
+        "rationale": "Community concept persists but is reconceived. PRE treats community as an outcome of bringing people together (CRM as the mechanism). POST treats community as a designed environment/space with the community itself driving it (community-driven space, CRM reframed as analogous). Pre-frame: community-as-outcome. Post-frame: community-as-designed-environment. REMOVE-vs-REFRAME considered: because CRM continuity is preserved as an analogy, Reframed takes priority over Removed+New.",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "celebrates individuality",
+        "rationale": "Full-response PRE search found no antecedent for 'individuality' as an explicit value or theme. PRE mentions 'people of all personalities' and 'self-expression' but neither celebrates individuality as a distinct claim about the brand's stance toward the individual. EXPAND-vs-NEW: no identifiable seed in PRE from which this grew; treated as New.",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "connection and self-expression",
+        "post_evidence": null,
+        "rationale": "Full-response POST search found no successor. 'Connection' is partially absorbed into the reframed 'shared experience' but that move is already coded under the first Reframed event, so 'connection and self-expression' as the paired brand purpose is no longer present as such in POST. ELAB-vs-REFRAME rejected because the surviving POST language ('shared experience') is already accounted for inside the Reframed pairing, and 'self-expression' has no successor. Per the no-double-counting rule, Removed is appropriate here for the self-expression side and the residual framing that did not survive into POST.",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "boundary_case_remove_vs_reframe",
+        "vague_to_specific_lineage"
+      ],
+      "coder_notes": "Item is a narrative Brand Vision response. 'Connection' is partially absorbed into the reframed 'shared experience' but coded only once under Reframed to avoid double-counting. The Removed event captures 'self-expression' and any residual framing from the PRE pair not surviving in POST. BC-P002 (relational-to-experiential) pattern applies to the first Reframed event. BC-P005 keyword-list concerns do not apply here as this is extended prose."
+    },
+    "coded_at": "2026-05-14T00:00:00Z",
+    "model": "MiniMax-M3"
+  }
+}

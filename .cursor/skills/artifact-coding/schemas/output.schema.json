@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "artifact-coding-output",
+  "title": "ArtifactCodingOutput",
+  "description": "Structured coding output for one PRE/POST artifact pair. Produced by the artifact-coding skill following the 11-step concept-inventory-first procedure.",
+  "type": "object",
+  "required": ["coding_unit", "structural_development", "semantic_events", "uncertainty"],
+  "additionalProperties": false,
+  "properties": {
+
+    "coding_unit": {
+      "type": "object",
+      "description": "Identifies the item that was coded. Must match the input.",
+      "required": ["student_id", "item_id"],
+      "additionalProperties": false,
+      "properties": {
+        "student_id": { "type": "string" },
+        "item_id": { "type": "string" }
+      }
+    },
+
+    "concept_alignment": {
+      "type": "object",
+      "description": "Optional but strongly preferred. Records the PRE/POST concept inventories and global alignment produced before classification.",
+      "additionalProperties": false,
+      "properties": {
+        "pre_concepts": {
+          "type": "array",
+          "description": "Unordered inventory of distinct concepts identified in PRE.",
+          "items": { "type": "string" }
+        },
+        "post_concepts": {
+          "type": "array",
+          "description": "Unordered inventory of distinct concepts identified in POST.",
+          "items": { "type": "string" }
+        },
+        "matched_pairs": {
+          "type": "array",
+          "description": "Global conceptual matches. Cross-position matches are expected.",
+          "items": {
+            "type": "object",
+            "required": ["pre", "post"],
+            "additionalProperties": false,
+            "properties": {
+              "pre": { "type": "string" },
+              "post": { "type": "string" },
+              "basis": {
+                "type": "string",
+                "description": "Brief statement of why these concepts form a lineage (conceptual role, not position)."
+              }
+            }
+          }
+        },
+        "unmatched_pre": {
+          "type": "array",
+          "description": "PRE concepts with no plausible POST successor after a full-response search.",
+          "items": { "type": "string" }
+        },
+        "unmatched_post": {
+          "type": "array",
+          "description": "POST concepts with no plausible PRE antecedent after a full-response search.",
+          "items": { "type": "string" }
+        },
+        "order_only_changes": {
+          "type": "array",
+          "description": "Observed reorderings that were deliberately not coded as semantic events.",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "structural_development": {
+      "type": "object",
+      "description": "One whole-response structural judgment for the entire PRE/POST pair.",
+      "required": ["code"],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "string",
+          "enum": [
+            "Significant Addition",
+            "Moderate Addition",
+            "No Change",
+            "Moderate Reduction",
+            "Significant Reduction"
+          ],
+          "description": "The structural development code."
+        },
+        "rationale": {
+          "type": "string",
+          "description": "Concise rationale for this structural judgment. Required unless item is excluded (numeric/grid)."
+        }
+      }
+    },
+
+    "semantic_events": {
+      "type": "array",
+      "description": "Event-level semantic changes. May contain zero or more entries. The same code value may appear in multiple entries for a single response pair.",
+      "items": {
+        "type": "object",
+        "required": ["code"],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string",
+            "enum": ["Elaborated", "Narrowed", "Expanded", "Reframed", "New", "Removed"],
+            "description": "The semantic change code for this event."
+          },
+          "pre_evidence": {
+            "type": ["string", "null"],
+            "description": "Brief quoted or closely paraphrased span from the pre-response that identifies the pre-state of this event. Null for New events (no pre antecedent)."
+          },
+          "post_evidence": {
+            "type": ["string", "null"],
+            "description": "Brief quoted or closely paraphrased span from the post-response that identifies the post-state of this event. Null for Removed events (no post successor)."
+          },
+          "rationale": {
+            "type": "string",
+            "description": "Concise rationale explaining the classification. If a decision rule was applied, name it here (e.g., 'applied ELAB-vs-REFRAME: relational frame → experiential frame')."
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["low", "medium", "high"],
+            "description": "Optional per-event coder confidence."
+          }
+        }
+      }
+    },
+
+    "learner_agency": {
+      "type": "array",
+      "description": "Optional. Learner Agency / Metacognition events. Only include if direct textual evidence is present in the artifact. May be empty or omitted.",
+      "items": {
+        "type": "object",
+        "required": ["code", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "code": {
+            "type": "string",
+            "description": "Agency code. Current working codes: 'Personal Background', 'Metacognition'. Other codes may be used if evidence clearly warrants it — flag in uncertainty.",
+            "examples": ["Personal Background", "Metacognition"]
+          },
+          "evidence": {
+            "type": "string",
+            "description": "Quoted or closely paraphrased span from the text that serves as direct evidence for this agency event."
+          },
+          "rationale": {
+            "type": "string",
+            "description": "Brief explanation of why this evidence constitutes the coded agency type."
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["low", "medium", "high"],
+            "description": "Coder confidence in this agency judgment. If low, consider omitting the event and noting in uncertainty.coder_notes."
+          }
+        }
+      }
+    },
+
+    "uncertainty": {
+      "type": "object",
+      "description": "Uncertainty record. Always present. Use confidence 'high' and empty flags if no issues arose.",
+      "required": ["confidence"],
+      "additionalProperties": false,
+      "properties": {
+        "confidence": {
+          "type": "string",
+          "enum": ["low", "medium", "high"],
+          "description": "Overall coder confidence in the entire coding output."
+        },
+        "flags": {
+          "type": "array",
+          "description": "Named boundary flags triggered during coding. Use controlled vocabulary from decision-rules.md.",
+          "items": {
+            "type": "string",
+            "examples": [
+              "boundary_case_elab_vs_reframe",
+              "boundary_case_elab_vs_narrow",
+              "boundary_case_expand_vs_new",
+              "boundary_case_remove_vs_reframe",
+              "boundary_case_structural_threshold",
+              "possible_stylistic_rewrite",
+              "possible_missed_event",
+              "learner_agency_evidence_weak",
+              "events_possibly_collapsed",
+              "order_change_only",
+              "positional_alignment_rejected",
+              "vague_to_specific_lineage"
+            ]
+          }
+        },
+        "coder_notes": {
+          "type": "string",
+          "description": "Free text for anything not captured by flags: residual ambiguity, alternative interpretations considered, items excluded from coding, or any note needed for research auditability."
+        }
+      }
+    },
+
+    "coded_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of when this output was produced."
+    },
+
+    "model": {
+      "type": "string",
+      "description": "Identifier of the model or coder that produced this output (e.g. 'human', 'claude-sonnet-4-6'). Required in calibration outputs."
+    }
+
+  }
+}

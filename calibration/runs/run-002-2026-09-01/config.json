@@ -1,0 +1,21 @@
+{
+  "run_id": "run-002",
+  "date": "2026-09-01",
+  "model": "MiniMax-M3",
+  "decision_rules_version": "v2-order-invariant",
+  "items": [
+    {
+      "student_id": "jason",
+      "item_id": "comp-1a"
+    },
+    {
+      "student_id": "jason",
+      "item_id": "comp-1b"
+    },
+    {
+      "student_id": "jason",
+      "item_id": "comp-1c"
+    }
+  ],
+  "notes": "Re-run after ORDER-vs-SEMANTIC / GLOBAL-ALIGNMENT revision. Blind to gold."
+}
