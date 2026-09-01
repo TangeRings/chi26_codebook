@@ -1,0 +1,618 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "PRE is a single short admission of having no plan ('no idea yet'). POST contains multiple clauses specifying a content format (short videos), a concrete example concept (pree-day pilates moves), and a product-integration note (person using equipment). This is a substantive expansion from an empty placeholder to a fully described content strategy.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "no idea yet"
+      ],
+      "postConcepts": [
+        "short videos using the equipment",
+        "example: 'three pilates moves to do before your day'",
+        "person is using the equipment"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "no idea yet",
+          "post": "short videos using the equipment",
+          "continuity": "no content stated in pre vs content type specified in post",
+          "scope": "none \u2014 pre has no scope",
+          "frame": "no frame in pre to compare",
+          "stretch": "extreme \u2014 pairing an admission of having no idea with a fully specified content strategy",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "no idea yet",
+          "post": "short videos using the equipment",
+          "reason": "Pre expresses an absence of any concept; there is no semantic unit to match. Pairing these would be a forced different-domain match (IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED)."
+        },
+        {
+          "pre": "no idea yet",
+          "post": "example: 'three pilates moves to do before your day'",
+          "reason": "Pre contains no concept; this is a New concept in post with no PRE antecedent."
+        },
+        {
+          "pre": "no idea yet",
+          "post": "person is using the equipment",
+          "reason": "Pre contains no concept; this is a New concept in post with no PRE antecedent."
+        }
+      ],
+      "matchedPairs": [],
+      "unmatchedPre": [
+        "no idea yet"
+      ],
+      "unmatchedPost": [
+        "short videos using the equipment",
+        "example: 'three pilates moves to do before your day'",
+        "person is using the equipment"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "no idea yet",
+          "direction": "removed",
+          "nearestCounterpart": "short videos using the equipment",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "PRE is an explicit admission of absence ('no idea yet'). It is not a substantive concept that could be narrowed, reframed, elaborated, or expanded. There is no semantic content in the PRE to serve as an antecedent for any POST concept. Nearest counterpart 'short videos using the equipment' tested: subsumption fails (a content format is not a specific way of having 'no idea'); reframing fails (no semantic territory is shared between an absence statement and a content format); elaboration fails (no PRE seed to elaborate); expansion fails (no PRE seed to broaden). Outcome: kept as Removed."
+        },
+        {
+          "concept": "short videos using the equipment",
+          "direction": "new",
+          "nearestCounterpart": "no idea yet",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'no idea yet', which contains no substantive concept. None of the four transformation codes is defensible because there is no PRE seed. Outcome: kept as New."
+        },
+        {
+          "concept": "example: 'three pilates moves to do before your day'",
+          "direction": "new",
+          "nearestCounterpart": "no idea yet",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'no idea yet', an absence statement with no concept. The example content idea has no PRE antecedent. Outcome: kept as New."
+        },
+        {
+          "concept": "person is using the equipment",
+          "direction": "new",
+          "nearestCounterpart": "no idea yet",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'no idea yet', which provides no seed. Outcome: kept as New."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "no idea yet",
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "PRE 'no idea yet' is an explicit absence statement with no semantic content. No transformation code is defensible because there is nothing to transform. Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "short videos using the equipment",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "No PRE seed exists (PRE is 'no idea yet', an absence statement). New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "example: 'three pilates moves to do before your day'",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "No PRE seed exists. New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "person is using the equipment",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "No PRE seed exists. New is correct."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti73y9bzemevldph",
+        "code": "Removed",
+        "preEvidence": "no idea yet",
+        "postEvidence": null,
+        "rationale": "PRE is an explicit absence statement ('no idea yet') with no semantic content. No transformation tier is defensible against any POST concept because there is no concept in PRE to narrow, reframe, elaborate, or expand.",
+        "confidence": "high",
+        "alternativeConsidered": "New"
+      },
+      {
+        "instanceId": "mti73y9betrj6nyybfq",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "short videos using the equipment",
+        "rationale": "POST introduces a concrete content format concept. Nearest PRE antecedent 'no idea yet' is an absence statement and provides no semantic seed for any transformation.",
+        "confidence": "high",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti73y9b9f31eu254p6",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "example: 'three pilates moves to do before your day'",
+        "rationale": "POST introduces a concrete content example. No PRE seed available ('no idea yet' is an absence statement).",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded"
+      },
+      {
+        "instanceId": "mti73y9b6p1i52fcvbb",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "person is using the equipment",
+        "rationale": "POST introduces the product-integration principle. No PRE seed available ('no idea yet' is an absence statement).",
+        "confidence": "high",
+        "alternativeConsidered": "New"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "PRE is an explicit absence statement ('no idea yet'). PRE\u00d7POST cross-product yields no plausible alignments; all POST concepts are New and the PRE absence is Removed after the mandatory re-check confirms no defensible transformation. The four New + one Removed outcome is driven by the PRE being a non-concept, not by missed lineage. Structural Development is Significant Addition because the POST moves from an empty placeholder to a fully elaborated content strategy with format, example, and integration principle. Critic applied 4 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "no idea yet"
+      ],
+      "post_concepts": [
+        "short videos using the equipment",
+        "example: 'three pilates moves to do before your day'",
+        "person is using the equipment"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "no idea yet",
+          "post": "short videos using the equipment",
+          "continuity": "no content stated in pre vs content type specified in post",
+          "scope": "none \u2014 pre has no scope",
+          "frame": "no frame in pre to compare",
+          "stretch": "extreme \u2014 pairing an admission of having no idea with a fully specified content strategy",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "no idea yet",
+          "post": "short videos using the equipment",
+          "reason": "Pre expresses an absence of any concept; there is no semantic unit to match. Pairing these would be a forced different-domain match (IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED)."
+        },
+        {
+          "pre": "no idea yet",
+          "post": "example: 'three pilates moves to do before your day'",
+          "reason": "Pre contains no concept; this is a New concept in post with no PRE antecedent."
+        },
+        {
+          "pre": "no idea yet",
+          "post": "person is using the equipment",
+          "reason": "Pre contains no concept; this is a New concept in post with no PRE antecedent."
+        }
+      ],
+      "matched_pairs": [],
+      "unmatched_pre": [
+        "no idea yet"
+      ],
+      "unmatched_post": [
+        "short videos using the equipment",
+        "example: 'three pilates moves to do before your day'",
+        "person is using the equipment"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "no idea yet",
+          "direction": "removed",
+          "nearest_counterpart": "short videos using the equipment",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "PRE is an explicit admission of absence ('no idea yet'). It is not a substantive concept that could be narrowed, reframed, elaborated, or expanded. There is no semantic content in the PRE to serve as an antecedent for any POST concept. Nearest counterpart 'short videos using the equipment' tested: subsumption fails (a content format is not a specific way of having 'no idea'); reframing fails (no semantic territory is shared between an absence statement and a content format); elaboration fails (no PRE seed to elaborate); expansion fails (no PRE seed to broaden). Outcome: kept as Removed."
+        },
+        {
+          "concept": "short videos using the equipment",
+          "direction": "new",
+          "nearest_counterpart": "no idea yet",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'no idea yet', which contains no substantive concept. None of the four transformation codes is defensible because there is no PRE seed. Outcome: kept as New."
+        },
+        {
+          "concept": "example: 'three pilates moves to do before your day'",
+          "direction": "new",
+          "nearest_counterpart": "no idea yet",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'no idea yet', an absence statement with no concept. The example content idea has no PRE antecedent. Outcome: kept as New."
+        },
+        {
+          "concept": "person is using the equipment",
+          "direction": "new",
+          "nearest_counterpart": "no idea yet",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'no idea yet', which provides no seed. Outcome: kept as New."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "no idea yet",
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "PRE 'no idea yet' is an explicit absence statement with no semantic content. No transformation code is defensible because there is nothing to transform. Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "short videos using the equipment",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "No PRE seed exists (PRE is 'no idea yet', an absence statement). New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "example: 'three pilates moves to do before your day'",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "No PRE seed exists. New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "person is using the equipment",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "No PRE seed exists. New is correct."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "PRE is a single short admission of having no plan ('no idea yet'). POST contains multiple clauses specifying a content format (short videos), a concrete example concept (pree-day pilates moves), and a product-integration note (person using equipment). This is a substantive expansion from an empty placeholder to a fully described content strategy."
+    },
+    "semantic_events": [
+      {
+        "code": "Removed",
+        "pre_evidence": "no idea yet",
+        "post_evidence": null,
+        "rationale": "PRE is an explicit absence statement ('no idea yet') with no semantic content. No transformation tier is defensible against any POST concept because there is no concept in PRE to narrow, reframe, elaborate, or expand.",
+        "alternative_considered": "New",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "short videos using the equipment",
+        "rationale": "POST introduces a concrete content format concept. Nearest PRE antecedent 'no idea yet' is an absence statement and provides no semantic seed for any transformation.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "example: 'three pilates moves to do before your day'",
+        "rationale": "POST introduces a concrete content example. No PRE seed available ('no idea yet' is an absence statement).",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "person is using the equipment",
+        "rationale": "POST introduces the product-integration principle. No PRE seed available ('no idea yet' is an absence statement).",
+        "alternative_considered": "New",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "PRE is an explicit absence statement ('no idea yet'). PRE\u00d7POST cross-product yields no plausible alignments; all POST concepts are New and the PRE absence is Removed after the mandatory re-check confirms no defensible transformation. The four New + one Removed outcome is driven by the PRE being a non-concept, not by missed lineage. Structural Development is Significant Addition because the POST moves from an empty placeholder to a fully elaborated content strategy with format, example, and integration principle. Critic applied 4 correction(s)."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "no idea yet"
+      ],
+      "post_concepts": [
+        "short videos using the equipment",
+        "example: 'three pilates moves to do before your day'",
+        "person is using the equipment"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "no idea yet",
+          "post": "short videos using the equipment",
+          "continuity": "no content stated in pre vs content type specified in post",
+          "scope": "none \u2014 pre has no scope",
+          "frame": "no frame in pre to compare",
+          "stretch": "extreme \u2014 pairing an admission of having no idea with a fully specified content strategy",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "no idea yet",
+          "post": "short videos using the equipment",
+          "reason": "Pre expresses an absence of any concept; there is no semantic unit to match. Pairing these would be a forced different-domain match (IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED)."
+        },
+        {
+          "pre": "no idea yet",
+          "post": "example: 'three pilates moves to do before your day'",
+          "reason": "Pre contains no concept; this is a New concept in post with no PRE antecedent."
+        },
+        {
+          "pre": "no idea yet",
+          "post": "person is using the equipment",
+          "reason": "Pre contains no concept; this is a New concept in post with no PRE antecedent."
+        }
+      ],
+      "matched_pairs": [],
+      "unmatched_pre": [
+        "no idea yet"
+      ],
+      "unmatched_post": [
+        "short videos using the equipment",
+        "example: 'three pilates moves to do before your day'",
+        "person is using the equipment"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "no idea yet",
+          "direction": "removed",
+          "nearest_counterpart": "short videos using the equipment",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "PRE is an explicit admission of absence ('no idea yet'). It is not a substantive concept that could be narrowed, reframed, elaborated, or expanded. There is no semantic content in the PRE to serve as an antecedent for any POST concept. Nearest counterpart 'short videos using the equipment' tested: subsumption fails (a content format is not a specific way of having 'no idea'); reframing fails (no semantic territory is shared between an absence statement and a content format); elaboration fails (no PRE seed to elaborate); expansion fails (no PRE seed to broaden). Outcome: kept as Removed."
+        },
+        {
+          "concept": "short videos using the equipment",
+          "direction": "new",
+          "nearest_counterpart": "no idea yet",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'no idea yet', which contains no substantive concept. None of the four transformation codes is defensible because there is no PRE seed. Outcome: kept as New."
+        },
+        {
+          "concept": "example: 'three pilates moves to do before your day'",
+          "direction": "new",
+          "nearest_counterpart": "no idea yet",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'no idea yet', an absence statement with no concept. The example content idea has no PRE antecedent. Outcome: kept as New."
+        },
+        {
+          "concept": "person is using the equipment",
+          "direction": "new",
+          "nearest_counterpart": "no idea yet",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'no idea yet', which provides no seed. Outcome: kept as New."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "PRE is a single short admission of having no plan ('no idea yet'). POST contains multiple clauses specifying a content format (short videos), a concrete example concept (pree-day pilates moves), and a product-integration note (person using equipment). This is a substantive expansion from an empty placeholder to a fully described content strategy."
+    },
+    "semantic_events": [
+      {
+        "code": "Removed",
+        "pre_evidence": "no idea yet",
+        "post_evidence": null,
+        "rationale": "PRE 'no idea yet' is an explicit absence statement. Nearest POST counterpart 'short videos using the equipment' tested against Narrowed/Reframed/Elaborated/Expanded \u2014 none defensible because an absence has no semantic content to transform. Outcome: kept as Removed.",
+        "alternative_considered": "New",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "short videos using the equipment",
+        "rationale": "POST introduces a content format (short videos) integrating the brand's equipment. Nearest PRE counterpart is 'no idea yet', which contains no concept. No PRE seed exists for Narrowed/Reframed/Elaborated/Expanded. Outcome: kept as New.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "three pilates moves to do before your day",
+        "rationale": "POST introduces a concrete content example concept. Nearest PRE counterpart is 'no idea yet', an absence statement. No defensible transformation. Outcome: kept as New.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "person is using the equipment",
+        "rationale": "POST introduces the product-integration principle (the person in the video uses the equipment). Nearest PRE counterpart is 'no idea yet'. No PRE seed. Outcome: kept as New.",
+        "alternative_considered": "New",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "PRE is an explicit absence statement ('no idea yet'). PRE\u00d7POST cross-product yields no plausible alignments; all POST concepts are New and the PRE absence is Removed after the mandatory re-check confirms no defensible transformation. The four New + one Removed outcome is driven by the PRE being a non-concept, not by missed lineage. Structural Development is Significant Addition because the POST moves from an empty placeholder to a fully elaborated content strategy with format, example, and integration principle."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "no idea yet",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "PRE 'no idea yet' is an explicit absence statement with no semantic content. No transformation code is defensible because there is nothing to transform. Confirmed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "short videos using the equipment",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "No PRE seed exists (PRE is 'no idea yet', an absence statement). New is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "example: 'three pilates moves to do before your day'",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "No PRE seed exists. New is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "person is using the equipment",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "No PRE seed exists. New is correct."
+      }
+    ],
+    "final_alignments": [],
+    "unmatched_pre": [
+      "no idea yet"
+    ],
+    "unmatched_post": [
+      "short videos using the equipment",
+      "example: 'three pilates moves to do before your day'",
+      "person is using the equipment"
+    ],
+    "semantic_events": [
+      {
+        "code": "Removed",
+        "pre_evidence": "no idea yet",
+        "post_evidence": null,
+        "rationale": "PRE is an explicit absence statement ('no idea yet') with no semantic content. No transformation tier is defensible against any POST concept because there is no concept in PRE to narrow, reframe, elaborate, or expand.",
+        "alternative_considered": "New",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "short videos using the equipment",
+        "rationale": "POST introduces a concrete content format concept. Nearest PRE antecedent 'no idea yet' is an absence statement and provides no semantic seed for any transformation.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "example: 'three pilates moves to do before your day'",
+        "rationale": "POST introduces a concrete content example. No PRE seed available ('no idea yet' is an absence statement).",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "person is using the equipment",
+        "rationale": "POST introduces the product-integration principle. No PRE seed available ('no idea yet' is an absence statement).",
+        "alternative_considered": "New",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

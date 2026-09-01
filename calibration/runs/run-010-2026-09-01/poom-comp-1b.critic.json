@@ -1,0 +1,89 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Thai student sharing part of his life on the internet",
+      "post": "build a global community of curious and adventurous minds",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Pass-1 Reframed is correct. Subsumption fails (community-of-others is not a subtype of personal sharing). Same sharing/audience semantic territory, but the organizing frame shifts from personal-life-sharing to community-building. Confirmed."
+    },
+    {
+      "type": "confirm",
+      "pre": "hope that life experience can help others navigate new places",
+      "post": "find joy in cultural exploration",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Pass-1 Reframed is correct. Subsumption fails (joyful exploration is not a subtype of helping-navigate). Same place/cultural semantic territory, but the organizing frame shifts from helper/guide to joyful explorer. Confirmed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "curious and adventurous minds",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE antecedent (help-others-navigate audience) is need-defined, POST audience is disposition-defined. Narrowed/Reframed/Elaborated/Expanded all fail. Audience-as-disposition is a genuinely new characterization. Confirmed."
+    },
+    {
+      "type": "confirm",
+      "pre": "help-others-navigate intent (mentorship/helper role)",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Nearest POST successor is 'find joy in cultural exploration' which uses a joyful-experiencer frame, not a helper frame. The mentorship/helping role has no defensible POST successor. Confirmed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Thai student sharing part of his life on the internet",
+      "post": "build a global community of curious and adventurous minds",
+      "basis": "shared sharing/audience semantic territory; frame shifts from personal-life-sharing to community-building"
+    },
+    {
+      "pre": "hope that life experience can help others navigate new places",
+      "post": "find joy in cultural exploration",
+      "basis": "shared place/cultural-exploration semantic territory; frame shifts from helper/guide to joyful explorer"
+    }
+  ],
+  "unmatched_pre": [
+    "help-others-navigate intent (the mentorship/helper role specifically)"
+  ],
+  "unmatched_post": [
+    "global community (the collective-formation concept is new)",
+    "curious and adventurous minds (specific audience characterization)"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "I envision myself to be a Thai student who loves to share a part of his life on the internet",
+      "post_evidence": "My vision is to build a global community of curious and adventurous minds",
+      "rationale": "Shared semantic territory (sharing/audience relationship) but the organizing frame shifts from personal-life-sharing to community-building. Subsumption test fails: a global community of others is not a specific way of being a single student sharing his own life.",
+      "alternative_considered": "Narrowed (subsumption false)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "hope that my life experience can help them navigate through new places",
+      "post_evidence": "find joy in cultural exploration",
+      "rationale": "Shared semantic territory (exploration of places/cultures) but the organizing frame shifts from helper/guide (mentorship, problem-solving) to joyful explorer (experiential, pleasure-oriented). Subsumption test fails: joyful exploration is not a specific way of helping others navigate.",
+      "alternative_considered": "Narrowed (subsumption false)",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "curious and adventurous minds",
+      "rationale": "POST characterizes the target audience by disposition (curious, adventurous); PRE's implicit audience is defined by need (people who need help navigating new places). Narrowed fails (disposition is not a subtype of need). Reframed fails (need-based vs disposition-based audience frames do not share an organizing frame). Elaborated fails (help-navigate concept not retained). Expanded fails (newcomers-needing-help not broadened into curious/adventurous types).",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "hope that my life experience can help them navigate through new places",
+      "post_evidence": null,
+      "rationale": "The explicit helping/mentorship intent in PRE has no defensible POST successor. Nearest POST counterpart 'find joy in cultural exploration' uses a joyful-experiencer frame, not a helper frame. All four transformation tiers fail.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

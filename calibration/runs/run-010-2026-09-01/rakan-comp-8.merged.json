@@ -1,0 +1,105 @@
+{
+  "coding_unit": {
+    "student_id": "rakan",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "smart home devices"
+    ],
+    "post_concepts": [
+      "smart home appliances and devices",
+      "seamless home integration"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "smart home devices",
+        "post": "smart home appliances and devices",
+        "continuity": "high - core product category preserved",
+        "scope": "POST expands the category to include appliances alongside devices",
+        "frame": "product list \u2192 product category with broader inclusion",
+        "stretch": "minimal",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "smart home devices",
+        "post": "seamless home integration",
+        "continuity": "moderate - devices enable integration but integration is a capability/outcome, not a device",
+        "scope": "different - one is a product category, the other is an experiential outcome",
+        "frame": "product-centric \u2192 outcome/experience-centric",
+        "stretch": "moderate but within same brand-product neighborhood",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "smart home devices",
+        "post": "smart home appliances and devices",
+        "basis": "same product category; POST adds appliances and integration framing"
+      },
+      {
+        "pre": "smart home devices",
+        "post": "seamless home integration",
+        "basis": "shared smart-home product neighborhood; POST specifies the functional outcome the devices deliver"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "smart home devices",
+        "post": "smart home appliances and devices",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Core product category is preserved (physical products \u2192 physical appliances + devices). POST only adds an inclusion ('appliances') and a functional descriptor; the organizing frame remains product-centric. Reframed requires a frame shift, which is not present here. Narrowed is wrong because scope broadens rather than restricts. Confirm Elaborated."
+      },
+      {
+        "type": "confirm",
+        "pre": "smart home devices",
+        "post": "seamless home integration",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Both share a specific smart-home product/capability neighborhood (devices that integrate a home). Narrowed fails: 'Seamless home integration is a specific way of being smart home devices' is false \u2014 integration is an outcome/enablement, not a product subtype. Elaborated fails: the noun itself shifts from product-category to functional-outcome, which is a frame change (product-centric \u2192 outcome/integration-centric), not added modifiers on the same noun. Same semantic territory, shifted organizing frame \u2192 Reframed stands."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST retains the PRE product category and adds a qualifying clause ('that allow seamless home integration') plus an expanded category term ('appliances and devices'). One meaningful addition at the clause level, plus modest in-place elaboration of the product label. Not substantial enough for Significant Addition; not purely stylistic."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "smart home devices",
+      "post_evidence": "smart home appliances and devices that allow seamless home integration",
+      "rationale": "Core product category retained; 'appliances' added alongside 'devices' and a functional clause is attached. Frame remains product-centric; no scope restriction (not Narrowed) and no frame shift (not Reframed).",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "smart home devices",
+      "post_evidence": "seamless home integration",
+      "rationale": "Shared smart-home product/capability neighborhood. POST reframes from product-category label to the experiential/functional outcome the products deliver (product-centric \u2192 outcome/integration-centric). Narrowed fails the subsumption test; Elaborated fails because the organizing noun shifts.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe",
+      "possible_missed_event",
+      "duplicate_pre_antecedent"
+    ],
+    "coder_notes": "Only one PRE unit exists, but the POST splits into two semantic units (category expansion + integration outcome). Treated as two events sharing one antecedent because both POST elements elaborate/refreame the same PRE product concept within the same sentence. The Elaborated vs Reframed boundary for the integration clause is arguable; chose Elaborated for the full sentence-level event because the product frame persists and detail is added, then recorded a second event for the reframed outcome emphasis. If a stricter reading is preferred, the single event could be coded Elaborated with confidence high and the second event dropped. Critic applied 2 correction(s). Consistency check: \"smart home devices\" serves as the antecedent of more than one event. The PRE span likely needs splitting \u2014 review before accepting."
+  },
+  "coded_at": "2026-05-14T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

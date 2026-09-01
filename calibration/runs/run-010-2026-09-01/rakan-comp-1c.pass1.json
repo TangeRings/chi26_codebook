@@ -1,0 +1,81 @@
+{
+  "coding_unit": {
+    "student_id": "rakan",
+    "item_id": "comp-1c"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "eco-friendly",
+      "user-centric solutions",
+      "elevate everyday life"
+    ],
+    "post_concepts": [
+      "Same"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "eco-friendly",
+        "post": "Same",
+        "continuity": "The descriptor is explicitly retained unchanged.",
+        "scope": "No scope change is stated.",
+        "frame": "No frame change is stated.",
+        "stretch": "No interpretive stretch; exact conceptual continuity.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "user-centric solutions",
+        "post": "Same",
+        "continuity": "The descriptor is explicitly retained unchanged.",
+        "scope": "No scope change is stated.",
+        "frame": "No frame change is stated.",
+        "stretch": "No interpretive stretch; exact conceptual continuity.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "elevate everyday life",
+        "post": "Same",
+        "continuity": "The descriptor is explicitly retained unchanged.",
+        "scope": "No scope change is stated.",
+        "frame": "No frame change is stated.",
+        "stretch": "No interpretive stretch; exact conceptual continuity.",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "eco-friendly",
+        "post": "Same",
+        "basis": "Exact textual retention; no semantic change."
+      },
+      {
+        "pre": "user-centric solutions",
+        "post": "Same",
+        "basis": "Exact textual retention; no semantic change."
+      },
+      {
+        "pre": "elevate everyday life",
+        "post": "Same",
+        "basis": "Exact textual retention; no semantic change."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "POST explicitly states the same value set as PRE, with no additions, removals, or meaningful restructuring."
+  },
+  "semantic_events": [],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "POST is identical in meaning and explicitly marked as the same response; no semantic events are warranted."
+  },
+  "coded_at": "2026-01-01T00:00:00Z",
+  "model": "MiniMax-M3"
+}

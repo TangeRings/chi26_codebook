@@ -1,0 +1,101 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "innovative",
+      "post": "Smart",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Pass 1 code is correct. PRE-genericness signal applies: innovative is a generic capability claim. Subsumption test 'Smart is a specific way of being innovative' is defensible (smart = clever/efficient innovation). Narrowed is appropriate."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "minimalist",
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Pass 1 is correct. Minimalism (aesthetic reduction) has no defensible POST successor. Searched full POST set: Smart is cognitive/cleverness, not aesthetic; remaining POSTs are unrelated domains. No shared neighborhood. Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "wellness-focused",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass 1 is correct. Wellness/health orientation has no PRE antecedent. Innovation and wellness occupy different conceptual domains. No defensible transformation across the ladder."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "affordable",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass 1 is correct. Price positioning has no PRE antecedent. Innovation and minimalism are unrelated to affordability. No shared neighborhood."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "accessible for everyone",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass 1 is correct. Universal access/inclusivity has no PRE antecedent. Different conceptual domain from both PRE concepts. No defensible transformation."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "innovative",
+      "post": "Smart",
+      "basis": "Both denote brand capability/cleverness. Smart narrows the generic innovation claim into a specific cognitive/intelligent register."
+    }
+  ],
+  "unmatched_pre": [
+    "minimalist"
+  ],
+  "unmatched_post": [
+    "wellness-focused",
+    "affordable",
+    "accessible for everyone"
+  ],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "innovative",
+      "post_evidence": "Smart",
+      "rationale": "Innovative is a generic capability descriptor; Smart specifies it into a cognitive/cleverness register. Subsumption test is defensible: 'Smart is a specific way of being innovative' holds when innovative is read as a broad capability claim.",
+      "alternative_considered": "Reframed (innovation frame vs intelligence frame as sibling qualities)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "minimalist",
+      "post_evidence": null,
+      "rationale": "Minimalism (aesthetic reduction/simplicity) has no successor in POST. Searched full POST set: Smart is cognitive, remaining POSTs are in unrelated domains (wellness, pricing, access). No shared semantic neighborhood.",
+      "alternative_considered": "Reframed (minimalism \u2192 Smart under an efficiency frame)",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "wellness-focused",
+      "rationale": "Wellness-focused has no antecedent in PRE. Innovation and minimalism do not share a neighborhood with health/wellbeing orientation.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "affordable",
+      "rationale": "Affordable has no antecedent in PRE. Price positioning is a different conceptual domain from both PRE concepts.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "accessible for everyone",
+      "rationale": "Accessible for everyone has no antecedent in PRE. Universal access/inclusivity is a different conceptual domain from both PRE concepts.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ]
+}

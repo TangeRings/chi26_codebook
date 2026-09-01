@@ -1,0 +1,128 @@
+{
+  "coding_unit": {
+    "student_id": "rakan",
+    "item_id": "comp-1a"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Futuristic",
+      "Innovative",
+      "Minimalistic"
+    ],
+    "post_concepts": [
+      "Same"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Futuristic",
+        "post": "Same",
+        "continuity": "degenerate \u2014 POST does not enumerate descriptors",
+        "scope": "cannot be assessed",
+        "frame": "cannot be assessed",
+        "stretch": "no semantic content to pair",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Innovative",
+        "post": "Same",
+        "continuity": "degenerate \u2014 POST does not enumerate descriptors",
+        "scope": "cannot be assessed",
+        "frame": "cannot be assessed",
+        "stretch": "no semantic content to pair",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Minimalistic",
+        "post": "Same",
+        "continuity": "degenerate \u2014 POST does not enumerate descriptors",
+        "scope": "cannot be assessed",
+        "frame": "cannot be assessed",
+        "stretch": "no semantic content to pair",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Futuristic",
+        "post": "Same",
+        "reason": "POST contains no enumerated descriptors; 'Same' is a meta-statement that the prior list is unchanged. There is no semantic successor to align against."
+      },
+      {
+        "pre": "Innovative",
+        "post": "Same",
+        "reason": "POST contains no enumerated descriptors; 'Same' is a meta-statement. No semantic successor to align."
+      },
+      {
+        "pre": "Minimalistic",
+        "post": "Same",
+        "reason": "POST contains no enumerated descriptors; 'Same' is a meta-statement. No semantic successor to align."
+      }
+    ],
+    "matched_pairs": [],
+    "unmatched_pre": [
+      "Futuristic",
+      "Innovative",
+      "Minimalistic"
+    ],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Futuristic",
+        "direction": "removed",
+        "nearest_counterpart": null,
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "POST provides no enumerated descriptors \u2014 it states 'Same' as a meta-declaration that the prior list is retained. There is no POST unit to test against any of the four transformation codes. A full-response search was performed; the only POST content is the literal token 'Same', which carries no descriptor semantics. The PRE descriptors are therefore formally absent as descriptor-level content in POST."
+      },
+      {
+        "concept": "Innovative",
+        "direction": "removed",
+        "nearest_counterpart": null,
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "POST contains only the meta-token 'Same' with no descriptor enumeration. No POST successor exists to test Narrowed, Reframed, Elaborated, or Expanded against. Full-response search performed."
+      },
+      {
+        "concept": "Minimalistic",
+        "direction": "removed",
+        "nearest_counterpart": null,
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "POST contains only the meta-token 'Same' with no descriptor enumeration. No POST successor exists to test against. Full-response search performed."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "The POST response is the literal token 'Same', which the student provides as an explicit declaration that the descriptor set is unchanged. Although the surface text is shorter, the propositional content is identical (the student is asserting the prior list still stands). There are no new clauses, sentences, or descriptors; no existing ones are removed at the level of meaning. This is a stylistic reduction in length with no structural development."
+  },
+  "semantic_events": [],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "possible_missed_event",
+      "order_change_only"
+    ],
+    "coder_notes": "POST is the literal token 'Same', a meta-statement rather than a descriptor enumeration. Under descriptor_set_special, POST contains zero enumerated descriptors, so no descriptor-level events can be emitted. No semantic change is present in the artifact because the student explicitly declares the prior set is retained. The events_possibly_collapsed / possible_missed_event flag is raised because an alternative reading \u2014 that 'Same' implicitly re-states the three PRE descriptors and therefore nothing changed \u2014 is the most defensible interpretation and yields zero events. No Removed events are emitted because no POST descriptor is present to trigger the mandatory re-check in the standard form; the re-check fields above record that no POST counterpart exists for any PRE descriptor. Structural Development is No Change on the grounds that the student's declaration 'Same' explicitly preserves the prior content."
+  },
+  "coded_at": "2026-01-01T00:00:00Z",
+  "model": "MiniMax-M3"
+}

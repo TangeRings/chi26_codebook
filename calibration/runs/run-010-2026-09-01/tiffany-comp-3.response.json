@@ -1,0 +1,1610 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "POST expands a single descriptive paragraph (PRE) into a fully structured demographic/psychographic profile with labeled sections (Age, Location, Income, Education, Values, Interests, Lifestyle, Personality, Digital Savvy, Brand Conscious, Storytelling). Multiple new sentences and entirely new conceptual dimensions (personality traits, brand-conscious criteria, storytelling preference) are added; overall scope is meaningfully larger.",
+    "conceptAlignment": {
+      "unitizationMode": "scoped_category",
+      "preConcepts": [
+        "Young urban professionals",
+        "Post-grads",
+        "Wannabe urban transplants",
+        "People who wanted to do art/design in college but didn't",
+        "Cannot afford luxury goods but interested in art/curation",
+        "Moving out of parents' homes / into a new place post-grad or with new job",
+        "Want to find things to buy for their homes",
+        "Use Pinterest extensively"
+      ],
+      "postConcepts": [
+        "Age 22-35 (post-grad to early career)",
+        "Urban centers / major cities / trendy neighborhoods",
+        "Mid-range income, not in luxury bracket",
+        "College degree, strong interest in aesthetics",
+        "Style, individuality, creativity, functionality, affordability",
+        "Art/design, vintage fashion, mid-century modern furniture, home decor",
+        "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "Trendy, aspirational, curated aesthetic",
+        "Heavy Instagram/Tiktok users, active on Pinterest, comfortable with online shopping",
+        "Brand conscious: values, lifestyle, authenticity, originality",
+        "Drawn to storytelling brands, craftsmanship, social impact"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Young urban professionals",
+          "post": "Age 22-35 (post-grad to early career)",
+          "continuity": "Both specify the core demographic cohort",
+          "scope": "PRE is broad cohort label; POST specifies age range",
+          "frame": "PRE: lifestyle-stage label; POST: demographic descriptor",
+          "stretch": "Reasonable \u2014 POST operationalizes the same cohort",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Young urban professionals",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "continuity": "Both reference urban context",
+          "scope": "PRE embedded urban in label; POST externalizes as standalone geographic descriptor",
+          "frame": "label-embedded vs standalone",
+          "stretch": "Weak \u2014 secondary aspect",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Young urban professionals",
+          "post": "Mid-range income, not in luxury bracket",
+          "continuity": "Both reference economic bracket",
+          "scope": "similar",
+          "frame": "similar",
+          "stretch": "Possible but weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Post-grads",
+          "post": "Age 22-35 (post-grad to early career)",
+          "continuity": "Both reference post-college status",
+          "scope": "subset",
+          "frame": "similar",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Post-grads",
+          "post": "College degree",
+          "continuity": "Both reference education completion",
+          "scope": "similar",
+          "frame": "similar",
+          "stretch": "Weak \u2014 overlaps with cohort match",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Wannabe urban transplants",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "continuity": "Both reference urban-aspirant location",
+          "scope": "similar",
+          "frame": "aspirational urban identity",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "College degree, strong interest in aesthetics",
+          "continuity": "Both reference unfulfilled art/design interest",
+          "scope": "similar",
+          "frame": "regret/constraint vs latent interest",
+          "stretch": "Reasonable",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "Art/design, vintage fashion, mid-century modern furniture, home decor",
+          "continuity": "Both reference art/design interest",
+          "scope": "interest manifested in specific tastes",
+          "frame": "preference",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Mid-range income, not in luxury bracket",
+          "continuity": "Both describe income bracket relative to luxury",
+          "scope": "similar",
+          "frame": "economic constraint on consumption",
+          "stretch": "Strong",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Style, individuality, creativity, functionality, affordability",
+          "continuity": "Affordability maps to value",
+          "scope": "one value vs whole value set",
+          "frame": "consumer constraint \u2192 value set",
+          "stretch": "Weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Moving out of parents' homes / into a new place post-grad or with new job",
+          "post": "Urban living, enjoys shopping",
+          "continuity": "Both reference active consumption/settling phase",
+          "scope": "life-stage consumption vs lifestyle",
+          "frame": "transitional phase vs ongoing lifestyle",
+          "stretch": "Weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Want to find things to buy for their homes",
+          "post": "Art/design, vintage fashion, mid-century modern furniture, home decor",
+          "continuity": "Both reference home goods purchase",
+          "scope": "purchase intent vs specific interests",
+          "frame": "broad home-buying \u2192 specific categories",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Want to find things to buy for their homes",
+          "post": "Mid-century modern furniture, home decor",
+          "continuity": "Specific home-furnishing categories",
+          "scope": "subset",
+          "frame": "interest specification",
+          "stretch": "Plausible \u2014 Narrowed candidate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Use Pinterest extensively",
+          "post": "Heavy Instagram/Tiktok users, likely active on Pinterest",
+          "continuity": "Both reference Pinterest and platform usage",
+          "scope": "PRE solo; POST expanded to multiple platforms",
+          "frame": "single platform \u2192 multi-platform digital savvy",
+          "stretch": "Strong",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [],
+      "matchedPairs": [
+        {
+          "pre": "Young urban professionals",
+          "post": "Age 22-35 (post-grad to early career)",
+          "basis": "Scope restriction: explicit age band is a proper subset of the broader 'young urban professional' cohort"
+        },
+        {
+          "pre": "Post-grads",
+          "post": "College degree",
+          "basis": "POST adds explicit credential detail to the underlying education-status concept"
+        },
+        {
+          "pre": "Wannabe urban transplants",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "basis": "Reframed: person-label-aspirant \u2192 standalone geographic descriptor; same aspirational-urban territory"
+        },
+        {
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "College degree, strong interest in aesthetics",
+          "basis": "Reframed: regret/constraint narrative \u2192 latent-aesthetic-interest profile; same unfulfilled-art-passion subject"
+        },
+        {
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Mid-range income, not in luxury bracket",
+          "basis": "Reframed: denial-of-access \u2192 calibrated income-tier positioning"
+        },
+        {
+          "pre": "Want to find things to buy for their homes",
+          "post": "Mid-century modern furniture, home decor",
+          "basis": "Narrowed: specific home-furnishing categories are a proper subset of the broader home-goods purchase intent"
+        },
+        {
+          "pre": "Use Pinterest extensively",
+          "post": "Heavy Instagram/Tiktok users, active on Pinterest",
+          "basis": "Expanded: Pinterest seed broadened to multi-platform digital-savvy profile"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [
+        "Style, individuality, creativity, functionality, affordability",
+        "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "Trendy, aspirational, curated aesthetic",
+        "Brand conscious: values, lifestyle, authenticity, originality",
+        "Drawn to storytelling brands, craftsmanship, social impact"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "Trendy, aspirational, curated aesthetic",
+          "direction": "new",
+          "nearestCounterpart": "Wannabe urban transplants",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Aspirational aesthetic is a personality/style descriptor; nearest PRE (wannabe transplants) anchors location-aspiration not style-aspiration. No defensible lineage."
+        },
+        {
+          "concept": "Brand conscious: values, lifestyle, authenticity, originality",
+          "direction": "new",
+          "nearestCounterpart": "Cannot afford luxury goods but interested in art/curation",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Brand consciousness is a consumer-attitude construct not present in PRE; no antecedent in PRE for this relationship-to-brands concept."
+        },
+        {
+          "concept": "Drawn to storytelling brands, craftsmanship, social impact",
+          "direction": "new",
+          "nearestCounterpart": "People who wanted to do art/design in college but didn't",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Storytelling/social-impact preference is a brand-evaluation criterion not present in PRE. No defensible lineage to art-interest antecedent."
+        },
+        {
+          "concept": "Style, individuality, creativity, functionality, affordability",
+          "direction": "new",
+          "nearestCounterpart": "Cannot afford luxury goods but interested in art/curation",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Affordability maps to the economic-bracket constraint; values list partly elaborates the consumer profile. However, the broader value set is genuinely new psychographic structure. Kept as New because no PRE span enumerates values; affordability alone is insufficient to constitute a match for the whole set."
+        },
+        {
+          "concept": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+          "direction": "new",
+          "nearestCounterpart": "Moving out of parents' homes / into a new place post-grad or with new job",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Lifestyle-behaviors list is a genuinely new psychographic dimension; no PRE antecedent enumerates daily consumer behaviors."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Young urban professionals",
+          "post": "Age 22-35 (post-grad to early career)",
+          "fromCode": "Narrowed",
+          "toCode": "Narrowed",
+          "reason": "Scope restriction holds; age band is a proper subset of the broader cohort. BC-004 logic correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "Post-grads",
+          "post": "College degree",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "POST adds explicit credential detail without shifting the underlying education-status concept. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "Wannabe urban transplants",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Frame shifts from person-label-aspirant to standalone geographic descriptor; same aspirational-urban territory. Not subsumption."
+        },
+        {
+          "type": "confirm",
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "College degree, strong interest in aesthetics",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Frame shifts from regret/constraint narrative to latent-aesthetic-interest profile. Same underlying subject, different organizing frame."
+        },
+        {
+          "type": "confirm",
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Mid-range income, not in luxury bracket",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Frame shifts from denial-of-access to tier-positioning. Same economic-bracketing territory; not subsumption."
+        },
+        {
+          "type": "confirm",
+          "pre": "Want to find things to buy for their homes",
+          "post": "Mid-century modern furniture, home decor",
+          "fromCode": "Narrowed",
+          "toCode": "Narrowed",
+          "reason": "Specific home-furnishing categories are a proper subset of the broader home-goods purchase intent."
+        },
+        {
+          "type": "confirm",
+          "pre": "Use Pinterest extensively",
+          "post": "Heavy Instagram/Tiktok users, active on Pinterest",
+          "fromCode": "Expanded",
+          "toCode": "Expanded",
+          "reason": "Recognizable Pinterest seed broadened outward to multi-platform digital profile."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Style, individuality, creativity, functionality, affordability",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Enumerated value-set is genuinely new psychographic structure; affordability in PRE income description does not constitute a values-enumeration antecedent."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Behavioral-enumeration lifestyle list is genuinely new; settling-into-new-home is a life-stage transition, not a behavioral list antecedent."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Trendy, aspirational, curated aesthetic",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Personality-trait cluster is genuinely new. Wannabe transplants anchor location-aspiration not style-aspiration; identity umbrella is at the abstraction ceiling."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Brand conscious: values, lifestyle, authenticity, originality",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Brand-evaluation attitude has no PRE antecedent describing relationship to brands themselves."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Drawn to storytelling brands, craftsmanship, social impact",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Brand-selection criterion is entirely new; no PRE antecedent."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti77lesqpfm5v21vfb",
+        "code": "Narrowed",
+        "preEvidence": "Young urban professionals",
+        "postEvidence": "Age 22-35 (post-grad to early career)",
+        "rationale": "POST restricts the age range of the cohort; explicit age band is a proper subset of the broader 'young urban professional' population.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti77letsvdsyyc1bn",
+        "code": "Elaborated",
+        "preEvidence": "Post-grads",
+        "postEvidence": "College degree",
+        "rationale": "POST adds the explicit credential detail without shifting the underlying education-status concept.",
+        "confidence": "medium",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti77letogx4u919ali",
+        "code": "Reframed",
+        "preEvidence": "Wannabe urban transplants",
+        "postEvidence": "Urban centers / major cities / trendy neighborhoods",
+        "rationale": "Frame shifts from person-label-aspirant (aspirational identity embedded in 'who they are') to standalone geographic descriptor. Same aspirational-urban territory.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti77let2rhp48thtl9",
+        "code": "Reframed",
+        "preEvidence": "People who wanted to do art/design in college but didn't",
+        "postEvidence": "College degree, strong interest in aesthetics",
+        "rationale": "Frame shifts from regret/constraint narrative to latent-aesthetic-interest profile. Same unfulfilled-art-passion subject matter, different organizing frame.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti77letw3bx90jl5j",
+        "code": "Reframed",
+        "preEvidence": "Cannot afford luxury goods but interested in art/curation",
+        "postEvidence": "Mid-range income, not in luxury bracket",
+        "rationale": "Frame shifts from affordability-as-constraint denial to calibrated income-tier positioning. Same economic-bracketing territory relative to luxury.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti77let59fn2e9l6pp",
+        "code": "Narrowed",
+        "preEvidence": "Want to find things to buy for their homes",
+        "postEvidence": "Mid-century modern furniture, home decor",
+        "rationale": "POST restricts the broad home-goods purchase interest to specific furnishing categories \u2014 a proper subset of the original home-goods universe.",
+        "confidence": "high",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti77letghc78oqkmt",
+        "code": "Expanded",
+        "preEvidence": "Use Pinterest extensively",
+        "postEvidence": "Heavy Instagram/Tiktok users, active on Pinterest",
+        "rationale": "POST broadens single-platform Pinterest usage to multi-platform digital-savvy profile including Instagram, Tiktok, and online shopping. Recognizable Pinterest seed.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti77letpazoll1p5th",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Style, individuality, creativity, functionality, affordability",
+        "rationale": "Enumerated value-set is a genuinely new psychographic dimension. Nearest PRE counterpart (affordability in income description) does not constitute a values enumeration; no defensible transformation.",
+        "confidence": "high",
+        "alternativeConsidered": null
+      },
+      {
+        "instanceId": "mti77let4ua44ola5k",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "rationale": "Daily-behaviors lifestyle list is a new dimension. Nearest PRE (settling-into-new-home) is a life-stage transition, not a behavioral-enumeration antecedent.",
+        "confidence": "high",
+        "alternativeConsidered": null
+      },
+      {
+        "instanceId": "mti77letjrts3f4jk3j",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Trendy, aspirational, curated aesthetic",
+        "rationale": "Personality-trait cluster is a new descriptor. Nearest PRE (wannabe transplants) is aspirational-location not aspirational-style; identity/self-presentation umbrella is at the abstraction ceiling.",
+        "confidence": "high",
+        "alternativeConsidered": null
+      },
+      {
+        "instanceId": "mti77letluibro24t1",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Brand conscious: values, lifestyle, authenticity, originality",
+        "rationale": "Brand-evaluation attitude is a new construct. No PRE antecedent describes relationship to brands themselves.",
+        "confidence": "high",
+        "alternativeConsidered": null
+      },
+      {
+        "instanceId": "mti77let434zoo12yws",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Drawn to storytelling brands, craftsmanship, social impact",
+        "rationale": "Storytelling/craftsmanship/social-impact brand preference is entirely new. No PRE antecedent for this brand-selection criterion.",
+        "confidence": "high",
+        "alternativeConsidered": null
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "vague_to_specific_lineage",
+        "boundary_case_elab_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "Several PRE\u2192POST pairs sit at the boundary between Reframed and Elaborated because POST reframes the same territory under more marketing-strategic vocabulary (regret\u2192latent interest, constraint\u2192tier positioning, person-label\u2192location-descriptor). Recorded as Reframed with the post-frame named. The structured POST response style suggests exposure to a brand-strategy framework, but no direct textual evidence of metacognition or personal background is present, so no learner-agency event is emitted. Critic applied 12 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "Young urban professionals",
+        "Post-grads",
+        "Wannabe urban transplants",
+        "People who wanted to do art/design in college but didn't",
+        "Cannot afford luxury goods but interested in art/curation",
+        "Moving out of parents' homes / into a new place post-grad or with new job",
+        "Want to find things to buy for their homes",
+        "Use Pinterest extensively"
+      ],
+      "post_concepts": [
+        "Age 22-35 (post-grad to early career)",
+        "Urban centers / major cities / trendy neighborhoods",
+        "Mid-range income, not in luxury bracket",
+        "College degree, strong interest in aesthetics",
+        "Style, individuality, creativity, functionality, affordability",
+        "Art/design, vintage fashion, mid-century modern furniture, home decor",
+        "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "Trendy, aspirational, curated aesthetic",
+        "Heavy Instagram/Tiktok users, active on Pinterest, comfortable with online shopping",
+        "Brand conscious: values, lifestyle, authenticity, originality",
+        "Drawn to storytelling brands, craftsmanship, social impact"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Young urban professionals",
+          "post": "Age 22-35 (post-grad to early career)",
+          "continuity": "Both specify the core demographic cohort",
+          "scope": "PRE is broad cohort label; POST specifies age range",
+          "frame": "PRE: lifestyle-stage label; POST: demographic descriptor",
+          "stretch": "Reasonable \u2014 POST operationalizes the same cohort",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Young urban professionals",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "continuity": "Both reference urban context",
+          "scope": "PRE embedded urban in label; POST externalizes as standalone geographic descriptor",
+          "frame": "label-embedded vs standalone",
+          "stretch": "Weak \u2014 secondary aspect",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Young urban professionals",
+          "post": "Mid-range income, not in luxury bracket",
+          "continuity": "Both reference economic bracket",
+          "scope": "similar",
+          "frame": "similar",
+          "stretch": "Possible but weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Post-grads",
+          "post": "Age 22-35 (post-grad to early career)",
+          "continuity": "Both reference post-college status",
+          "scope": "subset",
+          "frame": "similar",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Post-grads",
+          "post": "College degree",
+          "continuity": "Both reference education completion",
+          "scope": "similar",
+          "frame": "similar",
+          "stretch": "Weak \u2014 overlaps with cohort match",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Wannabe urban transplants",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "continuity": "Both reference urban-aspirant location",
+          "scope": "similar",
+          "frame": "aspirational urban identity",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "College degree, strong interest in aesthetics",
+          "continuity": "Both reference unfulfilled art/design interest",
+          "scope": "similar",
+          "frame": "regret/constraint vs latent interest",
+          "stretch": "Reasonable",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "Art/design, vintage fashion, mid-century modern furniture, home decor",
+          "continuity": "Both reference art/design interest",
+          "scope": "interest manifested in specific tastes",
+          "frame": "preference",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Mid-range income, not in luxury bracket",
+          "continuity": "Both describe income bracket relative to luxury",
+          "scope": "similar",
+          "frame": "economic constraint on consumption",
+          "stretch": "Strong",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Style, individuality, creativity, functionality, affordability",
+          "continuity": "Affordability maps to value",
+          "scope": "one value vs whole value set",
+          "frame": "consumer constraint \u2192 value set",
+          "stretch": "Weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Moving out of parents' homes / into a new place post-grad or with new job",
+          "post": "Urban living, enjoys shopping",
+          "continuity": "Both reference active consumption/settling phase",
+          "scope": "life-stage consumption vs lifestyle",
+          "frame": "transitional phase vs ongoing lifestyle",
+          "stretch": "Weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Want to find things to buy for their homes",
+          "post": "Art/design, vintage fashion, mid-century modern furniture, home decor",
+          "continuity": "Both reference home goods purchase",
+          "scope": "purchase intent vs specific interests",
+          "frame": "broad home-buying \u2192 specific categories",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Want to find things to buy for their homes",
+          "post": "Mid-century modern furniture, home decor",
+          "continuity": "Specific home-furnishing categories",
+          "scope": "subset",
+          "frame": "interest specification",
+          "stretch": "Plausible \u2014 Narrowed candidate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Use Pinterest extensively",
+          "post": "Heavy Instagram/Tiktok users, likely active on Pinterest",
+          "continuity": "Both reference Pinterest and platform usage",
+          "scope": "PRE solo; POST expanded to multiple platforms",
+          "frame": "single platform \u2192 multi-platform digital savvy",
+          "stretch": "Strong",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "Young urban professionals",
+          "post": "Age 22-35 (post-grad to early career)",
+          "basis": "Scope restriction: explicit age band is a proper subset of the broader 'young urban professional' cohort"
+        },
+        {
+          "pre": "Post-grads",
+          "post": "College degree",
+          "basis": "POST adds explicit credential detail to the underlying education-status concept"
+        },
+        {
+          "pre": "Wannabe urban transplants",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "basis": "Reframed: person-label-aspirant \u2192 standalone geographic descriptor; same aspirational-urban territory"
+        },
+        {
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "College degree, strong interest in aesthetics",
+          "basis": "Reframed: regret/constraint narrative \u2192 latent-aesthetic-interest profile; same unfulfilled-art-passion subject"
+        },
+        {
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Mid-range income, not in luxury bracket",
+          "basis": "Reframed: denial-of-access \u2192 calibrated income-tier positioning"
+        },
+        {
+          "pre": "Want to find things to buy for their homes",
+          "post": "Mid-century modern furniture, home decor",
+          "basis": "Narrowed: specific home-furnishing categories are a proper subset of the broader home-goods purchase intent"
+        },
+        {
+          "pre": "Use Pinterest extensively",
+          "post": "Heavy Instagram/Tiktok users, active on Pinterest",
+          "basis": "Expanded: Pinterest seed broadened to multi-platform digital-savvy profile"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "Style, individuality, creativity, functionality, affordability",
+        "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "Trendy, aspirational, curated aesthetic",
+        "Brand conscious: values, lifestyle, authenticity, originality",
+        "Drawn to storytelling brands, craftsmanship, social impact"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Trendy, aspirational, curated aesthetic",
+          "direction": "new",
+          "nearest_counterpart": "Wannabe urban transplants",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Aspirational aesthetic is a personality/style descriptor; nearest PRE (wannabe transplants) anchors location-aspiration not style-aspiration. No defensible lineage."
+        },
+        {
+          "concept": "Brand conscious: values, lifestyle, authenticity, originality",
+          "direction": "new",
+          "nearest_counterpart": "Cannot afford luxury goods but interested in art/curation",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Brand consciousness is a consumer-attitude construct not present in PRE; no antecedent in PRE for this relationship-to-brands concept."
+        },
+        {
+          "concept": "Drawn to storytelling brands, craftsmanship, social impact",
+          "direction": "new",
+          "nearest_counterpart": "People who wanted to do art/design in college but didn't",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Storytelling/social-impact preference is a brand-evaluation criterion not present in PRE. No defensible lineage to art-interest antecedent."
+        },
+        {
+          "concept": "Style, individuality, creativity, functionality, affordability",
+          "direction": "new",
+          "nearest_counterpart": "Cannot afford luxury goods but interested in art/curation",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Affordability maps to the economic-bracket constraint; values list partly elaborates the consumer profile. However, the broader value set is genuinely new psychographic structure. Kept as New because no PRE span enumerates values; affordability alone is insufficient to constitute a match for the whole set."
+        },
+        {
+          "concept": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+          "direction": "new",
+          "nearest_counterpart": "Moving out of parents' homes / into a new place post-grad or with new job",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Lifestyle-behaviors list is a genuinely new psychographic dimension; no PRE antecedent enumerates daily consumer behaviors."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Young urban professionals",
+          "post": "Age 22-35 (post-grad to early career)",
+          "from_code": "Narrowed",
+          "to_code": "Narrowed",
+          "reason": "Scope restriction holds; age band is a proper subset of the broader cohort. BC-004 logic correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "Post-grads",
+          "post": "College degree",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "POST adds explicit credential detail without shifting the underlying education-status concept. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "Wannabe urban transplants",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Frame shifts from person-label-aspirant to standalone geographic descriptor; same aspirational-urban territory. Not subsumption."
+        },
+        {
+          "type": "confirm",
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "College degree, strong interest in aesthetics",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Frame shifts from regret/constraint narrative to latent-aesthetic-interest profile. Same underlying subject, different organizing frame."
+        },
+        {
+          "type": "confirm",
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Mid-range income, not in luxury bracket",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Frame shifts from denial-of-access to tier-positioning. Same economic-bracketing territory; not subsumption."
+        },
+        {
+          "type": "confirm",
+          "pre": "Want to find things to buy for their homes",
+          "post": "Mid-century modern furniture, home decor",
+          "from_code": "Narrowed",
+          "to_code": "Narrowed",
+          "reason": "Specific home-furnishing categories are a proper subset of the broader home-goods purchase intent."
+        },
+        {
+          "type": "confirm",
+          "pre": "Use Pinterest extensively",
+          "post": "Heavy Instagram/Tiktok users, active on Pinterest",
+          "from_code": "Expanded",
+          "to_code": "Expanded",
+          "reason": "Recognizable Pinterest seed broadened outward to multi-platform digital profile."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Style, individuality, creativity, functionality, affordability",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Enumerated value-set is genuinely new psychographic structure; affordability in PRE income description does not constitute a values-enumeration antecedent."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Behavioral-enumeration lifestyle list is genuinely new; settling-into-new-home is a life-stage transition, not a behavioral list antecedent."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Trendy, aspirational, curated aesthetic",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Personality-trait cluster is genuinely new. Wannabe transplants anchor location-aspiration not style-aspiration; identity umbrella is at the abstraction ceiling."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Brand conscious: values, lifestyle, authenticity, originality",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Brand-evaluation attitude has no PRE antecedent describing relationship to brands themselves."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Drawn to storytelling brands, craftsmanship, social impact",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Brand-selection criterion is entirely new; no PRE antecedent."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "POST expands a single descriptive paragraph (PRE) into a fully structured demographic/psychographic profile with labeled sections (Age, Location, Income, Education, Values, Interests, Lifestyle, Personality, Digital Savvy, Brand Conscious, Storytelling). Multiple new sentences and entirely new conceptual dimensions (personality traits, brand-conscious criteria, storytelling preference) are added; overall scope is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Young urban professionals",
+        "post_evidence": "Age 22-35 (post-grad to early career)",
+        "rationale": "POST restricts the age range of the cohort; explicit age band is a proper subset of the broader 'young urban professional' population.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Post-grads",
+        "post_evidence": "College degree",
+        "rationale": "POST adds the explicit credential detail without shifting the underlying education-status concept.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Wannabe urban transplants",
+        "post_evidence": "Urban centers / major cities / trendy neighborhoods",
+        "rationale": "Frame shifts from person-label-aspirant (aspirational identity embedded in 'who they are') to standalone geographic descriptor. Same aspirational-urban territory.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "People who wanted to do art/design in college but didn't",
+        "post_evidence": "College degree, strong interest in aesthetics",
+        "rationale": "Frame shifts from regret/constraint narrative to latent-aesthetic-interest profile. Same unfulfilled-art-passion subject matter, different organizing frame.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Cannot afford luxury goods but interested in art/curation",
+        "post_evidence": "Mid-range income, not in luxury bracket",
+        "rationale": "Frame shifts from affordability-as-constraint denial to calibrated income-tier positioning. Same economic-bracketing territory relative to luxury.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Want to find things to buy for their homes",
+        "post_evidence": "Mid-century modern furniture, home decor",
+        "rationale": "POST restricts the broad home-goods purchase interest to specific furnishing categories \u2014 a proper subset of the original home-goods universe.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "Use Pinterest extensively",
+        "post_evidence": "Heavy Instagram/Tiktok users, active on Pinterest",
+        "rationale": "POST broadens single-platform Pinterest usage to multi-platform digital-savvy profile including Instagram, Tiktok, and online shopping. Recognizable Pinterest seed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Style, individuality, creativity, functionality, affordability",
+        "rationale": "Enumerated value-set is a genuinely new psychographic dimension. Nearest PRE counterpart (affordability in income description) does not constitute a values enumeration; no defensible transformation.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "rationale": "Daily-behaviors lifestyle list is a new dimension. Nearest PRE (settling-into-new-home) is a life-stage transition, not a behavioral-enumeration antecedent.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Trendy, aspirational, curated aesthetic",
+        "rationale": "Personality-trait cluster is a new descriptor. Nearest PRE (wannabe transplants) is aspirational-location not aspirational-style; identity/self-presentation umbrella is at the abstraction ceiling.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Brand conscious: values, lifestyle, authenticity, originality",
+        "rationale": "Brand-evaluation attitude is a new construct. No PRE antecedent describes relationship to brands themselves.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Drawn to storytelling brands, craftsmanship, social impact",
+        "rationale": "Storytelling/craftsmanship/social-impact brand preference is entirely new. No PRE antecedent for this brand-selection criterion.",
+        "alternative_considered": null,
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "vague_to_specific_lineage",
+        "boundary_case_elab_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "Several PRE\u2192POST pairs sit at the boundary between Reframed and Elaborated because POST reframes the same territory under more marketing-strategic vocabulary (regret\u2192latent interest, constraint\u2192tier positioning, person-label\u2192location-descriptor). Recorded as Reframed with the post-frame named. The structured POST response style suggests exposure to a brand-strategy framework, but no direct textual evidence of metacognition or personal background is present, so no learner-agency event is emitted. Critic applied 12 correction(s)."
+    },
+    "coded_at": "2026-05-14T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "Young urban professionals",
+        "Post-grads",
+        "Wannabe urban transplants",
+        "People who wanted to do art/design in college but didn't",
+        "Cannot afford luxury goods but interested in art/curation",
+        "Moving out of parents' homes / into a new place post-grad or with new job",
+        "Want to find things to buy for their homes",
+        "Use Pinterest extensively"
+      ],
+      "post_concepts": [
+        "Age 22-35 (post-grad to early career)",
+        "Urban centers / major cities / trendy neighborhoods",
+        "Mid-range income, not in luxury bracket",
+        "College degree, strong interest in aesthetics",
+        "Style, individuality, creativity, functionality, affordability",
+        "Art/design, vintage fashion, mid-century modern furniture, home decor",
+        "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "Trendy, aspirational, curated aesthetic",
+        "Heavy Instagram/Tiktok users, active on Pinterest, comfortable with online shopping",
+        "Brand conscious: values, lifestyle, authenticity, originality",
+        "Drawn to storytelling brands, craftsmanship, social impact"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Young urban professionals",
+          "post": "Age 22-35 (post-grad to early career)",
+          "continuity": "Both specify the core demographic cohort",
+          "scope": "PRE is broad cohort label; POST specifies age range",
+          "frame": "PRE: lifestyle-stage label; POST: demographic descriptor",
+          "stretch": "Reasonable \u2014 POST operationalizes the same cohort",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Young urban professionals",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "continuity": "Both reference urban context",
+          "scope": "PRE embedded urban in label; POST externalizes as standalone geographic descriptor",
+          "frame": "label-embedded vs standalone",
+          "stretch": "Weak \u2014 secondary aspect",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Young urban professionals",
+          "post": "Mid-range income, not in luxury bracket",
+          "continuity": "Both reference economic bracket",
+          "scope": "similar",
+          "frame": "similar",
+          "stretch": "Possible but weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Post-grads",
+          "post": "Age 22-35 (post-grad to early career)",
+          "continuity": "Both reference post-college status",
+          "scope": "subset",
+          "frame": "similar",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Post-grads",
+          "post": "College degree",
+          "continuity": "Both reference education completion",
+          "scope": "similar",
+          "frame": "similar",
+          "stretch": "Weak \u2014 overlaps with cohort match",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Wannabe urban transplants",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "continuity": "Both reference urban-aspirant location",
+          "scope": "similar",
+          "frame": "aspirational urban identity",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "College degree, strong interest in aesthetics",
+          "continuity": "Both reference unfulfilled art/design interest",
+          "scope": "similar",
+          "frame": "regret/constraint vs latent interest",
+          "stretch": "Reasonable",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "Art/design, vintage fashion, mid-century modern furniture, home decor",
+          "continuity": "Both reference art/design interest",
+          "scope": "interest manifested in specific tastes",
+          "frame": "preference",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Mid-range income, not in luxury bracket",
+          "continuity": "Both describe income bracket relative to luxury",
+          "scope": "similar",
+          "frame": "economic constraint on consumption",
+          "stretch": "Strong",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Style, individuality, creativity, functionality, affordability",
+          "continuity": "Affordability maps to value",
+          "scope": "one value vs whole value set",
+          "frame": "consumer constraint \u2192 value set",
+          "stretch": "Weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Moving out of parents' homes / into a new place post-grad or with new job",
+          "post": "Urban living, enjoys shopping",
+          "continuity": "Both reference active consumption/settling phase",
+          "scope": "life-stage consumption vs lifestyle",
+          "frame": "transitional phase vs ongoing lifestyle",
+          "stretch": "Weak",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Want to find things to buy for their homes",
+          "post": "Art/design, vintage fashion, mid-century modern furniture, home decor",
+          "continuity": "Both reference home goods purchase",
+          "scope": "purchase intent vs specific interests",
+          "frame": "broad home-buying \u2192 specific categories",
+          "stretch": "Plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Want to find things to buy for their homes",
+          "post": "Mid-century modern furniture, home decor",
+          "continuity": "Specific home-furnishing categories",
+          "scope": "subset",
+          "frame": "interest specification",
+          "stretch": "Plausible \u2014 Narrowed candidate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Use Pinterest extensively",
+          "post": "Heavy Instagram/Tiktok users, likely active on Pinterest",
+          "continuity": "Both reference Pinterest and platform usage",
+          "scope": "PRE solo; POST expanded to multiple platforms",
+          "frame": "single platform \u2192 multi-platform digital savvy",
+          "stretch": "Strong",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "Young urban professionals",
+          "post": "Age 22-35 (post-grad to early career)",
+          "basis": "Same core cohort; POST operationalizes with explicit age band"
+        },
+        {
+          "pre": "Post-grads",
+          "post": "College degree",
+          "basis": "Both reference education status; POST specifies the credential"
+        },
+        {
+          "pre": "Wannabe urban transplants",
+          "post": "Urban centers / major cities / trendy neighborhoods",
+          "basis": "Both anchor aspirational urban identity"
+        },
+        {
+          "pre": "People who wanted to do art/design in college but didn't",
+          "post": "College degree, strong interest in aesthetics",
+          "basis": "Both reference unfulfilled-art-passion profile; POST reframes regret as latent aesthetic interest"
+        },
+        {
+          "pre": "Cannot afford luxury goods but interested in art/curation",
+          "post": "Mid-range income, not in luxury bracket",
+          "basis": "Same economic positioning relative to luxury bracket"
+        },
+        {
+          "pre": "Want to find things to buy for their homes",
+          "post": "Mid-century modern furniture, home decor",
+          "basis": "Home-goods interest narrowed to specific categories"
+        },
+        {
+          "pre": "Use Pinterest extensively",
+          "post": "Heavy Instagram/Tiktok users, likely active on Pinterest",
+          "basis": "Platform usage; POST broadens to multi-platform digital savvy"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "Trendy, aspirational, curated aesthetic",
+        "Brand conscious: values, lifestyle, authenticity, originality",
+        "Drawn to storytelling brands, craftsmanship, social impact",
+        "Style, individuality, creativity, functionality, affordability",
+        "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Trendy, aspirational, curated aesthetic",
+          "direction": "new",
+          "nearest_counterpart": "Wannabe urban transplants",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Aspirational aesthetic is a personality/style descriptor; nearest PRE (wannabe transplants) anchors location-aspiration not style-aspiration. No defensible lineage."
+        },
+        {
+          "concept": "Brand conscious: values, lifestyle, authenticity, originality",
+          "direction": "new",
+          "nearest_counterpart": "Cannot afford luxury goods but interested in art/curation",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Brand consciousness is a consumer-attitude construct not present in PRE; no antecedent in PRE for this relationship-to-brands concept."
+        },
+        {
+          "concept": "Drawn to storytelling brands, craftsmanship, social impact",
+          "direction": "new",
+          "nearest_counterpart": "People who wanted to do art/design in college but didn't",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Storytelling/social-impact preference is a brand-evaluation criterion not present in PRE. No defensible lineage to art-interest antecedent."
+        },
+        {
+          "concept": "Style, individuality, creativity, functionality, affordability",
+          "direction": "new",
+          "nearest_counterpart": "Cannot afford luxury goods but interested in art/curation",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Affordability maps to the economic-bracket constraint; values list partly elaborates the consumer profile. However, the broader value set is genuinely new psychographic structure. Kept as New because no PRE span enumerates values; affordability alone is insufficient to constitute a match for the whole set."
+        },
+        {
+          "concept": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+          "direction": "new",
+          "nearest_counterpart": "Moving out of parents' homes / into a new place post-grad or with new job",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Lifestyle-behaviors list is a genuinely new psychographic dimension; no PRE antecedent enumerates daily consumer behaviors."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "POST expands a single descriptive paragraph (PRE) into a fully structured demographic/psychographic profile with labeled sections (Age, Location, Income, Education, Values, Interests, Lifestyle, Personality, Digital Savvy, Brand Conscious, Storytelling). Multiple new sentences and entirely new conceptual dimensions (personality traits, brand-conscious criteria, storytelling preference) are added; overall scope is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Young urban professionals",
+        "post_evidence": "Age 22-35 (post-grad to early career)",
+        "rationale": "POST restricts the age range of the cohort; a narrower age band is a proper subset of the broader 'young urban professional' population. Scope restriction outranks Reframed per BC-004 logic.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Post-grads",
+        "post_evidence": "College degree",
+        "rationale": "POST adds the explicit credential detail without shifting the underlying education-status concept.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Wannabe urban transplants",
+        "post_evidence": "Urban centers, likely in major cities or trendy neighborhoods",
+        "rationale": "Pre-frame: aspirational-identity label embedded in people. Post-frame: explicit geographic descriptor externalized from the label. Same aspirational-urban semantic territory, but the organizing frame shifts from person-label to location.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "People who probably wanted to do art/design in college but didn't have the time or money to",
+        "post_evidence": "College degree, not necessarily in a field outside of art or design, but with a strong interest in aesthetics",
+        "rationale": "Pre-frame: regret/constraint narrative (failed-to-study-art). Post-frame: latent-aesthetic-interest profile. Same underlying unfulfilled-art-passion subject matter, but the frame shifts from explicit regret to quiet enduring interest.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "cannot afford luxury goods but are still interested in art and curation",
+        "post_evidence": "Mid-range, likely earning a comfortable salary but not yet in the luxury goods bracket",
+        "rationale": "Pre-frame: explicit affordability-as-constraint. Post-frame: calibrated income-tier positioning. Same economic-bracketing territory, reframed from denial-of-access to tier-positioning language.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Narrowed",
+        "pre_evidence": "want to find things to buy for their homes",
+        "post_evidence": "mid-century modern furniture, home decor",
+        "rationale": "POST restricts the broad 'things to buy for their homes' category to specific furnishing categories \u2014 a proper subset of the original home-goods universe.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "use Pinterest extensively",
+        "post_evidence": "Heavy Instagram/Tiktok users, likely active on Pinterest",
+        "rationale": "POST broadens the single-platform Pinterest usage to a multi-platform digital-savvy profile that includes Instagram, Tiktok, and online shopping. Recognizable Pinterest seed broadened outward.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Style, individuality, creativity, functionality, affordability",
+        "rationale": "Enumerated value-set is a genuinely new psychographic dimension not present in PRE. Nearest PRE counterpart (affordability in income description) does not constitute a values enumeration; no defensible transformation.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "rationale": "Daily-behaviors lifestyle list is a new dimension. Nearest PRE (settling-into-new-home) is a life-stage transition, not a behavioral-enumeration antecedent.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Trendy, aspirational, curated aesthetic",
+        "rationale": "Personality-trait cluster (trendy/aspirational/curated) is a new descriptor not present in PRE. Nearest counterpart (wannabe transplants) is aspirational location not aspirational style.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Brand Conscious: Interested in brands that align with their values and lifestyle, appreciate authenticity and originality",
+        "rationale": "Brand-evaluation attitude is a new construct. No PRE antecedent describes relationship to brands themselves.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Storytelling: Drawn to brands that tell a story, especially those with a focus on craftsmanship or social impact",
+        "rationale": "Storytelling/craftsmanship/social-impact brand preference is entirely new. No PRE antecedent for this brand-selection criterion.",
+        "alternative_considered": null,
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "vague_to_specific_lineage",
+        "boundary_case_elab_vs_reframe"
+      ],
+      "coder_notes": "Several PRE\u2192POST pairs sit at the boundary between Reframed and Elaborated because POST reframes the same territory under more marketing-strategic vocabulary (regret\u2192latent interest, constraint\u2192tier positioning, person-label\u2192location-descriptor). Recorded as Reframed with the post-frame named. The structured POST response style suggests exposure to a brand-strategy framework, but no direct textual evidence of metacognition or personal background is present, so no learner-agency event is emitted."
+    },
+    "coded_at": "2026-05-14T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Young urban professionals",
+        "post": "Age 22-35 (post-grad to early career)",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Scope restriction holds; age band is a proper subset of the broader cohort. BC-004 logic correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "Post-grads",
+        "post": "College degree",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "POST adds explicit credential detail without shifting the underlying education-status concept. Elaborated is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "Wannabe urban transplants",
+        "post": "Urban centers / major cities / trendy neighborhoods",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Frame shifts from person-label-aspirant to standalone geographic descriptor; same aspirational-urban territory. Not subsumption."
+      },
+      {
+        "type": "confirm",
+        "pre": "People who wanted to do art/design in college but didn't",
+        "post": "College degree, strong interest in aesthetics",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Frame shifts from regret/constraint narrative to latent-aesthetic-interest profile. Same underlying subject, different organizing frame."
+      },
+      {
+        "type": "confirm",
+        "pre": "Cannot afford luxury goods but interested in art/curation",
+        "post": "Mid-range income, not in luxury bracket",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Frame shifts from denial-of-access to tier-positioning. Same economic-bracketing territory; not subsumption."
+      },
+      {
+        "type": "confirm",
+        "pre": "Want to find things to buy for their homes",
+        "post": "Mid-century modern furniture, home decor",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Specific home-furnishing categories are a proper subset of the broader home-goods purchase intent."
+      },
+      {
+        "type": "confirm",
+        "pre": "Use Pinterest extensively",
+        "post": "Heavy Instagram/Tiktok users, active on Pinterest",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "Recognizable Pinterest seed broadened outward to multi-platform digital profile."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Style, individuality, creativity, functionality, affordability",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Enumerated value-set is genuinely new psychographic structure; affordability in PRE income description does not constitute a values-enumeration antecedent."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Behavioral-enumeration lifestyle list is genuinely new; settling-into-new-home is a life-stage transition, not a behavioral list antecedent."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Trendy, aspirational, curated aesthetic",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Personality-trait cluster is genuinely new. Wannabe transplants anchor location-aspiration not style-aspiration; identity umbrella is at the abstraction ceiling."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Brand conscious: values, lifestyle, authenticity, originality",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Brand-evaluation attitude has no PRE antecedent describing relationship to brands themselves."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Drawn to storytelling brands, craftsmanship, social impact",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Brand-selection criterion is entirely new; no PRE antecedent."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Young urban professionals",
+        "post": "Age 22-35 (post-grad to early career)",
+        "basis": "Scope restriction: explicit age band is a proper subset of the broader 'young urban professional' cohort"
+      },
+      {
+        "pre": "Post-grads",
+        "post": "College degree",
+        "basis": "POST adds explicit credential detail to the underlying education-status concept"
+      },
+      {
+        "pre": "Wannabe urban transplants",
+        "post": "Urban centers / major cities / trendy neighborhoods",
+        "basis": "Reframed: person-label-aspirant \u2192 standalone geographic descriptor; same aspirational-urban territory"
+      },
+      {
+        "pre": "People who wanted to do art/design in college but didn't",
+        "post": "College degree, strong interest in aesthetics",
+        "basis": "Reframed: regret/constraint narrative \u2192 latent-aesthetic-interest profile; same unfulfilled-art-passion subject"
+      },
+      {
+        "pre": "Cannot afford luxury goods but interested in art/curation",
+        "post": "Mid-range income, not in luxury bracket",
+        "basis": "Reframed: denial-of-access \u2192 calibrated income-tier positioning"
+      },
+      {
+        "pre": "Want to find things to buy for their homes",
+        "post": "Mid-century modern furniture, home decor",
+        "basis": "Narrowed: specific home-furnishing categories are a proper subset of the broader home-goods purchase intent"
+      },
+      {
+        "pre": "Use Pinterest extensively",
+        "post": "Heavy Instagram/Tiktok users, active on Pinterest",
+        "basis": "Expanded: Pinterest seed broadened to multi-platform digital-savvy profile"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Style, individuality, creativity, functionality, affordability",
+      "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+      "Trendy, aspirational, curated aesthetic",
+      "Brand conscious: values, lifestyle, authenticity, originality",
+      "Drawn to storytelling brands, craftsmanship, social impact"
+    ],
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Young urban professionals",
+        "post_evidence": "Age 22-35 (post-grad to early career)",
+        "rationale": "POST restricts the age range of the cohort; explicit age band is a proper subset of the broader 'young urban professional' population.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Post-grads",
+        "post_evidence": "College degree",
+        "rationale": "POST adds the explicit credential detail without shifting the underlying education-status concept.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Wannabe urban transplants",
+        "post_evidence": "Urban centers / major cities / trendy neighborhoods",
+        "rationale": "Frame shifts from person-label-aspirant (aspirational identity embedded in 'who they are') to standalone geographic descriptor. Same aspirational-urban territory.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "People who wanted to do art/design in college but didn't",
+        "post_evidence": "College degree, strong interest in aesthetics",
+        "rationale": "Frame shifts from regret/constraint narrative to latent-aesthetic-interest profile. Same unfulfilled-art-passion subject matter, different organizing frame.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Cannot afford luxury goods but interested in art/curation",
+        "post_evidence": "Mid-range income, not in luxury bracket",
+        "rationale": "Frame shifts from affordability-as-constraint denial to calibrated income-tier positioning. Same economic-bracketing territory relative to luxury.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Want to find things to buy for their homes",
+        "post_evidence": "Mid-century modern furniture, home decor",
+        "rationale": "POST restricts the broad home-goods purchase interest to specific furnishing categories \u2014 a proper subset of the original home-goods universe.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "Use Pinterest extensively",
+        "post_evidence": "Heavy Instagram/Tiktok users, active on Pinterest",
+        "rationale": "POST broadens single-platform Pinterest usage to multi-platform digital-savvy profile including Instagram, Tiktok, and online shopping. Recognizable Pinterest seed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Style, individuality, creativity, functionality, affordability",
+        "rationale": "Enumerated value-set is a genuinely new psychographic dimension. Nearest PRE counterpart (affordability in income description) does not constitute a values enumeration; no defensible transformation.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+        "rationale": "Daily-behaviors lifestyle list is a new dimension. Nearest PRE (settling-into-new-home) is a life-stage transition, not a behavioral-enumeration antecedent.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Trendy, aspirational, curated aesthetic",
+        "rationale": "Personality-trait cluster is a new descriptor. Nearest PRE (wannabe transplants) is aspirational-location not aspirational-style; identity/self-presentation umbrella is at the abstraction ceiling.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Brand conscious: values, lifestyle, authenticity, originality",
+        "rationale": "Brand-evaluation attitude is a new construct. No PRE antecedent describes relationship to brands themselves.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Drawn to storytelling brands, craftsmanship, social impact",
+        "rationale": "Storytelling/craftsmanship/social-impact brand preference is entirely new. No PRE antecedent for this brand-selection criterion.",
+        "alternative_considered": null,
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

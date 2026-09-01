@@ -1,0 +1,52 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "home decor",
+      "post": "Small Home Decor",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Scope-restriction Narrowed is correct: 'Small Home Decor is a specific way of being home decor' holds (proper subset by size). Substantive PRE is not a blocker here because the restriction is an explicit scope cut."
+    },
+    {
+      "type": "confirm",
+      "pre": "home decor",
+      "post": "specific item list (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Elaborated is correct: POST keeps the 'home decor' category intact and adds enumerated examples within the same frame. 'Specific physical products \u2192 cute physical merchandised products'-style confirmation applies \u2014 added detail, no frame shift. Do not recode to Reframed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "home decor",
+      "post": "Small Home Decor",
+      "basis": "Scope restriction: 'Small Home Decor' is a size-restricted subset of 'home decor'."
+    },
+    {
+      "pre": "home decor",
+      "post": "specific item list (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)",
+      "basis": "Enumerated instantiation of the home decor category within the same conceptual frame."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "home decor",
+      "post_evidence": "Small Home Decor",
+      "rationale": "Scope restriction via size qualifier. POST denotes a proper subset of PRE. Subsumption sentence holds: 'Small Home Decor is a specific way of being home decor.'",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "home decor",
+      "post_evidence": "Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases",
+      "rationale": "POST retains the 'home decor' category and adds concrete enumerated examples within the same frame. No frame shift; detail added within scope-restricted product category.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ]
+}

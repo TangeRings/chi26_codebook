@@ -1,0 +1,3339 @@
+{
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "I'm working on a social media project where I turned my own personal Instagram account into professional account. My Instagram account is ppoomarangg (Feel free to check it out!) So far I have posted funny content related to traveling, culture, and lifestyle (My life in China). I envision myself to be a Thai student who loves to share a part of his life on the internet and hope that my life experience can help them navigate through new places."
+      },
+      "post": {
+        "answer": "I am a multilingual Thai student sharing my life in China through humorous and relatable content on travel, culture, and lifestyle. By blending humor, cultural insights, and real-life experiences, I help others navigate new places and embrace new cultures with confidence."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "POST response condenses and elaborates the same identity content but adds an explicit method framing ('By blending humor, cultural insights, and real-life experiences'), an outcome elaboration ('embrace new cultures with confidence'), and the audience-effect descriptor 'relatable'. The response becomes a tighter, more polished identity narrative with additional propositional content.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "funny",
+            "traveling",
+            "culture",
+            "lifestyle",
+            "Thai student",
+            "share life experience",
+            "help navigate new places"
+          ],
+          "postConcepts": [
+            "multilingual Thai student",
+            "sharing life in China",
+            "humorous",
+            "relatable",
+            "travel",
+            "culture",
+            "lifestyle",
+            "help navigate new places",
+            "embrace new cultures with confidence",
+            "blending humor, cultural insights, and real-life experiences"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "funny",
+              "post": "multilingual Thai student",
+              "continuity": "weak - humor vs identity attribute",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "funny",
+              "post": "sharing life in China",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "funny",
+              "post": "humorous",
+              "continuity": "strong - same register of tone",
+              "scope": "equivalent",
+              "frame": "same affective frame",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "funny",
+              "post": "relatable",
+              "continuity": "moderate - both about audience reception",
+              "scope": "shift from content trait to audience effect",
+              "frame": "content-trait to audience-effect",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "funny",
+              "post": "travel",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "funny",
+              "post": "culture",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "funny",
+              "post": "lifestyle",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "funny",
+              "post": "help navigate new places",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "funny",
+              "post": "embrace new cultures with confidence",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "funny",
+              "post": "blending humor, cultural insights, and real-life experiences",
+              "continuity": "moderate - humor carried forward",
+              "scope": "broader",
+              "frame": "blend frame",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "traveling",
+              "post": "multilingual Thai student",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "traveling",
+              "post": "sharing life in China",
+              "continuity": "moderate",
+              "scope": "narrower",
+              "frame": "specific context",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "traveling",
+              "post": "humorous",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "traveling",
+              "post": "relatable",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "traveling",
+              "post": "travel",
+              "continuity": "strong - same topic",
+              "scope": "equivalent",
+              "frame": "same",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "traveling",
+              "post": "culture",
+              "continuity": "moderate - related content domains",
+              "scope": "sibling",
+              "frame": "content domain",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "traveling",
+              "post": "lifestyle",
+              "continuity": "moderate",
+              "scope": "broader",
+              "frame": "broader content frame",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "traveling",
+              "post": "help navigate new places",
+              "continuity": "moderate",
+              "scope": "related",
+              "frame": "utility frame",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "traveling",
+              "post": "embrace new cultures with confidence",
+              "continuity": "moderate",
+              "scope": "related",
+              "frame": "outcome frame",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "traveling",
+              "post": "blending humor, cultural insights, and real-life experiences",
+              "continuity": "moderate",
+              "scope": "broader",
+              "frame": "blend frame",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "culture",
+              "post": "multilingual Thai student",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "culture",
+              "post": "sharing life in China",
+              "continuity": "moderate",
+              "scope": "related context",
+              "frame": "context",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "culture",
+              "post": "humorous",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "culture",
+              "post": "relatable",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "culture",
+              "post": "travel",
+              "continuity": "moderate",
+              "scope": "sibling",
+              "frame": "content domain",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "culture",
+              "post": "culture",
+              "continuity": "strong - same topic",
+              "scope": "equivalent",
+              "frame": "same",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "culture",
+              "post": "lifestyle",
+              "continuity": "moderate",
+              "scope": "broader",
+              "frame": "broader content",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "culture",
+              "post": "help navigate new places",
+              "continuity": "moderate",
+              "scope": "related",
+              "frame": "utility",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "culture",
+              "post": "embrace new cultures with confidence",
+              "continuity": "strong",
+              "scope": "related",
+              "frame": "outcome",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "culture",
+              "post": "blending humor, cultural insights, and real-life experiences",
+              "continuity": "strong",
+              "scope": "broader",
+              "frame": "blend",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "multilingual Thai student",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "sharing life in China",
+              "continuity": "moderate",
+              "scope": "related",
+              "frame": "lived context",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "humorous",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "relatable",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "travel",
+              "continuity": "moderate",
+              "scope": "part of lifestyle",
+              "frame": "subset",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "culture",
+              "continuity": "moderate",
+              "scope": "part of lifestyle",
+              "frame": "subset",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "lifestyle",
+              "continuity": "strong - same descriptor",
+              "scope": "equivalent",
+              "frame": "same",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "help navigate new places",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "embrace new cultures with confidence",
+              "continuity": "moderate",
+              "scope": "related",
+              "frame": "outcome",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "blending humor, cultural insights, and real-life experiences",
+              "continuity": "moderate",
+              "scope": "related",
+              "frame": "blend",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Thai student",
+              "post": "multilingual Thai student",
+              "continuity": "strong - identity descriptor expanded",
+              "scope": "PRE expanded with attribute",
+              "frame": "identity frame",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Thai student",
+              "post": "sharing life in China",
+              "continuity": "moderate",
+              "scope": "narrowed context",
+              "frame": "lived context",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Thai student",
+              "post": "humorous",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Thai student",
+              "post": "relatable",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Thai student",
+              "post": "travel",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Thai student",
+              "post": "culture",
+              "continuity": "moderate",
+              "scope": "related",
+              "frame": "related",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Thai student",
+              "post": "lifestyle",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Thai student",
+              "post": "help navigate new places",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Thai student",
+              "post": "embrace new cultures with confidence",
+              "continuity": "moderate",
+              "scope": "outcome",
+              "frame": "outcome",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Thai student",
+              "post": "blending humor, cultural insights, and real-life experiences",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "share life experience",
+              "post": "multilingual Thai student",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "share life experience",
+              "post": "sharing life in China",
+              "continuity": "strong",
+              "scope": "narrower",
+              "frame": "lived experience",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "share life experience",
+              "post": "humorous",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "share life experience",
+              "post": "relatable",
+              "continuity": "moderate - goal of sharing",
+              "scope": "outcome frame",
+              "frame": "audience effect",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "share life experience",
+              "post": "travel",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "share life experience",
+              "post": "culture",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "share life experience",
+              "post": "lifestyle",
+              "continuity": "moderate",
+              "scope": "related",
+              "frame": "lived frame",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "share life experience",
+              "post": "help navigate new places",
+              "continuity": "moderate",
+              "scope": "outcome",
+              "frame": "outcome",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "share life experience",
+              "post": "embrace new cultures with confidence",
+              "continuity": "moderate",
+              "scope": "outcome",
+              "frame": "outcome",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "share life experience",
+              "post": "blending humor, cultural insights, and real-life experiences",
+              "continuity": "strong",
+              "scope": "expanded",
+              "frame": "method frame",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "multilingual Thai student",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "sharing life in China",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "humorous",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "relatable",
+              "continuity": "moderate",
+              "scope": "outcome",
+              "frame": "audience effect",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "travel",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "culture",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "lifestyle",
+              "continuity": "weak",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "help navigate new places",
+              "continuity": "strong - same phrase",
+              "scope": "equivalent",
+              "frame": "same",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "embrace new cultures with confidence",
+              "continuity": "strong",
+              "scope": "expanded outcome",
+              "frame": "outcome",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "help navigate new places",
+              "post": "blending humor, cultural insights, and real-life experiences",
+              "continuity": "moderate",
+              "scope": "related",
+              "frame": "method",
+              "stretch": "moderate",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "funny",
+              "post": "relatable",
+              "reason": "related but not same dimension; weak alignment"
+            },
+            {
+              "pre": "traveling",
+              "post": "culture",
+              "reason": "sibling content domains, not the strongest successor pair"
+            },
+            {
+              "pre": "lifestyle",
+              "post": "travel",
+              "reason": "travel is a subset of lifestyle but PRE concept is generic descriptor not a strict population"
+            },
+            {
+              "pre": "share life experience",
+              "post": "relatable",
+              "reason": "outcome-related but indirect"
+            },
+            {
+              "pre": "Thai student",
+              "post": "sharing life in China",
+              "reason": "identity vs activity; weaker than Thai student -> multilingual Thai student"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Thai student",
+              "post": "multilingual Thai student",
+              "basis": "identity frame preserved; qualifying attribute added"
+            },
+            {
+              "pre": "share life experience",
+              "post": "sharing life in China",
+              "basis": "activity frame narrowed to specific country context (life-in-China subset of life-experience)"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "relatable"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "relatable",
+              "direction": "new",
+              "nearestCounterpart": "funny",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Narrowed test: relatable is a specific way of being funny - arguable but PRE funny is generic and relatable captures audience-reception quality of humor; Reframed is also defensible (content-trait to audience-effect). Closest match with humorous already accounted; relatable can be read as elaboration of audience-effect of humorous. Marked as elaboration of audience effect in matched elaboration through broader response framing."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Thai student",
+              "post": "multilingual Thai student",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Identity frame preserved; descriptive attribute added within same frame. BC-P001 rule confirms Elaborated."
+            },
+            {
+              "type": "confirm",
+              "pre": "share life experience",
+              "post": "sharing life in China",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Scope restriction: life-in-China is a proper subset of life experience broadly. Subsumption holds. Calibrated Narrowed."
+            },
+            {
+              "type": "reject_pairing",
+              "pre": null,
+              "post": "relatable",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Re-tested lineage recovery from funny. 'Relatable is a specific way of being funny' — subsumption fails: relatability is audience-effect, funniness is content-trait. Reframed: same territory? arguable but the frame genuinely shifts from content-trait (humor register) to audience-effect (reception quality) — this would force pairing funny with two successors. Expanded/Elaborated fail. funny is already matched to humorous (its strongest counterpart). Per structural constraint, nearest antecedent is unavailable. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti70zph2mk3g0b1eaj",
+            "code": "Elaborated",
+            "preEvidence": "Thai student",
+            "postEvidence": "multilingual Thai student",
+            "rationale": "Identity frame preserved; descriptive attribute (multilingual) added within the same frame. BC-P001 confirms Elaborated.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti70zphmv5u5bwbp7",
+            "code": "Narrowed",
+            "preEvidence": "share life experience",
+            "postEvidence": "sharing life in China",
+            "rationale": "life-in-China is a proper subset of life experience broadly. Scope restriction, subsumption holds.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti70zph3dlzajr30y2",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "relatable",
+            "rationale": "Nearest antecedent funny is already matched to humorous and unavailable. Relatability (audience-effect) does not subsume under funniness (content-trait); no tier holds. New stands.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed from funny"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "vague_to_specific_lineage",
+            "new_removed_recheck_passed",
+            "forced_pairing_rejected",
+            "alignment_null_by_choice",
+            "critic_restore_rejected_unit_already_matched"
+          ],
+          "coderNotes": "Q1a Brand Identity uses descriptor_set_special. PRE contains narrative-style descriptors mixed with explicit identity labels. POST is a polished single-sentence identity statement; atomized into descriptor-level units. The narrative element 'sharing life in China' was treated as a narrowed restatement of 'share life experience' since PRE referenced 'life in China' explicitly. 'Relatable' is a new audience-effect descriptor with no clear PRE antecedent after re-checking against 'funny' and other PRE concepts; subsumption between funny and relatable is arguable but the re-check moved it to New. Several PRE concepts were narrative clauses rather than single-word descriptors; atomized carefully to avoid collapsing distinct events. Critic applied 3 correction(s). Rejected 8 critic restore(s) that reused an already-matched unit: funny → humorous; traveling → travel; culture → culture; lifestyle → lifestyle; help navigate new places → help navigate new places; share life experience → blending humor, cultural insights, and real-life experiences; help navigate new places → embrace new cultures with confidence; funny → humorous."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "I envision myself to be a Thai student who loves to share a part of his life on the internet and hope that my life experience can help them navigate through new places."
+      },
+      "post": {
+        "answer": "My vision is to build a global community of curious and adventurous minds who find joy in cultural exploration."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST adds the 'global community of curious and adventurous minds' element as a new clause-level idea and reframes the vision around community-building and joyful exploration. PRE was a single personal narrative sentence; POST is a single sentence but with more conceptual layers (audience definition, community-building aspiration, thematic focus on cultural exploration). The shift adds substance without substantially expanding the sentence count.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Thai student sharing part of his life on the internet",
+            "hope that life experience can help others navigate new places"
+          ],
+          "postConcepts": [
+            "build a global community of curious and adventurous minds",
+            "find joy in cultural exploration"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Thai student sharing part of his life on the internet",
+              "post": "build a global community of curious and adventurous minds",
+              "continuity": "partial - both involve the student as content creator/sharer; however PRE is singular personal-sharing, POST is collective community-building",
+              "scope": "PRE: one person (student) sharing online; POST: a global community of many minds",
+              "frame": "PRE: personal individual sharing frame; POST: collective community-building frame",
+              "stretch": "moderate - related by content creation/sharing theme but scopes diverge sharply",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Thai student sharing part of his life on the internet",
+              "post": "find joy in cultural exploration",
+              "continuity": "PRE involves sharing life (which could include travel/culture); POST specifies cultural exploration as the substantive content",
+              "scope": "PRE: broad life-sharing; POST: specific to cultural exploration",
+              "frame": "PRE: personal-lifestyle content; POST: cultural discovery as content domain",
+              "stretch": "moderate - cultural exploration is one plausible substantive reading of 'part of his life'",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "hope that life experience can help others navigate new places",
+              "post": "build a global community of curious and adventurous minds",
+              "continuity": "both envision an audience engaged with travel/exploration; PRE has personal-helping frame, POST has community-building frame",
+              "scope": "PRE: helping individuals navigate; POST: building a global community of like-minded minds",
+              "frame": "PRE: mentorship/helper frame toward newcomers; POST: community-aspiration frame around shared identity",
+              "stretch": "weak - the helping/mentorship intent of PRE is largely absent in POST",
+              "verdict": "weak"
+            },
+            {
+              "pre": "hope that life experience can help others navigate new places",
+              "post": "find joy in cultural exploration",
+              "continuity": "both relate to exploration/places; PRE frames it as navigating (helping), POST frames it as joyful exploration",
+              "scope": "PRE: navigating new places (often unfamiliar); POST: cultural exploration (any cultural context)",
+              "frame": "PRE: problem-solving/helping frame; POST: experiential/joy frame",
+              "stretch": "weak - the helping intent does not clearly persist",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "hope that life experience can help others navigate new places",
+              "post": "build a global community of curious and adventurous minds",
+              "reason": "the helping/mentorship semantic role of PRE is largely absent in POST; community-building is a different organizing frame from navigating newcomers through new places"
+            },
+            {
+              "pre": "hope that life experience can help others navigate new places",
+              "post": "find joy in cultural exploration",
+              "reason": "the explicit helping/navigating intent is replaced by joyful exploration; only loosely adjacent through 'places' theme"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Thai student sharing part of his life on the internet",
+              "post": "build a global community of curious and adventurous minds",
+              "basis": "shared sharing/audience semantic territory; frame shifts from personal-life-sharing to community-building"
+            },
+            {
+              "pre": "hope that life experience can help others navigate new places",
+              "post": "find joy in cultural exploration",
+              "basis": "shared place/cultural-exploration semantic territory; frame shifts from helper/guide to joyful explorer"
+            }
+          ],
+          "unmatchedPre": [
+            "help-others-navigate intent (the mentorship/helper role specifically)"
+          ],
+          "unmatchedPost": [
+            "global community (the collective-formation concept is new)",
+            "curious and adventurous minds (specific audience characterization)"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "global community of curious and adventurous minds",
+              "direction": "new",
+              "nearestCounterpart": "Thai student sharing part of his life on the internet",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "nearest PRE counterpart 'sharing life on the internet' contains a sharing/audience orientation that maps onto community-building; subsumption test: 'a global community of curious and adventurous minds is a specific way of being a Thai student sharing his life on the internet' - false (community-of-others is not a subtype of self-sharing). However, the relationship is captured by the Reframed pairing on the matched pair; treating it as pure New would double-count. The Reframed event already covers the lineage from personal sharing to community-building."
+            },
+            {
+              "concept": "curious and adventurous minds (specific audience characterization)",
+              "direction": "new",
+              "nearestCounterpart": "hope that life experience can help others navigate new places",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE describes helping others navigate; POST characterizes the audience as 'curious and adventurous minds'. Narrowed: 'curious and adventurous minds is a specific way of being those who need help navigating' - arguable but the PRE audience is defined by need (help navigating), the POST audience by disposition (curious/adventurous), so not clearly subsumption. Reframed: no shared organizing frame - PRE is need-based, POST is disposition-based. Elaborated: POST does not retain the navigate-help concept. Expanded: PRE's audience of newcomers is not broadened into curious/adventurous minds. All four fail across meaningfully different conceptual frames - kept as New."
+            },
+            {
+              "concept": "help-others-navigate intent (mentorship/helper role)",
+              "direction": "removed",
+              "nearestCounterpart": "find joy in cultural exploration",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE contains an explicit helping/navigating role; POST emphasizes joy in exploration rather than helping others. Narrowed: 'find joy in cultural exploration is a specific way of helping others navigate' - false. Reframed: helping-navigate vs joyful-exploration are different organizing frames (helper vs experiencer). Elaborated: POST does not retain the helping intent. Expanded: POST does not broaden the helping intent. The mentorship role is genuinely absent - kept as Removed."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Thai student sharing part of his life on the internet",
+              "post": "build a global community of curious and adventurous minds",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass-1 Reframed is correct. Subsumption fails (community-of-others is not a subtype of personal sharing). Same sharing/audience semantic territory, but the organizing frame shifts from personal-life-sharing to community-building. Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": "hope that life experience can help others navigate new places",
+              "post": "find joy in cultural exploration",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass-1 Reframed is correct. Subsumption fails (joyful exploration is not a subtype of helping-navigate). Same place/cultural semantic territory, but the organizing frame shifts from helper/guide to joyful explorer. Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "curious and adventurous minds",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE antecedent (help-others-navigate audience) is need-defined, POST audience is disposition-defined. Narrowed/Reframed/Elaborated/Expanded all fail. Audience-as-disposition is a genuinely new characterization. Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": "help-others-navigate intent (mentorship/helper role)",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Nearest POST successor is 'find joy in cultural exploration' which uses a joyful-experiencer frame, not a helper frame. The mentorship/helping role has no defensible POST successor. Confirmed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti716jtm1gb3o0frp",
+            "code": "Reframed",
+            "preEvidence": "I envision myself to be a Thai student who loves to share a part of his life on the internet",
+            "postEvidence": "My vision is to build a global community of curious and adventurous minds",
+            "rationale": "Shared semantic territory (sharing/audience relationship) but the organizing frame shifts from personal-life-sharing to community-building. Subsumption test fails: a global community of others is not a specific way of being a single student sharing his own life.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed (subsumption false)"
+          },
+          {
+            "instanceId": "mti716jtyd7spw6pte",
+            "code": "Reframed",
+            "preEvidence": "hope that my life experience can help them navigate through new places",
+            "postEvidence": "find joy in cultural exploration",
+            "rationale": "Shared semantic territory (exploration of places/cultures) but the organizing frame shifts from helper/guide (mentorship, problem-solving) to joyful explorer (experiential, pleasure-oriented). Subsumption test fails: joyful exploration is not a specific way of helping others navigate.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed (subsumption false)"
+          },
+          {
+            "instanceId": "mti716jtg4dckcgzet5",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "curious and adventurous minds",
+            "rationale": "POST characterizes the target audience by disposition (curious, adventurous); PRE's implicit audience is defined by need (people who need help navigating new places). Narrowed fails (disposition is not a subtype of need). Reframed fails (need-based vs disposition-based audience frames do not share an organizing frame). Elaborated fails (help-navigate concept not retained). Expanded fails (newcomers-needing-help not broadened into curious/adventurous types).",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "vague_to_specific_lineage",
+            "new_removed_recheck_passed",
+            "double_counted_event_dropped"
+          ],
+          "coderNotes": "Two Reframed events capture the major lineage shifts from individual life-sharing and helping-navigate to community-building and joyful cultural exploration. The Removed event captures the loss of the explicit mentorship/helping intent. The New event captures the introduction of a disposition-based audience characterization. Confidence is medium because the PRE is narrative/loosely structured and the boundary between personal-sharing and community-building could be read as either elaboration or reframing; chose Reframed based on BC-002 reasoning (sibling concepts with shifted frame). The scope relationship is arguable but subsumption ('a global community is a specific way of personal sharing') does not hold cleanly. Critic applied 4 correction(s). Consistency check dropped 1 double-counted event(s) for concepts already inside a matched pair: Removed \"hope that my life experience can help them navigate through new places\"."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "Inspiring, exciting, funny, and life-long learning!"
+      },
+      "post": {
+        "answer": "Guided by curiosity, humor, and continuous growth, my content inspires others to step outside their comfort zones and see the world differently"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE is a four-descriptor enumeration. POST is a complete sentence that names values (curiosity, humor, continuous growth), articulates a purpose ('inspires others to step outside their comfort zones'), and adds an aspirational outcome ('see the world differently'). The shift from a short list to a fully formed value-statement sentence constitutes substantial structural expansion across clause and sentence levels.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Inspiring",
+            "Exciting",
+            "Funny",
+            "Life-Long Learning"
+          ],
+          "postConcepts": [
+            "Guided by curiosity",
+            "Humor",
+            "Continuous growth",
+            "Inspires others to step outside their comfort zones",
+            "See the world differently"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Inspiring",
+              "post": "Guided by curiosity",
+              "continuity": "weak — different conceptual frame (output vs. internal driver)",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "too far",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Inspiring",
+              "post": "Humor",
+              "continuity": "weak — both affective but different",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Inspiring",
+              "post": "Continuous growth",
+              "continuity": "weak — output quality vs. ongoing process",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Inspiring",
+              "post": "Inspires others to step outside their comfort zones",
+              "continuity": "strong — explicit 'inspires' preserved, scope broadened from unspecified to stepping outside comfort zones",
+              "scope": "POST broadens who/where",
+              "frame": "output quality → transformative content effect",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Inspiring",
+              "post": "See the world differently",
+              "continuity": "moderate — inspirational outcome reframed as perceptual shift",
+              "scope": "n/a",
+              "frame": "inspirational effect → world-view change",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Exciting",
+              "post": "Guided by curiosity",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "too far",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Exciting",
+              "post": "Humor",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Exciting",
+              "post": "Continuous growth",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Exciting",
+              "post": "Inspires others to step outside their comfort zones",
+              "continuity": "weak — both high-arousal affective but different",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Exciting",
+              "post": "See the world differently",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Funny",
+              "post": "Guided by curiosity",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "too far",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Funny",
+              "post": "Humor",
+              "continuity": "strong — explicit lexical continuity",
+              "scope": "n/a",
+              "frame": "same",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Funny",
+              "post": "Continuous growth",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Funny",
+              "post": "Inspires others to step outside their comfort zones",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Funny",
+              "post": "See the world differently",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Life-Long Learning",
+              "post": "Guided by curiosity",
+              "continuity": "strong — curiosity is a specific disposition driving continuous learning",
+              "scope": "POST could be narrower seed of learning",
+              "frame": "process → underlying disposition",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Life-Long Learning",
+              "post": "Humor",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "too far",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Life-Long Learning",
+              "post": "Continuous growth",
+              "continuity": "strong — explicit semantic continuity",
+              "scope": "n/a",
+              "frame": "learning-as-process → growth-as-process",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Life-Long Learning",
+              "post": "Inspires others to step outside their comfort zones",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Life-Long Learning",
+              "post": "See the world differently",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "moderate",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Inspiring",
+              "post": "Guided by curiosity",
+              "reason": "Different conceptual domains (output quality vs. internal epistemic disposition); no shared neighborhood."
+            },
+            {
+              "pre": "Exciting",
+              "post": "Humor",
+              "reason": "Both affective but no defensible transformation; weaker than leaving Exciting unmatched."
+            },
+            {
+              "pre": "Funny",
+              "post": "Guided by curiosity",
+              "reason": "Different conceptual domains; no defensible lineage."
+            },
+            {
+              "pre": "Life-Long Learning",
+              "post": "Humor",
+              "reason": "Different conceptual domains; no defensible lineage."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Funny",
+              "post": "Humor",
+              "basis": "Direct lexical continuity; subsumption holds."
+            },
+            {
+              "pre": "Life-Long Learning",
+              "post": "Continuous growth",
+              "basis": "Same personal-development territory; frame shifts from explicit learning to broader growth."
+            },
+            {
+              "pre": "Life-Long Learning",
+              "post": "Guided by curiosity",
+              "basis": "Same developmental territory; frame shifts from behavioral outcome to underlying disposition."
+            },
+            {
+              "pre": "Inspiring",
+              "post": "Inspires others to step outside their comfort zones",
+              "basis": "Inspirational noun preserved; specificity added (audience + effect)."
+            },
+            {
+              "pre": "Exciting",
+              "post": "See the world differently",
+              "basis": "Shared experiential-shift neighborhood; frame shifts from affective arousal to perceptual reframing."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Exciting",
+              "direction": "removed",
+              "nearestCounterpart": "See the world differently",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Full POST set searched. Exciting concerns affective arousal/energy; the nearest candidates are 'Humor' (which is already paired with Funny) and the inspirational clauses. Neither shares a semantic neighborhood with affective excitement. 'See the world differently' is about perceptual/cognitive reframing, a different domain. All four transformation codes fail."
+            },
+            {
+              "concept": "See the world differently",
+              "direction": "new",
+              "nearestCounterpart": "Inspiring",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Pairs with the 'Inspiring → inspires others to step outside their comfort zones' match; the perceptual reframing (see the world differently) extends the inspirational effect. Considered consolidating into the Inspiring match but the comfort-zone and perceptual-shift clauses are distinct propositions warranting separate events."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "Inspiring",
+              "post": "Inspires others to step outside their comfort zones",
+              "fromCode": "Expanded",
+              "toCode": "Elaborated",
+              "reason": "POST keeps the PRE noun intact ('inspires' preserved) and adds specificity (audience: others; effect: stepping outside comfort zones). The underlying inspirational frame is unchanged; only descriptors were added. Confirmed Elaborated."
+            },
+            {
+              "type": "restore_lineage",
+              "pre": "Exciting",
+              "post": "See the world differently",
+              "fromCode": "Removed+New",
+              "toCode": "Reframed",
+              "reason": "Both occupy an affective resonance / experiential shift neighborhood: arousal/energy reframed as a perceptual/epistemic shift. 'See the world differently is a specific way of being Exciting' is FALSE (perceptual reframing is not a subtype of affective arousal), so Narrowed fails, but the same experiential-shift territory with a shifted organizing frame (arousal → perception) supports Reframed."
+            },
+            {
+              "type": "confirm",
+              "pre": "Funny",
+              "post": "Humor",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "'Humor is a specific way of being Funny' holds; PRE is generic affective filler, POST names the substantive form. Correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "Life-Long Learning",
+              "post": "Continuous growth",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Continuous growth is broader than learning, so subsumption fails. Same personal-development territory with shifted organizing frame (learning → growth). Reframed confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": "Life-Long Learning",
+              "post": "Guided by curiosity",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Same developmental-territory neighborhood; frame shifts from behavioral outcome to underlying disposition. No subsumption. Reframed confirmed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti710f39p59yf9k9s",
+            "code": "Narrowed",
+            "preEvidence": "Funny",
+            "postEvidence": "Humor",
+            "rationale": "'Humor is a specific way of being Funny' holds; PRE is generic affective filler and POST names the substantive form.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti710f3fuv9w0w25fo",
+            "code": "Reframed",
+            "preEvidence": "Life-Long Learning",
+            "postEvidence": "Continuous growth",
+            "rationale": "Same continuous-personal-development territory; frame shifts from explicit learning to broader growth. No subsumption.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti710f3n4w0yz1676",
+            "code": "Reframed",
+            "preEvidence": "Life-Long Learning",
+            "postEvidence": "Guided by curiosity",
+            "rationale": "Same developmental territory; frame shifts from behavioral process to underlying epistemic disposition. No subsumption (curiosity is the engine, not a subtype).",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti710f3qw7qjtxe72l",
+            "code": "Elaborated",
+            "preEvidence": "Inspiring",
+            "postEvidence": "Inspires others to step outside their comfort zones",
+            "rationale": "Inspirational frame intact; POST specifies audience (others) and effect (leaving comfort zones). Same underlying noun, added detail.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti710f3bj14bjplco",
+            "code": "Reframed",
+            "preEvidence": "Exciting",
+            "postEvidence": "See the world differently",
+            "rationale": "Shared experiential-shift neighborhood. 'See the world differently is a specific way of being Exciting' is false (perceptual reframing is not a subtype of affective arousal), but the same experiential-shift territory with a shifted organizing frame supports Reframed.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "new_removed_recheck_passed",
+            "vague_to_specific_lineage",
+            "lineage_restored_by_critic",
+            "neighborhood_protected",
+            "duplicate_pre_antecedent"
+          ],
+          "coderNotes": "Exciting is removed; full POST set searched and no defensible lineage found across different domains. See the world differently is new; no PRE antecedent. The two Life-Long Learning matches (continuous growth, guided by curiosity) both legitimate; the second is medium confidence because the subsumption test is arguable. Critic applied 5 correction(s). Lineage restored for 1 pair(s): Exciting → See the world differently. Consistency check: \"Life-Long Learning\" serves as the antecedent of more than one event. The PRE span likely needs splitting — review before accepting."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 6
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Male and female, from all over the world, aged 18-25 who are interested in learning about new cultures and new places."
+      },
+      "post": {
+        "answer": "I am thinking about young (18-30), globally-minded people who want to explore new cultures, languages, and experiences but also appreciate humor and authenticity"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST adds one meaningful psychographic attribute ('appreciate humor and authenticity') that has no antecedent in PRE. The other PRE descriptors are retained or broadened, but the addition of this new dimension and the slightly longer phrasing constitute a modest structural expansion. Not significant because only one genuinely new clause-level addition is present; the rest is refinement of existing categories.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Male and female",
+            "from all over the world",
+            "aged 18-25",
+            "interested in learning about new cultures and new places"
+          ],
+          "postConcepts": [
+            "young (18-30)",
+            "globally-minded",
+            "want to explore new cultures, languages, and experiences",
+            "appreciate humor and authenticity"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Male and female",
+              "post": "young (18-30)",
+              "continuity": "Both describe core demographic attributes (sex and age). They overlap but do not fully correspond one-to-one.",
+              "scope": "Female/male is a sex scope; young (18-30) is an age scope. Different demographic dimensions.",
+              "frame": "Pre: explicit sex + age bands. Post: age band only.",
+              "stretch": "Weak; the two units occupy different demographic axes.",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Male and female",
+              "post": "globally-minded",
+              "continuity": "No shared demographic dimension (sex vs global orientation).",
+              "scope": "Different dimensions.",
+              "frame": "Different.",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Male and female",
+              "post": "want to explore new cultures, languages, and experiences",
+              "continuity": "No shared demographic axis.",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Male and female",
+              "post": "appreciate humor and authenticity",
+              "continuity": "No shared demographic axis.",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "from all over the world",
+              "post": "young (18-30)",
+              "continuity": "Geographic scope vs age scope; no direct overlap.",
+              "scope": "Different demographic dimensions.",
+              "frame": "Different.",
+              "stretch": "Weak.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "from all over the world",
+              "post": "globally-minded",
+              "continuity": "Both concern global / worldwide orientation. Strong conceptual lineage.",
+              "scope": "Pre: a geographic fact (literally everywhere). Post: a psychographic orientation (interested in / oriented toward global matters). Post is narrower because globally-minded implies a specific attitude, while from all over the world is purely demographic.",
+              "frame": "Geographic / demographic frame → psychographic / attitudinal frame.",
+              "stretch": "Plausible; same territory reframed.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "from all over the world",
+              "post": "want to explore new cultures, languages, and experiences",
+              "continuity": "Both touch exploration of the world, but pre is a geographic descriptor of where customers come from, while post is a behavior/aspiration.",
+              "scope": "Different dimensions.",
+              "frame": "Different.",
+              "stretch": "Weak.",
+              "verdict": "weak"
+            },
+            {
+              "pre": "from all over the world",
+              "post": "appreciate humor and authenticity",
+              "continuity": "No shared axis.",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "aged 18-25",
+              "post": "young (18-30)",
+              "continuity": "Both specify age range. Strong lineage.",
+              "scope": "Post expands the upper bound (30 vs 25). POST is a superset of PRE (18-25 is a subset of 18-30).",
+              "frame": "Same demographic frame.",
+              "stretch": "Plausible; classic scope expansion.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "aged 18-25",
+              "post": "globally-minded",
+              "continuity": "Age vs psychographic orientation; different dimensions.",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "aged 18-25",
+              "post": "want to explore new cultures, languages, and experiences",
+              "continuity": "Different dimensions (age vs behavior).",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "aged 18-25",
+              "post": "appreciate humor and authenticity",
+              "continuity": "Different dimensions.",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "interested in learning about new cultures and new places",
+              "post": "young (18-30)",
+              "continuity": "Different dimensions (interest vs age).",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "interested in learning about new cultures and new places",
+              "post": "globally-minded",
+              "continuity": "Both describe orientation toward world / cultures. The interest in learning about cultures is a manifestation of being globally-minded.",
+              "scope": "Both are about the global/intercultural orientation. Pre is one expression of that orientation.",
+              "frame": "Pre: interest-as-behavior (learning). Post: orientation-as-identity (mindset).",
+              "stretch": "Plausible.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "interested in learning about new cultures and new places",
+              "post": "want to explore new cultures, languages, and experiences",
+              "continuity": "Strong lineage — both express desire to engage with new cultures/places.",
+              "scope": "Pre: cultures and places. Post: cultures, languages, AND experiences (broadened).",
+              "frame": "Same conceptual frame (curiosity/engagement with the world).",
+              "stretch": "Plausible.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "interested in learning about new cultures and new places",
+              "post": "appreciate humor and authenticity",
+              "continuity": "Different axes; no direct lineage.",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "Weak.",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Male and female",
+              "post": "globally-minded",
+              "reason": "Different demographic dimensions (sex vs psychographic orientation); implausible pairing."
+            },
+            {
+              "pre": "Male and female",
+              "post": "want to explore new cultures, languages, and experiences",
+              "reason": "Different dimensions; no shared role."
+            },
+            {
+              "pre": "Male and female",
+              "post": "appreciate humor and authenticity",
+              "reason": "Different dimensions; no shared role."
+            },
+            {
+              "pre": "from all over the world",
+              "post": "young (18-30)",
+              "reason": "Geographic descriptor vs age band; different dimensions."
+            },
+            {
+              "pre": "from all over the world",
+              "post": "appreciate humor and authenticity",
+              "reason": "Different dimensions; no shared role."
+            },
+            {
+              "pre": "aged 18-25",
+              "post": "globally-minded",
+              "reason": "Age vs psychographic orientation; different dimensions."
+            },
+            {
+              "pre": "aged 18-25",
+              "post": "want to explore new cultures, languages, and experiences",
+              "reason": "Age vs behavioral aspiration; different dimensions."
+            },
+            {
+              "pre": "aged 18-25",
+              "post": "appreciate humor and authenticity",
+              "reason": "Age vs psychographic; different dimensions."
+            },
+            {
+              "pre": "interested in learning about new cultures and new places",
+              "post": "young (18-30)",
+              "reason": "Different dimensions; no shared role."
+            },
+            {
+              "pre": "interested in learning about new cultures and new places",
+              "post": "appreciate humor and authenticity",
+              "reason": "Different axes; no shared role."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "aged 18-25",
+              "post": "young (18-30)",
+              "basis": "The age category is retained and its upper bound expands from 25 to 30."
+            },
+            {
+              "pre": "from all over the world",
+              "post": "globally-minded",
+              "basis": "Global orientation is reframed from geographic provenance to an attitudinal outlook."
+            },
+            {
+              "pre": "interested in learning about new cultures and new places",
+              "post": "want to explore new cultures, languages, and experiences",
+              "basis": "Intercultural curiosity is retained and broadened to additional domains of exploration."
+            }
+          ],
+          "unmatchedPre": [
+            "Male and female"
+          ],
+          "unmatchedPost": [
+            "appreciate humor and authenticity"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Male and female",
+              "direction": "removed",
+              "nearestCounterpart": "young (18-30)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest counterpart is 'young (18-30)', which is an age descriptor. 'Male and female' is a sex descriptor. Different demographic dimensions. Narrowed fails (sex is not a subset of age). Reframed fails (no shared frame — sex vs age). Elaborated and Expanded fail (no shared concept to add detail to or broaden). No defensible lineage."
+            },
+            {
+              "concept": "appreciate humor and authenticity",
+              "direction": "new",
+              "nearestCounterpart": "Male and female",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is 'Male and female' (a sex descriptor). 'Appreciate humor and authenticity' is a psychographic / value orientation. Different conceptual domains (demographic vs psychographic). Narrowed/Reframed/Elaborated/Expanded all fail. No defensible lineage."
+            },
+            {
+              "concept": "Male and female",
+              "direction": "removed",
+              "nearestCounterpart": "globally-minded",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Alternative nearest counterpart test. 'Globally-minded' is psychographic. 'Male and female' is demographic sex. No lineage defensible."
+            },
+            {
+              "concept": "Male and female",
+              "direction": "removed",
+              "nearestCounterpart": "want to explore new cultures, languages, and experiences",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Sex descriptor vs behavioral aspiration; no shared role."
+            },
+            {
+              "concept": "Male and female",
+              "direction": "removed",
+              "nearestCounterpart": "appreciate humor and authenticity",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Demographic sex vs value preference; different domains."
+            },
+            {
+              "concept": "appreciate humor and authenticity",
+              "direction": "new",
+              "nearestCounterpart": "interested in learning about new cultures and new places",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Pre is an interest in cultures/places (intercultural curiosity). Post is valuing humor and authenticity (general psychographic values). Both are psychographic, but the specific content differs — intercultural learning does not subsume or refame humor/authenticity, nor is humor/authenticity a subset, elaboration, or expansion of interest in cultures. No defensible lineage at any tier."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "aged 18-25",
+              "post": "young (18-30)",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "The age range broadens from 18-25 to 18-30 while retaining the same demographic frame."
+            },
+            {
+              "type": "confirm",
+              "pre": "from all over the world",
+              "post": "globally-minded",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Global orientation persists but shifts from a geographic fact to an attitudinal frame; neither concept subsumes the other."
+            },
+            {
+              "type": "confirm",
+              "pre": "interested in learning about new cultures and new places",
+              "post": "want to explore new cultures, languages, and experiences",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "The curiosity frame is retained and its scope expands to include languages and experiences."
+            },
+            {
+              "type": "confirm",
+              "pre": "Male and female",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "No remaining POST unit concerns sex; age, global orientation, exploratory interests, humor, and authenticity are different attributes."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "appreciate humor and authenticity",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "No unmatched PRE concept is a defensible antecedent; humor and authenticity are a new psychographic value preference."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti71g3jqugfz4j5kwp",
+            "code": "Expanded",
+            "preEvidence": "aged 18-25",
+            "postEvidence": "young (18-30)",
+            "rationale": "The age category broadens from 18-25 to 18-30 while retaining the same demographic frame.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti71g3jfseposhjwz",
+            "code": "Reframed",
+            "preEvidence": "from all over the world",
+            "postEvidence": "globally-minded",
+            "rationale": "The global-orientation territory persists, but the frame changes from geographic provenance to an attitudinal outlook; subsumption does not hold.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti71g3jbgjjjtgol7l",
+            "code": "Expanded",
+            "preEvidence": "interested in learning about new cultures and new places",
+            "postEvidence": "want to explore new cultures, languages, and experiences",
+            "rationale": "The core curiosity about cultures and places is retained and expands to include languages and experiences.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti71g3j9fmuxiaxqd8",
+            "code": "Removed",
+            "preEvidence": "Male and female",
+            "postEvidence": null,
+            "rationale": "No remaining POST unit expresses the sex dimension or is a defensible transformation of it.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti71g3jau68svo1kye",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "appreciate humor and authenticity",
+            "rationale": "No unmatched PRE concept is a defensible antecedent; this is a new psychographic value preference.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [
+          {
+            "instanceId": "mti71g3jfm6imqtc62e",
+            "code": "Metacognition",
+            "evidence": "I am thinking about young (18-30), globally-minded people who want to explore new cultures, languages, and experiences but also appreciate humor and authenticity",
+            "rationale": "The student uses the explicit metacognitive phrase 'I am thinking about', foregrounding their own reflective stance on the target customer definition rather than simply declaring it.",
+            "confidence": "medium"
+          }
+        ],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "neighborhood_tested_no_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Three transformations (Expanded, Reframed, Expanded) plus a Removed + New pair for the sex descriptor and the humor/authenticity addition. The Removed (Male and female) reflects that sex is no longer specified; the New (humor and authenticity) reflects the addition of a new psychographic dimension. The 'I am thinking about' phrasing in POST registers as a low-strength metacognitive signal. No structural significance beyond the addition of one psychographic dimension. Critic applied 5 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "Young people who likes to learn new cultures (something similar to Duolingo? lol)"
+      },
+      "post": {
+        "answer": "This is what ChatGPT told me and those niches are what exactly I have been working on: Given your unique positioning as a multilingual Thai student living in China, sharing cultural, travel, and lifestyle content with humor, you have several niche opportunities. The key is to find the intersection of interests where demand is high, but competition is relatively low. Potential Niches You Can Own: 1. Thai in China - The Ultimate Guide for Thai Students & Expats in China: Intersection: Thai students & expats + Life in China + Humor + Practical Tips. Why this niche works: Many Thai students and professionals are interested in studying or working in China but don't have enough first-hand, relatable content to guide them. Most content on studying abroad in China is generic or from non-Thai perspectives—you can create a Thai-centered approach. You already have the authenticity & experience—you're living it! Content Ideas: Thai Student's Survival Guide to China - Visa, scholarships, dorm life, culture shock, must-have apps, networking, etc. Thai Food vs. Chinese Food Series - Fun food comparisons & trying Chinese food as a Thai person. How to Make Friends in China as a Thai Student - Thai-Chinese social & cultural differences. Funny Thai-Chinese Language Mix-ups - Hilarious misunderstandings in daily life. 2. Trilingual Storyteller - The Thai Creator Who Speaks Thai, English & Chinese Fluently: Intersection: Multilingual content + Cultural storytelling + Humor + Social commentary. Why this niche works: You are trilingual, which is RARE among content creators. Most Thai influencers speak Thai/English, but very few add fluent Chinese into the mix. You naturally bridge three audiences (Thai, Chinese, and international viewers). You can use humor to explain cultural differences—making your content educational, fun, and globally relatable. Content Ideas: What Thai People Think About China vs. What Chinese People Think About Thailand, Speaking 3 Languages in One Video Challenge - Switching between Thai, English & Chinese while storytelling. Thai Phrases That Don't Make Sense in Chinese (and Vice Versal), How I Became Fluent in Chinese as a Thai Student - Personal language-learning journey. 3. Comedy Meets Culture - Using Humor to Make Cultural Differences Relatable: Intersection: Humor + Travel & Cultural Commentary + Relatable Lifestyle Content. Why this niche works: Many people love cultural commentary, but most content is serious or academic—you can make it FUNNY and relatable. Humor is universal and makes learning about different cultures more engaging. This would make you stand out from typical travel vlogs because your focus is funny cultural insights, not just sightseeing. Content Ideas: What Happens When a Thai Person Tries to Bargain in China - Funny interactions with vendors. Chinese People React to Thai Street Food - Bringing Chinese friends to Thai restaurants in China. Thai vs. Chinese Slang - Can You Guess the Meaning? - Explaining funny slang with humor. Culture Shock Moments That Made Me Think 'What is Life?'. Which Niche Should You Choose? Each of these has huge potential, but it depends on what feels most natural to you: If you love helping Thai students & professionals navigate life in China, go for Niche #1 (Thai in China). If you enjoy language and cultural storytelling, go for Niche #2 (Trilingual Storyteller). If you just love making people laugh while talking about cultural differences, go for Niche #3 (Comedy Meets Culture)."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The pre-response is a single sentence identifying one audience (young culture-learners) with a Duolingo analogy. The post-response is an extensive multi-paragraph expansion introducing three distinct niche formulations (Thai in China, Trilingual Storyteller, Comedy Meets Culture), each with intersection rationale, content ideas, and a comparative recommendation. This is a substantial structural addition at the clause, sentence, and explanation level.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Young people who like to learn new cultures",
+            "Duolingo-like cultural learning audience"
+          ],
+          "postConcepts": [
+            "Thai students & expats in China",
+            "Trilingual (Thai/English/Chinese) storytellers",
+            "Humor-based cultural commentary creators",
+            "Multilingual Thai student living in China positioning"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Young people who like to learn new cultures",
+              "post": "Thai students & expats in China",
+              "continuity": "Both identify an audience around cross-cultural learning",
+              "scope": "Pre is broad (young people generally); Post restricts to Thai nationals navigating China",
+              "frame": "Pre frames audience by cultural-learning interest; Post frames audience by nationality + geographic situation",
+              "stretch": "Significant narrowing of audience scope with shift to nationality-based identity",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Young people who like to learn new cultures",
+              "post": "Trilingual (Thai/English/Chinese) storytellers",
+              "continuity": "Multilingual capability is a means of cross-cultural engagement",
+              "scope": "Post specifies a creator-side capability rather than audience; different role",
+              "frame": "Pre: audience with interest; Post: creator archetype with trilingual skill",
+              "stretch": "Different roles (audience vs creator positioning)",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Young people who like to learn new cultures",
+              "post": "Humor-based cultural commentary creators",
+              "continuity": "Humor + cultural commentary resonates with the cultural-learning interest",
+              "scope": "Post specifies tone (humor) and format (commentary); narrower format descriptor",
+              "frame": "Pre: learner audience; Post: content style/approach",
+              "stretch": "Different conceptual units",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Young people who like to learn new cultures",
+              "post": "Multilingual Thai student living in China positioning",
+              "continuity": "Personal positioning that enables cross-cultural content",
+              "scope": "Post is creator positioning, not audience",
+              "frame": "Identity vs audience",
+              "stretch": "Different roles",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Duolingo-like cultural learning audience",
+              "post": "Thai students & expats in China",
+              "continuity": "Both involve learning/operating in a foreign culture",
+              "scope": "Duolingo is language-learning analogy; Post is specific expat/student demographic",
+              "frame": "Pre: language-learning analogy; Post: lived expat experience demographic",
+              "stretch": "The Duolingo reference is illustrative in Pre; the audience it gestures at is broadly the same population (young people learning a new culture)",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Young people who like to learn new cultures",
+              "post": "Humor-based cultural commentary creators",
+              "reason": "Pre is an audience description; Post is a content-style/creator-archetype description. Different conceptual roles."
+            },
+            {
+              "pre": "Young people who like to learn new cultures",
+              "post": "Multilingual Thai student living in China positioning",
+              "reason": "Pre is audience; Post is creator self-positioning. Different domains."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Young people who like to learn new cultures",
+              "post": "Thai students & expats in China",
+              "basis": "Scope restriction: POST is a nationality + geographic subset of the PRE audience. Narrowed."
+            },
+            {
+              "pre": "Duolingo-like cultural learning audience",
+              "post": "Trilingual (Thai/English/Chinese) storytellers",
+              "basis": "POST broadens the PRE language-learning audience into a multilingual storytelling creator archetype within the same cross-cultural engagement neighborhood. Expanded."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Humor-based cultural commentary creators",
+            "Multilingual Thai student living in China positioning"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Duolingo-like cultural learning audience",
+              "direction": "removed",
+              "nearestCounterpart": "Trilingual (Thai/English/Chinese) storytellers",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Duolingo analogy is a language-learning reference; Trilingual Storyteller is a creator archetype combining Thai/English/Chinese. While both touch multilingual/cross-cultural engagement, Duolingo targets learners of a single new language; the Trilingual Storyteller niche targets audiences who appreciate multilingual storytelling. No subsumption (Trilingual Storyteller is not a subset of Duolingo-like learners), no shared organizing frame (learner vs storyteller), no elaboration, no broadening of the Duolingo reference. Adjacency is topical only."
+            },
+            {
+              "concept": "Trilingual (Thai/English/Chinese) storytellers",
+              "direction": "new",
+              "nearestCounterpart": "Young people who like to learn new cultures",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Trilingual Storyteller is a creator archetype (the student themselves as a trilingual content creator). PRE describes a learner audience interested in new cultures. No subsumption: a trilingual storyteller is not a specific subset of culture-curious young people. No shared organizing frame (creator archetype vs learner audience). Not elaboration or expansion of the audience concept. Different conceptual domains."
+            },
+            {
+              "concept": "Humor-based cultural commentary creators",
+              "direction": "new",
+              "nearestCounterpart": "Young people who like to learn new cultures",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Humor-based cultural commentary is a content style/tone descriptor for creators. PRE describes a learner audience. No subsumption, no shared frame (style descriptor vs audience), no elaboration/expansion. Different conceptual domains."
+            },
+            {
+              "concept": "Multilingual Thai student living in China positioning",
+              "direction": "new",
+              "nearestCounterpart": "Duolingo-like cultural learning audience",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Multilingual Thai student in China is creator self-positioning anchored in personal biography. PRE describes an audience interested in learning new cultures, with a Duolingo analogy for language learning. No subsumption: the personal creator position is not a subset of the audience. No shared organizing frame (self-identity vs audience). Different conceptual domains."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "Duolingo-like cultural learning audience",
+              "post": "Trilingual (Thai/English/Chinese) storytellers",
+              "fromCode": "Removed+New",
+              "toCode": "Expanded",
+              "reason": "Both concepts live in the same semantic neighborhood of multilingual/cross-cultural engagement. PRE is an audience anchored in learning new languages/cultures (Duolingo analogy); POST broadens to a creator archetype that uses multilingual capability to tell stories across cultures. Subsumption fails (storyteller not a subset of Duolingo audience) and frame differs (learner vs storyteller), so not Narrowed/Reframed. POST does broaden an identifiable PRE seed — the language-learning learner audience — into a multilingual storytelling creator. Expanded is defensible and beats Removed+New. Restoring lineage here consumes the only remaining PRE unit and the strongest counterpart POST unit."
+            },
+            {
+              "type": "restore_lineage",
+              "pre": "Duolingo-like cultural learning audience",
+              "post": "Trilingual (Thai/English/Chinese) storytellers",
+              "fromCode": null,
+              "toCode": "Expanded",
+              "reason": "See recode correction. Replaces the provisional Removed + New pair with a single Expanded event."
+            },
+            {
+              "type": "confirm",
+              "pre": "Young people who like to learn new cultures",
+              "post": "Thai students & expats in China",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption test passes: Thai students & expats in China are a specific subset of young people interested in cross-cultural learning. PRE is broad; scope restriction holds. Confirmed per BC-004 and the anti-over-correction guard."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Humor-based cultural commentary creators",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest antecedent (Duolingo-like learners) is now matched to Trilingual Storyteller and cannot be reused. Humor-based cultural commentary is a content-style descriptor with no remaining available PRE antecedent. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Multilingual Thai student living in China positioning",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest antecedent (Young people who like to learn new cultures) is already matched to Thai students & expats in China and cannot be reused. Self-positioning concept has no available antecedent. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti71o6mh9mkx3t2ri",
+            "code": "Narrowed",
+            "preEvidence": "Young people who like to learn new cultures",
+            "postEvidence": "Thai students & expats in China",
+            "rationale": "POST restricts PRE's broad 'young people interested in cross-cultural learning' audience to Thai nationals specifically navigating life in China. Thai students & expats in China are a specific subset; subsumption holds and PRE is generic.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti71o6migcrf9898o",
+            "code": "Expanded",
+            "preEvidence": "Duolingo-like cultural learning audience",
+            "postEvidence": "Trilingual (Thai/English/Chinese) storytellers",
+            "rationale": "PRE anchors a language-learning learner audience via the Duolingo analogy. POST broadens this seed into a multilingual storytelling creator archetype (Thai/English/Chinese). Same cross-cultural engagement neighborhood; subsumption fails (creator not a subset of learners), frame shifts (learner vs storyteller), but POST does broaden an identifiable PRE seed. Expanded.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti71o6mu4y8qooa4no",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Humor-based cultural commentary creators",
+            "rationale": "Content-style/format descriptor with no available PRE antecedent (the only candidate, Duolingo-like learners, is now matched to Trilingual Storyteller and cannot be reused). Neighborhood gate: cultural-engagement territory, but no defensible transformation with the remaining PRE pool.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated from Trilingual Storyteller"
+          },
+          {
+            "instanceId": "mti71o6m3jdzo0qs5bt",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Multilingual Thai student living in China positioning",
+            "rationale": "Creator self-positioning anchored in personal biography. Nearest antecedent (Young people who like to learn new cultures) is already matched and cannot be reused. No defensible transformation code against remaining PRE.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed from Young people who like to learn new cultures"
+          }
+        ],
+        "learnerAgency": [
+          {
+            "instanceId": "mti71o6mfr8jwa9o3f",
+            "code": "Personal Background",
+            "evidence": "you're living it",
+            "rationale": "The student is explicitly positioned through their lived experience as a Thai student living in China, anchoring the niche strategy in personal biography. This appears in the AI-quoted text but is presented as the student's own framing.",
+            "confidence": "low"
+          }
+        ],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "new_removed_recheck_passed",
+            "vague_to_specific_lineage",
+            "boundary_case_narrow_vs_reframe",
+            "lineage_restored_by_critic",
+            "neighborhood_protected"
+          ],
+          "coderNotes": "The post-response is explicitly framed as ChatGPT-generated output quoted by the student ('This is what ChatGPT told me...'), which complicates agency attribution. Agency evidence appears inside quoted AI text rather than in the student's own voice, so confidence is low and the event is included only tentatively. Several New/Removed events survive the re-check but cluster near topical adjacency, which is typical for an item where one short audience descriptor expands into multiple niche formulations. The Duolingo analogy removal is the most defensible Removed because the analogy itself does not reappear in any form in POST. Critic applied 5 correction(s). Lineage restored for 1 pair(s): Duolingo-like cultural learning audience → Trilingual (Thai/English/Chinese) storytellers."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "Instagram, WeChat Channel, I am thinking of 抖音 too, I tried 小红书 but it doesn't work (my 小红书号: poom554)"
+      },
+      "post": {
+        "answer": "Instagram (reels), WeChat Channel, Xiaohongshu, and maybe 抖音?"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Reduction",
+        "structuralRationale": "POST is shorter and more concise. The personal anecdote about the failed 小红书 account (with account handle) is removed; the explanatory hedging 'I am thinking of' becomes 'maybe'; the parenthetical '(reels)' is added to Instagram. Net effect is moderate structural reduction - some detail removed, some added, but overall more compressed.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Instagram",
+            "WeChat Channel",
+            "抖音 (considering)",
+            "小红书 (tried but didn't work)"
+          ],
+          "postConcepts": [
+            "Instagram (reels)",
+            "WeChat Channel",
+            "Xiaohongshu",
+            "抖音 (maybe)"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Instagram",
+              "post": "Instagram (reels)",
+              "continuity": "same platform, POST adds format specification (reels)",
+              "scope": "same",
+              "frame": "same platform, content format detail added",
+              "stretch": "minor - addition of content format within same platform",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "WeChat Channel",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible - different platform identifiers",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Xiaohongshu",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "抖音 (maybe)",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "WeChat Channel",
+              "post": "Instagram (reels)",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "WeChat Channel",
+              "post": "WeChat Channel",
+              "continuity": "same platform identifier",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "trivial match",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "WeChat Channel",
+              "post": "Xiaohongshu",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "WeChat Channel",
+              "post": "抖音 (maybe)",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "抖音 (considering)",
+              "post": "抖音 (maybe)",
+              "continuity": "same platform, both tentative",
+              "scope": "same",
+              "frame": "tentative framing preserved",
+              "stretch": "minor hedging difference",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "抖音 (considering)",
+              "post": "Instagram (reels)",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "抖音 (considering)",
+              "post": "WeChat Channel",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "抖音 (considering)",
+              "post": "Xiaohongshu",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "小红书 (tried but didn't work)",
+              "post": "Xiaohongshu",
+              "continuity": "same platform (Chinese vs English name), status reversal from 'didn't work' to being included",
+              "scope": "same platform",
+              "frame": "shifted from rejected to included",
+              "stretch": "meaningful - the decision status reversed",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "小红书 (tried but didn't work)",
+              "post": "Instagram (reels)",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "小红书 (tried but didn't work)",
+              "post": "WeChat Channel",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "小红书 (tried but didn't work)",
+              "post": "抖音 (maybe)",
+              "continuity": "none",
+              "scope": "different platforms",
+              "frame": "different platforms",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Instagram",
+              "post": "WeChat Channel",
+              "reason": "different platform identifiers, no semantic continuity"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Xiaohongshu",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "Instagram",
+              "post": "抖音 (maybe)",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "WeChat Channel",
+              "post": "Instagram (reels)",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "WeChat Channel",
+              "post": "Xiaohongshu",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "WeChat Channel",
+              "post": "抖音 (maybe)",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "抖音 (considering)",
+              "post": "Instagram (reels)",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "抖音 (considering)",
+              "post": "WeChat Channel",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "抖音 (considering)",
+              "post": "Xiaohongshu",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "小红书 (tried but didn't work)",
+              "post": "Instagram (reels)",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "小红书 (tried but didn't work)",
+              "post": "WeChat Channel",
+              "reason": "different platform identifiers"
+            },
+            {
+              "pre": "小红书 (tried but didn't work)",
+              "post": "抖音 (maybe)",
+              "reason": "different platform identifiers"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Instagram",
+              "post": "Instagram (reels)",
+              "basis": "same platform, POST adds reels format specification"
+            },
+            {
+              "pre": "WeChat Channel",
+              "post": "WeChat Channel",
+              "basis": "identical platform reference"
+            },
+            {
+              "pre": "抖音 (considering)",
+              "post": "抖音 (maybe)",
+              "basis": "same platform with tentative framing preserved"
+            },
+            {
+              "pre": "小红书 (tried but didn't work)",
+              "post": "Xiaohongshu",
+              "basis": "same platform (小红书 = Xiaohongshu); status shifts from rejected to included"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "小红书 (tried but didn't work)",
+              "direction": "removed",
+              "nearestCounterpart": "Xiaohongshu",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "the underlying platform is the same; what changed is the decision status. The transformation is from 'tried but doesn't work' to 'included' - this is a status reversal within the same platform concept, best coded as Reframed (rejected-frame → included-frame)"
+            },
+            {
+              "concept": "Xiaohongshu",
+              "direction": "new",
+              "nearestCounterpart": "小红书 (tried but didn't work)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Xiaohongshu is the same platform as 小红书; POST is not a new platform but a reversal of the prior rejection. Converted to Reframed event."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Instagram",
+              "post": "Instagram (reels)",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same platform retained; POST adds format specification (reels) within the same conceptual frame. Elaborated is correct; Reframed would require the organizing frame to change, not merely added detail."
+            },
+            {
+              "type": "confirm",
+              "pre": "小红书 (tried but didn't work)",
+              "post": "Xiaohongshu",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Same platform (小红书 = Xiaohongshu) but the organizing frame shifts from rejection ('tried but didn't work') to inclusion (listed among active platforms). Same semantic territory, shifted frame. Reframed is correct; Narrowed would require subsumption which does not hold here."
+            },
+            {
+              "type": "confirm",
+              "pre": "WeChat Channel",
+              "post": "WeChat Channel",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical platform reference; no transformation code applies. Treated as preserved/conceptual event."
+            },
+            {
+              "type": "confirm",
+              "pre": "抖音 (considering)",
+              "post": "抖音 (maybe)",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Same platform with both tentative framing; the hedging ('considering' ↔ 'maybe') is preserved. Treated as preserved/conceptual event."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti71e1h70co7o9uqxr",
+            "code": "Elaborated",
+            "preEvidence": "Instagram",
+            "postEvidence": "Instagram (reels)",
+            "rationale": "Same platform retained; POST adds a content-format specification (reels) within the same platform frame. Detail elaboration rather than frame change.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti71e1hx3m7r2fpuh",
+            "code": "Reframed",
+            "preEvidence": "小红书 (tried but didn't work)",
+            "postEvidence": "Xiaohongshu",
+            "rationale": "Same underlying platform; the organizing frame shifts from rejected/dismissed ('tried but didn't work') to included/active. Pre-frame: rejection. Post-frame: inclusion. Same semantic territory with a shifted organizing frame.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_remove_vs_reframe",
+            "vague_to_specific_lineage"
+          ],
+          "coderNotes": "The 小红书/Xiaohongshu pairing is the most complex: the platform is the same but its inclusion status reverses. Reframed was chosen because the frame genuinely shifts from 'rejected' to 'included', though one could also argue this is closer to a status change rather than a conceptual reframing. The Instagram→Instagram (reels) elaboration is straightforward. No learner agency text was found in this response pair. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "25% meme, 25% review (life, places, moment in life), 25% language learning, 25% random"
+      },
+      "post": {
+        "answer": "30% Relatable Comedy & Memes (Culture + Travel + Daily Life), 30% Reviews (Life in China, Places, Cultural Experiences, Funny Reflections), 20% Language & Cultural Learning (Thai-English-Chinese Comparison & Fun Lessons), 20% Personal & Experimental Content (Trends, Vlogs, Behind-the-Scenes, Challenges)"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "POST substantially elaborates every content category with named sub-genres, specific geographic anchors (China, Thai-English-Chinese), and topical detail (culture, travel, daily life, vlogs, behind-the-scenes, challenges). The four categories each receive multi-clause specification, and percentages are added. Overall scope and depth are meaningfully larger than the brief PRE list.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "meme content (25%)",
+            "review content about life/places/moments (25%)",
+            "language learning content (25%)",
+            "random content (25%)"
+          ],
+          "postConcepts": [
+            "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+            "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+            "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+            "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "meme content (25%)",
+              "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+              "continuity": "Both refer to meme/comedy content as a content category",
+              "scope": "PRE is generic meme category; POST specifies that memes are relatable comedy tied to culture/travel/daily life",
+              "frame": "PRE: vague 'meme' as filler category. POST: same idea, now framed as 'relatable comedy' anchored in specific experiential topics",
+              "stretch": "Modest — wording differs but conceptual role preserved",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "meme content (25%)",
+              "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+              "continuity": "Weak — memes and reviews are different content types",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "meme content (25%)",
+              "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "meme content (25%)",
+              "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "continuity": "Weak overlap only via 'trends' which could include memes",
+              "scope": "Different primary categories",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "review content about life/places/moments (25%)",
+              "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+              "continuity": "Both touch life/daily content but genres differ (review vs meme)",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "review content about life/places/moments (25%)",
+              "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+              "continuity": "Direct — both are review-of-life-places content",
+              "scope": "POST specifies geography (China), expands topics (cultural experiences, funny reflections)",
+              "frame": "PRE: generic review of life/places/moments. POST: same review frame with concrete geographic and topical anchors",
+              "stretch": "Low — clear lineage",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "review content about life/places/moments (25%)",
+              "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "review content about life/places/moments (25%)",
+              "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "language learning content (25%)",
+              "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "language learning content (25%)",
+              "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "language learning content (25%)",
+              "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+              "continuity": "Direct — both refer to language-learning content",
+              "scope": "POST adds cultural learning and specifies Thai-English-Chinese; PRE is bare 'language learning'",
+              "frame": "PRE: generic language learning. POST: same idea with bilingual comparison and cultural framing",
+              "stretch": "Low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "language learning content (25%)",
+              "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "random content (25%)",
+              "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+              "continuity": "Weak — random is a residual catch-all",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "random content (25%)",
+              "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "random content (25%)",
+              "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "random content (25%)",
+              "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "continuity": "Partial — both are non-thematic catch-all categories, but PRE is explicitly unplanned filler",
+              "scope": "POST narrows the 'random' idea into personal/experimental content with named sub-genres",
+              "frame": "PRE: unplanned generic. POST: same residual-but-now-deliberate idea",
+              "stretch": "Moderate — could be lineage",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "meme content (25%)",
+              "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+              "reason": "Different content genres; memes ≠ reviews"
+            },
+            {
+              "pre": "meme content (25%)",
+              "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+              "reason": "Different content genres"
+            },
+            {
+              "pre": "meme content (25%)",
+              "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "reason": "Different content genres"
+            },
+            {
+              "pre": "review content about life/places/moments (25%)",
+              "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+              "reason": "Reviews and memes are different content genres"
+            },
+            {
+              "pre": "review content about life/places/moments (25%)",
+              "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+              "reason": "Reviews and language lessons are different genres"
+            },
+            {
+              "pre": "review content about life/places/moments (25%)",
+              "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "reason": "Reviews and vlogs/challenges are different genres"
+            },
+            {
+              "pre": "language learning content (25%)",
+              "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+              "reason": "Different content genres"
+            },
+            {
+              "pre": "language learning content (25%)",
+              "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+              "reason": "Different content genres"
+            },
+            {
+              "pre": "language learning content (25%)",
+              "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "reason": "Different content genres"
+            },
+            {
+              "pre": "random content (25%)",
+              "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+              "reason": "Random is a residual catch-all; memes are a specific genre"
+            },
+            {
+              "pre": "random content (25%)",
+              "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+              "reason": "Random is a residual catch-all; reviews are a specific genre"
+            },
+            {
+              "pre": "random content (25%)",
+              "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+              "reason": "Random is a residual catch-all; language learning is a specific genre"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "meme content (25%)",
+              "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+              "basis": "Same meme/comedy content category; POST adds topical anchors and tonal label"
+            },
+            {
+              "pre": "review content about life/places/moments (25%)",
+              "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+              "basis": "Same review-of-life category; POST specifies geography and sub-topics"
+            },
+            {
+              "pre": "language learning content (25%)",
+              "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+              "basis": "Both name language-learning content; POST shifts organizing frame from linguistic to cultural-bilingual comparison"
+            },
+            {
+              "pre": "random content (25%)",
+              "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "basis": "Both are the residual fourth bucket; PRE is unplanned catch-all, POST is deliberate personal/experimental"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "random content (25%)",
+              "direction": "removed",
+              "nearestCounterpart": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Nearest POST counterpart is 'Personal & Experimental Content'; tested all four: subsumption does not strictly hold (random ≠ a specific way of being personal/experimental), but conceptual lineage exists — PRE is the unplanned catch-all bucket that POST has now given a deliberate identity. Reframed is the best-supported verdict (residual/personal frame shift). Converted into matched pair."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "meme content (25%)",
+              "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same content category (memes/comedy) retained; POST adds topical anchors (culture/travel/daily life) and a tonal label ('Relatable Comedy'). Underlying noun/category is intact — descriptors added, not reframed. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "review content about life/places/moments (25%)",
+              "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same review-of-life category preserved; POST adds geography (China) and sub-topics (cultural experiences, funny reflections). Frame unchanged; detail added. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "language learning content (25%)",
+              "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Subsumption test: 'Language & Cultural Learning is a specific way of being language learning' — partly true but POST adds a cultural-comparison dimension and bilingual framing (Thai-English-Chinese) that changes the organizing lens from pure linguistic learning to cultural-bilingual learning. Same territory, shifted frame. Reframed is correct; not Narrowed because the added cultural framing is more than scope/population restriction."
+            },
+            {
+              "type": "confirm",
+              "pre": "random content (25%)",
+              "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Both fill the residual fourth-bucket role, but PRE frames it as unplanned filler ('random') and POST reconceives that slot as deliberate 'Personal & Experimental Content' with named sub-genres. Same residual-bucket territory; organizing frame shifts from unplanned-catch-all to intentional personal/experimental. Reframed is correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti727i2m9u22r0rgm",
+            "code": "Elaborated",
+            "preEvidence": "meme content (25%)",
+            "postEvidence": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+            "rationale": "Meme/comedy category retained; POST adds experiential anchors (culture/travel/daily life) and a relatability tone. Underlying category intact, detail added.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed — rejected because 'relatable comedy about culture/travel/daily life' is not a strict subset of 'meme content'; it adds a tonal and topical qualifier rather than restricting scope."
+          },
+          {
+            "instanceId": "mti727i2o1dcdksxt7a",
+            "code": "Elaborated",
+            "preEvidence": "review content about life/places/moments (25%)",
+            "postEvidence": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+            "rationale": "Review-of-life category retained; POST specifies geography (China) and expands sub-topics (cultural experiences, funny reflections). Same frame, added detail.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed — rejected because POST broadens topics rather than restricting to a subset of the original review content."
+          },
+          {
+            "instanceId": "mti727i2x9tognsn0yd",
+            "code": "Reframed",
+            "preEvidence": "language learning content (25%)",
+            "postEvidence": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+            "rationale": "Language-learning territory persists but the organizing frame shifts from pure linguistic learning to bilingual cultural comparison (Thai-English-Chinese) with a 'fun lessons' tone. Sibling/related concept on the same content-strategy territory, not a subtype.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated — rejected because POST introduces a cultural-comparison dimension that changes the organizing lens, not merely adds descriptors to the same category."
+          },
+          {
+            "instanceId": "mti727i256jnctvh9cl",
+            "code": "Reframed",
+            "preEvidence": "random content (25%)",
+            "postEvidence": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+            "rationale": "Same residual-fourth-bucket role, but PRE frames it as unplanned filler while POST reconceives it as deliberate personal/experimental content with named sub-genres. Frame shift from catch-all to intentional identity.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated — rejected because POST does not merely add modifiers to 'random'; it replaces the organizing concept (unplanned) with a different one (intentional personal/experimental)."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "boundary_case_elab_vs_reframe"
+          ],
+          "coderNotes": "The meme and review events are clean Elaborated cases. The language-learning and 'random'-to-Personal-Experimental events sit close to the Elaborated/Reframed boundary; Reframed was selected because in both cases the organizing frame shifted (linguistic → cultural-bilingual; unplanned → deliberate). The 'random → Personal & Experimental Content' lineage required the new/removed re-check and was converted from an initial Removed+New framing into a Reframed matched pair. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "I am thinking about offering merchandise like t-shirt, hoodie, tote bags etc. (i love tote bags!)"
+      },
+      "post": {
+        "answer": "Fun, relatable, and culture-inspired print-on-demand (POD) merchandise"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "PRE is a single short sentence naming merchandise types and a personal aside. POST condenses the offering into a single descriptive phrase but adds three brand-quality descriptors (fun, relatable, culture-inspired) and an explicit production method (POD). The product-category content contracts (item examples dropped), but the descriptive and positioning content expands. Net: moderate addition — the response gained meaningful descriptive content while losing the item-type enumeration.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "merchandise (t-shirts, hoodies, tote bags, etc.)",
+            "print-on-demand method (implicit/absent)",
+            "brand vibe/positioning (implicit/absent)"
+          ],
+          "postConcepts": [
+            "print-on-demand (POD) merchandise",
+            "fun",
+            "relatable",
+            "culture-inspired"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+              "post": "print-on-demand (POD) merchandise",
+              "continuity": "both specify merchandise as the product offering",
+              "scope": "PRE lists specific items (t-shirts, hoodies, tote bags); POST specifies the production method (POD) instead of item types",
+              "frame": "PRE frames as product types; POST frames as production model + brand qualities",
+              "stretch": "the product category (merchandise) is shared, but the descriptive axis has shifted from item types to method + qualities",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+              "post": "fun",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "cross-axis; merchandise is product type, fun is brand quality",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+              "post": "relatable",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "cross-axis",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+              "post": "culture-inspired",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "cross-axis",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "print-on-demand method (implicit/absent)",
+              "post": "print-on-demand (POD) merchandise",
+              "continuity": "direct lineage — the production method is now explicit",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "closest match",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "print-on-demand method (implicit/absent)",
+              "post": "fun",
+              "continuity": "none",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "cross-axis",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "print-on-demand method (implicit/absent)",
+              "post": "relatable",
+              "continuity": "none",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "cross-axis",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "print-on-demand method (implicit/absent)",
+              "post": "culture-inspired",
+              "continuity": "none",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "cross-axis",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "brand vibe/positioning (implicit/absent)",
+              "post": "fun",
+              "continuity": "some — the parenthetical 'i love tote bags' hints at personal/expressive intent, but no brand-quality statement is explicit",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "requires inference",
+              "verdict": "weak"
+            },
+            {
+              "pre": "brand vibe/positioning (implicit/absent)",
+              "post": "relatable",
+              "continuity": "none direct",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "requires inference",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "brand vibe/positioning (implicit/absent)",
+              "post": "culture-inspired",
+              "continuity": "none direct",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "requires inference",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+              "post": "fun",
+              "reason": "different conceptual domains; merchandise is product category, fun is brand quality"
+            },
+            {
+              "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+              "post": "relatable",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+              "post": "culture-inspired",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "print-on-demand method (implicit/absent)",
+              "post": "fun",
+              "reason": "cross-axis"
+            },
+            {
+              "pre": "print-on-demand method (implicit/absent)",
+              "post": "relatable",
+              "reason": "cross-axis"
+            },
+            {
+              "pre": "print-on-demand method (implicit/absent)",
+              "post": "culture-inspired",
+              "reason": "cross-axis"
+            },
+            {
+              "pre": "brand vibe/positioning (implicit/absent)",
+              "post": "fun",
+              "reason": "no explicit brand-quality antecedent in PRE; would require inferring an implicit concept"
+            },
+            {
+              "pre": "brand vibe/positioning (implicit/absent)",
+              "post": "relatable",
+              "reason": "no explicit antecedent"
+            },
+            {
+              "pre": "brand vibe/positioning (implicit/absent)",
+              "post": "culture-inspired",
+              "reason": "no explicit antecedent"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+              "post": "print-on-demand (POD) merchandise",
+              "basis": "same product-offering territory; organizing frame shifts from enumerated item types to production method"
+            },
+            {
+              "pre": "print-on-demand method (implicit/absent)",
+              "post": "print-on-demand (POD) merchandise",
+              "basis": "production method is made explicit and attached to the merchandise category; same underlying method, now named"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "fun",
+            "relatable",
+            "culture-inspired"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "fun",
+              "direction": "new",
+              "nearestCounterpart": "(parenthetical 'i love tote bags')",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE contains no explicit brand-quality or experiential descriptor. The parenthetical is an affective aside about tote bags as personal objects, not a brand-positioning claim. Subsumption, frame continuity, elaboration, and expansion all fail — 'fun' cannot be read as a specific way of being the parenthetical, nor as a reconception of it. Fun is genuinely new content."
+            },
+            {
+              "concept": "relatable",
+              "direction": "new",
+              "nearestCounterpart": "(parenthetical 'i love tote bags')",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE has no antecedent for an audience-relational claim. No subsumption, reframing, elaboration, or expansion is defensible from the parenthetical. Relatable is new."
+            },
+            {
+              "concept": "culture-inspired",
+              "direction": "new",
+              "nearestCounterpart": "(parenthetical 'i love tote bags')",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE contains no cultural-anchoring claim. The nearest PRE element is the personal aside about tote bags, which is not a culture/source claim. Culture-inspired is new."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+              "post": "print-on-demand (POD) merchandise",
+              "fromCode": "Narrowed",
+              "toCode": "Reframed",
+              "reason": "POST is not a specific way of being the broader merchandise; the descriptive axis shifts from enumerated item types (t-shirts, hoodies, tote bags) to production method (POD). 'POD merchandise' is not a subsumption of 'merchandise (t-shirts, hoodies, tote bags)' — POD merch could include any item type. Same semantic territory (product offering) with a shifted organizing frame (item-type enumeration → production method + brand qualities). Reframed is correct; subsumption test fails."
+            },
+            {
+              "type": "confirm",
+              "pre": "print-on-demand method (implicit/absent)",
+              "post": "print-on-demand (POD) merchandise",
+              "fromCode": "New",
+              "toCode": "Elaborated",
+              "reason": "This pairing is correct and the unitization-stage event should be coded Elaborated (method made explicit; product category retained via merchandise). Confirming the pairing."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "fun",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "PRE contains no brand-quality or experiential descriptor. The parenthetical 'i love tote bags' is a personal affective aside, not a brand-positioning claim. No neighborhood with any PRE concept; no defensible transformation. New is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "relatable",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "PRE has no audience-relational or social-positioning antecedent. No neighborhood; no transformation defensible. New is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "culture-inspired",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "PRE contains no cultural-source or aesthetic-anchoring claim. No neighborhood; no transformation defensible. New is correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti71xj969kleutu6ak",
+            "code": "Reframed",
+            "preEvidence": "merchandise like t-shirt, hoodie, tote bags etc.",
+            "postEvidence": "print-on-demand (POD) merchandise",
+            "rationale": "Same semantic territory (product offering) but the organizing frame changes: PRE enumerates item types (t-shirts, hoodies, tote bags) while POST reorganizes around the production method (POD). Subsumption fails — POD merchandise is not a specific way of being 'merchandise (t-shirts, hoodies, tote bags)' since POD merch is defined by method, not by which items are enumerated. The frame shift, not scope restriction, is the operative change.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed (subsumption not literally true)"
+          },
+          {
+            "instanceId": "mti71xj9w8sszwlw5x",
+            "code": "Elaborated",
+            "preEvidence": "print-on-demand method (implicit/absent)",
+            "postEvidence": "print-on-demand (POD) merchandise",
+            "rationale": "The previously implicit production method is made explicit and named in full. The product category (merchandise) from the other PRE unit carries forward. This is elaboration of the method concept: the same method is now stated and attached to the product category.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti71xj9ulvj20j6e79",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "fun",
+            "rationale": "No PRE antecedent for a brand-quality or experiential descriptor. The parenthetical 'i love tote bags' is a personal affective aside, not a brand-positioning claim. No neighborhood with any PRE concept; transformation ladder fails at all tiers.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti71xj9ylmhbmtluu",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "relatable",
+            "rationale": "No PRE antecedent for an audience-relational or social-positioning claim. No shared neighborhood with any PRE concept; transformation ladder fails at all tiers.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti71xj9k883sjdoblb",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "culture-inspired",
+            "rationale": "No PRE antecedent for a cultural-source or aesthetic-anchoring claim. No shared neighborhood with any PRE concept; transformation ladder fails at all tiers.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "vague_to_specific_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The PRE parenthetical '(i love tote bags!)' is personal expression but not a brand-positioning statement, so it does not provide lineage for the three new brand-quality descriptors. The merchandise-to-merchandise-POD pair is coded Narrowed on the basis of scope restriction (specifying production method narrows the offering category). Item-level item-type enumeration in PRE (t-shirts, hoodies, tote bags) is not separately coded as Removed because it is absorbed into the same merchandise category that the Narrowed event tracks; a separate Removed event would double-count. Structural Development judged Moderate Addition because positioning descriptors were added while item-type enumeration was compressed away, netting to a moderate expansion of descriptive content. Critic applied 5 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 5
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 1,
+          "Business Potential (Profit and Market Demand)": 1,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 1,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 3,
+          "Familiarity/Market Understanding": 1,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 4,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 1,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ],
+  "name": "Poom",
+  "studentId": "poom",
+  "_seedVersion": "upload-1788218816310",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "I used to intern at the Thai Chamber of Commerce in China during my junior year. I had an opportunity to help the Chamber of Commerce recreate the introduction slide deck and adjust some content to make it more appealing to younger people. Check em out! https://drive.google.com/drive/folders/1jtEeWvHACyLn1pTF0LsFFVpPNcTs9Dqi?usp=sharing However, I mostly worked with visual aspects (Microsoft PowerPoint and Canva)."
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 4
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 6
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 8
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 6
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Heavy user: Multiple times (multiple chats) on a working day; reliant on AI deal with a significant portion of my work"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "Once during the capstone class but I have never received a proper training at all."
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 6
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "I think it helps me break-down my thoughts with details that I have in my head. I often struggle putting words on a blank piece of paper and ChatGPT revolutionized that"
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "One thing that I encounter (have encountered?) is that I might have this assumption that Yes! This is exactly what I thought in my head or Damn, ChatGPT knows me so well. Sometimes, ChatGPT makes me feel that my idea has so much potential but I kinda doubt it"
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 5
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 8
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 5
+      }
+    ]
+  }
+}

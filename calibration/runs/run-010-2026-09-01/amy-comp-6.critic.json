@@ -1,0 +1,35 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "TikTok",
+      "post": "Tiktok",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical platform reference with only a capitalization difference; trivial and should be matched 1:1."
+    },
+    {
+      "type": "confirm",
+      "pre": "Instagram",
+      "post": "Instagram",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical platform reference; correct direct match."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "TikTok",
+      "post": "Tiktok",
+      "basis": "identical platform reference (spelling/capitalization trivial)"
+    },
+    {
+      "pre": "Instagram",
+      "post": "Instagram",
+      "basis": "identical platform reference"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

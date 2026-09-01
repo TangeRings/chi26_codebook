@@ -1,0 +1,112 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "MBTI-themed merch (e.g. plushes)",
+      "post": "developing MBTI-themed merchandise (plushies, apparel, collectibles)",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Pass 1 correctly identified that POST broadens the example set from plushes to plushies/apparel/collectibles while keeping the product category. Expanded is the right code."
+    },
+    {
+      "type": "confirm",
+      "pre": "navigating legal issues/uncertainty about MBTI use",
+      "post": "navigating legal considerations surrounding MBTI trademarks and branding",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Pass 1 correctly identified that POST keeps the same ongoing activity and only adds specificity (trademarks and branding). Elaborated is right; Reframed would require a frame shift, not added detail."
+    },
+    {
+      "type": "confirm",
+      "pre": "MBTI demographic is very active in the United States",
+      "post": "MBTI has a highly engaged fanbase in the U.S.",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Pass 1 identified a real frame shift: demographic-as-population-statistic to fanbase-as-enthusiast-community. This is not subsumption, not mere rewording, not added detail; it is an interpretive reorganization. Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "lack of physical products for MBTI demographic",
+      "post": "lack of high-quality, personality-driven physical products",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Pass 1 correctly held this as Elaborated. POST keeps the same market-gap frame and only adds qualifying descriptors (high-quality, personality-driven). Frame is intact, scope is not meaningfully restricted."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "gap presents opportunity to create tangible, aesthetically appealing, shareable merchandise that resonates with MBTI enthusiasts",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass 1 correctly identified the opportunity-with-attribute-bundle statement as a fresh introduction. The only candidate PRE antecedent (MBTI-themed merch) is already consumed by the Expanded event, and reusing it would double-count. Same-neighborhood with the existing items does not apply here because the POST event is an opportunity claim, not a restatement of an existing PRE concept. New stands."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "MBTI-themed merch (e.g. plushes)",
+      "post": "developing MBTI-themed merchandise (plushies, apparel, collectibles)",
+      "basis": "same product category, POST expands the example set"
+    },
+    {
+      "pre": "navigating legal issues/uncertainty about MBTI use",
+      "post": "navigating legal considerations surrounding MBTI trademarks and branding",
+      "basis": "same ongoing activity, rephrased with more specificity"
+    },
+    {
+      "pre": "MBTI demographic is very active in the United States",
+      "post": "MBTI has a highly engaged fanbase in the U.S.",
+      "basis": "same market observation with a frame shift from demographic-statistic to engaged-fanbase"
+    },
+    {
+      "pre": "lack of physical products for MBTI demographic",
+      "post": "lack of high-quality, personality-driven physical products",
+      "basis": "same market-gap claim, POST adds qualifying detail"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "gap presents opportunity to create tangible, aesthetically appealing, shareable merchandise that resonates with MBTI enthusiasts"
+  ],
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "MBTI-themed merch (e.g. plushes)",
+      "post_evidence": "developing MBTI-themed merchandise (plushies, apparel, collectibles)",
+      "rationale": "POST retains the same product category (MBTI-themed merch) and broadens the example set from plushes alone to plushies, apparel, and collectibles. The seed concept is identifiable and has been broadened by adding categories.",
+      "alternative_considered": "Elaborated \u2014 adding more product examples could be seen as detail within the same category; however, adding distinct product categories broadens the scope, so Expanded is preferred.",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "navigating legal issues/uncertainty about MBTI use",
+      "post_evidence": "navigating legal considerations surrounding MBTI trademarks and branding",
+      "rationale": "POST keeps the same ongoing activity (working through legal issues around MBTI use) and adds specificity about what is being navigated (trademarks and branding). Detail is added within the same conceptual frame.",
+      "alternative_considered": "Reframed \u2014 could be read as a shift from uncertain figuring-out to managed navigation; however, the underlying activity is preserved and only specificity is added.",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "MBTI demographic is very active in the United States",
+      "post_evidence": "MBTI has a highly engaged fanbase in the U.S.",
+      "rationale": "Same market observation, but the conceptual frame shifts from a generic demographic-statistic framing to a 'fanbase' framing that emphasizes enthusiast identity and engagement. Pre-frame: demographic activity. Post-frame: engaged fanbase/identity.",
+      "alternative_considered": "Elaborated \u2014 could be seen as merely rewording; however, the shift from 'demographic' to 'fanbase' carries an interpretive emphasis change (audience-as-population \u2192 audience-as-enthusiast-community), which supports Reframed.",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "lack of physical products for MBTI demographic",
+      "post_evidence": "lack of high-quality, personality-driven physical products",
+      "rationale": "POST keeps the same market-gap claim and adds qualifying detail ('high-quality', 'personality-driven'), enriching the description without shifting the conceptual frame or restricting scope meaningfully.",
+      "alternative_considered": "Narrowed \u2014 adding 'high-quality' could be read as restricting the gap to a quality-specific subset; however, the gap claim itself is preserved and only descriptive qualifiers are added.",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "gap presents opportunity to create tangible, aesthetically appealing, shareable merchandise that resonates with MBTI enthusiasts",
+      "rationale": "No equivalent clause in PRE. The opportunity framing, the aesthetic/shareable descriptor bundle, and the audience-resonance statement are introduced fresh in POST. The nearest PRE candidate (MBTI-themed merch) is already matched to a separate Expanded event and cannot be reused as antecedent. All four transformation codes fail.",
+      "alternative_considered": "Reframed or Expanded of the product concept as opportunity \u2014 rejected because the only plausible PRE antecedent is already consumed by the Expanded event; reusing it would double-count.",
+      "confidence": "medium"
+    }
+  ]
+}

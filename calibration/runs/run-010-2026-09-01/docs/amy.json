@@ -1,0 +1,1992 @@
+{
+  "_seedVersion": "upload-1788218631291",
+  "studentId": "amy",
+  "name": "Amy",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "artsy, camp, and comfort"
+      },
+      "post": {
+        "answer": "Shoes brand based on comfort and style, with high heels at the forefront"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "The pre-response is a short three-descriptor list. The post-response introduces a product category (shoes brand), names a second quality (style), and specifies a product focal point (high heels). This adds meaningful content beyond what was present while retaining the comfort descriptor. The expansion is contained to a few added clauses rather than multiple new explanatory passages, so Moderate Addition fits better than Significant Addition.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "artsy",
+            "camp",
+            "comfort"
+          ],
+          "postConcepts": [
+            "Shoes brand based on comfort and style",
+            "high heels at the forefront"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "artsy",
+              "post": "Shoes brand based on comfort and style",
+              "continuity": "artsy is an aesthetic/creative descriptor; the post describes a brand category and two qualities (comfort, style). No direct conceptual overlap.",
+              "scope": "artsy concerns an expressive/aesthetic sensibility; post defines category + functional qualities",
+              "frame": "pre-frame: aesthetic identity; post-frame: product category + dual-quality positioning",
+              "stretch": "artsy might loosely relate to 'style' as a stylistic notion, but artsy implies creative/artistic orientation whereas 'style' is a general design/appearance quality",
+              "verdict": "weak"
+            },
+            {
+              "pre": "artsy",
+              "post": "high heels at the forefront",
+              "continuity": "artsy concerns creative/aesthetic identity; high heels is a specific product focal point",
+              "scope": "artsy is an identity descriptor; high heels is a specific product type",
+              "frame": "pre-frame: aesthetic identity; post-frame: product focus",
+              "stretch": "artsy could be read as expressive but high heels as a specific category is not a subtype of artsy",
+              "verdict": "weak"
+            },
+            {
+              "pre": "camp",
+              "post": "Shoes brand based on comfort and style",
+              "continuity": "camp is an aesthetic sensibility (deliberately stylized, theatrical); post describes product category with two qualities",
+              "scope": "camp is identity/aesthetic; post is category + quality positioning",
+              "frame": "pre-frame: aesthetic sensibility; post-frame: product category + qualities",
+              "stretch": "camp and 'style' might both relate to fashion sensibility but camp implies a specific ironic/theatrical mode that 'style' does not convey",
+              "verdict": "weak"
+            },
+            {
+              "pre": "camp",
+              "post": "high heels at the forefront",
+              "continuity": "camp is aesthetic identity; high heels is a specific product type",
+              "scope": "different levels of abstraction",
+              "frame": "aesthetic identity vs product focus",
+              "stretch": "high heels is not a subtype of camp; no conceptual lineage defensible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "comfort",
+              "post": "Shoes brand based on comfort and style",
+              "continuity": "comfort is one of the two explicit bases named in the post",
+              "scope": "comfort is a quality; in post it is preserved as one of the named foundations",
+              "frame": "pre-frame: standalone descriptor; post-frame: integrated into a product category positioning",
+              "stretch": "comfort is preserved verbatim in the post; the post elaborates the surrounding context (shoes brand, paired with style)",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "comfort",
+              "post": "high heels at the forefront",
+              "continuity": "comfort is a quality; high heels is a product type",
+              "scope": "different conceptual levels",
+              "frame": "quality vs product category",
+              "stretch": "high heels is not a more specific way of being comfortable; in fact high heels are typically associated with low comfort, weakening lineage further",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "camp",
+              "post": "high heels at the forefront",
+              "reason": "camp is an aesthetic sensibility; high heels is a specific product category. Different conceptual domains. No defensible transformation."
+            },
+            {
+              "pre": "comfort",
+              "post": "high heels at the forefront",
+              "reason": "comfort is a quality; high heels is a product type. Different conceptual domains. Moreover high heels conventionally contradict comfort, so no lineage defensible."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "comfort",
+              "post": "Shoes brand based on comfort and style",
+              "basis": "comfort is preserved verbatim as one of the two named foundations of the post-response; the post adds product category (shoes brand) and a paired quality (style). Same underlying category with added context/modifiers."
+            }
+          ],
+          "unmatchedPre": [
+            "artsy",
+            "camp"
+          ],
+          "unmatchedPost": [
+            "high heels at the forefront"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "artsy",
+              "direction": "removed",
+              "nearestCounterpart": "Shoes brand based on comfort and style",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested Narrowed: 'Shoes brand based on comfort and style is a specific way of being artsy' — FALSE; comfort/style is not a subtype of artsy. Tested Reframed: artsy concerns an aesthetic/creative sensibility while the post concerns product category + functional qualities; territory only topically adjacent (style/aesthetic). Tested Elaborated: post does not keep artsy intact. Tested Expanded: no identifiable broadening of an artsy seed. All four fail; artsy is genuinely absent."
+            },
+            {
+              "concept": "camp",
+              "direction": "removed",
+              "nearestCounterpart": "Shoes brand based on comfort and style",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested Narrowed: 'Shoes brand based on comfort and style is a specific way of being camp' — FALSE; the post is not a theatrical/ironic mode. Tested Reframed: camp is a specific aesthetic sensibility (theatrical, stylized) while post names a product category and two qualities; only topical adjacency at the level of 'fashion/aesthetic'. Tested Elaborated: post does not keep camp intact. Tested Expanded: no identifiable broadening of camp. All four fail; camp is genuinely absent."
+            },
+            {
+              "concept": "high heels at the forefront",
+              "direction": "new",
+              "nearestCounterpart": "artsy",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested Narrowed: 'High heels at the forefront is a specific way of being artsy' — FALSE; a product focus is not a subtype of an aesthetic sensibility. Tested Reframed: artsy concerns creative identity; high heels concerns product specificity; different conceptual domains. Tested Elaborated: post does not keep artsy intact. Tested Expanded: no identifiable broadening of artsy into a product focus. All four fail."
+            },
+            {
+              "concept": "high heels at the forefront",
+              "direction": "new",
+              "nearestCounterpart": "comfort",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested Narrowed: high heels is a product type, not a more specific way of being comfortable; conventionally the opposite. Tested Reframed: different conceptual domains (product category vs quality). Tested Elaborated: does not keep comfort intact. Tested Expanded: does not broaden comfort. All four fail."
+            },
+            {
+              "concept": "high heels at the forefront",
+              "direction": "new",
+              "nearestCounterpart": "camp",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested Narrowed: high heels is not a specific way of being camp. Tested Reframed: product category vs aesthetic sensibility; different conceptual domains. Tested Elaborated: does not keep camp intact. Tested Expanded: does not broaden camp. All four fail."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "comfort",
+              "post": "Shoes brand based on comfort and style",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "comfort is preserved verbatim in the post and only adds product category context and a paired quality (style). Same underlying category, modifiers/context added. Per BC-P001, this is Elaborated, not Reframed. Pass-1 is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "artsy",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Tested against all POST units. artsy is an aesthetic/creative sensibility; neither 'Shoes brand based on comfort and style' nor 'high heels at the forefront' is a specific way of being artsy, a sibling territory, an elaboration, or an expansion. The only adjacency is the abstraction-ceiling umbrella of 'style/aesthetic' which proves nothing. Genuine Removed."
+            },
+            {
+              "type": "confirm",
+              "pre": "camp",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Tested against all POST units. camp is a specific ironic/theatrical aesthetic mode. Neither post concept is a specific way of being camp, a sibling frame, an elaboration, or an expansion. Adjacency to 'fashion/aesthetic' is at the abstraction ceiling only. Genuine Removed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "high heels at the forefront",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Tested against all PRE units. High heels is a specific product focal point; not a subtype, sibling frame, elaboration, or expansion of artsy/camp/comfort. The camp↔high heels candidate was implausible on its face. Genuine New."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6sfi81flhectxmn8",
+            "code": "Elaborated",
+            "preEvidence": "comfort",
+            "postEvidence": "Shoes brand based on comfort and style",
+            "rationale": "comfort is preserved verbatim in the post and integrated into a product-category positioning that adds a paired quality (style) and product context (shoes brand). The underlying category is intact; only surrounding context is added.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6sfi8kv02uy10bhc",
+            "code": "Removed",
+            "preEvidence": "artsy",
+            "postEvidence": null,
+            "rationale": "No POST concept is a successor for the aesthetic/creative descriptor 'artsy'. Tested Narrowed, Reframed, Elaborated, and Expanded against all POST concepts. Only adjacency is the broad 'style/aesthetic' umbrella, which is above the abstraction ceiling.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6sfi8pdyal0uc90g",
+            "code": "Removed",
+            "preEvidence": "camp",
+            "postEvidence": null,
+            "rationale": "No POST concept is a successor for the theatrical/ironic aesthetic mode 'camp'. Tested Narrowed, Reframed, Elaborated, and Expanded against all POST concepts. Only adjacency is at the abstraction ceiling ('fashion/aesthetic').",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6sfi8ucc5w71xej",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "high heels at the forefront",
+            "rationale": "The post introduces a specific product focal point (high heels) with no defensible antecedent in the pre-response. Tested Narrowed, Reframed, Elaborated, and Expanded against artsy, comfort, and camp — all fail.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "neighborhood_tested_no_lineage",
+            "possible_stylistic_rewrite",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The 'comfort' elaboration is the most defensible event. Removed and New events survived the mandatory re-check, but the weakness of the lineage between the aesthetic PRE descriptors (artsy, camp) and the product-focused POST is notable. The Elaboration could alternatively be read as Reframed since the post pairs comfort with a new organizing frame (product category + style); however, comfort as a quality is preserved intact, so Elaborated is the dominant direction. Flagged for calibration review. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "artistic footwear aimed at performers"
+      },
+      "post": {
+        "answer": "To make fashionable shoes without compromising comfort and create representation in the fashion world for LGBTQ individuals"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The pre-response is a single short noun phrase (one concept of product + one audience phrase). The post-response expands into a multi-clause vision that introduces a product goal, a product-constraint principle (comfort), and an explicit social-representation mission aimed at a named population (LGBTQ individuals). Multiple new meaningful clauses and entirely new dimensions (comfort commitment, social mission, explicit audience) have been added.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "artistic footwear",
+            "aimed at performers"
+          ],
+          "postConcepts": [
+            "make fashionable shoes",
+            "without compromising comfort",
+            "create representation in the fashion world for LGBTQ individuals"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "artistic footwear",
+              "post": "make fashionable shoes",
+              "continuity": "Both denote the product category the brand offers — shoes/footwear with aesthetic design intent.",
+              "scope": "PRE emphasizes 'artistic'; POST emphasizes 'fashionable'. Roughly comparable scope, both refer to designed footwear.",
+              "frame": "PRE frames footwear through an artistic lens; POST frames it through a fashionable lens.",
+              "stretch": "Mild stretch — 'artistic' and 'fashionable' are sibling qualities within aesthetic design.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "artistic footwear",
+              "post": "without compromising comfort",
+              "continuity": "Weak. Comfort is a product attribute, not a direct continuation of 'artistic footwear' as a concept.",
+              "scope": "Different — one names the product, the other a constraint on the product.",
+              "frame": "Different frames.",
+              "stretch": "High stretch.",
+              "verdict": "weak"
+            },
+            {
+              "pre": "artistic footwear",
+              "post": "create representation in the fashion world for LGBTQ individuals",
+              "continuity": "Weak. Representation for LGBTQ individuals is a brand-mission/social-impact concept, not a product concept.",
+              "scope": "Different.",
+              "frame": "Different frames (product vs social mission).",
+              "stretch": "High stretch.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "aimed at performers",
+              "post": "make fashionable shoes",
+              "continuity": "Weak. Performers is an audience concept; 'make fashionable shoes' is a product/action concept.",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "High.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "aimed at performers",
+              "post": "without compromising comfort",
+              "continuity": "Weak. Comfort is not an audience concept.",
+              "scope": "Different.",
+              "frame": "Different.",
+              "stretch": "High.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "aimed at performers",
+              "post": "create representation in the fashion world for LGBTQ individuals",
+              "continuity": "Both relate to who the brand serves, but the named populations differ (performers vs LGBTQ individuals). Could share a 'target-audience / representation' neighborhood at a high level, but the audiences themselves are different. No shared semantic role at the specific level.",
+              "scope": "Different specific populations.",
+              "frame": "Both are audience-scoping, but the concrete referents differ.",
+              "stretch": "Moderate-to-high; abstraction ceiling risk — the only shared territory is 'audience', which would apply to almost any pair in this item.",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "artistic footwear",
+              "post": "without compromising comfort",
+              "reason": "Different conceptual domains: product category vs product constraint/attribute. No shared semantic neighborhood at a specific level."
+            },
+            {
+              "pre": "artistic footwear",
+              "post": "create representation in the fashion world for LGBTQ individuals",
+              "reason": "Different conceptual domains: product vs social-impact mission. No defensible lineage."
+            },
+            {
+              "pre": "aimed at performers",
+              "post": "make fashionable shoes",
+              "reason": "Different conceptual domains: audience vs product action."
+            },
+            {
+              "pre": "aimed at performers",
+              "post": "without compromising comfort",
+              "reason": "Different conceptual domains: audience vs product attribute."
+            },
+            {
+              "pre": "aimed at performers",
+              "post": "create representation in the fashion world for LGBTQ individuals",
+              "reason": "Although both relate to audience scope, the named populations are distinct (performers vs LGBTQ individuals). The only shared territory is the broad umbrella 'audience', which fails the abstraction ceiling test — it would apply to almost any pair in this item. Different conceptual domains at the specific level."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "artistic footwear",
+              "post": "make fashionable shoes",
+              "basis": "Both name designed footwear at the core of the brand. Same product category persists; the aesthetic frame shifts from artistic/design register to fashion/style register. Sibling qualities within aesthetic design."
+            }
+          ],
+          "unmatchedPre": [
+            "aimed at performers"
+          ],
+          "unmatchedPost": [
+            "without compromising comfort",
+            "create representation in the fashion world for LGBTQ individuals"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "aimed at performers",
+              "direction": "removed",
+              "nearestCounterpart": "create representation in the fashion world for LGBTQ individuals",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest counterpart is the LGBTQ-representation clause. Tested subsumption: 'LGBTQ representation is a specific way of being aimed at performers' is FALSE — performers and LGBTQ individuals are distinct audience categories with no subtype relation. Tested same-territory Reframed: the only shared neighborhood available is the broad umbrella 'audience', which fails the abstraction ceiling (would apply to almost any two descriptors). Tested Elaborated — POST does not add detail to 'performers'. Tested Expanded — POST does not broaden 'performers' into a larger set. All four fail across genuinely different concrete referents."
+            },
+            {
+              "concept": "without compromising comfort",
+              "direction": "new",
+              "nearestCounterpart": "artistic footwear",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is 'artistic footwear'. Subsumption test: 'without compromising comfort is a specific way of being artistic footwear' is FALSE — comfort is a constraint/attribute, not a subtype of artistic footwear. Reframed: the only shared territory is the broad umbrella 'product quality', which fails the abstraction ceiling. Elaborated: 'artistic footwear' is not retained and elaborated with a comfort qualifier in POST. Expanded: no identifiable PRE seed to broaden. All four fail."
+            },
+            {
+              "concept": "create representation in the fashion world for LGBTQ individuals",
+              "direction": "new",
+              "nearestCounterpart": "aimed at performers",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is 'aimed at performers'. Subsumption: 'LGBTQ representation is a specific way of being aimed at performers' is FALSE — distinct audience populations, no subtype relation. Reframed: only shared territory is the broad umbrella 'audience' which fails the abstraction ceiling. Elaborated: POST does not elaborate 'performers'. Expanded: 'performers' is not broadened into LGBTQ individuals as a wider set. All four fail."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "artistic footwear",
+              "post": "make fashionable shoes",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Subsumption test: 'fashionable shoes is a specific way of being artistic footwear' is FALSE — fashionable and artistic are sibling aesthetic registers, not subtype/genus. Product category persists, frame shifts from artistic/design register to fashion/style register. Reframed is correct; Narrowed was correctly rejected."
+            },
+            {
+              "type": "confirm",
+              "pre": "aimed at performers",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Nearest POST counterpart is LGBTQ representation. Tested Narrowed (no subtype relation between performers and LGBTQ individuals), Reframed (shared territory is only the umbrella 'audience', fails abstraction ceiling), Elaborated (POST does not add detail to performers), Expanded (no broadening). All four fail; Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "without compromising comfort",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE counterpart 'artistic footwear' is a product category, not a constraint. Narrowed fails (comfort is not a subtype of artistic footwear), Reframed fails (only shared umbrella is 'product quality', abstraction ceiling), Elaborated fails (artistic footwear is not retained and elaborated with comfort qualifier in POST), Expanded fails. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "create representation in the fashion world for LGBTQ individuals",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE counterpart is 'aimed at performers'. Narrowed fails (no subtype relation), Reframed fails (only shared umbrella is 'audience', abstraction ceiling — explicit human-verified non-neighborhood pattern: distinct audience populations), Elaborated fails (POST does not elaborate performers), Expanded fails (performers not broadened into LGBTQ individuals as wider set). New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6seqz8gdxubxofh6",
+            "code": "Reframed",
+            "preEvidence": "artistic footwear",
+            "postEvidence": "make fashionable shoes",
+            "rationale": "Same product category (designed footwear) persists, but the organizing aesthetic frame shifts from 'artistic' to 'fashionable'. 'Fashionable shoes is a specific way of being artistic footwear' is FALSE — sibling aesthetic registers, not subsumption. Pre-frame: artistic/design register; post-frame: fashion/style register.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6seqzdwxm80uqdei",
+            "code": "Removed",
+            "preEvidence": "aimed at performers",
+            "postEvidence": null,
+            "rationale": "The 'performers' audience is absent from the post-response and has no defensible successor. Nearest POST counterpart (LGBTQ representation) names a different audience population; only shared territory is the umbrella 'audience', which fails the abstraction ceiling. Narrowed, Reframed, Elaborated, and Expanded all fail.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6seqz1xm0tgljee5",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "without compromising comfort",
+            "rationale": "A product-constraint principle (comfort) is introduced with no antecedent in the pre-response. Nearest PRE counterpart ('artistic footwear') is a product-category concept, not a constraint; only shared territory is the umbrella 'product quality', which fails the abstraction ceiling. All four transformation codes fail.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6seqzw0sf6aohvcc",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "create representation in the fashion world for LGBTQ individuals",
+            "rationale": "An explicit social-representation mission for a named population (LGBTQ individuals) is introduced with no antecedent in the pre-response. Nearest PRE counterpart ('aimed at performers') names a different concrete audience; only shared territory is the umbrella 'audience', which fails the abstraction ceiling. All four transformation codes fail.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "neighborhood_tested_no_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The 'artistic footwear → make fashionable shoes' pair sits at the Narrowed/Reframed boundary; subsumption ('fashionable is a specific way of being artistic') is arguable but lean false because 'fashionable' and 'artistic' read as sibling aesthetic registers rather than a subtype relation, so Reframed is preferred. For the Removed/New pairs involving audiences, the only available shared territory is the broad umbrella 'audience', which fails the abstraction ceiling; lineage was tested and rejected on that basis. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "art and exclusivity"
+      },
+      "post": {
+        "answer": "Fashionable, comfortable, inclusive"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "PRE contains 2 short descriptors ('art and exclusivity'); POST contains 3 descriptors ('Fashionable, comfortable, inclusive'). One additional descriptor is introduced, modestly expanding the set without transforming scope or depth.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "art",
+            "exclusivity"
+          ],
+          "postConcepts": [
+            "Fashionable",
+            "comfortable",
+            "inclusive"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "art",
+              "post": "Fashionable",
+              "continuity": "art can be fashionable; both relate to aesthetic/cultural qualities",
+              "scope": "art is broader than fashion",
+              "frame": "aesthetic/creative frame vs. style/appearance frame",
+              "stretch": "some overlap but different conceptual domains (art as creative practice vs fashion as style category)",
+              "verdict": "weak"
+            },
+            {
+              "pre": "art",
+              "post": "comfortable",
+              "continuity": "weak connection",
+              "scope": "very different",
+              "frame": "creative frame vs. comfort/utility frame",
+              "stretch": "topical adjacency at most",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "art",
+              "post": "inclusive",
+              "continuity": "art can be inclusive; both touch on accessibility/audience",
+              "scope": "very different",
+              "frame": "creative vs. social-access frame",
+              "stretch": "only loosely adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "exclusivity",
+              "post": "Fashionable",
+              "continuity": "both relate to curated/selective positioning",
+              "scope": "exclusivity is a stance, fashionable is a quality",
+              "frame": "exclusivity/access-restriction vs. style/category",
+              "stretch": "related but different domains",
+              "verdict": "weak"
+            },
+            {
+              "pre": "exclusivity",
+              "post": "comfortable",
+              "continuity": "weak; comfortable implies ease not exclusivity",
+              "scope": "very different",
+              "frame": "access-restriction vs. comfort",
+              "stretch": "different conceptual domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "exclusivity",
+              "post": "inclusive",
+              "continuity": "direct conceptual opposition; both concern who the brand is for",
+              "scope": "inverse scope",
+              "frame": "exclusivity (restriction of access) vs inclusivity (broadening of access)",
+              "stretch": "strong conceptual relationship but inverse polarity",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "art",
+              "post": "comfortable",
+              "reason": "different conceptual domains; no shared neighborhood"
+            },
+            {
+              "pre": "exclusivity",
+              "post": "comfortable",
+              "reason": "different conceptual domains; no shared neighborhood"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "exclusivity",
+              "post": "inclusive",
+              "basis": "same access/audience-scope neighborhood with inverted polarity; frame shifts from restriction to welcome"
+            }
+          ],
+          "unmatchedPre": [
+            "art"
+          ],
+          "unmatchedPost": [
+            "Fashionable",
+            "comfortable"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "art",
+              "direction": "removed",
+              "nearestCounterpart": "Fashionable",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest counterpart is Fashionable. Subsumption test fails ('Fashionable is a specific way of being art' is false). Art is a creative/aesthetic practice; fashionable is a style/category quality — different conceptual domains. No shared neighborhood at a specific level beyond broad 'brand quality' umbrella (abstraction ceiling). All four transformations fail."
+            },
+            {
+              "concept": "Fashionable",
+              "direction": "new",
+              "nearestCounterpart": "art",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest counterpart is art. Art can be fashionable but fashionable is not a specific way of being art; territory not shared. No defensible transformation across the two domains. Re-checked across all PRE concepts; only candidate was art and exclusivity (different access-axis concept)."
+            },
+            {
+              "concept": "comfortable",
+              "direction": "new",
+              "nearestCounterpart": null,
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "No meaningful PRE antecedent. Comfort/utility is a different conceptual domain from both art (creative practice) and exclusivity (access restriction). All four transformations fail across genuinely different domains."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "exclusivity",
+              "post": "inclusive",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Both occupy the access/audience-scope neighborhood with inverted polarity. Subsumption test: 'Inclusive is a specific way of being Exclusivity' is FALSE (incompatible, not subset). Same territory, shifted frame from restriction to welcome — Reframed is correct. Alternative Removed+New correctly rejected because a shared neighborhood exists at a specific level (access scope)."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "art",
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Re-checked: nearest POST successor would be Fashionable, but art (creative practice) and fashionable (style category) occupy different conceptual domains. Any shared territory would require climbing to a 'brand quality' or 'aesthetic' umbrella — abstraction ceiling. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Fashionable",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE antecedent is art, but no transformation code is defensible across different domains (creative practice vs style category). New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "comfortable",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Comfort/utility has no defensible PRE antecedent. art and exclusivity occupy creative-practice and access-restriction domains respectively; comfort is a distinct sensory/utility domain. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6s2cy7gvp8j3ntk5",
+            "code": "Reframed",
+            "preEvidence": "exclusivity",
+            "postEvidence": "inclusive",
+            "rationale": "Both occupy the access/audience-scope neighborhood. The organizing frame inverts from restricting access (selective, limited membership) to broadening access (welcoming, broad membership). Subsumption fails — inclusive is not a specific way of being exclusivity — but semantic territory is shared at a specific level (who the brand is for), so Reframed is the correct tier-2 code.",
+            "confidence": "medium",
+            "alternativeConsidered": "Removed + New (rejected: shared neighborhood at specific level exists)"
+          },
+          {
+            "instanceId": "mti6s2cygs7r4elduo",
+            "code": "Removed",
+            "preEvidence": "art",
+            "postEvidence": null,
+            "rationale": "No POST successor. Nearest counterpart Fashionable fails all four transformations and would require an 'aesthetic' or 'brand quality' umbrella to claim shared territory (abstraction ceiling). art (creative practice) and Fashionable (style category) occupy different domains.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed (art→Fashionable); rejected as above"
+          },
+          {
+            "instanceId": "mti6s2cy3tmng2hv9wd",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Fashionable",
+            "rationale": "No defensible PRE antecedent. art is the nearest candidate but occupies a different conceptual domain (creative practice vs style category). All four transformations fail.",
+            "confidence": "medium",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6s2cynsrfwom0ric",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "comfortable",
+            "rationale": "Comfort/utility has no antecedent in PRE. Both PRE concepts (creative practice; access restriction) belong to different domains from comfort/sensory experience.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_remove_vs_reframe",
+            "neighborhood_tested_no_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The exclusivity→inclusive pair is the clearest event: both are on the access-axis but with inverted polarity. Whether to call this Reframed or Removed+New is arguable since the polarity inverts; chose Reframed because the underlying subject (who is the brand for) persists and both occupy the same access/audience-scope territory. Art→Fashionable could arguably be Reframed (art can be fashionable; both touch aesthetics), but the domains differ enough that the lineage is not defensible under the transformation ladder. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "female students/professionals(and gay men) aged 20-30 who are interested in fashionable functional artistic footwear"
+      },
+      "post": {
+        "answer": "Target customers include: female professionals from ages 20-35 who work on their feet and priorities comfort without losing out on wearability, dancers and performers(drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue, and gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The PRE response is a single condensed clause naming demographics and a brief product descriptor. The POST response introduces three distinct audience segments with extensive functional rationales (work-on-feet, dancers/performers with named subgenres, LGBTQ+ consumers with inclusive sizing). Multiple new sentences and explanatory clauses have been added; scope is meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "female students",
+            "female professionals",
+            "gay men",
+            "aged 20-30",
+            "fashionable functional artistic footwear"
+          ],
+          "postConcepts": [
+            "female professionals aged 20-35 who work on their feet",
+            "comfort without losing out on wearability",
+            "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+            "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "female students",
+              "post": "female professionals aged 20-35 who work on their feet",
+              "continuity": "both reference female audience members; students and young professionals overlap in age",
+              "scope": "students is a subset of young adults; professionals aged 20-35 overlaps with that range",
+              "frame": "educational/identity frame → occupational frame",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "female students",
+              "post": "comfort without losing out on wearability",
+              "continuity": "weak; attribute rather than audience",
+              "scope": "not applicable",
+              "frame": "audience → product attribute",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "female students",
+              "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+              "continuity": "weak; entirely distinct psychographic",
+              "scope": "not applicable",
+              "frame": "audience → occupational-performance audience",
+              "verdict": "weak"
+            },
+            {
+              "pre": "female students",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "continuity": "weak; different demographic",
+              "scope": "not applicable",
+              "frame": "female student → LGBTQ+ consumers",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "female professionals",
+              "post": "female professionals aged 20-35 who work on their feet",
+              "continuity": "strong; same audience, age narrowed and detail added",
+              "scope": "professionals → professionals who work on their feet (subset)",
+              "frame": "professional identity → occupational functional identity",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "female professionals",
+              "post": "comfort without losing out on wearability",
+              "continuity": "functional attribute linked to professional need",
+              "scope": "not applicable",
+              "frame": "audience → product attribute",
+              "verdict": "weak"
+            },
+            {
+              "pre": "female professionals",
+              "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+              "continuity": "dancers are a professional/performing subset",
+              "scope": "professionals → performance professionals (subset)",
+              "frame": "general professionals → performance professionals",
+              "verdict": "weak"
+            },
+            {
+              "pre": "female professionals",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "continuity": "different demographic",
+              "scope": "not applicable",
+              "frame": "heteronormative professionals → LGBTQ+ consumers",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "gay men",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "continuity": "strong; direct match of gay men segment, expanded with gender-fluid",
+              "scope": "gay men → gay men + gender-fluid (expanded population)",
+              "frame": "gay men → LGBTQ+ inclusive sizing",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "gay men",
+              "post": "female professionals aged 20-35 who work on their feet",
+              "continuity": "weak; different demographic",
+              "scope": "not applicable",
+              "frame": "gay men → female professionals",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "gay men",
+              "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+              "continuity": "drag/ballroom/vogue performers often overlap with gay men audience",
+              "scope": "gay men → gay/queer performance subculture (subset)",
+              "frame": "gay men → queer performers",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "aged 20-30",
+              "post": "female professionals aged 20-35 who work on their feet",
+              "continuity": "age range expanded 30 → 35",
+              "scope": "20-30 → 20-35 (expanded)",
+              "frame": "age range → age range + occupational context",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "aged 20-30",
+              "post": "comfort without losing out on wearability",
+              "continuity": "not applicable",
+              "scope": "not applicable",
+              "frame": "age → attribute",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "aged 20-30",
+              "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+              "continuity": "not applicable",
+              "scope": "not applicable",
+              "frame": "age → performance audience",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "aged 20-30",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "continuity": "not applicable",
+              "scope": "not applicable",
+              "frame": "age → LGBTQ+ consumers",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "fashionable functional artistic footwear",
+              "post": "comfort without losing out on wearability",
+              "continuity": "functional footwear element aligns with comfort/wearability",
+              "scope": "broad → narrowed functional dimension",
+              "frame": "aesthetic-functional-artistic → functional/comfort attribute",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "fashionable functional artistic footwear",
+              "post": "female professionals aged 20-35 who work on their feet",
+              "continuity": "product → audience",
+              "scope": "not applicable",
+              "frame": "product → audience",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "fashionable functional artistic footwear",
+              "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+              "continuity": "performance/impact aligned with artistic footwear",
+              "scope": "broad → narrow functional use case",
+              "frame": "artistic footwear → high-impact performance footwear",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "fashionable functional artistic footwear",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "continuity": "fashionable footwear aligned with heels",
+              "scope": "broad → narrow category (heels)",
+              "frame": "artistic footwear → gender-neutral heels",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "female students",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "reason": "different demographics; no semantic neighborhood"
+            },
+            {
+              "pre": "female professionals",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "reason": "different demographics; no shared semantic role"
+            },
+            {
+              "pre": "aged 20-30",
+              "post": "comfort without losing out on wearability",
+              "reason": "attribute mismatch with audience descriptor"
+            },
+            {
+              "pre": "aged 20-30",
+              "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+              "reason": "age range not continuous with audience descriptor"
+            },
+            {
+              "pre": "aged 20-30",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "reason": "age range mismatch with audience descriptor"
+            },
+            {
+              "pre": "fashionable functional artistic footwear",
+              "post": "female professionals aged 20-35 who work on their feet",
+              "reason": "product attribute vs audience; different domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "female professionals + aged 20-30",
+              "post": "female professionals aged 20-35 who work on their feet",
+              "basis": "Narrowed: female professionals who work on their feet is a specific subset of female professionals (occupational qualifier + age 20-35 superset of 20-30). The aged 20-30 PRE concept is absorbed into this pairing as the age-bound component."
+            },
+            {
+              "pre": "gay men",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "basis": "Expanded: gay-men seed broadened to include gender-fluid consumers with added sizing/inclusivity rationale."
+            },
+            {
+              "pre": "fashionable functional artistic footwear",
+              "post": "comfort without losing out on wearability",
+              "basis": "Elaborated: functional dimension made concrete as comfort + wearability within the same product-attribute frame."
+            },
+            {
+              "pre": "fashionable functional artistic footwear",
+              "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+              "basis": "Narrowed: performance/dance-specific high-impact footwear is a specific way of being artistic footwear."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels (as standalone sizing concept)"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "female students",
+              "direction": "removed",
+              "nearestCounterpart": "female professionals aged 20-35 who work on their feet",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "female students is a subset overlapping with young female professionals; subsumption holds: female professionals who work on their feet includes recent graduates/students. Converted to a component of the matched transformation on age/professional scope, but since the antecedent 'female students' is a distinct atomic unit already absorbed into the broader matched female-professionals pairing with scope restriction, recorded as part of that event rather than standalone Removed"
+            },
+            {
+              "concept": "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "direction": "new",
+              "nearestCounterpart": "gay men",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "gender-fluid consumers are an adjacent but distinct demographic from gay men; however the POST span 'gay men and gender-fluid consumers' treats them as a combined audience. Narrowed tested against 'gay men' fails (gender-fluid is not a subset of gay men). Expanded holds: gay men segment broadened to include gender-fluid consumers. Recorded as part of the matched gay-men pair transformation."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "female professionals",
+              "post": "female professionals aged 20-35 who work on their feet",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Subsumption test: 'female professionals aged 20-35 who work on their feet is a specific way of being female professionals' is false (population restriction). Same audience territory, frame shifts from demographic identity to occupational-function. Reframed is correct; do not downgrade to Narrowed."
+            },
+            {
+              "type": "confirm",
+              "pre": "gay men",
+              "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Gay-men seed is identifiable and explicitly broadened to include gender-fluid consumers (not a subset). Expanded is correct; Reframed would require a frame shift within the same population, but here population is widened."
+            },
+            {
+              "type": "recode",
+              "pre": "aged 20-30",
+              "post": "female professionals aged 20-35 who work on their feet",
+              "fromCode": "Expanded",
+              "toCode": "Narrowed",
+              "reason": "Critical: aged 20-30 is being paired with the POST unit, but the POST unit already has its primary antecedent (female professionals). A second event cannot reuse the same POST. The 'aged 20-30' PRE concept is being absorbed/merged into the female-professionals pairing, not standing as an independent transformation. However, since this would force one POST into two events, the cleaner solution is: the aged 20-30 demographic detail is a component of the female-professionals → female-professionals-20-35-(work on feet) Narrowed pair (age restriction 20-30→20-35 is a proper-set widening of the bound). Remove the standalone 'aged 20-30' event; absorb as part of the Narrowed rationale."
+            },
+            {
+              "type": "confirm",
+              "pre": "fashionable functional artistic footwear",
+              "post": "comfort without losing out on wearability",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "POST keeps the same product-attribute frame and adds concrete detail (comfort + wearability) to the functional dimension. Same underlying category (functional footwear), descriptors added. Elaborated is correct; not Narrowed (comfort-with-wearability is not a specific way of being fashionable-functional-artistic footwear as a whole)."
+            },
+            {
+              "type": "recode",
+              "pre": "fashionable functional artistic footwear",
+              "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+              "fromCode": "Expanded",
+              "toCode": "Narrowed",
+              "reason": "The POST specifies a particular use-case/audience for the artistic-footwear concept. 'Footwear for dancers and performers who need high-impact resistance' is a specific way of being artistic footwear (a proper subtype/realization of artistic footwear). Subsumption holds: artistic footwear intended for drag/ballroom/vogue performers IS a specific way of being artistic footwear. Narrowed, not Expanded."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest antecedent tested: gay men. Narrowed fails (gender-fluid is not a subset of gay men). Expanded holds but the gay-men antecedent is already matched. No other PRE unit is a defensible antecedent. The standalone sizing/inclusivity framing for gender-neutral heels is genuinely new. New is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "female students",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass-1 marked this as Removed but did not emit a standalone Removed event; female students is absorbed into the female-professionals pairing's scope rationale. Confirm it stays removed/converted."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6sl4fevlv4ce4oa7",
+            "code": "Narrowed",
+            "preEvidence": "female professionals; aged 20-30",
+            "postEvidence": "female professionals aged 20-35 who work on their feet",
+            "rationale": "Same audience (female professionals) with two scope restrictions: occupational (work on feet) and age (20-30 → 20-35, a proper widening of the bound). The POST is a proper subset of female professionals and a proper widening of aged 20-30. Subsumption: 'female professionals aged 20-35 who work on their feet is a specific way of being female professionals' is TRUE (population restriction). Narrowed is correct.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (rejected: this is a scope restriction, not a frame shift)"
+          },
+          {
+            "instanceId": "mti6sl4f9m4lxv89tsl",
+            "code": "Expanded",
+            "preEvidence": "gay men",
+            "postEvidence": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+            "rationale": "Gay-men segment preserved and explicitly broadened to include gender-fluid consumers. Gender-fluid is not a subset of gay men, so Narrowed fails. The population is widened with an added inclusivity/sizing rationale.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6sl4fev428qr1sgr",
+            "code": "Elaborated",
+            "preEvidence": "fashionable functional artistic footwear",
+            "postEvidence": "comfort without losing out on wearability",
+            "rationale": "Functional dimension concretised as comfort + wearability within the same product-attribute frame. Detail added, not frame shifted.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6sl4f8e5phoifibq",
+            "code": "Narrowed",
+            "preEvidence": "fashionable functional artistic footwear",
+            "postEvidence": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+            "rationale": "Performance/dance-specific high-impact footwear is a specific way of being artistic footwear — a proper subtype realization of the artistic-footwear concept with concrete use-case and functional rationale. Subsumption holds: 'footwear for drag/ballroom/vogue performers with high-impact resistance is a specific way of being artistic footwear' is TRUE.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded (rejected: POST does not broaden the artistic-footwear seed; it specifies one particular use-case within it)"
+          },
+          {
+            "instanceId": "mti6sl4fe0opybysrf7",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+            "rationale": "Standalone gender-fluid sizing/inclusivity framing has no defensible PRE antecedent. Nearest counterpart (gay men) is already matched in the Expanded pair. Narrowed fails (gender-fluid not subset of gay men). Expanded already absorbed. No other PRE unit is in the same domain.",
+            "confidence": "medium",
+            "alternativeConsidered": "Expanded (absorbed into gay-men pairing as part of its scope)"
+          },
+          {
+            "instanceId": "mti6sl4fhftlxmo58nb",
+            "code": "Removed",
+            "preEvidence": "female students",
+            "postEvidence": null,
+            "rationale": "Female students as a distinct PRE concept has no direct POST successor. The female-professionals pairing partially overlaps in age but represents an occupational not educational frame. The 'students' concept was converted/absorbed into the female-professionals Narrowed pairing as a tacit scope consideration rather than a standalone match. Removed is recorded to account for the dropped educational framing.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed (rejected: students are not a specific way of being professionals)"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "vague_to_specific_lineage",
+            "neighborhood_lineage_only",
+            "events_possibly_collapsed",
+            "new_removed_recheck_passed",
+            "duplicate_pre_antecedent"
+          ],
+          "coderNotes": "The female-students removal is absorbed into the female-professionals Reframed pairing rather than emitted as a standalone Removed event, because the antecedent overlap is defensible and emitting both would double-count. The gender-fluid inclusivity sizing is coded as New because no PRE antecedent explicitly references gender-neutral sizing or gender-fluid consumers, even though it is structurally tied to the gay-men pairing. The functional-footwear elaborations (comfort + dancer/performer use case) are coded as two distinct events because their successors diverge into different functional contexts. Critic applied 7 correction(s). Consistency check: \"fashionable functional artistic footwear\" serves as the antecedent of more than one event. The PRE span likely needs splitting — review before accepting."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "Drag queens"
+      },
+      "post": {
+        "answer": null
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "TikTok or Instagram"
+      },
+      "post": {
+        "answer": "Tiktok and Instagram"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "Same two platforms (TikTok and Instagram) are present in both pre and post. The only differences are minor spelling/capitalization ('TikTok' → 'Tiktok') and a conjunction change ('or' → 'and'). These are stylistic/wording differences with no change in propositional content, scope, or structural extent.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "TikTok",
+            "Instagram"
+          ],
+          "postConcepts": [
+            "Tiktok",
+            "Instagram"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "TikTok",
+              "post": "Tiktok",
+              "continuity": "identical platform, minor capitalization difference",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "trivial",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "TikTok",
+              "post": "Instagram",
+              "continuity": "different platforms; no conceptual lineage",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible - same list position",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Tiktok",
+              "continuity": "different platforms; no conceptual lineage",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible - same list position",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Instagram",
+              "continuity": "identical platform",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "trivial",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "TikTok",
+              "post": "Instagram",
+              "reason": "different platforms, different conceptual domains; same-list-position is not a basis for a match"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Tiktok",
+              "reason": "different platforms, different conceptual domains; same-list-position is not a basis for a match"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "TikTok",
+              "post": "Tiktok",
+              "basis": "identical platform reference (spelling/capitalization trivial)"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Instagram",
+              "basis": "identical platform reference"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [
+            "PRE uses 'or' to indicate choice; POST uses 'and' to indicate combined use. Conjunction change but same two platforms retained. No semantic event emitted."
+          ],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "TikTok",
+              "post": "Tiktok",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical platform reference with only a capitalization difference; trivial and should be matched 1:1."
+            },
+            {
+              "type": "confirm",
+              "pre": "Instagram",
+              "post": "Instagram",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical platform reference; correct direct match."
+            }
+          ]
+        },
+        "semanticChanges": [],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "order_change_only"
+          ],
+          "coderNotes": "Pre lists TikTok or Instagram (any-one of two); Post lists Tiktok and Instagram (both). The conjunction 'or' → 'and' could be read as an intent shift from choosing one platform to using both. However, both responses list the same two platforms, and the change in conjunction without any addition or removal of platforms is treated here as a stylistic/wording difference rather than a substantive semantic change. If 'or' → 'and' were treated as a narrowing (deciding to use both rather than either), confidence would be low and the better-supported reading is that the same platform set is preserved across pre and post. Critic applied 2 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "25% behind-the-scenes content, 25% influencer reviews, 50% product display"
+      },
+      "post": {
+        "answer": "50% product showcase(comfort tests, behind-the-scenes, quality comparison with competitors, etc), 25% trendy relatable content(\"what kind of heel are you\", \"what your heels say about you\", etc), 10% Styling Inspiration, 5% Educational/Informative Content(history of heels in men's fashion, how to walk in heels, etc)"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST retains the same percentage-driven structure but elaborates each bucket with sub-categories (e.g., 'comfort tests, behind-the-scenes, quality comparison with competitors'), adds specific example formats ('what kind of heel are you', 'how to walk in heels'), and splits the mix from three buckets into five. This is one-to-two meaningful new buckets plus significant in-bucket elaboration — a Moderate Addition rather than Significant, because the overall architecture (percentage allocation) is preserved.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "behind-the-scenes content (25%)",
+            "influencer reviews (25%)",
+            "product display (50%)"
+          ],
+          "postConcepts": [
+            "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+            "trendy relatable content (25%)",
+            "styling inspiration (10%)",
+            "educational/informative content (5%)"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "behind-the-scenes content (25%)",
+              "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "continuity": "behind-the-scenes appears inside the product showcase bucket in POST",
+              "scope": "PRE is a standalone content category (25%); POST absorbs it into a broader product showcase bucket (50%)",
+              "frame": "PRE frames BTS as independent content; POST frames it as a sub-element of product showcase",
+              "stretch": "weak — BTS is now nested, not parallel",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "behind-the-scenes content (25%)",
+              "post": "trendy relatable content (25%)",
+              "continuity": "no clear conceptual overlap",
+              "scope": "different content categories",
+              "frame": "different frames",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "behind-the-scenes content (25%)",
+              "post": "styling inspiration (10%)",
+              "continuity": "no overlap",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "behind-the-scenes content (25%)",
+              "post": "educational/informative content (5%)",
+              "continuity": "weak — educational could overlap with BTS knowledge-sharing, but BTS is typically experiential",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "influencer reviews (25%)",
+              "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "continuity": "weak — quality comparison with competitors has a reviewer-like quality, but POST does not name influencers",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "influencer reviews (25%)",
+              "post": "trendy relatable content (25%)",
+              "continuity": "no overlap",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "influencer reviews (25%)",
+              "post": "styling inspiration (10%)",
+              "continuity": "no overlap",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "influencer reviews (25%)",
+              "post": "educational/informative content (5%)",
+              "continuity": "no overlap",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "product display (50%)",
+              "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "continuity": "strong — both center on showing the product",
+              "scope": "same share (50%); POST adds sub-categories (comfort tests, BTS, quality comparison)",
+              "frame": "PRE is bare display; POST is enriched showcase",
+              "stretch": "plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "product display (50%)",
+              "post": "trendy relatable content (25%)",
+              "continuity": "weak — both are content, but different categories",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "product display (50%)",
+              "post": "styling inspiration (10%)",
+              "continuity": "styling inspiration is adjacent to product display",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "product display (50%)",
+              "post": "educational/informative content (5%)",
+              "continuity": "no overlap",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "behind-the-scenes content (25%)",
+              "post": "trendy relatable content (25%)",
+              "reason": "different conceptual domains; no shared content category"
+            },
+            {
+              "pre": "behind-the-scenes content (25%)",
+              "post": "styling inspiration (10%)",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "behind-the-scenes content (25%)",
+              "post": "educational/informative content (5%)",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "influencer reviews (25%)",
+              "post": "trendy relatable content (25%)",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "influencer reviews (25%)",
+              "post": "styling inspiration (10%)",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "influencer reviews (25%)",
+              "post": "educational/informative content (5%)",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "influencer reviews (25%)",
+              "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "reason": "weak continuity; quality comparison is a stretch for influencer reviews; leaving as Removed is cleaner"
+            },
+            {
+              "pre": "product display (50%)",
+              "post": "trendy relatable content (25%)",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "product display (50%)",
+              "post": "styling inspiration (10%)",
+              "reason": "weak continuity; leaving unmatched is cleaner"
+            },
+            {
+              "pre": "product display (50%)",
+              "post": "educational/informative content (5%)",
+              "reason": "different conceptual domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "product display (50%)",
+              "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "basis": "Same core concept (showing the product) at same share (50%); POST elaborates by naming sub-types."
+            }
+          ],
+          "unmatchedPre": [
+            "behind-the-scenes content (25%)",
+            "influencer reviews (25%)"
+          ],
+          "unmatchedPost": [
+            "trendy relatable content (25%)",
+            "styling inspiration (10%)",
+            "educational/informative content (5%)"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "behind-the-scenes content (25%)",
+              "direction": "removed",
+              "nearestCounterpart": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "BTS literally appears inside the POST product showcase bucket. The concept persists; treating it as Removed would double-count. The persistence is best captured within the matched product display → product showcase pair (BTS is now nested within showcase)."
+            },
+            {
+              "concept": "influencer reviews (25%)",
+              "direction": "removed",
+              "nearestCounterpart": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest POST concept is product showcase; tested whether 'influencer reviews' could be Narrowed/Reframed/Elaborated/Expanded into any of the POST buckets. Quality comparison with competitors has a faint reviewer quality, but influencer reviews as a distinct content type (third-party endorsement) is not represented. No defensible transformation; different conceptual domain (third-party endorsement vs first-party product showcase)."
+            },
+            {
+              "concept": "trendy relatable content (25%)",
+              "direction": "new",
+              "nearestCounterpart": "product display (50%)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE is product display; trendy relatable content is a different content category (engagement-driven personality quizzes vs product showcasing). No defensible transformation."
+            },
+            {
+              "concept": "styling inspiration (10%)",
+              "direction": "new",
+              "nearestCounterpart": "product display (50%)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE is product display; styling inspiration is a different content category (outfit/look ideas vs product showcasing). Weak adjacency but no defensible transformation."
+            },
+            {
+              "concept": "educational/informative content (5%)",
+              "direction": "new",
+              "nearestCounterpart": "behind-the-scenes content (25%)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE is behind-the-scenes; educational/informative content (history of heels, how to walk) is a different content category (didactic vs experiential). No defensible transformation."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "behind-the-scenes content (25%)",
+              "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Confirming pass-1: PRE product display is the antecedent; POST product showcase keeps the same core frame (showing the product) and adds sub-categories. BTS absorption is noted within this elaboration. No code change needed; emitting explicit confirm-style recode to flag the bundled BTS concept."
+            },
+            {
+              "type": "add_pairing",
+              "pre": "behind-the-scenes content (25%)",
+              "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "fromCode": null,
+              "toCode": "Expanded",
+              "reason": "Restoring lineage: BTS as a standalone 25% bucket in PRE is absorbed into a broader 50% product showcase bucket in POST. The PRE unit persists as a named sub-element within POST. Scope broadens (standalone 25% → nested within 50%), which is Expanded, not Elaborated (Elaborated would describe the product display→showcase relation). Both relations coexist: product display→showcase is Elaborated; BTS→showcase is Expanded. BTS PRE is already implicitly handled by the showcase pair's rationale, so adding a second event would double-count. Treating the BTS concept as subsumed within the Elaborated pair is acceptable; flagging this as a confirm-level observation rather than a new event to avoid double-counting."
+            },
+            {
+              "type": "confirm",
+              "pre": "product display (50%)",
+              "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Pass-1 correct. Same core frame (showing the product), same share, POST adds sub-category detail. Reframed alternative already rejected appropriately."
+            },
+            {
+              "type": "confirm",
+              "pre": "influencer reviews (25%)",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass-1 correct. No POST concept captures third-party influencer-led endorsement; quality comparison is reviewer-adjacent at best and that alone cannot anchor a transformation. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "trendy relatable content (25%)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass-1 correct. Personality-quiz/identity-engagement content has no PRE antecedent; nearest PRE (product display) shares no content frame."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "styling inspiration (10%)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass-1 correct. Styling/look ideas is a distinct content category with only topical adjacency to product display; no tier of the ladder holds."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "educational/informative content (5%)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass-1 correct. Didactic content (history of heels, how to walk) is a different content category from experiential BTS; no defensible transformation."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6tcx69gd0ftzwk4e",
+            "code": "Elaborated",
+            "preEvidence": "50% product display",
+            "postEvidence": "50% product showcase(comfort tests, behind-the-scenes, quality comparison with competitors, etc)",
+            "rationale": "Same core frame (showing the product) at same share (50%). POST keeps the frame intact and adds sub-categories specifying what product showcasing means. BTS and influencer-review concepts are noted as nested or absent respectively but do not anchor separate events from this pair.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (display vs showcase framing) — rejected, underlying concept unchanged."
+          },
+          {
+            "instanceId": "mti6tcx614iobsqb6flh",
+            "code": "Removed",
+            "preEvidence": "25% influencer reviews",
+            "postEvidence": null,
+            "rationale": "Influencer reviews as a distinct third-party endorsement content type is absent from POST. Nearest POST counterpart is product showcase; quality comparison has faint reviewer quality but is not influencer-led. No defensible Narrowed/Reframed/Elaborated/Expanded; different conceptual domain.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded into product showcase via quality comparison — rejected as too stretched."
+          },
+          {
+            "instanceId": "mti6tcx6pjpkyry4t5f",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "25% trendy relatable content(\"what kind of heel are you\", \"what your heels say about you\", etc)",
+            "rationale": "Engagement-driven personality/identity content has no PRE antecedent. Nearest PRE (product display) shares no frame. No defensible transformation.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed from product display — rejected."
+          },
+          {
+            "instanceId": "mti6tcx6k3evh1v2ll",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "10% Styling Inspiration",
+            "rationale": "Styling inspiration (outfit/look ideas) has no PRE antecedent; only topical adjacency to product display.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed from product display — rejected."
+          },
+          {
+            "instanceId": "mti6tcx613jhn99ywm1",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "5% Educational/Informative Content(history of heels in men's fashion, how to walk in heels, etc)",
+            "rationale": "Didactic content has no PRE antecedent; BTS is experiential while educational is didactic.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed from behind-the-scenes — rejected."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "boundary_case_expand_vs_new",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The behind-the-scenes concept from PRE literally reappears inside the POST product showcase bucket, so it is absorbed rather than truly removed — handled by treating the persistence as part of the product display → product showcase Elaborated event. Influencer reviews is the only genuine Removed. The two removed-BTS-check and influencer-reviews recheck both converted or kept cleanly. Styling inspiration's New/Removed boundary with product display is the weakest call; flagged boundary_case_expand_vs_new. Critic applied 7 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "heels"
+      },
+      "post": {
+        "answer": "comfortable and stylish heels/other footwear like heeled boots/low-mid heels"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "Pre is a single word ('heels'). Post elaborates the offering into multiple descriptors ('comfortable and stylish heels/other footwear like heeled boots/low-mid heels'), adding qualitative attributes and expanding the product range with two additional heeled-footwear categories. This is more than cosmetic but confined to one sentence with limited elaboration.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "heels"
+          ],
+          "postConcepts": [
+            "comfortable and stylish heels",
+            "heeled boots",
+            "low-mid heels"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "heels",
+              "post": "comfortable and stylish heels",
+              "continuity": "Same core product (heels) retained with added qualitative attributes",
+              "scope": "POST adds specifications (comfortable, stylish) to the same product",
+              "frame": "Product feature frame: from bare category to characterized product",
+              "stretch": "Low stretch — direct continuation",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "heels",
+              "post": "heeled boots",
+              "continuity": "Same footwear family, boots specifically",
+              "scope": "POST specifies a heeled sub-type within heels; heels encompass boots but boots are not all heels",
+              "frame": "Product category frame — narrowing into specific heeled footwear sub-type",
+              "stretch": "Moderate stretch — boots as a type of heeled footwear",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "heels",
+              "post": "low-mid heels",
+              "continuity": "Heel type specification within heels",
+              "scope": "POST restricts the heel height range",
+              "frame": "Heel-height specification frame",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "heels",
+              "post": "comfortable and stylish heels",
+              "basis": "Same product preserved with added qualitative descriptors (comfortable, stylish) within the same product frame"
+            },
+            {
+              "pre": "heels",
+              "post": "heeled boots",
+              "basis": "Heeled boots are a specific footwear sub-type (silhouette) within the heels category"
+            },
+            {
+              "pre": "heels",
+              "post": "low-mid heels",
+              "basis": "Low-mid heels is a heel-height-restricted subset of the broader heels category"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "heels",
+              "post": "comfortable and stylish heels",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Pass 1 correct. Core product (heels) intact; only qualitative descriptors added. No frame shift, no scope restriction. Elaborated holds; Narrowed would require subsumption (comfortable+stylish heels as a specific way of being heels), which is not true — these are attributes, not a subtype."
+            },
+            {
+              "type": "recode",
+              "pre": "heels",
+              "post": "heeled boots",
+              "fromCode": "Expanded",
+              "toCode": "Narrowed",
+              "reason": "Heeled boots are a specific subset/silhouette within the heels category — boots is one footwear type among heels. 'Heeled boots is a specific way of being heels' is defensible (a sub-type). This is proper subset relationship, so Narrowed, not Expanded. Pass 1 rationale itself acknowledged boots are a specific type of heeled footwear."
+            },
+            {
+              "type": "recode",
+              "pre": "heels",
+              "post": "low-mid heels",
+              "fromCode": "Expanded",
+              "toCode": "Narrowed",
+              "reason": "Low-mid heels is a heel-height restriction — a proper subset of all heels (which span low, mid, high). 'Low-mid heels is a specific way of being heels' is true via scope restriction. Narrowed is correct; this is population/scope narrowing, not broadening."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6szjtz42zq71tsfp",
+            "code": "Elaborated",
+            "preEvidence": "heels",
+            "postEvidence": "comfortable and stylish heels",
+            "rationale": "Core product (heels) retained; qualitative descriptors (comfortable, stylish) added within the same product frame. No frame shift; just attribute-level detail.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed — rejected because comfortable+stylish are attributes, not a specific subtype"
+          },
+          {
+            "instanceId": "mti6szjtsk5yw3o96n8",
+            "code": "Narrowed",
+            "preEvidence": "heels",
+            "postEvidence": "heeled boots",
+            "rationale": "Heeled boots is a specific footwear silhouette/sub-type within the heels category. Proper subset relationship holds: 'heeled boots is a specific way of being heels' is defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded — rejected because POST is a subset, not a broadening"
+          },
+          {
+            "instanceId": "mti6szjtls4zxgm9a1a",
+            "code": "Narrowed",
+            "preEvidence": "heels",
+            "postEvidence": "low-mid heels",
+            "rationale": "Low-mid heels restricts the heel-height range, denoting a proper subset of all heels (which span low, mid, high). Scope restriction = Narrowed.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded — rejected because POST narrows by scope, does not broaden"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "duplicate_pre_antecedent"
+          ],
+          "coderNotes": "semantic_phrase mode applied to Product Offerings. Three events coded: one Elaborated (qualitative attributes added) and two Expanded (additional heeled-footwear sub-categories introduced). No Removed or New events. Structural development assessed as Moderate Addition given the increase from one word to a short phrase naming multiple product variants. Critic applied 3 correction(s). Consistency check: \"heels\" serves as the antecedent of more than one event. The PRE span likely needs splitting — review before accepting."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 2
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 0,
+          "Familiarity/Market Understanding": 0,
+          "Business Potential (Profit and Market Demand)": 0,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 0,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 1,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ],
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "None"
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 3
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 9
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 9
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 1
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Non-user: never use it"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "No"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 7
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "It provided more context to the brand and it's potential target customers, as well as identifying consumer pain points"
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "The prompts helped with using AI to refine brand ideas. The suggestions were quite general and had a lot of overlap but provided good starting points for further brainstorming."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 10
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 7
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 9
+      }
+    ]
+  }
+}

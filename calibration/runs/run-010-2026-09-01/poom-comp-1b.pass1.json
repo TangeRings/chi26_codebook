@@ -1,0 +1,178 @@
+{
+  "coding_unit": {
+    "student_id": "poom",
+    "item_id": "comp-1b"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Thai student sharing part of his life on the internet",
+      "hope that life experience can help others navigate new places"
+    ],
+    "post_concepts": [
+      "build a global community of curious and adventurous minds",
+      "find joy in cultural exploration"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Thai student sharing part of his life on the internet",
+        "post": "build a global community of curious and adventurous minds",
+        "continuity": "partial - both involve the student as content creator/sharer; however PRE is singular personal-sharing, POST is collective community-building",
+        "scope": "PRE: one person (student) sharing online; POST: a global community of many minds",
+        "frame": "PRE: personal individual sharing frame; POST: collective community-building frame",
+        "stretch": "moderate - related by content creation/sharing theme but scopes diverge sharply",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Thai student sharing part of his life on the internet",
+        "post": "find joy in cultural exploration",
+        "continuity": "PRE involves sharing life (which could include travel/culture); POST specifies cultural exploration as the substantive content",
+        "scope": "PRE: broad life-sharing; POST: specific to cultural exploration",
+        "frame": "PRE: personal-lifestyle content; POST: cultural discovery as content domain",
+        "stretch": "moderate - cultural exploration is one plausible substantive reading of 'part of his life'",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "hope that life experience can help others navigate new places",
+        "post": "build a global community of curious and adventurous minds",
+        "continuity": "both envision an audience engaged with travel/exploration; PRE has personal-helping frame, POST has community-building frame",
+        "scope": "PRE: helping individuals navigate; POST: building a global community of like-minded minds",
+        "frame": "PRE: mentorship/helper frame toward newcomers; POST: community-aspiration frame around shared identity",
+        "stretch": "weak - the helping/mentorship intent of PRE is largely absent in POST",
+        "verdict": "weak"
+      },
+      {
+        "pre": "hope that life experience can help others navigate new places",
+        "post": "find joy in cultural exploration",
+        "continuity": "both relate to exploration/places; PRE frames it as navigating (helping), POST frames it as joyful exploration",
+        "scope": "PRE: navigating new places (often unfamiliar); POST: cultural exploration (any cultural context)",
+        "frame": "PRE: problem-solving/helping frame; POST: experiential/joy frame",
+        "stretch": "weak - the helping intent does not clearly persist",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "hope that life experience can help others navigate new places",
+        "post": "build a global community of curious and adventurous minds",
+        "reason": "the helping/mentorship semantic role of PRE is largely absent in POST; community-building is a different organizing frame from navigating newcomers through new places"
+      },
+      {
+        "pre": "hope that life experience can help others navigate new places",
+        "post": "find joy in cultural exploration",
+        "reason": "the explicit helping/navigating intent is replaced by joyful exploration; only loosely adjacent through 'places' theme"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Thai student sharing part of his life on the internet",
+        "post": "build a global community of curious and adventurous minds",
+        "basis": "both center on the student as a sharer/content creator and the audience as recipients; the shift from individual life-sharing to community-building reflects a reframing of audience orientation"
+      },
+      {
+        "pre": "hope that life experience can help others navigate new places",
+        "post": "find joy in cultural exploration",
+        "basis": "both treat cultural/place-based content as the substantive focus; PRE's helping-navigate frame is replaced by POST's joyful-exploration frame"
+      }
+    ],
+    "unmatched_pre": [
+      "help-others-navigate intent (the mentorship/helper role specifically)"
+    ],
+    "unmatched_post": [
+      "global community (the collective-formation concept is new)",
+      "curious and adventurous minds (specific audience characterization)"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "global community of curious and adventurous minds",
+        "direction": "new",
+        "nearest_counterpart": "Thai student sharing part of his life on the internet",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "nearest PRE counterpart 'sharing life on the internet' contains a sharing/audience orientation that maps onto community-building; subsumption test: 'a global community of curious and adventurous minds is a specific way of being a Thai student sharing his life on the internet' - false (community-of-others is not a subtype of self-sharing). However, the relationship is captured by the Reframed pairing on the matched pair; treating it as pure New would double-count. The Reframed event already covers the lineage from personal sharing to community-building."
+      },
+      {
+        "concept": "curious and adventurous minds (specific audience characterization)",
+        "direction": "new",
+        "nearest_counterpart": "hope that life experience can help others navigate new places",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE describes helping others navigate; POST characterizes the audience as 'curious and adventurous minds'. Narrowed: 'curious and adventurous minds is a specific way of being those who need help navigating' - arguable but the PRE audience is defined by need (help navigating), the POST audience by disposition (curious/adventurous), so not clearly subsumption. Reframed: no shared organizing frame - PRE is need-based, POST is disposition-based. Elaborated: POST does not retain the navigate-help concept. Expanded: PRE's audience of newcomers is not broadened into curious/adventurous minds. All four fail across meaningfully different conceptual frames - kept as New."
+      },
+      {
+        "concept": "help-others-navigate intent (mentorship/helper role)",
+        "direction": "removed",
+        "nearest_counterpart": "find joy in cultural exploration",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE contains an explicit helping/navigating role; POST emphasizes joy in exploration rather than helping others. Narrowed: 'find joy in cultural exploration is a specific way of helping others navigate' - false. Reframed: helping-navigate vs joyful-exploration are different organizing frames (helper vs experiencer). Elaborated: POST does not retain the helping intent. Expanded: POST does not broaden the helping intent. The mentorship role is genuinely absent - kept as Removed."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST adds the 'global community of curious and adventurous minds' element as a new clause-level idea and reframes the vision around community-building and joyful exploration. PRE was a single personal narrative sentence; POST is a single sentence but with more conceptual layers (audience definition, community-building aspiration, thematic focus on cultural exploration). The shift adds substance without substantially expanding the sentence count."
+  },
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "I envision myself to be a Thai student who loves to share a part of his life on the internet",
+      "post_evidence": "My vision is to build a global community of curious and adventurous minds",
+      "rationale": "The conceptual lineage runs from personal life-sharing to community-building. Pre-frame: individual content creator sharing his own life. Post-frame: community-builder fostering a global collective of like-minded people. The audience orientation shifts from implicit viewers to an explicit community. Shared semantic territory (sharing/audience relationship) but the organizing frame shifts from personal-sharing to community-building. See BC-002 reasoning pattern (sibling concepts with frame shift).",
+      "alternative_considered": "Narrowed (subsumption test: 'a global community is a specific way of being a Thai student sharing his life' - false, community-of-others is not a subtype of personal sharing)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "hope that my life experience can help them navigate through new places",
+      "post_evidence": "find joy in cultural exploration",
+      "rationale": "Both treat place/cultural content as the substantive focus, but the organizing frame shifts from helping-others-navigate (mentorship, problem-solving orientation toward newcomers) to joyful-cultural-exploration (experiential, pleasure-oriented). Pre-frame: helper/guide. Post-frame: joyful explorer. Shared semantic territory (exploration of places/cultures) but the framing changes from helping to experiencing joy.",
+      "alternative_considered": "Narrowed (subsumption test: 'find joy in cultural exploration is a specific way of helping navigate new places' - false, joy is not a subtype of helping)",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "curious and adventurous minds",
+      "rationale": "POST characterizes the target audience with specific dispositional descriptors (curious, adventurous) that have no clear antecedent in PRE. PRE's implicit audience is people who need help navigating new places (need-based); POST's audience is defined by disposition (curious, adventurous). Nearest counterpart tested: PRE 'hope that life experience can help others navigate new places'. Narrowed fails (curious/adventurous is not a subtype of needing help). Reframed fails (no shared organizing frame between need-based and disposition-based audience definitions). Elaborated fails (POST does not retain the help-navigate concept). Expanded fails (PRE's audience of newcomers is not broadened into curious/adventurous types). Re-check passed.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "hope that my life experience can help them navigate through new places",
+      "post_evidence": null,
+      "rationale": "The explicit helping/mentorship intent present in PRE is absent from POST. Nearest counterpart tested: POST 'find joy in cultural exploration'. Narrowed fails (joyful exploration is not a specific way of helping navigate). Reframed fails (helper frame vs joyful-experiencer frame - different organizing frames). Elaborated fails (POST does not retain the helping intent). Expanded fails (POST does not broaden the helping concept). The mentorship role is genuinely absent from the post-response. Re-check passed.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe",
+      "vague_to_specific_lineage",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "Two Reframed events capture the major lineage shifts from individual life-sharing and helping-navigate to community-building and joyful cultural exploration. The Removed event captures the loss of the explicit mentorship/helping intent. The New event captures the introduction of a disposition-based audience characterization. Confidence is medium because the PRE is narrative/loosely structured and the boundary between personal-sharing and community-building could be read as either elaboration or reframing; chose Reframed based on BC-002 reasoning (sibling concepts with shifted frame). The scope relationship is arguable but subsumption ('a global community is a specific way of personal sharing') does not hold cleanly."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}

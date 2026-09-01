@@ -1,0 +1,1859 @@
+{
+  "studentId": "rakan",
+  "_seedVersion": "upload-1788218841394",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "Classes: (Intro to Marketing/ Consumer Behavior) / Capstone startup"
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 6
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 4
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 5
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 7
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Frequent user: 5-10 times per week"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "NA"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 6
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "AI helped me with the tiny details as I provided the bigger picture."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "AI helped me dig deeper, but not critically think, going through the ideation process I realized that I was targeting the wrong segment and chatgpt would have never mentioned it"
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 7
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 4
+      }
+    ]
+  },
+  "name": "Rakan",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "Futuristic, innovative, minimalistic"
+      },
+      "post": {
+        "answer": "Same"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The POST response is the literal token 'Same', which the student provides as an explicit declaration that the descriptor set is unchanged. Although the surface text is shorter, the propositional content is identical (the student is asserting the prior list still stands). There are no new clauses, sentences, or descriptors; no existing ones are removed at the level of meaning. This is a stylistic reduction in length with no structural development.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Futuristic",
+            "Innovative",
+            "Minimalistic"
+          ],
+          "postConcepts": [
+            "Same"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Futuristic",
+              "post": "Same",
+              "continuity": "degenerate — POST does not enumerate descriptors",
+              "scope": "cannot be assessed",
+              "frame": "cannot be assessed",
+              "stretch": "no semantic content to pair",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Innovative",
+              "post": "Same",
+              "continuity": "degenerate — POST does not enumerate descriptors",
+              "scope": "cannot be assessed",
+              "frame": "cannot be assessed",
+              "stretch": "no semantic content to pair",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Minimalistic",
+              "post": "Same",
+              "continuity": "degenerate — POST does not enumerate descriptors",
+              "scope": "cannot be assessed",
+              "frame": "cannot be assessed",
+              "stretch": "no semantic content to pair",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Futuristic",
+              "post": "Same",
+              "reason": "POST contains no enumerated descriptors; 'Same' is a meta-statement that the prior list is unchanged. There is no semantic successor to align against."
+            },
+            {
+              "pre": "Innovative",
+              "post": "Same",
+              "reason": "POST contains no enumerated descriptors; 'Same' is a meta-statement. No semantic successor to align."
+            },
+            {
+              "pre": "Minimalistic",
+              "post": "Same",
+              "reason": "POST contains no enumerated descriptors; 'Same' is a meta-statement. No semantic successor to align."
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "Futuristic",
+            "Innovative",
+            "Minimalistic"
+          ],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Futuristic",
+              "direction": "removed",
+              "nearestCounterpart": null,
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "POST provides no enumerated descriptors — it states 'Same' as a meta-declaration that the prior list is retained. There is no POST unit to test against any of the four transformation codes. A full-response search was performed; the only POST content is the literal token 'Same', which carries no descriptor semantics. The PRE descriptors are therefore formally absent as descriptor-level content in POST."
+            },
+            {
+              "concept": "Innovative",
+              "direction": "removed",
+              "nearestCounterpart": null,
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "POST contains only the meta-token 'Same' with no descriptor enumeration. No POST successor exists to test Narrowed, Reframed, Elaborated, or Expanded against. Full-response search performed."
+            },
+            {
+              "concept": "Minimalistic",
+              "direction": "removed",
+              "nearestCounterpart": null,
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "POST contains only the meta-token 'Same' with no descriptor enumeration. No POST successor exists to test against. Full-response search performed."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Pass-1 is correct. POST contains only the meta-token 'Same', asserting the prior descriptor list is retained unchanged. There are no enumerated POST descriptors to serve as semantic successors. The three PRE descriptors (Futuristic, Innovative, Minimalistic) cannot be aligned against a non-enumerated POST, and no transformation code is defensible. The three Rejected alignments and three Removed events are all warranted."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti71qhkatrxkqlzzv",
+            "code": "Removed",
+            "preEvidence": "Futuristic",
+            "postEvidence": null,
+            "rationale": "POST does not enumerate any descriptors; 'Same' is a meta-statement that the prior list is unchanged. There is no POST successor to test against the transformation ladder. The PRE descriptor is therefore formally absent as descriptor-level content in POST.",
+            "confidence": "high",
+            "alternativeConsidered": "None — no enumerated POST unit exists to test"
+          },
+          {
+            "instanceId": "mti71qhkj6ijvxipor",
+            "code": "Removed",
+            "preEvidence": "Innovative",
+            "postEvidence": null,
+            "rationale": "POST contains only the meta-token 'Same'. No POST successor exists; no Narrowed, Reframed, Elaborated, or Expanded mapping is defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "None — no enumerated POST unit exists to test"
+          },
+          {
+            "instanceId": "mti71qhkty9ucsz25k",
+            "code": "Removed",
+            "preEvidence": "Minimalistic",
+            "postEvidence": null,
+            "rationale": "POST contains only the meta-token 'Same'. No POST successor exists; transformation ladder cannot be applied.",
+            "confidence": "high",
+            "alternativeConsidered": "None — no enumerated POST unit exists to test"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "possible_missed_event",
+            "order_change_only",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "POST is the literal token 'Same', a meta-statement rather than a descriptor enumeration. Under descriptor_set_special, POST contains zero enumerated descriptors, so no descriptor-level events can be emitted. No semantic change is present in the artifact because the student explicitly declares the prior set is retained. The events_possibly_collapsed / possible_missed_event flag is raised because an alternative reading — that 'Same' implicitly re-states the three PRE descriptors and therefore nothing changed — is the most defensible interpretation and yields zero events. No Removed events are emitted because no POST descriptor is present to trigger the mandatory re-check in the standard form; the re-check fields above record that no POST counterpart exists for any PRE descriptor. Structural Development is No Change on the grounds that the student's declaration 'Same' explicitly preserves the prior content. Critic applied 1 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "Make RAK's Real Estate market the world's smartest"
+      },
+      "post": {
+        "answer": "Same"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Reduction",
+        "structuralRationale": "The PRE response contains a full substantive brand-vision sentence; the POST response replaces it entirely with the single word 'Same', which is a meta-confirmation rather than a restatement of content. The substantive content has been structurally removed from the artifact.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Make RAK's Real Estate market the world's smartest"
+          ],
+          "postConcepts": [
+            "Same"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Make RAK's Real Estate market the world's smartest",
+              "post": "Same",
+              "continuity": "POST does not articulate a successor concept; 'Same' is a meta-reference indicating no change rather than expressing a brand vision",
+              "scope": "Not evaluable",
+              "frame": "Not evaluable",
+              "stretch": "Any alignment would require treating a meta-statement as a substantive semantic successor",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Make RAK's Real Estate market the world's smartest",
+              "post": "Same",
+              "reason": "'Same' is a meta-statement confirming continuity of the prior answer, not a substantive re-expression of the brand vision. Treating it as a semantic successor would be a forced pairing across non-comparable units (propositional content vs. meta-reference)."
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "Make RAK's Real Estate market the world's smartest"
+          ],
+          "unmatchedPost": [
+            "Same"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Same",
+              "direction": "new",
+              "nearestCounterpart": "Make RAK's Real Estate market the world's smartest",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "POST 'Same' is a meta-confirmation of continuity, not a re-expression or transformation of the PRE brand vision. There is no narrower, reframed, elaborated, or expanded version of the PRE content present in POST. The only POST content is a meta-reference to the prior answer. All four transformation codes fail because POST contains no substantive brand-vision content to relate to PRE."
+            },
+            {
+              "concept": "Make RAK's Real Estate market the world's smartest",
+              "direction": "removed",
+              "nearestCounterpart": "Same",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "POST 'Same' is not a semantic successor to the brand vision; it is a meta-statement indicating the student kept the prior answer. The PRE concept has not been removed in any substantive sense — the student explicitly indicated continuity. However, as an artifact-only coding, the PRE propositional content is not restated in POST; there is no narrower/reframed/elaborated/expanded successor present. All four transformation codes fail because POST does not articulate a successor concept."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Make RAK's Real Estate market the world's smartest",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Confirmed. 'Same' is a meta-reference, not a substantive re-expression. The PRE propositional content is not restated as a successor concept; treating it as a transformation would force a pairing between propositional content and a meta-statement. Neighborhood gate fails: 'Same' occupies a different conceptual domain (meta-confirmation) than the PRE brand-vision proposition. Removed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Same",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Confirmed. 'Same' is a meta-level artifact indicating continuity of the prior answer, not a substantive new brand-vision concept. The pass-1 MANDATORY-NEW-REMOVED-RECHECK correctly tested Narrowed, Reframed, Elaborated, Expanded against the PRE brand vision and found none defensible. New is the correct code, though with a caveat that 'Same' is more accurately a meta-annotation than a new semantic concept."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti71z3qlcdzymiavw",
+            "code": "Removed",
+            "preEvidence": "Make RAK's Real Estate market the world's smartest",
+            "postEvidence": null,
+            "rationale": "POST does not restate the PRE brand-vision proposition. The only POST content is the meta-statement 'Same', which is not a semantic successor. Lineage recovery tested via the ladder (Narrowed, Reframed, Elaborated, Expanded) fails because 'Same' carries no propositional content to relate to PRE. Neighborhood gate fails: meta-reference vs. propositional content are different conceptual domains.",
+            "confidence": "high",
+            "alternativeConsidered": "New (for 'Same') paired with implicit persistence of PRE"
+          },
+          {
+            "instanceId": "mti71z3q0zxbjcte0f2",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Same",
+            "rationale": "POST introduces 'Same' as a meta-confirmation of continuity rather than a substantive re-expression of the brand vision. It is not a semantic transformation of the PRE content. The recheck correctly tested all four transformation codes against the nearest PRE counterpart and found none defensible. 'Same' functions as a meta-annotation artifact.",
+            "confidence": "medium",
+            "alternativeConsidered": "No Change (treating 'Same' as confirmation rather than a new semantic unit)"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_structural_threshold",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "POST is a meta-confirmation ('Same') rather than a substantive re-statement. This is an unusual artifact pattern: the student preserved their prior answer but did not reproduce it. Coded as Removed (PRE propositional content absent from artifact) + New ('Same' as a new meta-statement), with structural development recorded as Significant Reduction because the substantive sentence has been replaced by a single-word meta-reference. The Significant-vs-Moderate threshold is flagged as uncertain. An alternative reading would treat this as No Change semantically (the student explicitly preserved the answer) but with structural Significant Reduction; under artifact-only coding, however, the PRE proposition is not present in POST, so semantic events are emitted. Critic applied 2 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "eco-friendly, user-centric solutions that elevate everyday life"
+      },
+      "post": {
+        "answer": "Same"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "POST explicitly states the same value set as PRE, with no additions, removals, or meaningful restructuring.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "eco-friendly",
+            "user-centric solutions",
+            "elevate everyday life"
+          ],
+          "postConcepts": [
+            "Same"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "eco-friendly",
+              "post": "Same",
+              "continuity": "The descriptor is explicitly retained unchanged.",
+              "scope": "No scope change is stated.",
+              "frame": "No frame change is stated.",
+              "stretch": "No interpretive stretch; exact conceptual continuity.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "user-centric solutions",
+              "post": "Same",
+              "continuity": "The descriptor is explicitly retained unchanged.",
+              "scope": "No scope change is stated.",
+              "frame": "No frame change is stated.",
+              "stretch": "No interpretive stretch; exact conceptual continuity.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "elevate everyday life",
+              "post": "Same",
+              "continuity": "The descriptor is explicitly retained unchanged.",
+              "scope": "No scope change is stated.",
+              "frame": "No frame change is stated.",
+              "stretch": "No interpretive stretch; exact conceptual continuity.",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "eco-friendly",
+              "post": "Same",
+              "basis": "Exact textual retention; no semantic change."
+            },
+            {
+              "pre": "user-centric solutions",
+              "post": "Same",
+              "basis": "Exact textual retention; no semantic change."
+            },
+            {
+              "pre": "elevate everyday life",
+              "post": "Same",
+              "basis": "Exact textual retention; no semantic change."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "eco-friendly",
+              "post": "Same",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Exact textual retention; no semantic event."
+            },
+            {
+              "type": "confirm",
+              "pre": "user-centric solutions",
+              "post": "Same",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Exact textual retention; no semantic event."
+            },
+            {
+              "type": "confirm",
+              "pre": "elevate everyday life",
+              "post": "Same",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Exact textual retention; no semantic event."
+            }
+          ]
+        },
+        "semanticChanges": [],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "POST is identical in meaning and explicitly marked as the same response; no semantic events are warranted. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Middle to Upper Middle Income home-owners and real estate developers in RAK Foreign Investors and Businesspeople moving to RAK\n\nBehavior: value convenience, automation, and seamless home integration."
+      },
+      "post": {
+        "answer": "Interior Designers and Real Estate Developers:\n\nInterior Designers in RAK\n\nAge: 30-55 years\nIncome Level: AED 10,000-25,000/month\nJob Titles: Interior Designers, Architects, Freelancers\nLocation: RAK, UAE\nLifestyle: Focus on aesthetics, modern trends, and cutting-edge technologies, with a focus on sustainability.\nInterests: Interior design, home automation, eco-friendly living, modern architecture, smart homes.\nBehavior: Active on Instagram, Pinterest, and Houzz for inspiration and trends. Frequent participants in industry events and trade shows.\n\nReal Estate Developers in RAK\n\nAge: 35-60 years\nIncome Level: High-income professionals, annual revenues AED 1 million-10 million+\nJob Titles: Real Estate Developers, Property Managers, COOs\nLocation: RAK, with projects across the UAE\nLifestyle: Value high-quality, value-adding solutions, and seek to create innovative, future-proof developments.\nInterests: Real estate development, property management, bulk buying, smart home technologies.\nBehavior: Attend real estate expos and investment forums, interested in scalable and cost-effective smart home solutions."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE is a short paragraph listing four audience types with one behavior sentence. POST expands into two fully segmented audience profiles, each with demographic, psychographic, interest, and behavioral sub-sections (age ranges, income brackets, job titles, locations, lifestyle descriptors, platform/venue behaviors). Multiple new sentences and explanatory passages added; overall scope meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Middle to Upper Middle Income home-owners",
+            "real estate developers in RAK",
+            "Foreign Investors",
+            "Businesspeople moving to RAK",
+            "Behavior: value convenience, automation, and seamless home integration"
+          ],
+          "postConcepts": [
+            "Interior Designers in RAK",
+            "Real Estate Developers in RAK",
+            "Interior Designers demographics (age 30-55, income AED 10k-25k, job titles, location)",
+            "Interior Designers lifestyle (aesthetics, modern trends, cutting-edge tech, sustainability)",
+            "Interior Designers interests (design, home automation, eco-friendly, modern architecture, smart homes)",
+            "Interior Designers behavior (Instagram, Pinterest, Houzz, industry events)",
+            "Real Estate Developers demographics (age 35-60, high income, job titles, location)",
+            "Real Estate Developers lifestyle (high-quality, value-adding, innovative, future-proof)",
+            "Real Estate Developers interests (real estate development, property management, bulk buying, smart home tech)",
+            "Real Estate Developers behavior (real estate expos, investment forums, scalable smart home solutions)"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Middle to Upper Middle Income home-owners",
+              "post": "Interior Designers in RAK",
+              "continuity": "weak — home-owners vs design professionals",
+              "scope": "different populations",
+              "frame": "consumer/residential vs professional/industry",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Middle to Upper Middle Income home-owners",
+              "post": "Real Estate Developers in RAK",
+              "continuity": "none — homeowners are consumers, developers are B2B partners",
+              "scope": "different domains",
+              "frame": "end-user vs supply-side",
+              "stretch": "very high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "real estate developers in RAK",
+              "post": "Real Estate Developers in RAK",
+              "continuity": "strong — same audience",
+              "scope": "same scope, elaborated",
+              "frame": "consistent",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Foreign Investors",
+              "post": "Interior Designers in RAK",
+              "continuity": "none — investor vs creative professional",
+              "scope": "different domains",
+              "frame": "capital provider vs service provider",
+              "stretch": "very high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Foreign Investors",
+              "post": "Real Estate Developers in RAK",
+              "continuity": "weak — investors sometimes are developers",
+              "scope": "different primary roles",
+              "frame": "financial vs operational",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Businesspeople moving to RAK",
+              "post": "Interior Designers in RAK",
+              "continuity": "weak — businesspeople moving vs interior designers",
+              "scope": "different populations",
+              "frame": "relocation/transient vs established professional",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Businesspeople moving to RAK",
+              "post": "Real Estate Developers in RAK",
+              "continuity": "none",
+              "scope": "different domains",
+              "frame": "end-user/relocator vs supply-side developer",
+              "stretch": "very high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Behavior: value convenience, automation, and seamless home integration",
+              "post": "Interior Designers interests (home automation, eco-friendly living, modern architecture, smart homes)",
+              "continuity": "moderate — automation/smart home overlap",
+              "scope": "professional interest domain vs end-user behavior",
+              "frame": "professional design interest vs consumer behavior",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Behavior: value convenience, automation, and seamless home integration",
+              "post": "Real Estate Developers interests (smart home technologies, scalable solutions)",
+              "continuity": "moderate — automation/smart home overlap",
+              "scope": "professional adoption vs consumer behavior",
+              "frame": "developer procurement vs consumer use",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Behavior: value convenience, automation, and seamless home integration",
+              "post": "Interior Designers lifestyle (cutting-edge technologies, sustainability)",
+              "continuity": "weak — automation vs technology/sustainability",
+              "scope": "different frames",
+              "frame": "behavior vs lifestyle framing",
+              "stretch": "moderate",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Middle to Upper Middle Income home-owners",
+              "post": "Interior Designers in RAK",
+              "reason": "different domains — consumer end-user vs design professional; no shared semantic role"
+            },
+            {
+              "pre": "Foreign Investors",
+              "post": "Interior Designers in RAK",
+              "reason": "different domains — capital provider vs creative professional"
+            },
+            {
+              "pre": "Businesspeople moving to RAK",
+              "post": "Real Estate Developers in RAK",
+              "reason": "different domains — relocating consumer vs supply-side developer"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "real estate developers in RAK",
+              "post": "Real Estate Developers in RAK",
+              "basis": "Same audience, same conceptual frame, detail added (demographics, lifestyle, interests, behavior). Elaborated."
+            }
+          ],
+          "unmatchedPre": [
+            "Middle to Upper Middle Income home-owners",
+            "Foreign Investors",
+            "Businesspeople moving to RAK",
+            "Behavior: value convenience, automation, and seamless home integration"
+          ],
+          "unmatchedPost": [
+            "Interior Designers in RAK",
+            "Interior Designers demographics (age 30-55, income AED 10k-25k, job titles, location)",
+            "Interior Designers lifestyle (aesthetics, modern trends, cutting-edge tech, sustainability)",
+            "Interior Designers interests (design, home automation, eco-friendly, modern architecture, smart homes)",
+            "Interior Designers behavior (Instagram, Pinterest, Houzz, industry events)",
+            "Real Estate Developers demographics (age 35-60, high income, job titles, location)",
+            "Real Estate Developers lifestyle (high-quality, value-adding, innovative, future-proof)",
+            "Real Estate Developers interests (real estate development, property management, bulk buying, smart home tech)",
+            "Real Estate Developers behavior (real estate expos, investment forums, scalable smart home solutions)"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Middle to Upper Middle Income home-owners",
+              "direction": "removed",
+              "nearestCounterpart": "Interior Designers in RAK",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "home-owners are end-user consumers; Interior Designers are B2B creative professionals — different conceptual domains; no subsumption, no shared frame, no elaboration or broadening defensible"
+            },
+            {
+              "concept": "Foreign Investors",
+              "direction": "removed",
+              "nearestCounterpart": "Real Estate Developers in RAK",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "investors as capital providers vs developers as project operators — different conceptual domains despite occasional overlap in real estate; no defensible lineage"
+            },
+            {
+              "concept": "Businesspeople moving to RAK",
+              "direction": "removed",
+              "nearestCounterpart": "Interior Designers in RAK",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "relocating end-users vs established design professionals — different conceptual domains; no lineage"
+            },
+            {
+              "concept": "Interior Designers in RAK",
+              "direction": "new",
+              "nearestCounterpart": "Middle to Upper Middle Income home-owners",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Interior Designers as a professional B2B audience has no antecedent in PRE; home-owners are consumer end-users — different domains"
+            },
+            {
+              "concept": "Interior Designers demographics (age, income, job titles, location)",
+              "direction": "new",
+              "nearestCounterpart": "Middle to Upper Middle Income home-owners (income range overlap)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "income bracket overlap is coincidental; demographic spec for designers is a new level of psychographic detail, not a narrowing of the home-owner population"
+            },
+            {
+              "concept": "Interior Designers lifestyle (aesthetics, modern trends, cutting-edge tech, sustainability)",
+              "direction": "new",
+              "nearestCounterpart": "Behavior: value convenience, automation, and seamless home integration",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "lifestyle framing in professional/design context is a different conceptual frame from end-user convenience behavior — best handled as the Reframed pairing already coded elsewhere for automation/interest overlap, leaving the lifestyle framing itself as new"
+            },
+            {
+              "concept": "Interior Designers behavior (Instagram, Pinterest, Houzz, industry events)",
+              "direction": "new",
+              "nearestCounterpart": "Behavior: value convenience, automation, and seamless home integration",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "channel/platform behavior for professionals vs value-driven behavior for consumers — different frames; original behavior concerns values not channels"
+            },
+            {
+              "concept": "Real Estate Developers demographics",
+              "direction": "new",
+              "nearestCounterpart": "real estate developers in RAK",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "demographic elaboration of the existing real estate developers audience — kept within Elaborated scope but reported as part of the matched elaboration"
+            },
+            {
+              "concept": "Real Estate Developers lifestyle (high-quality, value-adding, innovative, future-proof)",
+              "direction": "new",
+              "nearestCounterpart": "Behavior: value convenience, automation, and seamless home integration",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "professional developer value-orientation differs from end-user convenience values — different frames"
+            },
+            {
+              "concept": "Real Estate Developers behavior (real estate expos, investment forums, scalable smart home solutions)",
+              "direction": "new",
+              "nearestCounterpart": "Behavior: value convenience, automation, and seamless home integration",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "channel/event behavior for B2B developers vs consumer value-behavior — different frames"
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "real estate developers in RAK",
+              "post": "Real Estate Developers in RAK",
+              "fromCode": "Reframed",
+              "toCode": "Elaborated",
+              "reason": "Pass-1 issued both Reframed and Elaborated for the same pair with conflicting rationales. The category 'Real Estate Developers' is preserved intact; the change is added demographic/lifestyle/interest/behavior detail within the same organizing frame (developers as a target segment). That is Elaborated, not Reframed. The organizing frame did not shift."
+            },
+            {
+              "type": "reject_pairing",
+              "pre": "Behavior: value convenience, automation, and seamless home integration",
+              "post": "Interior Designers interests (design, home automation, eco-friendly, modern architecture, smart homes)",
+              "fromCode": "Reframed",
+              "toCode": null,
+              "reason": "Forced pairing across different conceptual domains. PRE is end-user consumer value-behavior; POST is professional interest profile of an entirely new audience. Shared keyword overlap ('automation', 'smart homes') does not establish a semantic neighborhood — it is exactly the kind of thematic adjacency that the ladder cannot bridge. No neighborhood exists; tier 5 applies and the behavior stays Removed (matched with the New for Interior Designers in RAK)."
+            },
+            {
+              "type": "recode",
+              "pre": "Middle to Upper Middle Income home-owners",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Confirm Removed. Consumer home-owner end-users vs B2B professional audiences in POST occupy genuinely different conceptual domains; ladder fails at every tier."
+            },
+            {
+              "type": "recode",
+              "pre": "Foreign Investors",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Confirm Removed. Capital provider vs project operator — different conceptual domains; no defensible transformation."
+            },
+            {
+              "type": "recode",
+              "pre": "Businesspeople moving to RAK",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Confirm Removed. Transient relocating end-user vs established design professional — different conceptual domains; no lineage."
+            },
+            {
+              "type": "recode",
+              "pre": null,
+              "post": "Interior Designers in RAK",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Confirm New. No PRE antecedent exists for the Interior Designers audience; nearest counterparts (home-owners, businesspeople) are different-domain end-users."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Interior Designers demographics (age 30-55, income AED 10k-25k, job titles, location)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Demographic spec for a newly introduced B2B audience has no PRE antecedent; income-bracket overlap with home-owners is coincidental. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Interior Designers lifestyle (aesthetics, modern trends, cutting-edge tech, sustainability)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Lifestyle framing for the new professional audience has no PRE antecedent; end-user convenience behavior sits in a different frame. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Interior Designers interests (design, home automation, eco-friendly, modern architecture, smart homes)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "With the rejected forced pairing removed, this professional interest profile has no PRE antecedent. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Interior Designers behavior (Instagram, Pinterest, Houzz, industry events)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Channel/event behavior for a new B2B audience has no PRE antecedent. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Real Estate Developers demographics (age 35-60, high income, job titles, location)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Demographic detail added to the elaborated Real Estate Developers audience; subsumed under the Elaborated pairing rather than standing as a separate event. Carried forward as New to preserve the granular POST units, with the elaboration relationship documented."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Real Estate Developers lifestyle (high-quality, value-adding, innovative, future-proof)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Professional developer value-orientation; PRE behavior unit (end-user convenience) was rejected as forced pairing. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Real Estate Developers interests (real estate development, property management, bulk buying, smart home tech)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Professional interest profile for developers; no PRE antecedent survives the rejection of the behavior-unit pairing. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Real Estate Developers behavior (real estate expos, investment forums, scalable smart home solutions)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Channel/event behavior for B2B developers has no PRE antecedent. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti74alklrkanfqpm9",
+            "code": "Elaborated",
+            "preEvidence": "real estate developers in RAK",
+            "postEvidence": "Real Estate Developers in RAK, with demographic, lifestyle, interest, and behavior segmentation",
+            "rationale": "The category (Real Estate Developers) is preserved; the change is added demographic/lifestyle/interest/behavior detail within the same organizing frame. Organizing frame does not shift, so Elaborated is correct.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alkmx9tl85p5u",
+            "code": "Removed",
+            "preEvidence": "Middle to Upper Middle Income home-owners",
+            "postEvidence": null,
+            "rationale": "Consumer home-owner end-users vs B2B professional audiences in POST. No neighborhood; ladder fails at every tier.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alkhtf4frcn4ed",
+            "code": "Removed",
+            "preEvidence": "Foreign Investors",
+            "postEvidence": null,
+            "rationale": "Capital provider vs project operator — different conceptual domains; no defensible transformation.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alkra1xx21qqk",
+            "code": "Removed",
+            "preEvidence": "Businesspeople moving to RAK",
+            "postEvidence": null,
+            "rationale": "Transient relocating end-user vs established design professional — different conceptual domains; no lineage.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alkyrbyriy69dd",
+            "code": "Removed",
+            "preEvidence": "Behavior: value convenience, automation, and seamless home integration",
+            "postEvidence": null,
+            "rationale": "End-user consumer value-behavior has no defensible POST successor. Keyword overlap with developer/designer automation/smart-home interests is thematic adjacency only, not a semantic neighborhood. Forced pairing rejected.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alktsgptweux6h",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Interior Designers in RAK",
+            "rationale": "Interior Designers as a target audience has no antecedent in PRE; nearest counterparts are different-domain end-users. Tested all four transformation codes; none defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alkn3ukmz38c9",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Interior Designers demographics (age 30-55, income AED 10k-25k, job titles, location)",
+            "rationale": "Demographic specification for the newly introduced Interior Designers audience; income-bracket overlap with home-owners is coincidental, not lineage.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti74alkrvyugtraib",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Interior Designers lifestyle (aesthetics, modern trends, cutting-edge tech, sustainability)",
+            "rationale": "Lifestyle framing for a new professional audience has no PRE antecedent; end-user convenience behavior is a different frame.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alkdaapsdych0o",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Interior Designers interests (design, home automation, eco-friendly, modern architecture, smart homes)",
+            "rationale": "Professional interest profile for the new Interior Designers audience; PRE pairing rejected as forced across domains.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alkqayff4w2zag",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Interior Designers behavior (Instagram, Pinterest, Houzz, industry events)",
+            "rationale": "Channel/event behavior for a new B2B audience has no PRE antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alkgs2ii09ezpk",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Real Estate Developers demographics (age 35-60, high income, job titles, location)",
+            "rationale": "Demographic detail for the elaborated Real Estate Developers audience; carried as granular POST unit alongside the Elaborated event.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti74alkp8kdry4h7xt",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Real Estate Developers lifestyle (high-quality, value-adding, innovative, future-proof)",
+            "rationale": "Professional developer value-orientation has no PRE antecedent; PRE behavior pairing was rejected.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alkuw6z5ebf4y",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Real Estate Developers interests (real estate development, property management, bulk buying, smart home tech)",
+            "rationale": "Professional interest profile for developers; no PRE antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74alklpob6pstq4",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Real Estate Developers behavior (real estate expos, investment forums, scalable smart home solutions)",
+            "rationale": "Channel/event behavior for B2B developers has no PRE antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "vague_to_specific_lineage",
+            "alignment_null_by_choice",
+            "new_removed_recheck_passed",
+            "reframe_downgraded",
+            "forced_pairing_rejected"
+          ],
+          "coderNotes": "The PRE response enumerated several audience types in a single sentence-style list, while POST fully segmented two of them. Segmentation of Real Estate Developers yielded both a Reframed (audience reconceived with depth) and an Elaborated (demographic/behavioral detail added) event, which risks collapsing distinct changes. The Reframed pairing of consumer automation behavior with interior-designer interest in home automation is arguable; subsumption test fails (designer interest is not a specific way of being consumer convenience), but the thematic overlap supports a Reframed verdict. Several audience removals (home-owners, foreign investors, businesspeople) are clean different-domain removals. The new Interior Designers audience and its segmentation account for most new events; demographic specification is recorded as New rather than Expanded because the income-bracket overlap with home-owners is incidental, not lineage. Critic applied 14 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "no idea"
+      },
+      "post": {
+        "answer": "No idea yet"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The post-response is structurally equivalent to the pre-response. Both consist of a single short clause expressing lack of knowledge about a niche. The only difference is the addition of the single word 'yet', which is a minor stylistic/temporal modifier rather than a meaningful structural change.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "no idea"
+          ],
+          "postConcepts": [
+            "No idea yet"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "no idea",
+              "post": "No idea yet",
+              "continuity": "Both expressions state absence of knowledge/identification regarding a niche within the target market",
+              "scope": "Identical scope — a non-answer expressing lack of awareness",
+              "frame": "Identical frame — a direct admission of not having identified a niche",
+              "stretch": "Minimal — the only difference is the addition of the temporal qualifier 'yet'",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "no idea",
+              "post": "No idea yet",
+              "basis": "Same propositional content (admission of not knowing the niche) with only the addition of 'yet', which adds a temporal qualifier to the same statement without changing the underlying concept."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "no idea",
+              "post": "No idea yet",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Pass 1 is correct. Both versions admit no identified niche; 'yet' adds a temporal qualifier (openness to future knowledge) within the same frame (self-reported lack of niche identification). Underlying proposition and frame are intact; only a modifier was added. This is the textbook Elaborated case, not a frame shift. Confidence is genuinely low because the two utterances are nearly identical, but the code choice itself is defensible."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti729faq91bod9ckif",
+            "code": "Elaborated",
+            "preEvidence": "no idea",
+            "postEvidence": "No idea yet",
+            "rationale": "Both versions express self-reported lack of a niche. POST keeps the same frame (admission of non-identification) and adds only a temporal qualifier ('yet'), implying the state may change. No frame shift, no narrowing, no expansion — just a detail addition to the same proposition.",
+            "confidence": "low",
+            "alternativeConsidered": "No Change (stylistic only) — rejected; 'yet' adds semantic content (temporal openness) beyond pure style, so some elaboration occurred even if minimal."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "low",
+          "flags": [
+            "possible_stylistic_rewrite",
+            "boundary_case_elab_vs_reframe"
+          ],
+          "coderNotes": "The only difference between PRE ('no idea') and POST ('No idea yet') is the addition of the temporal qualifier 'yet'. This could plausibly be coded as a purely stylistic change (no semantic event) or as a minor Elaborated event. The boundary between these is extremely thin here. Coded as Elaborated with low confidence because 'yet' does carry a slight temporal implication (current state that may evolve), which adds minimal semantic content within the same frame. If treated as purely stylistic, the response would have no semantic events and structural_development would remain 'No Change'. The matched pair is between two near-identical non-answers, leaving little room for confident semantic classification. Critic applied 1 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "Instagram and eBay or Noon"
+      },
+      "post": {
+        "answer": "Instagram, TikTok, and pinterest"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST retains Instagram and adds two additional content-based platforms (TikTok, Pinterest), while dropping two commerce-based platforms (eBay, Noon). Net change is same number of platforms (3), but the platform mix shifts structurally from a content+commerce mix to a purely content-based set. The total platform count is preserved, so this is not a significant expansion in volume, but the composition change is meaningful.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Instagram",
+            "eBay",
+            "Noon"
+          ],
+          "postConcepts": [
+            "Instagram",
+            "TikTok",
+            "Pinterest"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Instagram",
+              "post": "Instagram",
+              "continuity": "identical platform",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "TikTok",
+              "continuity": "both content-based social platforms",
+              "scope": "both social media platforms",
+              "frame": "content-based branding",
+              "stretch": "moderate — different platforms but same functional category",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Pinterest",
+              "continuity": "both content-based social platforms",
+              "scope": "both social media platforms",
+              "frame": "content-based branding",
+              "stretch": "moderate — different platforms but same functional category",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "eBay",
+              "post": "Instagram",
+              "continuity": "weak — commerce vs content platform",
+              "scope": "different category",
+              "frame": "different",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "eBay",
+              "post": "TikTok",
+              "continuity": "weak — commerce vs content platform",
+              "scope": "different category",
+              "frame": "different",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "eBay",
+              "post": "Pinterest",
+              "continuity": "weak — commerce vs content platform",
+              "scope": "different category",
+              "frame": "different",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Noon",
+              "post": "Instagram",
+              "continuity": "weak — commerce vs content platform",
+              "scope": "different category",
+              "frame": "different",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Noon",
+              "post": "TikTok",
+              "continuity": "weak — commerce vs content platform",
+              "scope": "different category",
+              "frame": "different",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Noon",
+              "post": "Pinterest",
+              "continuity": "weak — commerce vs content platform",
+              "scope": "different category",
+              "frame": "different",
+              "stretch": "high",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "eBay",
+              "post": "Instagram",
+              "reason": "different conceptual domains — commerce-based marketplace vs content-based social platform"
+            },
+            {
+              "pre": "eBay",
+              "post": "TikTok",
+              "reason": "different conceptual domains — commerce-based marketplace vs content-based social platform"
+            },
+            {
+              "pre": "eBay",
+              "post": "Pinterest",
+              "reason": "different conceptual domains — commerce-based marketplace vs content-based social platform"
+            },
+            {
+              "pre": "Noon",
+              "post": "Instagram",
+              "reason": "different conceptual domains — commerce-based marketplace vs content-based social platform"
+            },
+            {
+              "pre": "Noon",
+              "post": "TikTok",
+              "reason": "different conceptual domains — commerce-based marketplace vs content-based social platform"
+            },
+            {
+              "pre": "Noon",
+              "post": "Pinterest",
+              "reason": "different conceptual domains — commerce-based marketplace vs content-based social platform"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Instagram",
+              "post": "Instagram",
+              "basis": "identical platform name preserved across pre and post (continuity, not change)"
+            }
+          ],
+          "unmatchedPre": [
+            "eBay",
+            "Noon"
+          ],
+          "unmatchedPost": [
+            "TikTok",
+            "Pinterest"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "eBay",
+              "direction": "removed",
+              "nearestCounterpart": "TikTok",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "eBay is a commerce-based marketplace platform; TikTok is a content-based social platform. Different conceptual domains (commerce infrastructure vs content/social engagement). Narrowed test fails — TikTok is not a specific way of being eBay. Reframed fails — no shared semantic territory. Elaborated fails — POST does not keep PRE intact. Expanded fails — POST does not broaden PRE. No defensible lineage."
+            },
+            {
+              "concept": "Noon",
+              "direction": "removed",
+              "nearestCounterpart": "Pinterest",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Noon is a commerce-based marketplace platform; Pinterest is a content-based social platform. Different conceptual domains (commerce infrastructure vs content/social engagement). Narrowed test fails — Pinterest is not a specific way of being Noon. Reframed fails — no shared semantic territory. Elaborated fails — POST does not keep PRE intact. Expanded fails — POST does not broaden PRE. No defensible lineage."
+            },
+            {
+              "concept": "TikTok",
+              "direction": "new",
+              "nearestCounterpart": "eBay",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "TikTok is a content-based social platform; nearest PRE counterpart is eBay, a commerce-based marketplace. Different conceptual domains. Narrowed fails — TikTok is not a specific way of being eBay. Reframed fails — no shared semantic territory. Elaborated fails — POST does not keep PRE intact. Expanded fails — POST does not broaden PRE. No defensible lineage."
+            },
+            {
+              "concept": "Pinterest",
+              "direction": "new",
+              "nearestCounterpart": "Noon",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Pinterest is a content-based social platform; nearest PRE counterpart is Noon, a commerce-based marketplace. Different conceptual domains. Narrowed fails — Pinterest is not a specific way of being Noon. Reframed fails — no shared semantic territory. Elaborated fails — POST does not keep PRE intact. Expanded fails — POST does not broaden PRE. No defensible lineage."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Instagram",
+              "post": "Instagram",
+              "fromCode": null,
+              "toCode": "Unchanged",
+              "reason": "Identical platform name preserved across pre and post. No transformation needed; this is continuity, not a change event."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "TikTok",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE counterpart is eBay (commerce marketplace). TikTok is a content-based social platform. Different conceptual domains — no neighborhood. All four transformation codes fail. Confirmed New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Pinterest",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE counterpart is Noon (commerce marketplace). Pinterest is a content-based social platform. Different conceptual domains — no neighborhood. All four transformation codes fail. Confirmed New."
+            },
+            {
+              "type": "confirm",
+              "pre": "eBay",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "eBay (commerce marketplace) has no POST successor. Nearest counterpart TikTok is a different conceptual domain. No lineage defensible. Confirmed Removed."
+            },
+            {
+              "type": "confirm",
+              "pre": "Noon",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Noon (commerce marketplace) has no POST successor. Nearest counterpart Pinterest is a different conceptual domain. No lineage defensible. Confirmed Removed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti72lwv57hjegrqihh",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "TikTok",
+            "rationale": "TikTok (content-based social platform) has no antecedent in PRE. Nearest PRE counterpart is eBay, a commerce-based marketplace — different conceptual domain. All four transformation codes tested and failed: Narrowed fails (TikTok is not a specific way of being eBay), Reframed fails (no shared semantic territory between commerce marketplace and content social platform), Elaborated fails (POST does not keep PRE intact), Expanded fails (POST does not broaden PRE).",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed, but rejected — commerce marketplace vs content social platform are different domains, not sibling concepts."
+          },
+          {
+            "instanceId": "mti72lwv41sufa59prq",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Pinterest",
+            "rationale": "Pinterest (content-based social platform) has no antecedent in PRE. Nearest PRE counterpart is Noon, a commerce-based marketplace — different conceptual domain. All four transformation codes tested and failed: Narrowed fails (Pinterest is not a specific way of being Noon), Reframed fails (no shared semantic territory), Elaborated fails (POST does not keep PRE intact), Expanded fails (POST does not broaden PRE).",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed, but rejected — commerce marketplace vs content social platform are different domains, not sibling concepts."
+          },
+          {
+            "instanceId": "mti72lwvj0mi32a3pnp",
+            "code": "Removed",
+            "preEvidence": "eBay",
+            "postEvidence": null,
+            "rationale": "eBay (commerce-based marketplace platform) is absent from POST with no successor. Nearest POST counterpart is TikTok, a content-based social platform — different conceptual domain. No transformation code defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed, but rejected — different domains."
+          },
+          {
+            "instanceId": "mti72lwvlpisdgs4wm",
+            "code": "Removed",
+            "preEvidence": "Noon",
+            "postEvidence": null,
+            "rationale": "Noon (commerce-based marketplace platform) is absent from POST with no successor. Nearest POST counterpart is Pinterest, a content-based social platform — different conceptual domain. No transformation code defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed, but rejected — different domains."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Instagram is preserved identically across PRE and POST, so no semantic event is emitted for it. The remaining four platforms (eBay, Noon, TikTok, Pinterest) occupy different conceptual domains (commerce vs content-based social platforms), so no lineage is defensible between any commerce platform and any content platform. Two Removed and two New events are coded accordingly. Structural Development is Moderate Addition because the platform count is preserved at 3, but the mix shifts meaningfully. Critic applied 5 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "No idea yet"
+      },
+      "post": {
+        "answer": "30% tutorials, 40% product reviews, 30% behind-the-scene content"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE is a single three-word non-answer ('No idea yet'); POST introduces an entirely new concrete content mix with three specific content categories and percentage allocations. The response has gone from zero content planning to a fully articulated content mix. Multiple new clauses and explanatory elements have been introduced where none existed.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "No idea yet"
+          ],
+          "postConcepts": [
+            "30% tutorials",
+            "40% product reviews",
+            "30% behind-the-scene content"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "No idea yet",
+              "post": "30% tutorials",
+              "continuity": "no semantic continuity — PRE is an explicit statement of non-knowledge; POST is a concrete content type",
+              "scope": "PRE has no defined scope; POST specifies a content category and allocation percentage",
+              "frame": "PRE frame is non-committal; POST frame is concrete content mix planning",
+              "stretch": "any attempt at lineage would be forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "No idea yet",
+              "post": "40% product reviews",
+              "continuity": "no semantic continuity",
+              "scope": "PRE undefined; POST a specific content type",
+              "frame": "non-committal → concrete mix",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "No idea yet",
+              "post": "30% behind-the-scene content",
+              "continuity": "no semantic continuity",
+              "scope": "PRE undefined; POST specific content type",
+              "frame": "non-committal → concrete mix",
+              "stretch": "forced",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "No idea yet",
+              "post": "30% tutorials",
+              "reason": "PRE is a meta-statement of having no plan; POST is a concrete content allocation. No defensible lineage — different conceptual domains (meta-cognitive state vs concrete content mix)."
+            },
+            {
+              "pre": "No idea yet",
+              "post": "40% product reviews",
+              "reason": "Same as above — PRE is meta-cognitive non-knowledge; POST is concrete content type. No defensible transformation."
+            },
+            {
+              "pre": "No idea yet",
+              "post": "30% behind-the-scene content",
+              "reason": "Same — PRE is non-committal; POST is concrete content type. No defensible transformation."
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "No idea yet"
+          ],
+          "unmatchedPost": [
+            "30% tutorials",
+            "40% product reviews",
+            "30% behind-the-scene content"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "No idea yet",
+              "direction": "removed",
+              "nearestCounterpart": "30% tutorials",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE 'No idea yet' is a meta-statement of absence of plan; POST content categories are concrete content allocations. There is no identifiable antecedent that has been narrowed, reframed, elaborated, or expanded. The student moved from having no plan to having a specific content mix; this is the PRE concept ceasing to apply (because they now have an idea), not a transformation of the 'no idea' idea itself."
+            },
+            {
+              "concept": "30% tutorials",
+              "direction": "new",
+              "nearestCounterpart": "No idea yet",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is 'No idea yet'. No content-type antecedent exists in PRE. Narrowed/Reframed/Elaborated/Expanded all fail because there is no concrete concept to transform — only a statement of non-knowledge. The student introduced a new content allocation where none existed before."
+            },
+            {
+              "concept": "40% product reviews",
+              "direction": "new",
+              "nearestCounterpart": "No idea yet",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is 'No idea yet'. No content-type antecedent exists. All four transformation codes fail for the same reason as above — no concrete seed concept in PRE to transform."
+            },
+            {
+              "concept": "30% behind-the-scene content",
+              "direction": "new",
+              "nearestCounterpart": "No idea yet",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Nearest PRE counterpart is 'No idea yet'. No content-type antecedent exists. All four transformation codes fail — no seed concept in PRE to narrow, reframe, elaborate, or expand."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "No idea yet",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass 1 is correct. PRE 'No idea yet' is a meta-statement of absence/non-knowledge, not a concrete content concept. No POST unit (tutorials, product reviews, behind-the-scene) is a specific way of being 'no idea', nor does any share semantic territory with it. The student ceased to be in the 'no idea' state by forming a concrete content mix — this is genuine removal of a meta-state, not a transformation."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "30% tutorials",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. No PRE antecedent exists for tutorials content; 'No idea yet' is an absence-statement, not a seed content category. Lineage recovery would require manufacturing a transformation from non-knowledge to a content type, which the ladder does not support."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "40% product reviews",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. No PRE antecedent exists for product reviews; same reasoning as above."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "30% behind-the-scene content",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. No PRE antecedent exists for behind-the-scene content; same reasoning as above."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti72n5r7fro8jvkg6w",
+            "code": "Removed",
+            "preEvidence": "No idea yet",
+            "postEvidence": null,
+            "rationale": "PRE is a meta-statement of non-knowledge about content strategy. The student has moved from 'no idea' to a defined 30/40/30 mix, so the 'no idea' state no longer applies. No POST concept is a transformation of 'no idea' — tutorials, product reviews, and behind-the-scene are concrete content categories, not a specific way of being 'no idea'. Genuine removal.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (absence-of-idea reframed as presence-of-idea), rejected because reframing requires both frames to reference the same underlying subject; here PRE references absence while POST references the plan itself."
+          },
+          {
+            "instanceId": "mti72n5r80ifudpnhad",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "30% tutorials",
+            "rationale": "No content-type antecedent exists in PRE. The single PRE unit is a meta-statement of non-knowledge, not a seed concept that could be narrowed, reframed, elaborated, or expanded into tutorials. Genuinely new content allocation.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded (of 'no idea yet' into a concrete plan), rejected because Expanded requires an identifiable PRE seed that broadens; an absence-statement is not such a seed."
+          },
+          {
+            "instanceId": "mti72n5riiw5j1f8kiq",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "40% product reviews",
+            "rationale": "No antecedent for product reviews in PRE. Same reasoning — 'No idea yet' is a meta-state, not a content category, and cannot serve as a transformation seed.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded, rejected for same reason as above."
+          },
+          {
+            "instanceId": "mti72n5rgkl309v46e6",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "30% behind-the-scene content",
+            "rationale": "No antecedent for behind-the-scene content in PRE. 'No idea yet' cannot be narrowed, reframed, elaborated, or expanded into a specific content format.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded, rejected for same reason as above."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "PRE 'No idea yet' is a meta-cognitive absence statement rather than a content concept. The PRE→POST shift is therefore from non-planning to planning, which produces a Removed event for the absence statement and New events for each of the three introduced content categories. No transformations are defensible because there is no concrete PRE seed concept that any POST content category could narrow, reframe, elaborate, or expand. The pair (Removed + New x3) is appropriate because PRE and POST occupy different conceptual domains (meta-state of not-knowing vs concrete content mix). Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "smart home devices"
+      },
+      "post": {
+        "answer": "smart home appliances and devices that allow seamless home integration"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST retains the PRE product category and adds a qualifying clause ('that allow seamless home integration') plus an expanded category term ('appliances and devices'). One meaningful addition at the clause level, plus modest in-place elaboration of the product label. Not substantial enough for Significant Addition; not purely stylistic.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "smart home devices"
+          ],
+          "postConcepts": [
+            "smart home appliances and devices",
+            "seamless home integration"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "smart home devices",
+              "post": "smart home appliances and devices",
+              "continuity": "high - core product category preserved",
+              "scope": "POST expands the category to include appliances alongside devices",
+              "frame": "product list → product category with broader inclusion",
+              "stretch": "minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "smart home devices",
+              "post": "seamless home integration",
+              "continuity": "moderate - devices enable integration but integration is a capability/outcome, not a device",
+              "scope": "different - one is a product category, the other is an experiential outcome",
+              "frame": "product-centric → outcome/experience-centric",
+              "stretch": "moderate but within same brand-product neighborhood",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "smart home devices",
+              "post": "smart home appliances and devices",
+              "basis": "same product category; POST adds appliances and integration framing"
+            },
+            {
+              "pre": "smart home devices",
+              "post": "seamless home integration",
+              "basis": "shared smart-home product neighborhood; POST specifies the functional outcome the devices deliver"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "smart home devices",
+              "post": "smart home appliances and devices",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Core product category is preserved (physical products → physical appliances + devices). POST only adds an inclusion ('appliances') and a functional descriptor; the organizing frame remains product-centric. Reframed requires a frame shift, which is not present here. Narrowed is wrong because scope broadens rather than restricts. Confirm Elaborated."
+            },
+            {
+              "type": "confirm",
+              "pre": "smart home devices",
+              "post": "seamless home integration",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Both share a specific smart-home product/capability neighborhood (devices that integrate a home). Narrowed fails: 'Seamless home integration is a specific way of being smart home devices' is false — integration is an outcome/enablement, not a product subtype. Elaborated fails: the noun itself shifts from product-category to functional-outcome, which is a frame change (product-centric → outcome/integration-centric), not added modifiers on the same noun. Same semantic territory, shifted organizing frame → Reframed stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti72qhlk06s7p084m",
+            "code": "Elaborated",
+            "preEvidence": "smart home devices",
+            "postEvidence": "smart home appliances and devices that allow seamless home integration",
+            "rationale": "Core product category retained; 'appliances' added alongside 'devices' and a functional clause is attached. Frame remains product-centric; no scope restriction (not Narrowed) and no frame shift (not Reframed).",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti72qhltg2xdud5se",
+            "code": "Reframed",
+            "preEvidence": "smart home devices",
+            "postEvidence": "seamless home integration",
+            "rationale": "Shared smart-home product/capability neighborhood. POST reframes from product-category label to the experiential/functional outcome the products deliver (product-centric → outcome/integration-centric). Narrowed fails the subsumption test; Elaborated fails because the organizing noun shifts.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "possible_missed_event",
+            "duplicate_pre_antecedent"
+          ],
+          "coderNotes": "Only one PRE unit exists, but the POST splits into two semantic units (category expansion + integration outcome). Treated as two events sharing one antecedent because both POST elements elaborate/refreame the same PRE product concept within the same sentence. The Elaborated vs Reframed boundary for the integration clause is arguable; chose Elaborated for the full sentence-level event because the product frame persists and detail is added, then recorded a second event for the reframed outcome emphasis. If a stricter reading is preferred, the single event could be coded Elaborated with confidence high and the second event dropped. Critic applied 2 correction(s). Consistency check: \"smart home devices\" serves as the antecedent of more than one event. The PRE span likely needs splitting — review before accepting."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 4,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 1,
+          "Other": 3
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 4,
+          "Business Potential (Profit and Market Demand)": 3,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 1,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ]
+}

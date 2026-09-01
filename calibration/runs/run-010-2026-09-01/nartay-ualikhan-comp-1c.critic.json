@@ -1,0 +1,58 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Curation",
+      "post": "Curation",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Lexical identity pair is correct; preserved verbatim."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "sustainability",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Mandatory recheck performed. Curation (editorial selection) and sustainability (environmental/ethical production) occupy different conceptual domains. No transformation code is defensible; only a Removed + New was avoided because PRE Curation is already matched. Keeping as New is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "intentional craftsmanship",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Mandatory recheck performed. 'Care with the product' umbrella fails the abstraction-ceiling test \u2014 it could be claimed for almost any descriptor pair in this item. Subsumption fails; no sibling-frame relation within a specific shared territory. Keeping as New is correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Curation",
+      "post": "Curation",
+      "basis": "Lexical identity; same descriptor preserved verbatim in the post list."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "sustainability",
+    "intentional craftsmanship"
+  ],
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "sustainability",
+      "rationale": "No antecedent in PRE list. Curation (editorial selection) and sustainability (environmental/ethical production) occupy different conceptual domains; no transformation code defensible after ladder test.",
+      "alternative_considered": "Removed + New",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "intentional craftsmanship",
+      "rationale": "No antecedent in PRE list. Curation (selection) and intentional craftsmanship (production/technique) share only a topically adjacent 'care with product' umbrella that fails the abstraction-ceiling test. No transformation code defensible.",
+      "alternative_considered": "Removed + New",
+      "confidence": "high"
+    }
+  ]
+}

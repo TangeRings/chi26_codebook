@@ -1,0 +1,75 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "tiktok",
+      "post": "Tiktok",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Same platform; identical match. Capitalisation is stylistic only."
+    },
+    {
+      "type": "confirm",
+      "pre": "instagram",
+      "post": "instagram",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Same platform; identical match."
+    },
+    {
+      "type": "recode",
+      "pre": "amazon",
+      "post": "commerce-based platform",
+      "from_code": "Narrowed",
+      "to_code": "Expanded",
+      "reason": "Pass 1 emitted two contradictory events (both Narrowed and Expanded) for the same pair. Applying the ladder correctly: 'commerce-based platform is a specific way of being amazon' is FALSE \u2014 the direction is reversed. Amazon is a specific instance of commerce-based platform, so POST broadens the specific PRE instance to its encompassing category. This is Expanded (specific \u2192 category). Narrowed is rejected because subsumption does not hold in the POST\u2192PRE direction."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "youtube",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "youtube is a genuinely new platform addition. Nearest PRE counterparts are tiktok and instagram (other content/social platforms), but none is a defensible antecedent: YouTube is not a specific way of being any of them (Narrowed fails), shares territory but is a sibling platform not a frame-shift of one (Reframed fails), is not the same category with added detail (Elaborated fails), and is not a scope broadening of any single PRE seed (Expanded fails). Stage 1 neighborhood gate: all three PRE platforms share a 'platform for branding' territory, but a platform addition without lineage to a specific PRE platform is still a New \u2014 Expanded would require an identifiable PRE seed broadened, which youtube lacks."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "tiktok",
+      "post": "Tiktok",
+      "basis": "same platform, capitalisation stylistic"
+    },
+    {
+      "pre": "instagram",
+      "post": "instagram",
+      "basis": "same platform"
+    },
+    {
+      "pre": "amazon",
+      "post": "commerce-based platform",
+      "basis": "amazon broadened to its encompassing category (commerce-based platform)"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "youtube"
+  ],
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "amazon",
+      "post_evidence": "commerce-based platform",
+      "rationale": "POST broadens the specific instance 'amazon' to the encompassing category 'commerce-based platform.' Subsumption test: 'commerce-based platform is a specific way of being amazon' is FALSE; rather, 'amazon is a specific way of being commerce-based platform' is TRUE, which is the Expanded direction (specific \u2192 category).",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "youtube",
+      "rationale": "youtube has no defensible PRE antecedent. Tested Narrowed, Reframed, Elaborated, Expanded against all three PRE platforms (tiktok, instagram, amazon); none holds. YouTube is a distinct new platform in the POST set.",
+      "alternative_considered": "Expanded from tiktok/instagram as content-platform seed",
+      "confidence": "high"
+    }
+  ]
+}

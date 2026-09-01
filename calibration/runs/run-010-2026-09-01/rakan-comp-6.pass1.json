@@ -1,0 +1,256 @@
+{
+  "coding_unit": {
+    "student_id": "rakan",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Instagram",
+      "eBay",
+      "Noon"
+    ],
+    "post_concepts": [
+      "Instagram",
+      "TikTok",
+      "Pinterest"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Instagram",
+        "post": "Instagram",
+        "continuity": "identical platform",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "TikTok",
+        "continuity": "both content-based social platforms",
+        "scope": "both social media platforms",
+        "frame": "content-based branding",
+        "stretch": "moderate \u2014 different platforms but same functional category",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Pinterest",
+        "continuity": "both content-based social platforms",
+        "scope": "both social media platforms",
+        "frame": "content-based branding",
+        "stretch": "moderate \u2014 different platforms but same functional category",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "eBay",
+        "post": "Instagram",
+        "continuity": "weak \u2014 commerce vs content platform",
+        "scope": "different category",
+        "frame": "different",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "eBay",
+        "post": "TikTok",
+        "continuity": "weak \u2014 commerce vs content platform",
+        "scope": "different category",
+        "frame": "different",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "eBay",
+        "post": "Pinterest",
+        "continuity": "weak \u2014 commerce vs content platform",
+        "scope": "different category",
+        "frame": "different",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Noon",
+        "post": "Instagram",
+        "continuity": "weak \u2014 commerce vs content platform",
+        "scope": "different category",
+        "frame": "different",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Noon",
+        "post": "TikTok",
+        "continuity": "weak \u2014 commerce vs content platform",
+        "scope": "different category",
+        "frame": "different",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Noon",
+        "post": "Pinterest",
+        "continuity": "weak \u2014 commerce vs content platform",
+        "scope": "different category",
+        "frame": "different",
+        "stretch": "high",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "eBay",
+        "post": "Instagram",
+        "reason": "different conceptual domains \u2014 commerce-based marketplace vs content-based social platform"
+      },
+      {
+        "pre": "eBay",
+        "post": "TikTok",
+        "reason": "different conceptual domains \u2014 commerce-based marketplace vs content-based social platform"
+      },
+      {
+        "pre": "eBay",
+        "post": "Pinterest",
+        "reason": "different conceptual domains \u2014 commerce-based marketplace vs content-based social platform"
+      },
+      {
+        "pre": "Noon",
+        "post": "Instagram",
+        "reason": "different conceptual domains \u2014 commerce-based marketplace vs content-based social platform"
+      },
+      {
+        "pre": "Noon",
+        "post": "TikTok",
+        "reason": "different conceptual domains \u2014 commerce-based marketplace vs content-based social platform"
+      },
+      {
+        "pre": "Noon",
+        "post": "Pinterest",
+        "reason": "different conceptual domains \u2014 commerce-based marketplace vs content-based social platform"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Instagram",
+        "post": "Instagram",
+        "basis": "identical platform name preserved across pre and post"
+      },
+      {
+        "pre": "eBay",
+        "post": "TikTok",
+        "basis": "both listed in student's platform set; commerce-based eBay replaced by content-based TikTok \u2014 no lineage, different platform domains"
+      },
+      {
+        "pre": "Noon",
+        "post": "Pinterest",
+        "basis": "both listed in student's platform set; commerce-based Noon replaced by content-based Pinterest \u2014 no lineage, different platform domains"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "eBay",
+        "direction": "removed",
+        "nearest_counterpart": "TikTok",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "eBay is a commerce-based marketplace platform; TikTok is a content-based social platform. Different conceptual domains (commerce infrastructure vs content/social engagement). Narrowed test fails \u2014 TikTok is not a specific way of being eBay. Reframed fails \u2014 no shared semantic territory. Elaborated fails \u2014 POST does not keep PRE intact. Expanded fails \u2014 POST does not broaden PRE. No defensible lineage."
+      },
+      {
+        "concept": "Noon",
+        "direction": "removed",
+        "nearest_counterpart": "Pinterest",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Noon is a commerce-based marketplace platform; Pinterest is a content-based social platform. Different conceptual domains (commerce infrastructure vs content/social engagement). Narrowed test fails \u2014 Pinterest is not a specific way of being Noon. Reframed fails \u2014 no shared semantic territory. Elaborated fails \u2014 POST does not keep PRE intact. Expanded fails \u2014 POST does not broaden PRE. No defensible lineage."
+      },
+      {
+        "concept": "TikTok",
+        "direction": "new",
+        "nearest_counterpart": "eBay",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "TikTok is a content-based social platform; nearest PRE counterpart is eBay, a commerce-based marketplace. Different conceptual domains. Narrowed fails \u2014 TikTok is not a specific way of being eBay. Reframed fails \u2014 no shared semantic territory. Elaborated fails \u2014 POST does not keep PRE intact. Expanded fails \u2014 POST does not broaden PRE. No defensible lineage."
+      },
+      {
+        "concept": "Pinterest",
+        "direction": "new",
+        "nearest_counterpart": "Noon",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Pinterest is a content-based social platform; nearest PRE counterpart is Noon, a commerce-based marketplace. Different conceptual domains. Narrowed fails \u2014 Pinterest is not a specific way of being Noon. Reframed fails \u2014 no shared semantic territory. Elaborated fails \u2014 POST does not keep PRE intact. Expanded fails \u2014 POST does not broaden PRE. No defensible lineage."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST retains Instagram and adds two additional content-based platforms (TikTok, Pinterest), while dropping two commerce-based platforms (eBay, Noon). Net change is same number of platforms (3), but the platform mix shifts structurally from a content+commerce mix to a purely content-based set. The total platform count is preserved, so this is not a significant expansion in volume, but the composition change is meaningful."
+  },
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "TikTok",
+      "rationale": "TikTok (content-based social platform) has no antecedent in PRE. Nearest PRE counterpart is eBay, but eBay is a commerce-based marketplace \u2014 different conceptual domain. All four transformation codes tested and failed: Narrowed fails (TikTok is not a specific way of being eBay), Reframed fails (no shared semantic territory between commerce marketplace and content social platform), Elaborated fails (POST does not keep PRE intact), Expanded fails (POST does not broaden PRE). Mandatory recheck performed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Pinterest",
+      "rationale": "Pinterest (content-based social platform) has no antecedent in PRE. Nearest PRE counterpart is Noon, but Noon is a commerce-based marketplace \u2014 different conceptual domain. All four transformation codes tested and failed: Narrowed fails (Pinterest is not a specific way of being Noon), Reframed fails (no shared semantic territory between commerce marketplace and content social platform), Elaborated fails (POST does not keep PRE intact), Expanded fails (POST does not broaden PRE). Mandatory recheck performed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "eBay",
+      "post_evidence": null,
+      "rationale": "eBay (commerce-based marketplace platform) is absent from POST with no successor. Nearest POST counterpart is TikTok, but TikTok is a content-based social platform \u2014 different conceptual domain. All four transformation codes tested and failed: Narrowed fails (TikTok is not a specific way of being eBay), Reframed fails (no shared semantic territory), Elaborated fails (POST does not keep PRE intact), Expanded fails (POST does not broaden PRE). Mandatory recheck performed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Noon",
+      "post_evidence": null,
+      "rationale": "Noon (commerce-based marketplace platform) is absent from POST with no successor. Nearest POST counterpart is Pinterest, but Pinterest is a content-based social platform \u2014 different conceptual domain. All four transformation codes tested and failed: Narrowed fails (Pinterest is not a specific way of being Noon), Reframed fails (no shared semantic territory), Elaborated fails (POST does not keep PRE intact), Expanded fails (POST does not broaden PRE). Mandatory recheck performed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "Instagram is preserved identically across PRE and POST, so no semantic event is emitted for it. The remaining four platforms (eBay, Noon, TikTok, Pinterest) occupy different conceptual domains (commerce vs content-based social platforms), so no lineage is defensible between any commerce platform and any content platform. Two Removed and two New events are coded accordingly. Structural Development is Moderate Addition because the platform count is preserved at 3, but the mix shifts meaningfully."
+  },
+  "coded_at": "2025-01-24T12:00:00Z",
+  "model": "MiniMax-M3"
+}

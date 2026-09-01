@@ -1,0 +1,52 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Thai Food/Fruit Lovers",
+      "post": "Asian Market Consumers",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Thai is a proper subset of Asian; scope broadened from specific cuisine to cultural-market umbrella while frame (cultural-cuisine orientation) persists. Expanded is correct; Narrowed and Reframed both fail."
+    },
+    {
+      "type": "confirm",
+      "pre": "People who love trying new and unique foods",
+      "post": "Adventurous Foodies",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption holds: Adventurous Foodies is a specific way of being people who love trying new and unique foods (subset by adventurous-eating trait). Scope restriction per Narrowed-abstract rule. Both alignments correctly matched; no provisional New/Removed remain, so no restore_lineage duty fires."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Thai Food/Fruit Lovers",
+      "post": "Asian Market Consumers",
+      "basis": "Thai cuisine interest broadened into the wider Asian cultural-market audience; cuisine-to-cultural-market scope expansion with frame preserved."
+    },
+    {
+      "pre": "People who love trying new and unique foods",
+      "post": "Adventurous Foodies",
+      "basis": "Adventurous Foodies names the consumer subset defined specifically by the adventurous-eating trait; scope restriction via subsumption."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "Thai Food/Fruit Lovers",
+      "post_evidence": "Asian Market Consumers",
+      "rationale": "Thai (one cuisine) broadened to Asian (encompassing Thai + Chinese, Japanese, Korean, Vietnamese, etc.). Identifiable PRE seed broadened into a wider cultural-market audience; cultural-cuisine frame preserved.",
+      "alternative_considered": "Reframed (cuisine specificity -> broader cultural-market framing); rejected because scope expansion dominates and the organizing frame is preserved.",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "People who love trying new and unique foods",
+      "post_evidence": "Adventurous Foodies",
+      "rationale": "Subsumption holds: Adventurous Foodies is a specific way of being people who love trying new and unique foods. POST names the subset of food-interested people defined specifically by the adventurous-eating trait; scope restriction applies.",
+      "alternative_considered": "Reframed (behavioral-description frame -> consumer-label frame); rejected because scope restriction outranks frame shift.",
+      "confidence": "high"
+    }
+  ]
+}

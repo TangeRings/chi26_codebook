@@ -1,0 +1,220 @@
+{
+  "coding_unit": {
+    "student_id": "mahrukh",
+    "item_id": "comp-1c"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Self identification and expression",
+      "Aesthetic",
+      "trend"
+    ],
+    "post_concepts": [
+      "Self identification and expression",
+      "Aesthetic",
+      "trend",
+      "Emotional Connection"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Self identification and expression",
+        "post": "Self identification and expression",
+        "continuity": "identical descriptor",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Self identification and expression",
+        "post": "Aesthetic",
+        "continuity": "some shared identity/aesthetic neighborhood",
+        "scope": "comparable",
+        "frame": "identity vs aesthetic quality",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Self identification and expression",
+        "post": "trend",
+        "continuity": "shared self-presentation/expression neighborhood",
+        "scope": "identity vs external trend orientation",
+        "frame": "identity-internal vs market-external",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Self identification and expression",
+        "post": "Emotional Connection",
+        "continuity": "identity/self-expression overlaps with emotional connection at identity neighborhood",
+        "scope": "individual expression vs relational affect",
+        "frame": "self-presentation vs emotional relational",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Aesthetic",
+        "post": "Self identification and expression",
+        "continuity": "aesthetic can relate to self-expression",
+        "scope": "visual quality vs identity",
+        "frame": "stylistic vs identity-grounded",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Aesthetic",
+        "post": "Aesthetic",
+        "continuity": "identical descriptor",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Aesthetic",
+        "post": "trend",
+        "continuity": "aesthetic and trend are siblings in the visual/style territory",
+        "scope": "quality vs directional",
+        "frame": "static quality vs temporal movement",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Aesthetic",
+        "post": "Emotional Connection",
+        "continuity": "different domains (visual style vs affective relational)",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "trend",
+        "post": "Self identification and expression",
+        "continuity": "trend awareness vs self-expression share a self-presentation neighborhood",
+        "scope": "external movement vs internal identity",
+        "frame": "market-external vs self-internal",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "trend",
+        "post": "Aesthetic",
+        "continuity": "trend and aesthetic share style territory",
+        "scope": "directional vs quality",
+        "frame": "temporal vs static",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "trend",
+        "post": "Emotional Connection",
+        "continuity": "different domains (trend vs relational affect)",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Aesthetic",
+        "post": "Emotional Connection",
+        "reason": "visual/qualitative style and relational affect are in different conceptual domains; implausible match"
+      },
+      {
+        "pre": "trend",
+        "post": "Emotional Connection",
+        "reason": "market trend orientation and relational affective value are different conceptual domains; implausible match"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Self identification and expression",
+        "post": "Self identification and expression",
+        "basis": "identical descriptor preserved verbatim"
+      },
+      {
+        "pre": "Aesthetic",
+        "post": "Aesthetic",
+        "basis": "identical descriptor preserved verbatim"
+      },
+      {
+        "pre": "trend",
+        "post": "trend",
+        "basis": "identical descriptor preserved verbatim"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Emotional Connection"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Emotional Connection",
+        "direction": "new",
+        "nearest_counterpart": "Self identification and expression",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "Self identification and expression concerns identity/expression while Emotional Connection concerns relational/affective bond between people; subsumption fails, semantic territory only loosely shared, no elaboration or broadening defensible."
+      },
+      {
+        "concept": "Emotional Connection",
+        "direction": "new",
+        "nearest_counterpart": "Aesthetic",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Aesthetic is a visual/qualitative style value and Emotional Connection is a relational affective value; different conceptual domains, no defensible transformation across all four tiers."
+      },
+      {
+        "concept": "Emotional Connection",
+        "direction": "new",
+        "nearest_counterpart": "trend",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "trend is a market-direction value and Emotional Connection is a relational affective value; different conceptual domains, no defensible transformation across all four tiers."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The post-response preserves all three PRE descriptors verbatim and appends one additional descriptor ('Emotional Connection'), expanding the descriptor set from three to four items. This is a single meaningful descriptor addition rather than multi-clause elaboration."
+  },
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Emotional Connection",
+      "rationale": "Nearest PRE candidates tested: 'Self identification and expression' (identity/expression territory), 'Aesthetic' (visual/qualitative style), 'trend' (market/external style). 'Emotional Connection' denotes a relational/affective value between people and brand; this domain is not subsumed by, reframed from, elaborated by, or broadened from any PRE descriptor. After nearest-counterpart search (MANDATORY-NEW-REMOVED-RECHECK), no transformation tier is defensible across genuinely different conceptual domains. The full-response search was performed.",
+      "alternative_considered": "Reframed (from 'Self identification and expression' via a shared identity/emotion neighborhood)",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "Q1c Core Values coded in descriptor_set_special mode. Three PRE descriptors are preserved identically in POST; POST adds one new descriptor. Only the addition of 'Emotional Connection' constitutes a semantic event. No learner-agency evidence in artifact text."
+  },
+  "coded_at": "2026-05-14T12:00:00Z",
+  "model": "MiniMax-M3"
+}

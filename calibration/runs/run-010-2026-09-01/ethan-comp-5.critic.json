@@ -1,0 +1,31 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "no specific niche identified",
+      "post": "eco-friendly musicians",
+      "from_code": "Narrowed",
+      "to_code": "Reframed",
+      "reason": "PRE is a substantive denial ('no specific niche identified'), not a generic filler, so the subsumption test fails: 'eco-friendly musicians (as a niche possibility) is a specific way of being no specific niche identified' is FALSE. The denial frame is being replaced by a qualified-exception frame with a population specification \u2014 same semantic territory (niche existence), different organizing frame (denial \u2192 tentative exception). This is textbook Reframed, not Narrowed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "no specific niche identified",
+      "post": "eco-friendly musicians",
+      "basis": "Both address the existence/non-existence of a niche within the target market; PRE denies a niche, POST provides a tentative exception. Frame shifts from denial to qualified exception with a concrete population."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "no specific niche identified",
+      "post_evidence": "maybe eco-friendly musicians",
+      "rationale": "Same semantic territory (niche status within target market) with a shifted organizing frame: PRE operates in a denial/absence frame ('no specific niche'), POST operates in a qualified-exception frame that names a concrete population ('maybe eco-friendly musicians'). Subsumption does not hold because PRE is a substantive denial, not a generic possibility \u2014 Narrowed is therefore incorrect. Frames: PRE = null-denial frame; POST = tentative-exception frame with population specification.",
+      "alternative_considered": "Narrowed (subsumption test fails because 'eco-friendly musicians niche' is not a specific way of being 'no specific niche identified')",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": null,
+      "to_code": null,
+      "reason": "Pass-1 is correct. POST contains only the meta-token 'Same', asserting the prior descriptor list is retained unchanged. There are no enumerated POST descriptors to serve as semantic successors. The three PRE descriptors (Futuristic, Innovative, Minimalistic) cannot be aligned against a non-enumerated POST, and no transformation code is defensible. The three Rejected alignments and three Removed events are all warranted."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "Futuristic",
+    "Innovative",
+    "Minimalistic"
+  ],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "Futuristic",
+      "post_evidence": null,
+      "rationale": "POST does not enumerate any descriptors; 'Same' is a meta-statement that the prior list is unchanged. There is no POST successor to test against the transformation ladder. The PRE descriptor is therefore formally absent as descriptor-level content in POST.",
+      "alternative_considered": "None \u2014 no enumerated POST unit exists to test",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Innovative",
+      "post_evidence": null,
+      "rationale": "POST contains only the meta-token 'Same'. No POST successor exists; no Narrowed, Reframed, Elaborated, or Expanded mapping is defensible.",
+      "alternative_considered": "None \u2014 no enumerated POST unit exists to test",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Minimalistic",
+      "post_evidence": null,
+      "rationale": "POST contains only the meta-token 'Same'. No POST successor exists; transformation ladder cannot be applied.",
+      "alternative_considered": "None \u2014 no enumerated POST unit exists to test",
+      "confidence": "high"
+    }
+  ]
+}

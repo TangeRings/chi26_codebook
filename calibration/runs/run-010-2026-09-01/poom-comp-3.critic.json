@@ -1,0 +1,109 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "aged 18-25",
+      "post": "young (18-30)",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "The age range broadens from 18-25 to 18-30 while retaining the same demographic frame."
+    },
+    {
+      "type": "confirm",
+      "pre": "from all over the world",
+      "post": "globally-minded",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Global orientation persists but shifts from a geographic fact to an attitudinal frame; neither concept subsumes the other."
+    },
+    {
+      "type": "confirm",
+      "pre": "interested in learning about new cultures and new places",
+      "post": "want to explore new cultures, languages, and experiences",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "The curiosity frame is retained and its scope expands to include languages and experiences."
+    },
+    {
+      "type": "confirm",
+      "pre": "Male and female",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "No remaining POST unit concerns sex; age, global orientation, exploratory interests, humor, and authenticity are different attributes."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "appreciate humor and authenticity",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "No unmatched PRE concept is a defensible antecedent; humor and authenticity are a new psychographic value preference."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "aged 18-25",
+      "post": "young (18-30)",
+      "basis": "The age category is retained and its upper bound expands from 25 to 30."
+    },
+    {
+      "pre": "from all over the world",
+      "post": "globally-minded",
+      "basis": "Global orientation is reframed from geographic provenance to an attitudinal outlook."
+    },
+    {
+      "pre": "interested in learning about new cultures and new places",
+      "post": "want to explore new cultures, languages, and experiences",
+      "basis": "Intercultural curiosity is retained and broadened to additional domains of exploration."
+    }
+  ],
+  "unmatched_pre": [
+    "Male and female"
+  ],
+  "unmatched_post": [
+    "appreciate humor and authenticity"
+  ],
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "aged 18-25",
+      "post_evidence": "young (18-30)",
+      "rationale": "The age category broadens from 18-25 to 18-30 while retaining the same demographic frame.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "from all over the world",
+      "post_evidence": "globally-minded",
+      "rationale": "The global-orientation territory persists, but the frame changes from geographic provenance to an attitudinal outlook; subsumption does not hold.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "interested in learning about new cultures and new places",
+      "post_evidence": "want to explore new cultures, languages, and experiences",
+      "rationale": "The core curiosity about cultures and places is retained and expands to include languages and experiences.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Male and female",
+      "post_evidence": null,
+      "rationale": "No remaining POST unit expresses the sex dimension or is a defensible transformation of it.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "appreciate humor and authenticity",
+      "rationale": "No unmatched PRE concept is a defensible antecedent; this is a new psychographic value preference.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

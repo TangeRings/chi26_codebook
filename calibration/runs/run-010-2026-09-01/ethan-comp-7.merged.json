@@ -1,0 +1,72 @@
+{
+  "coding_unit": {
+    "student_id": "ethan",
+    "item_id": "comp-7"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "no idea / no specific content concept"
+    ],
+    "post_concepts": [
+      "no idea expressed, but with a stated likely direction: heavy focus on product reviews"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "no idea",
+        "post": "heavy focus on product reviews",
+        "continuity": "the pre expresses uncertainty/non-commitment; the post adds a specific content direction while still flagging uncertainty (parenthetical 'likely')",
+        "scope": "pre = no specified scope; post narrows to a specific content type (product reviews) but retains uncertainty marker",
+        "frame": "pre frame = no commitment; post frame = tentative commitment to a content category",
+        "stretch": "the shift is from zero specification to tentative specification; same underlying subject (what content to create) but different commitment level",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "no idea",
+        "post": "likely heavy focus on product reviews",
+        "basis": "Same subject (what content to create) is addressed across PRE and POST. PRE expresses no commitment; POST retains the 'No Idea' uncertainty marker and adds a specific tentative content category (product reviews). Underlying subject persists; scope broadens from zero specification to tentative specification."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "no idea",
+        "post": "likely heavy focus on product reviews",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "Pass-1 reading is sound: the 'No Idea' frame is preserved verbatim and a concrete content category (product reviews) is layered onto the same subject. Subsumption fails ('product reviews' is not 'a specific way of being no idea'), and the addition is a substantive new content category rather than pure qualification, so Expanded beats Elaborated. No neighborhood pairings to split or reject; both unmatched sets are already empty."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The pre-response is a single short phrase ('No idea') expressing no content concept. The post-response retains the 'no idea' framing but adds a parenthetical qualifier specifying a likely content direction (product reviews). One meaningful clause has been added, extending rather than transforming the response."
+  },
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "No idea",
+      "post_evidence": "No Idea (likely heavy focus on product reviews)",
+      "rationale": "The 'No Idea' frame is preserved verbatim and a concrete content category (product reviews) is layered onto the same subject. POST broadens an identifiable PRE seed (the unspecified admission) into a tentative specification. Subsumption does not hold, ruling out Narrowed. The addition is a substantively new content category rather than mere qualification, so Expanded is preferred over Elaborated.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe"
+    ],
+    "coder_notes": "The pre/post pair is short and ambiguous. The post adds a parenthetical specifying 'likely heavy focus on product reviews' to an otherwise unchanged 'No Idea' frame. Coding this as Expanded (rather than Elaborated) rests on the judgment that product reviews constitutes a substantively new content category rather than a mere qualification of the existing 'no idea' frame. The Elaborated alternative was considered and recorded. Critic applied 1 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

@@ -1,0 +1,181 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-1b"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "create a space for women aged 18-25",
+      "can depend on my items"
+    ],
+    "post_concepts": [
+      "prioritizes the well-being of individuals",
+      "prioritizes the well-being of the planet"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "create a space for women aged 18-25",
+        "post": "prioritizes the well-being of individuals",
+        "continuity": "Both concern serving people as a target; 'women aged 18-25' is a specific audience while 'individuals' is a broader population. However, the shift is substantial: the audience definition narrowed to a precise demographic is replaced by a generalized population framed as beneficiaries of well-being.",
+        "scope": "PRE is narrowly restricted to a specific age/gender demographic; POST broadens to all individuals.",
+        "frame": "PRE frames the brand around audience definition and product dependability; POST reframes around dual-purpose well-being (people + planet).",
+        "stretch": "Significant stretch \u2014 the specific women-only demographic is not retained.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "create a space for women aged 18-25",
+        "post": "prioritizes the well-being of the planet",
+        "continuity": "Different conceptual domains \u2014 human demographic audience vs environmental focus.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible \u2014 no semantic lineage between a human demographic and planetary well-being.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "can depend on my items",
+        "post": "prioritizes the well-being of individuals",
+        "continuity": "Both touch on serving people, but one is about product dependability/reliability and the other is about well-being as a brand priority. Loosely related through customer benefit.",
+        "scope": "PRE is functional (reliable products); POST is value-level (well-being priority).",
+        "frame": "PRE frames around product utility; POST frames around ethical/values positioning.",
+        "stretch": "Moderate stretch \u2014 neither subsumes the other; topic-adjacent only.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "can depend on my items",
+        "post": "prioritizes the well-being of the planet",
+        "continuity": "Different conceptual domains \u2014 product reliability vs environmental well-being.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "create a space for women aged 18-25",
+        "post": "prioritizes the well-being of the planet",
+        "reason": "Different conceptual domains (human demographic vs environmental focus); no shared semantic neighborhood."
+      },
+      {
+        "pre": "can depend on my items",
+        "post": "prioritizes the well-being of the planet",
+        "reason": "Different conceptual domains (product reliability vs environmental well-being); no shared semantic neighborhood."
+      }
+    ],
+    "matched_pairs": [],
+    "unmatched_pre": [
+      "create a space for women aged 18-25",
+      "can depend on my items"
+    ],
+    "unmatched_post": [
+      "prioritizes the well-being of individuals",
+      "prioritizes the well-being of the planet"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "create a space for women aged 18-25",
+        "direction": "removed",
+        "nearest_counterpart": "prioritizes the well-being of individuals",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested Narrowed: 'individuals' is broader than 'women aged 18-25', not narrower, so subsumption fails. Tested Reframed: both touch on serving people, but the specific demographic frame of 'women aged 18-25' is replaced by a generalized population with no shared organizing frame \u2014 the territory is not specifically shared. Tested Elaborated: POST does not retain the demographic specificity of PRE; the women-only 18-25 age range is dropped, not elaborated. Tested Expanded: POST broadens from a narrow demographic to all individuals, which is the inverse of the PRE\u2192POST direction here \u2014 PRE was narrow and POST is broad, so this could read as Expanded of PRE, but the framing has shifted entirely from audience-as-space to well-being-as-priority. The expansion would be defensible only if we treat 'prioritizes well-being of individuals' as a broader realization of serving a demographic, which is a stretched reading. The demographic itself (women 18-25) is lost, and the organizing frame changes from product/audience dependability to ethical well-being prioritization. Honest assessment: no defensible transformation; the concept is absent in its original form."
+      },
+      {
+        "concept": "can depend on my items",
+        "direction": "removed",
+        "nearest_counterpart": "prioritizes the well-being of individuals",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested Narrowed: product dependability is not a subset of well-being prioritization. Tested Reframed: both loosely touch on benefiting customers, but 'depend on my items' is a functional reliability claim while 'prioritizes well-being' is an ethical/values frame \u2014 no shared organizing frame at a specific level. Tested Elaborated: POST does not retain the dependability claim. Tested Expanded: no identifiable broadening relationship from dependability to well-being prioritization. The nearest counterpart is only topically adjacent (both serve the customer), and all four transformation codes fail."
+      },
+      {
+        "concept": "prioritizes the well-being of individuals",
+        "direction": "new",
+        "nearest_counterpart": "create a space for women aged 18-25",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested Narrowed: 'individuals' is broader than 'women aged 18-25', not narrower, so POST is not a specific way of being PRE. Tested Reframed: serving a demographic vs prioritizing well-being are topically related but the organizing frame shifts from audience-definition to ethical values. Tested Elaborated: POST does not retain the demographic specificity of PRE. Tested Expanded: POST broadens the audience from women 18-25 to all individuals, but the frame shifts from product/space creation to well-being prioritization. The broadening could be defended if the brand is still about serving people, but the specific demographic and the 'space/items' framing are lost. The well-being-as-priority concept has no clear seed in PRE."
+      },
+      {
+        "concept": "prioritizes the well-being of the planet",
+        "direction": "new",
+        "nearest_counterpart": "can depend on my items",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested Narrowed: environmental well-being is not a subtype of product dependability. Tested Reframed: no shared semantic territory at a specific level \u2014 product reliability vs planetary well-being. Tested Elaborated: POST does not retain any aspect of PRE. Tested Expanded: no identifiable broadening from dependability to environmental concern. This is a genuinely new dimension with no antecedent in PRE."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST introduces a new ethical/purpose dimension (well-being of individuals and the planet) that was not present in PRE, adding meaningful propositional content. However, the PRE's specific audience framing (women 18-25) and product-reliance framing are both dropped without replacement detail, so the net change is moderate rather than significant. The response shifts in framing but does not expand into multiple new clauses or explanatory passages."
+  },
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "create a space for women aged 18-25",
+      "post_evidence": null,
+      "rationale": "The specific demographic audience (women aged 18-25) is entirely absent from POST. Nearest counterpart ('prioritizes the well-being of individuals') was tested against all four transformation codes: Narrowed fails because POST broadens rather than narrows the population; Reframed fails because the organizing frame shifts from audience-definition-as-space to ethical well-being prioritization with no shared specific territory; Elaborated fails because demographic specificity is not retained; Expanded is arguable but the frame shift (audience \u2192 well-being priority) is substantial enough that no defensible transformation holds. The concept is dropped.",
+      "alternative_considered": "Expanded (POST broadens to all individuals)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "can depend on my items",
+      "post_evidence": null,
+      "rationale": "The product-dependability/reliability claim is absent from POST. Nearest counterpart ('prioritizes the well-being of individuals') was tested against all four transformation codes: Narrowed fails because dependability is not a subtype of well-being; Reframed fails because functional reliability and ethical well-being share only a topical customer-benefit neighborhood, not a specific shared organizing frame; Elaborated fails because the dependability claim is not retained; Expanded fails because no identifiable broadening relationship exists. The concept is dropped.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "prioritizes the well-being of individuals",
+      "rationale": "POST introduces a well-being-as-brand-priority framing for individuals. Nearest PRE antecedent ('create a space for women aged 18-25') was tested against all four transformation codes: Narrowed fails because POST broadens, not narrows; Reframed fails because the frame shifts substantially; Elaborated fails because demographic specificity is lost; Expanded could apply only with a stretched reading that treats 'individuals' as a broadened audience, but the well-being prioritization frame has no seed in PRE. The concept is genuinely new in its current form.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "prioritizes the well-being of the planet",
+      "rationale": "POST introduces environmental well-being as a brand priority. No meaningful antecedent exists in PRE \u2014 product dependability ('can depend on my items') shares no specific semantic territory with planetary well-being. Tested all four codes against the nearest PRE candidate: Narrowed fails (not a subtype); Reframed fails (different conceptual domains); Elaborated fails (nothing retained); Expanded fails (no identifiable broadening). Genuinely new.",
+      "alternative_considered": "Removed+New counterpart only",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "neighborhood_tested_no_lineage",
+      "new_removed_recheck_passed",
+      "boundary_case_remove_vs_reframe"
+    ],
+    "coder_notes": "All four events survived the mandatory nearest-counterpart re-check after explicit testing of all four transformation codes. The PRE\u2192POST transition here involves a substantial frame shift: from a specific demographic audience + product-reliability framing to a dual ethical-values framing (human well-being + planetary well-being). Both PRE concepts have only weak topical continuity with POST concepts. The 'create a space for women aged 18-25' \u2192 'prioritizes the well-being of individuals' pairing was the most arguable case: Expanded was considered as the runner-up because POST broadens the audience, but the frame shift from audience-as-space-creation to well-being-as-ethical-priority was judged too substantial to defend a transformation. The response pair also illustrates that Removed+New alone, with no transformations, can be defensible when both responses are short and the frame shift is large enough that no lineage tier holds \u2014 though I acknowledge this is an unusual outcome and warrants calibration review."
+  },
+  "coded_at": "2025-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}

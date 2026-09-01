@@ -1,0 +1,381 @@
+{
+  "coding_unit": {
+    "student_id": "amy",
+    "item_id": "comp-7"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "behind-the-scenes content (25%)",
+      "influencer reviews (25%)",
+      "product display (50%)"
+    ],
+    "post_concepts": [
+      "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+      "trendy relatable content (25%)",
+      "styling inspiration (10%)",
+      "educational/informative content (5%)"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "behind-the-scenes content (25%)",
+        "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "continuity": "behind-the-scenes appears inside the product showcase bucket in POST",
+        "scope": "PRE is a standalone content category (25%); POST absorbs it into a broader product showcase bucket (50%)",
+        "frame": "PRE frames BTS as independent content; POST frames it as a sub-element of product showcase",
+        "stretch": "weak \u2014 BTS is now nested, not parallel",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "behind-the-scenes content (25%)",
+        "post": "trendy relatable content (25%)",
+        "continuity": "no clear conceptual overlap",
+        "scope": "different content categories",
+        "frame": "different frames",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "behind-the-scenes content (25%)",
+        "post": "styling inspiration (10%)",
+        "continuity": "no overlap",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "behind-the-scenes content (25%)",
+        "post": "educational/informative content (5%)",
+        "continuity": "weak \u2014 educational could overlap with BTS knowledge-sharing, but BTS is typically experiential",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "influencer reviews (25%)",
+        "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "continuity": "weak \u2014 quality comparison with competitors has a reviewer-like quality, but POST does not name influencers",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "weak",
+        "verdict": "weak"
+      },
+      {
+        "pre": "influencer reviews (25%)",
+        "post": "trendy relatable content (25%)",
+        "continuity": "no overlap",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "influencer reviews (25%)",
+        "post": "styling inspiration (10%)",
+        "continuity": "no overlap",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "influencer reviews (25%)",
+        "post": "educational/informative content (5%)",
+        "continuity": "no overlap",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "product display (50%)",
+        "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "continuity": "strong \u2014 both center on showing the product",
+        "scope": "same share (50%); POST adds sub-categories (comfort tests, BTS, quality comparison)",
+        "frame": "PRE is bare display; POST is enriched showcase",
+        "stretch": "plausible",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "product display (50%)",
+        "post": "trendy relatable content (25%)",
+        "continuity": "weak \u2014 both are content, but different categories",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "product display (50%)",
+        "post": "styling inspiration (10%)",
+        "continuity": "styling inspiration is adjacent to product display",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "weak",
+        "verdict": "weak"
+      },
+      {
+        "pre": "product display (50%)",
+        "post": "educational/informative content (5%)",
+        "continuity": "no overlap",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "behind-the-scenes content (25%)",
+        "post": "trendy relatable content (25%)",
+        "reason": "different conceptual domains; no shared content category"
+      },
+      {
+        "pre": "behind-the-scenes content (25%)",
+        "post": "styling inspiration (10%)",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "behind-the-scenes content (25%)",
+        "post": "educational/informative content (5%)",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "influencer reviews (25%)",
+        "post": "trendy relatable content (25%)",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "influencer reviews (25%)",
+        "post": "styling inspiration (10%)",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "influencer reviews (25%)",
+        "post": "educational/informative content (5%)",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "influencer reviews (25%)",
+        "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "reason": "weak continuity; quality comparison is a stretch for influencer reviews; leaving as Removed is cleaner"
+      },
+      {
+        "pre": "product display (50%)",
+        "post": "trendy relatable content (25%)",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "product display (50%)",
+        "post": "styling inspiration (10%)",
+        "reason": "weak continuity; leaving unmatched is cleaner"
+      },
+      {
+        "pre": "product display (50%)",
+        "post": "educational/informative content (5%)",
+        "reason": "different conceptual domains"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "product display (50%)",
+        "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "basis": "Same core concept (showing the product) at same share (50%); POST elaborates by naming sub-types."
+      }
+    ],
+    "unmatched_pre": [
+      "behind-the-scenes content (25%)",
+      "influencer reviews (25%)"
+    ],
+    "unmatched_post": [
+      "trendy relatable content (25%)",
+      "styling inspiration (10%)",
+      "educational/informative content (5%)"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "behind-the-scenes content (25%)",
+        "direction": "removed",
+        "nearest_counterpart": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "BTS literally appears inside the POST product showcase bucket. The concept persists; treating it as Removed would double-count. The persistence is best captured within the matched product display \u2192 product showcase pair (BTS is now nested within showcase)."
+      },
+      {
+        "concept": "influencer reviews (25%)",
+        "direction": "removed",
+        "nearest_counterpart": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest POST concept is product showcase; tested whether 'influencer reviews' could be Narrowed/Reframed/Elaborated/Expanded into any of the POST buckets. Quality comparison with competitors has a faint reviewer quality, but influencer reviews as a distinct content type (third-party endorsement) is not represented. No defensible transformation; different conceptual domain (third-party endorsement vs first-party product showcase)."
+      },
+      {
+        "concept": "trendy relatable content (25%)",
+        "direction": "new",
+        "nearest_counterpart": "product display (50%)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE is product display; trendy relatable content is a different content category (engagement-driven personality quizzes vs product showcasing). No defensible transformation."
+      },
+      {
+        "concept": "styling inspiration (10%)",
+        "direction": "new",
+        "nearest_counterpart": "product display (50%)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE is product display; styling inspiration is a different content category (outfit/look ideas vs product showcasing). Weak adjacency but no defensible transformation."
+      },
+      {
+        "concept": "educational/informative content (5%)",
+        "direction": "new",
+        "nearest_counterpart": "behind-the-scenes content (25%)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE is behind-the-scenes; educational/informative content (history of heels, how to walk) is a different content category (didactic vs experiential). No defensible transformation."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "recode",
+        "pre": "behind-the-scenes content (25%)",
+        "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Confirming pass-1: PRE product display is the antecedent; POST product showcase keeps the same core frame (showing the product) and adds sub-categories. BTS absorption is noted within this elaboration. No code change needed; emitting explicit confirm-style recode to flag the bundled BTS concept."
+      },
+      {
+        "type": "add_pairing",
+        "pre": "behind-the-scenes content (25%)",
+        "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "from_code": null,
+        "to_code": "Expanded",
+        "reason": "Restoring lineage: BTS as a standalone 25% bucket in PRE is absorbed into a broader 50% product showcase bucket in POST. The PRE unit persists as a named sub-element within POST. Scope broadens (standalone 25% \u2192 nested within 50%), which is Expanded, not Elaborated (Elaborated would describe the product display\u2192showcase relation). Both relations coexist: product display\u2192showcase is Elaborated; BTS\u2192showcase is Expanded. BTS PRE is already implicitly handled by the showcase pair's rationale, so adding a second event would double-count. Treating the BTS concept as subsumed within the Elaborated pair is acceptable; flagging this as a confirm-level observation rather than a new event to avoid double-counting."
+      },
+      {
+        "type": "confirm",
+        "pre": "product display (50%)",
+        "post": "product showcase with comfort tests, behind-the-scenes, quality comparison (50%)",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Pass-1 correct. Same core frame (showing the product), same share, POST adds sub-category detail. Reframed alternative already rejected appropriately."
+      },
+      {
+        "type": "confirm",
+        "pre": "influencer reviews (25%)",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Pass-1 correct. No POST concept captures third-party influencer-led endorsement; quality comparison is reviewer-adjacent at best and that alone cannot anchor a transformation. Removed stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "trendy relatable content (25%)",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Pass-1 correct. Personality-quiz/identity-engagement content has no PRE antecedent; nearest PRE (product display) shares no content frame."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "styling inspiration (10%)",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Pass-1 correct. Styling/look ideas is a distinct content category with only topical adjacency to product display; no tier of the ladder holds."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "educational/informative content (5%)",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Pass-1 correct. Didactic content (history of heels, how to walk) is a different content category from experiential BTS; no defensible transformation."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST retains the same percentage-driven structure but elaborates each bucket with sub-categories (e.g., 'comfort tests, behind-the-scenes, quality comparison with competitors'), adds specific example formats ('what kind of heel are you', 'how to walk in heels'), and splits the mix from three buckets into five. This is one-to-two meaningful new buckets plus significant in-bucket elaboration \u2014 a Moderate Addition rather than Significant, because the overall architecture (percentage allocation) is preserved."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "50% product display",
+      "post_evidence": "50% product showcase(comfort tests, behind-the-scenes, quality comparison with competitors, etc)",
+      "rationale": "Same core frame (showing the product) at same share (50%). POST keeps the frame intact and adds sub-categories specifying what product showcasing means. BTS and influencer-review concepts are noted as nested or absent respectively but do not anchor separate events from this pair.",
+      "alternative_considered": "Reframed (display vs showcase framing) \u2014 rejected, underlying concept unchanged.",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "25% influencer reviews",
+      "post_evidence": null,
+      "rationale": "Influencer reviews as a distinct third-party endorsement content type is absent from POST. Nearest POST counterpart is product showcase; quality comparison has faint reviewer quality but is not influencer-led. No defensible Narrowed/Reframed/Elaborated/Expanded; different conceptual domain.",
+      "alternative_considered": "Expanded into product showcase via quality comparison \u2014 rejected as too stretched.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "25% trendy relatable content(\"what kind of heel are you\", \"what your heels say about you\", etc)",
+      "rationale": "Engagement-driven personality/identity content has no PRE antecedent. Nearest PRE (product display) shares no frame. No defensible transformation.",
+      "alternative_considered": "Reframed from product display \u2014 rejected.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "10% Styling Inspiration",
+      "rationale": "Styling inspiration (outfit/look ideas) has no PRE antecedent; only topical adjacency to product display.",
+      "alternative_considered": "Reframed from product display \u2014 rejected.",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "5% Educational/Informative Content(history of heels in men's fashion, how to walk in heels, etc)",
+      "rationale": "Didactic content has no PRE antecedent; BTS is experiential while educational is didactic.",
+      "alternative_considered": "Reframed from behind-the-scenes \u2014 rejected.",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "boundary_case_expand_vs_new",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "The behind-the-scenes concept from PRE literally reappears inside the POST product showcase bucket, so it is absorbed rather than truly removed \u2014 handled by treating the persistence as part of the product display \u2192 product showcase Elaborated event. Influencer reviews is the only genuine Removed. The two removed-BTS-check and influencer-reviews recheck both converted or kept cleanly. Styling inspiration's New/Removed boundary with product display is the weakest call; flagged boundary_case_expand_vs_new. Critic applied 7 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

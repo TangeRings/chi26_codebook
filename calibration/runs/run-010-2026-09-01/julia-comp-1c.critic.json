@@ -1,0 +1,74 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "transparency in materials",
+      "post": "transparency in materials",
+      "from_code": null,
+      "to_code": null,
+      "reason": "verbatim identity; no transformation event warranted"
+    },
+    {
+      "type": "confirm",
+      "pre": "ethical sourcing",
+      "post": "ethical sourcing",
+      "from_code": null,
+      "to_code": null,
+      "reason": "verbatim identity; no transformation event warranted"
+    },
+    {
+      "type": "confirm",
+      "pre": "responsible production",
+      "post": "responsible production",
+      "from_code": null,
+      "to_code": null,
+      "reason": "verbatim identity; no transformation event warranted"
+    },
+    {
+      "type": "confirm",
+      "pre": "quality craftsmanship",
+      "post": "quality craftsmanship",
+      "from_code": null,
+      "to_code": null,
+      "reason": "verbatim identity; no transformation event warranted"
+    },
+    {
+      "type": "confirm",
+      "pre": "timeless design",
+      "post": "timeless design",
+      "from_code": null,
+      "to_code": null,
+      "reason": "verbatim identity; no transformation event warranted"
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "transparency in materials",
+      "post": "transparency in materials",
+      "basis": "verbatim identity; strongest alignment"
+    },
+    {
+      "pre": "ethical sourcing",
+      "post": "ethical sourcing",
+      "basis": "verbatim identity; strongest alignment"
+    },
+    {
+      "pre": "responsible production",
+      "post": "responsible production",
+      "basis": "verbatim identity; strongest alignment"
+    },
+    {
+      "pre": "quality craftsmanship",
+      "post": "quality craftsmanship",
+      "basis": "verbatim identity; strongest alignment"
+    },
+    {
+      "pre": "timeless design",
+      "post": "timeless design",
+      "basis": "verbatim identity; strongest alignment"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

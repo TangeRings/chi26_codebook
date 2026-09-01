@@ -1,0 +1,189 @@
+{
+  "coding_unit": {
+    "student_id": "peter",
+    "item_id": "comp-3"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "Sauce Lovers",
+      "Asian Market Consumers",
+      "Plant-Based Eaters"
+    ],
+    "post_concepts": [
+      "Thai Food Lovers",
+      "Sauce Enthusiasts"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Sauce Lovers",
+        "post": "Thai Food Lovers",
+        "continuity": "Both center sauce-related food affinity, but Thai narrows to a specific cuisine.",
+        "scope": "Thai is a subset of general sauce lover population",
+        "frame": "General sauce affinity \u2192 cuisine-specific sauce affinity",
+        "stretch": "Moderate; same food-sauce territory but narrowed to Thai specifically",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Sauce Lovers",
+        "post": "Sauce Enthusiasts",
+        "continuity": "Both designate the same sauce-affinity audience with enthusiasm framing",
+        "scope": "Enthusiasts is a subset of lovers (more intense engagement)",
+        "frame": "Affection-based identity \u2192 enthusiasm-based identity",
+        "stretch": "Low; near-paraphrase with intensification",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Asian Market Consumers",
+        "post": "Thai Food Lovers",
+        "continuity": "Thai is a subset of Asian cuisine/market",
+        "scope": "Thai Food Lovers is a proper subset of Asian Market Consumers",
+        "frame": "Pan-Asian market/cultural consumer \u2192 Thai-specific food lover",
+        "stretch": "Low; clear scope restriction",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Asian Market Consumers",
+        "post": "Sauce Enthusiasts",
+        "continuity": "Different conceptual axes: market/demographic vs food-passion",
+        "scope": "Different categories",
+        "frame": "Demographic/market positioning vs personal enthusiasm",
+        "stretch": "High; not the same territory",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Plant-Based Eaters",
+        "post": "Thai Food Lovers",
+        "continuity": "Different dietary vs cuisine-specific categories",
+        "scope": "Different",
+        "frame": "Dietary pattern vs cuisine preference",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Plant-Based Eaters",
+        "post": "Sauce Enthusiasts",
+        "continuity": "Dietary identity vs food-passion identity; loosely adjacent in food territory",
+        "scope": "Different categories",
+        "frame": "Dietary choice vs sauce enthusiasm",
+        "stretch": "High",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Asian Market Consumers",
+        "post": "Sauce Enthusiasts",
+        "reason": "Different conceptual domains: market/demographic positioning vs personal enthusiasm; no defensible lineage"
+      },
+      {
+        "pre": "Plant-Based Eaters",
+        "post": "Thai Food Lovers",
+        "reason": "Different conceptual domains: dietary pattern vs cuisine-specific preference"
+      },
+      {
+        "pre": "Plant-Based Eaters",
+        "post": "Sauce Enthusiasts",
+        "reason": "Different conceptual domains: dietary identity vs sauce enthusiasm"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Sauce Lovers",
+        "post": "Sauce Enthusiasts",
+        "basis": "Enthusiasts is a more intense/engaged subset of lovers; scope restriction holds"
+      },
+      {
+        "pre": "Asian Market Consumers",
+        "post": "Thai Food Lovers",
+        "basis": "Thai Food Lovers is a proper subset of Asian Market Consumers (Thai cuisine is one Asian segment); scope restriction holds"
+      }
+    ],
+    "unmatched_pre": [
+      "Plant-Based Eaters"
+    ],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Plant-Based Eaters",
+        "direction": "removed",
+        "nearest_counterpart": "Thai Food Lovers",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Plant-Based Eaters denotes a dietary pattern/lifestyle segment; Thai Food Lovers denotes a cuisine-specific preference. These are different conceptual domains. Narrowed fails (Thai is not a subtype of plant-based); Reframed fails (territory not shared - diet vs cuisine); Elaborated fails (Thai preference does not retain plant-based dietary identity); Expanded fails (Thai preference does not broaden plant-based concept). Full-response search performed; no defensible lineage found."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "Sauce Lovers",
+        "post": "Sauce Enthusiasts",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Enthusiasts is a proper subset of lovers (more intense engagement). Subsumption holds. Narrowed is correct per the scope-restriction rule."
+      },
+      {
+        "type": "confirm",
+        "pre": "Asian Market Consumers",
+        "post": "Thai Food Lovers",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Thai Food Lovers is a proper subset of Asian Market Consumers (Thai is one Asian cuisine). Scope restriction holds; Narrowed is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Plant-Based Eaters (dietary pattern segment) has no defensible POST successor. Dietary identity vs cuisine preference are different conceptual domains; all four transformation codes legitimately fail. Removed is correct."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Reduction",
+    "rationale": "PRE contains three distinct audience segments (Sauce Lovers, Asian Market Consumers, Plant-Based Eaters); POST contains two narrower segments (Thai Food Lovers, Sauce Enthusiasts). One audience category was dropped (Plant-Based Eaters) and the remaining two were narrowed in scope. This is a meaningful contraction at the audience-segment level, but not a dramatic restructuring."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Sauce Lovers",
+      "post_evidence": "Sauce Enthusiasts",
+      "rationale": "Enthusiasts are a proper subset of lovers; scope restriction holds and subsumption is true.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Asian Market Consumers",
+      "post_evidence": "Thai Food Lovers",
+      "rationale": "Thai Food Lovers is a proper subset of Asian Market Consumers; scope restriction holds and subsumption is true.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Plant-Based Eaters",
+      "post_evidence": null,
+      "rationale": "Dietary pattern segment vs cuisine-specific preference are different conceptual domains; no defensible POST successor. Narrowed, Reframed, Elaborated, and Expanded all fail.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "All scoped_category alignments follow scope-restriction rule. Plant-Based Eaters removal is genuine different-domain removal (dietary vs cuisine). No learner-agency evidence present in artifact text. Critic applied 3 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

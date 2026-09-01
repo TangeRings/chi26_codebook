@@ -1,0 +1,2593 @@
+{
+  "studentId": "mahrukh",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "Internships in PR and Marketing. I've helped contribute to a company's branding but less on the visual end. I've created marketing decks, but i already had a guideline."
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 9
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 6
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 5
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Frequent user: 5-10 times per week"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "no"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 9
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "IT shifts my idea into a clearer order, and vision of the brand."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "None, I think AI is better at refining the idea, than coming up with them."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 9
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 8
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 7
+      }
+    ]
+  },
+  "_seedVersion": "upload-1788218731386",
+  "name": "Mahrukh",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "\"Cosmic Glow\" - Zodiac themed Mood Rings. Minimalistic, fun, aesthetic. Embraces the trend of self-identification through categories like zodiac signs, but with a playful, modern twist. \"A collection of high-quality, minimalist mood rings, each designed to represent a specific zodiac sign. The rings change color based on the wearer's body temperature, adding a subtle and dynamic element to the design.\" Uses a 'gimmick' product like mood rings, that change color, easy to mass produce. Each ring features a unique design element or color palette inspired by its corresponding zodiac sign, creating a personalized and meaningful connection. Gender neutral. Another I had was focusing on men's jewellery. It's more popular now, becoming a standard for minimalistic, work and school appropriate jewelry."
+      },
+      "post": {
+        "answer": "\"Cosmic Glow\" - Zodiac themed Mood Rings. Minimalistic, fun, aesthetic. Embraces the trend of self-identification through categories like zodiac signs, but with a playful, modern twist. A collection of high-quality, minimalist mood rings, each designed to represent a specific zodiac sign. The rings change color based on the wearer's body temperature, adding a subtle and dynamic element to the design. Position the rings as a fusion of fun and sophistication. Use materials like high-quality stainless steel, titanium, or sterling silver to elevate the product. Reinforce durability so that the rings don't feel like a disposable novelty. Assign specific meanings to each mood color (e.g., blue = calm, green = focused) that align with the personality traits of the zodiac sign. DESIGN DIFFERENTIATION: Incorporate subtle zodiac symbols or constellations on each ring, etched or embossed for a premium look. Experiment with finishes—matte, brushed, or iridescent—to appeal to minimalists and trendsetters alike. Also with gender. Uses a 'gimmick' product like mood rings, that change color, easy to mass produce. Each ring features a unique design element or color palette inspired by its corresponding zodiac sign, creating a personalized and meaningful connection. Gender neutral."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The post-response retains the pre-response content and adds multiple new content blocks: positioning as fusion of fun and sophistication, premium materials specification, durability reinforcement, assigned color meanings, zodiac symbol/constellation design direction, and finish experimentation. These additions span multiple new clauses and explanatory passages that meaningfully expand the brand identity beyond the pre-response.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Minimalistic",
+            "Fun",
+            "Aesthetic",
+            "Self-identification through zodiac categories",
+            "Playful, modern twist",
+            "High-quality, minimalist mood rings",
+            "Color-changing gimmick product",
+            "Easy to mass produce",
+            "Unique design element per zodiac sign",
+            "Personalized and meaningful connection",
+            "Gender neutral",
+            "Men's jewellery focus"
+          ],
+          "postConcepts": [
+            "Minimalistic",
+            "Fun",
+            "Aesthetic",
+            "Self-identification through zodiac categories",
+            "Playful, modern twist",
+            "Fusion of fun and sophistication",
+            "Premium materials (stainless steel, titanium, sterling silver)",
+            "Durable, not a disposable novelty",
+            "Assigned meanings to each mood color aligned with zodiac traits",
+            "Subtle zodiac symbols/constellations etched/embossed for premium look",
+            "Different finishes (matte, brushed, iridescent)",
+            "Appeals to minimalists and trendsetters",
+            "Color-changing gimmick product",
+            "Easy to mass produce",
+            "Unique design element per zodiac sign",
+            "Personalized and meaningful connection",
+            "Gender neutral",
+            "Considers gender dimension"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Men's jewellery focus",
+              "post": "Fusion of fun and sophistication",
+              "continuity": "weak — different conceptual domains (audience focus vs positioning)",
+              "scope": "no overlap",
+              "frame": "different",
+              "stretch": "high — audience vs brand tone",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Men's jewellery focus",
+              "post": "Premium materials (stainless steel, titanium, sterling silver)",
+              "continuity": "weak — could be related to men's jewellery positioning but materials are not audience",
+              "scope": "no overlap",
+              "frame": "different",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Men's jewellery focus",
+              "post": "Durable, not a disposable novelty",
+              "continuity": "weak — no direct lineage",
+              "scope": "no overlap",
+              "frame": "different",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Men's jewellery focus",
+              "post": "Appeals to minimalists and trendsetters",
+              "continuity": "moderate — trendsetters could overlap with men's jewellery market",
+              "scope": "narrow overlap",
+              "frame": "audience vs audience",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Men's jewellery focus",
+              "post": "Considers gender dimension",
+              "continuity": "moderate — gender audience related",
+              "scope": "partial",
+              "frame": "audience",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Easy to mass produce",
+              "post": "Fusion of fun and sophistication",
+              "continuity": "weak",
+              "scope": "no overlap",
+              "frame": "different",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Easy to mass produce",
+              "post": "Premium materials",
+              "continuity": "weak — premium materials may tension with mass production but this is tension not lineage",
+              "scope": "tension",
+              "frame": "different",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Easy to mass produce",
+              "post": "Durable, not a disposable novelty",
+              "continuity": "moderate — both about product longevity/permanence",
+              "scope": "partial",
+              "frame": "production vs quality",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "High-quality, minimalist mood rings",
+              "post": "Fusion of fun and sophistication",
+              "continuity": "strong — sophistication relates to high-quality; fun relates to existing positioning",
+              "scope": "related",
+              "frame": "quality descriptors vs brand tone synthesis",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "High-quality, minimalist mood rings",
+              "post": "Premium materials",
+              "continuity": "strong — materials are a specific dimension of high-quality",
+              "scope": "premium materials is a subset of high-quality",
+              "frame": "descriptor vs material specification",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Color-changing gimmick product",
+              "post": "Durable, not a disposable novelty",
+              "continuity": "moderate — addresses the longevity concern of gimmick products",
+              "scope": "related",
+              "frame": "product feature vs product quality",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Unique design element per zodiac sign",
+              "post": "Subtle zodiac symbols/constellations etched/embossed",
+              "continuity": "strong — this is a specific realization of the unique design element concept",
+              "scope": "premium version of unique design element",
+              "frame": "general vs specific design execution",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Personalized and meaningful connection",
+              "post": "Assigned meanings to each mood color aligned with zodiac traits",
+              "continuity": "strong — color-meaning assignment is a specific mechanism for personalization",
+              "scope": "elaboration of personalization mechanism",
+              "frame": "general personalization vs specific implementation",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Personalized and meaningful connection",
+              "post": "Subtle zodiac symbols/constellations",
+              "continuity": "moderate — symbols are a personalization mechanism",
+              "scope": "specific personalization",
+              "frame": "general personalization vs design execution",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Gender neutral",
+              "post": "Considers gender dimension",
+              "continuity": "moderate — both address gender",
+              "scope": "same topic, different framing",
+              "frame": "neutral vs dimensional consideration",
+              "stretch": "low",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Men's jewellery focus",
+              "post": "Fusion of fun and sophistication",
+              "reason": "Different conceptual domains: audience focus vs brand positioning tone. No semantic neighborhood."
+            },
+            {
+              "pre": "Easy to mass produce",
+              "post": "Fusion of fun and sophistication",
+              "reason": "Different conceptual domains: production logistics vs brand positioning."
+            },
+            {
+              "pre": "Easy to mass produce",
+              "post": "Premium materials",
+              "reason": "Conceptual tension rather than lineage; mass production and premium materials pull in opposite directions."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "High-quality, minimalist mood rings",
+              "post": "Premium materials (stainless steel, titanium, sterling silver)",
+              "basis": "Materials specification is a specific realization of the high-quality descriptor; subsumption holds."
+            },
+            {
+              "pre": "High-quality, minimalist mood rings",
+              "post": "Fusion of fun and sophistication",
+              "basis": "Sophistication continues the high-quality thread; framing shifts from product descriptor to brand positioning tone."
+            },
+            {
+              "pre": "Color-changing gimmick product",
+              "post": "Durable, not a disposable novelty",
+              "basis": "Durability framing addresses the gimmick/quality tension; product-character territory, shifted frame."
+            },
+            {
+              "pre": "Unique design element per zodiac sign",
+              "post": "Subtle zodiac symbols/constellations etched/embossed for premium look",
+              "basis": "Specific design execution elaborates the general unique design element claim."
+            },
+            {
+              "pre": "Personalized and meaningful connection",
+              "post": "Assigned meanings to each mood color aligned with zodiac traits",
+              "basis": "Color-meaning assignment is a specific mechanism that elaborates the general personalization claim."
+            },
+            {
+              "pre": "Gender neutral",
+              "post": "Considers gender dimension",
+              "basis": "Gender topic persists; framing shifts from neutral stance to dimensional consideration."
+            }
+          ],
+          "unmatchedPre": [
+            "Men's jewellery focus"
+          ],
+          "unmatchedPost": [
+            "Different finishes (matte, brushed, iridescent)",
+            "Appeals to minimalists and trendsetters"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Men's jewellery focus",
+              "direction": "removed",
+              "nearestCounterpart": "Considers gender dimension",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Men's jewellery focus is an audience/segment concept; 'considers gender dimension' is a framing of gender, not a specification of the men's jewellery audience. No subsumption (men's jewellery is not a subset of 'gender dimension'). Territory differs: market segment vs gender policy. All four transformations fail across genuinely different conceptual roles within the gender topic."
+            },
+            {
+              "concept": "Different finishes (matte, brushed, iridescent)",
+              "direction": "new",
+              "nearestCounterpart": "High-quality, minimalist mood rings",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Finish specification is a specific design-execution detail; 'high-quality, minimalist' is a product descriptor. Finishes are a specific design dimension but not a way-of-being for the descriptor itself. No subsumption. Same broader aesthetic neighborhood exists, but the unit added is a new concrete element rather than a transformation of the existing descriptor."
+            },
+            {
+              "concept": "Appeals to minimalists and trendsetters",
+              "direction": "new",
+              "nearestCounterpart": "Minimalistic",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Minimalistic is an aesthetic descriptor of the product; 'appeals to minimalists and trendsetters' is an audience-appeal claim. The narrow part (minimalists) overlaps with the minimalist aesthetic but trendsetters is a new audience. No clean subsumption: appealing-to-audiences is not a specific way of being minimalist-aesthetic. Frame shift from product aesthetic to audience appeal. Reframed is possible but the audience dimension (trendsetters) is genuinely new."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "High-quality, minimalist mood rings",
+              "post": "Premium materials (stainless steel, titanium, sterling silver)",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Pass 1 is correct. Subsumption holds: specifying premium materials is a specific way of being high-quality. PRE is generic enough for Narrowed."
+            },
+            {
+              "type": "confirm",
+              "pre": "High-quality, minimalist mood rings",
+              "post": "Fusion of fun and sophistication",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass 1 is correct. Fun and sophistication are sibling brand-tone qualities, not a subset of the high-quality/minimalist descriptor. Frame shifts from product descriptor to positioning tone synthesis."
+            },
+            {
+              "type": "confirm",
+              "pre": "Color-changing gimmick product",
+              "post": "Durable, not a disposable novelty",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass 1 is correct. Product-feature frame shifts to product-quality/permanence frame. Same broader product-character territory, different organizing angle. Not pure elaboration because the frame changes from gimmick/feature to longevity/reassurance."
+            },
+            {
+              "type": "confirm",
+              "pre": "Unique design element per zodiac sign",
+              "post": "Subtle zodiac symbols/constellations etched/embossed for premium look",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Pass 1 is correct. Same underlying concept (unique zodiac design element) with concrete execution detail added. Frame unchanged."
+            },
+            {
+              "type": "confirm",
+              "pre": "Personalized and meaningful connection",
+              "post": "Assigned meanings to each mood color aligned with zodiac traits",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Pass 1 is correct. Personalization frame preserved; specific color-meaning mechanism added as detail."
+            },
+            {
+              "type": "recode",
+              "pre": "Gender neutral",
+              "post": "Considers gender dimension",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass 1 code is correct. Confidence was flagged low but the Reframed verdict itself is defensible: gender-topic persists, frame shifts from declared neutrality to open dimensional consideration. Confirming the code while noting the boundary nature. Alternative Removed+New was considered but the shared gender topic neighborhood is specific enough to justify Reframed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Different finishes (matte, brushed, iridescent)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. Finish specification is a concrete design-execution detail with no specific PRE antecedent. Nearest candidates (Minimalistic, high-quality minimalist mood rings) are aesthetic/quality descriptors, not finish specifications. No subsumption, no elaboration seed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Appeals to minimalists and trendsetters",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. Audience-appeal framing is a new conceptual angle. Trendsetters has no PRE antecedent. Minimalists loosely overlaps with Minimalistic aesthetic but the audience-claim frame is not a transformation of the aesthetic descriptor. The neighborhood (identity/self-presentation) is too broad; this is a genuinely new audience-direction addition."
+            },
+            {
+              "type": "confirm",
+              "pre": "Men's jewellery focus",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass 1 is correct. Tested Narrowed/Reframed/Elaborated/Expanded against nearest POST successors. 'Considers gender dimension' is a gender-policy frame, not a men's-jewellery audience-segment frame. No subsumption: men's jewellery is not a specific way of being gender-dimensional. Frame differs (market segment vs gender policy stance). Removed stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6z2endg9bzc95bzu",
+            "code": "Narrowed",
+            "preEvidence": "high-quality, minimalist mood rings",
+            "postEvidence": "Use materials like high-quality stainless steel, titanium, or sterling silver to elevate the product.",
+            "rationale": "Premium materials specification is a specific way of being high-quality. Subsumption holds.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6z2en2260idqvy3d",
+            "code": "Reframed",
+            "preEvidence": "high-quality, minimalist mood rings",
+            "postEvidence": "Position the rings as a fusion of fun and sophistication.",
+            "rationale": "Pre-frame: product quality descriptor. Post-frame: brand positioning tone synthesis. Same territory, shifted organizing frame.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6z2enxvuzmqq9nv",
+            "code": "Reframed",
+            "preEvidence": "Uses a 'gimmick' product like mood rings, that change color, easy to mass produce.",
+            "postEvidence": "Reinforce durability so that the rings don't feel like a disposable novelty.",
+            "rationale": "Frame shifts from product feature/format to product quality/permanence. Same product-character territory, different organizing angle.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6z2enyo5no93kxv8",
+            "code": "Elaborated",
+            "preEvidence": "Each ring features a unique design element or color palette inspired by its corresponding zodiac sign",
+            "postEvidence": "Incorporate subtle zodiac symbols or constellations on each ring, etched or embossed for a premium look.",
+            "rationale": "Same zodiac-design frame preserved; concrete execution detail added.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6z2en5a05yob41m4",
+            "code": "Elaborated",
+            "preEvidence": "creating a personalized and meaningful connection",
+            "postEvidence": "Assign specific meanings to each mood color (e.g., blue = calm, green = focused) that align with the personality traits of the zodiac sign.",
+            "rationale": "Personalization frame intact; color-meaning mechanism specified as detail.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6z2enwd7pgumo4",
+            "code": "Reframed",
+            "preEvidence": "Gender neutral",
+            "postEvidence": "Also with gender.",
+            "rationale": "Gender topic persists; frame shifts from declared neutrality to dimensional consideration. Shared specific neighborhood (gender positioning).",
+            "confidence": "low",
+            "alternativeConsidered": "Removed+New"
+          },
+          {
+            "instanceId": "mti6z2enp22x33srxgl",
+            "code": "Removed",
+            "preEvidence": "Another I had was focusing on men's jewellery. It's more popular now, becoming a standard for minimalistic, work and school appropriate jewelry.",
+            "postEvidence": null,
+            "rationale": "Men's jewellery is an audience-segment concept; nearest POST successors (Considers gender dimension) are gender-policy frames, not audience-segment specifications. No subsumption, no elaboration/expansion. Different conceptual roles within the gender topic.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6z2enulwn763bt5j",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Experiment with finishes—matte, brushed, or iridescent—to appeal to minimalists and trendsetters alike.",
+            "rationale": "Finish specification is a concrete design-execution detail with no PRE antecedent. Aesthetic/quality descriptors do not subsume finish specification.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6z2enn0zdaxh5rq9",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "to appeal to minimalists and trendsetters alike",
+            "rationale": "Audience-appeal framing is a new conceptual angle. Trendsetters has no PRE antecedent. Aesthetic neighborhood too broad (abstraction ceiling) for Reframed.",
+            "confidence": "low",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "boundary_case_expand_vs_new",
+            "vague_to_specific_lineage",
+            "new_removed_recheck_passed",
+            "duplicate_pre_antecedent"
+          ],
+          "coderNotes": "Q1a descriptor_set_special applied. This item is unusually long for a descriptor-set item; the response reads more like a semi-structured paragraph than a clean adjective set, so descriptor extraction required interpretive splitting. The gender-related material is brief and ambiguous in both PRE and POST, leading to low confidence on the Reframed call for Gender neutral -> 'Also with gender.' The men's jewellery focus removal is defensible after re-check but is the weakest call. Critic applied 9 correction(s). Consistency check: \"high-quality, minimalist mood rings\" serves as the antecedent of more than one event. The PRE span likely needs splitting — review before accepting."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "Cute small accessory, higher price because of zodiac identification. Possibility of expansion into other jewelry types."
+      },
+      "post": {
+        "answer": "Cute small accessory, higher price because of zodiac identification. Possibility of expansion into other jewelry types."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The POST response is byte-identical to the PRE response. No clauses added, removed, or modified; no structural expansion or contraction.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Cute small accessory",
+            "higher price because of zodiac identification",
+            "Possibility of expansion into other jewelry types"
+          ],
+          "postConcepts": [
+            "Cute small accessory",
+            "higher price because of zodiac identification",
+            "Possibility of expansion into other jewelry types"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Cute small accessory",
+              "post": "Cute small accessory",
+              "continuity": "identical phrase",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Cute small accessory",
+              "post": "higher price because of zodiac identification",
+              "continuity": "none — product description vs pricing rationale",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Cute small accessory",
+              "post": "Possibility of expansion into other jewelry types",
+              "continuity": "none — product description vs expansion",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "higher price because of zodiac identification",
+              "post": "Cute small accessory",
+              "continuity": "none — pricing rationale vs product description",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "higher price because of zodiac identification",
+              "post": "higher price because of zodiac identification",
+              "continuity": "identical phrase",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "higher price because of zodiac identification",
+              "post": "Possibility of expansion into other jewelry types",
+              "continuity": "none — pricing rationale vs expansion",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Possibility of expansion into other jewelry types",
+              "post": "Cute small accessory",
+              "continuity": "none — expansion vs product description",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Possibility of expansion into other jewelry types",
+              "post": "higher price because of zodiac identification",
+              "continuity": "none — expansion vs pricing rationale",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Possibility of expansion into other jewelry types",
+              "post": "Possibility of expansion into other jewelry types",
+              "continuity": "identical phrase",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "none",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Cute small accessory",
+              "post": "higher price because of zodiac identification",
+              "reason": "different conceptual domains (product description vs pricing rationale); no shared semantic role"
+            },
+            {
+              "pre": "Cute small accessory",
+              "post": "Possibility of expansion into other jewelry types",
+              "reason": "different conceptual domains (product description vs future expansion); no shared semantic role"
+            },
+            {
+              "pre": "higher price because of zodiac identification",
+              "post": "Cute small accessory",
+              "reason": "different conceptual domains (pricing rationale vs product description); no shared semantic role"
+            },
+            {
+              "pre": "higher price because of zodiac identification",
+              "post": "Possibility of expansion into other jewelry types",
+              "reason": "different conceptual domains (pricing rationale vs future expansion); no shared semantic role"
+            },
+            {
+              "pre": "Possibility of expansion into other jewelry types",
+              "post": "Cute small accessory",
+              "reason": "different conceptual domains (future expansion vs product description); no shared semantic role"
+            },
+            {
+              "pre": "Possibility of expansion into other jewelry types",
+              "post": "higher price because of zodiac identification",
+              "reason": "different conceptual domains (future expansion vs pricing rationale); no shared semantic role"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Cute small accessory",
+              "post": "Cute small accessory",
+              "basis": "identical phrase carried over verbatim; no semantic change"
+            },
+            {
+              "pre": "higher price because of zodiac identification",
+              "post": "higher price because of zodiac identification",
+              "basis": "identical phrase carried over verbatim; no semantic change"
+            },
+            {
+              "pre": "Possibility of expansion into other jewelry types",
+              "post": "Possibility of expansion into other jewelry types",
+              "basis": "identical phrase carried over verbatim; no semantic change"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Cute small accessory",
+              "post": "Cute small accessory",
+              "fromCode": null,
+              "toCode": "Elaborated",
+              "reason": "Identical phrase carried verbatim; pass-1 marked null but the only defensible code for verbatim carryover with no semantic change is Elaborated (or rather, no-change identity). Confirming alignment is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "higher price because of zodiac identification",
+              "post": "higher price because of zodiac identification",
+              "fromCode": null,
+              "toCode": "Elaborated",
+              "reason": "Identical phrase carried verbatim; alignment is correct. No semantic change."
+            },
+            {
+              "type": "confirm",
+              "pre": "Possibility of expansion into other jewelry types",
+              "post": "Possibility of expansion into other jewelry types",
+              "fromCode": null,
+              "toCode": "Elaborated",
+              "reason": "Identical phrase carried verbatim; alignment is correct. No semantic change."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6x0dl1rnffcc5rys",
+            "code": "Elaborated",
+            "preEvidence": "Cute small accessory",
+            "postEvidence": "Cute small accessory",
+            "rationale": "Identical phrase carried over verbatim with no addition, narrowing, or reframing. Treated as a stable/elaborated carryover (identity within Elaborated tier).",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6x0dl11j06hx4i54",
+            "code": "Elaborated",
+            "preEvidence": "higher price because of zodiac identification",
+            "postEvidence": "higher price because of zodiac identification",
+            "rationale": "Identical phrase carried over verbatim; no semantic change between pre and post.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6x0dl6qpreuilkcf",
+            "code": "Elaborated",
+            "preEvidence": "Possibility of expansion into other jewelry types",
+            "postEvidence": "Possibility of expansion into other jewelry types",
+            "rationale": "Identical phrase carried over verbatim; no semantic change between pre and post.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "PRE and POST are verbatim identical. No semantic events are warranted. The artifact contains no metacognitive, background, or ownership language, so learner_agency is empty. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "Self identification and expression. Aesthetic, and trend."
+      },
+      "post": {
+        "answer": "Self identification and expression. Aesthetic, and trend. Emotional Connection."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "The post-response preserves all three PRE descriptors verbatim and appends one additional descriptor ('Emotional Connection'), expanding the descriptor set from three to four items. This is a single meaningful descriptor addition rather than multi-clause elaboration.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Self identification and expression",
+            "Aesthetic",
+            "trend"
+          ],
+          "postConcepts": [
+            "Self identification and expression",
+            "Aesthetic",
+            "trend",
+            "Emotional Connection"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Self identification and expression",
+              "post": "Self identification and expression",
+              "continuity": "identical descriptor",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Self identification and expression",
+              "post": "Aesthetic",
+              "continuity": "some shared identity/aesthetic neighborhood",
+              "scope": "comparable",
+              "frame": "identity vs aesthetic quality",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Self identification and expression",
+              "post": "trend",
+              "continuity": "shared self-presentation/expression neighborhood",
+              "scope": "identity vs external trend orientation",
+              "frame": "identity-internal vs market-external",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Self identification and expression",
+              "post": "Emotional Connection",
+              "continuity": "identity/self-expression overlaps with emotional connection at identity neighborhood",
+              "scope": "individual expression vs relational affect",
+              "frame": "self-presentation vs emotional relational",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Aesthetic",
+              "post": "Self identification and expression",
+              "continuity": "aesthetic can relate to self-expression",
+              "scope": "visual quality vs identity",
+              "frame": "stylistic vs identity-grounded",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Aesthetic",
+              "post": "Aesthetic",
+              "continuity": "identical descriptor",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Aesthetic",
+              "post": "trend",
+              "continuity": "aesthetic and trend are siblings in the visual/style territory",
+              "scope": "quality vs directional",
+              "frame": "static quality vs temporal movement",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Aesthetic",
+              "post": "Emotional Connection",
+              "continuity": "different domains (visual style vs affective relational)",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "trend",
+              "post": "Self identification and expression",
+              "continuity": "trend awareness vs self-expression share a self-presentation neighborhood",
+              "scope": "external movement vs internal identity",
+              "frame": "market-external vs self-internal",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "trend",
+              "post": "Aesthetic",
+              "continuity": "trend and aesthetic share style territory",
+              "scope": "directional vs quality",
+              "frame": "temporal vs static",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "trend",
+              "post": "Emotional Connection",
+              "continuity": "different domains (trend vs relational affect)",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "high",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Aesthetic",
+              "post": "Emotional Connection",
+              "reason": "visual/qualitative style and relational affect are in different conceptual domains; implausible match"
+            },
+            {
+              "pre": "trend",
+              "post": "Emotional Connection",
+              "reason": "market trend orientation and relational affective value are different conceptual domains; implausible match"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Self identification and expression",
+              "post": "Self identification and expression",
+              "basis": "identical descriptor preserved verbatim"
+            },
+            {
+              "pre": "Aesthetic",
+              "post": "Aesthetic",
+              "basis": "identical descriptor preserved verbatim"
+            },
+            {
+              "pre": "trend",
+              "post": "trend",
+              "basis": "identical descriptor preserved verbatim"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Emotional Connection"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Emotional Connection",
+              "direction": "new",
+              "nearestCounterpart": "Self identification and expression",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Self identification and expression concerns identity/expression while Emotional Connection concerns relational/affective bond between people; subsumption fails, semantic territory only loosely shared, no elaboration or broadening defensible."
+            },
+            {
+              "concept": "Emotional Connection",
+              "direction": "new",
+              "nearestCounterpart": "Aesthetic",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Aesthetic is a visual/qualitative style value and Emotional Connection is a relational affective value; different conceptual domains, no defensible transformation across all four tiers."
+            },
+            {
+              "concept": "Emotional Connection",
+              "direction": "new",
+              "nearestCounterpart": "trend",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "trend is a market-direction value and Emotional Connection is a relational affective value; different conceptual domains, no defensible transformation across all four tiers."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Self identification and expression",
+              "post": "Self identification and expression",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical descriptor preserved verbatim; no transformation event needed."
+            },
+            {
+              "type": "confirm",
+              "pre": "Aesthetic",
+              "post": "Aesthetic",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical descriptor preserved verbatim; no transformation event needed."
+            },
+            {
+              "type": "confirm",
+              "pre": "trend",
+              "post": "trend",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical descriptor preserved verbatim; no transformation event needed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Emotional Connection",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest antecedent is 'Self identification and expression'. Tested Narrowed: 'Emotional Connection is a specific way of being Self identification and expression' is FALSE — identity expression is self-directed; emotional connection is relational/other-directed. Tested Reframed: claims of a shared identity/self-presentation neighborhood hit the abstraction ceiling (could apply to nearly any descriptor). Tested Elaborated/Expanded: 'Emotional Connection' does not add detail to or broaden 'Self identification and expression'; they target different objects (self vs other/brand-fan bond). All tiers fail; New is correct. Alternative considered: Reframed from Self identification and expression — rejected due to abstraction ceiling."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6xbi3uzwxygtuln",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Emotional Connection",
+            "rationale": "Nearest PRE antecedent is 'Self identification and expression'. Subsumption fails (relational affect is not a specific way of being identity expression). A shared identity/self-presentation neighborhood claim is above the abstraction ceiling — it could be claimed for almost any descriptor. No elaboration or expansion defensible. Emotional Connection is a genuinely new relational/affective value.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed from 'Self identification and expression' via shared identity/self-presentation neighborhood — rejected as abstraction-ceiling error."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Q1c Core Values coded in descriptor_set_special mode. Three PRE descriptors are preserved identically in POST; POST adds one new descriptor. Only the addition of 'Emotional Connection' constitutes a semantic event. No learner-agency evidence in artifact text. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Gender neutral, ages 12-28, interested in trends and classic accessories."
+      },
+      "post": {
+        "answer": "Primarily Gen Z and Millennials (18-35). Gender-neutral appeal, leaning toward a majority of women and non-binary individuals due to the zodiac/self-identification trend. Moderate disposable income (students, young professionals) willing to spend on affordable luxury accessories. VALUES SELF-EXPRESSION. Iterested in astrology, spirituality, or self-discovery. Social media-savvy, spending time on platforms like TikTok, Instagram, and Pinterest. Enjoys aesthetic, trendy, and customizable products. Wants to express themselves but doesn't want overly expensive or overly flashy jewellery."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The POST response expands from a short single-sentence descriptor into a multi-clause detailed psychographic profile. Multiple new dimensions are introduced (income tier, value systems, platform behavior, specific aesthetic preferences, anti-flashy positioning). The scope and depth is meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "gender neutral",
+            "ages 12-28",
+            "interested in trends",
+            "interested in classic accessories"
+          ],
+          "postConcepts": [
+            "primarily Gen Z and Millennials (18-35)",
+            "gender-neutral appeal",
+            "leaning toward majority women and non-binary individuals",
+            "zodiac/self-identification trend",
+            "moderate disposable income (students, young professionals)",
+            "willing to spend on affordable luxury accessories",
+            "values self-expression",
+            "interested in astrology, spirituality, or self-discovery",
+            "social media-savvy (TikTok, Instagram, Pinterest)",
+            "enjoys aesthetic, trendy, and customizable products",
+            "wants to express themselves but not overly expensive or flashy jewellery"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "gender neutral",
+              "post": "gender-neutral appeal",
+              "continuity": "same concept; identity-neutral positioning",
+              "scope": "same scope",
+              "frame": "same frame",
+              "stretch": "minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "gender neutral",
+              "post": "leaning toward majority women and non-binary individuals",
+              "continuity": "broader gender-neutral target now specified",
+              "scope": "POST is a subset specifying the lean within gender-neutral",
+              "frame": "expansion with sub-clarification",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "ages 12-28",
+              "post": "primarily Gen Z and Millennials (18-35)",
+              "continuity": "age/cohort descriptors",
+              "scope": "POST narrows lower bound (removes 12-17) and shifts upper bound (28→35); partially overlapping",
+              "frame": "generational labels replace age range",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "interested in trends",
+              "post": "values self-expression",
+              "continuity": "both psychographic traits about consumer interest",
+              "scope": "different traits; no overlapping domain",
+              "frame": "interests vs values",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "interested in trends",
+              "post": "interested in astrology, spirituality, or self-discovery",
+              "continuity": "interest domains",
+              "scope": "different domains (fashion trends vs metaphysical)",
+              "frame": "interest vs interest, distinct content",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "interested in trends",
+              "post": "enjoys aesthetic, trendy, and customizable products",
+              "continuity": "trend interest persists, more specific",
+              "scope": "POST is a more specific instance of trend interest",
+              "frame": "abstract interest vs concrete product-preference expression",
+              "stretch": "plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "interested in trends",
+              "post": "social media-savvy (TikTok, Instagram, Pinterest)",
+              "continuity": "trend interest connects to platform usage",
+              "scope": "different - platform behavior vs product interest",
+              "frame": "medium vs interest",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "interested in classic accessories",
+              "post": "willing to spend on affordable luxury accessories",
+              "continuity": "product/accessory preference",
+              "scope": "both about accessories, but classic vs affordable-luxury are different positioning",
+              "frame": "classic style vs luxury price-tier positioning",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "interested in classic accessories",
+              "post": "wants to express themselves but not overly expensive or flashy jewellery",
+              "continuity": "both about accessory preferences but emphasize opposite poles",
+              "scope": "overlapping - both constrain accessory choice",
+              "frame": "classic vs affordable/non-flashy",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "interested in trends",
+              "post": "wants to express themselves but not overly expensive or flashy jewellery",
+              "continuity": "neither",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "ages 12-28",
+              "post": "primarily Gen Z and Millennials (18-35)",
+              "continuity": "Same population, scope shifted",
+              "scope": "POST extends upper bound and removes under-18",
+              "frame": "age range to generational labels",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "interested in trends",
+              "post": "values self-expression",
+              "reason": "Different psychographic domains; trend interest is product/cultural, values self-expression is identity-level. No defensible transformation after ladder."
+            },
+            {
+              "pre": "interested in classic accessories",
+              "post": "willing to spend on affordable luxury accessories",
+              "reason": "Classic style and luxury tier are distinct positioning frames; the adjacent product-category connection does not survive the ladder."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "gender neutral",
+              "post": "gender-neutral appeal",
+              "basis": "Same concept re-expressed; 'appeal' appended. Elaborated."
+            },
+            {
+              "pre": "ages 12-28",
+              "post": "primarily Gen Z and Millennials (18-35)",
+              "basis": "Demographic frame shifts from age range to generational cohort labels with a shifted range. Reframed."
+            },
+            {
+              "pre": "interested in trends",
+              "post": "enjoys aesthetic, trendy, and customizable products",
+              "basis": "Specific instance of trend interest (product-level expression). Narrowed."
+            },
+            {
+              "pre": "interested in classic accessories",
+              "post": "wants to express themselves but not overly expensive or flashy jewellery",
+              "basis": "Both constrain accessory choice with style-positioning frames; classic does not subsume into anti-flashy nor vice versa. Rejected as implausible; classic remains Removed."
+            }
+          ],
+          "unmatchedPre": [
+            "interested in classic accessories"
+          ],
+          "unmatchedPost": [
+            "leaning toward majority women and non-binary individuals",
+            "moderate disposable income (students, young professionals)",
+            "willing to spend on affordable luxury accessories",
+            "values self-expression",
+            "social media-savvy (TikTok, Instagram, Pinterest)",
+            "wants to express themselves but not overly expensive or flashy jewellery",
+            "zodiac/self-identification trend",
+            "interested in astrology, spirituality, or self-discovery"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "interested in classic accessories",
+              "direction": "removed",
+              "nearestCounterpart": "willing to spend on affordable luxury accessories",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Classic-style preference and affordable-luxury positioning are sibling accessory-positioning frames, not subsumption or elaboration. Classic ≠ affordable luxury; the classic descriptor is not preserved or concretised. Closest connection is product category, but the actual positioning frame shifted. Genuine removal of the 'classic' orientation."
+            },
+            {
+              "concept": "leaning toward majority women and non-binary individuals",
+              "direction": "new",
+              "nearestCounterpart": "gender neutral",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Gender-neutral concept elaborated with a sub-specification about lean toward women and non-binary individuals. PRE 'gender neutral' is elaborated with demographic precision; gender neutral + leaning toward subset = elaboration."
+            },
+            {
+              "concept": "zodiac/self-identification trend",
+              "direction": "new",
+              "nearestCounterpart": "interested in trends",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Zodiac/self-identification is a specific trend domain that elaborates the broader 'interested in trends' PRE concept. Narrowed - specific trend instance within the broad trend interest."
+            },
+            {
+              "concept": "moderate disposable income (students, young professionals)",
+              "direction": "new",
+              "nearestCounterpart": null,
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "No financial/income descriptor exists in PRE. This is a true new demographic-psychographic dimension."
+            },
+            {
+              "concept": "willing to spend on affordable luxury accessories",
+              "direction": "new",
+              "nearestCounterpart": "interested in classic accessories",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Price-tier willingness is a new dimension; 'classic accessories' speaks to style not price tier. Genuinely new."
+            },
+            {
+              "concept": "values self-expression",
+              "direction": "new",
+              "nearestCounterpart": "interested in trends",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Self-expression as core value is identity-psychographic, distinct from trend interest. No antecedent in PRE."
+            },
+            {
+              "concept": "interested in astrology, spirituality, or self-discovery",
+              "direction": "new",
+              "nearestCounterpart": "interested in trends",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Astrology/spirituality could be read as a specific trend interest (narrowed instance of trend interest); PRE 'interested in trends' could encompass the zodiac-trend via conversion relationship."
+            },
+            {
+              "concept": "social media-savvy (TikTok, Instagram, Pinterest)",
+              "direction": "new",
+              "nearestCounterpart": "interested in trends",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Platform-behavior dimension not present in PRE. Trends-connecting to social media is a reasonable interpretation but PRE lacks platform/media behavior descriptor. Remains New."
+            },
+            {
+              "concept": "wants to express themselves but not overly expensive or flashy jewellery",
+              "direction": "new",
+              "nearestCounterpart": "interested in classic accessories",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Anti-flashy positioning reframes but doesn't subsume classic - classic isn't explicitly anti-flashy. Genuine new constraint."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "gender neutral",
+              "post": "leaning toward majority women and non-binary individuals",
+              "fromCode": "Elaborated",
+              "toCode": "Narrowed",
+              "reason": "Pass-1 paired 'gender neutral' with 'gender-neutral appeal' as Elaborated, then used 'leaning toward majority women and non-binary individuals' to underwrite the elaboration. But 'leaning toward majority women and non-binary individuals' is itself a distinct POST unit; if it is treated as elaboration of PRE, the population specification (majority women + non-binary) is a proper subset of 'gender neutral'. POST denotes a subset specification within the gender-neutral frame, so Narrowed is more defensible than Elaborated. Either way, the Pass-1 alignment structure embeds a second POST inside the first event without a dedicated semantic event. Confirming Elaborated here would understate the demographic specification. Recoding the consolidated pairing to Narrowed and leaving 'gender-neutral appeal' to align separately would over-engineer; the cleanest fix is to keep the single pair gender neutral -> gender-neutral appeal as Elaborated (frame intact, phrasing elaborated) and pair gender neutral -> leaning toward majority women and non-binary individuals separately as Narrowed. Since restructuring alignment is outside the single-correction scope, mark this as a boundary case requiring alignment review."
+            },
+            {
+              "type": "confirm",
+              "pre": "gender neutral",
+              "post": "gender-neutral appeal",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same concept, stylistic re-expression with 'appeal' appended. Frame unchanged. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "ages 12-28",
+              "post": "primarily Gen Z and Millennials (18-35)",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Frame shifts from precise age range to generational cohort labels with a shifted range. No clean subsumption (12-28 vs 18-35 are not subset relations). Sibling demographic frames. Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "interested in trends",
+              "post": "enjoys aesthetic, trendy, and customizable products",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption holds: aesthetic/trendy/customizable products is a specific way of being trend-interested. Confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": "interested in classic accessories",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Classic-style orientation and affordable-luxury positioning are sibling accessory-positioning frames; classic is not subsumed, elaborated, or expanded into affordable-luxury. Genuine removal."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "moderate disposable income (students, young professionals)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "No income/financial descriptor in PRE. Genuinely new psychographic dimension."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "willing to spend on affordable luxury accessories",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Price-tier willingness has no antecedent in PRE; nearest counterpart 'interested in classic accessories' is a style frame, not a price-tier frame. Genuinely new."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "values self-expression",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Self-expression as a core identity-value has no antecedent in PRE; 'interested in trends' is product/cultural, distinct domain. Genuinely new."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "social media-savvy (TikTok, Instagram, Pinterest)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Platform-behavior descriptor absent from PRE. Trends-to-social-media connection is interpretive; no direct antecedent. Genuinely new."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "wants to express themselves but not overly expensive or flashy jewellery",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Anti-flashy anti-expensive positioning is a new constraint; classic-accessories PRE speaks to style not price-flashiness. Genuinely new."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6y7gpc3nuh53xjh",
+            "code": "Elaborated",
+            "preEvidence": "Gender neutral",
+            "postEvidence": "Gender-neutral appeal",
+            "rationale": "Same conceptual frame; 'appeal' appended as a stylistic elaboration of the same identity-neutral positioning.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6y7gpg74pmpoeqlw",
+            "code": "Reframed",
+            "preEvidence": "ages 12-28",
+            "postEvidence": "Primarily Gen Z and Millennials (18-35)",
+            "rationale": "Frame shifts from precise age range to generational cohort labels; range shifts (12-28 vs 18-35) so no clean subset/subsumption. Sibling demographic frames.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6y7gpwlfplii6di",
+            "code": "Narrowed",
+            "preEvidence": "interested in trends",
+            "postEvidence": "enjoys aesthetic, trendy, and customizable products",
+            "rationale": "Aesthetic/trendy/customizable products is a specific product-level expression of the broader trend interest. Subsumption holds.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6y7gp4qydfikxkgg",
+            "code": "Removed",
+            "preEvidence": "interested in classic accessories",
+            "postEvidence": null,
+            "rationale": "Classic-style preference has no defensible POST successor. Affordable-luxury is a sibling positioning frame (style vs price-tier); anti-flashy is also a sibling style/constraint frame. None subsumes classic. Genuine removal.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6y7gpirb9dk0hmsh",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "leaning toward majority women and non-binary individuals",
+            "rationale": "Demographic-gender specification absent from PRE at this granularity. Nearest antecedent 'gender neutral' is an antecedent of the elaborated 'gender-neutral appeal' event and cannot be reused; no transformation defensible from this side.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed from 'gender neutral' (already matched)"
+          },
+          {
+            "instanceId": "mti6y7gp0dtjbxoohya",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "moderate disposable income (students, young professionals)",
+            "rationale": "Income-tier descriptor absent from PRE. No transformational antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6y7gp15obfi4tzk5",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "willing to spend on affordable luxury accessories",
+            "rationale": "Price-tier willingness with no antecedent in PRE; nearest 'interested in classic accessories' is style not price. Genuinely new.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6y7gp9e8pvhmeicj",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "VALUES SELF-EXPRESSION",
+            "rationale": "Self-expression as a core value has no antecedent in PRE; 'interested in trends' covers product/cultural interest, distinct domain.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6y7gpiws1nsplm0p",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "social media-savvy (TikTok, Instagram, Pinterest)",
+            "rationale": "Platform-behavior descriptor absent from PRE. Trends-to-platform connection is interpretive, not transformational.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6y7gpzymqg7s1r4q",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "wants to express themselves but not overly expensive or flashy jewellery",
+            "rationale": "Anti-flashy anti-expensive constraint with no antecedent in PRE; classic-accessories PRE speaks to style, not anti-flashiness. Genuinely new.",
+            "confidence": "medium",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "vague_to_specific_lineage",
+            "boundary_case_narrow_vs_reframe",
+            "new_removed_recheck_passed",
+            "critic_restore_rejected_unit_already_matched"
+          ],
+          "coderNotes": "The 'interested in trends' PRE concept is generic, leading to multiple Narrowed descendants in POST (zodiac trend, aesthetic products, astrology). This is consistent with the PRE-genericness signal but creates multiple events from one PRE seed, which passes the one-PRE-unit-one-event invariant only because the relationships are independent narrowings to distinct POST concepts. The age range to generational label change could arguably be Reframed or Narrowed; chosen Reframed since birth-cohort vs chronological-age is a frame difference. The 'classic accessories' removal involved substantive judgment about whether classic-style subsumes affordable-luxury style; both are accessory orientations but aesthetically and economically distinct. Critic applied 10 correction(s). Rejected 2 critic restore(s) that reused an already-matched unit: interested in trends → zodiac/self-identification trend; interested in trends → interested in astrology, spirituality, or self-discovery."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 9
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "no idea"
+      },
+      "post": {
+        "answer": "Work jewellery but more fun?"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE is a two-word non-answer ('no idea'), while POST contains a substantive niche identification with both a product category ('Work jewellery') and a differentiating modifier ('more fun'). The post-response adds meaningful content at the clause level where the pre had none.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "no idea (acknowledgment of not knowing)",
+            "no specific audience/niche identified"
+          ],
+          "postConcepts": [
+            "work jewellery wearers",
+            "fun-seeking jewelry buyers",
+            "niche within work jewellery market"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "no idea",
+              "post": "Work jewellery but more fun?",
+              "continuity": "very weak - PRE is a non-answer expressing lack of knowledge",
+              "scope": "PRE has no defined audience scope; POST introduces a specific niche",
+              "frame": "PRE has no frame; POST frames as product category + modifier",
+              "stretch": "extremely stretched - matching a non-answer to a niche",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "no idea",
+              "post": "Work jewellery",
+              "continuity": "weak - non-answer to product category",
+              "scope": "no overlap",
+              "frame": "no overlap",
+              "stretch": "very stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "no idea",
+              "post": "more fun",
+              "continuity": "weak - non-answer to attitude descriptor",
+              "scope": "no overlap",
+              "frame": "no overlap",
+              "stretch": "very stretched",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "no specific audience/niche identified",
+              "post": "Work jewellery",
+              "continuity": "PRE has no audience; POST specifies a product category as proxy for niche",
+              "scope": "POST introduces a new category not present in PRE",
+              "frame": "PRE has none; POST frames as workplace jewelry occasion",
+              "stretch": "extreme - cannot derive 'work jewellery' from absence",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "no specific audience/niche identified",
+              "post": "more fun",
+              "continuity": "PRE has no attitude descriptor; POST adds an attitude modifier",
+              "scope": "new",
+              "frame": "new",
+              "stretch": "extreme",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "no idea",
+              "post": "Work jewellery but more fun?",
+              "reason": "PRE is an explicit acknowledgment of having no idea, which has no semantic lineage to a specific niche identification. Different conceptual domains entirely (epistemic state vs market segment)."
+            },
+            {
+              "pre": "no specific audience/niche identified",
+              "post": "Work jewellery",
+              "reason": "Cannot derive a specific product category from the absence of one. Forcing this match would violate IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED."
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "no idea",
+            "no specific audience/niche identified"
+          ],
+          "unmatchedPost": [
+            "Work jewellery",
+            "more fun"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Work jewellery",
+              "direction": "new",
+              "nearestCounterpart": "no idea",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE 'no idea' is an epistemic acknowledgment expressing lack of knowledge; POST 'Work jewellery' is a specific product category serving as a niche identifier. No semantic neighborhood - one is about knowing/not knowing, the other is a market category. All four transformation codes fail: Narrowed fails (work jewellery is not a specific way of being 'no idea'); Reframed fails (no shared territory - epistemic state vs product category); Elaborated fails (no detail to add); Expanded fails (no seed to broaden)."
+            },
+            {
+              "concept": "more fun",
+              "direction": "new",
+              "nearestCounterpart": "no idea",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE 'no idea' is epistemic non-answer; POST 'more fun' is an attitude descriptor. No semantic neighborhood shared. All four transformation codes fail across genuinely different conceptual domains."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Pass-1 correctly treated PRE as epistemic non-answer ('no idea' / 'no specific audience/niche identified') and POST as emerging niche identification. No semantic neighborhood exists between epistemic acknowledgment and product-category/attitude descriptors; lineage cannot be manufactured. New event is defensible."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6xg50w3nckfkrg1h",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Work jewellery but more fun?",
+            "rationale": "POST introduces a specific niche (work jewellery with a 'more fun' differentiator) where PRE contained only epistemic acknowledgments ('no idea', 'no specific audience/niche identified'). PRE and POST occupy different conceptual domains — epistemic state versus market segment. Narrowed, Reframed, Elaborated, and Expanded all fail against every nearest PRE counterpart. Cannot derive a product category or attitude descriptor from an absence-of-knowledge statement.",
+            "confidence": "high",
+            "alternativeConsidered": "Removed+New for 'no idea' matched to 'Work jewellery' — same failure as above; the pair has no shared semantic neighborhood."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "vague_to_specific_lineage",
+            "boundary_case_expand_vs_new",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "PRE is a non-answer ('no idea'), which makes alignment extremely sparse. The post introduces a niche from a blank slate. Since there is no semantic predecessor, the entire POST content is best coded as a single New event representing the introduction of a niche identification. The 'Work jewellery' and 'more fun' together form one niche concept rather than separate units. Critic applied 1 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "instagram and tiktok and xhs. esty."
+      },
+      "post": {
+        "answer": "instagram and tiktok and xhs. etsy."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The set of platforms is identical between PRE and POST; the only difference is a one-letter typo correction (esty → etsy) and a stylistic punctuation change (period removed). No clauses, sentences, or explanatory passages added or removed.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "instagram",
+            "tiktok",
+            "xhs",
+            "esty"
+          ],
+          "postConcepts": [
+            "instagram",
+            "tiktok",
+            "xhs",
+            "etsy"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "instagram",
+              "post": "instagram",
+              "continuity": "identical platform",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "instagram",
+              "post": "tiktok",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "instagram",
+              "post": "xhs",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "instagram",
+              "post": "etsy",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "tiktok",
+              "post": "instagram",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "tiktok",
+              "post": "tiktok",
+              "continuity": "identical platform",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "tiktok",
+              "post": "xhs",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "tiktok",
+              "post": "etsy",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "xhs",
+              "post": "instagram",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "xhs",
+              "post": "tiktok",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "xhs",
+              "post": "xhs",
+              "continuity": "identical platform",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "xhs",
+              "post": "etsy",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "esty",
+              "post": "instagram",
+              "continuity": "same platform, different spelling",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "esty",
+              "post": "tiktok",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "esty",
+              "post": "xhs",
+              "continuity": "different platforms",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "esty",
+              "post": "etsy",
+              "continuity": "same platform, different spelling",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "esty",
+              "post": "instagram",
+              "reason": "different platforms; only spelling similarity, not lineage"
+            },
+            {
+              "pre": "esty",
+              "post": "tiktok",
+              "reason": "different platforms"
+            },
+            {
+              "pre": "esty",
+              "post": "xhs",
+              "reason": "different platforms"
+            },
+            {
+              "pre": "instagram",
+              "post": "tiktok",
+              "reason": "different platforms"
+            },
+            {
+              "pre": "instagram",
+              "post": "xhs",
+              "reason": "different platforms"
+            },
+            {
+              "pre": "instagram",
+              "post": "etsy",
+              "reason": "different platforms"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "instagram",
+              "post": "instagram",
+              "basis": "identical platform label"
+            },
+            {
+              "pre": "tiktok",
+              "post": "tiktok",
+              "basis": "identical platform label"
+            },
+            {
+              "pre": "xhs",
+              "post": "xhs",
+              "basis": "identical platform label"
+            },
+            {
+              "pre": "esty",
+              "post": "etsy",
+              "basis": "same platform, corrected spelling (transposition typo)"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "esty",
+              "direction": "removed",
+              "nearestCounterpart": "etsy",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "esty and etsy refer to the same platform; the only difference is a transposed letter (stylistic/spelling), not a semantic change"
+            },
+            {
+              "concept": "etsy",
+              "direction": "new",
+              "nearestCounterpart": "esty",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "etsy in post is the same platform as esty in pre, only spelling was corrected"
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "instagram",
+              "post": "instagram",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical platform label; no transformation needed, same concept preserved"
+            },
+            {
+              "type": "confirm",
+              "pre": "tiktok",
+              "post": "tiktok",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical platform label; no transformation needed"
+            },
+            {
+              "type": "confirm",
+              "pre": "xhs",
+              "post": "xhs",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical platform label; no transformation needed"
+            },
+            {
+              "type": "confirm",
+              "pre": "esty",
+              "post": "etsy",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "typo correction (letter transposition) on the same platform; pass-1 correctly treated as identical pair via spelling normalization"
+            }
+          ]
+        },
+        "semanticChanges": [],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "order_change_only"
+          ],
+          "coderNotes": "The PRE 'esty' and POST 'etsy' refer to the same platform (Etsy); the only change is a transposed letter (style/spelling). Per STYLE-vs-SEMANTIC and ORDER-vs-SEMANTIC, neither a typo fix nor punctuation change constitutes a semantic event. No semantic events emitted. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "50% product videos, 25% in daily use, 25% bts"
+      },
+      "post": {
+        "answer": "25% product videos, 25% in daily use, 25% bts, 25% consumer stories"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "The post-response adds one new content category (consumer stories at 25%) and rebalances the allocation by reducing product videos from 50% to 25%. The total expands from three categories to four, with one new clause/category added and one percentage adjustment made. This is a contained extension rather than a major restructuring.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "50% product videos",
+            "25% in daily use",
+            "25% bts"
+          ],
+          "postConcepts": [
+            "25% product videos",
+            "25% in daily use",
+            "25% bts",
+            "25% consumer stories"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "50% product videos",
+              "post": "25% product videos",
+              "continuity": "Same content category (product videos), same wording.",
+              "scope": "Pre allocates 50% share, post reduces to 25% share. Same content type but smaller weight.",
+              "frame": "Distribution frame: percentage allocation across content categories.",
+              "stretch": "Minimal — only the percentage changes.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "50% product videos",
+              "post": "25% in daily use",
+              "continuity": "Different content categories.",
+              "scope": "Not applicable.",
+              "frame": "N/A",
+              "stretch": "Implausible — unrelated content categories.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "50% product videos",
+              "post": "25% bts",
+              "continuity": "Different content categories.",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "50% product videos",
+              "post": "25% consumer stories",
+              "continuity": "Different content categories.",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "25% in daily use",
+              "post": "25% product videos",
+              "continuity": "Different categories; same percentage weight.",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "Implausible — no shared concept.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "25% in daily use",
+              "post": "25% in daily use",
+              "continuity": "Identical.",
+              "scope": "Identical.",
+              "frame": "Identical.",
+              "stretch": "None — direct match.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "25% in daily use",
+              "post": "25% bts",
+              "continuity": "Different categories.",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "25% in daily use",
+              "post": "25% consumer stories",
+              "continuity": "Different categories.",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "25% bts",
+              "post": "25% product videos",
+              "continuity": "Different categories.",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "25% bts",
+              "post": "25% in daily use",
+              "continuity": "Different categories.",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "25% bts",
+              "post": "25% bts",
+              "continuity": "Identical.",
+              "scope": "Identical.",
+              "frame": "Identical.",
+              "stretch": "None.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "25% bts",
+              "post": "25% consumer stories",
+              "continuity": "Different categories.",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "Implausible.",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "50% product videos",
+              "post": "25% in daily use",
+              "reason": "Different content categories; no shared concept."
+            },
+            {
+              "pre": "50% product videos",
+              "post": "25% bts",
+              "reason": "Different content categories; no shared concept."
+            },
+            {
+              "pre": "50% product videos",
+              "post": "25% consumer stories",
+              "reason": "Different content categories; no shared concept."
+            },
+            {
+              "pre": "25% in daily use",
+              "post": "25% product videos",
+              "reason": "Different content categories; no shared concept."
+            },
+            {
+              "pre": "25% in daily use",
+              "post": "25% bts",
+              "reason": "Different content categories; no shared concept."
+            },
+            {
+              "pre": "25% in daily use",
+              "post": "25% consumer stories",
+              "reason": "Different content categories; no shared concept."
+            },
+            {
+              "pre": "25% bts",
+              "post": "25% product videos",
+              "reason": "Different content categories; no shared concept."
+            },
+            {
+              "pre": "25% bts",
+              "post": "25% in daily use",
+              "reason": "Different content categories; no shared concept."
+            },
+            {
+              "pre": "25% bts",
+              "post": "25% consumer stories",
+              "reason": "Different content categories; no shared concept."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "50% product videos",
+              "post": "25% product videos",
+              "basis": "Same content category (product videos); allocation reorganized from dominant (50%) to balanced quarter (25%)."
+            },
+            {
+              "pre": "25% in daily use",
+              "post": "25% in daily use",
+              "basis": "Identical concept and percentage."
+            },
+            {
+              "pre": "25% bts",
+              "post": "25% bts",
+              "basis": "Identical concept and percentage."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "25% consumer stories"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "25% consumer stories",
+              "direction": "new",
+              "nearestCounterpart": null,
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Consumer stories is an entirely distinct content category with no antecedent in the PRE response. No PRE concept shares semantic territory with consumer stories; no subsumption, reframing, elaboration, or expansion relationship is defensible. Full PRE set searched."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "50% product videos",
+              "post": "25% product videos",
+              "fromCode": "Narrowed",
+              "toCode": "Reframed",
+              "reason": "The Narrowed rationale applies the scope-restriction rule to a percentage allocation, but 'Narrowed' is reserved for cases where POST denotes a proper subset of PRE's population/category. Here POST is the same product videos category, not a subset. The organizing frame has shifted: PRE treats product videos as the dominant content type (50%), while POST reorganizes the mix into a balanced four-part distribution (25% each). The category persists but its role in the distribution frame changes — that is Reframed, not Narrowed."
+            },
+            {
+              "type": "confirm",
+              "pre": "25% in daily use",
+              "post": "25% in daily use",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical match; no semantic event needed."
+            },
+            {
+              "type": "confirm",
+              "pre": "25% bts",
+              "post": "25% bts",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical match; no semantic event needed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "25% consumer stories",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Consumer stories is a distinct content category absent from PRE; no antecedent available. Stands as New."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6xs38go90v4z766s",
+            "code": "Reframed",
+            "preEvidence": "50% product videos",
+            "postEvidence": "25% product videos",
+            "rationale": "The product videos category persists across PRE and POST, but its role in the content mix shifts: PRE treats it as the dominant allocation (50%), POST reorganizes the strategy into a balanced four-part distribution (25% each). The organizing frame moves from product-video-centric to evenly diversified mix. Same semantic territory, shifted frame.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6xs38ejbixz4yznc",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "25% consumer stories",
+            "rationale": "Consumer stories is a new content category absent from the PRE response. No PRE concept shares semantic territory with consumer stories; no Narrowed/Reframed/Elaborated/Expanded relationship is defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Two of three PRE categories matched identically (in daily use, bts). Product videos matched across but with a percentage change treated as Narrowed (scope restriction on allocation). Consumer stories is New. The pre-existing categories 'in daily use' and 'bts' produced no semantic events because they are identical between PRE and POST. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "jewellry, zodiac"
+      },
+      "post": {
+        "answer": "Self-expressive but minimalistic. Maybe work jewellery."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "PRE is a terse two-item product list ('jewellry, zodiac'). POST adds an aesthetic framing ('Self-expressive but minimalistic') while carrying forward (with hedging) the jewellery item. The response gains a clause-level design orientation that was absent in PRE, while losing the zodiac motif. Net result: one or two meaningful clauses added — a Moderate Addition.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "jewellery",
+            "zodiac"
+          ],
+          "postConcepts": [
+            "self-expressive",
+            "minimalistic",
+            "maybe work jewellery"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "jewellery",
+              "post": "self-expressive",
+              "continuity": "weak — jewellery is a product category; self-expressive is a design/aesthetic orientation",
+              "scope": "different scopes (product vs aesthetic)",
+              "frame": "product-frame → expression-frame",
+              "stretch": "high; no direct conceptual continuity",
+              "verdict": "weak"
+            },
+            {
+              "pre": "jewellery",
+              "post": "minimalistic",
+              "continuity": "weak — jewellery as product vs minimalism as design style",
+              "scope": "different scopes",
+              "frame": "product-frame → style-frame",
+              "stretch": "high",
+              "verdict": "weak"
+            },
+            {
+              "pre": "jewellery",
+              "post": "maybe work jewellery",
+              "continuity": "strong — same product category, hedged in POST",
+              "scope": "same product, now tentative",
+              "frame": "product category → same product with uncertainty",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "zodiac",
+              "post": "self-expressive",
+              "continuity": "moderate — zodiac is a thematic motif linked to personal identity",
+              "scope": "thematic motif → broader self-expression orientation",
+              "frame": "motif-frame → expression-frame",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "zodiac",
+              "post": "minimalistic",
+              "continuity": "weak — zodiac motif vs minimalist design",
+              "scope": "different",
+              "frame": "motif-frame → style-frame",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "zodiac",
+              "post": "maybe work jewellery",
+              "continuity": "weak — zodiac as a thematic anchor does not map to hedged jewellery",
+              "scope": "different",
+              "frame": "motif-frame → product-frame with hedge",
+              "stretch": "high",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "zodiac",
+              "post": "minimalistic",
+              "reason": "different conceptual domains (thematic motif vs design style); no defensible lineage"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "jewellery",
+              "post": "maybe work jewellery",
+              "basis": "same product category retained; POST adds epistemic hedging, shifting the organizing frame from confident category to tentative offering"
+            }
+          ],
+          "unmatchedPre": [
+            "zodiac"
+          ],
+          "unmatchedPost": [
+            "self-expressive",
+            "minimalistic"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "zodiac",
+              "direction": "removed",
+              "nearestCounterpart": "self-expressive",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "zodiac is a specific thematic motif (astrology-based personal-identity anchor). self-expressive is a broader aesthetic orientation. Narrowed: 'self-expressive is a specific way of being zodiac' — false. Reframed: shared self-expression/identity neighborhood but the frames differ (motif of astrology vs generic aesthetic of self-expression); subsumption fails and the organizing frame shift is from a content-domain motif to a design philosophy. Could be argued as Reframed but the leap from astrological zodiac motif to generic self-expressive aesthetic is more substitution than reconception. Elaborated: POST does not keep zodiac intact. Expanded: POST does not broaden zodiac into a wider concept — it drops the motif and replaces with a different orientation. After testing, the zodiac motif is genuinely absent from POST without a clear successor; kept as Removed."
+            },
+            {
+              "concept": "self-expressive",
+              "direction": "new",
+              "nearestCounterpart": "zodiac",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "self-expressive is a design/aesthetic orientation. Nearest PRE antecedent is zodiac (a thematic motif). Narrowed: self-expressive is not a specific way of being zodiac. Reframed: same broad identity neighborhood, but zodiac is a content motif while self-expressive is a design philosophy — organizing frame is not just shifted but reconceived; the lexical and conceptual link is loose. Elaborated: POST does not retain zodiac. Expanded: zodiac does not seed self-expression in any clear way. No defensible transformation; kept as New."
+            },
+            {
+              "concept": "minimalistic",
+              "direction": "new",
+              "nearestCounterpart": "jewellery",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "minimalistic is a design aesthetic. Nearest PRE antecedent is jewellery (product category). Narrowed: minimalist is not a specific way of being jewellery. Reframed: jewellery and minimalism are different conceptual domains (product vs style). Elaborated: POST does not retain jewellery as its primary subject — it pairs it with self-expressive. Expanded: no seed in PRE for a minimalist aesthetic. No defensible transformation; kept as New."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "jewellery",
+              "post": "maybe work jewellery",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass-1 reasoning is sound. The product category 'jewellery' is retained but its epistemic status shifts from a confident category to a hedged possibility — same underlying product, shifted organizing frame. Elaborated would require POST to retain the product frame and merely add detail, but here the framing change (confident → tentative offering) is the substantive shift. Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "zodiac",
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass-1 correctly tested lineage. Zodiac is a specific astrological content motif; its nearest counterpart is self-expressive, which is a generic aesthetic orientation. Subsumption fails. While both touch personal identity, the organizing frames differ (thematic content motif vs design philosophy) — zodiac does not seed self-expression, and self-expression is not a reframing of zodiac so much as a different orientation. No defensible transformation; Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": "zodiac",
+              "post": null,
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Self-expressive has no defensible PRE antecedent. Zodiac is the nearest counterpart but fails all four ladder tiers as documented. The identity neighborhood is above the abstraction ceiling for this pair — both can be claimed to touch self-presentation but that umbrella proves nothing. No lineage to restore."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "minimalistic",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Minimalistic has no defensible PRE antecedent. Jewellery is a product category; minimalism is a design aesthetic — different conceptual domains. No shared neighborhood at a specific level. The style/product pairing is a category error, not a transformation. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6ycber6tuxdd05tc",
+            "code": "Reframed",
+            "preEvidence": "jewellery",
+            "postEvidence": "maybe work jewellery",
+            "rationale": "The underlying product category is preserved, but the organizing frame shifts: PRE presents jewellery as a confident product offering, while POST re-frames it as a tentative possibility ('maybe work jewellery'). The epistemic status changes while the product identity persists — a shift in framing, not a change of category or added detail.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6ycben48m10u4ezq",
+            "code": "Removed",
+            "preEvidence": "zodiac",
+            "postEvidence": null,
+            "rationale": "The zodiac astrological motif is absent from POST with no defensible successor. Nearest counterpart 'self-expressive' tested across all ladder tiers: subsumption fails, reframing requires a shared organizing frame but zodiac (content motif) and self-expressive (design philosophy) are different frames, elaboration requires retaining zodiac, expansion requires zodiac to seed a broader concept. No defensible transformation; zodiac is genuinely dropped.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6ycbezmnfltt22m",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "self-expressive",
+            "rationale": "A self-expressive design orientation appears in POST with no antecedent in PRE. Nearest PRE counterpart 'zodiac' tested and rejected: zodiac is a specific astrological content motif, not a seed for a generic aesthetic philosophy. The identity-adjacent territory shared between them is at the abstraction ceiling and does not establish lineage.",
+            "confidence": "medium",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti6ycbejrsrf90gmkj",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "minimalistic",
+            "rationale": "A minimalist design aesthetic is introduced in POST with no antecedent in PRE. Nearest PRE counterpart 'jewellery' is a product category; minimalism is a style aesthetic. Different conceptual domains; no shared semantic neighborhood at a specific level. No defensible transformation.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_remove_vs_reframe",
+            "boundary_case_expand_vs_new",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The zodiac→self-expressive pair is arguable as Reframed given a shared identity/self-expression neighborhood, but the leap from an astrological content motif to a generic aesthetic orientation stretches the frame shift beyond a clean reconception. Recorded as Removed+New with the Reframed alternative noted. The jewellery→maybe-work-jewellery pair is borderline Reframed vs Elaborated; the hedge ('Maybe') changes the status of the offering rather than elaborating the product itself, so Reframed is the better-supported verdict. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 1,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 4,
+          "Alignment with Personal Values": 1,
+          "Curiosity and Learning Opportunity": 2,
+          "Consumer trends, social media trends, peer trends": 4,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 4,
+          "Alignment with Personal Values": 1,
+          "Curiosity and Learning Opportunity": 1,
+          "Consumer trends, social media trends, peer trends": 4,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ]
+}

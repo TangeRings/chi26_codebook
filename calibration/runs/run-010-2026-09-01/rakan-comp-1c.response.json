@@ -1,0 +1,339 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "POST explicitly states the same value set as PRE, with no additions, removals, or meaningful restructuring.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "eco-friendly",
+        "user-centric solutions",
+        "elevate everyday life"
+      ],
+      "postConcepts": [
+        "Same"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "eco-friendly",
+          "post": "Same",
+          "continuity": "The descriptor is explicitly retained unchanged.",
+          "scope": "No scope change is stated.",
+          "frame": "No frame change is stated.",
+          "stretch": "No interpretive stretch; exact conceptual continuity.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "user-centric solutions",
+          "post": "Same",
+          "continuity": "The descriptor is explicitly retained unchanged.",
+          "scope": "No scope change is stated.",
+          "frame": "No frame change is stated.",
+          "stretch": "No interpretive stretch; exact conceptual continuity.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "elevate everyday life",
+          "post": "Same",
+          "continuity": "The descriptor is explicitly retained unchanged.",
+          "scope": "No scope change is stated.",
+          "frame": "No frame change is stated.",
+          "stretch": "No interpretive stretch; exact conceptual continuity.",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [],
+      "matchedPairs": [
+        {
+          "pre": "eco-friendly",
+          "post": "Same",
+          "basis": "Exact textual retention; no semantic change."
+        },
+        {
+          "pre": "user-centric solutions",
+          "post": "Same",
+          "basis": "Exact textual retention; no semantic change."
+        },
+        {
+          "pre": "elevate everyday life",
+          "post": "Same",
+          "basis": "Exact textual retention; no semantic change."
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "Same",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Exact textual retention; no semantic event."
+        },
+        {
+          "type": "confirm",
+          "pre": "user-centric solutions",
+          "post": "Same",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Exact textual retention; no semantic event."
+        },
+        {
+          "type": "confirm",
+          "pre": "elevate everyday life",
+          "post": "Same",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Exact textual retention; no semantic event."
+        }
+      ]
+    },
+    "semanticChanges": [],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coderNotes": "POST is identical in meaning and explicitly marked as the same response; no semantic events are warranted. Critic applied 3 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "rakan",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "eco-friendly",
+        "user-centric solutions",
+        "elevate everyday life"
+      ],
+      "post_concepts": [
+        "Same"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "eco-friendly",
+          "post": "Same",
+          "continuity": "The descriptor is explicitly retained unchanged.",
+          "scope": "No scope change is stated.",
+          "frame": "No frame change is stated.",
+          "stretch": "No interpretive stretch; exact conceptual continuity.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "user-centric solutions",
+          "post": "Same",
+          "continuity": "The descriptor is explicitly retained unchanged.",
+          "scope": "No scope change is stated.",
+          "frame": "No frame change is stated.",
+          "stretch": "No interpretive stretch; exact conceptual continuity.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "elevate everyday life",
+          "post": "Same",
+          "continuity": "The descriptor is explicitly retained unchanged.",
+          "scope": "No scope change is stated.",
+          "frame": "No frame change is stated.",
+          "stretch": "No interpretive stretch; exact conceptual continuity.",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "eco-friendly",
+          "post": "Same",
+          "basis": "Exact textual retention; no semantic change."
+        },
+        {
+          "pre": "user-centric solutions",
+          "post": "Same",
+          "basis": "Exact textual retention; no semantic change."
+        },
+        {
+          "pre": "elevate everyday life",
+          "post": "Same",
+          "basis": "Exact textual retention; no semantic change."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "Same",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Exact textual retention; no semantic event."
+        },
+        {
+          "type": "confirm",
+          "pre": "user-centric solutions",
+          "post": "Same",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Exact textual retention; no semantic event."
+        },
+        {
+          "type": "confirm",
+          "pre": "elevate everyday life",
+          "post": "Same",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Exact textual retention; no semantic event."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "POST explicitly states the same value set as PRE, with no additions, removals, or meaningful restructuring."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "POST is identical in meaning and explicitly marked as the same response; no semantic events are warranted. Critic applied 3 correction(s)."
+    },
+    "coded_at": "2026-01-01T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "rakan",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "eco-friendly",
+        "user-centric solutions",
+        "elevate everyday life"
+      ],
+      "post_concepts": [
+        "Same"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "eco-friendly",
+          "post": "Same",
+          "continuity": "The descriptor is explicitly retained unchanged.",
+          "scope": "No scope change is stated.",
+          "frame": "No frame change is stated.",
+          "stretch": "No interpretive stretch; exact conceptual continuity.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "user-centric solutions",
+          "post": "Same",
+          "continuity": "The descriptor is explicitly retained unchanged.",
+          "scope": "No scope change is stated.",
+          "frame": "No frame change is stated.",
+          "stretch": "No interpretive stretch; exact conceptual continuity.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "elevate everyday life",
+          "post": "Same",
+          "continuity": "The descriptor is explicitly retained unchanged.",
+          "scope": "No scope change is stated.",
+          "frame": "No frame change is stated.",
+          "stretch": "No interpretive stretch; exact conceptual continuity.",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "eco-friendly",
+          "post": "Same",
+          "basis": "Exact textual retention; no semantic change."
+        },
+        {
+          "pre": "user-centric solutions",
+          "post": "Same",
+          "basis": "Exact textual retention; no semantic change."
+        },
+        {
+          "pre": "elevate everyday life",
+          "post": "Same",
+          "basis": "Exact textual retention; no semantic change."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "POST explicitly states the same value set as PRE, with no additions, removals, or meaningful restructuring."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "POST is identical in meaning and explicitly marked as the same response; no semantic events are warranted."
+    },
+    "coded_at": "2026-01-01T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "eco-friendly",
+        "post": "Same",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Exact textual retention; no semantic event."
+      },
+      {
+        "type": "confirm",
+        "pre": "user-centric solutions",
+        "post": "Same",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Exact textual retention; no semantic event."
+      },
+      {
+        "type": "confirm",
+        "pre": "elevate everyday life",
+        "post": "Same",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Exact textual retention; no semantic event."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "eco-friendly",
+        "post": "Same",
+        "basis": "Exact textual retention; no semantic change."
+      },
+      {
+        "pre": "user-centric solutions",
+        "post": "Same",
+        "basis": "Exact textual retention; no semantic change."
+      },
+      {
+        "pre": "elevate everyday life",
+        "post": "Same",
+        "basis": "Exact textual retention; no semantic change."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": []
+  },
+  "skipCritic": false
+}

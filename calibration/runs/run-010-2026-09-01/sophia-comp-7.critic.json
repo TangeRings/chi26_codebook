@@ -1,0 +1,79 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "no idea yet",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "PRE 'no idea yet' is an explicit absence statement with no semantic content. No transformation code is defensible because there is nothing to transform. Confirmed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "short videos using the equipment",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "No PRE seed exists (PRE is 'no idea yet', an absence statement). New is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "example: 'three pilates moves to do before your day'",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "No PRE seed exists. New is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "person is using the equipment",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "No PRE seed exists. New is correct."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "no idea yet"
+  ],
+  "unmatched_post": [
+    "short videos using the equipment",
+    "example: 'three pilates moves to do before your day'",
+    "person is using the equipment"
+  ],
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "no idea yet",
+      "post_evidence": null,
+      "rationale": "PRE is an explicit absence statement ('no idea yet') with no semantic content. No transformation tier is defensible against any POST concept because there is no concept in PRE to narrow, reframe, elaborate, or expand.",
+      "alternative_considered": "New",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "short videos using the equipment",
+      "rationale": "POST introduces a concrete content format concept. Nearest PRE antecedent 'no idea yet' is an absence statement and provides no semantic seed for any transformation.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "example: 'three pilates moves to do before your day'",
+      "rationale": "POST introduces a concrete content example. No PRE seed available ('no idea yet' is an absence statement).",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "person is using the equipment",
+      "rationale": "POST introduces the product-integration principle. No PRE seed available ('no idea yet' is an absence statement).",
+      "alternative_considered": "New",
+      "confidence": "high"
+    }
+  ]
+}

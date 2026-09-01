@@ -1,0 +1,118 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "customer-centricity",
+      "post": "User-Centric Design",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Pass-1 Reframed is correct. Subsumption test fails ('User-Centric Design is a specific way of being customer-centricity' is not clearly true \u2014 UCD is an operational design principle, not a strict subtype of customer orientation), but the pair shares the user/customer-centered semantic neighborhood and the organizing frame shifts from audience-orientation to design-recipient frame. PRE is substantive (customer-centricity), so the sibling reading is appropriate. Confirm Reframed."
+    },
+    {
+      "type": "confirm",
+      "pre": "quality",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "After full-response recheck against all five POST concepts, no tier of the ladder is defensible. Quality (attribute/standard) vs User-Centric Design (user-focus), Wellness & Balance (outcome), Innovation & Simplicity (process), Affordability & Accessibility (cost/access), Sustainability (environmental): all are different conceptual domains. Confirmed non-neighborhood; Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Wellness & Balance",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE (quality) is in a different conceptual domain (attribute standard vs product health-outcome). No transformation tier holds. Confirmed New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Innovation & Simplicity",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE (quality) is in a different conceptual domain (attribute standard vs process/design). No transformation tier holds. Confirmed New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Affordability & Accessibility",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE (customer-centricity) is in a different conceptual domain (audience orientation vs cost/access axis). Narrowed test fails (accessibility targets non-customers too). No transformation tier holds. Confirmed New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Sustainability",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE (quality) is in a different conceptual domain (attribute standard vs environmental/material sourcing). No transformation tier holds. Confirmed New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "customer-centricity",
+      "post": "User-Centric Design",
+      "basis": "Shared user/customer-centered semantic neighborhood; PRE frames as audience-orientation, POST frames as operational design-recipient principle. Frame shift without subsumption."
+    }
+  ],
+  "unmatched_pre": [
+    "quality"
+  ],
+  "unmatched_post": [
+    "Wellness & Balance",
+    "Innovation & Simplicity",
+    "Affordability & Accessibility",
+    "Sustainability"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "customer-centricity",
+      "post_evidence": "User-Centric Design \u2013 Focused on real-world needs, ensuring effortless use and convenience.",
+      "rationale": "Both occupy the user/customer-centered neighborhood. The organizing frame shifts from audience-orientation (centering the customer) to a design-recipient frame (centering the user as the object of design decisions). Subsumption test fails \u2014 User-Centric Design is an operational sibling of customer-centricity, not a strict subtype \u2014 so tier 2 (Reframed) is the correct verdict. PRE is substantive, reinforcing the sibling reading over a subsumption reading.",
+      "alternative_considered": "Narrowed (rejected: 'User-Centric Design is a specific way of being customer-centricity' is not literally true; UCD is a design-methodology sibling rather than a customer-orientation subtype)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "quality",
+      "post_evidence": null,
+      "rationale": "After exhaustive recheck against all five POST concepts, quality (as an attribute/standard) sits in a different conceptual domain from each candidate: User-Centric Design (user-focus), Wellness & Balance (product outcome), Innovation & Simplicity (process), Affordability & Accessibility (cost/access), Sustainability (environmental). No tier of the transformation ladder is defensible; no neighborhood is shared.",
+      "alternative_considered": "Reframed against User-Centric Design (rejected: no shared semantic territory at a specific level \u2014 'attribute standard' and 'user-centered design' are different domains, and the only umbrella would be 'brand value', which hits the abstraction ceiling)",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Wellness & Balance \u2013 Helping users both fall asleep faster and wake up naturally.",
+      "rationale": "Nearest PRE concept is quality, which occupies a different conceptual domain (attribute standard vs product health-outcome). Full ladder test fails across all four tiers; no PRE antecedent exists.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Innovation & Simplicity \u2013 Using technology in a way that is effective, easy to use, and intuitive.",
+      "rationale": "Nearest PRE concept is quality, which sits in a different conceptual domain (attribute standard vs innovation/process-design). No transformation tier holds.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Affordability & Accessibility \u2013 Making sleep technology accessible to everyone, not just premium users.",
+      "rationale": "Nearest PRE concept is customer-centricity. Narrowed test fails (accessibility targets non-customers as well, so it is not a subset of customer focus); Reframed/Elaborated/Expanded also fail because cost/access is a different value axis from audience orientation. No PRE antecedent exists.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Sustainability \u2013 Using eco-conscious materials and energy-efficient solutions.",
+      "rationale": "Nearest PRE concept is quality, in a different conceptual domain (attribute standard vs environmental/material sourcing). No transformation tier holds.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ]
+}

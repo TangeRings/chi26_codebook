@@ -1,0 +1,49 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "MBTI under the corporate setting",
+      "post": "Corporate Professionals & Team-Oriented Individuals",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "POST retains the PRE corporate-MBTI niche and adds audience-profile detail within the same frame. Detail is added, not frame-shifted or scope-restricted. Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Anime & Fandom Enthusiasts",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE antecedent ('MBTI under the corporate setting') tested across all four transformation tiers and fails each: the corporate frame does not subsume, share territory with, or seed the fandom/entertainment audience segment. Different conceptual domain. Stays New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "MBTI under the corporate setting",
+      "post": "Corporate Professionals & Team-Oriented Individuals",
+      "basis": "Both identify the same corporate-MBTI niche; POST elaborates the PRE setting label into a full audience profile within the same conceptual frame."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "Anime & Fandom Enthusiasts"
+  ],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "MBTI under the corporate setting",
+      "post_evidence": "Corporate Professionals & Team-Oriented Individuals \u2013 Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools.",
+      "rationale": "POST retains the PRE corporate-MBTI niche and adds demographics, motivations, and valued products. Underlying frame (corporate professionals using MBTI) is intact; only detail is added.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Anime & Fandom Enthusiasts \u2013 Fans of anime, gaming, and internet culture who actively engage in personality discussions, MBTI character typing, and fandom-driven merchandise. They seek aesthetic, collectible, and shareable products that reflect their identity.",
+      "rationale": "Anime/fandom audience has no defensible PRE antecedent. Nearest PRE ('MBTI under the corporate setting') was tested against Narrowed, Reframed, Elaborated, and Expanded \u2014 all fail because the corporate setting does not subsume, share an organizing frame with, or seed the fandom/entertainment audience. Different conceptual domain.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ]
+}

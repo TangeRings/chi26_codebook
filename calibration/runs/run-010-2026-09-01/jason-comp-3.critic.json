@@ -1,0 +1,150 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Female students aged 18-25",
+      "post": "Young women (18-25)",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Pass 1 is correct. 'Young women is a specific way of being female students' fails (drops student status), so subsumption is FALSE; frame shifts from institutional\u2192demographic within the same population. Reframed is the right tier."
+    },
+    {
+      "type": "confirm",
+      "pre": "interested in connecting with friends",
+      "post": "seeking fun and engaging ways to connect with friends",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Pass 1 is correct. Same underlying activity (connecting with friends) with 'fun and engaging' detail added within the same relational frame; frame does not shift, so it is not Reframed."
+    },
+    {
+      "type": "confirm",
+      "pre": "through personality/psychology themed ideas",
+      "post": "through MBTI-themed experiences",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Pass 1 is correct. MBTI-themed is a specific way of being personality/psychology-themed (proper subset). Subsumption holds."
+    },
+    {
+      "type": "confirm",
+      "pre": "interested in connecting with friends",
+      "post": "spark conversations and deepen connections",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Pass 1 is correct. Identifiable PRE seed (connecting with friends) is broadened into behavioral mechanism + outcome description. Same social-bridging territory; broader scope."
+    },
+    {
+      "type": "confirm",
+      "pre": "through personality/psychology themed ideas",
+      "post": "passionate about personality psychology and self-expression",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Pass 1 is correct. PRE is a generic interest statement; POST names the specific topical subset and affective register. Subsumption holds on the generic PRE per the PRE-genericness signal."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "natural advocates for word-of-mouth marketing",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "No PRE antecedent available. The 'connecting with friends' PRE unit is already matched twice (to Elaborated and Expanded), and even at its nearest counterpart the social-motivation frame does not connect to a marketing-advocacy role. Different conceptual domain; New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "community-driven experience through thoughtfully designed physical products",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "No PRE antecedent. The 'connecting with friends' PRE is already fully consumed by its two existing matchings; nearest-counterpart test at brand-experience/product-channel vs friendship-motivation fails Narrowed/Reframed/Elaborated/Expanded. Different conceptual domain; New stands."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Female students aged 18-25",
+      "post": "Young women (18-25)",
+      "basis": "Same demographic population; frame shifts from institutional ('students') to demographic ('young women'). Reframed."
+    },
+    {
+      "pre": "interested in connecting with friends",
+      "post": "seeking fun and engaging ways to connect with friends",
+      "basis": "Same relational frame; 'fun and engaging' detail added. Elaborated."
+    },
+    {
+      "pre": "through personality/psychology themed ideas",
+      "post": "through MBTI-themed experiences",
+      "basis": "MBTI is a specific subset of personality/psychology content; narrowed scope. Narrowed."
+    },
+    {
+      "pre": "interested in connecting with friends",
+      "post": "spark conversations and deepen connections",
+      "basis": "Social-bridging seed broadened into behavioral mechanism and relational outcome. Expanded."
+    },
+    {
+      "pre": "through personality/psychology themed ideas",
+      "post": "passionate about personality psychology and self-expression",
+      "basis": "Generic interest narrowed to specific topical subset with added affective register. Narrowed."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "natural advocates for word-of-mouth marketing",
+    "community-driven experience through thoughtfully designed physical products"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "Female students aged 18-25",
+      "post_evidence": "Young women (18-25)",
+      "rationale": "Frame shifts from institutional ('students') to demographic ('young women') within the same population. Subsumption is FALSE (student status is dropped, not refined), so Reframed is correct.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "interested in connecting with friends",
+      "post_evidence": "seeking fun and engaging ways to connect with friends",
+      "rationale": "Same underlying activity (connecting with friends) with detail added within the same relational frame; no frame shift, so not Reframed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "through personality/psychology themed ideas",
+      "post_evidence": "through MBTI-themed experiences",
+      "rationale": "MBTI-themed is a specific way of being personality/psychology-themed; subsumption holds.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "interested in connecting with friends",
+      "post_evidence": "spark conversations and deepen connections",
+      "rationale": "Identifiable PRE seed (connecting with friends) broadened into behavioral mechanism and outcome description within the same social-bridging territory.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "through personality/psychology themed ideas",
+      "post_evidence": "passionate about personality psychology and self-expression",
+      "rationale": "Generic-interest PRE narrowed to specific topical subset with affective register; subsumption holds per the PRE-genericness signal.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "natural advocates for word-of-mouth marketing",
+      "rationale": "No available PRE antecedent (the only near-neighbor, 'connecting with friends', is already matched elsewhere and in any case occupies a different conceptual domain \u2014 peer/marketing role vs friendship motivation). New stands.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "community-driven experience through thoughtfully designed physical products",
+      "rationale": "No available PRE antecedent; the only near-neighbor ('connecting with friends') is fully consumed and sits in a different conceptual domain (brand-experience/product channel vs relational motivation). New stands.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

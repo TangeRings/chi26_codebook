@@ -1,0 +1,267 @@
+{
+  "coding_unit": {
+    "student_id": "mahrukh",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "instagram",
+      "tiktok",
+      "xhs",
+      "esty"
+    ],
+    "post_concepts": [
+      "instagram",
+      "tiktok",
+      "xhs",
+      "etsy"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "instagram",
+        "post": "instagram",
+        "continuity": "identical platform",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "instagram",
+        "post": "tiktok",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "instagram",
+        "post": "xhs",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "instagram",
+        "post": "etsy",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "tiktok",
+        "post": "instagram",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "tiktok",
+        "post": "tiktok",
+        "continuity": "identical platform",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "tiktok",
+        "post": "xhs",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "tiktok",
+        "post": "etsy",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "xhs",
+        "post": "instagram",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "xhs",
+        "post": "tiktok",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "xhs",
+        "post": "xhs",
+        "continuity": "identical platform",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "xhs",
+        "post": "etsy",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "esty",
+        "post": "instagram",
+        "continuity": "same platform, different spelling",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "esty",
+        "post": "tiktok",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "esty",
+        "post": "xhs",
+        "continuity": "different platforms",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "esty",
+        "post": "etsy",
+        "continuity": "same platform, different spelling",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "esty",
+        "post": "instagram",
+        "reason": "different platforms; only spelling similarity, not lineage"
+      },
+      {
+        "pre": "esty",
+        "post": "tiktok",
+        "reason": "different platforms"
+      },
+      {
+        "pre": "esty",
+        "post": "xhs",
+        "reason": "different platforms"
+      },
+      {
+        "pre": "instagram",
+        "post": "tiktok",
+        "reason": "different platforms"
+      },
+      {
+        "pre": "instagram",
+        "post": "xhs",
+        "reason": "different platforms"
+      },
+      {
+        "pre": "instagram",
+        "post": "etsy",
+        "reason": "different platforms"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "instagram",
+        "post": "instagram",
+        "basis": "identical platform label"
+      },
+      {
+        "pre": "tiktok",
+        "post": "tiktok",
+        "basis": "identical platform label"
+      },
+      {
+        "pre": "xhs",
+        "post": "xhs",
+        "basis": "identical platform label"
+      },
+      {
+        "pre": "esty",
+        "post": "etsy",
+        "basis": "same platform, corrected spelling (transposition typo)"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "esty",
+        "direction": "removed",
+        "nearest_counterpart": "etsy",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "esty and etsy refer to the same platform; the only difference is a transposed letter (stylistic/spelling), not a semantic change"
+      },
+      {
+        "concept": "etsy",
+        "direction": "new",
+        "nearest_counterpart": "esty",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "etsy in post is the same platform as esty in pre, only spelling was corrected"
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "The set of platforms is identical between PRE and POST; the only difference is a one-letter typo correction (esty \u2192 etsy) and a stylistic punctuation change (period removed). No clauses, sentences, or explanatory passages added or removed."
+  },
+  "semantic_events": [],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "order_change_only"
+    ],
+    "coder_notes": "The PRE 'esty' and POST 'etsy' refer to the same platform (Etsy); the only change is a transposed letter (style/spelling). Per STYLE-vs-SEMANTIC and ORDER-vs-SEMANTIC, neither a typo fix nor punctuation change constitutes a semantic event. No semantic events emitted."
+  },
+  "coded_at": "2025-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

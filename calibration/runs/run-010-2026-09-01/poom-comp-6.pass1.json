@@ -1,0 +1,315 @@
+{
+  "coding_unit": {
+    "student_id": "poom",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Instagram",
+      "WeChat Channel",
+      "\u6296\u97f3 (considering)",
+      "\u5c0f\u7ea2\u4e66 (tried but didn't work)"
+    ],
+    "post_concepts": [
+      "Instagram (reels)",
+      "WeChat Channel",
+      "Xiaohongshu",
+      "\u6296\u97f3 (maybe)"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Instagram",
+        "post": "Instagram (reels)",
+        "continuity": "same platform, POST adds format specification (reels)",
+        "scope": "same",
+        "frame": "same platform, content format detail added",
+        "stretch": "minor - addition of content format within same platform",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "WeChat Channel",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible - different platform identifiers",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Xiaohongshu",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "\u6296\u97f3 (maybe)",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "WeChat Channel",
+        "post": "Instagram (reels)",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "WeChat Channel",
+        "post": "WeChat Channel",
+        "continuity": "same platform identifier",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "trivial match",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "WeChat Channel",
+        "post": "Xiaohongshu",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "WeChat Channel",
+        "post": "\u6296\u97f3 (maybe)",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "\u6296\u97f3 (considering)",
+        "post": "\u6296\u97f3 (maybe)",
+        "continuity": "same platform, both tentative",
+        "scope": "same",
+        "frame": "tentative framing preserved",
+        "stretch": "minor hedging difference",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "\u6296\u97f3 (considering)",
+        "post": "Instagram (reels)",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "\u6296\u97f3 (considering)",
+        "post": "WeChat Channel",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "\u6296\u97f3 (considering)",
+        "post": "Xiaohongshu",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "post": "Xiaohongshu",
+        "continuity": "same platform (Chinese vs English name), status reversal from 'didn't work' to being included",
+        "scope": "same platform",
+        "frame": "shifted from rejected to included",
+        "stretch": "meaningful - the decision status reversed",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "post": "Instagram (reels)",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "post": "WeChat Channel",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "post": "\u6296\u97f3 (maybe)",
+        "continuity": "none",
+        "scope": "different platforms",
+        "frame": "different platforms",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Instagram",
+        "post": "WeChat Channel",
+        "reason": "different platform identifiers, no semantic continuity"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Xiaohongshu",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "Instagram",
+        "post": "\u6296\u97f3 (maybe)",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "WeChat Channel",
+        "post": "Instagram (reels)",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "WeChat Channel",
+        "post": "Xiaohongshu",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "WeChat Channel",
+        "post": "\u6296\u97f3 (maybe)",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "\u6296\u97f3 (considering)",
+        "post": "Instagram (reels)",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "\u6296\u97f3 (considering)",
+        "post": "WeChat Channel",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "\u6296\u97f3 (considering)",
+        "post": "Xiaohongshu",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "post": "Instagram (reels)",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "post": "WeChat Channel",
+        "reason": "different platform identifiers"
+      },
+      {
+        "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "post": "\u6296\u97f3 (maybe)",
+        "reason": "different platform identifiers"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Instagram",
+        "post": "Instagram (reels)",
+        "basis": "same platform; POST specifies reels format"
+      },
+      {
+        "pre": "WeChat Channel",
+        "post": "WeChat Channel",
+        "basis": "identical platform reference"
+      },
+      {
+        "pre": "\u6296\u97f3 (considering)",
+        "post": "\u6296\u97f3 (maybe)",
+        "basis": "same platform with both tentative framing"
+      },
+      {
+        "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "post": "Xiaohongshu",
+        "basis": "same platform (\u5c0f\u7ea2\u4e66 = Xiaohongshu); status shifts from rejected to included"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "direction": "removed",
+        "nearest_counterpart": "Xiaohongshu",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "the underlying platform is the same; what changed is the decision status. The transformation is from 'tried but doesn't work' to 'included' - this is a status reversal within the same platform concept, best coded as Reframed (rejected-frame \u2192 included-frame)"
+      },
+      {
+        "concept": "Xiaohongshu",
+        "direction": "new",
+        "nearest_counterpart": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "Xiaohongshu is the same platform as \u5c0f\u7ea2\u4e66; POST is not a new platform but a reversal of the prior rejection. Converted to Reframed event."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Reduction",
+    "rationale": "POST is shorter and more concise. The personal anecdote about the failed \u5c0f\u7ea2\u4e66 account (with account handle) is removed; the explanatory hedging 'I am thinking of' becomes 'maybe'; the parenthetical '(reels)' is added to Instagram. Net effect is moderate structural reduction - some detail removed, some added, but overall more compressed."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Instagram",
+      "post_evidence": "Instagram (reels)",
+      "rationale": "Same platform retained; POST adds a content-format specification (reels). The frame of 'Instagram as a platform' is unchanged; detail is added about which format within Instagram. This is elaboration within the same frame rather than reframing.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "\u5c0f\u7ea2\u4e66 but it doesn't work",
+      "post_evidence": "Xiaohongshu",
+      "rationale": "Same platform (\u5c0f\u7ea2\u4e66/Xiaohongshu) but the decision frame shifts from rejected ('tried but doesn't work') to included (listed as a platform). Pre-frame: rejection/dismissal frame. Post-frame: inclusion/consideration frame. This is a genuine reframing of the status of the same underlying platform.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_remove_vs_reframe",
+      "vague_to_specific_lineage"
+    ],
+    "coder_notes": "The \u5c0f\u7ea2\u4e66/Xiaohongshu pairing is the most complex: the platform is the same but its inclusion status reverses. Reframed was chosen because the frame genuinely shifts from 'rejected' to 'included', though one could also argue this is closer to a status change rather than a conceptual reframing. The Instagram\u2192Instagram (reels) elaboration is straightforward. No learner agency text was found in this response pair."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

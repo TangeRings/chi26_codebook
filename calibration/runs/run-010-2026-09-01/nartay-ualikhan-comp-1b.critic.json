@@ -1,0 +1,165 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "context of informational noise",
+      "post": "context of excess",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Same critical-context role, frame shifts from information-overload to material-excess critique. Not subsumptive; Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "offering a delicate touch",
+      "post": "distills luxury to purest form",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Both describe brand's refining action. Subsumption fails - distillation is not a specific way of being a delicate touch. Same territory, shifted frame. Reframed correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "silver and glassware product",
+      "post": "silver and glassware product",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Identical product reference; POST elaborates with meticulously designed and the embodied qualities. Elaborated correct."
+    },
+    {
+      "type": "recode",
+      "pre": "minimalist designer touch",
+      "post": "meticulously designed",
+      "from_code": "Elaborated",
+      "to_code": "Reframed",
+      "reason": "Wait - 'meticulously designed' keeps the design-process frame. The pass-1 rationale put this Elaborated reasoning under the silver/glassware event. For the minimalist\u2192meticulous pair specifically: both describe design approach; minimalism (aesthetic philosophy) vs meticulousness (craftsmanship execution). Same design-process neighborhood, frame shifts from aesthetic-philosophy to craft-execution. Reframed. However, 'minimalist designer touch' is narrower than 'meticulously designed' (minimalism is one design approach; meticulousness spans many). So Narrowed also defensible: 'minimalist designer touch is a specific way of being meticulously designed' = TRUE if minimalism is a subset of meticulous design. Recording Narrowed as alternative. Picking Narrowed as primary since scope restriction holds."
+    },
+    {
+      "type": "recode",
+      "pre": "minimalist designer touch",
+      "post": "meticulously designed",
+      "from_code": "Reframed",
+      "to_code": "Narrowed",
+      "reason": "Recorrection: minimalism is a specific design philosophy; meticulousness is a broader design-quality descriptor. The subsumption sentence 'minimalist designer touch is a specific way of being meticulously designed' is TRUE. Scope restriction holds. Narrowed is correct."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "minimalist designer touch",
+      "post": "embodies restraint",
+      "from_code": "New",
+      "to_code": "Narrowed",
+      "reason": "Restraint is a specific way of being minimalism - minimalism fundamentally entails restraint. Subsumption holds. The nearest PRE antecedent for 'embodies restraint' is 'minimalist designer touch'. Pairing these and removing them from unmatched lists."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "minimalist designer touch",
+      "post": "embodies elegance",
+      "from_code": "New",
+      "to_code": "Reframed",
+      "reason": "Elegance and minimalism occupy the same aesthetic neighborhood. 'Elegance is a specific way of being minimalism' is FALSE - they are sibling qualities within restrained design. Same territory, shifted frame (restrained-functional to refined-aesthetic). Reframed correct."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "minimalist designer touch",
+      "post": "embodies timeless taste",
+      "from_code": "New",
+      "to_code": "Expanded",
+      "reason": "Timeless taste broadens beyond the minimalist aesthetic seed into enduring/heritage quality. POST extends PRE's scope. Expanded correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "context of informational noise",
+      "post": "context of excess",
+      "basis": "Both establish a critical modern-world framing; frame shifts from information-overload to material-excess critique"
+    },
+    {
+      "pre": "offering a delicate touch",
+      "post": "distills luxury to purest form",
+      "basis": "Both describe the brand's refining action; frame shifts from gentle/light touch to distillation/purification"
+    },
+    {
+      "pre": "silver and glassware product",
+      "post": "silver and glassware product",
+      "basis": "Identical product category reference, elaborated with design and quality descriptors"
+    },
+    {
+      "pre": "minimalist designer touch",
+      "post": "meticulously designed",
+      "basis": "Both describe the design approach; minimalism is a specific form of meticulous design (scope restriction holds)"
+    },
+    {
+      "pre": "minimalist designer touch",
+      "post": "embodies restraint",
+      "basis": "Restraint is a specific way of being minimalism (subsumption holds)"
+    },
+    {
+      "pre": "minimalist designer touch",
+      "post": "embodies elegance",
+      "basis": "Sibling aesthetic qualities within restrained-design neighborhood; frame shifts from restrained-functional to refined-aesthetic"
+    },
+    {
+      "pre": "minimalist designer touch",
+      "post": "embodies timeless taste",
+      "basis": "Timeless taste broadens the minimalist seed into enduring/heritage quality"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "In age of informational noise",
+      "post_evidence": "In a world of excess",
+      "rationale": "Same critical-context role with shifted target of critique (information \u2192 material). Pre-frame: informational/sensory noise; post-frame: material excess/luxury critique.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "offers a delicate touch",
+      "post_evidence": "distills luxury to its purest form",
+      "rationale": "Both describe the brand's refining action. Pre-frame: gentle/minimalist touch; post-frame: distillation/purification of luxury. Not subsumptive.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "silver and glassware",
+      "post_evidence": "meticulously designed silver and glassware that embodies restraint, elegance, and timeless taste",
+      "rationale": "The product category is retained and elaborated with the design quality and three embodied qualities.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "minimalist designer touch",
+      "post_evidence": "meticulously designed",
+      "rationale": "Minimalism is a specific form of meticulous design. Scope restriction holds - minimalism is a subset of meticulous design approaches.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "minimalist designer touch",
+      "post_evidence": "embodies restraint",
+      "rationale": "Restraint is a specific way of being minimalism - minimalism fundamentally entails restraint. Subsumption holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "minimalist designer touch",
+      "post_evidence": "embodies elegance",
+      "rationale": "Elegance and minimalism are sibling aesthetic qualities within the restrained-design neighborhood. Frame shifts from restrained-functional to refined-aesthetic.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "minimalist designer touch",
+      "post_evidence": "embodies timeless taste",
+      "rationale": "Timeless taste broadens beyond the minimalist aesthetic seed into enduring/heritage quality that extends beyond minimalism's scope.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

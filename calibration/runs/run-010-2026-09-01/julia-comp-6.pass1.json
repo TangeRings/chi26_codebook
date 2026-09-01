@@ -1,0 +1,96 @@
+{
+  "coding_unit": {
+    "student_id": "julia",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Instagram, TikTok, and Pinterest for branding and engagement",
+      "SSENSE for direct sales and luxury positioning"
+    ],
+    "post_concepts": [
+      "Instagram, TikTok, and Pinterest for branding and engagement",
+      "SSENSE for direct sales and luxury positioning"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+        "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+        "continuity": "Identical platform set and stated functions",
+        "scope": "Identical",
+        "frame": "Identical branding and engagement frame",
+        "stretch": "None",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+        "post": "SSENSE for direct sales and luxury positioning",
+        "continuity": "Both name branding platforms, but functions differ",
+        "scope": "Different platform categories",
+        "frame": "Content branding/engagement versus direct sales/luxury positioning",
+        "stretch": "Weak; no basis for cross-domain match",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "SSENSE for direct sales and luxury positioning",
+        "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+        "continuity": "Both name branding platforms, but functions differ",
+        "scope": "Different platform categories",
+        "frame": "Direct sales/luxury positioning versus content branding/engagement",
+        "stretch": "Weak; no basis for cross-domain match",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "SSENSE for direct sales and luxury positioning",
+        "post": "SSENSE for direct sales and luxury positioning",
+        "continuity": "Identical platform and stated functions",
+        "scope": "Identical",
+        "frame": "Identical direct-sales and luxury-positioning frame",
+        "stretch": "None",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+        "post": "SSENSE for direct sales and luxury positioning",
+        "reason": "Different platform functions and conceptual roles; no semantic lineage beyond the shared branding context"
+      },
+      {
+        "pre": "SSENSE for direct sales and luxury positioning",
+        "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+        "reason": "Different platform functions and conceptual roles; no semantic lineage beyond the shared branding context"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+        "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+        "basis": "Exact preservation of the content-platform set and branding/engagement function"
+      },
+      {
+        "pre": "SSENSE for direct sales and luxury positioning",
+        "post": "SSENSE for direct sales and luxury positioning",
+        "basis": "Exact preservation of the commerce platform and direct-sales/luxury-positioning function"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "The PRE and POST responses are substantively identical: the same platform sets and stated functions are preserved."
+  },
+  "semantic_events": [],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "The leading missing initial letter in both responses appears to be a transcription issue and does not constitute a semantic difference."
+  },
+  "coded_at": "2026-01-01T00:00:00.000Z",
+  "model": "MiniMax-M3"
+}

@@ -1,0 +1,1450 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "The post-response retains the pre-response content and adds multiple new content blocks: positioning as fusion of fun and sophistication, premium materials specification, durability reinforcement, assigned color meanings, zodiac symbol/constellation design direction, and finish experimentation. These additions span multiple new clauses and explanatory passages that meaningfully expand the brand identity beyond the pre-response.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "Minimalistic",
+        "Fun",
+        "Aesthetic",
+        "Self-identification through zodiac categories",
+        "Playful, modern twist",
+        "High-quality, minimalist mood rings",
+        "Color-changing gimmick product",
+        "Easy to mass produce",
+        "Unique design element per zodiac sign",
+        "Personalized and meaningful connection",
+        "Gender neutral",
+        "Men's jewellery focus"
+      ],
+      "postConcepts": [
+        "Minimalistic",
+        "Fun",
+        "Aesthetic",
+        "Self-identification through zodiac categories",
+        "Playful, modern twist",
+        "Fusion of fun and sophistication",
+        "Premium materials (stainless steel, titanium, sterling silver)",
+        "Durable, not a disposable novelty",
+        "Assigned meanings to each mood color aligned with zodiac traits",
+        "Subtle zodiac symbols/constellations etched/embossed for premium look",
+        "Different finishes (matte, brushed, iridescent)",
+        "Appeals to minimalists and trendsetters",
+        "Color-changing gimmick product",
+        "Easy to mass produce",
+        "Unique design element per zodiac sign",
+        "Personalized and meaningful connection",
+        "Gender neutral",
+        "Considers gender dimension"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Fusion of fun and sophistication",
+          "continuity": "weak \u2014 different conceptual domains (audience focus vs positioning)",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "high \u2014 audience vs brand tone",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Premium materials (stainless steel, titanium, sterling silver)",
+          "continuity": "weak \u2014 could be related to men's jewellery positioning but materials are not audience",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Durable, not a disposable novelty",
+          "continuity": "weak \u2014 no direct lineage",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Appeals to minimalists and trendsetters",
+          "continuity": "moderate \u2014 trendsetters could overlap with men's jewellery market",
+          "scope": "narrow overlap",
+          "frame": "audience vs audience",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Considers gender dimension",
+          "continuity": "moderate \u2014 gender audience related",
+          "scope": "partial",
+          "frame": "audience",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Fusion of fun and sophistication",
+          "continuity": "weak",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Premium materials",
+          "continuity": "weak \u2014 premium materials may tension with mass production but this is tension not lineage",
+          "scope": "tension",
+          "frame": "different",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Durable, not a disposable novelty",
+          "continuity": "moderate \u2014 both about product longevity/permanence",
+          "scope": "partial",
+          "frame": "production vs quality",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Fusion of fun and sophistication",
+          "continuity": "strong \u2014 sophistication relates to high-quality; fun relates to existing positioning",
+          "scope": "related",
+          "frame": "quality descriptors vs brand tone synthesis",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Premium materials",
+          "continuity": "strong \u2014 materials are a specific dimension of high-quality",
+          "scope": "premium materials is a subset of high-quality",
+          "frame": "descriptor vs material specification",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Color-changing gimmick product",
+          "post": "Durable, not a disposable novelty",
+          "continuity": "moderate \u2014 addresses the longevity concern of gimmick products",
+          "scope": "related",
+          "frame": "product feature vs product quality",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Unique design element per zodiac sign",
+          "post": "Subtle zodiac symbols/constellations etched/embossed",
+          "continuity": "strong \u2014 this is a specific realization of the unique design element concept",
+          "scope": "premium version of unique design element",
+          "frame": "general vs specific design execution",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Personalized and meaningful connection",
+          "post": "Assigned meanings to each mood color aligned with zodiac traits",
+          "continuity": "strong \u2014 color-meaning assignment is a specific mechanism for personalization",
+          "scope": "elaboration of personalization mechanism",
+          "frame": "general personalization vs specific implementation",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Personalized and meaningful connection",
+          "post": "Subtle zodiac symbols/constellations",
+          "continuity": "moderate \u2014 symbols are a personalization mechanism",
+          "scope": "specific personalization",
+          "frame": "general personalization vs design execution",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Gender neutral",
+          "post": "Considers gender dimension",
+          "continuity": "moderate \u2014 both address gender",
+          "scope": "same topic, different framing",
+          "frame": "neutral vs dimensional consideration",
+          "stretch": "low",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Fusion of fun and sophistication",
+          "reason": "Different conceptual domains: audience focus vs brand positioning tone. No semantic neighborhood."
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Fusion of fun and sophistication",
+          "reason": "Different conceptual domains: production logistics vs brand positioning."
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Premium materials",
+          "reason": "Conceptual tension rather than lineage; mass production and premium materials pull in opposite directions."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Premium materials (stainless steel, titanium, sterling silver)",
+          "basis": "Materials specification is a specific realization of the high-quality descriptor; subsumption holds."
+        },
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Fusion of fun and sophistication",
+          "basis": "Sophistication continues the high-quality thread; framing shifts from product descriptor to brand positioning tone."
+        },
+        {
+          "pre": "Color-changing gimmick product",
+          "post": "Durable, not a disposable novelty",
+          "basis": "Durability framing addresses the gimmick/quality tension; product-character territory, shifted frame."
+        },
+        {
+          "pre": "Unique design element per zodiac sign",
+          "post": "Subtle zodiac symbols/constellations etched/embossed for premium look",
+          "basis": "Specific design execution elaborates the general unique design element claim."
+        },
+        {
+          "pre": "Personalized and meaningful connection",
+          "post": "Assigned meanings to each mood color aligned with zodiac traits",
+          "basis": "Color-meaning assignment is a specific mechanism that elaborates the general personalization claim."
+        },
+        {
+          "pre": "Gender neutral",
+          "post": "Considers gender dimension",
+          "basis": "Gender topic persists; framing shifts from neutral stance to dimensional consideration."
+        }
+      ],
+      "unmatchedPre": [
+        "Men's jewellery focus"
+      ],
+      "unmatchedPost": [
+        "Different finishes (matte, brushed, iridescent)",
+        "Appeals to minimalists and trendsetters"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "Men's jewellery focus",
+          "direction": "removed",
+          "nearestCounterpart": "Considers gender dimension",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Men's jewellery focus is an audience/segment concept; 'considers gender dimension' is a framing of gender, not a specification of the men's jewellery audience. No subsumption (men's jewellery is not a subset of 'gender dimension'). Territory differs: market segment vs gender policy. All four transformations fail across genuinely different conceptual roles within the gender topic."
+        },
+        {
+          "concept": "Different finishes (matte, brushed, iridescent)",
+          "direction": "new",
+          "nearestCounterpart": "High-quality, minimalist mood rings",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Finish specification is a specific design-execution detail; 'high-quality, minimalist' is a product descriptor. Finishes are a specific design dimension but not a way-of-being for the descriptor itself. No subsumption. Same broader aesthetic neighborhood exists, but the unit added is a new concrete element rather than a transformation of the existing descriptor."
+        },
+        {
+          "concept": "Appeals to minimalists and trendsetters",
+          "direction": "new",
+          "nearestCounterpart": "Minimalistic",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Minimalistic is an aesthetic descriptor of the product; 'appeals to minimalists and trendsetters' is an audience-appeal claim. The narrow part (minimalists) overlaps with the minimalist aesthetic but trendsetters is a new audience. No clean subsumption: appealing-to-audiences is not a specific way of being minimalist-aesthetic. Frame shift from product aesthetic to audience appeal. Reframed is possible but the audience dimension (trendsetters) is genuinely new."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Premium materials (stainless steel, titanium, sterling silver)",
+          "fromCode": "Narrowed",
+          "toCode": "Narrowed",
+          "reason": "Pass 1 is correct. Subsumption holds: specifying premium materials is a specific way of being high-quality. PRE is generic enough for Narrowed."
+        },
+        {
+          "type": "confirm",
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Fusion of fun and sophistication",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Pass 1 is correct. Fun and sophistication are sibling brand-tone qualities, not a subset of the high-quality/minimalist descriptor. Frame shifts from product descriptor to positioning tone synthesis."
+        },
+        {
+          "type": "confirm",
+          "pre": "Color-changing gimmick product",
+          "post": "Durable, not a disposable novelty",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Pass 1 is correct. Product-feature frame shifts to product-quality/permanence frame. Same broader product-character territory, different organizing angle. Not pure elaboration because the frame changes from gimmick/feature to longevity/reassurance."
+        },
+        {
+          "type": "confirm",
+          "pre": "Unique design element per zodiac sign",
+          "post": "Subtle zodiac symbols/constellations etched/embossed for premium look",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "Pass 1 is correct. Same underlying concept (unique zodiac design element) with concrete execution detail added. Frame unchanged."
+        },
+        {
+          "type": "confirm",
+          "pre": "Personalized and meaningful connection",
+          "post": "Assigned meanings to each mood color aligned with zodiac traits",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "Pass 1 is correct. Personalization frame preserved; specific color-meaning mechanism added as detail."
+        },
+        {
+          "type": "recode",
+          "pre": "Gender neutral",
+          "post": "Considers gender dimension",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Pass 1 code is correct. Confidence was flagged low but the Reframed verdict itself is defensible: gender-topic persists, frame shifts from declared neutrality to open dimensional consideration. Confirming the code while noting the boundary nature. Alternative Removed+New was considered but the shared gender topic neighborhood is specific enough to justify Reframed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Different finishes (matte, brushed, iridescent)",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Pass 1 is correct. Finish specification is a concrete design-execution detail with no specific PRE antecedent. Nearest candidates (Minimalistic, high-quality minimalist mood rings) are aesthetic/quality descriptors, not finish specifications. No subsumption, no elaboration seed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Appeals to minimalists and trendsetters",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Pass 1 is correct. Audience-appeal framing is a new conceptual angle. Trendsetters has no PRE antecedent. Minimalists loosely overlaps with Minimalistic aesthetic but the audience-claim frame is not a transformation of the aesthetic descriptor. The neighborhood (identity/self-presentation) is too broad; this is a genuinely new audience-direction addition."
+        },
+        {
+          "type": "confirm",
+          "pre": "Men's jewellery focus",
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "Pass 1 is correct. Tested Narrowed/Reframed/Elaborated/Expanded against nearest POST successors. 'Considers gender dimension' is a gender-policy frame, not a men's-jewellery audience-segment frame. No subsumption: men's jewellery is not a specific way of being gender-dimensional. Frame differs (market segment vs gender policy stance). Removed stands."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6z2endg9bzc95bzu",
+        "code": "Narrowed",
+        "preEvidence": "high-quality, minimalist mood rings",
+        "postEvidence": "Use materials like high-quality stainless steel, titanium, or sterling silver to elevate the product.",
+        "rationale": "Premium materials specification is a specific way of being high-quality. Subsumption holds.",
+        "confidence": "high",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti6z2en2260idqvy3d",
+        "code": "Reframed",
+        "preEvidence": "high-quality, minimalist mood rings",
+        "postEvidence": "Position the rings as a fusion of fun and sophistication.",
+        "rationale": "Pre-frame: product quality descriptor. Post-frame: brand positioning tone synthesis. Same territory, shifted organizing frame.",
+        "confidence": "medium",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6z2enxvuzmqq9nv",
+        "code": "Reframed",
+        "preEvidence": "Uses a 'gimmick' product like mood rings, that change color, easy to mass produce.",
+        "postEvidence": "Reinforce durability so that the rings don't feel like a disposable novelty.",
+        "rationale": "Frame shifts from product feature/format to product quality/permanence. Same product-character territory, different organizing angle.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti6z2enyo5no93kxv8",
+        "code": "Elaborated",
+        "preEvidence": "Each ring features a unique design element or color palette inspired by its corresponding zodiac sign",
+        "postEvidence": "Incorporate subtle zodiac symbols or constellations on each ring, etched or embossed for a premium look.",
+        "rationale": "Same zodiac-design frame preserved; concrete execution detail added.",
+        "confidence": "high",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6z2en5a05yob41m4",
+        "code": "Elaborated",
+        "preEvidence": "creating a personalized and meaningful connection",
+        "postEvidence": "Assign specific meanings to each mood color (e.g., blue = calm, green = focused) that align with the personality traits of the zodiac sign.",
+        "rationale": "Personalization frame intact; color-meaning mechanism specified as detail.",
+        "confidence": "high",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6z2enwd7pgumo4",
+        "code": "Reframed",
+        "preEvidence": "Gender neutral",
+        "postEvidence": "Also with gender.",
+        "rationale": "Gender topic persists; frame shifts from declared neutrality to dimensional consideration. Shared specific neighborhood (gender positioning).",
+        "confidence": "low",
+        "alternativeConsidered": "Removed+New"
+      },
+      {
+        "instanceId": "mti6z2enp22x33srxgl",
+        "code": "Removed",
+        "preEvidence": "Another I had was focusing on men's jewellery. It's more popular now, becoming a standard for minimalistic, work and school appropriate jewelry.",
+        "postEvidence": null,
+        "rationale": "Men's jewellery is an audience-segment concept; nearest POST successors (Considers gender dimension) are gender-policy frames, not audience-segment specifications. No subsumption, no elaboration/expansion. Different conceptual roles within the gender topic.",
+        "confidence": "medium",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6z2enulwn763bt5j",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Experiment with finishes\u2014matte, brushed, or iridescent\u2014to appeal to minimalists and trendsetters alike.",
+        "rationale": "Finish specification is a concrete design-execution detail with no PRE antecedent. Aesthetic/quality descriptors do not subsume finish specification.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti6z2enn0zdaxh5rq9",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "to appeal to minimalists and trendsetters alike",
+        "rationale": "Audience-appeal framing is a new conceptual angle. Trendsetters has no PRE antecedent. Aesthetic neighborhood too broad (abstraction ceiling) for Reframed.",
+        "confidence": "low",
+        "alternativeConsidered": "Expanded"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "boundary_case_expand_vs_new",
+        "vague_to_specific_lineage",
+        "new_removed_recheck_passed",
+        "duplicate_pre_antecedent"
+      ],
+      "coderNotes": "Q1a descriptor_set_special applied. This item is unusually long for a descriptor-set item; the response reads more like a semi-structured paragraph than a clean adjective set, so descriptor extraction required interpretive splitting. The gender-related material is brief and ambiguous in both PRE and POST, leading to low confidence on the Reframed call for Gender neutral -> 'Also with gender.' The men's jewellery focus removal is defensible after re-check but is the weakest call. Critic applied 9 correction(s). Consistency check: \"high-quality, minimalist mood rings\" serves as the antecedent of more than one event. The PRE span likely needs splitting \u2014 review before accepting."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "mahrukh",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Minimalistic",
+        "Fun",
+        "Aesthetic",
+        "Self-identification through zodiac categories",
+        "Playful, modern twist",
+        "High-quality, minimalist mood rings",
+        "Color-changing gimmick product",
+        "Easy to mass produce",
+        "Unique design element per zodiac sign",
+        "Personalized and meaningful connection",
+        "Gender neutral",
+        "Men's jewellery focus"
+      ],
+      "post_concepts": [
+        "Minimalistic",
+        "Fun",
+        "Aesthetic",
+        "Self-identification through zodiac categories",
+        "Playful, modern twist",
+        "Fusion of fun and sophistication",
+        "Premium materials (stainless steel, titanium, sterling silver)",
+        "Durable, not a disposable novelty",
+        "Assigned meanings to each mood color aligned with zodiac traits",
+        "Subtle zodiac symbols/constellations etched/embossed for premium look",
+        "Different finishes (matte, brushed, iridescent)",
+        "Appeals to minimalists and trendsetters",
+        "Color-changing gimmick product",
+        "Easy to mass produce",
+        "Unique design element per zodiac sign",
+        "Personalized and meaningful connection",
+        "Gender neutral",
+        "Considers gender dimension"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Fusion of fun and sophistication",
+          "continuity": "weak \u2014 different conceptual domains (audience focus vs positioning)",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "high \u2014 audience vs brand tone",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Premium materials (stainless steel, titanium, sterling silver)",
+          "continuity": "weak \u2014 could be related to men's jewellery positioning but materials are not audience",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Durable, not a disposable novelty",
+          "continuity": "weak \u2014 no direct lineage",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Appeals to minimalists and trendsetters",
+          "continuity": "moderate \u2014 trendsetters could overlap with men's jewellery market",
+          "scope": "narrow overlap",
+          "frame": "audience vs audience",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Considers gender dimension",
+          "continuity": "moderate \u2014 gender audience related",
+          "scope": "partial",
+          "frame": "audience",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Fusion of fun and sophistication",
+          "continuity": "weak",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Premium materials",
+          "continuity": "weak \u2014 premium materials may tension with mass production but this is tension not lineage",
+          "scope": "tension",
+          "frame": "different",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Durable, not a disposable novelty",
+          "continuity": "moderate \u2014 both about product longevity/permanence",
+          "scope": "partial",
+          "frame": "production vs quality",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Fusion of fun and sophistication",
+          "continuity": "strong \u2014 sophistication relates to high-quality; fun relates to existing positioning",
+          "scope": "related",
+          "frame": "quality descriptors vs brand tone synthesis",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Premium materials",
+          "continuity": "strong \u2014 materials are a specific dimension of high-quality",
+          "scope": "premium materials is a subset of high-quality",
+          "frame": "descriptor vs material specification",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Color-changing gimmick product",
+          "post": "Durable, not a disposable novelty",
+          "continuity": "moderate \u2014 addresses the longevity concern of gimmick products",
+          "scope": "related",
+          "frame": "product feature vs product quality",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Unique design element per zodiac sign",
+          "post": "Subtle zodiac symbols/constellations etched/embossed",
+          "continuity": "strong \u2014 this is a specific realization of the unique design element concept",
+          "scope": "premium version of unique design element",
+          "frame": "general vs specific design execution",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Personalized and meaningful connection",
+          "post": "Assigned meanings to each mood color aligned with zodiac traits",
+          "continuity": "strong \u2014 color-meaning assignment is a specific mechanism for personalization",
+          "scope": "elaboration of personalization mechanism",
+          "frame": "general personalization vs specific implementation",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Personalized and meaningful connection",
+          "post": "Subtle zodiac symbols/constellations",
+          "continuity": "moderate \u2014 symbols are a personalization mechanism",
+          "scope": "specific personalization",
+          "frame": "general personalization vs design execution",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Gender neutral",
+          "post": "Considers gender dimension",
+          "continuity": "moderate \u2014 both address gender",
+          "scope": "same topic, different framing",
+          "frame": "neutral vs dimensional consideration",
+          "stretch": "low",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Fusion of fun and sophistication",
+          "reason": "Different conceptual domains: audience focus vs brand positioning tone. No semantic neighborhood."
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Fusion of fun and sophistication",
+          "reason": "Different conceptual domains: production logistics vs brand positioning."
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Premium materials",
+          "reason": "Conceptual tension rather than lineage; mass production and premium materials pull in opposite directions."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Premium materials (stainless steel, titanium, sterling silver)",
+          "basis": "Materials specification is a specific realization of the high-quality descriptor; subsumption holds."
+        },
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Fusion of fun and sophistication",
+          "basis": "Sophistication continues the high-quality thread; framing shifts from product descriptor to brand positioning tone."
+        },
+        {
+          "pre": "Color-changing gimmick product",
+          "post": "Durable, not a disposable novelty",
+          "basis": "Durability framing addresses the gimmick/quality tension; product-character territory, shifted frame."
+        },
+        {
+          "pre": "Unique design element per zodiac sign",
+          "post": "Subtle zodiac symbols/constellations etched/embossed for premium look",
+          "basis": "Specific design execution elaborates the general unique design element claim."
+        },
+        {
+          "pre": "Personalized and meaningful connection",
+          "post": "Assigned meanings to each mood color aligned with zodiac traits",
+          "basis": "Color-meaning assignment is a specific mechanism that elaborates the general personalization claim."
+        },
+        {
+          "pre": "Gender neutral",
+          "post": "Considers gender dimension",
+          "basis": "Gender topic persists; framing shifts from neutral stance to dimensional consideration."
+        }
+      ],
+      "unmatched_pre": [
+        "Men's jewellery focus"
+      ],
+      "unmatched_post": [
+        "Different finishes (matte, brushed, iridescent)",
+        "Appeals to minimalists and trendsetters"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Men's jewellery focus",
+          "direction": "removed",
+          "nearest_counterpart": "Considers gender dimension",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Men's jewellery focus is an audience/segment concept; 'considers gender dimension' is a framing of gender, not a specification of the men's jewellery audience. No subsumption (men's jewellery is not a subset of 'gender dimension'). Territory differs: market segment vs gender policy. All four transformations fail across genuinely different conceptual roles within the gender topic."
+        },
+        {
+          "concept": "Different finishes (matte, brushed, iridescent)",
+          "direction": "new",
+          "nearest_counterpart": "High-quality, minimalist mood rings",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Finish specification is a specific design-execution detail; 'high-quality, minimalist' is a product descriptor. Finishes are a specific design dimension but not a way-of-being for the descriptor itself. No subsumption. Same broader aesthetic neighborhood exists, but the unit added is a new concrete element rather than a transformation of the existing descriptor."
+        },
+        {
+          "concept": "Appeals to minimalists and trendsetters",
+          "direction": "new",
+          "nearest_counterpart": "Minimalistic",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Minimalistic is an aesthetic descriptor of the product; 'appeals to minimalists and trendsetters' is an audience-appeal claim. The narrow part (minimalists) overlaps with the minimalist aesthetic but trendsetters is a new audience. No clean subsumption: appealing-to-audiences is not a specific way of being minimalist-aesthetic. Frame shift from product aesthetic to audience appeal. Reframed is possible but the audience dimension (trendsetters) is genuinely new."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Premium materials (stainless steel, titanium, sterling silver)",
+          "from_code": "Narrowed",
+          "to_code": "Narrowed",
+          "reason": "Pass 1 is correct. Subsumption holds: specifying premium materials is a specific way of being high-quality. PRE is generic enough for Narrowed."
+        },
+        {
+          "type": "confirm",
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Fusion of fun and sophistication",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Pass 1 is correct. Fun and sophistication are sibling brand-tone qualities, not a subset of the high-quality/minimalist descriptor. Frame shifts from product descriptor to positioning tone synthesis."
+        },
+        {
+          "type": "confirm",
+          "pre": "Color-changing gimmick product",
+          "post": "Durable, not a disposable novelty",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Pass 1 is correct. Product-feature frame shifts to product-quality/permanence frame. Same broader product-character territory, different organizing angle. Not pure elaboration because the frame changes from gimmick/feature to longevity/reassurance."
+        },
+        {
+          "type": "confirm",
+          "pre": "Unique design element per zodiac sign",
+          "post": "Subtle zodiac symbols/constellations etched/embossed for premium look",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "Pass 1 is correct. Same underlying concept (unique zodiac design element) with concrete execution detail added. Frame unchanged."
+        },
+        {
+          "type": "confirm",
+          "pre": "Personalized and meaningful connection",
+          "post": "Assigned meanings to each mood color aligned with zodiac traits",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "Pass 1 is correct. Personalization frame preserved; specific color-meaning mechanism added as detail."
+        },
+        {
+          "type": "recode",
+          "pre": "Gender neutral",
+          "post": "Considers gender dimension",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Pass 1 code is correct. Confidence was flagged low but the Reframed verdict itself is defensible: gender-topic persists, frame shifts from declared neutrality to open dimensional consideration. Confirming the code while noting the boundary nature. Alternative Removed+New was considered but the shared gender topic neighborhood is specific enough to justify Reframed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Different finishes (matte, brushed, iridescent)",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Pass 1 is correct. Finish specification is a concrete design-execution detail with no specific PRE antecedent. Nearest candidates (Minimalistic, high-quality minimalist mood rings) are aesthetic/quality descriptors, not finish specifications. No subsumption, no elaboration seed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Appeals to minimalists and trendsetters",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Pass 1 is correct. Audience-appeal framing is a new conceptual angle. Trendsetters has no PRE antecedent. Minimalists loosely overlaps with Minimalistic aesthetic but the audience-claim frame is not a transformation of the aesthetic descriptor. The neighborhood (identity/self-presentation) is too broad; this is a genuinely new audience-direction addition."
+        },
+        {
+          "type": "confirm",
+          "pre": "Men's jewellery focus",
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "Pass 1 is correct. Tested Narrowed/Reframed/Elaborated/Expanded against nearest POST successors. 'Considers gender dimension' is a gender-policy frame, not a men's-jewellery audience-segment frame. No subsumption: men's jewellery is not a specific way of being gender-dimensional. Frame differs (market segment vs gender policy stance). Removed stands."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "The post-response retains the pre-response content and adds multiple new content blocks: positioning as fusion of fun and sophistication, premium materials specification, durability reinforcement, assigned color meanings, zodiac symbol/constellation design direction, and finish experimentation. These additions span multiple new clauses and explanatory passages that meaningfully expand the brand identity beyond the pre-response."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "high-quality, minimalist mood rings",
+        "post_evidence": "Use materials like high-quality stainless steel, titanium, or sterling silver to elevate the product.",
+        "rationale": "Premium materials specification is a specific way of being high-quality. Subsumption holds.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "high-quality, minimalist mood rings",
+        "post_evidence": "Position the rings as a fusion of fun and sophistication.",
+        "rationale": "Pre-frame: product quality descriptor. Post-frame: brand positioning tone synthesis. Same territory, shifted organizing frame.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Uses a 'gimmick' product like mood rings, that change color, easy to mass produce.",
+        "post_evidence": "Reinforce durability so that the rings don't feel like a disposable novelty.",
+        "rationale": "Frame shifts from product feature/format to product quality/permanence. Same product-character territory, different organizing angle.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Each ring features a unique design element or color palette inspired by its corresponding zodiac sign",
+        "post_evidence": "Incorporate subtle zodiac symbols or constellations on each ring, etched or embossed for a premium look.",
+        "rationale": "Same zodiac-design frame preserved; concrete execution detail added.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "creating a personalized and meaningful connection",
+        "post_evidence": "Assign specific meanings to each mood color (e.g., blue = calm, green = focused) that align with the personality traits of the zodiac sign.",
+        "rationale": "Personalization frame intact; color-meaning mechanism specified as detail.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Gender neutral",
+        "post_evidence": "Also with gender.",
+        "rationale": "Gender topic persists; frame shifts from declared neutrality to dimensional consideration. Shared specific neighborhood (gender positioning).",
+        "alternative_considered": "Removed+New",
+        "confidence": "low"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Another I had was focusing on men's jewellery. It's more popular now, becoming a standard for minimalistic, work and school appropriate jewelry.",
+        "post_evidence": null,
+        "rationale": "Men's jewellery is an audience-segment concept; nearest POST successors (Considers gender dimension) are gender-policy frames, not audience-segment specifications. No subsumption, no elaboration/expansion. Different conceptual roles within the gender topic.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Experiment with finishes\u2014matte, brushed, or iridescent\u2014to appeal to minimalists and trendsetters alike.",
+        "rationale": "Finish specification is a concrete design-execution detail with no PRE antecedent. Aesthetic/quality descriptors do not subsume finish specification.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "to appeal to minimalists and trendsetters alike",
+        "rationale": "Audience-appeal framing is a new conceptual angle. Trendsetters has no PRE antecedent. Aesthetic neighborhood too broad (abstraction ceiling) for Reframed.",
+        "alternative_considered": "Expanded",
+        "confidence": "low"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "boundary_case_expand_vs_new",
+        "vague_to_specific_lineage",
+        "new_removed_recheck_passed",
+        "duplicate_pre_antecedent"
+      ],
+      "coder_notes": "Q1a descriptor_set_special applied. This item is unusually long for a descriptor-set item; the response reads more like a semi-structured paragraph than a clean adjective set, so descriptor extraction required interpretive splitting. The gender-related material is brief and ambiguous in both PRE and POST, leading to low confidence on the Reframed call for Gender neutral -> 'Also with gender.' The men's jewellery focus removal is defensible after re-check but is the weakest call. Critic applied 9 correction(s). Consistency check: \"high-quality, minimalist mood rings\" serves as the antecedent of more than one event. The PRE span likely needs splitting \u2014 review before accepting."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "mahrukh",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Minimalistic",
+        "Fun",
+        "Aesthetic",
+        "Self-identification through zodiac categories",
+        "Playful, modern twist",
+        "High-quality, minimalist mood rings",
+        "Color-changing gimmick product",
+        "Easy to mass produce",
+        "Unique design element per zodiac sign",
+        "Personalized and meaningful connection",
+        "Gender neutral",
+        "Men's jewellery focus"
+      ],
+      "post_concepts": [
+        "Minimalistic",
+        "Fun",
+        "Aesthetic",
+        "Self-identification through zodiac categories",
+        "Playful, modern twist",
+        "Fusion of fun and sophistication",
+        "Premium materials (stainless steel, titanium, sterling silver)",
+        "Durable, not a disposable novelty",
+        "Assigned meanings to each mood color aligned with zodiac traits",
+        "Subtle zodiac symbols/constellations etched/embossed for premium look",
+        "Different finishes (matte, brushed, iridescent)",
+        "Appeals to minimalists and trendsetters",
+        "Color-changing gimmick product",
+        "Easy to mass produce",
+        "Unique design element per zodiac sign",
+        "Personalized and meaningful connection",
+        "Gender neutral",
+        "Considers gender dimension"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Fusion of fun and sophistication",
+          "continuity": "weak \u2014 different conceptual domains (audience focus vs positioning)",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "high \u2014 audience vs brand tone",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Premium materials (stainless steel, titanium, sterling silver)",
+          "continuity": "weak \u2014 could be related to men's jewellery positioning but materials are not audience",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Durable, not a disposable novelty",
+          "continuity": "weak \u2014 no direct lineage",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Appeals to minimalists and trendsetters",
+          "continuity": "moderate \u2014 trendsetters could overlap with men's jewellery market",
+          "scope": "narrow overlap",
+          "frame": "audience vs audience",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Considers gender dimension",
+          "continuity": "moderate \u2014 gender audience related",
+          "scope": "partial",
+          "frame": "audience",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Fusion of fun and sophistication",
+          "continuity": "weak",
+          "scope": "no overlap",
+          "frame": "different",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Premium materials",
+          "continuity": "weak \u2014 premium materials may tension with mass production but this is tension not lineage",
+          "scope": "tension",
+          "frame": "different",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Durable, not a disposable novelty",
+          "continuity": "moderate \u2014 both about product longevity/permanence",
+          "scope": "partial",
+          "frame": "production vs quality",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Fusion of fun and sophistication",
+          "continuity": "strong \u2014 sophistication relates to high-quality; fun relates to existing positioning",
+          "scope": "related",
+          "frame": "quality descriptors vs brand tone synthesis",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Premium materials",
+          "continuity": "strong \u2014 materials are a specific dimension of high-quality",
+          "scope": "premium materials is a subset of high-quality",
+          "frame": "descriptor vs material specification",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Color-changing gimmick product",
+          "post": "Durable, not a disposable novelty",
+          "continuity": "moderate \u2014 addresses the longevity concern of gimmick products",
+          "scope": "related",
+          "frame": "product feature vs product quality",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Unique design element per zodiac sign",
+          "post": "Subtle zodiac symbols/constellations etched/embossed",
+          "continuity": "strong \u2014 this is a specific realization of the unique design element concept",
+          "scope": "premium version of unique design element",
+          "frame": "general vs specific design execution",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Personalized and meaningful connection",
+          "post": "Assigned meanings to each mood color aligned with zodiac traits",
+          "continuity": "strong \u2014 color-meaning assignment is a specific mechanism for personalization",
+          "scope": "elaboration of personalization mechanism",
+          "frame": "general personalization vs specific implementation",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Personalized and meaningful connection",
+          "post": "Subtle zodiac symbols/constellations",
+          "continuity": "moderate \u2014 symbols are a personalization mechanism",
+          "scope": "specific personalization",
+          "frame": "general personalization vs design execution",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Gender neutral",
+          "post": "Considers gender dimension",
+          "continuity": "moderate \u2014 both address gender",
+          "scope": "same topic, different framing",
+          "frame": "neutral vs dimensional consideration",
+          "stretch": "low",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Men's jewellery focus",
+          "post": "Fusion of fun and sophistication",
+          "reason": "Different conceptual domains: audience focus vs brand positioning tone. No semantic neighborhood."
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Fusion of fun and sophistication",
+          "reason": "Different conceptual domains: production logistics vs brand positioning."
+        },
+        {
+          "pre": "Easy to mass produce",
+          "post": "Premium materials",
+          "reason": "Conceptual tension rather than lineage; mass production and premium materials pull in opposite directions."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Premium materials (stainless steel, titanium, sterling silver)",
+          "basis": "Materials specification is a specific realization of the high-quality descriptor; subsumption holds."
+        },
+        {
+          "pre": "High-quality, minimalist mood rings",
+          "post": "Fusion of fun and sophistication",
+          "basis": "Sophistication continues the high-quality thread; framing shifts from product descriptor to brand positioning tone."
+        },
+        {
+          "pre": "Color-changing gimmick product",
+          "post": "Durable, not a disposable novelty",
+          "basis": "Durability framing directly addresses the gimmick/quality tension; conceptual lineage in product quality concern."
+        },
+        {
+          "pre": "Unique design element per zodiac sign",
+          "post": "Subtle zodiac symbols/constellations etched/embossed for premium look",
+          "basis": "Specific design execution elaborates the general unique design element claim."
+        },
+        {
+          "pre": "Personalized and meaningful connection",
+          "post": "Assigned meanings to each mood color aligned with zodiac traits",
+          "basis": "Color-meaning assignment is a specific mechanism that elaborates the general personalization claim."
+        },
+        {
+          "pre": "Gender neutral",
+          "post": "Considers gender dimension",
+          "basis": "Gender topic persists; framing shifts from 'neutral' stance to 'dimensional consideration.'"
+        }
+      ],
+      "unmatched_pre": [
+        "Men's jewellery focus"
+      ],
+      "unmatched_post": [
+        "Different finishes (matte, brushed, iridescent)",
+        "Appeals to minimalists and trendsetters"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Men's jewellery focus",
+          "direction": "removed",
+          "nearest_counterpart": "Considers gender dimension",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Men's jewellery focus is an audience/segment concept; 'considers gender dimension' is a framing of gender, not a specification of the men's jewellery audience. No subsumption (men's jewellery is not a subset of 'gender dimension'). Territory differs: market segment vs gender policy. All four transformations fail across genuinely different conceptual roles within the gender topic."
+        },
+        {
+          "concept": "Different finishes (matte, brushed, iridescent)",
+          "direction": "new",
+          "nearest_counterpart": "High-quality, minimalist mood rings",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Finish specification is a specific design-execution detail; 'high-quality, minimalist' is a product descriptor. Finishes are a specific design dimension but not a way-of-being for the descriptor itself. No subsumption. Same broader aesthetic neighborhood exists, but the unit added is a new concrete element rather than a transformation of the existing descriptor."
+        },
+        {
+          "concept": "Appeals to minimalists and trendsetters",
+          "direction": "new",
+          "nearest_counterpart": "Minimalistic",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Minimalistic is an aesthetic descriptor of the product; 'appeals to minimalists and trendsetters' is an audience-appeal claim. The narrow part (minimalists) overlaps with the minimalist aesthetic but trendsetters is a new audience. No clean subsumption: appealing-to-audiences is not a specific way of being minimalist-aesthetic. Frame shift from product aesthetic to audience appeal. Reframed is possible but the audience dimension (trendsetters) is genuinely new."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "The post-response retains the pre-response content and adds multiple new content blocks: positioning as fusion of fun and sophistication, premium materials specification, durability reinforcement, assigned color meanings, zodiac symbol/constellation design direction, and finish experimentation. These additions span multiple new clauses and explanatory passages that meaningfully expand the brand identity beyond the pre-response."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "high-quality, minimalist mood rings",
+        "post_evidence": "Use materials like high-quality stainless steel, titanium, or sterling silver to elevate the product.",
+        "rationale": "Premium materials specification is a specific way of being high-quality. Subsumption holds: 'stainless steel/titanium/sterling silver' is a specific instantiation of the high-quality descriptor. PRE is generic enough that a concrete material specification qualifies as Narrowed.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "high-quality, minimalist mood rings",
+        "post_evidence": "Position the rings as a fusion of fun and sophistication.",
+        "rationale": "Pre-frame: product quality descriptor (high-quality, minimalist). Post-frame: brand positioning tone (fun + sophistication fusion). Same territory (brand character) but the organizing frame shifts from product-descriptor to positioning-tone synthesis. Sophistication continues the high-quality thread but fun-and-sophistication is a different conceptual angle on the brand's identity.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Uses a 'gimmick' product like mood rings, that change color, easy to mass produce.",
+        "post_evidence": "Reinforce durability so that the rings don't feel like a disposable novelty.",
+        "rationale": "Pre-frame: product feature/format (gimmick, mass production). Post-frame: product quality/permanence (durable, non-disposable). The frame shifts from describing the product's nature to addressing its longevity concern. The conceptual continuity exists but the organizing frame changes from feature description to quality reassurance.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Each ring features a unique design element or color palette inspired by its corresponding zodiac sign",
+        "post_evidence": "Incorporate subtle zodiac symbols or constellations on each ring, etched or embossed for a premium look.",
+        "rationale": "POST keeps the PRE concept intact (unique design element per zodiac sign) and adds a specific design execution detail (etched/embossed symbols for premium look). The frame is unchanged: design differentiation per zodiac sign. Detail is added within the same frame.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "creating a personalized and meaningful connection",
+        "post_evidence": "Assign specific meanings to each mood color (e.g., blue = calm, green = focused) that align with the personality traits of the zodiac sign.",
+        "rationale": "POST retains the personalization/meaningful-connection concept and specifies the mechanism (color-meaning assignments aligned with zodiac personality traits). Same conceptual frame (personalization via zodiac), detail added.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Gender neutral",
+        "post_evidence": "Also with gender.",
+        "rationale": "Pre-frame: a declared gender-neutral stance. Post-frame: acknowledging gender as a dimension to consider. The conceptual emphasis shifts from a definitive neutrality claim to a more open stance that gender is a variable to attend to. Same underlying topic (gender), shifted framing.",
+        "alternative_considered": "Removed+New",
+        "confidence": "low"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Another I had was focusing on men's jewellery. It's more popular now, becoming a standard for minimalistic, work and school appropriate jewelry.",
+        "post_evidence": null,
+        "rationale": "After searching the full POST response, the nearest counterpart is 'Also with gender.' This addresses gender as a topic but does not specifically retain the men's-jewellery segment/audience focus. Men's jewellery is an audience-segment concept; 'considers gender dimension' is a framing of gender policy. No subsumption (men's jewellery is not a specific way of being 'gender dimensional'). No elaboration or expansion. Conceptual roles differ: market segment vs gender policy stance. Removed after re-check.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Experiment with finishes\u2014matte, brushed, or iridescent\u2014to appeal to minimalists and trendsetters alike.",
+        "rationale": "After searching the full PRE response, the nearest counterpart is 'Minimalistic' (aesthetic descriptor) or 'high-quality, minimalist mood rings.' Neither supplies the finish-execution detail or the trendsetter audience framing. 'Matte, brushed, or iridescent finishes' is a concrete design-execution element with no antecedent in PRE. No subsumption, no elaboration, no expansion from a PRE seed. The finishes concept is genuinely new design direction.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "to appeal to minimalists and trendsetters alike",
+        "rationale": "After searching the full PRE response, the nearest counterpart is 'Minimalistic' but minimalists as an audience is not subsumed by the minimalist aesthetic. 'Trendsetters' has no antecedent in PRE. The audience-appeal framing is a new conceptual angle. No subsumption, no clear expansion seed.",
+        "alternative_considered": "Expanded",
+        "confidence": "low"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "boundary_case_expand_vs_new",
+        "vague_to_specific_lineage"
+      ],
+      "coder_notes": "Q1a descriptor_set_special applied. This item is unusually long for a descriptor-set item; the response reads more like a semi-structured paragraph than a clean adjective set, so descriptor extraction required interpretive splitting. The gender-related material is brief and ambiguous in both PRE and POST, leading to low confidence on the Reframed call for Gender neutral -> 'Also with gender.' The men's jewellery focus removal is defensible after re-check but is the weakest call."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "High-quality, minimalist mood rings",
+        "post": "Premium materials (stainless steel, titanium, sterling silver)",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Pass 1 is correct. Subsumption holds: specifying premium materials is a specific way of being high-quality. PRE is generic enough for Narrowed."
+      },
+      {
+        "type": "confirm",
+        "pre": "High-quality, minimalist mood rings",
+        "post": "Fusion of fun and sophistication",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Pass 1 is correct. Fun and sophistication are sibling brand-tone qualities, not a subset of the high-quality/minimalist descriptor. Frame shifts from product descriptor to positioning tone synthesis."
+      },
+      {
+        "type": "confirm",
+        "pre": "Color-changing gimmick product",
+        "post": "Durable, not a disposable novelty",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Pass 1 is correct. Product-feature frame shifts to product-quality/permanence frame. Same broader product-character territory, different organizing angle. Not pure elaboration because the frame changes from gimmick/feature to longevity/reassurance."
+      },
+      {
+        "type": "confirm",
+        "pre": "Unique design element per zodiac sign",
+        "post": "Subtle zodiac symbols/constellations etched/embossed for premium look",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Pass 1 is correct. Same underlying concept (unique zodiac design element) with concrete execution detail added. Frame unchanged."
+      },
+      {
+        "type": "confirm",
+        "pre": "Personalized and meaningful connection",
+        "post": "Assigned meanings to each mood color aligned with zodiac traits",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Pass 1 is correct. Personalization frame preserved; specific color-meaning mechanism added as detail."
+      },
+      {
+        "type": "recode",
+        "pre": "Gender neutral",
+        "post": "Considers gender dimension",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Pass 1 code is correct. Confidence was flagged low but the Reframed verdict itself is defensible: gender-topic persists, frame shifts from declared neutrality to open dimensional consideration. Confirming the code while noting the boundary nature. Alternative Removed+New was considered but the shared gender topic neighborhood is specific enough to justify Reframed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Different finishes (matte, brushed, iridescent)",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Pass 1 is correct. Finish specification is a concrete design-execution detail with no specific PRE antecedent. Nearest candidates (Minimalistic, high-quality minimalist mood rings) are aesthetic/quality descriptors, not finish specifications. No subsumption, no elaboration seed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Appeals to minimalists and trendsetters",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Pass 1 is correct. Audience-appeal framing is a new conceptual angle. Trendsetters has no PRE antecedent. Minimalists loosely overlaps with Minimalistic aesthetic but the audience-claim frame is not a transformation of the aesthetic descriptor. The neighborhood (identity/self-presentation) is too broad; this is a genuinely new audience-direction addition."
+      },
+      {
+        "type": "confirm",
+        "pre": "Men's jewellery focus",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Pass 1 is correct. Tested Narrowed/Reframed/Elaborated/Expanded against nearest POST successors. 'Considers gender dimension' is a gender-policy frame, not a men's-jewellery audience-segment frame. No subsumption: men's jewellery is not a specific way of being gender-dimensional. Frame differs (market segment vs gender policy stance). Removed stands."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "High-quality, minimalist mood rings",
+        "post": "Premium materials (stainless steel, titanium, sterling silver)",
+        "basis": "Materials specification is a specific realization of the high-quality descriptor; subsumption holds."
+      },
+      {
+        "pre": "High-quality, minimalist mood rings",
+        "post": "Fusion of fun and sophistication",
+        "basis": "Sophistication continues the high-quality thread; framing shifts from product descriptor to brand positioning tone."
+      },
+      {
+        "pre": "Color-changing gimmick product",
+        "post": "Durable, not a disposable novelty",
+        "basis": "Durability framing addresses the gimmick/quality tension; product-character territory, shifted frame."
+      },
+      {
+        "pre": "Unique design element per zodiac sign",
+        "post": "Subtle zodiac symbols/constellations etched/embossed for premium look",
+        "basis": "Specific design execution elaborates the general unique design element claim."
+      },
+      {
+        "pre": "Personalized and meaningful connection",
+        "post": "Assigned meanings to each mood color aligned with zodiac traits",
+        "basis": "Color-meaning assignment is a specific mechanism that elaborates the general personalization claim."
+      },
+      {
+        "pre": "Gender neutral",
+        "post": "Considers gender dimension",
+        "basis": "Gender topic persists; framing shifts from neutral stance to dimensional consideration."
+      }
+    ],
+    "unmatched_pre": [
+      "Men's jewellery focus"
+    ],
+    "unmatched_post": [
+      "Different finishes (matte, brushed, iridescent)",
+      "Appeals to minimalists and trendsetters"
+    ],
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "high-quality, minimalist mood rings",
+        "post_evidence": "Use materials like high-quality stainless steel, titanium, or sterling silver to elevate the product.",
+        "rationale": "Premium materials specification is a specific way of being high-quality. Subsumption holds.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "high-quality, minimalist mood rings",
+        "post_evidence": "Position the rings as a fusion of fun and sophistication.",
+        "rationale": "Pre-frame: product quality descriptor. Post-frame: brand positioning tone synthesis. Same territory, shifted organizing frame.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Uses a 'gimmick' product like mood rings, that change color, easy to mass produce.",
+        "post_evidence": "Reinforce durability so that the rings don't feel like a disposable novelty.",
+        "rationale": "Frame shifts from product feature/format to product quality/permanence. Same product-character territory, different organizing angle.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Each ring features a unique design element or color palette inspired by its corresponding zodiac sign",
+        "post_evidence": "Incorporate subtle zodiac symbols or constellations on each ring, etched or embossed for a premium look.",
+        "rationale": "Same zodiac-design frame preserved; concrete execution detail added.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "creating a personalized and meaningful connection",
+        "post_evidence": "Assign specific meanings to each mood color (e.g., blue = calm, green = focused) that align with the personality traits of the zodiac sign.",
+        "rationale": "Personalization frame intact; color-meaning mechanism specified as detail.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Gender neutral",
+        "post_evidence": "Also with gender.",
+        "rationale": "Gender topic persists; frame shifts from declared neutrality to dimensional consideration. Shared specific neighborhood (gender positioning).",
+        "alternative_considered": "Removed+New",
+        "confidence": "low"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Another I had was focusing on men's jewellery. It's more popular now, becoming a standard for minimalistic, work and school appropriate jewelry.",
+        "post_evidence": null,
+        "rationale": "Men's jewellery is an audience-segment concept; nearest POST successors (Considers gender dimension) are gender-policy frames, not audience-segment specifications. No subsumption, no elaboration/expansion. Different conceptual roles within the gender topic.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Experiment with finishes\u2014matte, brushed, or iridescent\u2014to appeal to minimalists and trendsetters alike.",
+        "rationale": "Finish specification is a concrete design-execution detail with no PRE antecedent. Aesthetic/quality descriptors do not subsume finish specification.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "to appeal to minimalists and trendsetters alike",
+        "rationale": "Audience-appeal framing is a new conceptual angle. Trendsetters has no PRE antecedent. Aesthetic neighborhood too broad (abstraction ceiling) for Reframed.",
+        "alternative_considered": "Expanded",
+        "confidence": "low"
+      }
+    ]
+  },
+  "skipCritic": false
+}

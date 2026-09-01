@@ -1,0 +1,94 @@
+{
+  "coding_unit": {
+    "student_id": "nartay-ualikhan",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "TikTok as social channel",
+      "Instagram as social channel",
+      "SSENSE as commerce platform"
+    ],
+    "post_concepts": [
+      "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+      "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "TikTok as social channel",
+        "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+        "continuity": "same platform (TikTok); POST adds Instagram and elaborates purpose",
+        "scope": "POST broadens to include Instagram alongside TikTok and adds functional purposes",
+        "frame": "functional/marketing frame (brand identity, engagement, storytelling, visual appeal, high-end consumers)",
+        "stretch": "PRE mentions TikTok and Instagram together as 'social channels'; POST retains both with added purpose elaboration",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram as social channel",
+        "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+        "continuity": "same platform (Instagram); POST elaborates purpose",
+        "scope": "same scope, with elaboration",
+        "frame": "functional/marketing frame",
+        "stretch": "Instagram already appears alongside TikTok in PRE",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "SSENSE as commerce platform",
+        "post": "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience",
+        "continuity": "same platform (SSENSE)",
+        "scope": "same scope",
+        "frame": "strategic positioning frame (luxury marketplace, target audience alignment)",
+        "stretch": "minimal - PRE is label-only, POST adds strategic purpose",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "TikTok as social channel",
+        "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+        "basis": "TikTok explicitly carried over; Instagram also retained; POST adds functional elaboration"
+      },
+      {
+        "pre": "SSENSE as commerce platform",
+        "post": "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience",
+        "basis": "SSENSE explicitly carried over; POST adds strategic positioning rationale"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST retains all platforms listed in PRE (TikTok, Instagram, SSENSE) but adds substantial functional and strategic elaboration for each: purpose statements for content channels (brand identity, engagement, storytelling, visual appeal, attracting high-end consumers) and strategic positioning rationale for the commerce platform (curated luxury marketplace, target audience alignment). This represents a meaningful but contained expansion of content, adding explanatory detail rather than transforming the response scope."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Social channels - TikTok and Instagram",
+      "post_evidence": "TikTok & Instagram \u2013 to establish brand identity, drive engagement, and attract high-end consumers through storytelling and visual appeal",
+      "rationale": "Both TikTok and Instagram are retained from PRE. POST keeps the platform identity intact and adds functional detail (brand identity, engagement, storytelling, visual appeal, high-end consumers) within the same conceptual frame of 'content channels for branding.' Frame persists: these are still platforms for branding presence, now with stated purposes.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Commerce-based platform - SSENSE",
+      "post_evidence": "SSENSE \u2013 positioning within a curated luxury marketplace that aligns with our target audience",
+      "rationale": "SSENSE is explicitly retained as the commerce platform. POST adds strategic positioning rationale (curated luxury marketplace, target audience alignment) within the same conceptual frame of 'commerce-based platform.' Frame persists: still identifying SSENSE as a commerce channel, now with strategic context.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "Both PRE and POST enumerate the same set of platforms (TikTok, Instagram, SSENSE). The transformation is purely elaboration of purpose/positioning for each platform. No platform was added or removed. Structural Development is Moderate Addition due to added explanatory clauses without transformation of response scope."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}

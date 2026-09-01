@@ -1,0 +1,102 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "TikTok"
+    ],
+    "post_concepts": [
+      "TikTok",
+      "Amazon storefront (commerce platform)"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "TikTok",
+        "post": "TikTok",
+        "continuity": "Identical platform choice retained",
+        "scope": "Identical scope (single platform)",
+        "frame": "Same content-based platform framing",
+        "stretch": "No stretch \u2014 direct identity",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "Amazon storefront (commerce platform)",
+        "continuity": "Weak \u2014 different platform types (content vs commerce)",
+        "scope": "Different scope categories (content-based vs commerce-based)",
+        "frame": "Different organizing frame (social content platform vs commerce channel)",
+        "stretch": "High stretch \u2014 pairing only via topic of branding platforms",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "TikTok",
+        "post": "Amazon storefront",
+        "reason": "Different conceptual domains within the platform category: TikTok is a content-based social platform; Amazon storefront is a commerce-based sales channel. Pairing as a single transformation would be a forced, different-domain stretch. The two belong on separate tracks."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "TikTok",
+        "post": "TikTok",
+        "basis": "Direct lexical and conceptual continuity; the same content-based platform is retained across responses."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Amazon storefront (commerce platform)"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Amazon storefront (commerce platform)",
+        "direction": "new",
+        "nearest_counterpart": "TikTok",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE counterpart is TikTok. Tested Narrowed: 'Amazon storefront is a specific way of being TikTok' \u2014 FALSE, they are different platform types (content-based vs commerce-based). Tested Reframed: do both occupy the same semantic territory with a shifted frame? No \u2014 one is social/content distribution, the other is commerce/sales, different functional domains. Tested Elaborated: does POST keep TikTok intact and add detail? No \u2014 POST introduces a second, distinct platform rather than elaborating TikTok. Tested Expanded: does POST broaden TikTok into a broader multi-platform distribution strategy? The POST mentions TikTok linking to an Amazon storefront, which could be read as expanding TikTok into a funnel that drives commerce. However, Amazon storefront is itself a separately chosen commerce platform, not a broadened version of TikTok. The two platforms retain distinct functional roles. Per the expansion test, the seed would need to be TikTok broadened; instead TikTok remains a content platform while Amazon is a separately added commerce platform. The companion pair (TikTok retained + Amazon added) is better represented as Elaborated on the retained TikTok and New for the added commerce channel. Outcome: kept as New, with the caveat that the broader POST clause adds linking behavior (handled below as an elaboration of TikTok)."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The PRE is a single short clause naming one platform. The POST retains TikTok and adds a second clause specifying an Amazon storefront plus the linking mechanism between the two platforms. Net: one meaningful clause added (Amazon storefront + the linking detail), which constitutes a Moderate Addition rather than Significant \u2014 the original idea is preserved and extended by one component."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "TikTok for now",
+      "post_evidence": "TikTok linking it to an amazon storefront",
+      "rationale": "TikTok is retained as the chosen content platform, and the POST adds a new behavioral detail: it now serves as the entry point that links to a commerce storefront. The platform identity is unchanged; POST adds detail about TikTok's role in a funnel. The 'linking it to' framing extends what TikTok does within the strategy without reconceiving the platform itself. Frame persistence test: the pre-version's framing of TikTok as the primary platform still accurately describes the post-version. Substitution test: replacing the pre-expression with the post-expression would not require the surrounding context to change in a frame-shifting way.",
+      "alternative_considered": "Expanded (TikTok's distribution role broadened from standalone posting to funnel driver) \u2014 rejected because the platform identity is intact rather than reconceived; the addition is a behavioral qualifier, not a scope expansion of the platform concept.",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "amazon storefront",
+      "rationale": "The Amazon storefront is a commerce-based platform that has no antecedent in the PRE. Nearest PRE counterpart is TikTok, but TikTok and an Amazon storefront occupy different functional domains (content distribution vs commerce sales), so all four transformation codes fail: Narrowed (not a subtype), Reframed (different semantic territory, not a shifted frame on the same territory), Elaborated (not a detail added to TikTok), Expanded (TikTok is not broadened into a storefront; it remains a distinct content platform). Per MANDATORY-NEW-REMOVED-RECHECK, this New survives.",
+      "alternative_considered": "Expanded (TikTok broadened into a multi-platform commerce-adjacent strategy) \u2014 rejected because Amazon storefront is a separately chosen commerce platform, not a broadened version of TikTok; the two retain distinct functional roles.",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "The TikTok\u2192TikTok event is coded as Elaborated (adding the linking-to-storefront behavior) rather than purely a no-change identity match, because the POST adds meaningful propositional content about what TikTok does. Amazon storefront is coded as New after the mandatory re-check confirmed no defensible transformation from TikTok. The two events are kept distinct to honor the one-PRE-unit-one-event invariant: TikTok-as-platform is matched to TikTok-as-platform; the added commerce platform has no PRE antecedent."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

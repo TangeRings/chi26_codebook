@@ -1,0 +1,2049 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "The pre-response is a single clause with four short descriptors. The post-response retains those descriptors, slightly elaborates two, and adds a full second sentence specifying inspiration source, material composition, an exclusion (not costume jewelry), a temporal register (timeless yet modern), and a functional positioning (elevate everyday style with ease). Multiple new clauses and explanatory passages have been added; the overall scope of the response is meaningfully larger.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "understated elegance",
+        "minimalist",
+        "timeless",
+        "refined luxury"
+      ],
+      "postConcepts": [
+        "understated elegance",
+        "minimalist design",
+        "refined luxury",
+        "late 1900s fine jewelry inspiration",
+        "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "not costume jewelry",
+        "timeless yet modern",
+        "sophisticated pieces",
+        "elevate everyday style with ease"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "understated elegance",
+          "post": "understated elegance",
+          "continuity": "identical phrase",
+          "scope": "same",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "minimalist design",
+          "continuity": "weak \u2014 different concept",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "none",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "refined luxury",
+          "continuity": "partial \u2014 both signal restrained luxury",
+          "scope": "different facet",
+          "frame": "related aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "none \u2014 concrete inspiration source",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "not costume jewelry",
+          "continuity": "partial \u2014 both signal quality/anti-tackiness",
+          "scope": "different",
+          "frame": "related but tangential",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "timeless yet modern",
+          "continuity": "partial \u2014 elegance shares timeless register",
+          "scope": "different",
+          "frame": "aesthetic register",
+          "verdict": "weak"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "sophisticated pieces",
+          "continuity": "partial \u2014 sophistication \u2248 elegance",
+          "scope": "overlapping",
+          "frame": "aesthetic register",
+          "verdict": "weak"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "elevate everyday style with ease",
+          "continuity": "partial \u2014 elevate/ease share aspirational register",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "understated elegance",
+          "continuity": "partial \u2014 minimalist style overlaps with understated",
+          "scope": "overlapping",
+          "frame": "related aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "minimalist design",
+          "continuity": "direct \u2014 minimalist becomes minimalist design",
+          "scope": "same with slight elaboration",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "refined luxury",
+          "continuity": "partial \u2014 both lean restrained",
+          "scope": "different facets",
+          "frame": "related aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "not costume jewelry",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "timeless yet modern",
+          "continuity": "partial \u2014 minimalism often paired with timeless",
+          "scope": "related",
+          "frame": "adjacent aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "sophisticated pieces",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "elevate everyday style with ease",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "understated elegance",
+          "continuity": "partial \u2014 timelessness overlaps with elegance",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "minimalist design",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "refined luxury",
+          "continuity": "partial \u2014 luxury often signals timelessness",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "partial \u2014 fine jewelry is a timeless reference",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "partial \u2014 quality materials persist across time",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "not costume jewelry",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "timeless yet modern",
+          "continuity": "direct \u2014 timeless is preserved and added to with 'yet modern'",
+          "scope": "same",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "sophisticated pieces",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "elevate everyday style with ease",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "understated elegance",
+          "continuity": "partial \u2014 both signal restrained luxury",
+          "scope": "related",
+          "frame": "adjacent aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "minimalist design",
+          "continuity": "partial \u2014 refined luxury often minimal",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "refined luxury",
+          "continuity": "identical phrase",
+          "scope": "same",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "partial \u2014 fine jewelry is a luxury domain",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "partial \u2014 luxury is supported by quality materials",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "not costume jewelry",
+          "continuity": "partial \u2014 refined luxury is the antithesis of costume",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "timeless yet modern",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "continuity": "strong \u2014 sophistication and luxury share territory",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "elevate everyday style with ease",
+          "continuity": "partial \u2014 luxury positioning",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "understated elegance",
+          "post": "minimalist design",
+          "reason": "different descriptors, no defensible lineage"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "late 1900s fine jewelry inspiration",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "high-quality materials",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "not costume jewelry",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "sophisticated pieces",
+          "reason": "tangentially related at best"
+        },
+        {
+          "pre": "minimalist",
+          "post": "understated elegance",
+          "reason": "weak overlap, not the strongest successor; minimalist\u2192minimalist design is direct"
+        },
+        {
+          "pre": "minimalist",
+          "post": "refined luxury",
+          "reason": "different descriptors; minimalist is already matched to minimalist design"
+        },
+        {
+          "pre": "minimalist",
+          "post": "late 1900s fine jewelry inspiration",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "minimalist",
+          "post": "high-quality materials",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "minimalist",
+          "post": "timeless yet modern",
+          "reason": "timeless is the better predecessor for 'timeless yet modern'"
+        },
+        {
+          "pre": "minimalist",
+          "post": "sophisticated pieces",
+          "reason": "weak adjacency; better matches exist"
+        },
+        {
+          "pre": "timeless",
+          "post": "understated elegance",
+          "reason": "timeless already matched to 'timeless yet modern'"
+        },
+        {
+          "pre": "timeless",
+          "post": "late 1900s fine jewelry inspiration",
+          "reason": "weak adjacency; inspiration source is not a successor of timeless"
+        },
+        {
+          "pre": "timeless",
+          "post": "high-quality materials",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "reason": "adjacency only; not a strong enough lineage to code as transformation"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "understated elegance",
+          "reason": "refined luxury is already matched to itself"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "understated elegance",
+          "post": "understated elegance",
+          "basis": "identical phrase preserved"
+        },
+        {
+          "pre": "minimalist",
+          "post": "minimalist design",
+          "basis": "minimalist preserved with mild noun addition (Elaborated)"
+        },
+        {
+          "pre": "timeless",
+          "post": "timeless yet modern",
+          "basis": "timeless preserved and augmented with complementary register (Elaborated)"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "refined luxury",
+          "basis": "identical phrase preserved"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "basis": "same semantic territory (restrained-upscale quality) with shifted frame from brand-positioning to product-characterization (Reframed)"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [
+        "late 1900s fine jewelry inspiration",
+        "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "not costume jewelry",
+        "elevate everyday style with ease"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "late 1900s fine jewelry inspiration",
+          "direction": "new",
+          "nearestCounterpart": "timeless",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: a historical inspiration source is not a specific way of being timeless. Reframed: no shared semantic frame \u2014 inspiration source vs timelessness-as-quality. Elaborated: timeless does not contain the seed for a concrete historical reference. Expanded: timeless does not broaden into a specific era. All four fail; concrete referent introduced."
+        },
+        {
+          "concept": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "direction": "new",
+          "nearestCounterpart": "refined luxury",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: specific materials are not a specific way of being refined luxury. Reframed: different frames (material composition vs luxury positioning). Elaborated: refined luxury does not contain material seed. Expanded: refined luxury does not broaden into material specifics. All four fail; concrete material specification is genuinely new."
+        },
+        {
+          "concept": "not costume jewelry",
+          "direction": "new",
+          "nearestCounterpart": "refined luxury",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: an exclusion category is not a specific way of being refined luxury. Reframed: anti-costume framing vs luxury positioning \u2014 different frames. Elaborated/Expanded: refined luxury does not contain the seed for a categorical exclusion. All four fail."
+        },
+        {
+          "concept": "sophisticated pieces",
+          "direction": "new",
+          "nearestCounterpart": "refined luxury",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Reframed: pre-frame = luxury positioning (refined luxury); post-frame = product-characterization (sophisticated pieces). Same semantic territory (restrained-upscale quality), but the organizing frame shifts from positioning-as-trait to the character of the products themselves. Sophisticated is a sibling descriptor, not a subtype of refined luxury. Testing Narrowed first: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE \u2014 sophisticated describes the artifacts, refined luxury describes the brand register. So Reframed holds at tier 2."
+        },
+        {
+          "concept": "elevate everyday style with ease",
+          "direction": "new",
+          "nearestCounterpart": "understated elegance",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: a usage-positioning claim is not a specific way of being understated elegance. Reframed: different frames (functional benefit for the wearer vs aesthetic descriptor of the brand). Elaborated/Expanded: no seed in understated elegance for this usage-outcome claim. All four fail; new functional positioning added."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "understated elegance",
+          "post": "understated elegance",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical phrase preserved; correct to leave uncoded or as same-same match."
+        },
+        {
+          "type": "confirm",
+          "pre": "minimalist",
+          "post": "minimalist design",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "Core descriptor preserved; 'design' is a noun addition specifying domain, not a scope restriction or frame shift. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "timeless",
+          "post": "timeless yet modern",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "PRE preserved verbatim; 'yet modern' augments with complementary register, not a frame shift or scope restriction. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "refined luxury",
+          "post": "refined luxury",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical phrase preserved."
+        },
+        {
+          "type": "confirm",
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Lineage recovered in pass 1 with correct code. Same semantic territory (restrained-upscale quality), sibling descriptors, frames differ (brand-positioning register vs product-characterization). Subsumption test fails: sophisticated pieces \u2260 a specific way of being refined luxury. Reframed is the right tier-2 verdict."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "late 1900s fine jewelry inspiration",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Concrete historical-era inspiration source has no defensible lineage against timeless or any other PRE concept. All four ladder tiers fail; New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Specific material composition has no antecedent in PRE; refined luxury does not contain the seed for material specifics. New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "not costume jewelry",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Exclusion framing is not a subtype, frame-shift, elaboration, or broadening of refined luxury or any PRE concept. New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "elevate everyday style with ease",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Functional/usage-positioning benefit claim has no defensible lineage against understated elegance or any PRE concept. New is correct."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6ug5y1aozr3hxxzp",
+        "code": "Elaborated",
+        "preEvidence": "minimalist",
+        "postEvidence": "minimalist design",
+        "rationale": "PRE descriptor preserved; 'design' specifies the domain without restricting scope or shifting the organizing frame.",
+        "confidence": "high",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6ug5ywzxjlws3rxq",
+        "code": "Elaborated",
+        "preEvidence": "timeless",
+        "postEvidence": "timeless yet modern",
+        "rationale": "PRE preserved verbatim; 'yet modern' adds a complementary register without shifting the timelessness-as-organizing-idea frame.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6ug5ysxldrhhpar",
+        "code": "Reframed",
+        "preEvidence": "refined luxury",
+        "postEvidence": "sophisticated pieces",
+        "rationale": "Pre-frame = brand-as-luxury-positioning register; post-frame = product-as-characterization. Same restrained-upscale quality territory, but the organizing lens shifts from brand register to the character of the products. Subsumption test: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE (sophisticated describes artifacts; refined luxury describes brand register) \u2192 tier 2 holds.",
+        "confidence": "medium",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6ug5y0cmqw62hql4",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "late 1900s fine jewelry inspiration",
+        "rationale": "Concrete historical-era inspiration source has no defensible antecedent in PRE. Tested against timeless \u2014 all four ladder tiers fail.",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded"
+      },
+      {
+        "instanceId": "mti6ug5yu58oy4znum",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "rationale": "Specific material composition has no antecedent in PRE. Refined luxury does not contain the seed for material specifics.",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded"
+      },
+      {
+        "instanceId": "mti6ug5yotz487j3ta",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "not costume jewelry",
+        "rationale": "Exclusion framing has no antecedent in PRE. Not a subtype, frame-shift, elaboration, or broadening of refined luxury.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6ug5y7tz0txhp1ux",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "elevate everyday style with ease",
+        "rationale": "Functional/usage-positioning benefit claim has no antecedent in PRE. Tested against understated elegance \u2014 all four ladder tiers fail.",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "The Reframed code for refined luxury \u2192 sophisticated pieces sits close to New+Removed; the sibling descriptor reading is defensible but not certain. Alternative reading (sophisticated pieces as an independent new claim, refined luxury removed) was considered. The shared semantic territory of restrained-upscale quality and the clear frame shift from brand-register to product-characterization support Reframed at tier 2, but coder confidence is medium rather than high. Critic applied 9 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "julia",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "understated elegance",
+        "minimalist",
+        "timeless",
+        "refined luxury"
+      ],
+      "post_concepts": [
+        "understated elegance",
+        "minimalist design",
+        "refined luxury",
+        "late 1900s fine jewelry inspiration",
+        "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "not costume jewelry",
+        "timeless yet modern",
+        "sophisticated pieces",
+        "elevate everyday style with ease"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "understated elegance",
+          "post": "understated elegance",
+          "continuity": "identical phrase",
+          "scope": "same",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "minimalist design",
+          "continuity": "weak \u2014 different concept",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "none",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "refined luxury",
+          "continuity": "partial \u2014 both signal restrained luxury",
+          "scope": "different facet",
+          "frame": "related aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "none \u2014 concrete inspiration source",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "not costume jewelry",
+          "continuity": "partial \u2014 both signal quality/anti-tackiness",
+          "scope": "different",
+          "frame": "related but tangential",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "timeless yet modern",
+          "continuity": "partial \u2014 elegance shares timeless register",
+          "scope": "different",
+          "frame": "aesthetic register",
+          "verdict": "weak"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "sophisticated pieces",
+          "continuity": "partial \u2014 sophistication \u2248 elegance",
+          "scope": "overlapping",
+          "frame": "aesthetic register",
+          "verdict": "weak"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "elevate everyday style with ease",
+          "continuity": "partial \u2014 elevate/ease share aspirational register",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "understated elegance",
+          "continuity": "partial \u2014 minimalist style overlaps with understated",
+          "scope": "overlapping",
+          "frame": "related aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "minimalist design",
+          "continuity": "direct \u2014 minimalist becomes minimalist design",
+          "scope": "same with slight elaboration",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "refined luxury",
+          "continuity": "partial \u2014 both lean restrained",
+          "scope": "different facets",
+          "frame": "related aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "not costume jewelry",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "timeless yet modern",
+          "continuity": "partial \u2014 minimalism often paired with timeless",
+          "scope": "related",
+          "frame": "adjacent aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "sophisticated pieces",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "elevate everyday style with ease",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "understated elegance",
+          "continuity": "partial \u2014 timelessness overlaps with elegance",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "minimalist design",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "refined luxury",
+          "continuity": "partial \u2014 luxury often signals timelessness",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "partial \u2014 fine jewelry is a timeless reference",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "partial \u2014 quality materials persist across time",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "not costume jewelry",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "timeless yet modern",
+          "continuity": "direct \u2014 timeless is preserved and added to with 'yet modern'",
+          "scope": "same",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "sophisticated pieces",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "elevate everyday style with ease",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "understated elegance",
+          "continuity": "partial \u2014 both signal restrained luxury",
+          "scope": "related",
+          "frame": "adjacent aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "minimalist design",
+          "continuity": "partial \u2014 refined luxury often minimal",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "refined luxury",
+          "continuity": "identical phrase",
+          "scope": "same",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "partial \u2014 fine jewelry is a luxury domain",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "partial \u2014 luxury is supported by quality materials",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "not costume jewelry",
+          "continuity": "partial \u2014 refined luxury is the antithesis of costume",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "timeless yet modern",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "continuity": "strong \u2014 sophistication and luxury share territory",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "elevate everyday style with ease",
+          "continuity": "partial \u2014 luxury positioning",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "understated elegance",
+          "post": "minimalist design",
+          "reason": "different descriptors, no defensible lineage"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "late 1900s fine jewelry inspiration",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "high-quality materials",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "not costume jewelry",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "sophisticated pieces",
+          "reason": "tangentially related at best"
+        },
+        {
+          "pre": "minimalist",
+          "post": "understated elegance",
+          "reason": "weak overlap, not the strongest successor; minimalist\u2192minimalist design is direct"
+        },
+        {
+          "pre": "minimalist",
+          "post": "refined luxury",
+          "reason": "different descriptors; minimalist is already matched to minimalist design"
+        },
+        {
+          "pre": "minimalist",
+          "post": "late 1900s fine jewelry inspiration",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "minimalist",
+          "post": "high-quality materials",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "minimalist",
+          "post": "timeless yet modern",
+          "reason": "timeless is the better predecessor for 'timeless yet modern'"
+        },
+        {
+          "pre": "minimalist",
+          "post": "sophisticated pieces",
+          "reason": "weak adjacency; better matches exist"
+        },
+        {
+          "pre": "timeless",
+          "post": "understated elegance",
+          "reason": "timeless already matched to 'timeless yet modern'"
+        },
+        {
+          "pre": "timeless",
+          "post": "late 1900s fine jewelry inspiration",
+          "reason": "weak adjacency; inspiration source is not a successor of timeless"
+        },
+        {
+          "pre": "timeless",
+          "post": "high-quality materials",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "reason": "adjacency only; not a strong enough lineage to code as transformation"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "understated elegance",
+          "reason": "refined luxury is already matched to itself"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "understated elegance",
+          "post": "understated elegance",
+          "basis": "identical phrase preserved"
+        },
+        {
+          "pre": "minimalist",
+          "post": "minimalist design",
+          "basis": "minimalist preserved with mild noun addition (Elaborated)"
+        },
+        {
+          "pre": "timeless",
+          "post": "timeless yet modern",
+          "basis": "timeless preserved and augmented with complementary register (Elaborated)"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "refined luxury",
+          "basis": "identical phrase preserved"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "basis": "same semantic territory (restrained-upscale quality) with shifted frame from brand-positioning to product-characterization (Reframed)"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "late 1900s fine jewelry inspiration",
+        "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "not costume jewelry",
+        "elevate everyday style with ease"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "late 1900s fine jewelry inspiration",
+          "direction": "new",
+          "nearest_counterpart": "timeless",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: a historical inspiration source is not a specific way of being timeless. Reframed: no shared semantic frame \u2014 inspiration source vs timelessness-as-quality. Elaborated: timeless does not contain the seed for a concrete historical reference. Expanded: timeless does not broaden into a specific era. All four fail; concrete referent introduced."
+        },
+        {
+          "concept": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "direction": "new",
+          "nearest_counterpart": "refined luxury",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: specific materials are not a specific way of being refined luxury. Reframed: different frames (material composition vs luxury positioning). Elaborated: refined luxury does not contain material seed. Expanded: refined luxury does not broaden into material specifics. All four fail; concrete material specification is genuinely new."
+        },
+        {
+          "concept": "not costume jewelry",
+          "direction": "new",
+          "nearest_counterpart": "refined luxury",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: an exclusion category is not a specific way of being refined luxury. Reframed: anti-costume framing vs luxury positioning \u2014 different frames. Elaborated/Expanded: refined luxury does not contain the seed for a categorical exclusion. All four fail."
+        },
+        {
+          "concept": "sophisticated pieces",
+          "direction": "new",
+          "nearest_counterpart": "refined luxury",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Reframed: pre-frame = luxury positioning (refined luxury); post-frame = product-characterization (sophisticated pieces). Same semantic territory (restrained-upscale quality), but the organizing frame shifts from positioning-as-trait to the character of the products themselves. Sophisticated is a sibling descriptor, not a subtype of refined luxury. Testing Narrowed first: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE \u2014 sophisticated describes the artifacts, refined luxury describes the brand register. So Reframed holds at tier 2."
+        },
+        {
+          "concept": "elevate everyday style with ease",
+          "direction": "new",
+          "nearest_counterpart": "understated elegance",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: a usage-positioning claim is not a specific way of being understated elegance. Reframed: different frames (functional benefit for the wearer vs aesthetic descriptor of the brand). Elaborated/Expanded: no seed in understated elegance for this usage-outcome claim. All four fail; new functional positioning added."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "understated elegance",
+          "post": "understated elegance",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical phrase preserved; correct to leave uncoded or as same-same match."
+        },
+        {
+          "type": "confirm",
+          "pre": "minimalist",
+          "post": "minimalist design",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "Core descriptor preserved; 'design' is a noun addition specifying domain, not a scope restriction or frame shift. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "timeless",
+          "post": "timeless yet modern",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "PRE preserved verbatim; 'yet modern' augments with complementary register, not a frame shift or scope restriction. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "refined luxury",
+          "post": "refined luxury",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical phrase preserved."
+        },
+        {
+          "type": "confirm",
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Lineage recovered in pass 1 with correct code. Same semantic territory (restrained-upscale quality), sibling descriptors, frames differ (brand-positioning register vs product-characterization). Subsumption test fails: sophisticated pieces \u2260 a specific way of being refined luxury. Reframed is the right tier-2 verdict."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "late 1900s fine jewelry inspiration",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Concrete historical-era inspiration source has no defensible lineage against timeless or any other PRE concept. All four ladder tiers fail; New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Specific material composition has no antecedent in PRE; refined luxury does not contain the seed for material specifics. New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "not costume jewelry",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Exclusion framing is not a subtype, frame-shift, elaboration, or broadening of refined luxury or any PRE concept. New is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "elevate everyday style with ease",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Functional/usage-positioning benefit claim has no defensible lineage against understated elegance or any PRE concept. New is correct."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "The pre-response is a single clause with four short descriptors. The post-response retains those descriptors, slightly elaborates two, and adds a full second sentence specifying inspiration source, material composition, an exclusion (not costume jewelry), a temporal register (timeless yet modern), and a functional positioning (elevate everyday style with ease). Multiple new clauses and explanatory passages have been added; the overall scope of the response is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "minimalist",
+        "post_evidence": "minimalist design",
+        "rationale": "PRE descriptor preserved; 'design' specifies the domain without restricting scope or shifting the organizing frame.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "timeless",
+        "post_evidence": "timeless yet modern",
+        "rationale": "PRE preserved verbatim; 'yet modern' adds a complementary register without shifting the timelessness-as-organizing-idea frame.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "refined luxury",
+        "post_evidence": "sophisticated pieces",
+        "rationale": "Pre-frame = brand-as-luxury-positioning register; post-frame = product-as-characterization. Same restrained-upscale quality territory, but the organizing lens shifts from brand register to the character of the products. Subsumption test: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE (sophisticated describes artifacts; refined luxury describes brand register) \u2192 tier 2 holds.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "late 1900s fine jewelry inspiration",
+        "rationale": "Concrete historical-era inspiration source has no defensible antecedent in PRE. Tested against timeless \u2014 all four ladder tiers fail.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "rationale": "Specific material composition has no antecedent in PRE. Refined luxury does not contain the seed for material specifics.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "not costume jewelry",
+        "rationale": "Exclusion framing has no antecedent in PRE. Not a subtype, frame-shift, elaboration, or broadening of refined luxury.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "elevate everyday style with ease",
+        "rationale": "Functional/usage-positioning benefit claim has no antecedent in PRE. Tested against understated elegance \u2014 all four ladder tiers fail.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "The Reframed code for refined luxury \u2192 sophisticated pieces sits close to New+Removed; the sibling descriptor reading is defensible but not certain. Alternative reading (sophisticated pieces as an independent new claim, refined luxury removed) was considered. The shared semantic territory of restrained-upscale quality and the clear frame shift from brand-register to product-characterization support Reframed at tier 2, but coder confidence is medium rather than high. Critic applied 9 correction(s)."
+    },
+    "coded_at": "2026-05-14T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "julia",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "understated elegance",
+        "minimalist",
+        "timeless",
+        "refined luxury"
+      ],
+      "post_concepts": [
+        "understated elegance",
+        "minimalist design",
+        "refined luxury",
+        "late 1900s fine jewelry inspiration",
+        "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "not costume jewelry",
+        "timeless yet modern",
+        "sophisticated pieces",
+        "elevate everyday style with ease"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "understated elegance",
+          "post": "understated elegance",
+          "continuity": "identical phrase",
+          "scope": "same",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "minimalist design",
+          "continuity": "weak \u2014 different concept",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "none",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "refined luxury",
+          "continuity": "partial \u2014 both signal restrained luxury",
+          "scope": "different facet",
+          "frame": "related aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "none \u2014 concrete inspiration source",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "not costume jewelry",
+          "continuity": "partial \u2014 both signal quality/anti-tackiness",
+          "scope": "different",
+          "frame": "related but tangential",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "timeless yet modern",
+          "continuity": "partial \u2014 elegance shares timeless register",
+          "scope": "different",
+          "frame": "aesthetic register",
+          "verdict": "weak"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "sophisticated pieces",
+          "continuity": "partial \u2014 sophistication \u2248 elegance",
+          "scope": "overlapping",
+          "frame": "aesthetic register",
+          "verdict": "weak"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "elevate everyday style with ease",
+          "continuity": "partial \u2014 elevate/ease share aspirational register",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "understated elegance",
+          "continuity": "partial \u2014 minimalist style overlaps with understated",
+          "scope": "overlapping",
+          "frame": "related aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "minimalist design",
+          "continuity": "direct \u2014 minimalist becomes minimalist design",
+          "scope": "same with slight elaboration",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "refined luxury",
+          "continuity": "partial \u2014 both lean restrained",
+          "scope": "different facets",
+          "frame": "related aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "not costume jewelry",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "minimalist",
+          "post": "timeless yet modern",
+          "continuity": "partial \u2014 minimalism often paired with timeless",
+          "scope": "related",
+          "frame": "adjacent aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "sophisticated pieces",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "minimalist",
+          "post": "elevate everyday style with ease",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "understated elegance",
+          "continuity": "partial \u2014 timelessness overlaps with elegance",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "minimalist design",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "refined luxury",
+          "continuity": "partial \u2014 luxury often signals timelessness",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "partial \u2014 fine jewelry is a timeless reference",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "partial \u2014 quality materials persist across time",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "not costume jewelry",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "timeless yet modern",
+          "continuity": "direct \u2014 timeless is preserved and added to with 'yet modern'",
+          "scope": "same",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "timeless",
+          "post": "sophisticated pieces",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "timeless",
+          "post": "elevate everyday style with ease",
+          "continuity": "none",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "understated elegance",
+          "continuity": "partial \u2014 both signal restrained luxury",
+          "scope": "related",
+          "frame": "adjacent aesthetic",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "minimalist design",
+          "continuity": "partial \u2014 refined luxury often minimal",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "refined luxury",
+          "continuity": "identical phrase",
+          "scope": "same",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "late 1900s fine jewelry inspiration",
+          "continuity": "partial \u2014 fine jewelry is a luxury domain",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "continuity": "partial \u2014 luxury is supported by quality materials",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "not costume jewelry",
+          "continuity": "partial \u2014 refined luxury is the antithesis of costume",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "timeless yet modern",
+          "continuity": "partial",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "continuity": "strong \u2014 sophistication and luxury share territory",
+          "scope": "related",
+          "frame": "adjacent",
+          "verdict": "weak"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "elevate everyday style with ease",
+          "continuity": "partial \u2014 luxury positioning",
+          "scope": "different",
+          "frame": "different",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "understated elegance",
+          "post": "minimalist design",
+          "reason": "different descriptors, no defensible lineage"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "late 1900s fine jewelry inspiration",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "high-quality materials",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "not costume jewelry",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "understated elegance",
+          "post": "sophisticated pieces",
+          "reason": "tangentially related at best"
+        },
+        {
+          "pre": "minimalist",
+          "post": "understated elegance",
+          "reason": "weak overlap, not the strongest successor; minimalist\u2192minimalist design is direct"
+        },
+        {
+          "pre": "minimalist",
+          "post": "refined luxury",
+          "reason": "different descriptors; minimalist is already matched to minimalist design"
+        },
+        {
+          "pre": "minimalist",
+          "post": "late 1900s fine jewelry inspiration",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "minimalist",
+          "post": "high-quality materials",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "minimalist",
+          "post": "timeless yet modern",
+          "reason": "timeless is the better predecessor for 'timeless yet modern'"
+        },
+        {
+          "pre": "minimalist",
+          "post": "sophisticated pieces",
+          "reason": "weak adjacency; better matches exist"
+        },
+        {
+          "pre": "timeless",
+          "post": "understated elegance",
+          "reason": "timeless already matched to 'timeless yet modern'"
+        },
+        {
+          "pre": "timeless",
+          "post": "late 1900s fine jewelry inspiration",
+          "reason": "weak adjacency; inspiration source is not a successor of timeless"
+        },
+        {
+          "pre": "timeless",
+          "post": "high-quality materials",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "sophisticated pieces",
+          "reason": "adjacency only; not a strong enough lineage to code as transformation"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "understated elegance",
+          "reason": "refined luxury is already matched to itself"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "understated elegance",
+          "post": "understated elegance",
+          "basis": "identical phrase preserved"
+        },
+        {
+          "pre": "minimalist",
+          "post": "minimalist design",
+          "basis": "minimalist preserved with mild noun addition ('design')"
+        },
+        {
+          "pre": "timeless",
+          "post": "timeless yet modern",
+          "basis": "timeless preserved; 'yet modern' appended \u2014 clearly an elaboration"
+        },
+        {
+          "pre": "refined luxury",
+          "post": "refined luxury",
+          "basis": "identical phrase preserved"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "late 1900s fine jewelry inspiration",
+        "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "not costume jewelry",
+        "sophisticated pieces",
+        "elevate everyday style with ease"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "late 1900s fine jewelry inspiration",
+          "direction": "new",
+          "nearest_counterpart": "timeless",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: a historical inspiration source is not a specific way of being timeless. Reframed: no shared semantic frame \u2014 inspiration source vs timelessness-as-quality. Elaborated: timeless does not contain the seed for a concrete historical reference. Expanded: timeless does not broaden into a specific era. All four fail; concrete referent introduced."
+        },
+        {
+          "concept": "high-quality materials (sterling silver, high-micron gold vermeil)",
+          "direction": "new",
+          "nearest_counterpart": "refined luxury",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: specific materials are not a specific way of being refined luxury. Reframed: different frames (material composition vs luxury positioning). Elaborated: refined luxury does not contain material seed. Expanded: refined luxury does not broaden into material specifics. All four fail; concrete material specification is genuinely new."
+        },
+        {
+          "concept": "not costume jewelry",
+          "direction": "new",
+          "nearest_counterpart": "refined luxury",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: an exclusion category is not a specific way of being refined luxury. Reframed: anti-costume framing vs luxury positioning \u2014 different frames. Elaborated/Expanded: refined luxury does not contain the seed for a categorical exclusion. All four fail."
+        },
+        {
+          "concept": "sophisticated pieces",
+          "direction": "new",
+          "nearest_counterpart": "refined luxury",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Reframed: pre-frame = luxury positioning (refined luxury); post-frame = product-characterization (sophisticated pieces). Same semantic territory (restrained-upscale quality), but the organizing frame shifts from positioning-as-trait to the character of the products themselves. Sophisticated is a sibling descriptor, not a subtype of refined luxury. Testing Narrowed first: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE \u2014 sophisticated describes the artifacts, refined luxury describes the brand register. So Reframed holds at tier 2."
+        },
+        {
+          "concept": "elevate everyday style with ease",
+          "direction": "new",
+          "nearest_counterpart": "understated elegance",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Narrowed: a usage-positioning claim is not a specific way of being understated elegance. Reframed: different frames (functional benefit for the wearer vs aesthetic descriptor of the brand). Elaborated/Expanded: no seed in understated elegance for this usage-outcome claim. All four fail; new functional positioning added."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "The pre-response is a single clause with four short descriptors. The post-response retains those descriptors, slightly elaborates two, and adds a full second sentence specifying inspiration source, material composition, an exclusion (not costume jewelry), a temporal register (timeless yet modern), and a functional positioning (elevate everyday style with ease). Multiple new clauses and explanatory passages have been added; the overall scope of the response is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "minimalist",
+        "post_evidence": "minimalist design",
+        "rationale": "The PRE descriptor 'minimalist' is preserved in POST as 'minimalist design.' The core idea remains; the noun 'design' is added to specify the domain without shifting the conceptual frame. Adds a small descriptor without restricting scope or shifting the organizing frame \u2014 classic elaboration. (ELAB-vs-NARROW: no scope restriction; 'minimalist design' applies wherever 'minimalist' applied.)",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "timeless",
+        "post_evidence": "timeless yet modern",
+        "rationale": "The PRE descriptor 'timeless' is preserved in POST and explicitly augmented with 'yet modern.' The frame does not shift \u2014 timelessness remains the central organizing idea; modern is added as a complementary register. Classic elaboration: PRE kept intact with added detail.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "refined luxury",
+        "post_evidence": "sophisticated pieces",
+        "rationale": "Pre-frame: brand-as-luxury-positioning (refined luxury describes the register of the brand itself). Post-frame: product-as-characterization (sophisticated pieces describes the qualities of the artifacts the brand produces). Same semantic territory \u2014 restrained, upscale quality \u2014 but the organizing lens shifts from brand-positioning register to the character of the products. Subsumption test: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE; sophisticated describes products, refined luxury describes brand register. Hence tier 2 (Reframed), not Narrowed.",
+        "alternative_considered": "New (removed_refined luxury vs new sophisticated pieces)",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "late 1900s fine jewelry inspiration",
+        "rationale": "No meaningful antecedent in PRE. Nearest counterpart tested against 'timeless' \u2014 all four transformations fail. A concrete historical-era inspiration source is not a subtype, frame-shift, elaboration, or broadening of timeless. Concept is genuinely new.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "high-quality materials (sterling silver and high-micron gold vermeil)",
+        "rationale": "No meaningful antecedent in PRE. Nearest counterpart tested against 'refined luxury' \u2014 all four transformations fail. Specific material composition is not a subtype, frame-shift, elaboration, or broadening of refined luxury as a brand descriptor. Genuinely new concrete specification.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "not costume jewelry",
+        "rationale": "No meaningful antecedent in PRE. Nearest counterpart tested against 'refined luxury' \u2014 all four transformations fail. An exclusion framing is not a subtype, frame-shift, elaboration, or broadening of refined luxury. Genuinely new.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "elevate everyday style with ease",
+        "rationale": "No meaningful antecedent in PRE. Nearest counterpart tested against 'understated elegance' \u2014 all four transformations fail. A functional/usage-positioning claim (what the brand does for the wearer) is not a subtype, frame-shift, elaboration, or broadening of an aesthetic descriptor like understated elegance. Genuinely new functional benefit claim.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "The Reframed code for refined luxury \u2192 sophisticated pieces sits close to New+Removed; the sibling descriptor reading is defensible but not certain. Alternative reading (sophisticated pieces as an independent new claim, refined luxury removed) was considered. The shared semantic territory of restrained-upscale quality and the clear frame shift from brand-register to product-characterization support Reframed at tier 2, but coder confidence is medium rather than high."
+    },
+    "coded_at": "2026-05-14T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "understated elegance",
+        "post": "understated elegance",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical phrase preserved; correct to leave uncoded or as same-same match."
+      },
+      {
+        "type": "confirm",
+        "pre": "minimalist",
+        "post": "minimalist design",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Core descriptor preserved; 'design' is a noun addition specifying domain, not a scope restriction or frame shift. Elaborated is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "timeless",
+        "post": "timeless yet modern",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "PRE preserved verbatim; 'yet modern' augments with complementary register, not a frame shift or scope restriction. Elaborated is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "refined luxury",
+        "post": "refined luxury",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical phrase preserved."
+      },
+      {
+        "type": "confirm",
+        "pre": "refined luxury",
+        "post": "sophisticated pieces",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Lineage recovered in pass 1 with correct code. Same semantic territory (restrained-upscale quality), sibling descriptors, frames differ (brand-positioning register vs product-characterization). Subsumption test fails: sophisticated pieces \u2260 a specific way of being refined luxury. Reframed is the right tier-2 verdict."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "late 1900s fine jewelry inspiration",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Concrete historical-era inspiration source has no defensible lineage against timeless or any other PRE concept. All four ladder tiers fail; New is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Specific material composition has no antecedent in PRE; refined luxury does not contain the seed for material specifics. New is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "not costume jewelry",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Exclusion framing is not a subtype, frame-shift, elaboration, or broadening of refined luxury or any PRE concept. New is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "elevate everyday style with ease",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Functional/usage-positioning benefit claim has no defensible lineage against understated elegance or any PRE concept. New is correct."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "understated elegance",
+        "post": "understated elegance",
+        "basis": "identical phrase preserved"
+      },
+      {
+        "pre": "minimalist",
+        "post": "minimalist design",
+        "basis": "minimalist preserved with mild noun addition (Elaborated)"
+      },
+      {
+        "pre": "timeless",
+        "post": "timeless yet modern",
+        "basis": "timeless preserved and augmented with complementary register (Elaborated)"
+      },
+      {
+        "pre": "refined luxury",
+        "post": "refined luxury",
+        "basis": "identical phrase preserved"
+      },
+      {
+        "pre": "refined luxury",
+        "post": "sophisticated pieces",
+        "basis": "same semantic territory (restrained-upscale quality) with shifted frame from brand-positioning to product-characterization (Reframed)"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "late 1900s fine jewelry inspiration",
+      "high-quality materials (sterling silver, high-micron gold vermeil)",
+      "not costume jewelry",
+      "elevate everyday style with ease"
+    ],
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "minimalist",
+        "post_evidence": "minimalist design",
+        "rationale": "PRE descriptor preserved; 'design' specifies the domain without restricting scope or shifting the organizing frame.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "timeless",
+        "post_evidence": "timeless yet modern",
+        "rationale": "PRE preserved verbatim; 'yet modern' adds a complementary register without shifting the timelessness-as-organizing-idea frame.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "refined luxury",
+        "post_evidence": "sophisticated pieces",
+        "rationale": "Pre-frame = brand-as-luxury-positioning register; post-frame = product-as-characterization. Same restrained-upscale quality territory, but the organizing lens shifts from brand register to the character of the products. Subsumption test: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE (sophisticated describes artifacts; refined luxury describes brand register) \u2192 tier 2 holds.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "late 1900s fine jewelry inspiration",
+        "rationale": "Concrete historical-era inspiration source has no defensible antecedent in PRE. Tested against timeless \u2014 all four ladder tiers fail.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "high-quality materials (sterling silver, high-micron gold vermeil)",
+        "rationale": "Specific material composition has no antecedent in PRE. Refined luxury does not contain the seed for material specifics.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "not costume jewelry",
+        "rationale": "Exclusion framing has no antecedent in PRE. Not a subtype, frame-shift, elaboration, or broadening of refined luxury.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "elevate everyday style with ease",
+        "rationale": "Functional/usage-positioning benefit claim has no antecedent in PRE. Tested against understated elegance \u2014 all four ladder tiers fail.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

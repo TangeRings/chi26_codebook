@@ -1,0 +1,139 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "vinyl ownership or interest",
+      "post": "Film lovers (LetterBoxd Users)",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Sibling concepts in media-curation neighborhood. Subsumption test: 'film loving is a specific way of being a vinyl owner' is FALSE. Reframed is correct. Pass-1 code stands."
+    },
+    {
+      "type": "confirm",
+      "pre": "mid-century modern furniture interest",
+      "post": "Homebodies",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Sibling concepts in domesticity/home neighborhood. Subsumption test: 'Homebodies is a specific way of preferring mid-century furniture' is FALSE. Reframed is correct. Pass-1 code stands."
+    },
+    {
+      "type": "confirm",
+      "pre": "vintage fashion interest",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Nearest counterpart Travel/Simple Luxury Lifestyle shares only abstract lifestyle umbrella \u2014 above abstraction ceiling. No specific shared territory. Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": "willing to spend more than $6 on coffee",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Spending behavior signal has no defensible successor. Travel/Simple Luxury Lifestyle adjacency only at abstract 'discretionary spending' level \u2014 above abstraction ceiling. Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": "old hip-hop listener",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Old hip-hop (musical genre taste) and Film lovers (media curation) share territory only at abstract 'cultural taste' umbrella \u2014 above abstraction ceiling. A different media domain. Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Plant Dads/Moms",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Plant-parent identity has no specific shared territory with any PRE unit. Domestic-hobbyist hobby vs. mid-century furniture aesthetic vs. coffee spending \u2014 different domains. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Travel/Simple Luxury Lifestyle",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Broad lifestyle orientation with no specific-level antecedent in PRE. Nearest matches (vintage fashion, $6 coffee) share only abstract discretionary-spending umbrella. New stands."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "vinyl ownership or interest",
+      "post": "Film lovers (LetterBoxd Users)",
+      "basis": "Sibling concepts in media-curation/collector-taste neighborhood; Reframed \u2014 pre-frame = physical music medium/retro collecting, post-frame = digital film curation"
+    },
+    {
+      "pre": "mid-century modern furniture interest",
+      "post": "Homebodies",
+      "basis": "Sibling concepts in domesticity/home neighborhood; Reframed \u2014 pre-frame = interior aesthetic preference, post-frame = broader home-centered lifestyle identity"
+    }
+  ],
+  "unmatched_pre": [
+    "vintage fashion interest",
+    "willing to spend more than $6 on coffee",
+    "old hip-hop listener"
+  ],
+  "unmatched_post": [
+    "Plant Dads/Moms",
+    "Travel/Simple Luxury Lifestyle"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "They have a vinyl or have thought about it",
+      "post_evidence": "Film lovers (LetterBoxd Users)",
+      "rationale": "Both signal curatorial/collector engagement with a specific media form, but the framing shifts: vinyl emphasizes physical-medium retro collecting, while LetterBoxd film enthusiasm emphasizes platform-based media curation. Sibling concepts in media-collecting neighborhood. Narrowed fails (film loving is not a specific way of being a vinyl owner).",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "like mid-century modern furniture",
+      "post_evidence": "Homebodies",
+      "rationale": "Both signal domestic/home-domain orientation, but the frame shifts: mid-century modern furniture is a specific interior aesthetic preference, while Homebodies is a broader home-centered identity category. Sibling concepts in the domesticity neighborhood. Narrowed fails (Homebodies is not a specific way of preferring mid-century furniture).",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "into vintage fashion",
+      "post_evidence": null,
+      "rationale": "Vintage fashion aesthetic preference has no clear successor in POST. Nearest counterpart Travel/Simple Luxury Lifestyle shares only abstract lifestyle umbrella \u2014 above abstraction ceiling. Subsumption fails; no defensible elaboration or broadening.",
+      "alternative_considered": null,
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "willing to spend more than $6 on coffee",
+      "post_evidence": null,
+      "rationale": "Specific spending signal has no clear successor. Nearest counterpart Travel/Simple Luxury Lifestyle shares only abstract discretionary-spending territory above the abstraction ceiling. Subsumption fails; no defensible transformation.",
+      "alternative_considered": null,
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "listen to old hip-hop",
+      "post_evidence": null,
+      "rationale": "Old hip-hop as a specific musical-genre taste marker has no clear successor. Film lovers overlaps only at abstract 'cultural taste' umbrella \u2014 above abstraction ceiling. A musical genre is not a specific way of being a film enthusiast; no defensible transformation.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Plant Dads/Moms",
+      "rationale": "Plant-parent identity is a specific domestic-hobbyist niche with no antecedent in PRE. Nearest PRE counterparts (mid-century furniture, Homebodies, vintage fashion) are topically adjacent but do not share semantic territory at a specific level. Subsumption fails; no elaboration, expansion, or reframing defensible.",
+      "alternative_considered": null,
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Travel/Simple Luxury Lifestyle",
+      "rationale": "Broad lifestyle orientation with no antecedent in PRE. Nearest counterpart ($6 coffee, vintage fashion) shares only abstract discretionary-spending/lifestyle territory above the abstraction ceiling. No defensible transformation.",
+      "alternative_considered": null,
+      "confidence": "medium"
+    }
+  ]
+}

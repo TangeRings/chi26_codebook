@@ -1,0 +1,73 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Urban",
+      "post": "Urban [Eclectic and Functional for Everyday Living]",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same head term preserved; bracket content adds descriptive modifiers within the urban frame. No scope restriction (Urban [Eclectic...] is not a subset of Urban). Subsumption holds trivially but the change is additive elaboration, not restriction. Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "Curated",
+      "post": "Curated [Elevated and Designer Mood]",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same head term preserved; bracket content adds aesthetic-register descriptors within the curated frame. No scope restriction; elaboration only. Correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "Subversive",
+      "post": "Subversive [Thought-Provoking]",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same head term preserved; bracket content specifies the intellectual mode of subversion. No scope restriction; elaboration only. Correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Urban",
+      "post": "Urban [Eclectic and Functional for Everyday Living]",
+      "basis": "Identical head term preserved; bracket content adds elaboration within same urban frame"
+    },
+    {
+      "pre": "Curated",
+      "post": "Curated [Elevated and Designer Mood]",
+      "basis": "Identical head term preserved; bracket content adds elaboration within same curated frame"
+    },
+    {
+      "pre": "Subversive",
+      "post": "Subversive [Thought-Provoking]",
+      "basis": "Identical head term preserved; bracket content adds elaboration within same subversive frame"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Urban",
+      "post_evidence": "Urban [Eclectic and Functional for Everyday Living]",
+      "rationale": "Head term Urban preserved; bracketed modifiers ('Eclectic and Functional for Everyday Living') elaborate how the urban character manifests without restricting scope. Same conceptual frame, additive detail.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Curated",
+      "post_evidence": "Curated [Elevated and Designer Mood]",
+      "rationale": "Head term Curated preserved; bracketed modifiers ('Elevated and Designer Mood') specify the aesthetic register of curation without restricting scope. Same frame, additive detail.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Subversive",
+      "post_evidence": "Subversive [Thought-Provoking]",
+      "rationale": "Head term Subversive preserved; bracketed modifier ('Thought-Provoking') specifies the intellectual mode of subversion without restricting scope. Same frame, additive detail.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    }
+  ]
+}

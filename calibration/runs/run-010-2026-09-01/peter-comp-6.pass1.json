@@ -1,0 +1,150 @@
+{
+  "coding_unit": {
+    "student_id": "peter",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Supermarkets in Thailand and China as commerce platforms",
+      "Instagram, X, and TikTok for advertisement"
+    ],
+    "post_concepts": [
+      "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+      "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Supermarkets in Thailand and China as commerce platforms",
+        "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+        "continuity": "commerce-based selling channels in China",
+        "scope": "PRE: generic 'Super Market'; POST: specific named commerce platforms in China",
+        "frame": "PRE: physical retail/whole-market; POST: specific named digital and retail commerce platforms",
+        "stretch": "PRE mentioned one commerce channel ('Super Market'); POST enumerates multiple named commerce platforms in China (Tmall, JD.com, etc.) \u2014 likely an elaboration/specification of commerce-platform strategy",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Supermarkets in Thailand and China as commerce platforms",
+        "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+        "continuity": "commerce-based selling channels in Thailand",
+        "scope": "PRE: generic 'Super Market'; POST: specific named commerce platforms in Thailand",
+        "frame": "PRE: physical retail/whole-market; POST: specific named commerce platforms",
+        "stretch": "Same expansion from generic retail mention to named commerce platforms, but specific to Thailand",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram, X, and TikTok for advertisement",
+        "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+        "continuity": "China-region advertising platforms",
+        "scope": "PRE: global social platforms; POST: China-specific platforms",
+        "frame": "PRE: global western social media; POST: China-specific ecosystem (Douyin/Xiaohongshu/WeChat)",
+        "stretch": "IG is banned in China; this is a region-appropriate replacement of ad platforms, not a continuation of the same platforms",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram, X, and TikTok for advertisement",
+        "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+        "continuity": "advertising platforms for Thailand (with TikTok overlapping)",
+        "scope": "PRE: IG/X/TikTok; POST: TikTok + Facebook Ads + commerce",
+        "frame": "PRE: content/awareness ads via social; POST: TikTok retained, Facebook Ads added, commerce platforms layered in",
+        "stretch": "TikTok overlaps directly; Facebook is added; Shopee/Lazada are commerce, not strictly advertising \u2014 partial continuity",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Instagram, X, and TikTok for advertisement",
+        "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+        "reason": "While both are advertising platforms, IG/X/TikTok are global western social platforms while Douyin/Xiaohongshu/WeChat Ads are China-specific. TikTok overlaps with Douyin (same company, different region). Rather than collapsing into one match, this is better captured as Expanded because the PRE seed (TikTok) seeds the China-region expansion via Douyin and the China ecosystem adds WeChat Ads and other regional platforms."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Supermarkets in Thailand and China as commerce platforms",
+        "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+        "basis": "Commerce-based selling strategy targeting China, with the PRE's generic mention of commerce platforms expanded into a specific named list of China-relevant commerce platforms (Tmall, JD.com) plus advertising platforms (Douyin, Xiaohongshu, WeChat Ads) appropriate for that market."
+      },
+      {
+        "pre": "Supermarkets in Thailand and China as commerce platforms",
+        "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+        "basis": "Commerce-based selling strategy targeting Thailand, with the PRE's generic mention of supermarkets expanded into a specific named list of Thailand-relevant commerce platforms (Shopee, Lazada) plus advertising platforms (TikTok, Facebook Ads)."
+      },
+      {
+        "pre": "Instagram, X, and TikTok for advertisement",
+        "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+        "basis": "Advertising-platform strategy, with TikTok retained across PRE and POST for the Thailand market, IG/X dropped, Facebook Ads added. The PRE seed (TikTok + general ad-platform idea) broadens into a market-appropriate set including both ad and commerce platforms."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Instagram",
+        "direction": "removed",
+        "nearest_counterpart": "China platforms: Douyin, Xiaohongshu, WeChat Ads (TikTok also retained in Thailand)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "IG is a western social platform with no Chinese equivalent. However, TikTok's Chinese counterpart is Douyin, and the broader advertising-platform role from PRE (advertisement via social) is absorbed into the China-platform list (WeChat Ads, Douyin ads). The PRE 'advertisement platforms' concept is captured in the matched pair above (Expanded to China ecosystem). IG itself is dropped without a clean Chinese counterpart, so on its own it could be Removed; but the broader PRE concept of 'advertising platforms' is Expanded, not Removed."
+      },
+      {
+        "concept": "X",
+        "direction": "removed",
+        "nearest_counterpart": "China platforms (WeChat Ads, Douyin) or Thailand (Facebook Ads)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "X has no direct Chinese or Thailand-region equivalent in POST. The advertising-platform role from PRE is absorbed into Expanded treatment via WeChat Ads (China) and Facebook Ads (Thailand). The PRE unit-level concept of advertising platforms is Expanded into region-appropriate platforms, so the broader PRE concept is not truly Removed \u2014 it is reconceived regionally."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "The PRE response is a brief two-clause note (~15 words) naming one commerce channel (supermarkets) and three ad platforms. The POST response is a substantially expanded enumeration that splits the strategy by country (China and Thailand), specifies multiple named commerce platforms (Tmall, JD.com, Shopee, Lazada) and multiple named advertising platforms (Douyin, Xiaohongshu, WeChat Ads, Facebook Ads, TikTok), and integrates commerce and advertising within each market. The scope and depth of the response is meaningfully larger at the clause and enumeration level, with multiple new explanatory passages added."
+  },
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "Super Market in Thailand&China",
+      "post_evidence": "China: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+      "rationale": "The PRE's generic mention of supermarkets as a commerce channel is expanded into a specific, named list of China-relevant commerce and advertising platforms. The commerce-platform seed is preserved; its scope is broadened from a single generic channel to multiple region-appropriate platforms. The PRE concept continues into the POST under a market-specific realization.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "Super Market in Thailand&China",
+      "post_evidence": "Thailand: TikTok, Facebook Ads, Shopee, Lazada",
+      "rationale": "Symmetrically, the PRE's generic Thailand commerce-channel mention is expanded into a specific list of Thailand-relevant platforms (Shopee, Lazada for commerce; TikTok, Facebook Ads for advertising). The PRE seed persists; its scope is broadened into multiple named platforms.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "IG&X&TikTok for advertisement",
+      "post_evidence": "Thailand: TikTok, Facebook Ads, Shopee, Lazada",
+      "rationale": "The PRE advertising-platform set (IG, X, TikTok) is reconceived for the Thailand market: TikTok is retained, Facebook Ads replaces IG/X as the market-appropriate western social ad platform, and commerce platforms (Shopee, Lazada) are layered in. The PRE seed (advertising platforms) broadens into a market-appropriate mix that integrates ads with commerce.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "vague_to_specific_lineage"
+    ],
+    "coder_notes": "The PRE uses very compressed shorthand (e.g., 'Super Market', 'IG&X&TikTok for advertisement'). The POST substantially specifies these into named, region-appropriate platforms. The vague-to-specific signal supports treating the changes as Expanded (PRE seed preserved, scope broadened to specific platforms) rather than Removed + New. No learner-agency evidence is present in the artifact. The two PRE lines on China and Thailand are kept atomic at the 'commerce-platform strategy' level rather than splitting further, since the POST organizes by the same China/Thailand split and the original commerce-platform idea tracks to both regional lists. The third PRE line (IG/X/TikTok for advertisement) is paired with the Thailand POST list because TikTok is the only shared platform and Facebook Ads is the natural western-social replacement for IG/X in the Thailand context; the China POST list absorbs the broader advertising-platform role via Expanded treatment."
+  },
+  "coded_at": "2025-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

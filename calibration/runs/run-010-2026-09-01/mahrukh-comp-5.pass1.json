@@ -1,0 +1,140 @@
+{
+  "coding_unit": {
+    "student_id": "mahrukh",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "no idea (acknowledgment of not knowing)",
+      "no specific audience/niche identified"
+    ],
+    "post_concepts": [
+      "work jewellery wearers",
+      "fun-seeking jewelry buyers",
+      "niche within work jewellery market"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "no idea",
+        "post": "Work jewellery but more fun?",
+        "continuity": "very weak - PRE is a non-answer expressing lack of knowledge",
+        "scope": "PRE has no defined audience scope; POST introduces a specific niche",
+        "frame": "PRE has no frame; POST frames as product category + modifier",
+        "stretch": "extremely stretched - matching a non-answer to a niche",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "no idea",
+        "post": "Work jewellery",
+        "continuity": "weak - non-answer to product category",
+        "scope": "no overlap",
+        "frame": "no overlap",
+        "stretch": "very stretched",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "no idea",
+        "post": "more fun",
+        "continuity": "weak - non-answer to attitude descriptor",
+        "scope": "no overlap",
+        "frame": "no overlap",
+        "stretch": "very stretched",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "no specific audience/niche identified",
+        "post": "Work jewellery",
+        "continuity": "PRE has no audience; POST specifies a product category as proxy for niche",
+        "scope": "POST introduces a new category not present in PRE",
+        "frame": "PRE has none; POST frames as workplace jewelry occasion",
+        "stretch": "extreme - cannot derive 'work jewellery' from absence",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "no specific audience/niche identified",
+        "post": "more fun",
+        "continuity": "PRE has no attitude descriptor; POST adds an attitude modifier",
+        "scope": "new",
+        "frame": "new",
+        "stretch": "extreme",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "no idea",
+        "post": "Work jewellery but more fun?",
+        "reason": "PRE is an explicit acknowledgment of having no idea, which has no semantic lineage to a specific niche identification. Different conceptual domains entirely (epistemic state vs market segment)."
+      },
+      {
+        "pre": "no specific audience/niche identified",
+        "post": "Work jewellery",
+        "reason": "Cannot derive a specific product category from the absence of one. Forcing this match would violate IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED."
+      }
+    ],
+    "matched_pairs": [],
+    "unmatched_pre": [
+      "no idea",
+      "no specific audience/niche identified"
+    ],
+    "unmatched_post": [
+      "Work jewellery",
+      "more fun"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Work jewellery",
+        "direction": "new",
+        "nearest_counterpart": "no idea",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE 'no idea' is an epistemic acknowledgment expressing lack of knowledge; POST 'Work jewellery' is a specific product category serving as a niche identifier. No semantic neighborhood - one is about knowing/not knowing, the other is a market category. All four transformation codes fail: Narrowed fails (work jewellery is not a specific way of being 'no idea'); Reframed fails (no shared territory - epistemic state vs product category); Elaborated fails (no detail to add); Expanded fails (no seed to broaden)."
+      },
+      {
+        "concept": "more fun",
+        "direction": "new",
+        "nearest_counterpart": "no idea",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE 'no idea' is epistemic non-answer; POST 'more fun' is an attitude descriptor. No semantic neighborhood shared. All four transformation codes fail across genuinely different conceptual domains."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE is a two-word non-answer ('no idea'), while POST contains a substantive niche identification with both a product category ('Work jewellery') and a differentiating modifier ('more fun'). The post-response adds meaningful content at the clause level where the pre had none."
+  },
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Work jewellery but more fun?",
+      "rationale": "POST introduces a specific niche identification (work jewellery, with a 'more fun' differentiator) where PRE contained only an epistemic acknowledgment of not having an answer. The nearest PRE counterpart ('no idea') occupies a different conceptual domain (epistemic state vs market segment); Narrowed, Reframed, Elaborated, and Expanded all fail.",
+      "alternative_considered": "Removed+New for 'no idea'",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "vague_to_specific_lineage",
+      "boundary_case_expand_vs_new"
+    ],
+    "coder_notes": "PRE is a non-answer ('no idea'), which makes alignment extremely sparse. The post introduces a niche from a blank slate. Since there is no semantic predecessor, the entire POST content is best coded as a single New event representing the introduction of a niche identification. The 'Work jewellery' and 'more fun' together form one niche concept rather than separate units."
+  },
+  "coded_at": "2025-01-01T00:00:00Z",
+  "model": "MiniMax-M3"
+}

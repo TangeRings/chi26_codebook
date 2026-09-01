@@ -1,0 +1,168 @@
+{
+  "coding_unit": {
+    "student_id": "ky-tran",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Health and personal care",
+      "home gadgets"
+    ],
+    "post_concepts": [
+      "sleep & wellness technology category",
+      "affordable, easy-to-use sleep aids"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Health and personal care",
+        "post": "sleep & wellness technology category",
+        "continuity": "Wellness/personal care broad domain vs sleep-specific technology category",
+        "scope": "POST is narrower subset of personal care/wellness",
+        "frame": "Personal care framing \u2192 sleep/wellness technology framing",
+        "stretch": "Moderate; both sit in wellness territory but orientation differs (care vs technology)",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Health and personal care",
+        "post": "affordable, easy-to-use sleep aids",
+        "continuity": "Personal care products vs sleep aids",
+        "scope": "POST is a subset (sleep aids are a category of personal care)",
+        "frame": "Care \u2192 aids",
+        "stretch": "Moderate; sleep aids can be a subset of health/personal care",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "home gadgets",
+        "post": "sleep & wellness technology category",
+        "continuity": "Both are technology-adjacent; home gadgets covers general smart-home items",
+        "scope": "POST is narrower tech subset",
+        "frame": "Home gadgets \u2192 sleep/wellness tech",
+        "stretch": "Weak; home gadgets is broad and the sleep/wellness framing is a reconception",
+        "verdict": "weak"
+      },
+      {
+        "pre": "home gadgets",
+        "post": "affordable, easy-to-use sleep aids",
+        "continuity": "Both are physical products",
+        "scope": "Different \u2014 generic home gadgets vs specific sleep aids",
+        "frame": "Generic tech \u2192 specific aid",
+        "stretch": "Weak; home gadgets does not naturally subsume sleep aids (which are health/personal care)",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "home gadgets",
+        "post": "sleep & wellness technology category",
+        "reason": "Home gadgets is general home-tech; sleep/wellness tech is a reconception. The subsumption test fails. Tested but cannot defensibly narrow, reframe, elaborate, or expand home gadgets into sleep/wellness tech \u2014 home gadgets could include kitchen, cleaning, security devices with no wellness connection. Kept as weak candidate only for the cross-product enumeration; not selected as final match."
+      },
+      {
+        "pre": "home gadgets",
+        "post": "affordable, easy-to-use sleep aids",
+        "reason": "Home gadgets (e.g., kitchen, cleaning, smart-home) and sleep aids (personal care/wellness) belong to different conceptual domains. An implausible match is worse than Removed + New."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Health and personal care",
+        "post": "sleep & wellness technology category",
+        "basis": "Narrowed \u2014 sleep & wellness technology is a specific subcategory of health and personal care."
+      },
+      {
+        "pre": "Health and personal care",
+        "post": "affordable, easy-to-use sleep aids",
+        "basis": "Elaborated \u2014 same health/personal-care product frame with added descriptors (affordable, easy-to-use, sleep-focused)."
+      }
+    ],
+    "unmatched_pre": [
+      "home gadgets"
+    ],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "home gadgets",
+        "direction": "removed",
+        "nearest_counterpart": "sleep & wellness technology category",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Home gadgets (generic smart-home / household devices) and sleep & wellness technology category (a specific wellness subcategory) belong to different conceptual domains. Tested Narrowed: 'sleep/wellness tech is a specific way of being home gadgets' = FALSE (a kitchen appliance is a home gadget but not sleep/wellness tech). Tested Reframed: territory not genuinely shared \u2014 home gadgets spans kitchen/cleaning/security, not wellness. Tested Elaborated/Expanded: no detail can be added to 'home gadgets' that turns it into sleep/wellness tech without abandoning the original reference. Full-response POST search performed; no other POST concept serves as a defensible successor for home gadgets."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "Health and personal care",
+        "post": "sleep & wellness technology category",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Pass 1 correct. 'Sleep & wellness technology category is a specific way of being Health and personal care' is TRUE. PRE is generic; POST concretises into a sub-niche. Scope restriction holds. Narrowed confirmed."
+      },
+      {
+        "type": "confirm",
+        "pre": "Health and personal care",
+        "post": "affordable, easy-to-use sleep aids",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Pass 1 correct. POST keeps the same underlying category (health/personal-care products) and only adds descriptors (affordable, easy-to-use, sleep-focused). Frame is intact; no reconception. Elaborated is correct; recoding to Reframed would be the over-correction flagged in the instructions."
+      },
+      {
+        "type": "confirm",
+        "pre": "home gadgets",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Pass 1 correct. Home gadgets (generic household/smart-home devices) and both POST concepts (sleep & wellness technology, affordable sleep aids) sit in a different conceptual domain. Subsumption test fails for both; no shared semantic territory at a specific level. Full-response POST search returned no defensible successor. Removed stands."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "PRE is a short two-item list ('Health and personal care, home gadgets'). POST adds framing as a single category ('sleep & wellness technology category') and elaborates with attributes ('affordable, easy-to-use sleep aids'). One to two meaningful clauses added; existing category name is reframed rather than fully restructured. Extends rather than transforms the response scope."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Health and personal care",
+      "post_evidence": "sleep & wellness technology category",
+      "rationale": "Sleep & wellness technology is a specific subcategory within health and personal care. The subsumption sentence 'sleep & wellness technology is a specific way of being health and personal care' is TRUE. PRE is generic filler; POST concretises into a sleep/wellness-tech niche. Scope restriction holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Health and personal care",
+      "post_evidence": "affordable, easy-to-use sleep aids",
+      "rationale": "POST preserves the underlying category (health/personal-care products) and adds qualifying descriptors (affordable, easy-to-use, sleep-focused). The organizing frame does not change; only detail is added. Per BC-P001, added modifiers to the same noun/category = Elaborated, not Reframed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "home gadgets",
+      "post_evidence": null,
+      "rationale": "Home gadgets (generic smart-home / household devices) and both POST concepts (sleep & wellness technology, affordable sleep aids) occupy a different conceptual domain. Subsumption test fails for both candidates; 'sleep & wellness technology is a specific way of being home gadgets' = FALSE (a kitchen appliance is a home gadget but not sleep/wellness tech). No shared specific-level semantic territory; full-response POST search returned no defensible successor. An implausible match would be worse than Removed + New.",
+      "alternative_considered": "New",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "vague_to_specific_lineage",
+      "new_removed_recheck_passed",
+      "duplicate_pre_antecedent"
+    ],
+    "coder_notes": "The pairing of 'Health and personal care' with two distinct POST concepts (sleep & wellness technology category AND affordable, easy-to-use sleep aids) creates a one-to-many issue; both events share the same pre_evidence. The two POST concepts could plausibly be read as a single elaborated clause ('sleep & wellness technology category, with a focus on affordable, easy-to-use sleep aids') rather than two separate atomic units. Treated as two events because each POST phrase carries distinct semantic content (category identity vs product attributes). The 'home gadgets \u2192 sleep & wellness tech' pairing was tested as weak (Reframed candidate) but ultimately rejected because home gadgets is too generic and includes non-wellness devices; tier 5 outcome. Critic applied 3 correction(s). Consistency check: \"Health and personal care\" serves as the antecedent of more than one event. The PRE span likely needs splitting \u2014 review before accepting."
+  },
+  "coded_at": "2026-05-14T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

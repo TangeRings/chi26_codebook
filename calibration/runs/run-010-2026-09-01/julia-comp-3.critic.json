@@ -1,0 +1,193 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Modern, career-driven women aged 24-38",
+      "post": "High-achieving, career-driven, urban women aged 24-38",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Demographic core preserved, descriptor frame shifts; Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "invest in timeless, high-quality pieces over quantity of pieces",
+      "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same investment frame; POST adds 'to build a refined jewelry collection'; modifiers added, frame intact. Per BC-P001-style guidance, Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "follow brands like COS and The Row",
+      "post": "follow brands like COS, The Row, and Toteme",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Same brand-following behavior; one exemplar added; scope broadened from seed."
+    },
+    {
+      "type": "confirm",
+      "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+      "post": "choosing understated elegance over flashy statement pieces",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Same aesthetic-aspiration territory; frame shifts from values-alignment to anti-flashiness contrast. Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "appreciate minimalist luxury",
+      "post": "value quiet luxury",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Same aesthetic-luxury neighborhood; minimalism-frame to quiet-luxury-frame. Reframed is appropriate (no subsumption; sibling idioms)."
+    },
+    {
+      "type": "recode",
+      "pre": "prioritize ethical craftsmanship",
+      "post": "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity",
+      "from_code": "Narrowed",
+      "to_code": "Reframed",
+      "reason": "POST does not restrict PRE's scope to a proper subset; it reframes the ethics criterion as secondary rather than primary while shifting the lead priority to quality/design/exclusivity. Subsumption test fails: 'ethical production as secondary appreciation' is NOT a specific way of being 'prioritizing ethical craftsmanship' - it is a reweighting of priorities. Same values-criterion territory with shifted organizing frame (lead-priority frame \u2192 deprioritized-but-present frame). Reframed is the better-supported code."
+    },
+    {
+      "type": "confirm",
+      "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+      "post": "seek jewelry that seamlessly integrates into their wardrobe",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Same jewelry-aspiration neighborhood; values-alignment frame shifts to wardrobe-integration frame. Reframed is correct."
+    },
+    {
+      "type": "recode",
+      "pre": "building a collection",
+      "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+      "from_code": null,
+      "to_code": "Elaborated",
+      "reason": "'building a collection' is absorbed/merged into the elaborated POST investment phrase. This is a valid restore_lineage pairing: the collection-building idea is retained within a richer POST phrase. Same collection frame; Elaborated."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Modern, career-driven women aged 24-38",
+      "post": "High-achieving, career-driven, urban women aged 24-38",
+      "basis": "Demographic core preserved; descriptor frame shifts"
+    },
+    {
+      "pre": "earning 120k+ a year",
+      "post": "earning $120K+ annually",
+      "basis": "Direct equivalent; stylistic rewrite"
+    },
+    {
+      "pre": "appreciate minimalist luxury",
+      "post": "value quiet luxury",
+      "basis": "Same aesthetic-luxury neighborhood; sibling idioms"
+    },
+    {
+      "pre": "invest in timeless, high-quality pieces over quantity of pieces",
+      "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+      "basis": "Core phrase preserved; POST adds collection-building elaboration"
+    },
+    {
+      "pre": "building a collection",
+      "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+      "basis": "Collection-building idea absorbed into elaborated investment phrase"
+    },
+    {
+      "pre": "invest in timeless, high-quality pieces over quantity of pieces",
+      "post": "prioritize craftsmanship and longevity over trends",
+      "basis": "Quality-over-quantity mapped to craftsmanship/longevity-over-trends"
+    },
+    {
+      "pre": "follow brands like COS and The Row",
+      "post": "follow brands like COS, The Row, and Toteme",
+      "basis": "Same brand-following behavior; one exemplar added"
+    },
+    {
+      "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+      "post": "choosing understated elegance over flashy statement pieces",
+      "basis": "Same aesthetic-aspiration territory; values-frame to anti-flashiness frame"
+    },
+    {
+      "pre": "prioritize ethical craftsmanship",
+      "post": "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity",
+      "basis": "Ethics criterion reframed as secondary; lead-priority frame shifts"
+    },
+    {
+      "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+      "post": "seek jewelry that seamlessly integrates into their wardrobe",
+      "basis": "Same jewelry-aspiration neighborhood; values-frame to wardrobe-integration frame"
+    },
+    {
+      "pre": "appreciate minimalist luxury",
+      "post": "appreciate minimalist luxury",
+      "basis": "Identical phrase preserved verbatim"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "Modern, career-driven women aged 24-38",
+      "post_evidence": "High-achieving, career-driven, urban women aged 24-38",
+      "rationale": "Demographic core preserved; 'Modern' replaced by 'High-achieving' + 'urban'. Same population, shifted organizing frame from modern-lifestyle to high-achievement/urban-professional.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "invest in timeless, high-quality pieces over quantity of pieces",
+      "post_evidence": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+      "rationale": "Core investment phrase preserved verbatim; POST adds 'to build a refined jewelry collection'. Same investment-priorities frame; added detail within intact frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "building a collection",
+      "post_evidence": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+      "rationale": "Collection-building idea absorbed into the elaborated POST investment phrase. Same collection frame; PRE noun retained within richer POST construction.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "follow brands like COS and The Row",
+      "post_evidence": "follow brands like COS, The Row, and Toteme",
+      "rationale": "Same brand-following behavior; Toteme added as third exemplar, broadening the brand-reference set.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+      "post_evidence": "choosing understated elegance over flashy statement pieces",
+      "rationale": "Both express refined non-excessive elegance. PRE frames via values-alignment; POST frames via contrast with flashy statement pieces. Same jewelry-aspiration territory; shifted organizing frame.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "appreciate minimalist luxury",
+      "post_evidence": "value quiet luxury",
+      "rationale": "Both express aesthetic-luxury valuation. Same quiet-luxury neighborhood; frame shifts from minimalism to quiet-luxury idiom. No subsumption; sibling concepts.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "prioritize ethical craftsmanship",
+      "post_evidence": "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity",
+      "rationale": "Same ethics-criterion territory; frame shifts from lead-priority to deprioritized-but-present while lead priority moves to quality/design/exclusivity. No proper-subset restriction; not Narrowed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+      "post_evidence": "seek jewelry that seamlessly integrates into their wardrobe",
+      "rationale": "Both describe jewelry seeking and wearing-context fit. PRE frames via values-alignment; POST frames via wardrobe-integration. Same jewelry-aspiration territory; shifted organizing frame.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    }
+  ]
+}

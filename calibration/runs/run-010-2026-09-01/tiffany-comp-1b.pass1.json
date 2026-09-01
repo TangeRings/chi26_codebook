@@ -1,0 +1,139 @@
+{
+  "coding_unit": {
+    "student_id": "tiffany",
+    "item_id": "comp-1b"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "everyday delights"
+    ],
+    "post_concepts": [
+      "redefining home",
+      "curated collection of design-driven and functional pieces",
+      "elevate everyday living"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "everyday delights",
+        "post": "redefining home",
+        "continuity": "weak \u2014 both relate to the brand's aspirational future but at different scope (small daily joys vs. reframing a life domain)",
+        "scope": "PRE is unspecified; POST broadens to the domain of 'home' and 'living'",
+        "frame": "PRE: affective/experiential (delights). POST: domain-redefining (home/living)",
+        "stretch": "high \u2014 would require reading 'everyday' as synonymous with 'home/living'",
+        "verdict": "weak"
+      },
+      {
+        "pre": "everyday delights",
+        "post": "curated collection of design-driven and functional pieces",
+        "continuity": "partial \u2014 both touch on products/aesthetic objects, but PRE is generic-affective and POST is product-offering-specific",
+        "scope": "POST narrows/operationalizes what produces the everyday experience; PRE has no product antecedent",
+        "frame": "PRE: experiential/affective. POST: product/procurement",
+        "stretch": "moderate-to-high",
+        "verdict": "weak"
+      },
+      {
+        "pre": "everyday delights",
+        "post": "elevate everyday living",
+        "continuity": "strong \u2014 both share the 'everyday' anchor and both describe an aspirational future for daily life",
+        "scope": "POST broadens 'delights' (small joys) into a fuller project of elevating everyday living",
+        "frame": "PRE: affective delight. POST: aspirational enhancement of daily life (broader frame but same neighborhood)",
+        "stretch": "low",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "everyday delights",
+        "post": "redefining home",
+        "reason": "Topical adjacency only; 'home' as a life domain is not a specific way of being 'everyday delights'. Subsumption fails and the semantic territory only overlaps at the broad 'future vision' umbrella (abstraction ceiling)."
+      },
+      {
+        "pre": "everyday delights",
+        "post": "curated collection of design-driven and functional pieces",
+        "reason": "Different conceptual registers \u2014 affective experience vs. product offering. Could be read as the operationalization that produces the delights, but PRE has no product antecedent; not Narrowed/Reframed lineage defensibly."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "everyday delights",
+        "post": "elevate everyday living",
+        "basis": "Shared 'everyday' anchor; both express the brand's aspirational future for daily life. POST broadens the affective 'delights' frame into a wider project of enhancement."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "redefining home",
+      "curated collection of design-driven and functional pieces"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "redefining home",
+        "direction": "new",
+        "nearest_counterpart": "everyday delights",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested against 'everyday delights'. Narrowed: 'redefining home' is not a specific way of being 'everyday delights' \u2014 different scope (life domain vs. affective experience). Reframed: shared territory exists at the broad 'aspirational everyday life' level, but that level hits the abstraction ceiling (could be claimed for many brand visions). Elaborated: POST does not keep PRE intact. Expanded: 'everyday' in PRE is too generic to be a clear seed for the 'home' domain in POST \u2014 would require interpretive stretch. Kept as New."
+      },
+      {
+        "concept": "curated collection of design-driven and functional pieces",
+        "direction": "new",
+        "nearest_counterpart": "everyday delights",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested against 'everyday delights'. Narrowed: a product offering is not a specific way of being 'everyday delights'. Reframed: product/offering frame vs. affective/experiential frame \u2014 different conceptual domains. Elaborated: PRE has no product antecedent. Expanded: no identifiable seed in PRE. Kept as New."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE is a two-word fragment ('Everyday delights'). POST is a full clause specifying a domain (home), a mechanism (curated collection of design-driven and functional pieces), and an aspirational outcome (elevate everyday living). Multiple new clauses and dimensions have been added \u2014 the scope and depth of the response are meaningfully larger."
+  },
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "Everyday delights",
+      "post_evidence": "elevate everyday living",
+      "rationale": "The 'everyday' anchor from PRE is retained and broadened in POST: 'delights' (small affective joys) becomes 'elevate everyday living' (a wider aspirational enhancement of daily life). Recognizable seed ('everyday') is preserved while scope grows.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Redefining home",
+      "rationale": "No meaningful antecedent in PRE. Nearest PRE counterpart 'everyday delights' tested across all four transformations; subsumption fails, shared territory only at abstraction-ceiling 'aspirational everyday life', no elaboration or expansion pathway from PRE to the 'home' domain.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "curated collection of design-driven and functional pieces",
+      "rationale": "No meaningful antecedent in PRE. Nearest PRE counterpart 'everyday delights' tested; product/offering frame differs from affective/experiential frame, and no product seed is identifiable in PRE. Kept as New after re-check.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_expand_vs_new"
+    ],
+    "coder_notes": "PRE is a very short fragment (two words), which limits unitization options and forces broad reading. The 'everyday' anchor bridges PRE to POST's 'elevate everyday living' (Expanded), but the other POST clauses ('redefining home', 'curated collection...') have no clear antecedent and were kept as New after full-response nearest-counterpart search."
+  },
+  "coded_at": "2025-01-01T00:00:00Z",
+  "model": "MiniMax-M3"
+}

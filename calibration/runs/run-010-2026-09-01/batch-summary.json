@@ -1,0 +1,25 @@
+{
+  "runId": "run-010-2026-09-01",
+  "source": "calibration/firestore-backup/2026-09-01-pre-run-008",
+  "out": "calibration/runs/run-010-2026-09-01/docs",
+  "endpoint": "http://localhost:3001/api/ai-code-item",
+  "studentsInDump": 13,
+  "attempted": 88,
+  "succeeded": 88,
+  "failed": {},
+  "preserved": [
+    "aliyah:comp-1a (explicitly skipped)",
+    "aliyah:comp-1b (explicitly skipped)",
+    "aliyah:comp-1c (explicitly skipped)",
+    "aliyah:comp-3 (explicitly skipped)",
+    "aliyah:comp-5 (explicitly skipped)",
+    "aliyah:comp-6 (explicitly skipped)",
+    "aliyah:comp-7 (explicitly skipped)",
+    "aliyah:comp-8 (explicitly skipped)",
+    "jason:comp-1a (explicitly skipped)",
+    "jason:comp-1b (explicitly skipped)",
+    "jason:comp-1c (explicitly skipped)"
+  ],
+  "itemsWritten": 88,
+  "elapsedSeconds": 746.9
+}

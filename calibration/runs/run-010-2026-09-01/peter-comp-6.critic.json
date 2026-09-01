@@ -1,0 +1,81 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Supermarkets in Thailand and China as commerce platforms",
+      "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Pass 1 correctly identified Expanded: generic 'supermarkets as commerce platforms' seed broadens into a named, market-specific commerce+ads platform list for China. Elaborated was the noted alternative; Expanded better captures the broadening from a single channel to a multi-platform mix. Confirming."
+    },
+    {
+      "type": "confirm",
+      "pre": "Supermarkets in Thailand and China as commerce platforms",
+      "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Symmetric to the China pair. Single generic retail mention expanded into multiple named commerce and ad platforms specific to Thailand. Confirming."
+    },
+    {
+      "type": "confirm",
+      "pre": "Instagram, X, and TikTok for advertisement",
+      "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "PRE advertising-platform set (IG, X, TikTok) reconceived for Thailand: TikTok retained, Facebook Ads substituted for IG/X (region-appropriateness), commerce platforms layered in. The PRE seed (ad platforms) broadens into a market-appropriate mix. Reframed was considered but the shift is scope/breadth rather than a fundamental reframe of the organizing principle, so Expanded is defensible. Confirming."
+    },
+    {
+      "type": "confirm",
+      "pre": "Instagram, X, and TikTok for advertisement",
+      "post": null,
+      "from_code": null,
+      "to_code": null,
+      "reason": "No provisional New/Removed event fires for IG/X/TikTok PRE. The PRE is fully absorbed into the three matched Expanded pairs (China supermarkets, Thailand supermarkets, Thailand ads). IG and X drop out at the unit level but the broader advertising-platform concept is captured via Expanded. No standalone Removed event is needed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Supermarkets in Thailand and China as commerce platforms",
+      "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+      "basis": "Commerce-platform strategy: generic 'supermarkets as commerce platforms' broadened into a named China-region mix of commerce and ad platforms (Tmall, JD.com, Douyin, Xiaohongshu, WeChat Ads)."
+    },
+    {
+      "pre": "Supermarkets in Thailand and China as commerce platforms",
+      "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+      "basis": "Commerce-platform strategy: generic 'supermarkets as commerce platforms' broadened into a named Thailand-region mix (Shopee, Lazada, TikTok, Facebook Ads)."
+    },
+    {
+      "pre": "Instagram, X, and TikTok for advertisement",
+      "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+      "basis": "Advertising-platform strategy: PRE set (IG, X, TikTok) reconceived for Thailand; TikTok retained, Facebook Ads replaces IG/X as region-appropriate, commerce platforms layered in. Broadens PRE seed into a market-appropriate ads+commerce mix."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "Super Market in Thailand&China",
+      "post_evidence": "China: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+      "rationale": "Generic commerce-channel mention is broadened into a specific, named set of China-relevant commerce and advertising platforms. The commerce-platform seed persists; its scope expands from one generic channel to multiple region-appropriate platforms.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "Super Market in Thailand&China",
+      "post_evidence": "Thailand: TikTok, Facebook Ads, Shopee, Lazada",
+      "rationale": "Symmetric to the China pair: the PRE's generic Thailand commerce-channel mention is broadened into a specific list of Thailand-relevant commerce (Shopee, Lazada) and advertising (TikTok, Facebook Ads) platforms. PRE seed persists with broadened scope.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "IG&X&TikTok for advertisement",
+      "post_evidence": "Thailand: TikTok, Facebook Ads, Shopee, Lazada",
+      "rationale": "PRE advertising-platform set is reconceived for Thailand: TikTok retained, Facebook Ads replaces IG/X, commerce platforms layered in. The advertising-platform role broadens into a market-appropriate mix integrating ads with commerce.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

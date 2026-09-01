@@ -1,0 +1,1107 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Moderate Addition",
+    "structuralRationale": "The post-response adds several specific quality descriptors (restraint, elegance, timeless taste) and rephrases the contextual framing (excess vs informational noise) and the brand action (distills luxury vs delicate touch). The post also extends the design descriptor from 'minimalist touch' to 'meticulously designed' plus three embodied qualities. The response is more elaborated but not substantially restructured.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "context of informational noise",
+        "offering a delicate touch",
+        "silver and glassware product",
+        "minimalist designer touch"
+      ],
+      "postConcepts": [
+        "context of excess",
+        "distills luxury to purest form",
+        "silver and glassware product",
+        "embodies restraint",
+        "embodies elegance",
+        "embodies timeless taste",
+        "meticulously designed"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "context of informational noise",
+          "post": "context of excess",
+          "continuity": "both establish a negative context against which the brand operates",
+          "scope": "similar scope - framing context",
+          "frame": "informational overload vs material excess; both are critiques of modern overabundance but the target of critique shifts from information to material consumption",
+          "stretch": "moderate - related critique frame",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "distills luxury to purest form",
+          "continuity": "weak - context framing vs brand action",
+          "scope": "different - problem statement vs brand's role",
+          "frame": "problem vs action",
+          "stretch": "strong",
+          "verdict": "weak"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies restraint",
+          "continuity": "very weak",
+          "scope": "different",
+          "frame": "context vs quality",
+          "stretch": "strong",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies elegance",
+          "continuity": "very weak",
+          "scope": "different",
+          "frame": "context vs quality",
+          "stretch": "strong",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies timeless taste",
+          "continuity": "very weak",
+          "scope": "different",
+          "frame": "context vs quality",
+          "stretch": "strong",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "offering a delicate touch",
+          "post": "distills luxury to purest form",
+          "continuity": "both describe the brand's role in addressing the context - reducing/refining",
+          "scope": "similar",
+          "frame": "action of refinement; 'delicate touch' is gentle/light while 'distills luxury to purest form' is reductive/purifying",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "offering a delicate touch",
+          "post": "meticulously designed",
+          "continuity": "both describe how the product is made/crafted",
+          "scope": "overlapping - process descriptors",
+          "frame": "gentle/minimal vs careful/crafted",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "silver and glassware product",
+          "post": "silver and glassware product",
+          "continuity": "identical product category",
+          "scope": "identical",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "embodies restraint",
+          "continuity": "both involve restraint/minimalism",
+          "scope": "similar",
+          "frame": "process descriptor vs outcome quality",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "embodies elegance",
+          "continuity": "minimalism often paired with elegance",
+          "scope": "overlapping",
+          "frame": "design approach vs aesthetic outcome",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "embodies timeless taste",
+          "continuity": "minimalism relates to timelessness",
+          "scope": "similar",
+          "frame": "process vs enduring quality",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "continuity": "both describe design approach",
+          "scope": "identical/synonymous",
+          "frame": "design process",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "context of informational noise",
+          "post": "embodies restraint",
+          "reason": "context statement vs product quality - different conceptual domains"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies elegance",
+          "reason": "context statement vs product quality - different conceptual domains"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies timeless taste",
+          "reason": "context statement vs product quality - different conceptual domains"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "context of informational noise",
+          "post": "context of excess",
+          "basis": "Both establish a critical modern-world framing; frame shifts from information-overload to material-excess critique"
+        },
+        {
+          "pre": "offering a delicate touch",
+          "post": "distills luxury to purest form",
+          "basis": "Both describe the brand's refining action; frame shifts from gentle/light touch to distillation/purification"
+        },
+        {
+          "pre": "silver and glassware product",
+          "post": "silver and glassware product",
+          "basis": "Identical product category reference, elaborated with design and quality descriptors"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "basis": "Both describe the design approach; minimalism is a specific form of meticulous design (scope restriction holds)"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [
+        "embodies restraint",
+        "embodies elegance",
+        "embodies timeless taste"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "embodies restraint",
+          "direction": "new",
+          "nearestCounterpart": "minimalist designer touch",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Restraint is a quality the product embodies (outcome), while minimalist designer touch describes the design process (approach). Both occupy a minimalist/restrained aesthetic neighborhood. Tested Narrowed: 'Restraint is a specific way of being minimalism' - arguable but minimalism is broader than restraint. Tested Reframed: the frame shifts from process (how it's designed) to outcome quality (what it expresses) - this is a plausible transformation. However, after considering, the minimalist designer touch is already partially accounted for in the match to 'meticulously designed'. The three embodied qualities (restraint, elegance, timeless taste) appear as elaborations or expansions of the minimalist design intent rather than strict transforms of a single concept. Keeping as New but noting ambiguity."
+        },
+        {
+          "concept": "embodies elegance",
+          "direction": "new",
+          "nearestCounterpart": "minimalist designer touch",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Elegance as embodied quality vs minimalist designer touch as design process. Same minimalist/aesthetic neighborhood. Reframed could apply (process frame \u2192 outcome quality frame). However, since 'minimalist designer touch' is already partially matched to 'meticulously designed', and elegance is a new specific quality added, this leans toward Expanded - the minimalist design intent is broadened into specific embodied qualities (restraint, elegance, timeless taste). Kept as New for now, noting the transformation logic is fragile."
+        },
+        {
+          "concept": "embodies timeless taste",
+          "direction": "new",
+          "nearestCounterpart": "minimalist designer touch",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Timelessness as outcome quality vs minimalism as process. Minimalism is often associated with timelessness but timeless taste is broader - it includes enduring aesthetic appeal beyond minimalism. Same neighborhood but POST extends beyond PRE. Reframed possible (process \u2192 enduring outcome). Kept as New."
+        },
+        {
+          "concept": "minimalist designer touch",
+          "direction": "removed",
+          "nearestCounterpart": "meticulously designed",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Meticulously designed is essentially a close synonym/paraphrase of minimalist designer touch in this context. Both describe the design approach. This is Narrowed or Reframed; the minimalist concept persists as 'meticulously designed'."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "context of informational noise",
+          "post": "context of excess",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Same critical-context role, frame shifts from information-overload to material-excess critique. Not subsumptive; Reframed is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "offering a delicate touch",
+          "post": "distills luxury to purest form",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Both describe brand's refining action. Subsumption fails - distillation is not a specific way of being a delicate touch. Same territory, shifted frame. Reframed correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "silver and glassware product",
+          "post": "silver and glassware product",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "Identical product reference; POST elaborates with meticulously designed and the embodied qualities. Elaborated correct."
+        },
+        {
+          "type": "recode",
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "fromCode": "Elaborated",
+          "toCode": "Reframed",
+          "reason": "Wait - 'meticulously designed' keeps the design-process frame. The pass-1 rationale put this Elaborated reasoning under the silver/glassware event. For the minimalist\u2192meticulous pair specifically: both describe design approach; minimalism (aesthetic philosophy) vs meticulousness (craftsmanship execution). Same design-process neighborhood, frame shifts from aesthetic-philosophy to craft-execution. Reframed. However, 'minimalist designer touch' is narrower than 'meticulously designed' (minimalism is one design approach; meticulousness spans many). So Narrowed also defensible: 'minimalist designer touch is a specific way of being meticulously designed' = TRUE if minimalism is a subset of meticulous design. Recording Narrowed as alternative. Picking Narrowed as primary since scope restriction holds."
+        },
+        {
+          "type": "recode",
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "fromCode": "Reframed",
+          "toCode": "Narrowed",
+          "reason": "Recorrection: minimalism is a specific design philosophy; meticulousness is a broader design-quality descriptor. The subsumption sentence 'minimalist designer touch is a specific way of being meticulously designed' is TRUE. Scope restriction holds. Narrowed is correct."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6z2ahsufayxr4d4g",
+        "code": "Reframed",
+        "preEvidence": "In age of informational noise",
+        "postEvidence": "In a world of excess",
+        "rationale": "Same critical-context role with shifted target of critique (information \u2192 material). Pre-frame: informational/sensory noise; post-frame: material excess/luxury critique.",
+        "confidence": "medium",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6z2ahyayy0jah0n",
+        "code": "Reframed",
+        "preEvidence": "offers a delicate touch",
+        "postEvidence": "distills luxury to its purest form",
+        "rationale": "Both describe the brand's refining action. Pre-frame: gentle/minimalist touch; post-frame: distillation/purification of luxury. Not subsumptive.",
+        "confidence": "medium",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6z2ahtf3chrs6xqf",
+        "code": "Elaborated",
+        "preEvidence": "silver and glassware",
+        "postEvidence": "meticulously designed silver and glassware that embodies restraint, elegance, and timeless taste",
+        "rationale": "The product category is retained and elaborated with the design quality and three embodied qualities.",
+        "confidence": "medium",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6z2ah6me39vht6us",
+        "code": "Narrowed",
+        "preEvidence": "minimalist designer touch",
+        "postEvidence": "meticulously designed",
+        "rationale": "Minimalism is a specific form of meticulous design. Scope restriction holds - minimalism is a subset of meticulous design approaches.",
+        "confidence": "medium",
+        "alternativeConsidered": "Reframed"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "vague_to_specific_lineage",
+        "events_possibly_collapsed",
+        "reframe_downgraded",
+        "critic_restore_rejected_unit_already_matched"
+      ],
+      "coderNotes": "The 'embodies restraint/elegance/timeless taste' trio could plausibly be coded as Expanded of 'minimalist designer touch' rather than New, since minimalism does broaden into these qualities. Also, the distinction between Elaborated (on product category) and the New qualities event is fragile - they may be one event rather than two. The two Reframed events (context framing and brand action) involve genuine frame shifts but could also be read as stylistic rewrites. Critic applied 5 correction(s). Rejected 3 critic restore(s) that reused an already-matched unit: minimalist designer touch \u2192 embodies restraint; minimalist designer touch \u2192 embodies elegance; minimalist designer touch \u2192 embodies timeless taste."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "nartay-ualikhan",
+      "item_id": "comp-1b"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "context of informational noise",
+        "offering a delicate touch",
+        "silver and glassware product",
+        "minimalist designer touch"
+      ],
+      "post_concepts": [
+        "context of excess",
+        "distills luxury to purest form",
+        "silver and glassware product",
+        "embodies restraint",
+        "embodies elegance",
+        "embodies timeless taste",
+        "meticulously designed"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "context of informational noise",
+          "post": "context of excess",
+          "continuity": "both establish a negative context against which the brand operates",
+          "scope": "similar scope - framing context",
+          "frame": "informational overload vs material excess; both are critiques of modern overabundance but the target of critique shifts from information to material consumption",
+          "stretch": "moderate - related critique frame",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "distills luxury to purest form",
+          "continuity": "weak - context framing vs brand action",
+          "scope": "different - problem statement vs brand's role",
+          "frame": "problem vs action",
+          "stretch": "strong",
+          "verdict": "weak"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies restraint",
+          "continuity": "very weak",
+          "scope": "different",
+          "frame": "context vs quality",
+          "stretch": "strong",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies elegance",
+          "continuity": "very weak",
+          "scope": "different",
+          "frame": "context vs quality",
+          "stretch": "strong",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies timeless taste",
+          "continuity": "very weak",
+          "scope": "different",
+          "frame": "context vs quality",
+          "stretch": "strong",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "offering a delicate touch",
+          "post": "distills luxury to purest form",
+          "continuity": "both describe the brand's role in addressing the context - reducing/refining",
+          "scope": "similar",
+          "frame": "action of refinement; 'delicate touch' is gentle/light while 'distills luxury to purest form' is reductive/purifying",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "offering a delicate touch",
+          "post": "meticulously designed",
+          "continuity": "both describe how the product is made/crafted",
+          "scope": "overlapping - process descriptors",
+          "frame": "gentle/minimal vs careful/crafted",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "silver and glassware product",
+          "post": "silver and glassware product",
+          "continuity": "identical product category",
+          "scope": "identical",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "embodies restraint",
+          "continuity": "both involve restraint/minimalism",
+          "scope": "similar",
+          "frame": "process descriptor vs outcome quality",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "embodies elegance",
+          "continuity": "minimalism often paired with elegance",
+          "scope": "overlapping",
+          "frame": "design approach vs aesthetic outcome",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "embodies timeless taste",
+          "continuity": "minimalism relates to timelessness",
+          "scope": "similar",
+          "frame": "process vs enduring quality",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "continuity": "both describe design approach",
+          "scope": "identical/synonymous",
+          "frame": "design process",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "context of informational noise",
+          "post": "embodies restraint",
+          "reason": "context statement vs product quality - different conceptual domains"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies elegance",
+          "reason": "context statement vs product quality - different conceptual domains"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies timeless taste",
+          "reason": "context statement vs product quality - different conceptual domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "context of informational noise",
+          "post": "context of excess",
+          "basis": "Both establish a critical modern-world framing; frame shifts from information-overload to material-excess critique"
+        },
+        {
+          "pre": "offering a delicate touch",
+          "post": "distills luxury to purest form",
+          "basis": "Both describe the brand's refining action; frame shifts from gentle/light touch to distillation/purification"
+        },
+        {
+          "pre": "silver and glassware product",
+          "post": "silver and glassware product",
+          "basis": "Identical product category reference, elaborated with design and quality descriptors"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "basis": "Both describe the design approach; minimalism is a specific form of meticulous design (scope restriction holds)"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "embodies restraint",
+        "embodies elegance",
+        "embodies timeless taste"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "embodies restraint",
+          "direction": "new",
+          "nearest_counterpart": "minimalist designer touch",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Restraint is a quality the product embodies (outcome), while minimalist designer touch describes the design process (approach). Both occupy a minimalist/restrained aesthetic neighborhood. Tested Narrowed: 'Restraint is a specific way of being minimalism' - arguable but minimalism is broader than restraint. Tested Reframed: the frame shifts from process (how it's designed) to outcome quality (what it expresses) - this is a plausible transformation. However, after considering, the minimalist designer touch is already partially accounted for in the match to 'meticulously designed'. The three embodied qualities (restraint, elegance, timeless taste) appear as elaborations or expansions of the minimalist design intent rather than strict transforms of a single concept. Keeping as New but noting ambiguity."
+        },
+        {
+          "concept": "embodies elegance",
+          "direction": "new",
+          "nearest_counterpart": "minimalist designer touch",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Elegance as embodied quality vs minimalist designer touch as design process. Same minimalist/aesthetic neighborhood. Reframed could apply (process frame \u2192 outcome quality frame). However, since 'minimalist designer touch' is already partially matched to 'meticulously designed', and elegance is a new specific quality added, this leans toward Expanded - the minimalist design intent is broadened into specific embodied qualities (restraint, elegance, timeless taste). Kept as New for now, noting the transformation logic is fragile."
+        },
+        {
+          "concept": "embodies timeless taste",
+          "direction": "new",
+          "nearest_counterpart": "minimalist designer touch",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Timelessness as outcome quality vs minimalism as process. Minimalism is often associated with timelessness but timeless taste is broader - it includes enduring aesthetic appeal beyond minimalism. Same neighborhood but POST extends beyond PRE. Reframed possible (process \u2192 enduring outcome). Kept as New."
+        },
+        {
+          "concept": "minimalist designer touch",
+          "direction": "removed",
+          "nearest_counterpart": "meticulously designed",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Meticulously designed is essentially a close synonym/paraphrase of minimalist designer touch in this context. Both describe the design approach. This is Narrowed or Reframed; the minimalist concept persists as 'meticulously designed'."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "context of informational noise",
+          "post": "context of excess",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Same critical-context role, frame shifts from information-overload to material-excess critique. Not subsumptive; Reframed is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "offering a delicate touch",
+          "post": "distills luxury to purest form",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Both describe brand's refining action. Subsumption fails - distillation is not a specific way of being a delicate touch. Same territory, shifted frame. Reframed correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "silver and glassware product",
+          "post": "silver and glassware product",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "Identical product reference; POST elaborates with meticulously designed and the embodied qualities. Elaborated correct."
+        },
+        {
+          "type": "recode",
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "from_code": "Elaborated",
+          "to_code": "Reframed",
+          "reason": "Wait - 'meticulously designed' keeps the design-process frame. The pass-1 rationale put this Elaborated reasoning under the silver/glassware event. For the minimalist\u2192meticulous pair specifically: both describe design approach; minimalism (aesthetic philosophy) vs meticulousness (craftsmanship execution). Same design-process neighborhood, frame shifts from aesthetic-philosophy to craft-execution. Reframed. However, 'minimalist designer touch' is narrower than 'meticulously designed' (minimalism is one design approach; meticulousness spans many). So Narrowed also defensible: 'minimalist designer touch is a specific way of being meticulously designed' = TRUE if minimalism is a subset of meticulous design. Recording Narrowed as alternative. Picking Narrowed as primary since scope restriction holds."
+        },
+        {
+          "type": "recode",
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "from_code": "Reframed",
+          "to_code": "Narrowed",
+          "reason": "Recorrection: minimalism is a specific design philosophy; meticulousness is a broader design-quality descriptor. The subsumption sentence 'minimalist designer touch is a specific way of being meticulously designed' is TRUE. Scope restriction holds. Narrowed is correct."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "The post-response adds several specific quality descriptors (restraint, elegance, timeless taste) and rephrases the contextual framing (excess vs informational noise) and the brand action (distills luxury vs delicate touch). The post also extends the design descriptor from 'minimalist touch' to 'meticulously designed' plus three embodied qualities. The response is more elaborated but not substantially restructured."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "In age of informational noise",
+        "post_evidence": "In a world of excess",
+        "rationale": "Same critical-context role with shifted target of critique (information \u2192 material). Pre-frame: informational/sensory noise; post-frame: material excess/luxury critique.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "offers a delicate touch",
+        "post_evidence": "distills luxury to its purest form",
+        "rationale": "Both describe the brand's refining action. Pre-frame: gentle/minimalist touch; post-frame: distillation/purification of luxury. Not subsumptive.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "silver and glassware",
+        "post_evidence": "meticulously designed silver and glassware that embodies restraint, elegance, and timeless taste",
+        "rationale": "The product category is retained and elaborated with the design quality and three embodied qualities.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Narrowed",
+        "pre_evidence": "minimalist designer touch",
+        "post_evidence": "meticulously designed",
+        "rationale": "Minimalism is a specific form of meticulous design. Scope restriction holds - minimalism is a subset of meticulous design approaches.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "vague_to_specific_lineage",
+        "events_possibly_collapsed",
+        "reframe_downgraded",
+        "critic_restore_rejected_unit_already_matched"
+      ],
+      "coder_notes": "The 'embodies restraint/elegance/timeless taste' trio could plausibly be coded as Expanded of 'minimalist designer touch' rather than New, since minimalism does broaden into these qualities. Also, the distinction between Elaborated (on product category) and the New qualities event is fragile - they may be one event rather than two. The two Reframed events (context framing and brand action) involve genuine frame shifts but could also be read as stylistic rewrites. Critic applied 5 correction(s). Rejected 3 critic restore(s) that reused an already-matched unit: minimalist designer touch \u2192 embodies restraint; minimalist designer touch \u2192 embodies elegance; minimalist designer touch \u2192 embodies timeless taste."
+    },
+    "coded_at": "2026-05-14T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "nartay-ualikhan",
+      "item_id": "comp-1b"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "context of informational noise",
+        "offering a delicate touch",
+        "silver and glassware product",
+        "minimalist designer touch"
+      ],
+      "post_concepts": [
+        "context of excess",
+        "distills luxury to purest form",
+        "silver and glassware product",
+        "embodies restraint",
+        "embodies elegance",
+        "embodies timeless taste",
+        "meticulously designed"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "context of informational noise",
+          "post": "context of excess",
+          "continuity": "both establish a negative context against which the brand operates",
+          "scope": "similar scope - framing context",
+          "frame": "informational overload vs material excess; both are critiques of modern overabundance but the target of critique shifts from information to material consumption",
+          "stretch": "moderate - related critique frame",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "distills luxury to purest form",
+          "continuity": "weak - context framing vs brand action",
+          "scope": "different - problem statement vs brand's role",
+          "frame": "problem vs action",
+          "stretch": "strong",
+          "verdict": "weak"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies restraint",
+          "continuity": "very weak",
+          "scope": "different",
+          "frame": "context vs quality",
+          "stretch": "strong",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies elegance",
+          "continuity": "very weak",
+          "scope": "different",
+          "frame": "context vs quality",
+          "stretch": "strong",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies timeless taste",
+          "continuity": "very weak",
+          "scope": "different",
+          "frame": "context vs quality",
+          "stretch": "strong",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "offering a delicate touch",
+          "post": "distills luxury to purest form",
+          "continuity": "both describe the brand's role in addressing the context - reducing/refining",
+          "scope": "similar",
+          "frame": "action of refinement; 'delicate touch' is gentle/light while 'distills luxury to purest form' is reductive/purifying",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "offering a delicate touch",
+          "post": "meticulously designed",
+          "continuity": "both describe how the product is made/crafted",
+          "scope": "overlapping - process descriptors",
+          "frame": "gentle/minimal vs careful/crafted",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "silver and glassware product",
+          "post": "silver and glassware product",
+          "continuity": "identical product category",
+          "scope": "identical",
+          "frame": "same",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "embodies restraint",
+          "continuity": "both involve restraint/minimalism",
+          "scope": "similar",
+          "frame": "process descriptor vs outcome quality",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "embodies elegance",
+          "continuity": "minimalism often paired with elegance",
+          "scope": "overlapping",
+          "frame": "design approach vs aesthetic outcome",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "embodies timeless taste",
+          "continuity": "minimalism relates to timelessness",
+          "scope": "similar",
+          "frame": "process vs enduring quality",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "continuity": "both describe design approach",
+          "scope": "identical/synonymous",
+          "frame": "design process",
+          "stretch": "minimal",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "context of informational noise",
+          "post": "embodies restraint",
+          "reason": "context statement vs product quality - different conceptual domains"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies elegance",
+          "reason": "context statement vs product quality - different conceptual domains"
+        },
+        {
+          "pre": "context of informational noise",
+          "post": "embodies timeless taste",
+          "reason": "context statement vs product quality - different conceptual domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "context of informational noise",
+          "post": "context of excess",
+          "basis": "both establish a critical framing of the modern world against which the brand positions itself; the target of critique shifts from information overload to material excess"
+        },
+        {
+          "pre": "offering a delicate touch",
+          "post": "distills luxury to purest form",
+          "basis": "both describe the brand's refining action - reducing/compressing something down to a refined form"
+        },
+        {
+          "pre": "silver and glassware product",
+          "post": "silver and glassware product",
+          "basis": "identical product category reference"
+        },
+        {
+          "pre": "minimalist designer touch",
+          "post": "meticulously designed",
+          "basis": "both describe the design process; minimalism and meticulous design are closely related design qualities"
+        }
+      ],
+      "unmatched_pre": [
+        "minimalist designer touch (partially matched - restraint/elegance/timeless taste may also be partial successors)"
+      ],
+      "unmatched_post": [
+        "embodies restraint",
+        "embodies elegance",
+        "embodies timeless taste"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "embodies restraint",
+          "direction": "new",
+          "nearest_counterpart": "minimalist designer touch",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Restraint is a quality the product embodies (outcome), while minimalist designer touch describes the design process (approach). Both occupy a minimalist/restrained aesthetic neighborhood. Tested Narrowed: 'Restraint is a specific way of being minimalism' - arguable but minimalism is broader than restraint. Tested Reframed: the frame shifts from process (how it's designed) to outcome quality (what it expresses) - this is a plausible transformation. However, after considering, the minimalist designer touch is already partially accounted for in the match to 'meticulously designed'. The three embodied qualities (restraint, elegance, timeless taste) appear as elaborations or expansions of the minimalist design intent rather than strict transforms of a single concept. Keeping as New but noting ambiguity."
+        },
+        {
+          "concept": "embodies elegance",
+          "direction": "new",
+          "nearest_counterpart": "minimalist designer touch",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Elegance as embodied quality vs minimalist designer touch as design process. Same minimalist/aesthetic neighborhood. Reframed could apply (process frame \u2192 outcome quality frame). However, since 'minimalist designer touch' is already partially matched to 'meticulously designed', and elegance is a new specific quality added, this leans toward Expanded - the minimalist design intent is broadened into specific embodied qualities (restraint, elegance, timeless taste). Kept as New for now, noting the transformation logic is fragile."
+        },
+        {
+          "concept": "embodies timeless taste",
+          "direction": "new",
+          "nearest_counterpart": "minimalist designer touch",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Timelessness as outcome quality vs minimalism as process. Minimalism is often associated with timelessness but timeless taste is broader - it includes enduring aesthetic appeal beyond minimalism. Same neighborhood but POST extends beyond PRE. Reframed possible (process \u2192 enduring outcome). Kept as New."
+        },
+        {
+          "concept": "minimalist designer touch",
+          "direction": "removed",
+          "nearest_counterpart": "meticulously designed",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Meticulously designed is essentially a close synonym/paraphrase of minimalist designer touch in this context. Both describe the design approach. This is Narrowed or Reframed; the minimalist concept persists as 'meticulously designed'."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "The post-response adds several specific quality descriptors (restraint, elegance, timeless taste) and rephrases the contextual framing (excess vs informational noise) and the brand action (distills luxury vs delicate touch). The post also extends the design descriptor from 'minimalist touch' to 'meticulously designed' plus three embodied qualities. The response is more elaborated but not substantially restructured."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "In age of informational noise",
+        "post_evidence": "In a world of excess",
+        "rationale": "Both establish a critical framing of the modern context against which the brand positions itself. The frame shifts from information-overload critique to material-excess critique. Pre-frame: informational/sensory noise; post-frame: material excess/luxury critique. Same critical-context role with shifted target of critique.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "offers a delicate touch",
+        "post_evidence": "distills luxury to its purest form",
+        "rationale": "Both describe the brand's refining action in relation to its context. Pre-frame: gentle/minimalist touch; post-frame: distillation/purification of luxury. Same refining-role territory but the conceptual frame shifts from a gentle touch to an act of distillation. Not subsumptive - distillation is not a specific way of being a delicate touch.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "silver and glassware",
+        "post_evidence": "meticulously designed silver and glassware that embodies restraint, elegance, and timeless taste",
+        "rationale": "The product category is retained and elaborated with the design quality ('meticulously designed') and three specific qualities it embodies (restraint, elegance, timeless taste). The core product reference is preserved and enriched.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "embodies restraint, elegance, and timeless taste",
+        "rationale": "These three specific embodied qualities are introduced without direct antecedents in the pre-response. The nearest counterpart is 'minimalist designer touch' which describes a process/approach, not these specific outcome qualities. After testing Narrowed (restraint is arguably a form of minimalism but the embodied-quality framing is new), Reframed (process-to-outcome frame shift possible but tenuous), Expanded (the minimalist intent does broaden into these qualities - this is the strongest case), and Elaborated - the strongest reading is Expanded rather than New, but the elaboration logic is captured in the Elaborated event for the product category itself. Kept as New for the specific quality triad.",
+        "alternative_considered": "Expanded",
+        "confidence": "low"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "vague_to_specific_lineage",
+        "events_possibly_collapsed"
+      ],
+      "coder_notes": "The 'embodies restraint/elegance/timeless taste' trio could plausibly be coded as Expanded of 'minimalist designer touch' rather than New, since minimalism does broaden into these qualities. Also, the distinction between Elaborated (on product category) and the New qualities event is fragile - they may be one event rather than two. The two Reframed events (context framing and brand action) involve genuine frame shifts but could also be read as stylistic rewrites."
+    },
+    "coded_at": "2026-05-14T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "context of informational noise",
+        "post": "context of excess",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Same critical-context role, frame shifts from information-overload to material-excess critique. Not subsumptive; Reframed is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "offering a delicate touch",
+        "post": "distills luxury to purest form",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Both describe brand's refining action. Subsumption fails - distillation is not a specific way of being a delicate touch. Same territory, shifted frame. Reframed correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "silver and glassware product",
+        "post": "silver and glassware product",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Identical product reference; POST elaborates with meticulously designed and the embodied qualities. Elaborated correct."
+      },
+      {
+        "type": "recode",
+        "pre": "minimalist designer touch",
+        "post": "meticulously designed",
+        "from_code": "Elaborated",
+        "to_code": "Reframed",
+        "reason": "Wait - 'meticulously designed' keeps the design-process frame. The pass-1 rationale put this Elaborated reasoning under the silver/glassware event. For the minimalist\u2192meticulous pair specifically: both describe design approach; minimalism (aesthetic philosophy) vs meticulousness (craftsmanship execution). Same design-process neighborhood, frame shifts from aesthetic-philosophy to craft-execution. Reframed. However, 'minimalist designer touch' is narrower than 'meticulously designed' (minimalism is one design approach; meticulousness spans many). So Narrowed also defensible: 'minimalist designer touch is a specific way of being meticulously designed' = TRUE if minimalism is a subset of meticulous design. Recording Narrowed as alternative. Picking Narrowed as primary since scope restriction holds."
+      },
+      {
+        "type": "recode",
+        "pre": "minimalist designer touch",
+        "post": "meticulously designed",
+        "from_code": "Reframed",
+        "to_code": "Narrowed",
+        "reason": "Recorrection: minimalism is a specific design philosophy; meticulousness is a broader design-quality descriptor. The subsumption sentence 'minimalist designer touch is a specific way of being meticulously designed' is TRUE. Scope restriction holds. Narrowed is correct."
+      },
+      {
+        "type": "restore_lineage",
+        "pre": "minimalist designer touch",
+        "post": "embodies restraint",
+        "from_code": "New",
+        "to_code": "Narrowed",
+        "reason": "Restraint is a specific way of being minimalism - minimalism fundamentally entails restraint. Subsumption holds. The nearest PRE antecedent for 'embodies restraint' is 'minimalist designer touch'. Pairing these and removing them from unmatched lists."
+      },
+      {
+        "type": "restore_lineage",
+        "pre": "minimalist designer touch",
+        "post": "embodies elegance",
+        "from_code": "New",
+        "to_code": "Reframed",
+        "reason": "Elegance and minimalism occupy the same aesthetic neighborhood. 'Elegance is a specific way of being minimalism' is FALSE - they are sibling qualities within restrained design. Same territory, shifted frame (restrained-functional to refined-aesthetic). Reframed correct."
+      },
+      {
+        "type": "restore_lineage",
+        "pre": "minimalist designer touch",
+        "post": "embodies timeless taste",
+        "from_code": "New",
+        "to_code": "Expanded",
+        "reason": "Timeless taste broadens beyond the minimalist aesthetic seed into enduring/heritage quality. POST extends PRE's scope. Expanded correct."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "context of informational noise",
+        "post": "context of excess",
+        "basis": "Both establish a critical modern-world framing; frame shifts from information-overload to material-excess critique"
+      },
+      {
+        "pre": "offering a delicate touch",
+        "post": "distills luxury to purest form",
+        "basis": "Both describe the brand's refining action; frame shifts from gentle/light touch to distillation/purification"
+      },
+      {
+        "pre": "silver and glassware product",
+        "post": "silver and glassware product",
+        "basis": "Identical product category reference, elaborated with design and quality descriptors"
+      },
+      {
+        "pre": "minimalist designer touch",
+        "post": "meticulously designed",
+        "basis": "Both describe the design approach; minimalism is a specific form of meticulous design (scope restriction holds)"
+      },
+      {
+        "pre": "minimalist designer touch",
+        "post": "embodies restraint",
+        "basis": "Restraint is a specific way of being minimalism (subsumption holds)"
+      },
+      {
+        "pre": "minimalist designer touch",
+        "post": "embodies elegance",
+        "basis": "Sibling aesthetic qualities within restrained-design neighborhood; frame shifts from restrained-functional to refined-aesthetic"
+      },
+      {
+        "pre": "minimalist designer touch",
+        "post": "embodies timeless taste",
+        "basis": "Timeless taste broadens the minimalist seed into enduring/heritage quality"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "In age of informational noise",
+        "post_evidence": "In a world of excess",
+        "rationale": "Same critical-context role with shifted target of critique (information \u2192 material). Pre-frame: informational/sensory noise; post-frame: material excess/luxury critique.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "offers a delicate touch",
+        "post_evidence": "distills luxury to its purest form",
+        "rationale": "Both describe the brand's refining action. Pre-frame: gentle/minimalist touch; post-frame: distillation/purification of luxury. Not subsumptive.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "silver and glassware",
+        "post_evidence": "meticulously designed silver and glassware that embodies restraint, elegance, and timeless taste",
+        "rationale": "The product category is retained and elaborated with the design quality and three embodied qualities.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Narrowed",
+        "pre_evidence": "minimalist designer touch",
+        "post_evidence": "meticulously designed",
+        "rationale": "Minimalism is a specific form of meticulous design. Scope restriction holds - minimalism is a subset of meticulous design approaches.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Narrowed",
+        "pre_evidence": "minimalist designer touch",
+        "post_evidence": "embodies restraint",
+        "rationale": "Restraint is a specific way of being minimalism - minimalism fundamentally entails restraint. Subsumption holds.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "minimalist designer touch",
+        "post_evidence": "embodies elegance",
+        "rationale": "Elegance and minimalism are sibling aesthetic qualities within the restrained-design neighborhood. Frame shifts from restrained-functional to refined-aesthetic.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "minimalist designer touch",
+        "post_evidence": "embodies timeless taste",
+        "rationale": "Timeless taste broadens beyond the minimalist aesthetic seed into enduring/heritage quality that extends beyond minimalism's scope.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "skipCritic": false
+}

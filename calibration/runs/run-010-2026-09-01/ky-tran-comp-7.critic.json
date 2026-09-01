@@ -1,0 +1,68 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "70% product review",
+      "post": "product review",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Pass-1 outcome (bare 'product review' as the closest match, with 70% allocation qualifier absent) is handled by the Removed event on the 70% allocation. The category-level pair itself is not coded as a transformation because the allocation number has no POST counterpart. Confirming the alignment as a category persistence noted inside the Removed event's rationale."
+    },
+    {
+      "type": "confirm",
+      "pre": "30% influencer review",
+      "post": "Health awareness content with influencers that have credible background",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Both share the influencer-driven content neighborhood. Subsumption test: 'Health awareness content with credible-background influencers' is a specific way of being '30% influencer review' \u2014 FALSE (different content categories, review vs health awareness). Reframed is correct: same influencer-driven territory, shifted organizing frame from ratio-allocated product review to thematically-organized health awareness content with a credibility qualifier. Narrowed is not defensible here; confirmed as runner-up."
+    },
+    {
+      "type": "recode",
+      "pre": "70% product review",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Narrowed",
+      "reason": "Testing the transformation ladder against the matched pair '70% product review \u2192 product review': 'Bare product review' is a specific way of being '70% product review' in the sense that it strips the allocation qualifier and retains the content category \u2014 but subsumption is borderline. The 70% allocation is a quantitative frame element, not a category subtype. Stronger reading: the content category (product review) persists intact and the 70% allocation is a dropped qualifier. This is closer to Narrowed (POST is a subset realization: bare review without the allocation envelope) than to a standalone Removed. Recoding to Narrowed so the 70% allocation's loss is captured as a transformation of the full PRE phrase rather than an orphan Removed event. Alternative: Removed (previously considered); Narrowed selected because 'product review' is a proper subset reading of '70% product review' (review without the allocation envelope)."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Health awareness content with credible-background qualifier (the thematic content type itself)",
+      "from_code": "New",
+      "to_code": null,
+      "reason": "After absorbing the category-level persistence into a Narrowed event on the 70% product review pair and confirming the Reframed on the influencer pair, no standalone New remains in the unmatched_post inventory as coded. The 'Health awareness content with influencers that have credible background' concept is fully accounted for by the Reframed event. The unmatched_post list from pass-1 is cleared. Confirming that no orphan New is emitted."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "70% product review",
+      "post": "product review",
+      "basis": "Content category (product review) persists; the 70% allocation qualifier is dropped \u2014 POST is the bare content category realization of the PRE phrase."
+    },
+    {
+      "pre": "30% influencer review",
+      "post": "Health awareness content with influencers that have credible background",
+      "basis": "Same influencer-driven content neighborhood; organizing frame shifts from ratio-allocated product review to thematically-organized health awareness content delivered by credentialed influencers."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "70% product review",
+      "post_evidence": "product review",
+      "rationale": "POST ('product review') is the bare content-category realization of PRE ('70% product review'): the review category persists while the 70% allocation envelope is dropped. Narrowed captures the subset/scope-restriction reading \u2014 bare product review is the content category without the quantitative allocation frame. Alternative considered: Removed (previously coded in pass-1); rejected because the category itself persists via this pair, so it is a transformation, not an orphan removal.",
+      "alternative_considered": "Removed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "30% influencer review",
+      "post_evidence": "Health awareness content with influencers that have credible background",
+      "rationale": "Same influencer-driven content neighborhood; organizing frame shifts from a ratio-allocated product/influencer review to a thematically-organized health-awareness content model where the influencer carries a credible-background qualifier. Subsumption test fails (health awareness content is not a specific way of being influencer review \u2014 different content categories). Reframed is the correct tier: sibling concepts under the influencer-content umbrella with shifted frames.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "coding_unit": {
+    "student_id": "amy",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "TikTok",
+      "Instagram"
+    ],
+    "post_concepts": [
+      "Tiktok",
+      "Instagram"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "TikTok",
+        "post": "Tiktok",
+        "continuity": "identical platform, minor capitalization difference",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "trivial",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "TikTok",
+        "post": "Instagram",
+        "continuity": "different platforms; no conceptual lineage",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible - same list position",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Tiktok",
+        "continuity": "different platforms; no conceptual lineage",
+        "scope": "different",
+        "frame": "different",
+        "stretch": "implausible - same list position",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Instagram",
+        "continuity": "identical platform",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "trivial",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "TikTok",
+        "post": "Instagram",
+        "reason": "different platforms, different conceptual domains; same-list-position is not a basis for a match"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Tiktok",
+        "reason": "different platforms, different conceptual domains; same-list-position is not a basis for a match"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "TikTok",
+        "post": "Tiktok",
+        "basis": "identical platform reference (spelling/capitalization trivial)"
+      },
+      {
+        "pre": "Instagram",
+        "post": "Instagram",
+        "basis": "identical platform reference"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [
+      "PRE uses 'or' to indicate choice; POST uses 'and' to indicate combined use. Conjunction change but same two platforms retained. No semantic event emitted."
+    ],
+    "new_removed_recheck": [],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "TikTok",
+        "post": "Tiktok",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical platform reference with only a capitalization difference; trivial and should be matched 1:1."
+      },
+      {
+        "type": "confirm",
+        "pre": "Instagram",
+        "post": "Instagram",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical platform reference; correct direct match."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "Same two platforms (TikTok and Instagram) are present in both pre and post. The only differences are minor spelling/capitalization ('TikTok' \u2192 'Tiktok') and a conjunction change ('or' \u2192 'and'). These are stylistic/wording differences with no change in propositional content, scope, or structural extent."
+  },
+  "semantic_events": [],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "order_change_only"
+    ],
+    "coder_notes": "Pre lists TikTok or Instagram (any-one of two); Post lists Tiktok and Instagram (both). The conjunction 'or' \u2192 'and' could be read as an intent shift from choosing one platform to using both. However, both responses list the same two platforms, and the change in conjunction without any addition or removal of platforms is treated here as a stylistic/wording difference rather than a substantive semantic change. If 'or' \u2192 'and' were treated as a narrowing (deciding to use both rather than either), confidence would be low and the better-supported reading is that the same platform set is preserved across pre and post. Critic applied 2 correction(s)."
+  },
+  "coded_at": "2025-01-01T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

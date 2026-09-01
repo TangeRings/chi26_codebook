@@ -1,0 +1,142 @@
+{
+  "coding_unit": {
+    "student_id": "ethan",
+    "item_id": "comp-3"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "guitar players",
+      "all ages"
+    ],
+    "post_concepts": [
+      "guitar players",
+      "18-30 year olds (eco-friendly picks segment)",
+      "broader age range skewed towards older players (luxury picks segment)"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "guitar players",
+        "post": "guitar players",
+        "continuity": "identical product/category anchor",
+        "scope": "equal",
+        "frame": "equal",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "guitar players",
+        "post": "18-30 year olds (eco-friendly picks segment)",
+        "continuity": "same base audience (guitar players), but post restricts to a specific demographic slice for one product line",
+        "scope": "post is narrower",
+        "frame": "post introduces product-line segmentation",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "guitar players",
+        "post": "broader age range skewed towards older players (luxury picks segment)",
+        "continuity": "same base audience (guitar players), but post restricts to a specific demographic skew for another product line",
+        "scope": "post is narrower (skewed to older players)",
+        "frame": "post introduces product-line segmentation",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "all ages",
+        "post": "guitar players",
+        "continuity": "all ages is an age descriptor, guitar players is a category anchor; weak continuity",
+        "scope": "N/A",
+        "frame": "different frame",
+        "stretch": "strong",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "all ages",
+        "post": "18-30 year olds (eco-friendly picks segment)",
+        "continuity": "both about age range; post restricts scope and adds segmentation",
+        "scope": "post is a proper subset of pre (narrowed)",
+        "frame": "pre is undifferentiated, post is segment-specific",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "all ages",
+        "post": "broader age range skewed towards older players (luxury picks segment)",
+        "continuity": "both about age range; post modifies scope and adds segmentation",
+        "scope": "post is no longer truly 'all ages' \u2014 narrowed away from youngest segment",
+        "frame": "pre is undifferentiated, post is segment-specific",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "all ages",
+        "post": "guitar players",
+        "reason": "Different conceptual roles: 'all ages' is an age-range descriptor, 'guitar players' is the product/category anchor. Stretching would conflate two distinct units. Both are better paired with their own successors."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "guitar players",
+        "post": "guitar players",
+        "basis": "Identical core audience anchor; persists across the response."
+      },
+      {
+        "pre": "all ages",
+        "post": "18-30 year olds (eco-friendly picks segment)",
+        "basis": "Both are age-range descriptors for the target audience; post restricts the age scope to a specific segment aligned with the eco-friendly product line. Scope restriction \u2192 Narrowed."
+      },
+      {
+        "pre": "all ages",
+        "post": "broader age range skewed towards older players (luxury picks segment)",
+        "basis": "Both are age-range descriptors; post no longer spans all ages but is skewed toward older players, with segmentation by product line. Scope restriction \u2192 Narrowed."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The pre-response is a single short clause ('Guitar players of all ages'). The post-response expands this into a multi-clause description that retains the core audience but adds a product-line segmentation (eco-friendly picks for 18\u201330 year olds; luxury picks for a broader but older-skewed age range) and a small framing sentence ('My target customers would be guitar players'). One to two meaningful clauses/sentences of added content; the response is clearly elaborated but not extensively restructured."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Guitar players",
+      "post_evidence": "guitar players",
+      "rationale": "The base audience anchor 'guitar players' persists verbatim. Post adds product-line segmentation, age scoping, and a framing sentence around the same concept without changing its identity.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "all ages",
+      "post_evidence": "18-30 year olds (eco-friendly picks segment)",
+      "rationale": "Scope restriction. 'All ages' is the full population of guitar players by age; '18-30 year olds' is a proper subset. Subsumption holds: '18-30 year olds' is a specific way of being 'all ages'. Scope restriction outranks Reframed per SCOPE RESTRICTION.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "all ages",
+      "post_evidence": "broader age range but slightly skewed towards older players (luxury picks segment)",
+      "rationale": "Scope restriction. 'All ages' encompasses every age including children and young teens; the post version explicitly excludes the youngest segment by skewing toward older players and binding it to a product line. POST is a restricted subset of PRE; subsumption holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_narrow"
+    ],
+    "coder_notes": "The third event (all ages \u2192 broader-but-older-skewed range) is a softer narrowing than the 18-30 case because POST retains the word 'broader'. Coded Narrowed because the scope is still restricted away from the youngest end of 'all ages' and now bound to a specific product segment. Flagging in case the calibration prefers Expanded/Reframed on that pair. The reordering of the two segments (eco-friendly first, luxury second) is not coded per ORDER-vs-SEMANTIC."
+  },
+  "coded_at": "2026-05-14T00:00:00Z",
+  "model": "MiniMax-M3"
+}

@@ -1,0 +1,115 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "Inspiring",
+      "post": "Inspires others to step outside their comfort zones",
+      "from_code": "Expanded",
+      "to_code": "Elaborated",
+      "reason": "POST keeps the PRE noun intact ('inspires' preserved) and adds specificity (audience: others; effect: stepping outside comfort zones). The underlying inspirational frame is unchanged; only descriptors were added. Confirmed Elaborated."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "Exciting",
+      "post": "See the world differently",
+      "from_code": "Removed+New",
+      "to_code": "Reframed",
+      "reason": "Both occupy an affective resonance / experiential shift neighborhood: arousal/energy reframed as a perceptual/epistemic shift. 'See the world differently is a specific way of being Exciting' is FALSE (perceptual reframing is not a subtype of affective arousal), so Narrowed fails, but the same experiential-shift territory with a shifted organizing frame (arousal \u2192 perception) supports Reframed."
+    },
+    {
+      "type": "confirm",
+      "pre": "Funny",
+      "post": "Humor",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "'Humor is a specific way of being Funny' holds; PRE is generic affective filler, POST names the substantive form. Correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "Life-Long Learning",
+      "post": "Continuous growth",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Continuous growth is broader than learning, so subsumption fails. Same personal-development territory with shifted organizing frame (learning \u2192 growth). Reframed confirmed."
+    },
+    {
+      "type": "confirm",
+      "pre": "Life-Long Learning",
+      "post": "Guided by curiosity",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Same developmental-territory neighborhood; frame shifts from behavioral outcome to underlying disposition. No subsumption. Reframed confirmed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Funny",
+      "post": "Humor",
+      "basis": "Direct lexical continuity; subsumption holds."
+    },
+    {
+      "pre": "Life-Long Learning",
+      "post": "Continuous growth",
+      "basis": "Same personal-development territory; frame shifts from explicit learning to broader growth."
+    },
+    {
+      "pre": "Life-Long Learning",
+      "post": "Guided by curiosity",
+      "basis": "Same developmental territory; frame shifts from behavioral outcome to underlying disposition."
+    },
+    {
+      "pre": "Inspiring",
+      "post": "Inspires others to step outside their comfort zones",
+      "basis": "Inspirational noun preserved; specificity added (audience + effect)."
+    },
+    {
+      "pre": "Exciting",
+      "post": "See the world differently",
+      "basis": "Shared experiential-shift neighborhood; frame shifts from affective arousal to perceptual reframing."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Funny",
+      "post_evidence": "Humor",
+      "rationale": "'Humor is a specific way of being Funny' holds; PRE is generic affective filler and POST names the substantive form.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Life-Long Learning",
+      "post_evidence": "Continuous growth",
+      "rationale": "Same continuous-personal-development territory; frame shifts from explicit learning to broader growth. No subsumption.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Life-Long Learning",
+      "post_evidence": "Guided by curiosity",
+      "rationale": "Same developmental territory; frame shifts from behavioral process to underlying epistemic disposition. No subsumption (curiosity is the engine, not a subtype).",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Inspiring",
+      "post_evidence": "Inspires others to step outside their comfort zones",
+      "rationale": "Inspirational frame intact; POST specifies audience (others) and effect (leaving comfort zones). Same underlying noun, added detail.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Exciting",
+      "post_evidence": "See the world differently",
+      "rationale": "Shared experiential-shift neighborhood. 'See the world differently is a specific way of being Exciting' is false (perceptual reframing is not a subtype of affective arousal), but the same experiential-shift territory with a shifted organizing frame supports Reframed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    }
+  ]
+}

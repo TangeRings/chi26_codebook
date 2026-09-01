@@ -1,0 +1,130 @@
+{
+  "coding_unit": {
+    "student_id": "julia",
+    "item_id": "comp-7"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "50% styling and product showcases",
+      "30% behind-the-scenes (ethical production, design process, brand story)",
+      "20% influencer collaborations and UGC"
+    ],
+    "post_concepts": [
+      "50% styling and product showcases",
+      "30% behind-the-scenes (ethical production, design process, brand story)",
+      "20% influencer collaborations and UGC",
+      "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "50% styling and product showcases",
+        "post": "50% styling and product showcases",
+        "continuity": "verbatim identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "30% behind-the-scenes (ethical production, design process, brand story)",
+        "post": "30% behind-the-scenes (ethical production, design process, brand story)",
+        "continuity": "verbatim identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "20% influencer collaborations and UGC",
+        "post": "20% influencer collaborations and UGC",
+        "continuity": "verbatim identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "20% influencer collaborations and UGC",
+        "post": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+        "continuity": "collaboration concept present in both; POST specifies types of collaborators and adds rationale (creative identity, community connection)",
+        "scope": "POST expands who collaborators are (models, artists, designers) and adds the purpose",
+        "frame": "PRE lists collaboration as a content bucket; POST reframes collaborations as something that ensures creative identity and community connection",
+        "stretch": "moderate \u2014 the collaboration concept carries through but POST shifts from bucket-listing to value-rationale framing",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "50% styling and product showcases",
+        "post": "50% styling and product showcases",
+        "basis": "verbatim identical content bucket; no semantic change"
+      },
+      {
+        "pre": "30% behind-the-scenes (ethical production, design process, brand story)",
+        "post": "30% behind-the-scenes (ethical production, design process, brand story)",
+        "basis": "verbatim identical content bucket; no semantic change"
+      },
+      {
+        "pre": "20% influencer collaborations and UGC",
+        "post": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+        "basis": "same underlying category (collaborations) with added descriptors and rationale; frame preserved"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "50% styling and product showcases",
+        "post": "50% styling and product showcases",
+        "from_code": null,
+        "to_code": null,
+        "reason": "verbatim identical content bucket; no semantic change"
+      },
+      {
+        "type": "confirm",
+        "pre": "30% behind-the-scenes (ethical production, design process, brand story)",
+        "post": "30% behind-the-scenes (ethical production, design process, brand story)",
+        "from_code": null,
+        "to_code": null,
+        "reason": "verbatim identical content bucket; no semantic change"
+      },
+      {
+        "type": "confirm",
+        "pre": "20% influencer collaborations and UGC",
+        "post": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Collaboration concept is retained as the same underlying noun/category; POST adds qualifying descriptors (models, artists, designers) and an explanatory clause about purpose. The organizing frame \u2014 'collaborations as a content tactic' \u2014 is preserved; this is added detail, not a shifted frame. Elaborated is correct per BC-P001 guidance."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The three percentage buckets are preserved verbatim. POST adds one additional sentence \u2014 'Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community' \u2014 which specifies collaborator types and articulates a value rationale (creative identity, community connection). This is a contained addition (one new clause/sentence) rather than multiple new passages, supporting Moderate rather than Significant Addition."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "20% influencer collaborations and UGC",
+      "post_evidence": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+      "rationale": "The collaboration concept from PRE is retained and POST adds qualifying detail within the same frame: specifying collaborator types (models, artists, designers) and adding the purpose clause. The organizing frame \u2014 collaborations as a content bucket \u2014 is preserved; the additions are descriptors and rationale, not a shifted frame. Confirmed Elaborated.",
+      "alternative_considered": "Reframed (collaboration-as-bucket \u2192 collaboration-as-identity/community-enabler)",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe"
+    ],
+    "coder_notes": "The elaborating sentence could alternatively be read as a Reframed event: PRE lists collaborations as a content bucket (a tactical/operational frame), while POST frames collaborations as ensuring creative identity and community connection (a values/strategic frame). I selected Elaborated because the underlying subject (collaborations as a content type) is preserved and the additions read as qualifying detail and rationale within the same collaboration frame, but the distinction is arguable. Flagged boundary_case_elab_vs_reframe. Critic applied 3 correction(s)."
+  },
+  "coded_at": "2026-05-14T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

@@ -1,0 +1,168 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "understated elegance",
+      "post": "understated elegance",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical phrase preserved; correct to leave uncoded or as same-same match."
+    },
+    {
+      "type": "confirm",
+      "pre": "minimalist",
+      "post": "minimalist design",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Core descriptor preserved; 'design' is a noun addition specifying domain, not a scope restriction or frame shift. Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "timeless",
+      "post": "timeless yet modern",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "PRE preserved verbatim; 'yet modern' augments with complementary register, not a frame shift or scope restriction. Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "refined luxury",
+      "post": "refined luxury",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical phrase preserved."
+    },
+    {
+      "type": "confirm",
+      "pre": "refined luxury",
+      "post": "sophisticated pieces",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Lineage recovered in pass 1 with correct code. Same semantic territory (restrained-upscale quality), sibling descriptors, frames differ (brand-positioning register vs product-characterization). Subsumption test fails: sophisticated pieces \u2260 a specific way of being refined luxury. Reframed is the right tier-2 verdict."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "late 1900s fine jewelry inspiration",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Concrete historical-era inspiration source has no defensible lineage against timeless or any other PRE concept. All four ladder tiers fail; New is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Specific material composition has no antecedent in PRE; refined luxury does not contain the seed for material specifics. New is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "not costume jewelry",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Exclusion framing is not a subtype, frame-shift, elaboration, or broadening of refined luxury or any PRE concept. New is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "elevate everyday style with ease",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Functional/usage-positioning benefit claim has no defensible lineage against understated elegance or any PRE concept. New is correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "understated elegance",
+      "post": "understated elegance",
+      "basis": "identical phrase preserved"
+    },
+    {
+      "pre": "minimalist",
+      "post": "minimalist design",
+      "basis": "minimalist preserved with mild noun addition (Elaborated)"
+    },
+    {
+      "pre": "timeless",
+      "post": "timeless yet modern",
+      "basis": "timeless preserved and augmented with complementary register (Elaborated)"
+    },
+    {
+      "pre": "refined luxury",
+      "post": "refined luxury",
+      "basis": "identical phrase preserved"
+    },
+    {
+      "pre": "refined luxury",
+      "post": "sophisticated pieces",
+      "basis": "same semantic territory (restrained-upscale quality) with shifted frame from brand-positioning to product-characterization (Reframed)"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "late 1900s fine jewelry inspiration",
+    "high-quality materials (sterling silver, high-micron gold vermeil)",
+    "not costume jewelry",
+    "elevate everyday style with ease"
+  ],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "minimalist",
+      "post_evidence": "minimalist design",
+      "rationale": "PRE descriptor preserved; 'design' specifies the domain without restricting scope or shifting the organizing frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "timeless",
+      "post_evidence": "timeless yet modern",
+      "rationale": "PRE preserved verbatim; 'yet modern' adds a complementary register without shifting the timelessness-as-organizing-idea frame.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "refined luxury",
+      "post_evidence": "sophisticated pieces",
+      "rationale": "Pre-frame = brand-as-luxury-positioning register; post-frame = product-as-characterization. Same restrained-upscale quality territory, but the organizing lens shifts from brand register to the character of the products. Subsumption test: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE (sophisticated describes artifacts; refined luxury describes brand register) \u2192 tier 2 holds.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "late 1900s fine jewelry inspiration",
+      "rationale": "Concrete historical-era inspiration source has no defensible antecedent in PRE. Tested against timeless \u2014 all four ladder tiers fail.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "high-quality materials (sterling silver, high-micron gold vermeil)",
+      "rationale": "Specific material composition has no antecedent in PRE. Refined luxury does not contain the seed for material specifics.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "not costume jewelry",
+      "rationale": "Exclusion framing has no antecedent in PRE. Not a subtype, frame-shift, elaboration, or broadening of refined luxury.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "elevate everyday style with ease",
+      "rationale": "Functional/usage-positioning benefit claim has no antecedent in PRE. Tested against understated elegance \u2014 all four ladder tiers fail.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ]
+}

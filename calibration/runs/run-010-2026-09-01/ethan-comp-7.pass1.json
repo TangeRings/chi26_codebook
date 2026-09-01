@@ -1,0 +1,62 @@
+{
+  "coding_unit": {
+    "student_id": "ethan",
+    "item_id": "comp-7"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "no idea / no specific content concept"
+    ],
+    "post_concepts": [
+      "no idea expressed, but with a stated likely direction: heavy focus on product reviews"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "no idea",
+        "post": "heavy focus on product reviews",
+        "continuity": "the pre expresses uncertainty/non-commitment; the post adds a specific content direction while still flagging uncertainty (parenthetical 'likely')",
+        "scope": "pre = no specified scope; post narrows to a specific content type (product reviews) but retains uncertainty marker",
+        "frame": "pre frame = no commitment; post frame = tentative commitment to a content category",
+        "stretch": "the shift is from zero specification to tentative specification; same underlying subject (what content to create) but different commitment level",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "no idea",
+        "post": "likely heavy focus on product reviews",
+        "basis": "same subject (content type planning) is addressed; post adds a specific tentative content direction while the pre expressed none. Both share the topic of what content to create."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The pre-response is a single short phrase ('No idea') expressing no content concept. The post-response retains the 'no idea' framing but adds a parenthetical qualifier specifying a likely content direction (product reviews). One meaningful clause has been added, extending rather than transforming the response."
+  },
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "No idea",
+      "post_evidence": "No Idea (likely heavy focus on product reviews)",
+      "rationale": "The pre expresses no content concept; the post broadens the same 'no idea' admission with a specific tentative content direction (product reviews). The post keeps the pre's uncertainty frame intact ('No Idea' is repeated verbatim) and adds a concrete content category. The underlying subject (what content to create) persists and has been broadened from unspecified to tentatively specified. Although an Elaborated reading is plausible, the post adds a substantively new content category (product reviews) rather than mere qualification, so Expanded is the better-supported code. Subsumption does not hold \u2014 'product reviews' is not 'a specific way of being no idea' \u2014 so Narrowed is rejected.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe"
+    ],
+    "coder_notes": "The pre/post pair is short and ambiguous. The post adds a parenthetical specifying 'likely heavy focus on product reviews' to an otherwise unchanged 'No Idea' frame. Coding this as Expanded (rather than Elaborated) rests on the judgment that product reviews constitutes a substantively new content category rather than a mere qualification of the existing 'no idea' frame. The Elaborated alternative was considered and recorded."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

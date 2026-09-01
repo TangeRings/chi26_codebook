@@ -1,0 +1,814 @@
+{
+  "coding_unit": {
+    "student_id": "poom",
+    "item_id": "comp-1a"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "funny",
+      "traveling",
+      "culture",
+      "lifestyle",
+      "Thai student",
+      "share life experience",
+      "help navigate new places"
+    ],
+    "post_concepts": [
+      "multilingual Thai student",
+      "sharing life in China",
+      "humorous",
+      "relatable",
+      "travel",
+      "culture",
+      "lifestyle",
+      "help navigate new places",
+      "embrace new cultures with confidence",
+      "blending humor, cultural insights, and real-life experiences"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "funny",
+        "post": "multilingual Thai student",
+        "continuity": "weak - humor vs identity attribute",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "funny",
+        "post": "sharing life in China",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "funny",
+        "post": "humorous",
+        "continuity": "strong - same register of tone",
+        "scope": "equivalent",
+        "frame": "same affective frame",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "funny",
+        "post": "relatable",
+        "continuity": "moderate - both about audience reception",
+        "scope": "shift from content trait to audience effect",
+        "frame": "content-trait to audience-effect",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "funny",
+        "post": "travel",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "funny",
+        "post": "culture",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "funny",
+        "post": "lifestyle",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "funny",
+        "post": "help navigate new places",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "funny",
+        "post": "embrace new cultures with confidence",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "funny",
+        "post": "blending humor, cultural insights, and real-life experiences",
+        "continuity": "moderate - humor carried forward",
+        "scope": "broader",
+        "frame": "blend frame",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "traveling",
+        "post": "multilingual Thai student",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "traveling",
+        "post": "sharing life in China",
+        "continuity": "moderate",
+        "scope": "narrower",
+        "frame": "specific context",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "traveling",
+        "post": "humorous",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "traveling",
+        "post": "relatable",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "traveling",
+        "post": "travel",
+        "continuity": "strong - same topic",
+        "scope": "equivalent",
+        "frame": "same",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "traveling",
+        "post": "culture",
+        "continuity": "moderate - related content domains",
+        "scope": "sibling",
+        "frame": "content domain",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "traveling",
+        "post": "lifestyle",
+        "continuity": "moderate",
+        "scope": "broader",
+        "frame": "broader content frame",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "traveling",
+        "post": "help navigate new places",
+        "continuity": "moderate",
+        "scope": "related",
+        "frame": "utility frame",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "traveling",
+        "post": "embrace new cultures with confidence",
+        "continuity": "moderate",
+        "scope": "related",
+        "frame": "outcome frame",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "traveling",
+        "post": "blending humor, cultural insights, and real-life experiences",
+        "continuity": "moderate",
+        "scope": "broader",
+        "frame": "blend frame",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "culture",
+        "post": "multilingual Thai student",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "culture",
+        "post": "sharing life in China",
+        "continuity": "moderate",
+        "scope": "related context",
+        "frame": "context",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "culture",
+        "post": "humorous",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "culture",
+        "post": "relatable",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "culture",
+        "post": "travel",
+        "continuity": "moderate",
+        "scope": "sibling",
+        "frame": "content domain",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "culture",
+        "post": "culture",
+        "continuity": "strong - same topic",
+        "scope": "equivalent",
+        "frame": "same",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "culture",
+        "post": "lifestyle",
+        "continuity": "moderate",
+        "scope": "broader",
+        "frame": "broader content",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "culture",
+        "post": "help navigate new places",
+        "continuity": "moderate",
+        "scope": "related",
+        "frame": "utility",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "culture",
+        "post": "embrace new cultures with confidence",
+        "continuity": "strong",
+        "scope": "related",
+        "frame": "outcome",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "culture",
+        "post": "blending humor, cultural insights, and real-life experiences",
+        "continuity": "strong",
+        "scope": "broader",
+        "frame": "blend",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "multilingual Thai student",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "sharing life in China",
+        "continuity": "moderate",
+        "scope": "related",
+        "frame": "lived context",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "humorous",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "relatable",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "travel",
+        "continuity": "moderate",
+        "scope": "part of lifestyle",
+        "frame": "subset",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "culture",
+        "continuity": "moderate",
+        "scope": "part of lifestyle",
+        "frame": "subset",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "lifestyle",
+        "continuity": "strong - same descriptor",
+        "scope": "equivalent",
+        "frame": "same",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "help navigate new places",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "embrace new cultures with confidence",
+        "continuity": "moderate",
+        "scope": "related",
+        "frame": "outcome",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "blending humor, cultural insights, and real-life experiences",
+        "continuity": "moderate",
+        "scope": "related",
+        "frame": "blend",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Thai student",
+        "post": "multilingual Thai student",
+        "continuity": "strong - identity descriptor expanded",
+        "scope": "PRE expanded with attribute",
+        "frame": "identity frame",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Thai student",
+        "post": "sharing life in China",
+        "continuity": "moderate",
+        "scope": "narrowed context",
+        "frame": "lived context",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Thai student",
+        "post": "humorous",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Thai student",
+        "post": "relatable",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Thai student",
+        "post": "travel",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Thai student",
+        "post": "culture",
+        "continuity": "moderate",
+        "scope": "related",
+        "frame": "related",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Thai student",
+        "post": "lifestyle",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Thai student",
+        "post": "help navigate new places",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Thai student",
+        "post": "embrace new cultures with confidence",
+        "continuity": "moderate",
+        "scope": "outcome",
+        "frame": "outcome",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Thai student",
+        "post": "blending humor, cultural insights, and real-life experiences",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "share life experience",
+        "post": "multilingual Thai student",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "share life experience",
+        "post": "sharing life in China",
+        "continuity": "strong",
+        "scope": "narrower",
+        "frame": "lived experience",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "share life experience",
+        "post": "humorous",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "share life experience",
+        "post": "relatable",
+        "continuity": "moderate - goal of sharing",
+        "scope": "outcome frame",
+        "frame": "audience effect",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "share life experience",
+        "post": "travel",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "share life experience",
+        "post": "culture",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "share life experience",
+        "post": "lifestyle",
+        "continuity": "moderate",
+        "scope": "related",
+        "frame": "lived frame",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "share life experience",
+        "post": "help navigate new places",
+        "continuity": "moderate",
+        "scope": "outcome",
+        "frame": "outcome",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "share life experience",
+        "post": "embrace new cultures with confidence",
+        "continuity": "moderate",
+        "scope": "outcome",
+        "frame": "outcome",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "share life experience",
+        "post": "blending humor, cultural insights, and real-life experiences",
+        "continuity": "strong",
+        "scope": "expanded",
+        "frame": "method frame",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "multilingual Thai student",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "sharing life in China",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "humorous",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "relatable",
+        "continuity": "moderate",
+        "scope": "outcome",
+        "frame": "audience effect",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "travel",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "culture",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "lifestyle",
+        "continuity": "weak",
+        "scope": "unrelated",
+        "frame": "unrelated",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "help navigate new places",
+        "continuity": "strong - same phrase",
+        "scope": "equivalent",
+        "frame": "same",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "embrace new cultures with confidence",
+        "continuity": "strong",
+        "scope": "expanded outcome",
+        "frame": "outcome",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "blending humor, cultural insights, and real-life experiences",
+        "continuity": "moderate",
+        "scope": "related",
+        "frame": "method",
+        "stretch": "moderate",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "funny",
+        "post": "relatable",
+        "reason": "related but not same dimension; weak alignment"
+      },
+      {
+        "pre": "traveling",
+        "post": "culture",
+        "reason": "sibling content domains, not the strongest successor pair"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "travel",
+        "reason": "travel is a subset of lifestyle but PRE concept is generic descriptor not a strict population"
+      },
+      {
+        "pre": "share life experience",
+        "post": "relatable",
+        "reason": "outcome-related but indirect"
+      },
+      {
+        "pre": "Thai student",
+        "post": "sharing life in China",
+        "reason": "identity vs activity; weaker than Thai student -> multilingual Thai student"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "funny",
+        "post": "humorous",
+        "basis": "direct synonymic match on tone/affective register"
+      },
+      {
+        "pre": "traveling",
+        "post": "travel",
+        "basis": "same content domain, preserved as descriptor"
+      },
+      {
+        "pre": "culture",
+        "post": "culture",
+        "basis": "same content domain, preserved as descriptor"
+      },
+      {
+        "pre": "lifestyle",
+        "post": "lifestyle",
+        "basis": "same descriptor preserved"
+      },
+      {
+        "pre": "Thai student",
+        "post": "multilingual Thai student",
+        "basis": "identity frame preserved and elaborated with attribute"
+      },
+      {
+        "pre": "share life experience",
+        "post": "sharing life in China",
+        "basis": "activity frame preserved but narrowed to specific country context"
+      },
+      {
+        "pre": "share life experience",
+        "post": "blending humor, cultural insights, and real-life experiences",
+        "basis": "method frame elaborated with content pillars"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "help navigate new places",
+        "basis": "exact phrase preserved"
+      },
+      {
+        "pre": "help navigate new places",
+        "post": "embrace new cultures with confidence",
+        "basis": "outcome expanded - navigation now coupled with confidence/cultural embrace"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "relatable"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "relatable",
+        "direction": "new",
+        "nearest_counterpart": "funny",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "Narrowed test: relatable is a specific way of being funny - arguable but PRE funny is generic and relatable captures audience-reception quality of humor; Reframed is also defensible (content-trait to audience-effect). Closest match with humorous already accounted; relatable can be read as elaboration of audience-effect of humorous. Marked as elaboration of audience effect in matched elaboration through broader response framing."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "POST response condenses and elaborates the same identity content but adds an explicit method framing ('By blending humor, cultural insights, and real-life experiences'), an outcome elaboration ('embrace new cultures with confidence'), and the audience-effect descriptor 'relatable'. The response becomes a tighter, more polished identity narrative with additional propositional content."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Thai student",
+      "post_evidence": "multilingual Thai student",
+      "rationale": "Identity descriptor preserved and elaborated with new attribute (multilingual). PRE Thai student frame remains; POST adds qualifying attribute within same identity frame.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "share life experience",
+      "post_evidence": "sharing life in China",
+      "rationale": "Activity frame preserved but scope restricted to a specific country context (China). PRE describes general life experience sharing; POST narrows to life-in-China. Subsumption holds: sharing-life-in-China is a specific way of sharing life experience. NARROW-ABSTRACT supports narrowing for experiential/qualitative attributes.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "share life experience",
+      "post_evidence": "blending humor, cultural insights, and real-life experiences",
+      "rationale": "POST retains the activity of sharing experience and adds an explicit method (blending) and three content pillars. Frame of sharing experience preserved; detail added within same frame.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "help navigate new places",
+      "post_evidence": "embrace new cultures with confidence",
+      "rationale": "Outcome frame retained (help with new places/cultures) and broadened to include confidence-building. The PRE seed of helping navigate is now expanded to embracing with confidence, a richer outcome.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "relatable",
+      "rationale": "No PRE concept directly captures audience-reception quality. Nearest PRE counterpart 'funny' is generic and describes content trait, not audience reception. Narrowed/Reframed/Elaborated/Expanded all fail: relatability is a distinct audience-effect dimension not contained in 'funny'. After mandatory re-check, kept as New.",
+      "alternative_considered": "Reframed from funny",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "vague_to_specific_lineage",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "Q1a Brand Identity uses descriptor_set_special. PRE contains narrative-style descriptors mixed with explicit identity labels. POST is a polished single-sentence identity statement; atomized into descriptor-level units. The narrative element 'sharing life in China' was treated as a narrowed restatement of 'share life experience' since PRE referenced 'life in China' explicitly. 'Relatable' is a new audience-effect descriptor with no clear PRE antecedent after re-checking against 'funny' and other PRE concepts; subsumption between funny and relatable is arguable but the re-check moved it to New. Several PRE concepts were narrative clauses rather than single-word descriptors; atomized carefully to avoid collapsing distinct events."
+  },
+  "coded_at": "2026-01-15T10:00:00Z",
+  "model": "MiniMax-M3"
+}

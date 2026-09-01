@@ -1,0 +1,79 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "create a space for women aged 18-25",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Pass-1 removal stands. Tested all four transformation codes against 'prioritizes the well-being of individuals': Narrowed fails (POST broadens, not narrows); Reframed fails (audience-definition-as-space vs well-being-as-ethical-priority \u2014 only topical adjacency, not a specific shared frame); Elaborated fails (demographic specificity not retained); Expanded is arguable but the frame shift from audience/product space to ethical well-being is substantial enough that no defensible transformation holds. Genuinely removed."
+    },
+    {
+      "type": "confirm",
+      "pre": "can depend on my items",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Pass-1 removal stands. Functional product-reliability claim and ethical well-being prioritization share only a topical 'customer-benefit' adjacency, not a specific shared organizing frame. Abstraction ceiling would be hit if forced into Reframed. Genuinely removed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "prioritizes the well-being of individuals",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass-1 New stands. No PRE antecedent with shared specific semantic territory. The well-being-as-priority frame is a genuine conceptual shift from PRE's audience-and-reliability focus."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "prioritizes the well-being of the planet",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass-1 New stands with high confidence. Planetary well-being has no antecedent in PRE; product reliability and environmental well-being are in different conceptual domains."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "create a space for women aged 18-25",
+    "can depend on my items"
+  ],
+  "unmatched_post": [
+    "prioritizes the well-being of individuals",
+    "prioritizes the well-being of the planet"
+  ],
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "create a space for women aged 18-25",
+      "post_evidence": null,
+      "rationale": "The specific women-18-25 demographic audience frame is absent from POST. The nearest POST counterpart (well-being of individuals) does not share a specific organizing frame with audience-as-space \u2014 only topical adjacency. No transformation code defensibly holds.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "can depend on my items",
+      "post_evidence": null,
+      "rationale": "Functional product-reliability claim is absent from POST. The nearest POST counterpart (well-being of individuals) shares only topical customer-benefit adjacency with product dependability, not a specific organizing frame. Abstraction ceiling would be hit to claim Reframed.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "prioritizes the well-being of individuals",
+      "rationale": "POST introduces an ethical well-being-as-brand-priority frame. No PRE antecedent shares this specific semantic territory; the demographic-audience and product-reliability concepts in PRE are in a different conceptual frame (audience/utility vs ethical priority).",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "prioritizes the well-being of the planet",
+      "rationale": "POST introduces planetary/environmental well-being, which has no antecedent in PRE. Different conceptual domain from product reliability.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "no idea",
+      "post": "No idea yet",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Pass 1 is correct. Both versions admit no identified niche; 'yet' adds a temporal qualifier (openness to future knowledge) within the same frame (self-reported lack of niche identification). Underlying proposition and frame are intact; only a modifier was added. This is the textbook Elaborated case, not a frame shift. Confidence is genuinely low because the two utterances are nearly identical, but the code choice itself is defensible."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "no idea",
+      "post": "No idea yet",
+      "basis": "Same propositional content (admission of not knowing the niche) with only the addition of 'yet', which adds a temporal qualifier to the same statement without changing the underlying concept."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "no idea",
+      "post_evidence": "No idea yet",
+      "rationale": "Both versions express self-reported lack of a niche. POST keeps the same frame (admission of non-identification) and adds only a temporal qualifier ('yet'), implying the state may change. No frame shift, no narrowing, no expansion \u2014 just a detail addition to the same proposition.",
+      "alternative_considered": "No Change (stylistic only) \u2014 rejected; 'yet' adds semantic content (temporal openness) beyond pure style, so some elaboration occurred even if minimal.",
+      "confidence": "low"
+    }
+  ]
+}

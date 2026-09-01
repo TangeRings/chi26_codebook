@@ -1,0 +1,104 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+      "post": "print-on-demand (POD) merchandise",
+      "from_code": "Narrowed",
+      "to_code": "Reframed",
+      "reason": "POST is not a specific way of being the broader merchandise; the descriptive axis shifts from enumerated item types (t-shirts, hoodies, tote bags) to production method (POD). 'POD merchandise' is not a subsumption of 'merchandise (t-shirts, hoodies, tote bags)' \u2014 POD merch could include any item type. Same semantic territory (product offering) with a shifted organizing frame (item-type enumeration \u2192 production method + brand qualities). Reframed is correct; subsumption test fails."
+    },
+    {
+      "type": "confirm",
+      "pre": "print-on-demand method (implicit/absent)",
+      "post": "print-on-demand (POD) merchandise",
+      "from_code": "New",
+      "to_code": "Elaborated",
+      "reason": "This pairing is correct and the unitization-stage event should be coded Elaborated (method made explicit; product category retained via merchandise). Confirming the pairing."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "fun",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "PRE contains no brand-quality or experiential descriptor. The parenthetical 'i love tote bags' is a personal affective aside, not a brand-positioning claim. No neighborhood with any PRE concept; no defensible transformation. New is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "relatable",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "PRE has no audience-relational or social-positioning antecedent. No neighborhood; no transformation defensible. New is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "culture-inspired",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "PRE contains no cultural-source or aesthetic-anchoring claim. No neighborhood; no transformation defensible. New is correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+      "post": "print-on-demand (POD) merchandise",
+      "basis": "same product-offering territory; organizing frame shifts from enumerated item types to production method"
+    },
+    {
+      "pre": "print-on-demand method (implicit/absent)",
+      "post": "print-on-demand (POD) merchandise",
+      "basis": "production method is made explicit and attached to the merchandise category; same underlying method, now named"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "fun",
+    "relatable",
+    "culture-inspired"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "merchandise like t-shirt, hoodie, tote bags etc.",
+      "post_evidence": "print-on-demand (POD) merchandise",
+      "rationale": "Same semantic territory (product offering) but the organizing frame changes: PRE enumerates item types (t-shirts, hoodies, tote bags) while POST reorganizes around the production method (POD). Subsumption fails \u2014 POD merchandise is not a specific way of being 'merchandise (t-shirts, hoodies, tote bags)' since POD merch is defined by method, not by which items are enumerated. The frame shift, not scope restriction, is the operative change.",
+      "alternative_considered": "Narrowed (subsumption not literally true)",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "print-on-demand method (implicit/absent)",
+      "post_evidence": "print-on-demand (POD) merchandise",
+      "rationale": "The previously implicit production method is made explicit and named in full. The product category (merchandise) from the other PRE unit carries forward. This is elaboration of the method concept: the same method is now stated and attached to the product category.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "fun",
+      "rationale": "No PRE antecedent for a brand-quality or experiential descriptor. The parenthetical 'i love tote bags' is a personal affective aside, not a brand-positioning claim. No neighborhood with any PRE concept; transformation ladder fails at all tiers.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "relatable",
+      "rationale": "No PRE antecedent for an audience-relational or social-positioning claim. No shared neighborhood with any PRE concept; transformation ladder fails at all tiers.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "culture-inspired",
+      "rationale": "No PRE antecedent for a cultural-source or aesthetic-anchoring claim. No shared neighborhood with any PRE concept; transformation ladder fails at all tiers.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ]
+}

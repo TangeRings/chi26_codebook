@@ -1,0 +1,96 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Quality",
+      "post": "Quality",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical descriptor preserved; no transformation code applies. Unchanged."
+    },
+    {
+      "type": "confirm",
+      "pre": "Unique",
+      "post": "Innovation",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Both sit in a differentiation/originality neighborhood. Subsumption test: 'Innovation is a specific way of being Unique' is FALSE (innovation = active novelty creation; uniqueness = static distinctiveness \u2014 sibling framings). PRE 'Unique' is moderately specific, not generic filler, so PRE-genericness signal does not apply. Same territory, shifted frame (distinctiveness \u2192 novelty/origination). Reframed is correct; do not downgrade to Narrowed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Cultural Fusion",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "After full-response search and testing all four transformation tiers, no defensible PRE antecedent remains. Quality is already matched; Unique is already matched. Cultural content/blending is a different conceptual domain from distinctiveness. Abstraction ceiling rules out 'values' or 'differentiation' as a shared territory. Kept as New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Sustainability",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Environmental/social responsibility is a different conceptual domain from excellence (Quality) or distinctiveness (Unique). No neighborhood at a specific level; 'values' umbrella is above the abstraction ceiling. Kept as New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Inclusivity",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Audience/accessibility orientation differs from both Quality and Unique. No shared semantic neighborhood at a specific level. Kept as New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Quality",
+      "post": "Quality",
+      "basis": "Identical descriptor preserved across PRE and POST"
+    },
+    {
+      "pre": "Unique",
+      "post": "Innovation",
+      "basis": "Shared differentiation/originality neighborhood; sibling concepts with shifted organizing frames (distinctiveness frame \u2192 novelty/origination frame). Subsumption fails."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "Cultural Fusion",
+    "Sustainability",
+    "Inclusivity"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "Unique",
+      "post_evidence": "Innovation",
+      "rationale": "Both sit in a differentiation/originality neighborhood. Subsumption test fails ('Innovation is a specific way of being Unique' is FALSE \u2014 sibling framings, not subtype). PRE 'Unique' is moderately specific, not generic filler. Frame shifts from static distinctiveness to active novelty creation. Same semantic territory, different organizing frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Cultural Fusion",
+      "rationale": "Nearest antecedents Quality and Unique are already matched or lack lineage. Cultural content/blending is a different conceptual domain from distinctiveness. No defensible transformation under the ladder.",
+      "alternative_considered": "Reframed from Unique",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Sustainability",
+      "rationale": "No defensible PRE antecedent. Environmental/social responsibility is a different conceptual domain from excellence or distinctiveness. 'Values' umbrella is above the abstraction ceiling.",
+      "alternative_considered": "Reframed from Quality",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Inclusivity",
+      "rationale": "No defensible PRE antecedent. Audience/accessibility orientation is a different conceptual domain. Quality and Unique are both already matched and lack lineage.",
+      "alternative_considered": "Reframed from Unique",
+      "confidence": "high"
+    }
+  ]
+}

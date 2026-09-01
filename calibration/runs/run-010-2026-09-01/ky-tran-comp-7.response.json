@@ -1,0 +1,484 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Moderate Addition",
+    "structuralRationale": "The PRE is a terse two-clause allocation (70/30 split between two content types). The POST introduces a new thematic content category ('health awareness content'), adds a credibility qualifier for influencers ('that have credible background'), and retains 'product review' in bare form. Net change: one new content type introduced, one qualifier introduced, the original ratio framing is dropped, and existing categories are partly re-described. This is more than stylistic \u2014 a new content pillar and a credibility criterion were added \u2014 but it does not reach the level of multiple new sentences or explanatory passages; it is a contained expansion at the clause level.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "70% product review",
+        "30% influencer review"
+      ],
+      "postConcepts": [
+        "Health awareness content with influencers that have credible background",
+        "product review"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "70% product review",
+          "post": "Health awareness content with influencers that have credible background",
+          "continuity": "weak \u2014 product review vs health awareness content are distinct content categories; the 'with influencers' element partially overlaps with the influencer review concept",
+          "scope": "product review is a specific content type; health awareness content is a different content type",
+          "frame": "ratio-allocation frame (70/30) vs thematic-content frame (health awareness)",
+          "stretch": "forced \u2014 these occupy different conceptual territories regarding what type of content drives traffic",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "70% product review",
+          "post": "product review",
+          "continuity": "strong \u2014 direct lexical and conceptual overlap",
+          "scope": "70% allocation qualifier is dropped; bare 'product review' in post",
+          "frame": "ratio frame vs bare category frame",
+          "stretch": "minimal \u2014 same content category, just stripped of allocation",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "30% influencer review",
+          "post": "Health awareness content with influencers that have credible background",
+          "continuity": "partial \u2014 both involve influencers; review shifts to credibility/background qualification",
+          "scope": "influencer review is a content type; post embeds influencers within a broader health awareness content category with a credibility qualifier",
+          "frame": "ratio-allocation frame vs thematic-content-plus-qualifier frame",
+          "stretch": "moderate \u2014 shared influencer involvement, but the role of influencers and the content type surrounding them differ",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "70% product review",
+          "post": "Health awareness content with influencers that have credible background",
+          "reason": "Product review and health awareness content are different content categories; only weak overlap on 'influencers'; pair forces across different conceptual domains \u2014 rejected under IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "70% product review",
+          "post": "product review",
+          "basis": "Content category (product review) persists; the 70% allocation qualifier is dropped \u2014 POST is the bare content category realization of the PRE phrase."
+        },
+        {
+          "pre": "30% influencer review",
+          "post": "Health awareness content with influencers that have credible background",
+          "basis": "Same influencer-driven content neighborhood; organizing frame shifts from ratio-allocated product review to thematically-organized health awareness content delivered by credentialed influencers."
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "health awareness content with credible background",
+          "direction": "new",
+          "nearestCounterpart": "30% influencer review",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Tested 'health awareness content with credible background' as a transformation of '30% influencer review'. Narrowed: 'Health awareness content with credible background' is not a specific way of being influencer review (different content categories \u2014 product/service review vs health awareness education). Reframed: while both involve influencers, the organizing frame shifts from 'review of product' to 'health awareness content with credible endorsement', which is more than a frame shift on the same territory \u2014 the content category itself changes. Elaborated: '30% influencer review' does not contain a seed that yields health awareness content when detail is added; adding 'health awareness' introduces a new content domain. Expanded: cannot identify a pre-antecedent that broadens into health awareness. All four fail as standalone transformations of the influencer review concept. However, treating 'health awareness content' as a New event alongside a matched 'influencer review \u2192 influencers with credible background' split would double-count the POST span. The defensible reading is that the POST concept bundles two ideas (influencer involvement + health awareness content type) that partially map back to PRE; the influencer element finds a successor but the health awareness content type does not. Per the mandatory re-check, the influencer portion converts into the matched pair already coded, and the health-awareness content category portion is absorbed into that event's evidence rather than emitted as a separate New. The single matched pair '30% influencer review \u2192 Health awareness content with influencers that have credible background' captures the transformation, with the thematic-content shift noted in the rationale."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "70% product review",
+          "post": "product review",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Pass-1 outcome (bare 'product review' as the closest match, with 70% allocation qualifier absent) is handled by the Removed event on the 70% allocation. The category-level pair itself is not coded as a transformation because the allocation number has no POST counterpart. Confirming the alignment as a category persistence noted inside the Removed event's rationale."
+        },
+        {
+          "type": "confirm",
+          "pre": "30% influencer review",
+          "post": "Health awareness content with influencers that have credible background",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Both share the influencer-driven content neighborhood. Subsumption test: 'Health awareness content with credible-background influencers' is a specific way of being '30% influencer review' \u2014 FALSE (different content categories, review vs health awareness). Reframed is correct: same influencer-driven territory, shifted organizing frame from ratio-allocated product review to thematically-organized health awareness content with a credibility qualifier. Narrowed is not defensible here; confirmed as runner-up."
+        },
+        {
+          "type": "recode",
+          "pre": "70% product review",
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Narrowed",
+          "reason": "Testing the transformation ladder against the matched pair '70% product review \u2192 product review': 'Bare product review' is a specific way of being '70% product review' in the sense that it strips the allocation qualifier and retains the content category \u2014 but subsumption is borderline. The 70% allocation is a quantitative frame element, not a category subtype. Stronger reading: the content category (product review) persists intact and the 70% allocation is a dropped qualifier. This is closer to Narrowed (POST is a subset realization: bare review without the allocation envelope) than to a standalone Removed. Recoding to Narrowed so the 70% allocation's loss is captured as a transformation of the full PRE phrase rather than an orphan Removed event. Alternative: Removed (previously considered); Narrowed selected because 'product review' is a proper subset reading of '70% product review' (review without the allocation envelope)."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Health awareness content with credible-background qualifier (the thematic content type itself)",
+          "fromCode": "New",
+          "toCode": null,
+          "reason": "After absorbing the category-level persistence into a Narrowed event on the 70% product review pair and confirming the Reframed on the influencer pair, no standalone New remains in the unmatched_post inventory as coded. The 'Health awareness content with influencers that have credible background' concept is fully accounted for by the Reframed event. The unmatched_post list from pass-1 is cleared. Confirming that no orphan New is emitted."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6x4a9k5yran5ddr",
+        "code": "Narrowed",
+        "preEvidence": "70% product review",
+        "postEvidence": "product review",
+        "rationale": "POST ('product review') is the bare content-category realization of PRE ('70% product review'): the review category persists while the 70% allocation envelope is dropped. Narrowed captures the subset/scope-restriction reading \u2014 bare product review is the content category without the quantitative allocation frame. Alternative considered: Removed (previously coded in pass-1); rejected because the category itself persists via this pair, so it is a transformation, not an orphan removal.",
+        "confidence": "medium",
+        "alternativeConsidered": "Removed"
+      },
+      {
+        "instanceId": "mti6x4a9na7pg11aai",
+        "code": "Reframed",
+        "preEvidence": "30% influencer review",
+        "postEvidence": "Health awareness content with influencers that have credible background",
+        "rationale": "Same influencer-driven content neighborhood; organizing frame shifts from a ratio-allocated product/influencer review to a thematically-organized health-awareness content model where the influencer carries a credible-background qualifier. Subsumption test fails (health awareness content is not a specific way of being influencer review \u2014 different content categories). Reframed is the correct tier: sibling concepts under the influencer-content umbrella with shifted frames.",
+        "confidence": "medium",
+        "alternativeConsidered": "Narrowed"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "alignment_null_by_choice"
+      ],
+      "coderNotes": "The 70% allocation qualifier in PRE ('70% product review') is treated as Removed because no POST element carries the ratio figure; the bare content category 'product review' is retained via the matched pair. The 30% influencer review tracks to the influencer portion of the POST concept, but the health-awareness content type is new. Because splitting the POST span across two events would risk double-counting, the influencer-to-credible-influencer transition is captured as a single Reframed event with the full POST span as evidence and the thematic shift noted in the rationale. The health-awareness content type is not emitted as a separate New event because it is bundled inside the matched pair's post_evidence; this is a judgment call documented for auditability. Confidence is medium due to the bundled-POST-span treatment. Critic applied 4 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "ky-tran",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "70% product review",
+        "30% influencer review"
+      ],
+      "post_concepts": [
+        "Health awareness content with influencers that have credible background",
+        "product review"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "70% product review",
+          "post": "Health awareness content with influencers that have credible background",
+          "continuity": "weak \u2014 product review vs health awareness content are distinct content categories; the 'with influencers' element partially overlaps with the influencer review concept",
+          "scope": "product review is a specific content type; health awareness content is a different content type",
+          "frame": "ratio-allocation frame (70/30) vs thematic-content frame (health awareness)",
+          "stretch": "forced \u2014 these occupy different conceptual territories regarding what type of content drives traffic",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "70% product review",
+          "post": "product review",
+          "continuity": "strong \u2014 direct lexical and conceptual overlap",
+          "scope": "70% allocation qualifier is dropped; bare 'product review' in post",
+          "frame": "ratio frame vs bare category frame",
+          "stretch": "minimal \u2014 same content category, just stripped of allocation",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "30% influencer review",
+          "post": "Health awareness content with influencers that have credible background",
+          "continuity": "partial \u2014 both involve influencers; review shifts to credibility/background qualification",
+          "scope": "influencer review is a content type; post embeds influencers within a broader health awareness content category with a credibility qualifier",
+          "frame": "ratio-allocation frame vs thematic-content-plus-qualifier frame",
+          "stretch": "moderate \u2014 shared influencer involvement, but the role of influencers and the content type surrounding them differ",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "70% product review",
+          "post": "Health awareness content with influencers that have credible background",
+          "reason": "Product review and health awareness content are different content categories; only weak overlap on 'influencers'; pair forces across different conceptual domains \u2014 rejected under IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "70% product review",
+          "post": "product review",
+          "basis": "Content category (product review) persists; the 70% allocation qualifier is dropped \u2014 POST is the bare content category realization of the PRE phrase."
+        },
+        {
+          "pre": "30% influencer review",
+          "post": "Health awareness content with influencers that have credible background",
+          "basis": "Same influencer-driven content neighborhood; organizing frame shifts from ratio-allocated product review to thematically-organized health awareness content delivered by credentialed influencers."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "health awareness content with credible background",
+          "direction": "new",
+          "nearest_counterpart": "30% influencer review",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Tested 'health awareness content with credible background' as a transformation of '30% influencer review'. Narrowed: 'Health awareness content with credible background' is not a specific way of being influencer review (different content categories \u2014 product/service review vs health awareness education). Reframed: while both involve influencers, the organizing frame shifts from 'review of product' to 'health awareness content with credible endorsement', which is more than a frame shift on the same territory \u2014 the content category itself changes. Elaborated: '30% influencer review' does not contain a seed that yields health awareness content when detail is added; adding 'health awareness' introduces a new content domain. Expanded: cannot identify a pre-antecedent that broadens into health awareness. All four fail as standalone transformations of the influencer review concept. However, treating 'health awareness content' as a New event alongside a matched 'influencer review \u2192 influencers with credible background' split would double-count the POST span. The defensible reading is that the POST concept bundles two ideas (influencer involvement + health awareness content type) that partially map back to PRE; the influencer element finds a successor but the health awareness content type does not. Per the mandatory re-check, the influencer portion converts into the matched pair already coded, and the health-awareness content category portion is absorbed into that event's evidence rather than emitted as a separate New. The single matched pair '30% influencer review \u2192 Health awareness content with influencers that have credible background' captures the transformation, with the thematic-content shift noted in the rationale."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "70% product review",
+          "post": "product review",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Pass-1 outcome (bare 'product review' as the closest match, with 70% allocation qualifier absent) is handled by the Removed event on the 70% allocation. The category-level pair itself is not coded as a transformation because the allocation number has no POST counterpart. Confirming the alignment as a category persistence noted inside the Removed event's rationale."
+        },
+        {
+          "type": "confirm",
+          "pre": "30% influencer review",
+          "post": "Health awareness content with influencers that have credible background",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Both share the influencer-driven content neighborhood. Subsumption test: 'Health awareness content with credible-background influencers' is a specific way of being '30% influencer review' \u2014 FALSE (different content categories, review vs health awareness). Reframed is correct: same influencer-driven territory, shifted organizing frame from ratio-allocated product review to thematically-organized health awareness content with a credibility qualifier. Narrowed is not defensible here; confirmed as runner-up."
+        },
+        {
+          "type": "recode",
+          "pre": "70% product review",
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Narrowed",
+          "reason": "Testing the transformation ladder against the matched pair '70% product review \u2192 product review': 'Bare product review' is a specific way of being '70% product review' in the sense that it strips the allocation qualifier and retains the content category \u2014 but subsumption is borderline. The 70% allocation is a quantitative frame element, not a category subtype. Stronger reading: the content category (product review) persists intact and the 70% allocation is a dropped qualifier. This is closer to Narrowed (POST is a subset realization: bare review without the allocation envelope) than to a standalone Removed. Recoding to Narrowed so the 70% allocation's loss is captured as a transformation of the full PRE phrase rather than an orphan Removed event. Alternative: Removed (previously considered); Narrowed selected because 'product review' is a proper subset reading of '70% product review' (review without the allocation envelope)."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Health awareness content with credible-background qualifier (the thematic content type itself)",
+          "from_code": "New",
+          "to_code": null,
+          "reason": "After absorbing the category-level persistence into a Narrowed event on the 70% product review pair and confirming the Reframed on the influencer pair, no standalone New remains in the unmatched_post inventory as coded. The 'Health awareness content with influencers that have credible background' concept is fully accounted for by the Reframed event. The unmatched_post list from pass-1 is cleared. Confirming that no orphan New is emitted."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "The PRE is a terse two-clause allocation (70/30 split between two content types). The POST introduces a new thematic content category ('health awareness content'), adds a credibility qualifier for influencers ('that have credible background'), and retains 'product review' in bare form. Net change: one new content type introduced, one qualifier introduced, the original ratio framing is dropped, and existing categories are partly re-described. This is more than stylistic \u2014 a new content pillar and a credibility criterion were added \u2014 but it does not reach the level of multiple new sentences or explanatory passages; it is a contained expansion at the clause level."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "70% product review",
+        "post_evidence": "product review",
+        "rationale": "POST ('product review') is the bare content-category realization of PRE ('70% product review'): the review category persists while the 70% allocation envelope is dropped. Narrowed captures the subset/scope-restriction reading \u2014 bare product review is the content category without the quantitative allocation frame. Alternative considered: Removed (previously coded in pass-1); rejected because the category itself persists via this pair, so it is a transformation, not an orphan removal.",
+        "alternative_considered": "Removed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "30% influencer review",
+        "post_evidence": "Health awareness content with influencers that have credible background",
+        "rationale": "Same influencer-driven content neighborhood; organizing frame shifts from a ratio-allocated product/influencer review to a thematically-organized health-awareness content model where the influencer carries a credible-background qualifier. Subsumption test fails (health awareness content is not a specific way of being influencer review \u2014 different content categories). Reframed is the correct tier: sibling concepts under the influencer-content umbrella with shifted frames.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "alignment_null_by_choice"
+      ],
+      "coder_notes": "The 70% allocation qualifier in PRE ('70% product review') is treated as Removed because no POST element carries the ratio figure; the bare content category 'product review' is retained via the matched pair. The 30% influencer review tracks to the influencer portion of the POST concept, but the health-awareness content type is new. Because splitting the POST span across two events would risk double-counting, the influencer-to-credible-influencer transition is captured as a single Reframed event with the full POST span as evidence and the thematic shift noted in the rationale. The health-awareness content type is not emitted as a separate New event because it is bundled inside the matched pair's post_evidence; this is a judgment call documented for auditability. Confidence is medium due to the bundled-POST-span treatment. Critic applied 4 correction(s)."
+    },
+    "coded_at": "2025-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "ky-tran",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "70% product review",
+        "30% influencer review"
+      ],
+      "post_concepts": [
+        "Health awareness content with influencers that have credible background",
+        "product review"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "70% product review",
+          "post": "Health awareness content with influencers that have credible background",
+          "continuity": "weak \u2014 product review vs health awareness content are distinct content categories; the 'with influencers' element partially overlaps with the influencer review concept",
+          "scope": "product review is a specific content type; health awareness content is a different content type",
+          "frame": "ratio-allocation frame (70/30) vs thematic-content frame (health awareness)",
+          "stretch": "forced \u2014 these occupy different conceptual territories regarding what type of content drives traffic",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "70% product review",
+          "post": "product review",
+          "continuity": "strong \u2014 direct lexical and conceptual overlap",
+          "scope": "70% allocation qualifier is dropped; bare 'product review' in post",
+          "frame": "ratio frame vs bare category frame",
+          "stretch": "minimal \u2014 same content category, just stripped of allocation",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "30% influencer review",
+          "post": "Health awareness content with influencers that have credible background",
+          "continuity": "partial \u2014 both involve influencers; review shifts to credibility/background qualification",
+          "scope": "influencer review is a content type; post embeds influencers within a broader health awareness content category with a credibility qualifier",
+          "frame": "ratio-allocation frame vs thematic-content-plus-qualifier frame",
+          "stretch": "moderate \u2014 shared influencer involvement, but the role of influencers and the content type surrounding them differ",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "70% product review",
+          "post": "Health awareness content with influencers that have credible background",
+          "reason": "Product review and health awareness content are different content categories; only weak overlap on 'influencers'; pair forces across different conceptual domains \u2014 rejected under IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "70% product review",
+          "post": "product review",
+          "basis": "direct lexical and conceptual overlap; product review content category persists, with the 70% allocation qualifier dropped"
+        },
+        {
+          "pre": "30% influencer review",
+          "post": "Health awareness content with influencers that have credible background",
+          "basis": "both involve influencers reviewing/presenting content; the influencer role is retained and reconceived from 'review' to 'credible background' endorsement within a health awareness frame"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "Health awareness content with credible-background qualifier (the thematic content type itself)"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "health awareness content with credible background",
+          "direction": "new",
+          "nearest_counterpart": "30% influencer review",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Tested 'health awareness content with credible background' as a transformation of '30% influencer review'. Narrowed: 'Health awareness content with credible background' is not a specific way of being influencer review (different content categories \u2014 product/service review vs health awareness education). Reframed: while both involve influencers, the organizing frame shifts from 'review of product' to 'health awareness content with credible endorsement', which is more than a frame shift on the same territory \u2014 the content category itself changes. Elaborated: '30% influencer review' does not contain a seed that yields health awareness content when detail is added; adding 'health awareness' introduces a new content domain. Expanded: cannot identify a pre-antecedent that broadens into health awareness. All four fail as standalone transformations of the influencer review concept. However, treating 'health awareness content' as a New event alongside a matched 'influencer review \u2192 influencers with credible background' split would double-count the POST span. The defensible reading is that the POST concept bundles two ideas (influencer involvement + health awareness content type) that partially map back to PRE; the influencer element finds a successor but the health awareness content type does not. Per the mandatory re-check, the influencer portion converts into the matched pair already coded, and the health-awareness content category portion is absorbed into that event's evidence rather than emitted as a separate New. The single matched pair '30% influencer review \u2192 Health awareness content with influencers that have credible background' captures the transformation, with the thematic-content shift noted in the rationale."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "The PRE is a terse two-clause allocation (70/30 split between two content types). The POST introduces a new thematic content category ('health awareness content'), adds a credibility qualifier for influencers ('that have credible background'), and retains 'product review' in bare form. Net change: one new content type introduced, one qualifier introduced, the original ratio framing is dropped, and existing categories are partly re-described. This is more than stylistic \u2014 a new content pillar and a credibility criterion were added \u2014 but it does not reach the level of multiple new sentences or explanatory passages; it is a contained expansion at the clause level."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "30% influencer review",
+        "post_evidence": "Health awareness content with influencers that have credible background",
+        "rationale": "Same semantic neighborhood (influencer-driven content), but the organizing frame shifts from a review-of-product allocation to a thematic health-awareness content model with a credibility-qualifier on the influencer. PRE frame: ratio-allocated influencer review. POST frame: thematically-organized health awareness content delivered by credentialed influencers. Not subsumption (health awareness content is not a specific way of being influencer review). Not elaboration (the content category itself changes, not just added detail to review).",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "70% product review",
+        "post_evidence": null,
+        "rationale": "The 70% allocation qualifier and the ratio framing are absent from the POST. The nearest POST counterpart is 'product review', which retains the content category but not the 70% allocation. Tested Narrowed: 'bare product review' is not a specific way of being '70% product review' \u2014 the allocation is dropped, not specified. Tested Reframed: product review content category persists, but no frame shift occurs \u2014 the change is a drop of the allocation number, which is closer to a removed qualifier than a reframing. Tested Elaborated: no detail added to the allocation. Tested Expanded: no broadening of the allocation concept. The 70% ratio figure has no semantic successor in POST and is not a generic filler that gets subsumed; it is a quantitative allocation that was dropped. The content category itself persists via the matched pair with bare 'product review', so the category is accounted for; only the 70% allocation is removed.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "alignment_null_by_choice"
+      ],
+      "coder_notes": "The 70% allocation qualifier in PRE ('70% product review') is treated as Removed because no POST element carries the ratio figure; the bare content category 'product review' is retained via the matched pair. The 30% influencer review tracks to the influencer portion of the POST concept, but the health-awareness content type is new. Because splitting the POST span across two events would risk double-counting, the influencer-to-credible-influencer transition is captured as a single Reframed event with the full POST span as evidence and the thematic shift noted in the rationale. The health-awareness content type is not emitted as a separate New event because it is bundled inside the matched pair's post_evidence; this is a judgment call documented for auditability. Confidence is medium due to the bundled-POST-span treatment."
+    },
+    "coded_at": "2025-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "70% product review",
+        "post": "product review",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Pass-1 outcome (bare 'product review' as the closest match, with 70% allocation qualifier absent) is handled by the Removed event on the 70% allocation. The category-level pair itself is not coded as a transformation because the allocation number has no POST counterpart. Confirming the alignment as a category persistence noted inside the Removed event's rationale."
+      },
+      {
+        "type": "confirm",
+        "pre": "30% influencer review",
+        "post": "Health awareness content with influencers that have credible background",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Both share the influencer-driven content neighborhood. Subsumption test: 'Health awareness content with credible-background influencers' is a specific way of being '30% influencer review' \u2014 FALSE (different content categories, review vs health awareness). Reframed is correct: same influencer-driven territory, shifted organizing frame from ratio-allocated product review to thematically-organized health awareness content with a credibility qualifier. Narrowed is not defensible here; confirmed as runner-up."
+      },
+      {
+        "type": "recode",
+        "pre": "70% product review",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Narrowed",
+        "reason": "Testing the transformation ladder against the matched pair '70% product review \u2192 product review': 'Bare product review' is a specific way of being '70% product review' in the sense that it strips the allocation qualifier and retains the content category \u2014 but subsumption is borderline. The 70% allocation is a quantitative frame element, not a category subtype. Stronger reading: the content category (product review) persists intact and the 70% allocation is a dropped qualifier. This is closer to Narrowed (POST is a subset realization: bare review without the allocation envelope) than to a standalone Removed. Recoding to Narrowed so the 70% allocation's loss is captured as a transformation of the full PRE phrase rather than an orphan Removed event. Alternative: Removed (previously considered); Narrowed selected because 'product review' is a proper subset reading of '70% product review' (review without the allocation envelope)."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Health awareness content with credible-background qualifier (the thematic content type itself)",
+        "from_code": "New",
+        "to_code": null,
+        "reason": "After absorbing the category-level persistence into a Narrowed event on the 70% product review pair and confirming the Reframed on the influencer pair, no standalone New remains in the unmatched_post inventory as coded. The 'Health awareness content with influencers that have credible background' concept is fully accounted for by the Reframed event. The unmatched_post list from pass-1 is cleared. Confirming that no orphan New is emitted."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "70% product review",
+        "post": "product review",
+        "basis": "Content category (product review) persists; the 70% allocation qualifier is dropped \u2014 POST is the bare content category realization of the PRE phrase."
+      },
+      {
+        "pre": "30% influencer review",
+        "post": "Health awareness content with influencers that have credible background",
+        "basis": "Same influencer-driven content neighborhood; organizing frame shifts from ratio-allocated product review to thematically-organized health awareness content delivered by credentialed influencers."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "70% product review",
+        "post_evidence": "product review",
+        "rationale": "POST ('product review') is the bare content-category realization of PRE ('70% product review'): the review category persists while the 70% allocation envelope is dropped. Narrowed captures the subset/scope-restriction reading \u2014 bare product review is the content category without the quantitative allocation frame. Alternative considered: Removed (previously coded in pass-1); rejected because the category itself persists via this pair, so it is a transformation, not an orphan removal.",
+        "alternative_considered": "Removed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "30% influencer review",
+        "post_evidence": "Health awareness content with influencers that have credible background",
+        "rationale": "Same influencer-driven content neighborhood; organizing frame shifts from a ratio-allocated product/influencer review to a thematically-organized health-awareness content model where the influencer carries a credible-background qualifier. Subsumption test fails (health awareness content is not a specific way of being influencer review \u2014 different content categories). Reframed is the correct tier: sibling concepts under the influencer-content umbrella with shifted frames.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "skipCritic": false
+}

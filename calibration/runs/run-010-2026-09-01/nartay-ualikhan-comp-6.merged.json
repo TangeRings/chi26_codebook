@@ -1,0 +1,133 @@
+{
+  "coding_unit": {
+    "student_id": "nartay-ualikhan",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "TikTok as social channel",
+      "Instagram as social channel",
+      "SSENSE as commerce platform"
+    ],
+    "post_concepts": [
+      "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+      "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "TikTok as social channel",
+        "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+        "continuity": "same platform (TikTok); POST adds Instagram and elaborates purpose",
+        "scope": "POST broadens to include Instagram alongside TikTok and adds functional purposes",
+        "frame": "functional/marketing frame (brand identity, engagement, storytelling, visual appeal, high-end consumers)",
+        "stretch": "PRE mentions TikTok and Instagram together as 'social channels'; POST retains both with added purpose elaboration",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram as social channel",
+        "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+        "continuity": "same platform (Instagram); POST elaborates purpose",
+        "scope": "same scope, with elaboration",
+        "frame": "functional/marketing frame",
+        "stretch": "Instagram already appears alongside TikTok in PRE",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "SSENSE as commerce platform",
+        "post": "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience",
+        "continuity": "same platform (SSENSE)",
+        "scope": "same scope",
+        "frame": "strategic positioning frame (luxury marketplace, target audience alignment)",
+        "stretch": "minimal - PRE is label-only, POST adds strategic purpose",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "TikTok as social channel",
+        "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+        "basis": "TikTok explicitly retained; Instagram carried over; POST adds functional purpose elaboration (brand identity, engagement, storytelling, visual appeal, high-end consumers) within the same content-channel frame"
+      },
+      {
+        "pre": "Instagram as social channel",
+        "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+        "basis": "Instagram explicitly retained; POST elaborates purpose within same content-channel frame"
+      },
+      {
+        "pre": "SSENSE as commerce platform",
+        "post": "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience",
+        "basis": "SSENSE explicitly retained as commerce platform; POST adds strategic positioning rationale within same commerce-channel frame"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "TikTok as social channel",
+        "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "PASS-1 correctly noted that the underlying category (social/content channels for branding) is intact and POST adds functional descriptors (brand identity, engagement, storytelling, visual appeal, high-end consumers). Adding Instagram is concrete content addition, not a frame change. Elaborated confirmed; Reframed would require the organizing frame to shift."
+      },
+      {
+        "type": "confirm",
+        "pre": "Instagram as social channel",
+        "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Instagram is explicitly retained; POST adds functional purpose detail within the same 'content channels for branding' frame. Elaborated confirmed."
+      },
+      {
+        "type": "confirm",
+        "pre": "SSENSE as commerce platform",
+        "post": "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "SSENSE is explicitly retained as commerce platform; POST adds strategic-positioning detail (curated luxury marketplace, target audience alignment) within the same commerce-channel frame. Elaborated confirmed."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST retains all platforms listed in PRE (TikTok, Instagram, SSENSE) but adds substantial functional and strategic elaboration for each: purpose statements for content channels (brand identity, engagement, storytelling, visual appeal, attracting high-end consumers) and strategic positioning rationale for the commerce platform (curated luxury marketplace, target audience alignment). This represents a meaningful but contained expansion of content, adding explanatory detail rather than transforming the response scope."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "TikTok and Instagram as social channels",
+      "post_evidence": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+      "rationale": "Underlying category (content channels for branding) is intact. POST adds functional descriptors (brand identity, engagement, storytelling, visual appeal, attracting high-end consumers). Same organizing frame; pure additive detail. Reframed not warranted because the frame (platforms serving brand objectives) persists unchanged.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Instagram as social channel",
+      "post_evidence": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+      "rationale": "Instagram retained; POST adds functional purpose detail within the same 'content channels for branding' frame. Modifier addition only.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "SSENSE as commerce platform",
+      "post_evidence": "SSENSE as commerce platform positioned within a curated luxury marketplace aligned with target audience",
+      "rationale": "SSENSE explicitly retained as commerce platform; POST adds strategic-positioning context (curated luxury marketplace, target audience alignment). Category (commerce channel) intact; only descriptors added.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "Both PRE and POST enumerate the same set of platforms (TikTok, Instagram, SSENSE). The transformation is purely elaboration of purpose/positioning for each platform. No platform was added or removed. Structural Development is Moderate Addition due to added explanatory clauses without transformation of response scope. Critic applied 3 correction(s)."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

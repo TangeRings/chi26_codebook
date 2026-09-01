@@ -1,0 +1,105 @@
+{
+  "coding_unit": {
+    "student_id": "amy",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "heels"
+    ],
+    "post_concepts": [
+      "comfortable and stylish heels",
+      "heeled boots",
+      "low-mid heels"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "heels",
+        "post": "comfortable and stylish heels",
+        "continuity": "Same core product (heels) retained with added qualitative attributes",
+        "scope": "POST adds specifications (comfortable, stylish) to the same product",
+        "frame": "Product feature frame: from bare category to characterized product",
+        "stretch": "Low stretch \u2014 direct continuation",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "heels",
+        "post": "heeled boots",
+        "continuity": "Same footwear family, boots specifically",
+        "scope": "POST specifies a heeled sub-type within heels; heels encompass boots but boots are not all heels",
+        "frame": "Product category frame \u2014 narrowing into specific heeled footwear sub-type",
+        "stretch": "Moderate stretch \u2014 boots as a type of heeled footwear",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "heels",
+        "post": "low-mid heels",
+        "continuity": "Heel type specification within heels",
+        "scope": "POST restricts the heel height range",
+        "frame": "Heel-height specification frame",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "heels",
+        "post": "comfortable and stylish heels",
+        "basis": "Same product preserved with added qualitative descriptors (comfortable, stylish)"
+      },
+      {
+        "pre": "heels",
+        "post": "heeled boots",
+        "basis": "Heeled boots are a specific type of heels (or at minimum a clearly related sub-category of heeled footwear)"
+      },
+      {
+        "pre": "heels",
+        "post": "low-mid heels",
+        "basis": "Low-mid heels is a restricted heel-height specification within the heels category"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "Pre is a single word ('heels'). Post elaborates the offering into multiple descriptors ('comfortable and stylish heels/other footwear like heeled boots/low-mid heels'), adding qualitative attributes and expanding the product range with two additional heeled-footwear categories. This is more than cosmetic but confined to one sentence with limited elaboration."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "heels",
+      "post_evidence": "comfortable and stylish heels",
+      "rationale": "The core product (heels) is retained and supplemented with two qualitative descriptors (comfortable, stylish) within the same product frame. POST does not shift what heels refers to; it adds attribute-level detail. Same conceptual frame persists.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "heels",
+      "post_evidence": "heeled boots",
+      "rationale": "The pre concept 'heels' is broadened to include another heeled-footwear sub-type (heeled boots) alongside the original. Heels as a category now encompasses both the original offering and heeled boots. Heeled boots are not a subset of the pre 'heels' (boots are a different footwear silhouette), so this is expansion of the offering, not narrowing of the original.",
+      "alternative_considered": "New",
+      "confidence": "medium"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "heels",
+      "post_evidence": "low-mid heels",
+      "rationale": "The pre 'heels' is broadened to include a heel-height specification (low-mid heels) as an additional offering alongside the original general heels. This expands the product line into a specified heel-height variant.",
+      "alternative_considered": "New",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "semantic_phrase mode applied to Product Offerings. Three events coded: one Elaborated (qualitative attributes added) and two Expanded (additional heeled-footwear sub-categories introduced). No Removed or New events. Structural development assessed as Moderate Addition given the increase from one word to a short phrase naming multiple product variants."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

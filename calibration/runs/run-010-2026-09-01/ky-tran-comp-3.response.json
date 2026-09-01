@@ -1,0 +1,1400 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "PRE is a single ~30-word sentence naming three audience labels with minimal qualification. POST contains three fully elaborated audience segments with specific age ranges, sub-segments, psychographics, current behaviors (e.g., melatonin, white noise machines), adoption barriers, and product-need framings. Multiple new sentences and explanatory passages have been added; the scope and depth of the response is meaningfully larger.",
+    "conceptAlignment": {
+      "unitizationMode": "scoped_category",
+      "preConcepts": [
+        "students",
+        "office workers",
+        "daytime workers",
+        "Sleep Improvement Seekers",
+        "hospitality users"
+      ],
+      "postConcepts": [
+        "Students & Young Professionals (18\u201334)",
+        "Sleep Improvement Seekers (All Ages)",
+        "Daytime Workers & Shift Workers",
+        "insomniacs/light sleepers/sleep disorder sufferers (sub-segment of Sleep Improvement Seekers)",
+        "small dorm/apartment dwellers (sub-segment of Students)",
+        "AI-curtain rental-constrained non-adopters (sub-segment)",
+        "Tech-savvy early adopters (sub-segment)",
+        "insomniacs using melatonin/white noise/wake-up lights (sub-sub-segment)",
+        "circadian rhythm alignment need (sub-segment need)",
+        "portable light therapy need (sub-segment need)"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "students",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "same broad audience category (students)",
+          "scope": "POST is narrower \u2014 restricts to 18\u201334 and adds young professionals",
+          "frame": "PRE labels by role only; POST adds age range, living conditions, tech-savviness",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "students",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak \u2014 both are audiences but defined by different axes (role vs. need)",
+          "scope": "not directly comparable",
+          "frame": "role-based vs. need-based",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "students",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "weak \u2014 both are working/scheduled populations",
+          "scope": "not directly comparable",
+          "frame": "role/age vs. shift pattern",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "office workers",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "office workers generally older than 18\u201334 students; partial overlap possible",
+          "scope": "different populations",
+          "frame": "role-based vs. age-based",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "office workers",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "daytime workers include office workers",
+          "scope": "POST is broader (encompasses office workers plus shift workers)",
+          "frame": "work schedule vs. occupational role",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "office workers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak",
+          "scope": "different axes",
+          "frame": "role vs. need",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "direct overlap; POST adds shift workers",
+          "scope": "POST broader",
+          "frame": "daytime work \u2192 daytime + shift work schedule",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "weak",
+          "scope": "different",
+          "frame": "work schedule vs. age/life stage",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak",
+          "scope": "different",
+          "frame": "schedule vs. need",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "direct match, POST adds age qualifier",
+          "scope": "PRE not age-restricted; POST explicitly all ages (similar)",
+          "frame": "same label, POST elaborates with examples",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "weak \u2014 both are audiences but defined differently",
+          "scope": "not directly comparable",
+          "frame": "need-based vs. role-based",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "weak",
+          "scope": "different axes",
+          "frame": "need vs. schedule",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "weak",
+          "scope": "different segments",
+          "frame": "B2B/hospitality vs. consumer",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak \u2014 hospitality guests overlap with sleep seekers but different frame",
+          "scope": "different",
+          "frame": "B2B application vs. consumer need",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "weak",
+          "scope": "different",
+          "frame": "B2B application vs. worker audience",
+          "stretch": "high",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "daytime workers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "reason": "different conceptual domains (schedule-based role vs. need-based audience); no shared semantic neighborhood driving the match"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Students & Young Professionals (18\u201334)",
+          "reason": "different domains (B2B application segment vs. consumer demographic); no defensible lineage"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "basis": "Same labeled segment; POST elaborates with sub-segments and behaviors within the same conceptual frame."
+        },
+        {
+          "pre": "students",
+          "post": "Students & Young Professionals (18\u201334)",
+          "basis": "Students segment retained with an explicit 18\u201334 age restriction and expanded to include young professionals. Scope restriction layered onto the original student population."
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Daytime Workers & Shift Workers",
+          "basis": "Daytime workers are retained and shift workers are added, broadening the segment from one schedule type to two."
+        }
+      ],
+      "unmatchedPre": [
+        "office workers",
+        "hospitality users"
+      ],
+      "unmatchedPost": [
+        "insomniacs/light sleepers/sleep disorder sufferers (sub-segment of Sleep Improvement Seekers)",
+        "small dorm/apartment dwellers (sub-segment of Students)",
+        "AI-curtain rental-constrained non-adopters (sub-segment)",
+        "Tech-savvy early adopters (sub-segment)",
+        "insomniacs using melatonin/white noise/wake-up lights (sub-sub-segment)",
+        "circadian rhythm alignment need (sub-segment need)",
+        "portable light therapy need (sub-segment need)"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "hospitality users",
+          "direction": "removed",
+          "nearestCounterpart": "Sleep Improvement Seekers (All Ages)",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "POST contains no hospitality/B2B-application audience. 'Sleep Improvement Seekers' in POST is a consumer-need segment, not a hospitality application context. Subsumption fails (hospitality is not a subset of consumer sleep seekers). Same territory does not hold (B2B venue vs. individual consumer). No elaboration or expansion of hospitality use is present. Lineage not defensible across different conceptual frames."
+        },
+        {
+          "concept": "circadian rhythm alignment need",
+          "direction": "new",
+          "nearestCounterpart": "Sleep Improvement Seekers",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "PRE contains no mention of circadian rhythm alignment. The Daytime Workers line in PRE mentions needing to 'wake up early in the morning' but does not name circadian rhythm as a concept. Circadian rhythm framing represents a new organizing concept in POST. Narrowed fails (circadian rhythm need is not a subtype of sleep-improvement seekers). Reframed fails (no shared organizing frame at the conceptual level for this specific need). Elaborated/Expanded fail because PRE has no antecedent for this specific need."
+        },
+        {
+          "concept": "portable light therapy need",
+          "direction": "new",
+          "nearestCounterpart": "daytime workers",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "PRE does not mention portability or light therapy. POST explicitly notes 'AI curtains don't help them because they need controlled artificial daylight' and 'portable light therapy' \u2014 these are new product-need framings absent from PRE. No antecedent found."
+        },
+        {
+          "concept": "rental constraints / affordability non-adopters",
+          "direction": "new",
+          "nearestCounterpart": "students",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Students in PRE (and POST's Students & Young Professionals) are the population for whom rental/affordability constraints apply. POST elaborates the Students segment by adding this constraint as a sub-segment characteristic. Converting this as part of the elaboration of the Students segment rather than a separate New event."
+        },
+        {
+          "concept": "tech-savvy early adopters",
+          "direction": "new",
+          "nearestCounterpart": "students",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Tech-savviness is a psychographic elaboration of the Students & Young Professionals segment in POST. No standalone PRE antecedent, but it functions as an elaboration of the matched Students pair. Recording as part of that elaboration."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Sleep Improvement Seekers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "Same labeled segment persists; POST adds sub-segments and behavioral detail within the same 'people seeking better sleep' frame. No frame shift. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "students",
+          "post": "Students & Young Professionals (18\u201334)",
+          "fromCode": "Narrowed",
+          "toCode": "Narrowed",
+          "reason": "POST applies an explicit age restriction (18\u201334) and adds 'Young Professionals' as a population restriction layered onto 'students'. Scope restriction holds. Narrowed is correct per the calibrated rule."
+        },
+        {
+          "type": "recode",
+          "pre": "daytime workers",
+          "post": "Daytime Workers & Shift Workers",
+          "fromCode": "Expanded",
+          "toCode": "Expanded",
+          "reason": "Pass-1 code is correct. POST adds shift workers alongside daytime workers, broadening the segment from one schedule type to two. Confirm Expanded."
+        },
+        {
+          "type": "confirm",
+          "pre": "office workers",
+          "post": "Daytime Workers & Shift Workers",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Pass-1 rationale notes 'narrowing-into-parent' rather than a clean alignment. 'office workers' is subsumed by 'Daytime Workers' which then pairs with 'daytime workers' PRE. The pairing is semantically forced: office workers are a daytime worker subtype mapped to the broader parent category. Given the better antecedent for daytime workers is already used, the cleanest resolution is to flag office workers as subsumed by the daytime-workers pairing and remove this redundant alignment. Recording as Removed (office workers fully subsumed by the daytime workers \u2192 Daytime Workers & Shift Workers pairing)."
+        },
+        {
+          "type": "confirm",
+          "pre": "hospitality users",
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "Confirmed non-neighborhood: B2B hospitality application context vs. consumer demographic segments. No POST successor at any tier. Removed stands."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "circadian rhythm alignment need",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "No PRE antecedent names circadian rhythm. The nearest counterpart ('wake up early in the morning' under daytime workers) is at best a vague thematic adjacency; the organized concept of circadian rhythm alignment is genuinely new. New stands."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "portable light therapy need",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "No PRE antecedent names portability or light therapy as a need. Genuinely new framing. New stands."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "AI-curtain rental-constrained non-adopters",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Although pass-1 recheck proposed converting this into the Students elaboration, the structural rule forbids reusing a PRE unit already inside a matched pair. 'students' is already matched to 'Students & Young Professionals (18\u201334)'; rental-constrained non-adopters cannot be a second event from the same antecedent. New stands as a separate event."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Tech-savvy early adopters",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Same structural constraint: 'students' is already matched. Tech-savvy early adopters cannot be folded into a second event from the same antecedent. New stands."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6wtua5tw1qlph5x8",
+        "code": "Elaborated",
+        "preEvidence": "Sleep Improvement Seekers, people struggling with alarms and poor sleep cycles",
+        "postEvidence": "Sleep Improvement Seekers (All Ages) - Includes insomniacs, light sleepers, and those suffering from sleep disorders. Likely already buying melatonin, white noise machines, or wake-up lights. Open to trying new sleep technology to optimize rest.",
+        "rationale": "Same labeled segment persists in POST; POST retains the label and adds sub-segments, existing product behaviors, and openness to new sleep technology within the same 'people seeking better sleep' frame. No frame shift.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6wtuapw4g9q5p7cs",
+        "code": "Narrowed",
+        "preEvidence": "students; office workers",
+        "postEvidence": "Students & Young Professionals (18\u201334 years old)",
+        "rationale": "POST applies an explicit age band (18\u201334) that restricts the original 'students' pool and adds young professionals within that band. Scope restriction holds: young professionals 18\u201334 plus students in that age range is a proper subset of all students. Narrowed is correct per the calibrated SCOPE-RESTRICTION-ALWAYS-NARROWED rule.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti6wtuat4a0kl4ckgh",
+        "code": "Expanded",
+        "preEvidence": "daytime workers. People who have day work and need to wake up early in the morning.",
+        "postEvidence": "Daytime Workers & Shift Workers - Many struggle with irregular sleep patterns due to work schedules.",
+        "rationale": "PRE names only daytime workers; POST adds shift workers alongside daytime workers, broadening the segment from one schedule type to two. POST is broader than PRE, so Expanded is correct over Narrowed.",
+        "confidence": "high",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6wtuach2guq7g12s",
+        "code": "Removed",
+        "preEvidence": "office workers are a kind of daytime worker; the daytime-workers pairing subsumes office workers",
+        "postEvidence": null,
+        "rationale": "Office workers are a subtype of daytime workers and have already been subsumed under the matched daytime-workers \u2192 Daytime Workers & Shift Workers pairing. No independent POST successor exists for office workers. Recording as Removed because the concept is fully covered by the sibling pairing and has no standalone successor.",
+        "confidence": "medium",
+        "alternativeConsidered": "Narrowed (would require pairing office workers directly with Daytime Workers & Shift Workers, but that duplicates the daytime-workers antecedent)"
+      },
+      {
+        "instanceId": "mti6wtuap43rzgfu97a",
+        "code": "Removed",
+        "preEvidence": "Can be use in hospitality.",
+        "postEvidence": null,
+        "rationale": "PRE includes a hospitality/B2B application context. POST contains no hospitality audience or application mention. 'Sleep Improvement Seekers' in POST is framed as consumer individuals. Subsumption, reframing, elaboration, and expansion all fail across different conceptual frames (B2B application vs. consumer demographic).",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6wtuaov4w474fglh",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Strong need for circadian rhythm alignment and portable light therapy.",
+        "rationale": "POST introduces circadian rhythm alignment as a need for Daytime Workers & Shift Workers. PRE mentions 'wake up early in the morning' but does not name circadian rhythm. The Daytime Workers PRE concept is already matched to its POST successor and cannot serve as a second antecedent. Narrowed, Reframed, Elaborated, and Expanded all fail: circadian rhythm is a new organizing concept with no PRE antecedent.",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded"
+      },
+      {
+        "instanceId": "mti6wtuaryo414pc9jl",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "AI curtains don't help them because they need controlled artificial daylight; portable light therapy is a separate need.",
+        "rationale": "POST introduces portable light therapy as a need. PRE does not mention portability or light therapy. The daytime-workers antecedent is already matched. No PRE span maps to portable light therapy. New stands.",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded"
+      },
+      {
+        "instanceId": "mti6wtuagoo0eumiug",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "AI-curtain rental-constrained non-adopters (sub-segment)",
+        "rationale": "POST identifies a rental/affordability-constrained sub-segment within the broader consumer base. PRE does not name this constraint, and the 'students' antecedent is already matched to its POST successor. Cannot fold into the students pairing without violating the one-antecedent-per-event rule. New stands.",
+        "confidence": "high",
+        "alternativeConsidered": "Elaborated (folded into students pairing \u2014 blocked by structural rule)"
+      },
+      {
+        "instanceId": "mti6wtuaku5ac7ssxwn",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Tech-savvy early adopters (sub-segment)",
+        "rationale": "POST introduces a tech-savvy psychographic sub-segment. PRE does not name tech-savviness or early-adopter status. The 'students' antecedent is already matched. Cannot fold into the students pairing. New stands.",
+        "confidence": "high",
+        "alternativeConsidered": "Elaborated (folded into students pairing \u2014 blocked by structural rule)"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "vague_to_specific_lineage",
+        "alignment_null_by_choice",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "The Students pair is arguable between Narrowed (age restriction to 18\u201334) and Expanded (adding young professionals alongside students). The dominant direction is restriction (18\u201334 is narrower than all students and all office workers), so Narrowed is coded, but confidence is medium. The two sub-segment psychographic details (rental constraints, tech-savvy) were rechecked against the matched Students pair and absorbed as elaboration rather than emitted as separate New events to avoid fragmentation. Hospitality users were confirmed as a genuine Removed after full-response search \u2014 no POST element serves as a B2B successor. Critic applied 9 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "ky-tran",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "students",
+        "office workers",
+        "daytime workers",
+        "Sleep Improvement Seekers",
+        "hospitality users"
+      ],
+      "post_concepts": [
+        "Students & Young Professionals (18\u201334)",
+        "Sleep Improvement Seekers (All Ages)",
+        "Daytime Workers & Shift Workers",
+        "insomniacs/light sleepers/sleep disorder sufferers (sub-segment of Sleep Improvement Seekers)",
+        "small dorm/apartment dwellers (sub-segment of Students)",
+        "AI-curtain rental-constrained non-adopters (sub-segment)",
+        "Tech-savvy early adopters (sub-segment)",
+        "insomniacs using melatonin/white noise/wake-up lights (sub-sub-segment)",
+        "circadian rhythm alignment need (sub-segment need)",
+        "portable light therapy need (sub-segment need)"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "students",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "same broad audience category (students)",
+          "scope": "POST is narrower \u2014 restricts to 18\u201334 and adds young professionals",
+          "frame": "PRE labels by role only; POST adds age range, living conditions, tech-savviness",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "students",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak \u2014 both are audiences but defined by different axes (role vs. need)",
+          "scope": "not directly comparable",
+          "frame": "role-based vs. need-based",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "students",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "weak \u2014 both are working/scheduled populations",
+          "scope": "not directly comparable",
+          "frame": "role/age vs. shift pattern",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "office workers",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "office workers generally older than 18\u201334 students; partial overlap possible",
+          "scope": "different populations",
+          "frame": "role-based vs. age-based",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "office workers",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "daytime workers include office workers",
+          "scope": "POST is broader (encompasses office workers plus shift workers)",
+          "frame": "work schedule vs. occupational role",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "office workers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak",
+          "scope": "different axes",
+          "frame": "role vs. need",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "direct overlap; POST adds shift workers",
+          "scope": "POST broader",
+          "frame": "daytime work \u2192 daytime + shift work schedule",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "weak",
+          "scope": "different",
+          "frame": "work schedule vs. age/life stage",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak",
+          "scope": "different",
+          "frame": "schedule vs. need",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "direct match, POST adds age qualifier",
+          "scope": "PRE not age-restricted; POST explicitly all ages (similar)",
+          "frame": "same label, POST elaborates with examples",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "weak \u2014 both are audiences but defined differently",
+          "scope": "not directly comparable",
+          "frame": "need-based vs. role-based",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "weak",
+          "scope": "different axes",
+          "frame": "need vs. schedule",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "weak",
+          "scope": "different segments",
+          "frame": "B2B/hospitality vs. consumer",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak \u2014 hospitality guests overlap with sleep seekers but different frame",
+          "scope": "different",
+          "frame": "B2B application vs. consumer need",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "weak",
+          "scope": "different",
+          "frame": "B2B application vs. worker audience",
+          "stretch": "high",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "daytime workers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "reason": "different conceptual domains (schedule-based role vs. need-based audience); no shared semantic neighborhood driving the match"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Students & Young Professionals (18\u201334)",
+          "reason": "different domains (B2B application segment vs. consumer demographic); no defensible lineage"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "basis": "Same labeled segment; POST elaborates with sub-segments and behaviors within the same conceptual frame."
+        },
+        {
+          "pre": "students",
+          "post": "Students & Young Professionals (18\u201334)",
+          "basis": "Students segment retained with an explicit 18\u201334 age restriction and expanded to include young professionals. Scope restriction layered onto the original student population."
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Daytime Workers & Shift Workers",
+          "basis": "Daytime workers are retained and shift workers are added, broadening the segment from one schedule type to two."
+        }
+      ],
+      "unmatched_pre": [
+        "office workers",
+        "hospitality users"
+      ],
+      "unmatched_post": [
+        "insomniacs/light sleepers/sleep disorder sufferers (sub-segment of Sleep Improvement Seekers)",
+        "small dorm/apartment dwellers (sub-segment of Students)",
+        "AI-curtain rental-constrained non-adopters (sub-segment)",
+        "Tech-savvy early adopters (sub-segment)",
+        "insomniacs using melatonin/white noise/wake-up lights (sub-sub-segment)",
+        "circadian rhythm alignment need (sub-segment need)",
+        "portable light therapy need (sub-segment need)"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "hospitality users",
+          "direction": "removed",
+          "nearest_counterpart": "Sleep Improvement Seekers (All Ages)",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "POST contains no hospitality/B2B-application audience. 'Sleep Improvement Seekers' in POST is a consumer-need segment, not a hospitality application context. Subsumption fails (hospitality is not a subset of consumer sleep seekers). Same territory does not hold (B2B venue vs. individual consumer). No elaboration or expansion of hospitality use is present. Lineage not defensible across different conceptual frames."
+        },
+        {
+          "concept": "circadian rhythm alignment need",
+          "direction": "new",
+          "nearest_counterpart": "Sleep Improvement Seekers",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "PRE contains no mention of circadian rhythm alignment. The Daytime Workers line in PRE mentions needing to 'wake up early in the morning' but does not name circadian rhythm as a concept. Circadian rhythm framing represents a new organizing concept in POST. Narrowed fails (circadian rhythm need is not a subtype of sleep-improvement seekers). Reframed fails (no shared organizing frame at the conceptual level for this specific need). Elaborated/Expanded fail because PRE has no antecedent for this specific need."
+        },
+        {
+          "concept": "portable light therapy need",
+          "direction": "new",
+          "nearest_counterpart": "daytime workers",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "PRE does not mention portability or light therapy. POST explicitly notes 'AI curtains don't help them because they need controlled artificial daylight' and 'portable light therapy' \u2014 these are new product-need framings absent from PRE. No antecedent found."
+        },
+        {
+          "concept": "rental constraints / affordability non-adopters",
+          "direction": "new",
+          "nearest_counterpart": "students",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Students in PRE (and POST's Students & Young Professionals) are the population for whom rental/affordability constraints apply. POST elaborates the Students segment by adding this constraint as a sub-segment characteristic. Converting this as part of the elaboration of the Students segment rather than a separate New event."
+        },
+        {
+          "concept": "tech-savvy early adopters",
+          "direction": "new",
+          "nearest_counterpart": "students",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Tech-savviness is a psychographic elaboration of the Students & Young Professionals segment in POST. No standalone PRE antecedent, but it functions as an elaboration of the matched Students pair. Recording as part of that elaboration."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Sleep Improvement Seekers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "Same labeled segment persists; POST adds sub-segments and behavioral detail within the same 'people seeking better sleep' frame. No frame shift. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "students",
+          "post": "Students & Young Professionals (18\u201334)",
+          "from_code": "Narrowed",
+          "to_code": "Narrowed",
+          "reason": "POST applies an explicit age restriction (18\u201334) and adds 'Young Professionals' as a population restriction layered onto 'students'. Scope restriction holds. Narrowed is correct per the calibrated rule."
+        },
+        {
+          "type": "recode",
+          "pre": "daytime workers",
+          "post": "Daytime Workers & Shift Workers",
+          "from_code": "Expanded",
+          "to_code": "Expanded",
+          "reason": "Pass-1 code is correct. POST adds shift workers alongside daytime workers, broadening the segment from one schedule type to two. Confirm Expanded."
+        },
+        {
+          "type": "confirm",
+          "pre": "office workers",
+          "post": "Daytime Workers & Shift Workers",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Pass-1 rationale notes 'narrowing-into-parent' rather than a clean alignment. 'office workers' is subsumed by 'Daytime Workers' which then pairs with 'daytime workers' PRE. The pairing is semantically forced: office workers are a daytime worker subtype mapped to the broader parent category. Given the better antecedent for daytime workers is already used, the cleanest resolution is to flag office workers as subsumed by the daytime-workers pairing and remove this redundant alignment. Recording as Removed (office workers fully subsumed by the daytime workers \u2192 Daytime Workers & Shift Workers pairing)."
+        },
+        {
+          "type": "confirm",
+          "pre": "hospitality users",
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "Confirmed non-neighborhood: B2B hospitality application context vs. consumer demographic segments. No POST successor at any tier. Removed stands."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "circadian rhythm alignment need",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "No PRE antecedent names circadian rhythm. The nearest counterpart ('wake up early in the morning' under daytime workers) is at best a vague thematic adjacency; the organized concept of circadian rhythm alignment is genuinely new. New stands."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "portable light therapy need",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "No PRE antecedent names portability or light therapy as a need. Genuinely new framing. New stands."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "AI-curtain rental-constrained non-adopters",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Although pass-1 recheck proposed converting this into the Students elaboration, the structural rule forbids reusing a PRE unit already inside a matched pair. 'students' is already matched to 'Students & Young Professionals (18\u201334)'; rental-constrained non-adopters cannot be a second event from the same antecedent. New stands as a separate event."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Tech-savvy early adopters",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Same structural constraint: 'students' is already matched. Tech-savvy early adopters cannot be folded into a second event from the same antecedent. New stands."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "PRE is a single ~30-word sentence naming three audience labels with minimal qualification. POST contains three fully elaborated audience segments with specific age ranges, sub-segments, psychographics, current behaviors (e.g., melatonin, white noise machines), adoption barriers, and product-need framings. Multiple new sentences and explanatory passages have been added; the scope and depth of the response is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Sleep Improvement Seekers, people struggling with alarms and poor sleep cycles",
+        "post_evidence": "Sleep Improvement Seekers (All Ages) - Includes insomniacs, light sleepers, and those suffering from sleep disorders. Likely already buying melatonin, white noise machines, or wake-up lights. Open to trying new sleep technology to optimize rest.",
+        "rationale": "Same labeled segment persists in POST; POST retains the label and adds sub-segments, existing product behaviors, and openness to new sleep technology within the same 'people seeking better sleep' frame. No frame shift.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Narrowed",
+        "pre_evidence": "students; office workers",
+        "post_evidence": "Students & Young Professionals (18\u201334 years old)",
+        "rationale": "POST applies an explicit age band (18\u201334) that restricts the original 'students' pool and adds young professionals within that band. Scope restriction holds: young professionals 18\u201334 plus students in that age range is a proper subset of all students. Narrowed is correct per the calibrated SCOPE-RESTRICTION-ALWAYS-NARROWED rule.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "daytime workers. People who have day work and need to wake up early in the morning.",
+        "post_evidence": "Daytime Workers & Shift Workers - Many struggle with irregular sleep patterns due to work schedules.",
+        "rationale": "PRE names only daytime workers; POST adds shift workers alongside daytime workers, broadening the segment from one schedule type to two. POST is broader than PRE, so Expanded is correct over Narrowed.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "office workers are a kind of daytime worker; the daytime-workers pairing subsumes office workers",
+        "post_evidence": null,
+        "rationale": "Office workers are a subtype of daytime workers and have already been subsumed under the matched daytime-workers \u2192 Daytime Workers & Shift Workers pairing. No independent POST successor exists for office workers. Recording as Removed because the concept is fully covered by the sibling pairing and has no standalone successor.",
+        "alternative_considered": "Narrowed (would require pairing office workers directly with Daytime Workers & Shift Workers, but that duplicates the daytime-workers antecedent)",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Can be use in hospitality.",
+        "post_evidence": null,
+        "rationale": "PRE includes a hospitality/B2B application context. POST contains no hospitality audience or application mention. 'Sleep Improvement Seekers' in POST is framed as consumer individuals. Subsumption, reframing, elaboration, and expansion all fail across different conceptual frames (B2B application vs. consumer demographic).",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Strong need for circadian rhythm alignment and portable light therapy.",
+        "rationale": "POST introduces circadian rhythm alignment as a need for Daytime Workers & Shift Workers. PRE mentions 'wake up early in the morning' but does not name circadian rhythm. The Daytime Workers PRE concept is already matched to its POST successor and cannot serve as a second antecedent. Narrowed, Reframed, Elaborated, and Expanded all fail: circadian rhythm is a new organizing concept with no PRE antecedent.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "AI curtains don't help them because they need controlled artificial daylight; portable light therapy is a separate need.",
+        "rationale": "POST introduces portable light therapy as a need. PRE does not mention portability or light therapy. The daytime-workers antecedent is already matched. No PRE span maps to portable light therapy. New stands.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "AI-curtain rental-constrained non-adopters (sub-segment)",
+        "rationale": "POST identifies a rental/affordability-constrained sub-segment within the broader consumer base. PRE does not name this constraint, and the 'students' antecedent is already matched to its POST successor. Cannot fold into the students pairing without violating the one-antecedent-per-event rule. New stands.",
+        "alternative_considered": "Elaborated (folded into students pairing \u2014 blocked by structural rule)",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Tech-savvy early adopters (sub-segment)",
+        "rationale": "POST introduces a tech-savvy psychographic sub-segment. PRE does not name tech-savviness or early-adopter status. The 'students' antecedent is already matched. Cannot fold into the students pairing. New stands.",
+        "alternative_considered": "Elaborated (folded into students pairing \u2014 blocked by structural rule)",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "vague_to_specific_lineage",
+        "alignment_null_by_choice",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "The Students pair is arguable between Narrowed (age restriction to 18\u201334) and Expanded (adding young professionals alongside students). The dominant direction is restriction (18\u201334 is narrower than all students and all office workers), so Narrowed is coded, but confidence is medium. The two sub-segment psychographic details (rental constraints, tech-savvy) were rechecked against the matched Students pair and absorbed as elaboration rather than emitted as separate New events to avoid fragmentation. Hospitality users were confirmed as a genuine Removed after full-response search \u2014 no POST element serves as a B2B successor. Critic applied 9 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "ky-tran",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "students",
+        "office workers",
+        "daytime workers",
+        "Sleep Improvement Seekers",
+        "hospitality users"
+      ],
+      "post_concepts": [
+        "Students & Young Professionals (18\u201334)",
+        "Sleep Improvement Seekers (All Ages)",
+        "Daytime Workers & Shift Workers",
+        "insomniacs/light sleepers/sleep disorder sufferers (sub-segment of Sleep Improvement Seekers)",
+        "small dorm/apartment dwellers (sub-segment of Students)",
+        "AI-curtain rental-constrained non-adopters (sub-segment)",
+        "Tech-savvy early adopters (sub-segment)",
+        "insomniacs using melatonin/white noise/wake-up lights (sub-sub-segment)",
+        "circadian rhythm alignment need (sub-segment need)",
+        "portable light therapy need (sub-segment need)"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "students",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "same broad audience category (students)",
+          "scope": "POST is narrower \u2014 restricts to 18\u201334 and adds young professionals",
+          "frame": "PRE labels by role only; POST adds age range, living conditions, tech-savviness",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "students",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak \u2014 both are audiences but defined by different axes (role vs. need)",
+          "scope": "not directly comparable",
+          "frame": "role-based vs. need-based",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "students",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "weak \u2014 both are working/scheduled populations",
+          "scope": "not directly comparable",
+          "frame": "role/age vs. shift pattern",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "office workers",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "office workers generally older than 18\u201334 students; partial overlap possible",
+          "scope": "different populations",
+          "frame": "role-based vs. age-based",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "office workers",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "daytime workers include office workers",
+          "scope": "POST is broader (encompasses office workers plus shift workers)",
+          "frame": "work schedule vs. occupational role",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "office workers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak",
+          "scope": "different axes",
+          "frame": "role vs. need",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "direct overlap; POST adds shift workers",
+          "scope": "POST broader",
+          "frame": "daytime work \u2192 daytime + shift work schedule",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "weak",
+          "scope": "different",
+          "frame": "work schedule vs. age/life stage",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak",
+          "scope": "different",
+          "frame": "schedule vs. need",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "direct match, POST adds age qualifier",
+          "scope": "PRE not age-restricted; POST explicitly all ages (similar)",
+          "frame": "same label, POST elaborates with examples",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "weak \u2014 both are audiences but defined differently",
+          "scope": "not directly comparable",
+          "frame": "need-based vs. role-based",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "weak",
+          "scope": "different axes",
+          "frame": "need vs. schedule",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Students & Young Professionals (18\u201334)",
+          "continuity": "weak",
+          "scope": "different segments",
+          "frame": "B2B/hospitality vs. consumer",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "continuity": "weak \u2014 hospitality guests overlap with sleep seekers but different frame",
+          "scope": "different",
+          "frame": "B2B application vs. consumer need",
+          "stretch": "high",
+          "verdict": "weak"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Daytime Workers & Shift Workers",
+          "continuity": "weak",
+          "scope": "different",
+          "frame": "B2B application vs. worker audience",
+          "stretch": "high",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "daytime workers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "reason": "different conceptual domains (schedule-based role vs. need-based audience); no shared semantic neighborhood driving the match"
+        },
+        {
+          "pre": "hospitality users",
+          "post": "Students & Young Professionals (18\u201334)",
+          "reason": "different domains (B2B application segment vs. consumer demographic); no defensible lineage"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Sleep Improvement Seekers",
+          "post": "Sleep Improvement Seekers (All Ages)",
+          "basis": "same named segment; POST elaborates with sub-segments (insomniacs, light sleepers, sleep disorders) and existing product behaviors"
+        },
+        {
+          "pre": "students",
+          "post": "Students & Young Professionals (18\u201334)",
+          "basis": "students explicitly retained but with age restriction and expanded to include young professionals; students are a subset of the POST group in age terms, but POST broadens role from students-only to students + young professionals"
+        },
+        {
+          "pre": "daytime workers",
+          "post": "Daytime Workers & Shift Workers",
+          "basis": "daytime workers subsumed within the POST segment, which adds shift workers; clear lineage with scope expansion"
+        },
+        {
+          "pre": "office workers",
+          "post": "Daytime Workers & Shift Workers",
+          "basis": "office workers are a kind of daytime worker; POST is the broader parent category, so this is a narrowing-into-parent rather than a clean alignment \u2014 see rationale in semantic events"
+        }
+      ],
+      "unmatched_pre": [
+        "hospitality users"
+      ],
+      "unmatched_post": [
+        "circadian rhythm alignment need (sub-segment need for Daytime/Shift Workers)",
+        "portable light therapy need (sub-segment need for Daytime/Shift Workers)",
+        "rental constraints / affordability non-adopters (sub-segment)",
+        "tech-savvy early adopters (sub-segment)"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "hospitality users",
+          "direction": "removed",
+          "nearest_counterpart": "Sleep Improvement Seekers (All Ages)",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "POST contains no hospitality/B2B-application audience. 'Sleep Improvement Seekers' in POST is a consumer-need segment, not a hospitality application context. Subsumption fails (hospitality is not a subset of consumer sleep seekers). Same territory does not hold (B2B venue vs. individual consumer). No elaboration or expansion of hospitality use is present. Lineage not defensible across different conceptual frames."
+        },
+        {
+          "concept": "circadian rhythm alignment need",
+          "direction": "new",
+          "nearest_counterpart": "Sleep Improvement Seekers",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "PRE contains no mention of circadian rhythm alignment. The Daytime Workers line in PRE mentions needing to 'wake up early in the morning' but does not name circadian rhythm as a concept. Circadian rhythm framing represents a new organizing concept in POST. Narrowed fails (circadian rhythm need is not a subtype of sleep-improvement seekers). Reframed fails (no shared organizing frame at the conceptual level for this specific need). Elaborated/Expanded fail because PRE has no antecedent for this specific need."
+        },
+        {
+          "concept": "portable light therapy need",
+          "direction": "new",
+          "nearest_counterpart": "daytime workers",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "PRE does not mention portability or light therapy. POST explicitly notes 'AI curtains don't help them because they need controlled artificial daylight' and 'portable light therapy' \u2014 these are new product-need framings absent from PRE. No antecedent found."
+        },
+        {
+          "concept": "rental constraints / affordability non-adopters",
+          "direction": "new",
+          "nearest_counterpart": "students",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Students in PRE (and POST's Students & Young Professionals) are the population for whom rental/affordability constraints apply. POST elaborates the Students segment by adding this constraint as a sub-segment characteristic. Converting this as part of the elaboration of the Students segment rather than a separate New event."
+        },
+        {
+          "concept": "tech-savvy early adopters",
+          "direction": "new",
+          "nearest_counterpart": "students",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Tech-savviness is a psychographic elaboration of the Students & Young Professionals segment in POST. No standalone PRE antecedent, but it functions as an elaboration of the matched Students pair. Recording as part of that elaboration."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "PRE is a single ~30-word sentence naming three audience labels with minimal qualification. POST contains three fully elaborated audience segments with specific age ranges, sub-segments, psychographics, current behaviors (e.g., melatonin, white noise machines), adoption barriers, and product-need framings. Multiple new sentences and explanatory passages have been added; the scope and depth of the response is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "students, office worker",
+        "post_evidence": "Students & Young Professionals (18\u201334 years old)",
+        "rationale": "POST applies a concrete age band (18\u201334) that restricts the original 'students' (and implicitly the office workers) pool. 'Students & Young Professionals (18\u201334)' is a narrowed demographic band \u2014 young professionals aged 18\u201334 plus students in that age range is a proper subset of all students and all office workers. Scope restriction holds. Applying SCOPE-RESTRICTION-ALWAYS-NARROWED.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "daytime workers. People who have day work and need to wake up early in the morning.",
+        "post_evidence": "Daytime Workers & Shift Workers - Many struggle with irregular sleep patterns due to work schedules.",
+        "rationale": "PRE names only daytime workers; POST adds shift workers alongside daytime workers, broadening the segment from a single work-schedule type to two (daytime + shift). This is a clear scope expansion of an identifiable PRE seed. Subsumption is the wrong direction here (POST is broader than PRE), so Expanded is correct over Narrowed.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Sleep Improvement Seekers, people struggling with alarms and poor sleep cycles",
+        "post_evidence": "Sleep Improvement Seekers (All Ages) - Includes insomniacs, light sleepers, and those suffering from sleep disorders. Likely already buying melatonin, white noise machines, or wake-up lights. Open to trying new sleep technology to optimize rest.",
+        "rationale": "Same named segment persists in POST; POST retains the label and adds sub-segments (insomniacs, light sleepers, sleep disorder sufferers), existing product behaviors (melatonin, white noise, wake-up lights), and openness to new sleep technology. This is detail added within the same conceptual frame of 'people seeking better sleep.' No frame shift.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Can be use in hospitality.",
+        "post_evidence": null,
+        "rationale": "PRE includes a hospitality/B2B application context for the target customer. POST contains no hospitality audience and no mention of hospitality application. Full-response search confirms no POST element serves as a successor: Sleep Improvement Seekers in POST is framed as consumer individuals, not hospitality venues. Subsumption, reframing, elaboration, and expansion all fail across different conceptual frames (B2B application vs. consumer demographic).",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Strong need for circadian rhythm alignment and portable light therapy.",
+        "rationale": "POST introduces the concept of circadian rhythm alignment and portable light therapy as needs for Daytime Workers & Shift Workers. PRE mentions 'need to wake up early in the morning' but does not name circadian rhythm or portable light therapy. Full-response search confirms no antecedent in PRE. Narrowed, Reframed, Elaborated, and Expanded all fail: circadian rhythm is a new organizing concept not present in PRE, and no PRE span maps to it.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "vague_to_specific_lineage",
+        "alignment_null_by_choice",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "The Students pair is arguable between Narrowed (age restriction to 18\u201334) and Expanded (adding young professionals alongside students). The dominant direction is restriction (18\u201334 is narrower than all students and all office workers), so Narrowed is coded, but confidence is medium. The two sub-segment psychographic details (rental constraints, tech-savvy) were rechecked against the matched Students pair and absorbed as elaboration rather than emitted as separate New events to avoid fragmentation. Hospitality users were confirmed as a genuine Removed after full-response search \u2014 no POST element serves as a B2B successor."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Sleep Improvement Seekers",
+        "post": "Sleep Improvement Seekers (All Ages)",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Same labeled segment persists; POST adds sub-segments and behavioral detail within the same 'people seeking better sleep' frame. No frame shift. Elaborated is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "students",
+        "post": "Students & Young Professionals (18\u201334)",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "POST applies an explicit age restriction (18\u201334) and adds 'Young Professionals' as a population restriction layered onto 'students'. Scope restriction holds. Narrowed is correct per the calibrated rule."
+      },
+      {
+        "type": "recode",
+        "pre": "daytime workers",
+        "post": "Daytime Workers & Shift Workers",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "Pass-1 code is correct. POST adds shift workers alongside daytime workers, broadening the segment from one schedule type to two. Confirm Expanded."
+      },
+      {
+        "type": "confirm",
+        "pre": "office workers",
+        "post": "Daytime Workers & Shift Workers",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Pass-1 rationale notes 'narrowing-into-parent' rather than a clean alignment. 'office workers' is subsumed by 'Daytime Workers' which then pairs with 'daytime workers' PRE. The pairing is semantically forced: office workers are a daytime worker subtype mapped to the broader parent category. Given the better antecedent for daytime workers is already used, the cleanest resolution is to flag office workers as subsumed by the daytime-workers pairing and remove this redundant alignment. Recording as Removed (office workers fully subsumed by the daytime workers \u2192 Daytime Workers & Shift Workers pairing)."
+      },
+      {
+        "type": "confirm",
+        "pre": "hospitality users",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Confirmed non-neighborhood: B2B hospitality application context vs. consumer demographic segments. No POST successor at any tier. Removed stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "circadian rhythm alignment need",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "No PRE antecedent names circadian rhythm. The nearest counterpart ('wake up early in the morning' under daytime workers) is at best a vague thematic adjacency; the organized concept of circadian rhythm alignment is genuinely new. New stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "portable light therapy need",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "No PRE antecedent names portability or light therapy as a need. Genuinely new framing. New stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "AI-curtain rental-constrained non-adopters",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Although pass-1 recheck proposed converting this into the Students elaboration, the structural rule forbids reusing a PRE unit already inside a matched pair. 'students' is already matched to 'Students & Young Professionals (18\u201334)'; rental-constrained non-adopters cannot be a second event from the same antecedent. New stands as a separate event."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Tech-savvy early adopters",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Same structural constraint: 'students' is already matched. Tech-savvy early adopters cannot be folded into a second event from the same antecedent. New stands."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Sleep Improvement Seekers",
+        "post": "Sleep Improvement Seekers (All Ages)",
+        "basis": "Same labeled segment; POST elaborates with sub-segments and behaviors within the same conceptual frame."
+      },
+      {
+        "pre": "students",
+        "post": "Students & Young Professionals (18\u201334)",
+        "basis": "Students segment retained with an explicit 18\u201334 age restriction and expanded to include young professionals. Scope restriction layered onto the original student population."
+      },
+      {
+        "pre": "daytime workers",
+        "post": "Daytime Workers & Shift Workers",
+        "basis": "Daytime workers are retained and shift workers are added, broadening the segment from one schedule type to two."
+      }
+    ],
+    "unmatched_pre": [
+      "office workers",
+      "hospitality users"
+    ],
+    "unmatched_post": [
+      "insomniacs/light sleepers/sleep disorder sufferers (sub-segment of Sleep Improvement Seekers)",
+      "small dorm/apartment dwellers (sub-segment of Students)",
+      "AI-curtain rental-constrained non-adopters (sub-segment)",
+      "Tech-savvy early adopters (sub-segment)",
+      "insomniacs using melatonin/white noise/wake-up lights (sub-sub-segment)",
+      "circadian rhythm alignment need (sub-segment need)",
+      "portable light therapy need (sub-segment need)"
+    ],
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Sleep Improvement Seekers, people struggling with alarms and poor sleep cycles",
+        "post_evidence": "Sleep Improvement Seekers (All Ages) - Includes insomniacs, light sleepers, and those suffering from sleep disorders. Likely already buying melatonin, white noise machines, or wake-up lights. Open to trying new sleep technology to optimize rest.",
+        "rationale": "Same labeled segment persists in POST; POST retains the label and adds sub-segments, existing product behaviors, and openness to new sleep technology within the same 'people seeking better sleep' frame. No frame shift.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "Narrowed",
+        "pre_evidence": "students; office workers",
+        "post_evidence": "Students & Young Professionals (18\u201334 years old)",
+        "rationale": "POST applies an explicit age band (18\u201334) that restricts the original 'students' pool and adds young professionals within that band. Scope restriction holds: young professionals 18\u201334 plus students in that age range is a proper subset of all students. Narrowed is correct per the calibrated SCOPE-RESTRICTION-ALWAYS-NARROWED rule.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "daytime workers. People who have day work and need to wake up early in the morning.",
+        "post_evidence": "Daytime Workers & Shift Workers - Many struggle with irregular sleep patterns due to work schedules.",
+        "rationale": "PRE names only daytime workers; POST adds shift workers alongside daytime workers, broadening the segment from one schedule type to two. POST is broader than PRE, so Expanded is correct over Narrowed.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "office workers are a kind of daytime worker; the daytime-workers pairing subsumes office workers",
+        "post_evidence": null,
+        "rationale": "Office workers are a subtype of daytime workers and have already been subsumed under the matched daytime-workers \u2192 Daytime Workers & Shift Workers pairing. No independent POST successor exists for office workers. Recording as Removed because the concept is fully covered by the sibling pairing and has no standalone successor.",
+        "alternative_considered": "Narrowed (would require pairing office workers directly with Daytime Workers & Shift Workers, but that duplicates the daytime-workers antecedent)",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Can be use in hospitality.",
+        "post_evidence": null,
+        "rationale": "PRE includes a hospitality/B2B application context. POST contains no hospitality audience or application mention. 'Sleep Improvement Seekers' in POST is framed as consumer individuals. Subsumption, reframing, elaboration, and expansion all fail across different conceptual frames (B2B application vs. consumer demographic).",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Strong need for circadian rhythm alignment and portable light therapy.",
+        "rationale": "POST introduces circadian rhythm alignment as a need for Daytime Workers & Shift Workers. PRE mentions 'wake up early in the morning' but does not name circadian rhythm. The Daytime Workers PRE concept is already matched to its POST successor and cannot serve as a second antecedent. Narrowed, Reframed, Elaborated, and Expanded all fail: circadian rhythm is a new organizing concept with no PRE antecedent.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "AI curtains don't help them because they need controlled artificial daylight; portable light therapy is a separate need.",
+        "rationale": "POST introduces portable light therapy as a need. PRE does not mention portability or light therapy. The daytime-workers antecedent is already matched. No PRE span maps to portable light therapy. New stands.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "AI-curtain rental-constrained non-adopters (sub-segment)",
+        "rationale": "POST identifies a rental/affordability-constrained sub-segment within the broader consumer base. PRE does not name this constraint, and the 'students' antecedent is already matched to its POST successor. Cannot fold into the students pairing without violating the one-antecedent-per-event rule. New stands.",
+        "alternative_considered": "Elaborated (folded into students pairing \u2014 blocked by structural rule)",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Tech-savvy early adopters (sub-segment)",
+        "rationale": "POST introduces a tech-savvy psychographic sub-segment. PRE does not name tech-savviness or early-adopter status. The 'students' antecedent is already matched. Cannot fold into the students pairing. New stands.",
+        "alternative_considered": "Elaborated (folded into students pairing \u2014 blocked by structural rule)",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

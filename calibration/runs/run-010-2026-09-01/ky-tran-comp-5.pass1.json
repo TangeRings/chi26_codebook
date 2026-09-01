@@ -1,0 +1,176 @@
+{
+  "coding_unit": {
+    "student_id": "ky-tran",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "no idea (absence of niche conception)"
+    ],
+    "post_concepts": [
+      "shift workers",
+      "people without access to direct sunlight",
+      "tech workers exposed to blue light"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "no idea (absence of niche conception)",
+        "post": "shift workers",
+        "continuity": "none \u2014 absence vs specific audience",
+        "scope": "undefined vs specific subgroup",
+        "frame": "no frame vs occupational/environmental",
+        "stretch": "extreme",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "no idea (absence of niche conception)",
+        "post": "people without access to direct sunlight",
+        "continuity": "none",
+        "scope": "undefined vs specific subgroup",
+        "frame": "no frame vs environmental-access frame",
+        "stretch": "extreme",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "no idea (absence of niche conception)",
+        "post": "tech workers exposed to blue light",
+        "continuity": "none",
+        "scope": "undefined vs specific subgroup",
+        "frame": "no frame vs occupational-exposure frame",
+        "stretch": "extreme",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "no idea (absence of niche conception)",
+        "post": "shift workers",
+        "reason": "PRE expresses absence of any niche conception, not a vague niche. POST is a specific audience. Different domains (epistemic absence vs audience definition)."
+      },
+      {
+        "pre": "no idea (absence of niche conception)",
+        "post": "people without access to direct sunlight",
+        "reason": "Same: PRE is epistemic non-conception; POST is specific audience."
+      },
+      {
+        "pre": "no idea (absence of niche conception)",
+        "post": "tech workers exposed to blue light",
+        "reason": "Same: PRE is epistemic non-conception; POST is specific audience."
+      }
+    ],
+    "matched_pairs": [],
+    "unmatched_pre": [
+      "no idea (absence of niche conception)"
+    ],
+    "unmatched_post": [
+      "shift workers",
+      "people without access to direct sunlight",
+      "tech workers exposed to blue light"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "shift workers",
+        "direction": "new",
+        "nearest_counterpart": "no idea (absence of niche conception)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE expresses epistemic absence ('no idea'), not a vague audience concept. No subsumption, no shared audience/territory frame, no seed to elaborate or broaden. All four transformation codes fail across different conceptual domains (absence-of-knowledge vs audience definition)."
+      },
+      {
+        "concept": "people without access to direct sunlight",
+        "direction": "new",
+        "nearest_counterpart": "no idea (absence of niche conception)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Same reason: PRE is absence of niche conception, POST is specific audience. Different conceptual domains."
+      },
+      {
+        "concept": "tech workers exposed to blue light",
+        "direction": "new",
+        "nearest_counterpart": "no idea (absence of niche conception)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Same reason: PRE is absence of niche conception, POST is specific audience. Different conceptual domains."
+      },
+      {
+        "concept": "no idea (absence of niche conception)",
+        "direction": "removed",
+        "nearest_counterpart": "shift workers (and the other two audience segments)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Full POST search performed. The three audience segments are specific subgroup definitions, not reconceptions of an absent niche. PRE is epistemic absence, not an audience scope. No transformation defensible."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE is a two-word expression of having no niche ('no idea'). POST introduces three distinct, specifically defined audience segments with occupational and environmental qualifiers. The artifact moves from epistemic absence to a multi-part substantive audience definition, representing substantial new content at the clause and concept level."
+  },
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "shift worker",
+      "rationale": "Nearest PRE counterpart considered: 'no idea' (absence of niche conception). PRE expresses epistemic absence, not a vague audience. All four transformation codes fail across different conceptual domains. No narrowable seed, no shared audience frame, nothing to elaborate or expand from.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "people who live in place that dont have access to direct sunlight",
+      "rationale": "Nearest PRE counterpart considered: 'no idea'. Same reasoning \u2014 PRE is absence of conception, POST is a specific audience defined by environmental access. Different conceptual domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "tech worker who expose to lots of blue light",
+      "rationale": "Nearest PRE counterpart considered: 'no idea'. Same reasoning \u2014 PRE is absence, POST is specific occupational-exposure audience. Different conceptual domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "no idea",
+      "post_evidence": null,
+      "rationale": "Full POST search performed. Nearest POST counterparts are the three specific audience segments. None can be read as a reconception of epistemic absence. PRE was not an audience concept but a statement of not having one. No transformation defensible.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "neighborhood_tested_no_lineage",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "PRE 'no idea' is an epistemic-absence statement rather than a niche concept. Treated as Removed because the post introduces specific audiences that share no lineage with the absence. Three independent New events correspond to the three audience segments; splitting is required because each is a distinct atomic audience category. No learner-agency evidence in the artifact."
+  },
+  "coded_at": "2026-01-01T00:00:00Z",
+  "model": "MiniMax-M3"
+}

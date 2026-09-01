@@ -1,0 +1,781 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Moderate Addition",
+    "structuralRationale": "PRE has two short descriptors. POST has four descriptors plus a connecting clause 'while maintaining a premium feel.' The response gains two new descriptors (Fun, exotic) and elaborates with a qualifying clause. This is meaningful content addition but not extensive restructuring - moderate addition.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "Innovative",
+        "Lively"
+      ],
+      "postConcepts": [
+        "Fun",
+        "innovative",
+        "exotic",
+        "premium feel"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Innovative",
+          "post": "Fun",
+          "continuity": "weak - innovative refers to novelty/originality; fun refers to enjoyment/playfulness",
+          "scope": "unrelated",
+          "frame": "unrelated",
+          "stretch": "implausible - different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Innovative",
+          "post": "innovative",
+          "continuity": "direct lexical match",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Innovative",
+          "post": "exotic",
+          "continuity": "weak - both suggest distinctiveness but different qualities",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Innovative",
+          "post": "premium feel",
+          "continuity": "weak - innovative is about novelty, premium feel is about quality/luxury positioning",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "Fun",
+          "continuity": "strong - both descriptors relate to energy/enjoyment/playfulness",
+          "scope": "similar",
+          "frame": "similar experiential quality",
+          "stretch": "plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "innovative",
+          "continuity": "weak - lively is about energy; innovative about novelty",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "exotic",
+          "continuity": "moderate - both could connote vibrancy or unusualness",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "premium feel",
+          "continuity": "weak - lively is energetic, premium is luxurious/quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Innovative",
+          "post": "Fun",
+          "reason": "different conceptual domains - novelty vs enjoyment"
+        },
+        {
+          "pre": "Innovative",
+          "post": "exotic",
+          "reason": "different conceptual domains - novelty/originality vs unusualness"
+        },
+        {
+          "pre": "Lively",
+          "post": "innovative",
+          "reason": "different conceptual domains - energy vs novelty"
+        },
+        {
+          "pre": "Lively",
+          "post": "exotic",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "Lively",
+          "post": "premium feel",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "Innovative",
+          "post": "premium feel",
+          "reason": "different conceptual domains"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Innovative",
+          "post": "innovative",
+          "basis": "direct lexical continuity, same descriptor retained"
+        },
+        {
+          "pre": "Lively",
+          "post": "Fun",
+          "basis": "both describe energetic/playful experiential quality of brand"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [
+        "exotic",
+        "premium feel"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "exotic",
+          "direction": "new",
+          "nearestCounterpart": "Lively",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested all four. Narrowed: 'Exotic is a specific way of being Lively' - FALSE. Reframed: lively is about energy, exotic is about unusualness/foreignness; territory not shared. Elaborated: POST does not keep Lively intact. Expanded: no identifiable Lively seed broadened. All four fail across different conceptual domains."
+        },
+        {
+          "concept": "premium feel",
+          "direction": "new",
+          "nearestCounterpart": "Innovative",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested all four. Narrowed: 'Premium feel is a specific way of being Innovative' - FALSE. Reframed: innovative concerns novelty, premium concerns luxury/quality positioning; territory not shared. Elaborated: POST does not keep Innovative intact (innovative is also retained separately). Expanded: no broadening relationship. All four fail across different conceptual domains."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Innovative",
+          "post": "innovative",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Direct lexical continuity; no transformation code applies (identity match retained)."
+        },
+        {
+          "type": "confirm",
+          "pre": "Lively",
+          "post": "Fun",
+          "fromCode": "Narrowed",
+          "toCode": "Narrowed",
+          "reason": "Subsumption test passes: 'Fun is a specific way of being Lively.' PRE is a generic energy descriptor, POST is a substantive subtype within that frame. Narrowed is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "exotic",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Nearest counterpart Lively tested across all four transformation tiers; all fail (different conceptual domains: energy/playfulness vs unusualness/foreignness). No neighborhood at specific level; abstraction ceiling applies. Leave as New."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "premium feel",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Nearest counterpart Innovative tested across all four transformation tiers; all fail (different conceptual domains: novelty/originality vs luxury/quality positioning). No shared neighborhood. Leave as New."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6zhkz19392riv88j",
+        "code": "Narrowed",
+        "preEvidence": "Lively",
+        "postEvidence": "Fun",
+        "rationale": "Subsumption test: 'Fun is a specific way of being Lively' is TRUE. Lively is a generic energy descriptor that subsumes fun as a specific manifestation. PRE-genericness signal supports Narrowed.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6zhkzdt591269e6",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "exotic",
+        "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Lively tested: different conceptual domains (energy vs unusualness/foreignness). All four transformation tiers fail.",
+        "confidence": "medium",
+        "alternativeConsidered": "Expanded"
+      },
+      {
+        "instanceId": "mti6zhkzcd72lqw7sdi",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "premium feel",
+        "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Innovative tested: different conceptual domains (novelty vs luxury/quality positioning). All four transformation tiers fail.",
+        "confidence": "medium",
+        "alternativeConsidered": "Expanded"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "Lively \u2192 Fun coded as Narrowed because subsumption holds and Lively is a generic energy descriptor. Could alternatively be argued as Reframed if 'lively' is read as more about energy than fun, but the subsumption test passes clearly. The 'premium feel' is embedded in a clause rather than a standalone descriptor, but it functions as an independent brand quality claim and is coded accordingly. Critic applied 4 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "peter",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Innovative",
+        "Lively"
+      ],
+      "post_concepts": [
+        "Fun",
+        "innovative",
+        "exotic",
+        "premium feel"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Innovative",
+          "post": "Fun",
+          "continuity": "weak - innovative refers to novelty/originality; fun refers to enjoyment/playfulness",
+          "scope": "unrelated",
+          "frame": "unrelated",
+          "stretch": "implausible - different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Innovative",
+          "post": "innovative",
+          "continuity": "direct lexical match",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Innovative",
+          "post": "exotic",
+          "continuity": "weak - both suggest distinctiveness but different qualities",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Innovative",
+          "post": "premium feel",
+          "continuity": "weak - innovative is about novelty, premium feel is about quality/luxury positioning",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "Fun",
+          "continuity": "strong - both descriptors relate to energy/enjoyment/playfulness",
+          "scope": "similar",
+          "frame": "similar experiential quality",
+          "stretch": "plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "innovative",
+          "continuity": "weak - lively is about energy; innovative about novelty",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "exotic",
+          "continuity": "moderate - both could connote vibrancy or unusualness",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "premium feel",
+          "continuity": "weak - lively is energetic, premium is luxurious/quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Innovative",
+          "post": "Fun",
+          "reason": "different conceptual domains - novelty vs enjoyment"
+        },
+        {
+          "pre": "Innovative",
+          "post": "exotic",
+          "reason": "different conceptual domains - novelty/originality vs unusualness"
+        },
+        {
+          "pre": "Lively",
+          "post": "innovative",
+          "reason": "different conceptual domains - energy vs novelty"
+        },
+        {
+          "pre": "Lively",
+          "post": "exotic",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "Lively",
+          "post": "premium feel",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "Innovative",
+          "post": "premium feel",
+          "reason": "different conceptual domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Innovative",
+          "post": "innovative",
+          "basis": "direct lexical continuity, same descriptor retained"
+        },
+        {
+          "pre": "Lively",
+          "post": "Fun",
+          "basis": "both describe energetic/playful experiential quality of brand"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "exotic",
+        "premium feel"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "exotic",
+          "direction": "new",
+          "nearest_counterpart": "Lively",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested all four. Narrowed: 'Exotic is a specific way of being Lively' - FALSE. Reframed: lively is about energy, exotic is about unusualness/foreignness; territory not shared. Elaborated: POST does not keep Lively intact. Expanded: no identifiable Lively seed broadened. All four fail across different conceptual domains."
+        },
+        {
+          "concept": "premium feel",
+          "direction": "new",
+          "nearest_counterpart": "Innovative",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested all four. Narrowed: 'Premium feel is a specific way of being Innovative' - FALSE. Reframed: innovative concerns novelty, premium concerns luxury/quality positioning; territory not shared. Elaborated: POST does not keep Innovative intact (innovative is also retained separately). Expanded: no broadening relationship. All four fail across different conceptual domains."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Innovative",
+          "post": "innovative",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Direct lexical continuity; no transformation code applies (identity match retained)."
+        },
+        {
+          "type": "confirm",
+          "pre": "Lively",
+          "post": "Fun",
+          "from_code": "Narrowed",
+          "to_code": "Narrowed",
+          "reason": "Subsumption test passes: 'Fun is a specific way of being Lively.' PRE is a generic energy descriptor, POST is a substantive subtype within that frame. Narrowed is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "exotic",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Nearest counterpart Lively tested across all four transformation tiers; all fail (different conceptual domains: energy/playfulness vs unusualness/foreignness). No neighborhood at specific level; abstraction ceiling applies. Leave as New."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "premium feel",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Nearest counterpart Innovative tested across all four transformation tiers; all fail (different conceptual domains: novelty/originality vs luxury/quality positioning). No shared neighborhood. Leave as New."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "PRE has two short descriptors. POST has four descriptors plus a connecting clause 'while maintaining a premium feel.' The response gains two new descriptors (Fun, exotic) and elaborates with a qualifying clause. This is meaningful content addition but not extensive restructuring - moderate addition."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Lively",
+        "post_evidence": "Fun",
+        "rationale": "Subsumption test: 'Fun is a specific way of being Lively' is TRUE. Lively is a generic energy descriptor that subsumes fun as a specific manifestation. PRE-genericness signal supports Narrowed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "exotic",
+        "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Lively tested: different conceptual domains (energy vs unusualness/foreignness). All four transformation tiers fail.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "premium feel",
+        "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Innovative tested: different conceptual domains (novelty vs luxury/quality positioning). All four transformation tiers fail.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "Lively \u2192 Fun coded as Narrowed because subsumption holds and Lively is a generic energy descriptor. Could alternatively be argued as Reframed if 'lively' is read as more about energy than fun, but the subsumption test passes clearly. The 'premium feel' is embedded in a clause rather than a standalone descriptor, but it functions as an independent brand quality claim and is coded accordingly. Critic applied 4 correction(s)."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "peter",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Innovative",
+        "Lively"
+      ],
+      "post_concepts": [
+        "Fun",
+        "innovative",
+        "exotic",
+        "premium feel"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Innovative",
+          "post": "Fun",
+          "continuity": "weak - innovative refers to novelty/originality; fun refers to enjoyment/playfulness",
+          "scope": "unrelated",
+          "frame": "unrelated",
+          "stretch": "implausible - different conceptual domains",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Innovative",
+          "post": "innovative",
+          "continuity": "direct lexical match",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Innovative",
+          "post": "exotic",
+          "continuity": "weak - both suggest distinctiveness but different qualities",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Innovative",
+          "post": "premium feel",
+          "continuity": "weak - innovative is about novelty, premium feel is about quality/luxury positioning",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "Fun",
+          "continuity": "strong - both descriptors relate to energy/enjoyment/playfulness",
+          "scope": "similar",
+          "frame": "similar experiential quality",
+          "stretch": "plausible",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "innovative",
+          "continuity": "weak - lively is about energy; innovative about novelty",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "exotic",
+          "continuity": "moderate - both could connote vibrancy or unusualness",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Lively",
+          "post": "premium feel",
+          "continuity": "weak - lively is energetic, premium is luxurious/quality",
+          "scope": "different",
+          "frame": "different",
+          "stretch": "implausible",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Innovative",
+          "post": "Fun",
+          "reason": "different conceptual domains - novelty vs enjoyment"
+        },
+        {
+          "pre": "Innovative",
+          "post": "exotic",
+          "reason": "different conceptual domains - novelty/originality vs unusualness"
+        },
+        {
+          "pre": "Lively",
+          "post": "innovative",
+          "reason": "different conceptual domains - energy vs novelty"
+        },
+        {
+          "pre": "Lively",
+          "post": "exotic",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "Lively",
+          "post": "premium feel",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "Innovative",
+          "post": "premium feel",
+          "reason": "different conceptual domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Innovative",
+          "post": "innovative",
+          "basis": "direct lexical continuity, same descriptor retained"
+        },
+        {
+          "pre": "Lively",
+          "post": "Fun",
+          "basis": "both describe energetic/playful experiential quality of brand"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "exotic",
+        "premium feel"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "exotic",
+          "direction": "new",
+          "nearest_counterpart": "Lively",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested all four. Narrowed: 'Exotic is a specific way of being Lively' - FALSE. Reframed: lively is about energy, exotic is about unusualness/foreignness; territory not shared. Elaborated: POST does not keep Lively intact. Expanded: no identifiable Lively seed broadened. All four fail across different conceptual domains."
+        },
+        {
+          "concept": "premium feel",
+          "direction": "new",
+          "nearest_counterpart": "Innovative",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Tested all four. Narrowed: 'Premium feel is a specific way of being Innovative' - FALSE. Reframed: innovative concerns novelty, premium concerns luxury/quality positioning; territory not shared. Elaborated: POST does not keep Innovative intact (innovative is also retained separately). Expanded: no broadening relationship. All four fail across different conceptual domains."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "PRE has two short descriptors. POST has four descriptors plus a connecting clause 'while maintaining a premium feel.' The response gains two new descriptors (Fun, exotic) and elaborates with a qualifying clause. This is meaningful content addition but not extensive restructuring - moderate addition."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Lively",
+        "post_evidence": "Fun",
+        "rationale": "Subsumption test: 'Fun is a specific way of being Lively' is TRUE - fun is a specific manifestation of the energetic/playful quality that lively denotes. Lively is a generic energy descriptor that subsumes fun. Per NARROW-ABSTRACT and BC-001 reasoning pattern, generic PRE + substantive POST with subsumption yields Narrowed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "exotic",
+        "rationale": "After full-response search, no PRE concept provides defensible lineage. Nearest counterpart Lively tested: subsumption fails, territory not shared (energy vs unusualness/foreignness), no elaboration or expansion possible. Exotic introduces a distinct conceptual quality absent from PRE.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "premium feel",
+        "rationale": "After full-response search, no PRE concept provides defensible lineage. Nearest counterpart Innovative tested: subsumption fails (novelty vs luxury positioning), territory not shared, no elaboration or expansion possible. Premium feel introduces a quality/luxury positioning dimension absent from PRE.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe"
+      ],
+      "coder_notes": "Lively \u2192 Fun coded as Narrowed because subsumption holds and Lively is a generic energy descriptor. Could alternatively be argued as Reframed if 'lively' is read as more about energy than fun, but the subsumption test passes clearly. The 'premium feel' is embedded in a clause rather than a standalone descriptor, but it functions as an independent brand quality claim and is coded accordingly."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Innovative",
+        "post": "innovative",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Direct lexical continuity; no transformation code applies (identity match retained)."
+      },
+      {
+        "type": "confirm",
+        "pre": "Lively",
+        "post": "Fun",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption test passes: 'Fun is a specific way of being Lively.' PRE is a generic energy descriptor, POST is a substantive subtype within that frame. Narrowed is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "exotic",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Nearest counterpart Lively tested across all four transformation tiers; all fail (different conceptual domains: energy/playfulness vs unusualness/foreignness). No neighborhood at specific level; abstraction ceiling applies. Leave as New."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "premium feel",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Nearest counterpart Innovative tested across all four transformation tiers; all fail (different conceptual domains: novelty/originality vs luxury/quality positioning). No shared neighborhood. Leave as New."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Innovative",
+        "post": "innovative",
+        "basis": "direct lexical continuity, same descriptor retained"
+      },
+      {
+        "pre": "Lively",
+        "post": "Fun",
+        "basis": "both describe energetic/playful experiential quality of brand"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "exotic",
+      "premium feel"
+    ],
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Lively",
+        "post_evidence": "Fun",
+        "rationale": "Subsumption test: 'Fun is a specific way of being Lively' is TRUE. Lively is a generic energy descriptor that subsumes fun as a specific manifestation. PRE-genericness signal supports Narrowed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "exotic",
+        "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Lively tested: different conceptual domains (energy vs unusualness/foreignness). All four transformation tiers fail.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "premium feel",
+        "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Innovative tested: different conceptual domains (novelty vs luxury/quality positioning). All four transformation tiers fail.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "skipCritic": false
+}

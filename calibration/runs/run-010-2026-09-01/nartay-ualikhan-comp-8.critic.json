@@ -1,0 +1,136 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "XYZ offers a catalogue of luxury silverware",
+      "post": "A curated collection of luxury silverware",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Catalogue->curated is a genuine frame shift (transactional retail register -> artisan/gallery register), not added detail. Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "ice cream cups, coffee cups",
+      "post": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "POST is a proper superset of the PRE item list, retaining both originals and adding new categories. Expanded is correct; Elaborated would apply only if the original items were kept verbatim with descriptors layered on."
+    },
+    {
+      "type": "confirm",
+      "pre": "silver & metal materials",
+      "post": "premium silver, brass, and other metals",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "The underlying category (metallic materials) is intact; POST adds the 'premium' qualifier and names brass explicitly. Same organizing frame, only detail added. Per BC-P001, this is Elaborated, not Reframed."
+    },
+    {
+      "type": "confirm",
+      "pre": "minimalist design",
+      "post": "minimalist elegance",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Minimalism persists but the frame shifts from design-as-style to elegance-as-outcome. Not a scope restriction (Narrowed fails), not mere descriptor layering (Elaborated fails), and the frame genuinely shifts. Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "sense of luxury and taste",
+      "post": "fusion of functional art and timeless luxury",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Both invoke luxury, but PRE frames it as sensory impression (taste) while POST frames it as artistic-timeless positioning. Narrowed fails: taste is not a specific way of being functional-art-timeless-luxury, and the concept dropped ('taste') is substantive enough that subsumption does not hold. Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "Category: Home silverware/interior",
+      "post": "Category: High-end home silverware & interior accessories",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "High-end home silverware is a proper subset of home silverware/interior (scope restriction), and POST also expands the category by adding 'interior accessories'. The scope restriction alone satisfies Narrowed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "XYZ offers a catalogue of luxury silverware",
+      "post": "A curated collection of luxury silverware",
+      "basis": "Same core concept (collection of luxury silverware) with frame shift from catalogue/transactional to curated/artisan"
+    },
+    {
+      "pre": "ice cream cups, coffee cups",
+      "post": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+      "basis": "POST is a proper superset of the PRE item list"
+    },
+    {
+      "pre": "silver & metal materials",
+      "post": "premium silver, brass, and other metals",
+      "basis": "Same metallic-material frame with added 'premium' qualifier and explicit metals"
+    },
+    {
+      "pre": "minimalist design",
+      "post": "minimalist elegance",
+      "basis": "Minimalism persists with frame shift from design-as-style to elegance-as-outcome"
+    },
+    {
+      "pre": "sense of luxury and taste",
+      "post": "fusion of functional art and timeless luxury",
+      "basis": "Both invoke luxury; frame shifts from sensory impression to artistic-timeless positioning"
+    },
+    {
+      "pre": "Category: Home silverware/interior",
+      "post": "Category: High-end home silverware & interior accessories",
+      "basis": "POST restricts the category to a premium-tier subset and broadens with 'interior accessories'"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "XYZ offers a catalogue of luxury silverware",
+      "post_evidence": "A curated collection of luxury silverware",
+      "rationale": "Core concept persists; framing shifts from retail/catalogue register to curated/artisan register. Pre-frame: retail catalogue; Post-frame: curated artisan collection.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "ice cream cups, coffee cups",
+      "post_evidence": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+      "rationale": "POST retains both PRE-listed items and broadens the product set by adding cocktail glasses and bespoke serving pieces.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "silver & metal materials",
+      "post_evidence": "premium silver, brass, and other metals",
+      "rationale": "Metallic-material concept intact; POST adds 'premium' qualifier and names brass explicitly. Same organizing frame, detail added.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "minimalist design",
+      "post_evidence": "minimalist elegance",
+      "rationale": "Minimalism persists; framing shifts from design-as-style to elegance-as-outcome.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "sense of luxury and taste",
+      "post_evidence": "fusion of functional art and timeless luxury",
+      "rationale": "Both invoke luxury; PRE frames as sensory impression (taste) while POST frames as artistic-timeless positioning. Narrowed fails because taste is not subsumed under functional-art-timeless-luxury.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Category: Home silverware/interior",
+      "post_evidence": "Category: High-end home silverware & interior accessories",
+      "rationale": "POST restricts the category to the premium-tier subset (high-end), satisfying Narrowed's scope-restriction test.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    }
+  ]
+}

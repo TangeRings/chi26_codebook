@@ -1,0 +1,48 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "eco-friendly",
+      "post": "Same",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Exact textual retention; no semantic event."
+    },
+    {
+      "type": "confirm",
+      "pre": "user-centric solutions",
+      "post": "Same",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Exact textual retention; no semantic event."
+    },
+    {
+      "type": "confirm",
+      "pre": "elevate everyday life",
+      "post": "Same",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Exact textual retention; no semantic event."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "eco-friendly",
+      "post": "Same",
+      "basis": "Exact textual retention; no semantic change."
+    },
+    {
+      "pre": "user-centric solutions",
+      "post": "Same",
+      "basis": "Exact textual retention; no semantic change."
+    },
+    {
+      "pre": "elevate everyday life",
+      "post": "Same",
+      "basis": "Exact textual retention; no semantic change."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

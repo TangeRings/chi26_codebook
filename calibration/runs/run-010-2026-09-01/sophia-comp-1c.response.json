@@ -1,0 +1,1071 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "PRE is a two-word descriptor set ('eco-friendly and safe'). POST is a multi-sentence paragraph with brand belief statement, target audience definition, and dual outcome claims (physical and mental). Substantially more content with new explanatory passages addressing dimensions absent in PRE.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "eco-friendly",
+        "safe"
+      ],
+      "postConcepts": [
+        "pilates as tool for physical and mental well-being",
+        "empower young women to try pilates",
+        "strengthen their bodies",
+        "be in peace with themselves"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "eco-friendly",
+          "post": "pilates as tool for physical and mental well-being",
+          "continuity": "No semantic continuity; eco-friendly concerns environmental/sustainability values, POST concerns health/wellness values.",
+          "scope": "Different scopes entirely.",
+          "frame": "Different conceptual frames (sustainability vs. health/wellness).",
+          "stretch": "A stretch with no defensible conceptual lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "empower young women to try pilates",
+          "continuity": "None; environmental sustainability vs. audience empowerment.",
+          "scope": "Different domains.",
+          "frame": "Different frames.",
+          "stretch": "No defensible lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "strengthen their bodies",
+          "continuity": "None.",
+          "scope": "Different domains.",
+          "frame": "Different frames.",
+          "stretch": "No lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "be in peace with themselves",
+          "continuity": "None.",
+          "scope": "Different domains.",
+          "frame": "Different frames.",
+          "stretch": "No lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "safe",
+          "post": "pilates as tool for physical and mental well-being",
+          "continuity": "Partial; 'safe' could relate to physical/mental safety, POST is about well-being more broadly. Same general well-being neighborhood but 'safe' is narrower (a subset of well-being concerns).",
+          "scope": "PRE 'safe' is a narrower concept; POST is broader.",
+          "frame": "Both concern well-being/holistic health.",
+          "stretch": "Subsumption test: 'well-being via pilates is a specific way of being safe' = FALSE (well-being is broader than safety). PRE-genericness signal: 'safe' is somewhat generic but already substantive. Could be Expanded (POST broadens 'safe' into full well-being) or could fail.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "safe",
+          "post": "empower young women to try pilates",
+          "continuity": "Minimal; safe is a value/quality, POST is an audience-action statement.",
+          "scope": "Different.",
+          "frame": "Different frames (value vs. audience action).",
+          "stretch": "No clear lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "safe",
+          "post": "strengthen their bodies",
+          "continuity": "Partial; physical safety relates to bodily strength.",
+          "scope": "Different scopes.",
+          "frame": "Physical well-being vs. bodily strengthening.",
+          "stretch": "Weak; could be reframed as a bodily well-being angle.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "safe",
+          "post": "be in peace with themselves",
+          "continuity": "Some; mental/emotional safety maps to inner peace. Mental well-being neighborhood shared.",
+          "scope": "Different scopes.",
+          "frame": "Both mental well-being frames.",
+          "stretch": "Plausible within mental well-being neighborhood; subsumption test: 'inner peace is a specific way of being safe' = arguable but not clean.",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "eco-friendly",
+          "post": "pilates as tool for physical and mental well-being",
+          "reason": "Different conceptual domains (environmental sustainability vs. health/wellness); no semantic neighborhood; forced pairing rejected."
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "empower young women to try pilates",
+          "reason": "Different conceptual domains; no lineage."
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "strengthen their bodies",
+          "reason": "Different conceptual domains; no lineage."
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "be in peace with themselves",
+          "reason": "Different conceptual domains; no lineage."
+        },
+        {
+          "pre": "safe",
+          "post": "empower young women to try pilates",
+          "reason": "Different frames (value vs. audience action); no lineage."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "safe",
+          "post": "be in peace with themselves",
+          "basis": "Shared mental/inner well-being neighborhood; subsumption holds ('being at peace with oneself is a specific way of being safe'). PRE-genericness supports Narrowed."
+        }
+      ],
+      "unmatchedPre": [
+        "eco-friendly"
+      ],
+      "unmatchedPost": [
+        "pilates as tool for physical and mental well-being",
+        "empower young women to try pilates",
+        "strengthen their bodies"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "eco-friendly",
+          "direction": "removed",
+          "nearestCounterpart": "be in peace with themselves",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "eco-friendly (environmental sustainability) vs. psychological well-being are different conceptual domains; no semantic neighborhood; subsumption fails; no elaboration or broadening possible."
+        },
+        {
+          "concept": "pilates as tool for physical and mental well-being",
+          "direction": "new",
+          "nearestCounterpart": "safe",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "POST concept is about promoting well-being through pilates practice; PRE 'safe' is narrower (safety subset of well-being). Subsumption fails (well-being is broader, not a subtype of safe); no elaboration or broadening of 'safe' yields pilates-specific content. Different conceptual territory."
+        },
+        {
+          "concept": "empower young women to try pilates",
+          "direction": "new",
+          "nearestCounterpart": "safe",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Audience-action statement; no antecedent in PRE. Nearest PRE 'safe' is a value/quality not an audience action. Different frames."
+        },
+        {
+          "concept": "strengthen their bodies",
+          "direction": "new",
+          "nearestCounterpart": "safe",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Body-strengthening outcome; PRE 'safe' is broader/generic; subsumption fails ('strengthening is a specific way of being safe' = FALSE). No elaboration or broadening of 'safe' yields this specific outcome."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "safe",
+          "post": "be in peace with themselves",
+          "fromCode": "Narrowed",
+          "toCode": "Narrowed",
+          "reason": "Subsumption holds: being at peace with oneself is a specific way of being psychologically safe. PRE-genericness signal supports Narrowed. Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "eco-friendly (environmental sustainability) has no semantic neighborhood with any POST concept (all are health/empowerment/audience-action related). Confirmed as Removed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "pilates as tool for physical and mental well-being",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "No antecedent in PRE. Nearest PRE 'safe' is narrower than well-being, so well-being is not a subtype of safe; subsumption fails. No transformation defensible. Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "empower young women to try pilates",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Audience-action statement with no antecedent in PRE (only abstract value descriptors). Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "strengthen their bodies",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Body-strengthening outcome with no antecedent in PRE. Subsumption fails; no elaboration/broadening of 'safe' yields this outcome. Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "pilates as tool for physical and mental well-being",
+          "fromCode": "rejected",
+          "toCode": "rejected",
+          "reason": "Different conceptual domains (environmental sustainability vs. health/wellness); no neighborhood. Confirmed rejection."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "empower young women to try pilates",
+          "fromCode": "rejected",
+          "toCode": "rejected",
+          "reason": "Different conceptual domains. Confirmed rejection."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "strengthen their bodies",
+          "fromCode": "rejected",
+          "toCode": "rejected",
+          "reason": "Different conceptual domains. Confirmed rejection."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "be in peace with themselves",
+          "fromCode": "rejected",
+          "toCode": "rejected",
+          "reason": "Different conceptual domains. Confirmed rejection."
+        },
+        {
+          "type": "confirm",
+          "pre": "safe",
+          "post": "empower young women to try pilates",
+          "fromCode": "rejected",
+          "toCode": "rejected",
+          "reason": "Different frames (value vs. audience action). Confirmed rejection."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti73hcg7zb4umqsg4l",
+        "code": "Narrowed",
+        "preEvidence": "safe",
+        "postEvidence": "be in peace with themselves",
+        "rationale": "PRE 'safe' is a generic value descriptor; POST 'be in peace with themselves' is a specific manifestation of psychological safety/inner well-being. Subsumption holds within the psychological safety register.",
+        "confidence": "medium",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti73hcgd21btxx8ar",
+        "code": "Removed",
+        "preEvidence": "eco-friendly",
+        "postEvidence": null,
+        "rationale": "eco-friendly (environmental sustainability) has no POST successor; all POST concepts are in different conceptual domains (health, empowerment, body strengthening). No neighborhood; transformations fail.",
+        "confidence": "high",
+        "alternativeConsidered": null
+      },
+      {
+        "instanceId": "mti73hcg8qoae4tsdxg",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "pilates as tool for physical and mental well-being",
+        "rationale": "POST introduces a broader well-being claim mediated by pilates practice; no PRE antecedent contains this content. Nearest PRE 'safe' is narrower, not broader.",
+        "confidence": "high",
+        "alternativeConsidered": null
+      },
+      {
+        "instanceId": "mti73hcgktcy5imt84",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "empower young women to try pilates",
+        "rationale": "Audience-action statement with no antecedent in PRE's abstract value descriptors.",
+        "confidence": "high",
+        "alternativeConsidered": null
+      },
+      {
+        "instanceId": "mti73hcg7m8gz9ddl7j",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "strengthen their bodies",
+        "rationale": "Specific body-strengthening outcome with no antecedent in PRE.",
+        "confidence": "high",
+        "alternativeConsidered": null
+      }
+    ],
+    "learnerAgency": [
+      {
+        "instanceId": "mti73hcgtsvzrdy5faa",
+        "code": "Personal Background",
+        "evidence": "I want my brand to empower young women to try pilates to strengthen their bodies and be in peace with themselves.",
+        "rationale": "First-person intent statement ('I want my brand to...') expresses personal investment and goal-setting. This is personal relation/ownership language rather than pure biography, so it sits at the boundary; logged as Personal Background with moderate confidence because explicit personal investment is named.",
+        "confidence": "medium"
+      }
+    ],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "vague_to_specific_lineage",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "PRE 'safe' could be coded as Narrowed (inner peace as a specific way of being psychologically safe) or Reframed (sibling mental-well-being concepts). Subsumption test is arguable; chose Narrowed because PRE is generic enough to contain POST and the mental well-being neighborhood supports it. The PRE-to-POST shift is substantial: two generic value words replaced by a full brand belief paragraph with audience definition. Structural development is Significant Addition. Critic applied 10 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "eco-friendly",
+        "safe"
+      ],
+      "post_concepts": [
+        "pilates as tool for physical and mental well-being",
+        "empower young women to try pilates",
+        "strengthen their bodies",
+        "be in peace with themselves"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "eco-friendly",
+          "post": "pilates as tool for physical and mental well-being",
+          "continuity": "No semantic continuity; eco-friendly concerns environmental/sustainability values, POST concerns health/wellness values.",
+          "scope": "Different scopes entirely.",
+          "frame": "Different conceptual frames (sustainability vs. health/wellness).",
+          "stretch": "A stretch with no defensible conceptual lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "empower young women to try pilates",
+          "continuity": "None; environmental sustainability vs. audience empowerment.",
+          "scope": "Different domains.",
+          "frame": "Different frames.",
+          "stretch": "No defensible lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "strengthen their bodies",
+          "continuity": "None.",
+          "scope": "Different domains.",
+          "frame": "Different frames.",
+          "stretch": "No lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "be in peace with themselves",
+          "continuity": "None.",
+          "scope": "Different domains.",
+          "frame": "Different frames.",
+          "stretch": "No lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "safe",
+          "post": "pilates as tool for physical and mental well-being",
+          "continuity": "Partial; 'safe' could relate to physical/mental safety, POST is about well-being more broadly. Same general well-being neighborhood but 'safe' is narrower (a subset of well-being concerns).",
+          "scope": "PRE 'safe' is a narrower concept; POST is broader.",
+          "frame": "Both concern well-being/holistic health.",
+          "stretch": "Subsumption test: 'well-being via pilates is a specific way of being safe' = FALSE (well-being is broader than safety). PRE-genericness signal: 'safe' is somewhat generic but already substantive. Could be Expanded (POST broadens 'safe' into full well-being) or could fail.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "safe",
+          "post": "empower young women to try pilates",
+          "continuity": "Minimal; safe is a value/quality, POST is an audience-action statement.",
+          "scope": "Different.",
+          "frame": "Different frames (value vs. audience action).",
+          "stretch": "No clear lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "safe",
+          "post": "strengthen their bodies",
+          "continuity": "Partial; physical safety relates to bodily strength.",
+          "scope": "Different scopes.",
+          "frame": "Physical well-being vs. bodily strengthening.",
+          "stretch": "Weak; could be reframed as a bodily well-being angle.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "safe",
+          "post": "be in peace with themselves",
+          "continuity": "Some; mental/emotional safety maps to inner peace. Mental well-being neighborhood shared.",
+          "scope": "Different scopes.",
+          "frame": "Both mental well-being frames.",
+          "stretch": "Plausible within mental well-being neighborhood; subsumption test: 'inner peace is a specific way of being safe' = arguable but not clean.",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "eco-friendly",
+          "post": "pilates as tool for physical and mental well-being",
+          "reason": "Different conceptual domains (environmental sustainability vs. health/wellness); no semantic neighborhood; forced pairing rejected."
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "empower young women to try pilates",
+          "reason": "Different conceptual domains; no lineage."
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "strengthen their bodies",
+          "reason": "Different conceptual domains; no lineage."
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "be in peace with themselves",
+          "reason": "Different conceptual domains; no lineage."
+        },
+        {
+          "pre": "safe",
+          "post": "empower young women to try pilates",
+          "reason": "Different frames (value vs. audience action); no lineage."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "safe",
+          "post": "be in peace with themselves",
+          "basis": "Shared mental/inner well-being neighborhood; subsumption holds ('being at peace with oneself is a specific way of being safe'). PRE-genericness supports Narrowed."
+        }
+      ],
+      "unmatched_pre": [
+        "eco-friendly"
+      ],
+      "unmatched_post": [
+        "pilates as tool for physical and mental well-being",
+        "empower young women to try pilates",
+        "strengthen their bodies"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "eco-friendly",
+          "direction": "removed",
+          "nearest_counterpart": "be in peace with themselves",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "eco-friendly (environmental sustainability) vs. psychological well-being are different conceptual domains; no semantic neighborhood; subsumption fails; no elaboration or broadening possible."
+        },
+        {
+          "concept": "pilates as tool for physical and mental well-being",
+          "direction": "new",
+          "nearest_counterpart": "safe",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "POST concept is about promoting well-being through pilates practice; PRE 'safe' is narrower (safety subset of well-being). Subsumption fails (well-being is broader, not a subtype of safe); no elaboration or broadening of 'safe' yields pilates-specific content. Different conceptual territory."
+        },
+        {
+          "concept": "empower young women to try pilates",
+          "direction": "new",
+          "nearest_counterpart": "safe",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Audience-action statement; no antecedent in PRE. Nearest PRE 'safe' is a value/quality not an audience action. Different frames."
+        },
+        {
+          "concept": "strengthen their bodies",
+          "direction": "new",
+          "nearest_counterpart": "safe",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Body-strengthening outcome; PRE 'safe' is broader/generic; subsumption fails ('strengthening is a specific way of being safe' = FALSE). No elaboration or broadening of 'safe' yields this specific outcome."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "safe",
+          "post": "be in peace with themselves",
+          "from_code": "Narrowed",
+          "to_code": "Narrowed",
+          "reason": "Subsumption holds: being at peace with oneself is a specific way of being psychologically safe. PRE-genericness signal supports Narrowed. Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "eco-friendly (environmental sustainability) has no semantic neighborhood with any POST concept (all are health/empowerment/audience-action related). Confirmed as Removed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "pilates as tool for physical and mental well-being",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "No antecedent in PRE. Nearest PRE 'safe' is narrower than well-being, so well-being is not a subtype of safe; subsumption fails. No transformation defensible. Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "empower young women to try pilates",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Audience-action statement with no antecedent in PRE (only abstract value descriptors). Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "strengthen their bodies",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Body-strengthening outcome with no antecedent in PRE. Subsumption fails; no elaboration/broadening of 'safe' yields this outcome. Confirmed."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "pilates as tool for physical and mental well-being",
+          "from_code": "rejected",
+          "to_code": "rejected",
+          "reason": "Different conceptual domains (environmental sustainability vs. health/wellness); no neighborhood. Confirmed rejection."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "empower young women to try pilates",
+          "from_code": "rejected",
+          "to_code": "rejected",
+          "reason": "Different conceptual domains. Confirmed rejection."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "strengthen their bodies",
+          "from_code": "rejected",
+          "to_code": "rejected",
+          "reason": "Different conceptual domains. Confirmed rejection."
+        },
+        {
+          "type": "confirm",
+          "pre": "eco-friendly",
+          "post": "be in peace with themselves",
+          "from_code": "rejected",
+          "to_code": "rejected",
+          "reason": "Different conceptual domains. Confirmed rejection."
+        },
+        {
+          "type": "confirm",
+          "pre": "safe",
+          "post": "empower young women to try pilates",
+          "from_code": "rejected",
+          "to_code": "rejected",
+          "reason": "Different frames (value vs. audience action). Confirmed rejection."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "PRE is a two-word descriptor set ('eco-friendly and safe'). POST is a multi-sentence paragraph with brand belief statement, target audience definition, and dual outcome claims (physical and mental). Substantially more content with new explanatory passages addressing dimensions absent in PRE."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "safe",
+        "post_evidence": "be in peace with themselves",
+        "rationale": "PRE 'safe' is a generic value descriptor; POST 'be in peace with themselves' is a specific manifestation of psychological safety/inner well-being. Subsumption holds within the psychological safety register.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "eco-friendly",
+        "post_evidence": null,
+        "rationale": "eco-friendly (environmental sustainability) has no POST successor; all POST concepts are in different conceptual domains (health, empowerment, body strengthening). No neighborhood; transformations fail.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "pilates as tool for physical and mental well-being",
+        "rationale": "POST introduces a broader well-being claim mediated by pilates practice; no PRE antecedent contains this content. Nearest PRE 'safe' is narrower, not broader.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "empower young women to try pilates",
+        "rationale": "Audience-action statement with no antecedent in PRE's abstract value descriptors.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "strengthen their bodies",
+        "rationale": "Specific body-strengthening outcome with no antecedent in PRE.",
+        "alternative_considered": null,
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [
+      {
+        "code": "Personal Background",
+        "evidence": "I want my brand to empower young women to try pilates to strengthen their bodies and be in peace with themselves.",
+        "rationale": "First-person intent statement ('I want my brand to...') expresses personal investment and goal-setting. This is personal relation/ownership language rather than pure biography, so it sits at the boundary; logged as Personal Background with moderate confidence because explicit personal investment is named.",
+        "confidence": "medium"
+      }
+    ],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "vague_to_specific_lineage",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "PRE 'safe' could be coded as Narrowed (inner peace as a specific way of being psychologically safe) or Reframed (sibling mental-well-being concepts). Subsumption test is arguable; chose Narrowed because PRE is generic enough to contain POST and the mental well-being neighborhood supports it. The PRE-to-POST shift is substantial: two generic value words replaced by a full brand belief paragraph with audience definition. Structural development is Significant Addition. Critic applied 10 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "eco-friendly",
+        "safe"
+      ],
+      "post_concepts": [
+        "pilates as tool for physical and mental well-being",
+        "empower young women to try pilates",
+        "strengthen their bodies",
+        "be in peace with themselves"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "eco-friendly",
+          "post": "pilates as tool for physical and mental well-being",
+          "continuity": "No semantic continuity; eco-friendly concerns environmental/sustainability values, POST concerns health/wellness values.",
+          "scope": "Different scopes entirely.",
+          "frame": "Different conceptual frames (sustainability vs. health/wellness).",
+          "stretch": "A stretch with no defensible conceptual lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "empower young women to try pilates",
+          "continuity": "None; environmental sustainability vs. audience empowerment.",
+          "scope": "Different domains.",
+          "frame": "Different frames.",
+          "stretch": "No defensible lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "strengthen their bodies",
+          "continuity": "None.",
+          "scope": "Different domains.",
+          "frame": "Different frames.",
+          "stretch": "No lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "be in peace with themselves",
+          "continuity": "None.",
+          "scope": "Different domains.",
+          "frame": "Different frames.",
+          "stretch": "No lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "safe",
+          "post": "pilates as tool for physical and mental well-being",
+          "continuity": "Partial; 'safe' could relate to physical/mental safety, POST is about well-being more broadly. Same general well-being neighborhood but 'safe' is narrower (a subset of well-being concerns).",
+          "scope": "PRE 'safe' is a narrower concept; POST is broader.",
+          "frame": "Both concern well-being/holistic health.",
+          "stretch": "Subsumption test: 'well-being via pilates is a specific way of being safe' = FALSE (well-being is broader than safety). PRE-genericness signal: 'safe' is somewhat generic but already substantive. Could be Expanded (POST broadens 'safe' into full well-being) or could fail.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "safe",
+          "post": "empower young women to try pilates",
+          "continuity": "Minimal; safe is a value/quality, POST is an audience-action statement.",
+          "scope": "Different.",
+          "frame": "Different frames (value vs. audience action).",
+          "stretch": "No clear lineage.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "safe",
+          "post": "strengthen their bodies",
+          "continuity": "Partial; physical safety relates to bodily strength.",
+          "scope": "Different scopes.",
+          "frame": "Physical well-being vs. bodily strengthening.",
+          "stretch": "Weak; could be reframed as a bodily well-being angle.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "safe",
+          "post": "be in peace with themselves",
+          "continuity": "Some; mental/emotional safety maps to inner peace. Mental well-being neighborhood shared.",
+          "scope": "Different scopes.",
+          "frame": "Both mental well-being frames.",
+          "stretch": "Plausible within mental well-being neighborhood; subsumption test: 'inner peace is a specific way of being safe' = arguable but not clean.",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "eco-friendly",
+          "post": "pilates as tool for physical and mental well-being",
+          "reason": "Different conceptual domains (environmental sustainability vs. health/wellness); no semantic neighborhood; forced pairing rejected."
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "empower young women to try pilates",
+          "reason": "Different conceptual domains; no lineage."
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "strengthen their bodies",
+          "reason": "Different conceptual domains; no lineage."
+        },
+        {
+          "pre": "eco-friendly",
+          "post": "be in peace with themselves",
+          "reason": "Different conceptual domains; no lineage."
+        },
+        {
+          "pre": "safe",
+          "post": "empower young women to try pilates",
+          "reason": "Different frames (value vs. audience action); no lineage."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "safe",
+          "post": "be in peace with themselves",
+          "basis": "Shared mental/inner well-being neighborhood; 'safe' (broad, generic) plausibly concretised into 'be in peace with themselves' which is a more specific manifestation of psychological safety/inner well-being. Subsumption: 'being at peace with oneself is a specific way of being safe' = arguable TRUE within psychological safety territory. PRE is generic enough."
+        }
+      ],
+      "unmatched_pre": [
+        "eco-friendly"
+      ],
+      "unmatched_post": [
+        "pilates as tool for physical and mental well-being",
+        "empower young women to try pilates",
+        "strengthen their bodies"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "eco-friendly",
+          "direction": "removed",
+          "nearest_counterpart": "be in peace with themselves",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "eco-friendly (environmental sustainability) vs. psychological well-being are different conceptual domains; no semantic neighborhood; subsumption fails; no elaboration or broadening possible."
+        },
+        {
+          "concept": "pilates as tool for physical and mental well-being",
+          "direction": "new",
+          "nearest_counterpart": "safe",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "POST concept is about promoting well-being through pilates practice; PRE 'safe' is narrower (safety subset of well-being). Subsumption fails (well-being is broader, not a subtype of safe); no elaboration or broadening of 'safe' yields pilates-specific content. Different conceptual territory."
+        },
+        {
+          "concept": "empower young women to try pilates",
+          "direction": "new",
+          "nearest_counterpart": "safe",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Audience-action statement; no antecedent in PRE. Nearest PRE 'safe' is a value/quality not an audience action. Different frames."
+        },
+        {
+          "concept": "strengthen their bodies",
+          "direction": "new",
+          "nearest_counterpart": "safe",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Body-strengthening outcome; PRE 'safe' is broader/generic; subsumption fails ('strengthening is a specific way of being safe' = FALSE). No elaboration or broadening of 'safe' yields this specific outcome."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "PRE is a two-word descriptor set ('eco-friendly and safe'). POST is a multi-sentence paragraph with brand belief statement, target audience definition, and dual outcome claims (physical and mental). Substantially more content with new explanatory passages addressing dimensions absent in PRE."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "safe",
+        "post_evidence": "be in peace with themselves",
+        "rationale": "PRE 'safe' is a generic value descriptor; POST 'be in peace with themselves' is a more specific manifestation of psychological/mental safety within the inner well-being neighborhood. Subsumption test: 'being at peace with oneself is a specific way of being safe' holds within the psychological safety register. PRE-genericness signal supports Narrowed.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "eco-friendly",
+        "post_evidence": null,
+        "rationale": "eco-friendly (environmental sustainability) is absent from POST. Nearest POST counterpart 'be in peace with themselves' is in a different conceptual domain (psychological well-being vs. environmental sustainability); all four transformations tested and failed. No semantic neighborhood exists.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "pilates is a powerful tool for promoting physical and mental well-being",
+        "rationale": "POST introduces the belief that pilates promotes physical and mental well-being; no antecedent in PRE. Nearest PRE 'safe' is narrower (safety subset of well-being) and does not contain pilates-specific content. Different conceptual territory; transformations fail.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "empower young women to try pilates",
+        "rationale": "POST introduces an audience-action statement (empower young women to try pilates) with no antecedent in PRE. PRE contains only abstract value descriptors, not audience or action content. No transformation defensible.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "strengthen their bodies",
+        "rationale": "POST introduces the specific outcome of body strengthening; no antecedent in PRE. Nearest PRE 'safe' is a generic quality, not an outcome claim. No transformation defensible.",
+        "alternative_considered": null,
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [
+      {
+        "code": "Personal Background",
+        "evidence": "I want my brand to empower young women to try pilates to strengthen their bodies and be in peace with themselves.",
+        "rationale": "First-person intent statement ('I want my brand to...') expresses personal investment and goal-setting. This is personal relation/ownership language rather than pure biography, so it sits at the boundary; logged as Personal Background with moderate confidence because explicit personal investment is named.",
+        "confidence": "medium"
+      }
+    ],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "vague_to_specific_lineage"
+      ],
+      "coder_notes": "PRE 'safe' could be coded as Narrowed (inner peace as a specific way of being psychologically safe) or Reframed (sibling mental-well-being concepts). Subsumption test is arguable; chose Narrowed because PRE is generic enough to contain POST and the mental well-being neighborhood supports it. The PRE-to-POST shift is substantial: two generic value words replaced by a full brand belief paragraph with audience definition. Structural development is Significant Addition."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "safe",
+        "post": "be in peace with themselves",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption holds: being at peace with oneself is a specific way of being psychologically safe. PRE-genericness signal supports Narrowed. Confirmed."
+      },
+      {
+        "type": "confirm",
+        "pre": "eco-friendly",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "eco-friendly (environmental sustainability) has no semantic neighborhood with any POST concept (all are health/empowerment/audience-action related). Confirmed as Removed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "pilates as tool for physical and mental well-being",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "No antecedent in PRE. Nearest PRE 'safe' is narrower than well-being, so well-being is not a subtype of safe; subsumption fails. No transformation defensible. Confirmed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "empower young women to try pilates",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Audience-action statement with no antecedent in PRE (only abstract value descriptors). Confirmed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "strengthen their bodies",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Body-strengthening outcome with no antecedent in PRE. Subsumption fails; no elaboration/broadening of 'safe' yields this outcome. Confirmed."
+      },
+      {
+        "type": "confirm",
+        "pre": "eco-friendly",
+        "post": "pilates as tool for physical and mental well-being",
+        "from_code": "rejected",
+        "to_code": "rejected",
+        "reason": "Different conceptual domains (environmental sustainability vs. health/wellness); no neighborhood. Confirmed rejection."
+      },
+      {
+        "type": "confirm",
+        "pre": "eco-friendly",
+        "post": "empower young women to try pilates",
+        "from_code": "rejected",
+        "to_code": "rejected",
+        "reason": "Different conceptual domains. Confirmed rejection."
+      },
+      {
+        "type": "confirm",
+        "pre": "eco-friendly",
+        "post": "strengthen their bodies",
+        "from_code": "rejected",
+        "to_code": "rejected",
+        "reason": "Different conceptual domains. Confirmed rejection."
+      },
+      {
+        "type": "confirm",
+        "pre": "eco-friendly",
+        "post": "be in peace with themselves",
+        "from_code": "rejected",
+        "to_code": "rejected",
+        "reason": "Different conceptual domains. Confirmed rejection."
+      },
+      {
+        "type": "confirm",
+        "pre": "safe",
+        "post": "empower young women to try pilates",
+        "from_code": "rejected",
+        "to_code": "rejected",
+        "reason": "Different frames (value vs. audience action). Confirmed rejection."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "safe",
+        "post": "be in peace with themselves",
+        "basis": "Shared mental/inner well-being neighborhood; subsumption holds ('being at peace with oneself is a specific way of being safe'). PRE-genericness supports Narrowed."
+      }
+    ],
+    "unmatched_pre": [
+      "eco-friendly"
+    ],
+    "unmatched_post": [
+      "pilates as tool for physical and mental well-being",
+      "empower young women to try pilates",
+      "strengthen their bodies"
+    ],
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "safe",
+        "post_evidence": "be in peace with themselves",
+        "rationale": "PRE 'safe' is a generic value descriptor; POST 'be in peace with themselves' is a specific manifestation of psychological safety/inner well-being. Subsumption holds within the psychological safety register.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "eco-friendly",
+        "post_evidence": null,
+        "rationale": "eco-friendly (environmental sustainability) has no POST successor; all POST concepts are in different conceptual domains (health, empowerment, body strengthening). No neighborhood; transformations fail.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "pilates as tool for physical and mental well-being",
+        "rationale": "POST introduces a broader well-being claim mediated by pilates practice; no PRE antecedent contains this content. Nearest PRE 'safe' is narrower, not broader.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "empower young women to try pilates",
+        "rationale": "Audience-action statement with no antecedent in PRE's abstract value descriptors.",
+        "alternative_considered": null,
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "strengthen their bodies",
+        "rationale": "Specific body-strengthening outcome with no antecedent in PRE.",
+        "alternative_considered": null,
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

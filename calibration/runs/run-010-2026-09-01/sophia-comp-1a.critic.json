@@ -1,0 +1,130 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Pilates sets- mat, ring, wrist weights.",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "PRE is a concrete equipment specification; nearest POST counterpart ('not just an item to sell') uses 'item' as a generic foil, not as continuation of the equipment list. Different conceptual domains; no transformation defensible. Stay Removed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Beginners at pilates",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Target audience segment has no defensible antecedent in the equipment list. Different domains (product specification vs audience). Stay New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "affordable but good quality",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Price/quality positioning has no antecedent in equipment list. Different domains. Stay New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "minimalist",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Aesthetic descriptor has no antecedent; PRE does not name any aesthetic. Different levels/domains. Stay New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "mature",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Audience/style descriptor has no antecedent in equipment list. Different domains. Stay New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "create a community",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Community/relational concept has no antecedent in equipment list. Different domains. Stay New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "not just an item to sell",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Meta-positioning statement; 'item' is a generic foil critiquing transactional framing, not continuation of the specific equipment list. Different frames. Stay New."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "Pilates sets- mat, ring, wrist weights."
+  ],
+  "unmatched_post": [
+    "Beginners at pilates",
+    "affordable but good quality",
+    "minimalist",
+    "mature",
+    "create a community",
+    "not just an item to sell"
+  ],
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "Pilates sets- mat, ring, wrist weights.",
+      "post_evidence": null,
+      "rationale": "Concrete equipment specification (mat, ring, wrist weights) has no continuation in POST. The nearest POST counterpart ('not just an item to sell') uses 'item' as a generic foil critiquing transactional selling, not as a continuation of the equipment list. Different conceptual domains (product specification vs meta-positioning). All four transformation codes tested and failed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Beginners at pilates",
+      "rationale": "Target audience segment newly introduced. Nearest PRE antecedent is the equipment list, which occupies a different conceptual domain. No transformation defensible.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "affordable but good quality",
+      "rationale": "Price/quality positioning newly introduced. No PRE antecedent in a related domain.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "minimalist",
+      "rationale": "Aesthetic descriptor newly introduced. PRE names no aesthetic. Different conceptual levels/domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "mature",
+      "rationale": "Audience/style descriptor newly introduced. No PRE antecedent in equipment list. Different domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "create a community",
+      "rationale": "Community/relational concept newly introduced. No PRE antecedent in equipment list. Different domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "not just an item to sell",
+      "rationale": "Meta-positioning statement explicitly distinguishing the brand from transactional selling. 'Item' in POST is a generic foil, not a continuation of the specific equipment list. Different conceptual frames; no transformation defensible.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

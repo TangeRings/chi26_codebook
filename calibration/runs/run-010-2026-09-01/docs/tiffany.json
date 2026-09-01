@@ -1,0 +1,2453 @@
+{
+  "name": "Tiffany",
+  "_seedVersion": "upload-1788218871752",
+  "studentId": "tiffany",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "Pretty broad. I've taken multiple entrepreneurship classes and have worked for startups, though that is more on the market strategy side. As for marketing and branding, I've thrown multiple events and have had experience with creative/experiential marketing."
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 4
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 8
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 5
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Heavy user: Multiple times (multiple chats) on a working day; reliant on AI deal with a significant portion of my work"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "Machine Learning for Artists (class), Creating GenAI solution for Minimum Viable Product (class), Capstone which focuses on developing AI analysis tool"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 5
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "Getting specific and cohesive"
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "They're super cliche"
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 1
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 6
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 4
+      }
+    ]
+  },
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "Urban, curated, subversive"
+      },
+      "post": {
+        "answer": "Urban [Eclectic and Functional for Everyday Living], Curated [Elevated and Designer Mood], Subversive [Thought-Provoking]"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST preserves all three PRE descriptors as head terms but appends a bracketed qualifier to each, adding three short explanatory clauses. This is a contained adjustment — the descriptor inventory is unchanged at the head-term level, but each descriptor is elaborated with one qualifier. Not significant because no new dimension or concept is introduced; not no-change because substantive bracketed content is added to each item.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Urban",
+            "Curated",
+            "Subversive"
+          ],
+          "postConcepts": [
+            "Urban [Eclectic and Functional for Everyday Living]",
+            "Curated [Elevated and Designer Mood]",
+            "Subversive [Thought-Provoking]"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Urban",
+              "post": "Urban [Eclectic and Functional for Everyday Living]",
+              "continuity": "Same core descriptor preserved as head term; bracket content adds elaboration",
+              "scope": "Scope not restricted; elaboration is descriptive",
+              "frame": "Same urban frame; bracket specifies the everyday-living application",
+              "stretch": "Low — clear continuity via shared head term",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Urban",
+              "post": "Curated [Elevated and Designer Mood]",
+              "continuity": "Different descriptors; no shared head term",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Urban",
+              "post": "Subversive [Thought-Provoking]",
+              "continuity": "Different descriptors",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Curated",
+              "post": "Urban [Eclectic and Functional for Everyday Living]",
+              "continuity": "Different descriptors",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Curated",
+              "post": "Curated [Elevated and Designer Mood]",
+              "continuity": "Same core descriptor preserved; bracket content elaborates",
+              "scope": "Not restricted",
+              "frame": "Same curated frame; bracket specifies aesthetic register",
+              "stretch": "Low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Curated",
+              "post": "Subversive [Thought-Provoking]",
+              "continuity": "Different descriptors; no shared head term",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Subversive",
+              "post": "Urban [Eclectic and Functional for Everyday Living]",
+              "continuity": "Different descriptors",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Subversive",
+              "post": "Curated [Elevated and Designer Mood]",
+              "continuity": "Different descriptors",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Subversive",
+              "post": "Subversive [Thought-Provoking]",
+              "continuity": "Same core descriptor preserved; bracket content elaborates",
+              "scope": "Not restricted",
+              "frame": "Same subversive frame; bracket specifies the intellectual register",
+              "stretch": "Low",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Urban",
+              "post": "Curated [Elevated and Designer Mood]",
+              "reason": "Different domains; no shared semantic role or neighborhood"
+            },
+            {
+              "pre": "Urban",
+              "post": "Subversive [Thought-Provoking]",
+              "reason": "Different domains; no shared semantic role or neighborhood"
+            },
+            {
+              "pre": "Curated",
+              "post": "Urban [Eclectic and Functional for Everyday Living]",
+              "reason": "Different domains; no shared semantic role or neighborhood"
+            },
+            {
+              "pre": "Curated",
+              "post": "Subversive [Thought-Provoking]",
+              "reason": "Different domains; no shared semantic role or neighborhood"
+            },
+            {
+              "pre": "Subversive",
+              "post": "Urban [Eclectic and Functional for Everyday Living]",
+              "reason": "Different domains; no shared semantic role or neighborhood"
+            },
+            {
+              "pre": "Subversive",
+              "post": "Curated [Elevated and Designer Mood]",
+              "reason": "Different domains; no shared semantic role or neighborhood"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Urban",
+              "post": "Urban [Eclectic and Functional for Everyday Living]",
+              "basis": "Identical head term preserved; bracket content adds elaboration within same urban frame"
+            },
+            {
+              "pre": "Curated",
+              "post": "Curated [Elevated and Designer Mood]",
+              "basis": "Identical head term preserved; bracket content adds elaboration within same curated frame"
+            },
+            {
+              "pre": "Subversive",
+              "post": "Subversive [Thought-Provoking]",
+              "basis": "Identical head term preserved; bracket content adds elaboration within same subversive frame"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Urban",
+              "post": "Urban [Eclectic and Functional for Everyday Living]",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same head term preserved; bracket content adds descriptive modifiers within the urban frame. No scope restriction (Urban [Eclectic...] is not a subset of Urban). Subsumption holds trivially but the change is additive elaboration, not restriction. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "Curated",
+              "post": "Curated [Elevated and Designer Mood]",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same head term preserved; bracket content adds aesthetic-register descriptors within the curated frame. No scope restriction; elaboration only. Correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "Subversive",
+              "post": "Subversive [Thought-Provoking]",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same head term preserved; bracket content specifies the intellectual mode of subversion. No scope restriction; elaboration only. Correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti74agxdk1235j5eqi",
+            "code": "Elaborated",
+            "preEvidence": "Urban",
+            "postEvidence": "Urban [Eclectic and Functional for Everyday Living]",
+            "rationale": "Head term Urban preserved; bracketed modifiers ('Eclectic and Functional for Everyday Living') elaborate how the urban character manifests without restricting scope. Same conceptual frame, additive detail.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti74agxj39jthhjih",
+            "code": "Elaborated",
+            "preEvidence": "Curated",
+            "postEvidence": "Curated [Elevated and Designer Mood]",
+            "rationale": "Head term Curated preserved; bracketed modifiers ('Elevated and Designer Mood') specify the aesthetic register of curation without restricting scope. Same frame, additive detail.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti74agxf0s9si5she",
+            "code": "Elaborated",
+            "preEvidence": "Subversive",
+            "postEvidence": "Subversive [Thought-Provoking]",
+            "rationale": "Head term Subversive preserved; bracketed modifier ('Thought-Provoking') specifies the intellectual mode of subversion without restricting scope. Same frame, additive detail.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_narrow"
+          ],
+          "coderNotes": "All three pairs share an identical structure (head term preserved + bracketed elaboration). The subsumption sentence is literally true for each pair (e.g., 'Urban [Eclectic...] is a specific way of being Urban'), which would technically support Narrowed, but the bracketed additions are descriptive elaborations rather than scope restrictions — the underlying 'Urban' idea remains intact rather than being restricted to a subset. Following ELAB-vs-NARROW, additive descriptors without restriction are Elaborated. Flagging boundary_case_elab_vs_narrow because the bracket-plus-head-term pattern makes the subsumption test formally true even though no scope restriction is intended. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "Everyday delights"
+      },
+      "post": {
+        "answer": "Redefining home with a curated collection of design-driven and functional pieces that elevate everyday living."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE is a two-word fragment ('Everyday delights'). POST is a full clause specifying a domain (home), a mechanism (curated collection of design-driven and functional pieces), and an aspirational outcome (elevate everyday living). Multiple new clauses and dimensions have been added — the scope and depth of the response are meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "everyday delights"
+          ],
+          "postConcepts": [
+            "redefining home",
+            "curated collection of design-driven and functional pieces",
+            "elevate everyday living"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "everyday delights",
+              "post": "redefining home",
+              "continuity": "weak — both relate to the brand's aspirational future but at different scope (small daily joys vs. reframing a life domain)",
+              "scope": "PRE is unspecified; POST broadens to the domain of 'home' and 'living'",
+              "frame": "PRE: affective/experiential (delights). POST: domain-redefining (home/living)",
+              "stretch": "high — would require reading 'everyday' as synonymous with 'home/living'",
+              "verdict": "weak"
+            },
+            {
+              "pre": "everyday delights",
+              "post": "curated collection of design-driven and functional pieces",
+              "continuity": "partial — both touch on products/aesthetic objects, but PRE is generic-affective and POST is product-offering-specific",
+              "scope": "POST narrows/operationalizes what produces the everyday experience; PRE has no product antecedent",
+              "frame": "PRE: experiential/affective. POST: product/procurement",
+              "stretch": "moderate-to-high",
+              "verdict": "weak"
+            },
+            {
+              "pre": "everyday delights",
+              "post": "elevate everyday living",
+              "continuity": "strong — both share the 'everyday' anchor and both describe an aspirational future for daily life",
+              "scope": "POST broadens 'delights' (small joys) into a fuller project of elevating everyday living",
+              "frame": "PRE: affective delight. POST: aspirational enhancement of daily life (broader frame but same neighborhood)",
+              "stretch": "low",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "everyday delights",
+              "post": "redefining home",
+              "reason": "Topical adjacency only; 'home' as a life domain is not a specific way of being 'everyday delights'. Subsumption fails and the semantic territory only overlaps at the broad 'future vision' umbrella (abstraction ceiling)."
+            },
+            {
+              "pre": "everyday delights",
+              "post": "curated collection of design-driven and functional pieces",
+              "reason": "Different conceptual registers — affective experience vs. product offering. Could be read as the operationalization that produces the delights, but PRE has no product antecedent; not Narrowed/Reframed lineage defensibly."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "everyday delights",
+              "post": "elevate everyday living",
+              "basis": "Shared 'everyday' anchor; PRE seed preserved while scope broadens from affective 'delights' to fuller aspirational enhancement of daily life."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "redefining home",
+            "curated collection of design-driven and functional pieces"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "redefining home",
+              "direction": "new",
+              "nearestCounterpart": "everyday delights",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested against 'everyday delights'. Narrowed: 'redefining home' is not a specific way of being 'everyday delights' — different scope (life domain vs. affective experience). Reframed: shared territory exists at the broad 'aspirational everyday life' level, but that level hits the abstraction ceiling (could be claimed for many brand visions). Elaborated: POST does not keep PRE intact. Expanded: 'everyday' in PRE is too generic to be a clear seed for the 'home' domain in POST — would require interpretive stretch. Kept as New."
+            },
+            {
+              "concept": "curated collection of design-driven and functional pieces",
+              "direction": "new",
+              "nearestCounterpart": "everyday delights",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested against 'everyday delights'. Narrowed: a product offering is not a specific way of being 'everyday delights'. Reframed: product/offering frame vs. affective/experiential frame — different conceptual domains. Elaborated: PRE has no product antecedent. Expanded: no identifiable seed in PRE. Kept as New."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "everyday delights",
+              "post": "elevate everyday living",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Pass-1 Expanded is correct: 'everyday' seed preserved, scope broadens from 'delights' (small joys) to 'elevate everyday living' (fuller aspirational enhancement). Reframed is the alternative considered; Expanded better captures the scope growth while retaining the seed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "redefining home",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest counterpart 'everyday delights' tested across all four tiers; 'home' is a distinct life domain from affective 'delights', and the only shared territory is the broad 'aspirational everyday life' umbrella (abstraction ceiling). No defensible lineage. Confirmed New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "curated collection of design-driven and functional pieces",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest counterpart 'everyday delights' tested; product-offering frame differs from affective frame, and PRE has no product antecedent. No Narrowed/Reframed/Elaborated/Expanded pathway defensible. Confirmed New."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti74ccgp8c6j7kspo",
+            "code": "Expanded",
+            "preEvidence": "Everyday delights",
+            "postEvidence": "elevate everyday living",
+            "rationale": "The 'everyday' seed from PRE is preserved and broadened in POST: 'delights' (small affective joys) becomes 'elevate everyday living' (a wider aspirational enhancement of daily life). Recognizable antecedent retained while scope grows.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74ccgnnzmvmvx3ur",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Redefining home",
+            "rationale": "No defensible PRE antecedent. Tested 'everyday delights' across Narrowed/Reframed/Elaborated/Expanded: 'home' is a distinct life domain from affective 'delights', and any shared territory only exists at the 'aspirational everyday life' umbrella (abstraction ceiling).",
+            "confidence": "medium",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti74ccgoft9e1sap8",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "curated collection of design-driven and functional pieces",
+            "rationale": "No defensible PRE antecedent. Product-offering frame differs from affective/experiential frame; PRE has no product seed to elaborate, expand, narrow, or reframe from.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_expand_vs_new",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "PRE is a very short fragment (two words), which limits unitization options and forces broad reading. The 'everyday' anchor bridges PRE to POST's 'elevate everyday living' (Expanded), but the other POST clauses ('redefining home', 'curated collection...') have no clear antecedent and were kept as New after full-response nearest-counterpart search. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "Customer Focus, Resourcefulness, Creativity"
+      },
+      "post": {
+        "answer": "Self-Expression, Narrative, Form and Function"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "Both responses consist of three short descriptors of comparable length. The number of atomic descriptors is preserved (3 → 3); no clauses, sentences, or explanatory passages are added or removed. Differences are entirely at the descriptor/concept level.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Customer Focus",
+            "Resourcefulness",
+            "Creativity"
+          ],
+          "postConcepts": [
+            "Self-Expression",
+            "Narrative",
+            "Form and Function"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Customer Focus",
+              "post": "Self-Expression",
+              "continuity": "Both concern where the brand directs its energy, but one prioritizes the audience while the other prioritizes user identity.",
+              "scope": "Different populations/loci of attention (audience vs individual user expression).",
+              "frame": "External/stakeholder-oriented vs internal/identity-oriented.",
+              "stretch": "Stretched; forces a connection that isn't supported.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Customer Focus",
+              "post": "Narrative",
+              "continuity": "Tangential; narrative serves the customer indirectly.",
+              "scope": "Different categories entirely: audience-orientation vs storytelling device.",
+              "frame": "Stakeholder-centric vs storytelling/communication frame.",
+              "stretch": "Stretched; very weak.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Customer Focus",
+              "post": "Form and Function",
+              "continuity": "Minimal; Form and Function is an aesthetic/utility principle, not an audience principle.",
+              "scope": "Different domains.",
+              "frame": "Audience frame vs design philosophy frame.",
+              "stretch": "Stretched.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Resourcefulness",
+              "post": "Self-Expression",
+              "continuity": "Weak; both could relate to making the most of something, but the referents differ (efficient use of resources vs expression of identity).",
+              "scope": "Different frames.",
+              "frame": "Pragmatic/resource frame vs identity/expressive frame.",
+              "stretch": "Weak connection.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Resourcefulness",
+              "post": "Narrative",
+              "continuity": "Weak; narrative could indirectly imply resource use via story economy, but is not the same semantic territory.",
+              "scope": "Different.",
+              "frame": "Resource/pragmatic vs storytelling.",
+              "stretch": "Weak.",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Resourcefulness",
+              "post": "Form and Function",
+              "continuity": "Closer; both relate to pragmatic use and intelligent use of constraints.",
+              "scope": "Comparable, not nested.",
+              "frame": "Process/resource-lean frame vs design-philosophy frame.",
+              "stretch": "Some neighborhood in pragmatic/efficient use; conceptually adjacent.",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Creativity",
+              "post": "Self-Expression",
+              "continuity": "Strong; both concern bringing something into being, originality, and personal voice.",
+              "scope": "Comparable scope, possibly slight expansion.",
+              "frame": "Generative/inventive frame vs identity-expressive frame.",
+              "stretch": "Reasonable stretch — both inhabit an originality/authorship neighborhood.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Creativity",
+              "post": "Narrative",
+              "continuity": "Moderate; creativity can manifest through narrative, but Narrative names the medium/form rather than the original capability.",
+              "scope": "Comparable.",
+              "frame": "Originality/generative frame vs storytelling frame.",
+              "stretch": "Reasonable.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Creativity",
+              "post": "Form and Function",
+              "continuity": "Moderate; creativity applied to craft/design relates to Form and Function.",
+              "scope": "Comparable.",
+              "frame": "Generative/originality frame vs design philosophy frame.",
+              "stretch": "Reasonable.",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Customer Focus",
+              "post": "Self-Expression",
+              "reason": "Different conceptual domains (audience-orientation vs identity-expression); no shared semantic neighborhood."
+            },
+            {
+              "pre": "Customer Focus",
+              "post": "Narrative",
+              "reason": "Different conceptual domains (audience vs storytelling); no shared semantic neighborhood."
+            },
+            {
+              "pre": "Customer Focus",
+              "post": "Form and Function",
+              "reason": "Different conceptual domains (audience vs design philosophy); no shared semantic neighborhood."
+            },
+            {
+              "pre": "Resourcefulness",
+              "post": "Self-Expression",
+              "reason": "Different conceptual domains (pragmatic/efficient use vs identity expression); weak adjacency only."
+            },
+            {
+              "pre": "Resourcefulness",
+              "post": "Narrative",
+              "reason": "Different conceptual domains (pragmatic resource use vs storytelling); weak adjacency only."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Creativity",
+              "post": "Self-Expression",
+              "basis": "Both concern originality and authorship, with a shift from generative capability to identity expression; Self-Expression is not a specific way of being Creativity."
+            }
+          ],
+          "unmatchedPre": [
+            "Resourcefulness",
+            "Customer Focus"
+          ],
+          "unmatchedPost": [
+            "Form and Function",
+            "Narrative"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Customer Focus",
+              "direction": "removed",
+              "nearestCounterpart": "Self-Expression",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Audience-orientation (Customer Focus) vs individual identity-expression (Self-Expression) are in different conceptual domains; no defensible lineage. Other POST candidates (Narrative, Form and Function) likewise fail. Customer Focus has no successor in POST."
+            },
+            {
+              "concept": "Narrative",
+              "direction": "new",
+              "nearestCounterpart": "Creativity",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Creativity ↔ Narrative already paired as Reframed (matched pair). Narrative is the second POST concept not covered by the matched pairs; nearest counterpart among remaining PRE concepts is Resourcefulness, but Resourcefulness was paired to Form and Function, and narrative ↔ resourcefulness offers no defensible transformation. Both Creativity and Resourcefulness already exhausted by matched pairs, leaving Customer Focus as the only unmatched PRE — different domain. Narrative survives as New."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "Resourcefulness",
+              "post": "Form and Function",
+              "fromCode": "Reframed",
+              "toCode": "Expanded",
+              "reason": "The provisional rationale uses the broad umbrella of pragmatic or efficient use rather than identifying a specific shared conceptual neighborhood. Resourcefulness is a process disposition, while Form and Function is a design principle; this is topical adjacency and does not establish a defensible Reframed relationship."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti74w1ics2lssrps6w",
+            "code": "Reframed",
+            "preEvidence": "Creativity",
+            "postEvidence": "Self-Expression",
+            "rationale": "Creativity and Self-Expression share an originality and authorship neighborhood, but the post concept is not a specific way of being creative. The frame shifts from generative capability to identity expression.",
+            "confidence": "medium",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti74w1i2gi3ioenmxk",
+            "code": "Expanded",
+            "preEvidence": "Resourcefulness",
+            "postEvidence": "Form and Function",
+            "rationale": "Resourcefulness and Form and Function are topically adjacent through practical use, but no specific shared semantic neighborhood or organizing frame supports Reframed. The post concept is therefore treated as a new design principle rather than a transformation.",
+            "confidence": "low",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74w1iy2365i1sa1e",
+            "code": "Removed",
+            "preEvidence": "Customer Focus",
+            "postEvidence": null,
+            "rationale": "No post concept occupies the audience-orientation neighborhood, and the proposed alternatives are in different conceptual domains.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti74w1ing50r9gboeo",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Narrative",
+            "rationale": "Narrative is a storytelling and communication principle with no available antecedent in the unmatched pre concepts. Creativity and Resourcefulness are already matched, and Customer Focus is in a different domain.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed relative to Creativity"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_remove_vs_reframe",
+            "boundary_case_narrow_vs_reframe",
+            "reframe_downgraded",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Three PRE descriptors and three POST descriptors with no lexical overlap pose several sibling-concept judgments. Resourcefulness ↔ Form and Function has shared pragmatic territory but no subsumption; recorded as Reframed. Customer Focus and Narrative are coded as Removed/New after mandatory re-check across different conceptual domains. Structural Development set to No Change because structural expansion/contraction is at descriptor level, not clause/sentence level. Critic applied 1 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 6
+      },
+      "post": {
+        "answer": 6
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Young urban professionals, post-grads, and/or wannabe urban transplants. People who probably wanted to do art/design in college but didn't have the time or money to. They are typically people who cannot afford luxury goods but are still interested in art and curation. They are in the process of moving out of their parent's homes/moving into a new place post-grad/with a new job, and want to find things to buy for their homes. They use Pinterest extensively."
+      },
+      "post": {
+        "answer": "Age: 22-35 (post-grad to early career)\nLocation: Urban centers, likely in major cities or trendy neighborhoods\nIncome: Mid-range, likely earning a comfortable salary but not yet in the luxury goods bracket\nEducation: College degree, not necessarily in a field outside of art or design, but with a strong interest in aesthetics\n\nPsychographics:\n\nValues: Style, individuality, creativity, functionality, affordability\nInterests: Art/design, vintage fashion, mid-century modern furniture, home decor\nLifestyle: Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts\nPersonality: Trendy, aspirational, enjoys a curated aesthetic\n\nDigital Savvy: Heavy Instagram/Tiktok users, likely active on Pinterest, comfortable with online shopping\nBrand Conscious: Interested in brands that align with their values and lifestyle, appreciate authenticity and originality\nStorytelling: Drawn to brands that tell a story, especially those with a focus on craftsmanship or social impact"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "POST expands a single descriptive paragraph (PRE) into a fully structured demographic/psychographic profile with labeled sections (Age, Location, Income, Education, Values, Interests, Lifestyle, Personality, Digital Savvy, Brand Conscious, Storytelling). Multiple new sentences and entirely new conceptual dimensions (personality traits, brand-conscious criteria, storytelling preference) are added; overall scope is meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Young urban professionals",
+            "Post-grads",
+            "Wannabe urban transplants",
+            "People who wanted to do art/design in college but didn't",
+            "Cannot afford luxury goods but interested in art/curation",
+            "Moving out of parents' homes / into a new place post-grad or with new job",
+            "Want to find things to buy for their homes",
+            "Use Pinterest extensively"
+          ],
+          "postConcepts": [
+            "Age 22-35 (post-grad to early career)",
+            "Urban centers / major cities / trendy neighborhoods",
+            "Mid-range income, not in luxury bracket",
+            "College degree, strong interest in aesthetics",
+            "Style, individuality, creativity, functionality, affordability",
+            "Art/design, vintage fashion, mid-century modern furniture, home decor",
+            "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+            "Trendy, aspirational, curated aesthetic",
+            "Heavy Instagram/Tiktok users, active on Pinterest, comfortable with online shopping",
+            "Brand conscious: values, lifestyle, authenticity, originality",
+            "Drawn to storytelling brands, craftsmanship, social impact"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Young urban professionals",
+              "post": "Age 22-35 (post-grad to early career)",
+              "continuity": "Both specify the core demographic cohort",
+              "scope": "PRE is broad cohort label; POST specifies age range",
+              "frame": "PRE: lifestyle-stage label; POST: demographic descriptor",
+              "stretch": "Reasonable — POST operationalizes the same cohort",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Young urban professionals",
+              "post": "Urban centers / major cities / trendy neighborhoods",
+              "continuity": "Both reference urban context",
+              "scope": "PRE embedded urban in label; POST externalizes as standalone geographic descriptor",
+              "frame": "label-embedded vs standalone",
+              "stretch": "Weak — secondary aspect",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Young urban professionals",
+              "post": "Mid-range income, not in luxury bracket",
+              "continuity": "Both reference economic bracket",
+              "scope": "similar",
+              "frame": "similar",
+              "stretch": "Possible but weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Post-grads",
+              "post": "Age 22-35 (post-grad to early career)",
+              "continuity": "Both reference post-college status",
+              "scope": "subset",
+              "frame": "similar",
+              "stretch": "Plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Post-grads",
+              "post": "College degree",
+              "continuity": "Both reference education completion",
+              "scope": "similar",
+              "frame": "similar",
+              "stretch": "Weak — overlaps with cohort match",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Wannabe urban transplants",
+              "post": "Urban centers / major cities / trendy neighborhoods",
+              "continuity": "Both reference urban-aspirant location",
+              "scope": "similar",
+              "frame": "aspirational urban identity",
+              "stretch": "Plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "People who wanted to do art/design in college but didn't",
+              "post": "College degree, strong interest in aesthetics",
+              "continuity": "Both reference unfulfilled art/design interest",
+              "scope": "similar",
+              "frame": "regret/constraint vs latent interest",
+              "stretch": "Reasonable",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "People who wanted to do art/design in college but didn't",
+              "post": "Art/design, vintage fashion, mid-century modern furniture, home decor",
+              "continuity": "Both reference art/design interest",
+              "scope": "interest manifested in specific tastes",
+              "frame": "preference",
+              "stretch": "Plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Cannot afford luxury goods but interested in art/curation",
+              "post": "Mid-range income, not in luxury bracket",
+              "continuity": "Both describe income bracket relative to luxury",
+              "scope": "similar",
+              "frame": "economic constraint on consumption",
+              "stretch": "Strong",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Cannot afford luxury goods but interested in art/curation",
+              "post": "Style, individuality, creativity, functionality, affordability",
+              "continuity": "Affordability maps to value",
+              "scope": "one value vs whole value set",
+              "frame": "consumer constraint → value set",
+              "stretch": "Weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Moving out of parents' homes / into a new place post-grad or with new job",
+              "post": "Urban living, enjoys shopping",
+              "continuity": "Both reference active consumption/settling phase",
+              "scope": "life-stage consumption vs lifestyle",
+              "frame": "transitional phase vs ongoing lifestyle",
+              "stretch": "Weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Want to find things to buy for their homes",
+              "post": "Art/design, vintage fashion, mid-century modern furniture, home decor",
+              "continuity": "Both reference home goods purchase",
+              "scope": "purchase intent vs specific interests",
+              "frame": "broad home-buying → specific categories",
+              "stretch": "Plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Want to find things to buy for their homes",
+              "post": "Mid-century modern furniture, home decor",
+              "continuity": "Specific home-furnishing categories",
+              "scope": "subset",
+              "frame": "interest specification",
+              "stretch": "Plausible — Narrowed candidate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Use Pinterest extensively",
+              "post": "Heavy Instagram/Tiktok users, likely active on Pinterest",
+              "continuity": "Both reference Pinterest and platform usage",
+              "scope": "PRE solo; POST expanded to multiple platforms",
+              "frame": "single platform → multi-platform digital savvy",
+              "stretch": "Strong",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "Young urban professionals",
+              "post": "Age 22-35 (post-grad to early career)",
+              "basis": "Scope restriction: explicit age band is a proper subset of the broader 'young urban professional' cohort"
+            },
+            {
+              "pre": "Post-grads",
+              "post": "College degree",
+              "basis": "POST adds explicit credential detail to the underlying education-status concept"
+            },
+            {
+              "pre": "Wannabe urban transplants",
+              "post": "Urban centers / major cities / trendy neighborhoods",
+              "basis": "Reframed: person-label-aspirant → standalone geographic descriptor; same aspirational-urban territory"
+            },
+            {
+              "pre": "People who wanted to do art/design in college but didn't",
+              "post": "College degree, strong interest in aesthetics",
+              "basis": "Reframed: regret/constraint narrative → latent-aesthetic-interest profile; same unfulfilled-art-passion subject"
+            },
+            {
+              "pre": "Cannot afford luxury goods but interested in art/curation",
+              "post": "Mid-range income, not in luxury bracket",
+              "basis": "Reframed: denial-of-access → calibrated income-tier positioning"
+            },
+            {
+              "pre": "Want to find things to buy for their homes",
+              "post": "Mid-century modern furniture, home decor",
+              "basis": "Narrowed: specific home-furnishing categories are a proper subset of the broader home-goods purchase intent"
+            },
+            {
+              "pre": "Use Pinterest extensively",
+              "post": "Heavy Instagram/Tiktok users, active on Pinterest",
+              "basis": "Expanded: Pinterest seed broadened to multi-platform digital-savvy profile"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Style, individuality, creativity, functionality, affordability",
+            "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+            "Trendy, aspirational, curated aesthetic",
+            "Brand conscious: values, lifestyle, authenticity, originality",
+            "Drawn to storytelling brands, craftsmanship, social impact"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Trendy, aspirational, curated aesthetic",
+              "direction": "new",
+              "nearestCounterpart": "Wannabe urban transplants",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Aspirational aesthetic is a personality/style descriptor; nearest PRE (wannabe transplants) anchors location-aspiration not style-aspiration. No defensible lineage."
+            },
+            {
+              "concept": "Brand conscious: values, lifestyle, authenticity, originality",
+              "direction": "new",
+              "nearestCounterpart": "Cannot afford luxury goods but interested in art/curation",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Brand consciousness is a consumer-attitude construct not present in PRE; no antecedent in PRE for this relationship-to-brands concept."
+            },
+            {
+              "concept": "Drawn to storytelling brands, craftsmanship, social impact",
+              "direction": "new",
+              "nearestCounterpart": "People who wanted to do art/design in college but didn't",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Storytelling/social-impact preference is a brand-evaluation criterion not present in PRE. No defensible lineage to art-interest antecedent."
+            },
+            {
+              "concept": "Style, individuality, creativity, functionality, affordability",
+              "direction": "new",
+              "nearestCounterpart": "Cannot afford luxury goods but interested in art/curation",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Affordability maps to the economic-bracket constraint; values list partly elaborates the consumer profile. However, the broader value set is genuinely new psychographic structure. Kept as New because no PRE span enumerates values; affordability alone is insufficient to constitute a match for the whole set."
+            },
+            {
+              "concept": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+              "direction": "new",
+              "nearestCounterpart": "Moving out of parents' homes / into a new place post-grad or with new job",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Lifestyle-behaviors list is a genuinely new psychographic dimension; no PRE antecedent enumerates daily consumer behaviors."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Young urban professionals",
+              "post": "Age 22-35 (post-grad to early career)",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Scope restriction holds; age band is a proper subset of the broader cohort. BC-004 logic correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "Post-grads",
+              "post": "College degree",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "POST adds explicit credential detail without shifting the underlying education-status concept. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "Wannabe urban transplants",
+              "post": "Urban centers / major cities / trendy neighborhoods",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Frame shifts from person-label-aspirant to standalone geographic descriptor; same aspirational-urban territory. Not subsumption."
+            },
+            {
+              "type": "confirm",
+              "pre": "People who wanted to do art/design in college but didn't",
+              "post": "College degree, strong interest in aesthetics",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Frame shifts from regret/constraint narrative to latent-aesthetic-interest profile. Same underlying subject, different organizing frame."
+            },
+            {
+              "type": "confirm",
+              "pre": "Cannot afford luxury goods but interested in art/curation",
+              "post": "Mid-range income, not in luxury bracket",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Frame shifts from denial-of-access to tier-positioning. Same economic-bracketing territory; not subsumption."
+            },
+            {
+              "type": "confirm",
+              "pre": "Want to find things to buy for their homes",
+              "post": "Mid-century modern furniture, home decor",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Specific home-furnishing categories are a proper subset of the broader home-goods purchase intent."
+            },
+            {
+              "type": "confirm",
+              "pre": "Use Pinterest extensively",
+              "post": "Heavy Instagram/Tiktok users, active on Pinterest",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Recognizable Pinterest seed broadened outward to multi-platform digital profile."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Style, individuality, creativity, functionality, affordability",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Enumerated value-set is genuinely new psychographic structure; affordability in PRE income description does not constitute a values-enumeration antecedent."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Behavioral-enumeration lifestyle list is genuinely new; settling-into-new-home is a life-stage transition, not a behavioral list antecedent."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Trendy, aspirational, curated aesthetic",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Personality-trait cluster is genuinely new. Wannabe transplants anchor location-aspiration not style-aspiration; identity umbrella is at the abstraction ceiling."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Brand conscious: values, lifestyle, authenticity, originality",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Brand-evaluation attitude has no PRE antecedent describing relationship to brands themselves."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Drawn to storytelling brands, craftsmanship, social impact",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Brand-selection criterion is entirely new; no PRE antecedent."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti77lesqpfm5v21vfb",
+            "code": "Narrowed",
+            "preEvidence": "Young urban professionals",
+            "postEvidence": "Age 22-35 (post-grad to early career)",
+            "rationale": "POST restricts the age range of the cohort; explicit age band is a proper subset of the broader 'young urban professional' population.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti77letsvdsyyc1bn",
+            "code": "Elaborated",
+            "preEvidence": "Post-grads",
+            "postEvidence": "College degree",
+            "rationale": "POST adds the explicit credential detail without shifting the underlying education-status concept.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti77letogx4u919ali",
+            "code": "Reframed",
+            "preEvidence": "Wannabe urban transplants",
+            "postEvidence": "Urban centers / major cities / trendy neighborhoods",
+            "rationale": "Frame shifts from person-label-aspirant (aspirational identity embedded in 'who they are') to standalone geographic descriptor. Same aspirational-urban territory.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti77let2rhp48thtl9",
+            "code": "Reframed",
+            "preEvidence": "People who wanted to do art/design in college but didn't",
+            "postEvidence": "College degree, strong interest in aesthetics",
+            "rationale": "Frame shifts from regret/constraint narrative to latent-aesthetic-interest profile. Same unfulfilled-art-passion subject matter, different organizing frame.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti77letw3bx90jl5j",
+            "code": "Reframed",
+            "preEvidence": "Cannot afford luxury goods but interested in art/curation",
+            "postEvidence": "Mid-range income, not in luxury bracket",
+            "rationale": "Frame shifts from affordability-as-constraint denial to calibrated income-tier positioning. Same economic-bracketing territory relative to luxury.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti77let59fn2e9l6pp",
+            "code": "Narrowed",
+            "preEvidence": "Want to find things to buy for their homes",
+            "postEvidence": "Mid-century modern furniture, home decor",
+            "rationale": "POST restricts the broad home-goods purchase interest to specific furnishing categories — a proper subset of the original home-goods universe.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti77letghc78oqkmt",
+            "code": "Expanded",
+            "preEvidence": "Use Pinterest extensively",
+            "postEvidence": "Heavy Instagram/Tiktok users, active on Pinterest",
+            "rationale": "POST broadens single-platform Pinterest usage to multi-platform digital-savvy profile including Instagram, Tiktok, and online shopping. Recognizable Pinterest seed.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti77letpazoll1p5th",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Style, individuality, creativity, functionality, affordability",
+            "rationale": "Enumerated value-set is a genuinely new psychographic dimension. Nearest PRE counterpart (affordability in income description) does not constitute a values enumeration; no defensible transformation.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti77let4ua44ola5k",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Urban living, enjoys shopping, buys overpriced coffee, attends art events/live concerts",
+            "rationale": "Daily-behaviors lifestyle list is a new dimension. Nearest PRE (settling-into-new-home) is a life-stage transition, not a behavioral-enumeration antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti77letjrts3f4jk3j",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Trendy, aspirational, curated aesthetic",
+            "rationale": "Personality-trait cluster is a new descriptor. Nearest PRE (wannabe transplants) is aspirational-location not aspirational-style; identity/self-presentation umbrella is at the abstraction ceiling.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti77letluibro24t1",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Brand conscious: values, lifestyle, authenticity, originality",
+            "rationale": "Brand-evaluation attitude is a new construct. No PRE antecedent describes relationship to brands themselves.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti77let434zoo12yws",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Drawn to storytelling brands, craftsmanship, social impact",
+            "rationale": "Storytelling/craftsmanship/social-impact brand preference is entirely new. No PRE antecedent for this brand-selection criterion.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "vague_to_specific_lineage",
+            "boundary_case_elab_vs_reframe",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Several PRE→POST pairs sit at the boundary between Reframed and Elaborated because POST reframes the same territory under more marketing-strategic vocabulary (regret→latent interest, constraint→tier positioning, person-label→location-descriptor). Recorded as Reframed with the post-frame named. The structured POST response style suggests exposure to a brand-strategy framework, but no direct textual evidence of metacognition or personal background is present, so no learner-agency event is emitted. Critic applied 12 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 4
+      },
+      "post": {
+        "answer": 5
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "They are probably into vintage fashion, are willing to spend more than 6$ on coffee, and like mid-century modern furniture. They have a vinyl or have thought about it and listen to old hip-hop."
+      },
+      "post": {
+        "answer": "Film lovers (LetterBoxd Users), Homebodies, Plant Dads/Moms, Travel/Simple Luxury Lifestyle"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "The POST response introduces additional target-audience segments (Film lovers, Homebodies, Plant Dads/Moms, Travel/Simple Luxury Lifestyle) while omitting some PRE specifics (vinyl, old hip-hop, vintage fashion, coffee spending). The response has shifted from a single descriptive persona paragraph to a segmented niche list with parenthetical examples, adding structural breadth in audience segmentation. The change is contained: the response is more segmented but not substantially longer or deeper in explanation.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "vintage fashion interest",
+            "willing to spend more than $6 on coffee",
+            "mid-century modern furniture interest",
+            "vinyl ownership or interest",
+            "old hip-hop listener"
+          ],
+          "postConcepts": [
+            "Film lovers (LetterBoxd Users)",
+            "Homebodies",
+            "Plant Dads/Moms",
+            "Travel/Simple Luxury Lifestyle"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "vintage fashion interest",
+              "post": "Film lovers (LetterBoxd Users)",
+              "continuity": "both are aesthetic/lifestyle consumption markers in a target persona",
+              "scope": "similar scope (subcultural interest markers)",
+              "frame": "vintage fashion = aesthetic/historical taste; film lovers = media/curatorial taste",
+              "stretch": "related but different domains (fashion vs. film consumption)",
+              "verdict": "weak"
+            },
+            {
+              "pre": "vintage fashion interest",
+              "post": "Homebodies",
+              "continuity": "lifestyle marker",
+              "scope": "broader",
+              "frame": "aesthetic interest vs. domestic orientation",
+              "stretch": "topical only",
+              "verdict": "weak"
+            },
+            {
+              "pre": "vintage fashion interest",
+              "post": "Plant Dads/Moms",
+              "continuity": "lifestyle/aesthetic marker",
+              "scope": "similar",
+              "frame": "vintage taste vs. domestic curation of plants",
+              "stretch": "different lifestyle niches",
+              "verdict": "weak"
+            },
+            {
+              "pre": "vintage fashion interest",
+              "post": "Travel/Simple Luxury Lifestyle",
+              "continuity": "both aesthetic lifestyle orientations",
+              "scope": "similar",
+              "frame": "vintage (retro-historical) vs. travel/simple-luxury (contemporary curated)",
+              "stretch": "related lifestyle markers, possibly sibling concepts",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "willing to spend more than $6 on coffee",
+              "post": "Film lovers (LetterBoxd Users)",
+              "continuity": "low — spend signal vs. media interest",
+              "scope": "different",
+              "frame": "spending behavior vs. cultural taste",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "willing to spend more than $6 on coffee",
+              "post": "Homebodies",
+              "continuity": "low — spend vs. domestic orientation",
+              "scope": "different",
+              "frame": "spending behavior vs. lifestyle orientation",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "willing to spend more than $6 on coffee",
+              "post": "Plant Dads/Moms",
+              "continuity": "low — spend vs. hobbyist curation",
+              "scope": "different",
+              "frame": "spending behavior vs. lifestyle niche",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "willing to spend more than $6 on coffee",
+              "post": "Travel/Simple Luxury Lifestyle",
+              "continuity": "both indicate discretionary spending / disposable income on curated lifestyle",
+              "scope": "similar",
+              "frame": "$6+ on coffee as a specific spending threshold vs. simple luxury lifestyle as a broader orientation",
+              "stretch": "related — spending behavior vs. lifestyle category",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "mid-century modern furniture interest",
+              "post": "Film lovers (LetterBoxd Users)",
+              "continuity": "aesthetic/historical taste marker",
+              "scope": "similar",
+              "frame": "mid-century modern = retro aesthetic; film lovers = media consumption",
+              "stretch": "different aesthetic domains",
+              "verdict": "weak"
+            },
+            {
+              "pre": "mid-century modern furniture interest",
+              "post": "Homebodies",
+              "continuity": "both signal domestic/interior orientation",
+              "scope": "similar",
+              "frame": "furniture aesthetic preference vs. broader home-centered orientation",
+              "stretch": "plausible sibling concepts — both home-domain",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "mid-century modern furniture interest",
+              "post": "Plant Dads/Moms",
+              "continuity": "domestic/curatorial lifestyle markers",
+              "scope": "similar",
+              "frame": "furniture aesthetic vs. domestic hobbyist curation",
+              "stretch": "related",
+              "verdict": "weak"
+            },
+            {
+              "pre": "mid-century modern furniture interest",
+              "post": "Travel/Simple Luxury Lifestyle",
+              "continuity": "lifestyle aesthetic markers",
+              "scope": "similar",
+              "frame": "mid-century modern (retro) vs. simple luxury (contemporary curated)",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "vinyl ownership or interest",
+              "post": "Film lovers (LetterBoxd Users)",
+              "continuity": "both signal curatorial/collector media habits",
+              "scope": "similar",
+              "frame": "vinyl (physical music medium, retro) vs. film curation (LetterBoxd platform)",
+              "stretch": "sibling concepts — both reflect engaged media collecting/curation",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "vinyl ownership or interest",
+              "post": "Homebodies",
+              "continuity": "low",
+              "scope": "different",
+              "frame": "media collecting vs. domestic lifestyle",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "vinyl ownership or interest",
+              "post": "Plant Dads/Moms",
+              "continuity": "low",
+              "scope": "different",
+              "frame": "media collecting vs. domestic hobby",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "vinyl ownership or interest",
+              "post": "Travel/Simple Luxury Lifestyle",
+              "continuity": "low",
+              "scope": "different",
+              "frame": "media collecting vs. lifestyle orientation",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "old hip-hop listener",
+              "post": "Film lovers (LetterBoxd Users)",
+              "continuity": "both signal engagement with a specific cultural/media genre",
+              "scope": "similar",
+              "frame": "old hip-hop = musical genre taste; film lovers = media consumption taste",
+              "stretch": "sibling concepts — both genre-specific cultural engagement",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "old hip-hop listener",
+              "post": "Homebodies",
+              "continuity": "low",
+              "scope": "different",
+              "frame": "musical taste vs. domestic orientation",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "old hip-hop listener",
+              "post": "Plant Dads/Moms",
+              "continuity": "low",
+              "scope": "different",
+              "frame": "musical taste vs. domestic hobby",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "old hip-hop listener",
+              "post": "Travel/Simple Luxury Lifestyle",
+              "continuity": "low",
+              "scope": "different",
+              "frame": "musical taste vs. lifestyle orientation",
+              "stretch": "weak",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "vintage fashion interest",
+              "post": "Film lovers (LetterBoxd Users)",
+              "reason": "Different aesthetic domains (fashion vs. film); no shared semantic neighborhood at a specific level"
+            },
+            {
+              "pre": "vintage fashion interest",
+              "post": "Homebodies",
+              "reason": "Topical adjacency only — aesthetic taste and domestic orientation are different conceptual dimensions"
+            },
+            {
+              "pre": "vintage fashion interest",
+              "post": "Plant Dads/Moms",
+              "reason": "Different lifestyle niches; no defensible conceptual lineage"
+            },
+            {
+              "pre": "willing to spend more than $6 on coffee",
+              "post": "Film lovers (LetterBoxd Users)",
+              "reason": "Spending behavior vs. media interest — different conceptual domains"
+            },
+            {
+              "pre": "willing to spend more than $6 on coffee",
+              "post": "Homebodies",
+              "reason": "Spending behavior vs. domestic orientation — different domains"
+            },
+            {
+              "pre": "willing to spend more than $6 on coffee",
+              "post": "Plant Dads/Moms",
+              "reason": "Spending behavior vs. hobbyist curation — different domains"
+            },
+            {
+              "pre": "mid-century modern furniture interest",
+              "post": "Film lovers (LetterBoxd Users)",
+              "reason": "Aesthetic furniture taste vs. media consumption — different domains"
+            },
+            {
+              "pre": "mid-century modern furniture interest",
+              "post": "Plant Dads/Moms",
+              "reason": "Furniture aesthetic vs. plant hobby — adjacent but different"
+            },
+            {
+              "pre": "mid-century modern furniture interest",
+              "post": "Travel/Simple Luxury Lifestyle",
+              "reason": "Retro aesthetic vs. contemporary curated lifestyle — different frames"
+            },
+            {
+              "pre": "vinyl ownership or interest",
+              "post": "Homebodies",
+              "reason": "Media collecting vs. domestic orientation — different domains"
+            },
+            {
+              "pre": "vinyl ownership or interest",
+              "post": "Plant Dads/Moms",
+              "reason": "Media collecting vs. domestic hobby — different domains"
+            },
+            {
+              "pre": "vinyl ownership or interest",
+              "post": "Travel/Simple Luxury Lifestyle",
+              "reason": "Media collecting vs. lifestyle orientation — different domains"
+            },
+            {
+              "pre": "old hip-hop listener",
+              "post": "Homebodies",
+              "reason": "Musical taste vs. domestic orientation — different domains"
+            },
+            {
+              "pre": "old hip-hop listener",
+              "post": "Plant Dads/Moms",
+              "reason": "Musical taste vs. domestic hobby — different domains"
+            },
+            {
+              "pre": "old hip-hop listener",
+              "post": "Travel/Simple Luxury Lifestyle",
+              "reason": "Musical taste vs. lifestyle orientation — different domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "vinyl ownership or interest",
+              "post": "Film lovers (LetterBoxd Users)",
+              "basis": "Sibling concepts in media-curation/collector-taste neighborhood; Reframed — pre-frame = physical music medium/retro collecting, post-frame = digital film curation"
+            },
+            {
+              "pre": "mid-century modern furniture interest",
+              "post": "Homebodies",
+              "basis": "Sibling concepts in domesticity/home neighborhood; Reframed — pre-frame = interior aesthetic preference, post-frame = broader home-centered lifestyle identity"
+            }
+          ],
+          "unmatchedPre": [
+            "vintage fashion interest",
+            "willing to spend more than $6 on coffee",
+            "old hip-hop listener"
+          ],
+          "unmatchedPost": [
+            "Plant Dads/Moms",
+            "Travel/Simple Luxury Lifestyle"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "vintage fashion interest",
+              "direction": "removed",
+              "nearestCounterpart": "Travel/Simple Luxury Lifestyle",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Vintage fashion (aesthetic/retro-historical style preference) vs. Travel/Simple Luxury Lifestyle (contemporary curated lifestyle) — only topical lifestyle-adjacency; subsumption fails, territory not shared at a specific level, no elaboration or broadening defensible."
+            },
+            {
+              "concept": "willing to spend more than $6 on coffee",
+              "direction": "removed",
+              "nearestCounterpart": "Travel/Simple Luxury Lifestyle",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "A specific spending behavior threshold on coffee is not a specific way of being Travel/Simple Luxury Lifestyle; they share a discretionary-spending notion but at an abstract level only. Narrowed fails; Reframed requires shared semantic territory at a specific level, which is not present."
+            },
+            {
+              "concept": "old hip-hop listener",
+              "direction": "removed",
+              "nearestCounterpart": "Film lovers (LetterBoxd Users)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Old hip-hop is a specific musical genre taste; Film lovers (LetterBoxd Users) is a different media-domain engagement. After testing: subsumption fails (a musical taste is not a subtype of film engagement), territory overlaps only at the abstract 'cultural taste' level (above abstraction ceiling). Per scope-restriction and abstraction-ceiling considerations, no defensible transformation. Old hip-hop = Removed; Film lovers served as nearest counterpart for the recheck."
+            },
+            {
+              "concept": "Plant Dads/Moms",
+              "direction": "new",
+              "nearestCounterpart": "mid-century modern furniture interest",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Plant Dads/Moms is a specific domestic-hobbyist identity; nearest PRE counterparts are mid-century modern furniture interest and Homebodies — none share a specific semantic territory (plants-as-hobby vs. furniture-aesthetic vs. general domesticity). Topical adjacency only; no defensible transformation."
+            },
+            {
+              "concept": "Travel/Simple Luxury Lifestyle",
+              "direction": "new",
+              "nearestCounterpart": "willing to spend more than $6 on coffee",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Travel/Simple Luxury Lifestyle is a broad lifestyle orientation; nearest PRE antecedent is the $6 coffee spending signal (and vintage fashion). Only shared territory is discretionary spending / curated lifestyle at an abstract umbrella level (above abstraction ceiling). No defensible transformation."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "vinyl ownership or interest",
+              "post": "Film lovers (LetterBoxd Users)",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Sibling concepts in media-curation neighborhood. Subsumption test: 'film loving is a specific way of being a vinyl owner' is FALSE. Reframed is correct. Pass-1 code stands."
+            },
+            {
+              "type": "confirm",
+              "pre": "mid-century modern furniture interest",
+              "post": "Homebodies",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Sibling concepts in domesticity/home neighborhood. Subsumption test: 'Homebodies is a specific way of preferring mid-century furniture' is FALSE. Reframed is correct. Pass-1 code stands."
+            },
+            {
+              "type": "confirm",
+              "pre": "vintage fashion interest",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Nearest counterpart Travel/Simple Luxury Lifestyle shares only abstract lifestyle umbrella — above abstraction ceiling. No specific shared territory. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": "willing to spend more than $6 on coffee",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Spending behavior signal has no defensible successor. Travel/Simple Luxury Lifestyle adjacency only at abstract 'discretionary spending' level — above abstraction ceiling. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": "old hip-hop listener",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Old hip-hop (musical genre taste) and Film lovers (media curation) share territory only at abstract 'cultural taste' umbrella — above abstraction ceiling. A different media domain. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Plant Dads/Moms",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Plant-parent identity has no specific shared territory with any PRE unit. Domestic-hobbyist hobby vs. mid-century furniture aesthetic vs. coffee spending — different domains. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Travel/Simple Luxury Lifestyle",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Broad lifestyle orientation with no specific-level antecedent in PRE. Nearest matches (vintage fashion, $6 coffee) share only abstract discretionary-spending umbrella. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti753uljgfheuszqk",
+            "code": "Reframed",
+            "preEvidence": "They have a vinyl or have thought about it",
+            "postEvidence": "Film lovers (LetterBoxd Users)",
+            "rationale": "Both signal curatorial/collector engagement with a specific media form, but the framing shifts: vinyl emphasizes physical-medium retro collecting, while LetterBoxd film enthusiasm emphasizes platform-based media curation. Sibling concepts in media-collecting neighborhood. Narrowed fails (film loving is not a specific way of being a vinyl owner).",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti753ulsbxin3fb3l",
+            "code": "Reframed",
+            "preEvidence": "like mid-century modern furniture",
+            "postEvidence": "Homebodies",
+            "rationale": "Both signal domestic/home-domain orientation, but the frame shifts: mid-century modern furniture is a specific interior aesthetic preference, while Homebodies is a broader home-centered identity category. Sibling concepts in the domesticity neighborhood. Narrowed fails (Homebodies is not a specific way of preferring mid-century furniture).",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti753ulwbm0m4fmrh",
+            "code": "Removed",
+            "preEvidence": "into vintage fashion",
+            "postEvidence": null,
+            "rationale": "Vintage fashion aesthetic preference has no clear successor in POST. Nearest counterpart Travel/Simple Luxury Lifestyle shares only abstract lifestyle umbrella — above abstraction ceiling. Subsumption fails; no defensible elaboration or broadening.",
+            "confidence": "medium",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti753ul1bnhhfpv2sa",
+            "code": "Removed",
+            "preEvidence": "willing to spend more than $6 on coffee",
+            "postEvidence": null,
+            "rationale": "Specific spending signal has no clear successor. Nearest counterpart Travel/Simple Luxury Lifestyle shares only abstract discretionary-spending territory above the abstraction ceiling. Subsumption fails; no defensible transformation.",
+            "confidence": "medium",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti753ul7bohlj7m7bw",
+            "code": "Removed",
+            "preEvidence": "listen to old hip-hop",
+            "postEvidence": null,
+            "rationale": "Old hip-hop as a specific musical-genre taste marker has no clear successor. Film lovers overlaps only at abstract 'cultural taste' umbrella — above abstraction ceiling. A musical genre is not a specific way of being a film enthusiast; no defensible transformation.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti753ullqke8b95qg",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Plant Dads/Moms",
+            "rationale": "Plant-parent identity is a specific domestic-hobbyist niche with no antecedent in PRE. Nearest PRE counterparts (mid-century furniture, Homebodies, vintage fashion) are topically adjacent but do not share semantic territory at a specific level. Subsumption fails; no elaboration, expansion, or reframing defensible.",
+            "confidence": "medium",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti753ulyqa68qixmu9",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Travel/Simple Luxury Lifestyle",
+            "rationale": "Broad lifestyle orientation with no antecedent in PRE. Nearest counterpart ($6 coffee, vintage fashion) shares only abstract discretionary-spending/lifestyle territory above the abstraction ceiling. No defensible transformation.",
+            "confidence": "medium",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "vague_to_specific_lineage",
+            "neighborhood_tested_no_lineage",
+            "new_removed_recheck_passed",
+            "alignment_null_by_choice",
+            "events_possibly_collapsed"
+          ],
+          "coderNotes": "Item is scoped_category (Target Customer / niche). PRE is a single descriptive persona paragraph that the student decomposed into discrete lifestyle markers for unitization; POST is a segmented niche list. Several PRE markers (vinyl, furniture, hip-hop) were tested against multiple POST candidates; only one PRE unit may serve as antecedent to one event, so competing claims were resolved by selectivity (vinyl→Film lovers; furniture→Homebodies; old hip-hop had no defensible successor). The PRE persona paragraph also contains implicit temporal-frame and aesthetic-frame signals (vintage/retro/old) that are not retained in POST. The abstractions ceiling ruled out several lineage attempts (e.g., old hip-hop → Film lovers only at abstract cultural-taste level). Structural Development coded Moderate Addition because the response added segmentation but did not substantially lengthen or deepen explanation. Critic applied 7 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "Instagram, Tiktok, Pinterest"
+      },
+      "post": {
+        "answer": "Tiktok, Instagram, Pinterest (Did not use genAI for this response)"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The same three platforms (Instagram, TikTok, Pinterest) appear in both PRE and POST. The only differences are reordering of TikTok and Instagram (position swap) and an added parenthetical note stating no GenAI was used. No meaningful content was added or removed; the parenthetical is meta-commentary about the response process, not platform information.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Instagram",
+            "Tiktok",
+            "Pinterest"
+          ],
+          "postConcepts": [
+            "Tiktok",
+            "Instagram",
+            "Pinterest"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Instagram",
+              "post": "Tiktok",
+              "continuity": "both are social media platforms",
+              "scope": "same scope (platform choice)",
+              "frame": "same frame (platform selection)",
+              "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Instagram",
+              "continuity": "identical platform",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Pinterest",
+              "continuity": "both are social media platforms",
+              "scope": "same scope (platform choice)",
+              "frame": "same frame (platform selection)",
+              "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Tiktok",
+              "post": "Tiktok",
+              "continuity": "identical platform",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Tiktok",
+              "post": "Instagram",
+              "continuity": "both are social media platforms",
+              "scope": "same scope (platform choice)",
+              "frame": "same frame (platform selection)",
+              "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Tiktok",
+              "post": "Pinterest",
+              "continuity": "both are social media platforms",
+              "scope": "same scope (platform choice)",
+              "frame": "same frame (platform selection)",
+              "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Pinterest",
+              "post": "Tiktok",
+              "continuity": "both are social media platforms",
+              "scope": "same scope (platform choice)",
+              "frame": "same frame (platform selection)",
+              "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Pinterest",
+              "post": "Instagram",
+              "continuity": "both are social media platforms",
+              "scope": "same scope (platform choice)",
+              "frame": "same frame (platform selection)",
+              "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Pinterest",
+              "post": "Pinterest",
+              "continuity": "identical platform",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Instagram",
+              "post": "Tiktok",
+              "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+            },
+            {
+              "pre": "Instagram",
+              "post": "Pinterest",
+              "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+            },
+            {
+              "pre": "Tiktok",
+              "post": "Instagram",
+              "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+            },
+            {
+              "pre": "Tiktok",
+              "post": "Pinterest",
+              "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+            },
+            {
+              "pre": "Pinterest",
+              "post": "Tiktok",
+              "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+            },
+            {
+              "pre": "Pinterest",
+              "post": "Instagram",
+              "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Instagram",
+              "post": "Instagram",
+              "basis": "identical platform name"
+            },
+            {
+              "pre": "Tiktok",
+              "post": "Tiktok",
+              "basis": "identical platform name"
+            },
+            {
+              "pre": "Pinterest",
+              "post": "Pinterest",
+              "basis": "identical platform name"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [
+            "TikTok and Instagram positions swapped between PRE and POST; same three platforms remain"
+          ],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Instagram",
+              "post": "Instagram",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical platform name; pass-1 alignment correct"
+            },
+            {
+              "type": "confirm",
+              "pre": "Tiktok",
+              "post": "Tiktok",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical platform name; pass-1 alignment correct"
+            },
+            {
+              "type": "confirm",
+              "pre": "Pinterest",
+              "post": "Pinterest",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "identical platform name; pass-1 alignment correct"
+            }
+          ]
+        },
+        "semanticChanges": [],
+        "learnerAgency": [
+          {
+            "instanceId": "mti74kfijeeozqni5rj",
+            "code": "Metacognition",
+            "evidence": "(Did not use genAI for this response)",
+            "rationale": "The student explicitly comments on their own process by stating they did not use generative AI for this response. This is a metacognitive statement about how the answer was produced, though it is process-disclosure rather than reasoning strategy. Confidence lowered because the statement concerns tool use rather than reasoning strategy.",
+            "confidence": "low"
+          }
+        ],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "order_change_only"
+          ],
+          "coderNotes": "Three identical platforms appear in both responses with only a reordering of TikTok and Instagram. No semantic events are warranted. The parenthetical '(Did not use genAI for this response)' is meta-commentary about the response process; recorded as low-confidence metacognition since it explicitly references the student's own approach to producing the answer, though it describes tool non-use rather than reasoning strategy. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "Packaging videos, behind-the-scenes content (for design/graphics), staging videos"
+      },
+      "post": {
+        "answer": "Content Strategy: Curated Aesthetic: Showcase your products as part of a carefully curated aesthetic, emphasizing the \"designer mood\" and \"elevated\" feel. * Urban Living: Highlight how your pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces. Design Inspiration: Offer tips and tricks for styling your home, using your products as examples. Focus on creating a cohesive and inspiring look. Behind the Scenes: Give a glimpse into the design process, showcasing the craftsmanship and the story behind your products."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The PRE response contains three short content type labels (packaging videos, behind-the-scenes content, staging videos), while the POST response contains four fully elaborated content pillars with detailed descriptions, multiple clauses per pillar, and explanatory elaboration. Multiple new sentences and explanatory passages have been added; the scope of the response is meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Packaging videos",
+            "behind-the-scenes content (for design/graphics)",
+            "staging videos"
+          ],
+          "postConcepts": [
+            "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+            "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+            "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+            "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Packaging videos",
+              "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+              "continuity": "Both concern visual presentation of products; packaging videos are a form of showcasing products",
+              "scope": "PRE is narrow (packaging only); POST is broader (curated aesthetic across products)",
+              "frame": "PRE: instructional/operational focus on packaging step. POST: aspirational/positioning focus on designer mood",
+              "stretch": "Reasonable - both involve showing product visually",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Packaging videos",
+              "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle",
+              "continuity": "Weak - packaging vs lifestyle staging",
+              "scope": "Different scope",
+              "frame": "Operational vs aspirational lifestyle",
+              "stretch": "Stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Packaging videos",
+              "post": "Design Inspiration: Offer tips and tricks for styling home",
+              "continuity": "Weak - instructional but about styling not packaging",
+              "scope": "Different",
+              "frame": "Instructional both, but different subject",
+              "stretch": "Stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Packaging videos",
+              "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+              "continuity": "Moderate - both are process/behind-the-scenes adjacent",
+              "scope": "PRE narrower",
+              "frame": "Production process vs design process",
+              "stretch": "Moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "behind-the-scenes content (for design/graphics)",
+              "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+              "continuity": "Weak - BTS vs curated aesthetic",
+              "scope": "Different",
+              "frame": "Process-reveal vs aspirational positioning",
+              "stretch": "Stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "behind-the-scenes content (for design/graphics)",
+              "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Process vs lifestyle",
+              "stretch": "Weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "behind-the-scenes content (for design/graphics)",
+              "post": "Design Inspiration: Offer tips and tricks for styling home",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "BTS vs styling tips",
+              "stretch": "Weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "behind-the-scenes content (for design/graphics)",
+              "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+              "continuity": "Strong - both are behind-the-scenes content",
+              "scope": "PRE: design/graphics BTS. POST: design process, craftsmanship, story",
+              "frame": "PRE: focused on design/graphics. POST: broader (craftsmanship and story)",
+              "stretch": "Close match",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "staging videos",
+              "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+              "continuity": "Moderate - staging relates to curated aesthetic presentation",
+              "scope": "Different",
+              "frame": "PRE: practical staging activity. POST: aspirational aesthetic positioning",
+              "stretch": "Moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "staging videos",
+              "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+              "continuity": "Strong - staging videos explicitly place pieces in stylish spaces",
+              "scope": "PRE: video format of staging. POST: expanded concept of lifestyle staging across spaces",
+              "frame": "PRE: operational. POST: aspirational lifestyle framing",
+              "stretch": "Close",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "staging videos",
+              "post": "Design Inspiration: Offer tips and tricks for styling home using products as examples",
+              "continuity": "Moderate - both about arranging/presenting products",
+              "scope": "PRE narrower (staging videos); POST broader (tips and styling)",
+              "frame": "PRE: video content. POST: educational styling",
+              "stretch": "Moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "staging videos",
+              "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Staging vs design BTS",
+              "stretch": "Weak",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "behind-the-scenes content (for design/graphics)",
+              "post": "Curated Aesthetic",
+              "reason": "Different conceptual domains - process-reveal vs aspirational aesthetic positioning; weak continuity"
+            },
+            {
+              "pre": "behind-the-scenes content (for design/graphics)",
+              "post": "Urban Living",
+              "reason": "Different conceptual domains; weak lineage"
+            },
+            {
+              "pre": "behind-the-scenes content (for design/graphics)",
+              "post": "Design Inspiration",
+              "reason": "Different conceptual domains; weak lineage"
+            },
+            {
+              "pre": "staging videos",
+              "post": "Curated Aesthetic",
+              "reason": "Operational vs aspirational; weak frame match; better alignment with Urban Living exists"
+            },
+            {
+              "pre": "staging videos",
+              "post": "Design Inspiration",
+              "reason": "Staging videos vs styling tips; weak conceptual continuity"
+            },
+            {
+              "pre": "staging videos",
+              "post": "Behind the Scenes",
+              "reason": "Different frames - staging vs design process reveal"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Packaging videos",
+              "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+              "basis": "Operational packaging-video frame reframed as aspirational aesthetic-positioning frame; both involve visual product presentation with shifted organizing frame"
+            },
+            {
+              "pre": "behind-the-scenes content (for design/graphics)",
+              "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+              "basis": "Direct lineage; PRE seed (BTS design content) broadened to include craftsmanship and narrative dimensions"
+            },
+            {
+              "pre": "staging videos",
+              "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+              "basis": "Operational staging-video frame reframed as aspirational urban-lifestyle positioning; both involve placing products in attractive settings"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+              "direction": "new",
+              "nearestCounterpart": "staging videos",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "staging videos and Design Inspiration share operational/presentation territory but staging is video-format-specific while Design Inspiration is broader educational styling content; subsumption test fails (Design Inspiration is not a specific way of being staging videos - they're sibling operational concepts); POST does not keep PRE intact (Elaborated fails); staging videos does not broaden to Design Inspiration since staging is a narrower activity. Reclassified as Reframed from staging videos."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Packaging videos",
+              "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass-1 code is correct. Operational packaging-video frame shifts to aesthetic-positioning frame; subsumption fails; same visual-product-presentation territory persists with shifted organizing frame."
+            },
+            {
+              "type": "confirm",
+              "pre": "behind-the-scenes content (for design/graphics)",
+              "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Pass-1 code is correct. PRE seed (BTS design content) broadens to encompass craftsmanship and story; POST keeps the BTS core intact and broadens scope rather than narrowing or merely elaborating. Elaborated would be defensible but Expanded better captures the scope broadening to craftsmanship and narrative dimensions."
+            },
+            {
+              "type": "confirm",
+              "pre": "staging videos",
+              "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass-1 code is correct. Both involve placing products in attractive settings; frame shifts from operational/production (staging videos) to aspirational/lifestyle positioning (urban living). Subsumption fails; same semantic territory persists with shifted frame."
+            },
+            {
+              "type": "confirm",
+              "post": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "After re-check, Design Inspiration is an educational styling-tips content pillar. Nearest PRE counterpart (staging videos) was tested and fails all four tiers cleanly: Design Inspiration is not a specific way of being staging videos (Narrowed fails); no clear frame shift with same territory (Reframed weak - educational tips vs video staging are different operational concepts); staging videos is not simply added detail within Design Inspiration (Elaborated fails); Design Inspiration does not broaden an identifiable staging seed (Expanded fails). The recheck note initially considered Reframed but the rationale ultimately decided New. The New classification is defensible - no genuine lineage exists. Question D does not fire because this is genuinely a different conceptual domain (educational tips) from staging videos (video production), not a same-neighborhood forced pairing."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti759i8thdgltdljyl",
+            "code": "Reframed",
+            "preEvidence": "Packaging videos",
+            "postEvidence": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+            "rationale": "Packaging videos (operational/production-focused frame) is reconceived as a curated aesthetic (aspirational/positioning frame). Both involve visually presenting products with aesthetic intent, but the organizing frame shifts from a procedural content type to a brand-positioning concept. Subsumption test fails: a curated aesthetic is not a specific way of being packaging videos. Same semantic territory (product visual presentation) persists with shifted frame. Pre-frame: operational/procedural. Post-frame: aspirational/aesthetic positioning.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti759i8lejg7qa133",
+            "code": "Expanded",
+            "preEvidence": "behind-the-scenes content (for design/graphics)",
+            "postEvidence": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+            "rationale": "The PRE concept (behind-the-scenes content for design/graphics) is retained and broadened in POST to encompass the broader design process, craftsmanship, and the story behind products. The PRE seed (BTS design content) expands to include craftsmanship and narrative dimensions that were not specified in PRE. POST keeps the BTS concept intact and broadens its scope.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti759i8lhl853cii5",
+            "code": "Reframed",
+            "preEvidence": "staging videos",
+            "postEvidence": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+            "rationale": "Staging videos (operational/content-format frame focused on the activity of staging) is reconceived as Urban Living content (aspirational/lifestyle frame). Both involve placing products in visually appealing settings, but the organizing frame shifts from a production activity to a lifestyle positioning narrative. Subsumption test fails: Urban Living is not a specific way of being staging videos. Same semantic territory (product placement in attractive settings) persists with shifted frame. Pre-frame: operational/production. Post-frame: aspirational/lifestyle.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti759i86mpws3xqixs",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+            "rationale": "Design Inspiration is an educational styling-tips content pillar with no defensible PRE antecedent. Nearest counterpart (staging videos) was tested and fails all four tiers: Design Inspiration is not a specific way of being staging videos (Narrowed fails - educational tips is not subsumed by video staging); no clear frame shift with shared territory (Reframed fails - educational tips and video staging are different operational concepts, not a frame reorganization); staging videos is not simply added detail within Design Inspiration (Elaborated fails - the underlying category differs); Design Inspiration does not broaden an identifiable staging seed (Expanded fails - staging is a narrower activity, not a seed that broadens into educational content). No genuine lineage exists; Design Inspiration is a genuinely new content pillar.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed from staging videos"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "possible_missed_event",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The PRE response is a short list of content types while POST is a fully elaborated content strategy with four pillars. The match between Packaging videos and Curated Aesthetic requires interpretive stretch - both involve product visual presentation but the frame shift is substantial. The match between staging videos and Urban Living also involves frame shift from operational to aspirational. Design Inspiration as New is borderline - staging videos could be seen as a weaker Reframed match, but I maintained it as New after testing all four codes against staging videos as the nearest counterpart. The structural development is clearly Significant Addition given the expansion from three labels to four elaborated pillars. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "home decor"
+      },
+      "post": {
+        "answer": "Small Home Decor (i.e. Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "Pre-response is a single two-word noun phrase ('home decor'). Post-response adds a size qualifier ('Small'), specifies the product space, and enumerates seven distinct product examples (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases). This is a meaningful expansion in scope and specificity at the clause/explanation level, going from a category label to a defined, itemized offering.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "home decor"
+          ],
+          "postConcepts": [
+            "Small Home Decor",
+            "specific item list (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "home decor",
+              "post": "Small Home Decor",
+              "continuity": "same product category (home decor); POST adds size qualifier 'Small'",
+              "scope": "POST narrows scope from all home decor to small home decor specifically",
+              "frame": "same conceptual frame (product category), with scope restriction",
+              "stretch": "low stretch; category persists",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "home decor",
+              "post": "specific item list (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)",
+              "continuity": "POST enumerates specific examples within the home decor category",
+              "scope": "POST elaborates within the same scope, adding detail via examples",
+              "frame": "same frame (product category), with instantiation",
+              "stretch": "low stretch",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "home decor",
+              "post": "Small Home Decor",
+              "basis": "Scope restriction: 'Small Home Decor' is a size-restricted subset of 'home decor'."
+            },
+            {
+              "pre": "home decor",
+              "post": "specific item list (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)",
+              "basis": "Enumerated instantiation of the home decor category within the same conceptual frame."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "home decor",
+              "post": "Small Home Decor",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Scope-restriction Narrowed is correct: 'Small Home Decor is a specific way of being home decor' holds (proper subset by size). Substantive PRE is not a blocker here because the restriction is an explicit scope cut."
+            },
+            {
+              "type": "confirm",
+              "pre": "home decor",
+              "post": "specific item list (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Elaborated is correct: POST keeps the 'home decor' category intact and adds enumerated examples within the same frame. 'Specific physical products → cute physical merchandised products'-style confirmation applies — added detail, no frame shift. Do not recode to Reframed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti758p579on6pvve2i",
+            "code": "Narrowed",
+            "preEvidence": "home decor",
+            "postEvidence": "Small Home Decor",
+            "rationale": "Scope restriction via size qualifier. POST denotes a proper subset of PRE. Subsumption sentence holds: 'Small Home Decor is a specific way of being home decor.'",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti758p570i5hexhmzv",
+            "code": "Elaborated",
+            "preEvidence": "home decor",
+            "postEvidence": "Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases",
+            "rationale": "POST retains the 'home decor' category and adds concrete enumerated examples within the same frame. No frame shift; detail added within scope-restricted product category.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "duplicate_pre_antecedent"
+          ],
+          "coderNotes": "Pre and POST share the same conceptual core ('home decor'). POST layers two changes onto that core: (1) a scope restriction to 'Small' (Narrowed) and (2) an enumeration of specific example products (Elaborated). Both transformations rest on the retained 'home decor' category, so no New or Removed events are needed and no nearest-counterpart recheck is required. Note: the post_evidence for the Elaborated event paraphrases the enumerated list rather than reproducing the full parenthetical to keep the evidence span readable. Critic applied 2 correction(s). Consistency check: \"home decor\" serves as the antecedent of more than one event. The PRE span likely needs splitting — review before accepting."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 4
+      },
+      "post": {
+        "answer": 5
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 3,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 4,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 3,
+          "Alignment with Personal Values": 1,
+          "Curiosity and Learning Opportunity": 1,
+          "Consumer trends, social media trends, peer trends": 4,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ]
+}

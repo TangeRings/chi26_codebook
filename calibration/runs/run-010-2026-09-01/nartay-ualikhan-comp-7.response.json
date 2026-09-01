@@ -1,0 +1,699 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "POST restructures the four content buckets into clearly delineated percentages (30/25/20/25), adds specific venue categories (fashion shows, private dinners, art exhibitions), specifies new content formats (ASMR-style, craftsmanship, unboxing), and introduces explicit framing (organic demand, organic moments). Multiple new clauses and explanatory passages have been added across the response, materially expanding its scope and depth.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "PR packages for Influencers - 30%",
+        "Visual guides by interiors - 25%",
+        "luxury brand collabs with glassware provision",
+        "event placement at luxury events with influencers/celebrities",
+        "paparazzi/event photographer capturing images with wine/drink/snacks",
+        "aesthetic short-form content on brand catalogue targeting younger audiences"
+      ],
+      "postConcepts": [
+        "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+        "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+        "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events with paparazzi/event photographers capturing organic moments",
+        "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "PR packages for Influencers - 30%",
+          "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+          "continuity": "very strong",
+          "scope": "PRE: generic influencers. POST: restricted to select influencers in luxury/fashion/interior spaces",
+          "frame": "PRE: distribution focused. POST: seeding + organic-demand frame",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Visual guides by interiors - 25%",
+          "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+          "continuity": "strong",
+          "scope": "PRE: visual guides by interior creators. POST: partnering with interior designers to show silverware in modern living spaces",
+          "frame": "PRE: format-focused (visual guides). POST: partnership + aspirational-frame",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "luxury brand collabs with glassware provision",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events with paparazzi/event photographers capturing organic moments",
+          "continuity": "strong on collab theme; PRE also mentions free collab with paparazzi imagery",
+          "scope": "similar",
+          "frame": "PRE: free-collaboration framing. POST: strategic placement + organic-moment framing",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "event placement at luxury events with influencers/celebrities",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+          "continuity": "strong",
+          "scope": "PRE includes influencers/celebrities. POST lists fashion shows, private dinners, art exhibitions",
+          "frame": "PRE: celebrity-attended. POST: high-end event-venue focused",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "paparazzi/event photographer capturing images with wine/drink/snacks",
+          "post": "paparazzi/event photographers capturing organic moments",
+          "continuity": "strong",
+          "scope": "similar",
+          "frame": "PRE: staged imagery with specific props. POST: organic moments",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos",
+          "continuity": "strong",
+          "scope": "PRE: younger audiences unspecified. POST: ASMR-style, craftsmanship, unboxing content types",
+          "frame": "PRE: audience-targeted. POST: content-type enriched (sensory/process)",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "PR packages for Influencers - 30%",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals",
+          "reason": "Different content categories; pairing would force lineage between PR and short-form aesthetic which share no semantic neighborhood."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "PR packages for Influencers - 30%",
+          "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+          "basis": "Same 30% bucket and PR-package mechanism; frame shifts from distribution to seeding-for-organic-demand."
+        },
+        {
+          "pre": "Visual guides by interiors - 25%",
+          "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+          "basis": "Same 25% interior-designer bucket; frame shifts from output-format to partnership-and-aspiration."
+        },
+        {
+          "pre": "luxury brand collabs with glassware provision",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+          "basis": "Same luxury-collab activity; frame shifts from free-provision transactions to strategic event placement."
+        },
+        {
+          "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+          "basis": "Same short-form aesthetic catalog content; frame shifts from audience-targeting to content-format enrichment."
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "PR packages for Influencers - 30%",
+          "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Subsumption test fails: 'organic demand via select-influencer seeding' is not a specific way of being 'PR packages for influencers.' Same territory, shifted frame (distribution \u2192 seeding/organic-demand). Alternative Narrowed (scope restriction to luxury/fashion/interior) was considered but the frame shift is the more salient change."
+        },
+        {
+          "type": "confirm",
+          "pre": "Visual guides by interiors - 25%",
+          "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Frame shifts from format (visual guides) to partnership-and-aspiration (silverware elevating modern living). Same territory, different organizing lens. Elaborated would require keeping the format frame and only adding detail."
+        },
+        {
+          "type": "confirm",
+          "pre": "luxury brand collabs with glassware provision",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Free-collaboration/provision frame \u2192 strategic-placement frame. Same underlying activity, different organizing emphasis. No tier-1 subsumption."
+        },
+        {
+          "type": "confirm",
+          "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Audience-targeting frame \u2192 content-format-enrichment frame. Lens shifts from who to what-format. Same content bucket, different organizing principle. Boundary case vs Elaborated, but the frame-level shift (audience vs format) makes Reframed stronger."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6zod2ohpaufzn82l",
+        "code": "Reframed",
+        "preEvidence": "PR packages for Influencers - 30%",
+        "postEvidence": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+        "rationale": "Distribution/pr-package frame \u2192 seeding-and-organic-demand frame. Same territory, shifted organizing lens. No subsumption: organic-demand seeding is not a specific way of being PR-package distribution.",
+        "confidence": "medium",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti6zod20enu87x7z1dj",
+        "code": "Reframed",
+        "preEvidence": "Visual guides by interiors - 25%",
+        "postEvidence": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+        "rationale": "Format-focused frame \u2192 partnership-and-aspirational-lifestyle frame. PRE emphasized output format; POST reframes as designer partnership showcasing aspirational living. Same territory, different organizing principle.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti6zod2xevjxgz1zk",
+        "code": "Reframed",
+        "preEvidence": "luxury brand collabs with glassware provision",
+        "postEvidence": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+        "rationale": "Free-collaboration/provision frame \u2192 strategic-placement frame. Same activity, conceptual emphasis shifts from transactional provision to strategic event placement.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti6zod23r8l2nu9srn",
+        "code": "Reframed",
+        "preEvidence": "aesthetic short-form content on brand catalogue targeting younger audiences",
+        "postEvidence": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+        "rationale": "Audience-targeting frame \u2192 content-format-enrichment frame. Same content bucket; lens shifts from demographic targeting to sensory/process format specification.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "events_possibly_collapsed",
+        "critic_restore_rejected_unit_already_matched"
+      ],
+      "coderNotes": "The PRE response is somewhat disjointed (one bullet + one run-on sentence + a fragment), making unitization slightly interpretive. The four matched pairs cluster around what is fundamentally a re-organization of the same four content buckets into a cleaner structure with added specificity and reframed language. Multiple Reframed verdicts sit close to Elaborated; chosen Reframed because the framing emphasis genuinely shifts in each case (distribution\u2192seeding, format\u2192lifestyle, free-collab\u2192strategic-placement, audience\u2192format-type) rather than merely adding detail. No clear-cut New or Removed concepts after re-check. Percentage split shifts from 30/25/+rest to 30/25/20/25, but this is structural reorganization rather than a semantic event. Critic applied 4 correction(s). Rejected 2 critic restore(s) that reused an already-matched unit: event placement at luxury events with influencers/celebrities \u2192 20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events (fashion shows, private dinners, art exhibitions); paparazzi/event photographer capturing images with wine/drink/snacks \u2192 paparazzi/event photographers capturing organic moments."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "nartay-ualikhan",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "PR packages for Influencers - 30%",
+        "Visual guides by interiors - 25%",
+        "luxury brand collabs with glassware provision",
+        "event placement at luxury events with influencers/celebrities",
+        "paparazzi/event photographer capturing images with wine/drink/snacks",
+        "aesthetic short-form content on brand catalogue targeting younger audiences"
+      ],
+      "post_concepts": [
+        "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+        "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+        "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events with paparazzi/event photographers capturing organic moments",
+        "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "PR packages for Influencers - 30%",
+          "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+          "continuity": "very strong",
+          "scope": "PRE: generic influencers. POST: restricted to select influencers in luxury/fashion/interior spaces",
+          "frame": "PRE: distribution focused. POST: seeding + organic-demand frame",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Visual guides by interiors - 25%",
+          "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+          "continuity": "strong",
+          "scope": "PRE: visual guides by interior creators. POST: partnering with interior designers to show silverware in modern living spaces",
+          "frame": "PRE: format-focused (visual guides). POST: partnership + aspirational-frame",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "luxury brand collabs with glassware provision",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events with paparazzi/event photographers capturing organic moments",
+          "continuity": "strong on collab theme; PRE also mentions free collab with paparazzi imagery",
+          "scope": "similar",
+          "frame": "PRE: free-collaboration framing. POST: strategic placement + organic-moment framing",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "event placement at luxury events with influencers/celebrities",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+          "continuity": "strong",
+          "scope": "PRE includes influencers/celebrities. POST lists fashion shows, private dinners, art exhibitions",
+          "frame": "PRE: celebrity-attended. POST: high-end event-venue focused",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "paparazzi/event photographer capturing images with wine/drink/snacks",
+          "post": "paparazzi/event photographers capturing organic moments",
+          "continuity": "strong",
+          "scope": "similar",
+          "frame": "PRE: staged imagery with specific props. POST: organic moments",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos",
+          "continuity": "strong",
+          "scope": "PRE: younger audiences unspecified. POST: ASMR-style, craftsmanship, unboxing content types",
+          "frame": "PRE: audience-targeted. POST: content-type enriched (sensory/process)",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "PR packages for Influencers - 30%",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals",
+          "reason": "Different content categories; pairing would force lineage between PR and short-form aesthetic which share no semantic neighborhood."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "PR packages for Influencers - 30%",
+          "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+          "basis": "Same 30% bucket and PR-package mechanism; frame shifts from distribution to seeding-for-organic-demand."
+        },
+        {
+          "pre": "Visual guides by interiors - 25%",
+          "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+          "basis": "Same 25% interior-designer bucket; frame shifts from output-format to partnership-and-aspiration."
+        },
+        {
+          "pre": "luxury brand collabs with glassware provision",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+          "basis": "Same luxury-collab activity; frame shifts from free-provision transactions to strategic event placement."
+        },
+        {
+          "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+          "basis": "Same short-form aesthetic catalog content; frame shifts from audience-targeting to content-format enrichment."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "PR packages for Influencers - 30%",
+          "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Subsumption test fails: 'organic demand via select-influencer seeding' is not a specific way of being 'PR packages for influencers.' Same territory, shifted frame (distribution \u2192 seeding/organic-demand). Alternative Narrowed (scope restriction to luxury/fashion/interior) was considered but the frame shift is the more salient change."
+        },
+        {
+          "type": "confirm",
+          "pre": "Visual guides by interiors - 25%",
+          "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Frame shifts from format (visual guides) to partnership-and-aspiration (silverware elevating modern living). Same territory, different organizing lens. Elaborated would require keeping the format frame and only adding detail."
+        },
+        {
+          "type": "confirm",
+          "pre": "luxury brand collabs with glassware provision",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Free-collaboration/provision frame \u2192 strategic-placement frame. Same underlying activity, different organizing emphasis. No tier-1 subsumption."
+        },
+        {
+          "type": "confirm",
+          "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Audience-targeting frame \u2192 content-format-enrichment frame. Lens shifts from who to what-format. Same content bucket, different organizing principle. Boundary case vs Elaborated, but the frame-level shift (audience vs format) makes Reframed stronger."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "POST restructures the four content buckets into clearly delineated percentages (30/25/20/25), adds specific venue categories (fashion shows, private dinners, art exhibitions), specifies new content formats (ASMR-style, craftsmanship, unboxing), and introduces explicit framing (organic demand, organic moments). Multiple new clauses and explanatory passages have been added across the response, materially expanding its scope and depth."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "PR packages for Influencers - 30%",
+        "post_evidence": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+        "rationale": "Distribution/pr-package frame \u2192 seeding-and-organic-demand frame. Same territory, shifted organizing lens. No subsumption: organic-demand seeding is not a specific way of being PR-package distribution.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Visual guides by interiors - 25%",
+        "post_evidence": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+        "rationale": "Format-focused frame \u2192 partnership-and-aspirational-lifestyle frame. PRE emphasized output format; POST reframes as designer partnership showcasing aspirational living. Same territory, different organizing principle.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "luxury brand collabs with glassware provision",
+        "post_evidence": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+        "rationale": "Free-collaboration/provision frame \u2192 strategic-placement frame. Same activity, conceptual emphasis shifts from transactional provision to strategic event placement.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "aesthetic short-form content on brand catalogue targeting younger audiences",
+        "post_evidence": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+        "rationale": "Audience-targeting frame \u2192 content-format-enrichment frame. Same content bucket; lens shifts from demographic targeting to sensory/process format specification.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "events_possibly_collapsed",
+        "critic_restore_rejected_unit_already_matched"
+      ],
+      "coder_notes": "The PRE response is somewhat disjointed (one bullet + one run-on sentence + a fragment), making unitization slightly interpretive. The four matched pairs cluster around what is fundamentally a re-organization of the same four content buckets into a cleaner structure with added specificity and reframed language. Multiple Reframed verdicts sit close to Elaborated; chosen Reframed because the framing emphasis genuinely shifts in each case (distribution\u2192seeding, format\u2192lifestyle, free-collab\u2192strategic-placement, audience\u2192format-type) rather than merely adding detail. No clear-cut New or Removed concepts after re-check. Percentage split shifts from 30/25/+rest to 30/25/20/25, but this is structural reorganization rather than a semantic event. Critic applied 4 correction(s). Rejected 2 critic restore(s) that reused an already-matched unit: event placement at luxury events with influencers/celebrities \u2192 20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events (fashion shows, private dinners, art exhibitions); paparazzi/event photographer capturing images with wine/drink/snacks \u2192 paparazzi/event photographers capturing organic moments."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "nartay-ualikhan",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "PR packages for Influencers - 30%",
+        "Visual guides by interiors - 25%",
+        "luxury brand collabs with glassware provision",
+        "event placement at luxury events with influencers/celebrities",
+        "paparazzi/event photographer capturing images with wine/drink/snacks",
+        "aesthetic short-form content on brand catalogue targeting younger audiences"
+      ],
+      "post_concepts": [
+        "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+        "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+        "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events with paparazzi/event photographers capturing organic moments",
+        "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "PR packages for Influencers - 30%",
+          "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+          "continuity": "very strong",
+          "scope": "PRE: generic influencers. POST: restricted to select influencers in luxury/fashion/interior spaces",
+          "frame": "PRE: distribution focused. POST: seeding + organic-demand frame",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Visual guides by interiors - 25%",
+          "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+          "continuity": "strong",
+          "scope": "PRE: visual guides by interior creators. POST: partnering with interior designers to show silverware in modern living spaces",
+          "frame": "PRE: format-focused (visual guides). POST: partnership + aspirational-frame",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "luxury brand collabs with glassware provision",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events with paparazzi/event photographers capturing organic moments",
+          "continuity": "strong on collab theme; PRE also mentions free collab with paparazzi imagery",
+          "scope": "similar",
+          "frame": "PRE: free-collaboration framing. POST: strategic placement + organic-moment framing",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "event placement at luxury events with influencers/celebrities",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+          "continuity": "strong",
+          "scope": "PRE includes influencers/celebrities. POST lists fashion shows, private dinners, art exhibitions",
+          "frame": "PRE: celebrity-attended. POST: high-end event-venue focused",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "paparazzi/event photographer capturing images with wine/drink/snacks",
+          "post": "paparazzi/event photographers capturing organic moments",
+          "continuity": "strong",
+          "scope": "similar",
+          "frame": "PRE: staged imagery with specific props. POST: organic moments",
+          "stretch": "low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos",
+          "continuity": "strong",
+          "scope": "PRE: younger audiences unspecified. POST: ASMR-style, craftsmanship, unboxing content types",
+          "frame": "PRE: audience-targeted. POST: content-type enriched (sensory/process)",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "PR packages for Influencers - 30%",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals",
+          "reason": "Different content categories; pairing would force lineage between PR and short-form aesthetic which share no semantic neighborhood."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "PR packages for Influencers - 30%",
+          "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+          "basis": "Same 30% bucket, same PR-package mechanism. POST restricts influencer pool and adds organic-demand framing."
+        },
+        {
+          "pre": "Visual guides by interiors - 25%",
+          "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+          "basis": "Same 25% bucket, same interior-designer-driven visual guides. POST adds specific partnership and aspirational framing."
+        },
+        {
+          "pre": "luxury brand collabs with glassware provision",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+          "basis": "Both describe luxury brand collaborations and product-placement events with photographers."
+        },
+        {
+          "pre": "event placement at luxury events with influencers/celebrities",
+          "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events (fashion shows, private dinners, art exhibitions)",
+          "basis": "Both describe placement at luxury events. POST specifies event types instead of celebrity attendees."
+        },
+        {
+          "pre": "paparazzi/event photographer capturing images with wine/drink/snacks",
+          "post": "paparazzi/event photographers capturing organic moments",
+          "basis": "Same paparazzi/event-photographer mechanism. PRE specifies props, POST specifies organic framing."
+        },
+        {
+          "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+          "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos",
+          "basis": "Same short-form aesthetic catalog content. POST replaces younger-audience targeting with specific content formats (ASMR, process videos)."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "POST restructures the four content buckets into clearly delineated percentages (30/25/20/25), adds specific venue categories (fashion shows, private dinners, art exhibitions), specifies new content formats (ASMR-style, craftsmanship, unboxing), and introduces explicit framing (organic demand, organic moments). Multiple new clauses and explanatory passages have been added across the response, materially expanding its scope and depth."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "PR packages for Influencers - 30%",
+        "post_evidence": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+        "rationale": "Distribution/pr-package frame \u2192 seeding-and-organic-demand frame. Both concern influencer PR packages, but the conceptual lens shifts from simply distributing PR packages to strategically seeding select influencers to create organic demand. No subsumption: 'organic demand' is not a specific way of being 'PR packages'; same territory, different organizing frame.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Visual guides by interiors - 25%",
+        "post_evidence": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+        "rationale": "Format-focused frame (visual guides) \u2192 partnership-and-aspirational-lifestyle frame. PRE emphasized the output format (visual guides by interior creators); POST reframes this as a partnership with interior designers that showcases aspirational modern living. Same content territory, but the organizing emphasis shifts from format to lifestyle-aspiration.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "luxury brand collabs with glassware provision",
+        "post_evidence": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+        "rationale": "Free-collaboration/provision frame \u2192 strategic-placement/organic-moment frame. PRE framed collabs as offering glassware for free; POST reframes as strategically placing products at high-end events with paparazzi capturing organic moments. Same underlying activity, but the conceptual emphasis shifts from free-provision transactions to strategic event placement.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "aesthetic short-form content on brand catalogue targeting younger audiences",
+        "post_evidence": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+        "rationale": "Audience-targeting frame \u2192 content-format-enrichment frame. PRE emphasized targeting younger audiences with short-form aesthetic content; POST reframes this by specifying particular sensory/process formats (ASMR, craftsmanship, unboxing) rather than audience targeting. Same content bucket, but the organizing lens shifts from audience-demographic to production-format specificity.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "events_possibly_collapsed"
+      ],
+      "coder_notes": "The PRE response is somewhat disjointed (one bullet + one run-on sentence + a fragment), making unitization slightly interpretive. The four matched pairs cluster around what is fundamentally a re-organization of the same four content buckets into a cleaner structure with added specificity and reframed language. Multiple Reframed verdicts sit close to Elaborated; chosen Reframed because the framing emphasis genuinely shifts in each case (distribution\u2192seeding, format\u2192lifestyle, free-collab\u2192strategic-placement, audience\u2192format-type) rather than merely adding detail. No clear-cut New or Removed concepts after re-check. Percentage split shifts from 30/25/+rest to 30/25/20/25, but this is structural reorganization rather than a semantic event."
+    },
+    "coded_at": "2026-01-15T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "PR packages for Influencers - 30%",
+        "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Subsumption test fails: 'organic demand via select-influencer seeding' is not a specific way of being 'PR packages for influencers.' Same territory, shifted frame (distribution \u2192 seeding/organic-demand). Alternative Narrowed (scope restriction to luxury/fashion/interior) was considered but the frame shift is the more salient change."
+      },
+      {
+        "type": "confirm",
+        "pre": "Visual guides by interiors - 25%",
+        "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Frame shifts from format (visual guides) to partnership-and-aspiration (silverware elevating modern living). Same territory, different organizing lens. Elaborated would require keeping the format frame and only adding detail."
+      },
+      {
+        "type": "confirm",
+        "pre": "luxury brand collabs with glassware provision",
+        "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Free-collaboration/provision frame \u2192 strategic-placement frame. Same underlying activity, different organizing emphasis. No tier-1 subsumption."
+      },
+      {
+        "type": "confirm",
+        "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+        "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Audience-targeting frame \u2192 content-format-enrichment frame. Lens shifts from who to what-format. Same content bucket, different organizing principle. Boundary case vs Elaborated, but the frame-level shift (audience vs format) makes Reframed stronger."
+      },
+      {
+        "type": "restore_lineage",
+        "pre": "event placement at luxury events with influencers/celebrities",
+        "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events (fashion shows, private dinners, art exhibitions)",
+        "from_code": null,
+        "to_code": "Reframed",
+        "reason": "Provisional alignment was left uncoded but the pair is clearly continuous: both describe product placement at luxury events. PRE emphasizes celebrity/influencer attendees; POST emphasizes specific high-end event venues. Same territory, shifted frame (who-attends \u2192 where-placed). Restore as Reframed."
+      },
+      {
+        "type": "restore_lineage",
+        "pre": "paparazzi/event photographer capturing images with wine/drink/snacks",
+        "post": "paparazzi/event photographers capturing organic moments",
+        "from_code": null,
+        "to_code": "Reframed",
+        "reason": "Provisional alignment was left uncoded but both describe the same paparazzi/event-photographer capture mechanism. PRE specifies props (wine/drink/snacks); POST reframes the captured output as 'organic moments.' Same activity, shifted frame (prop-staged \u2192 organic). Restore as Reframed."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "PR packages for Influencers - 30%",
+        "post": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+        "basis": "Same 30% bucket and PR-package mechanism; frame shifts from distribution to seeding-for-organic-demand."
+      },
+      {
+        "pre": "Visual guides by interiors - 25%",
+        "post": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+        "basis": "Same 25% interior-designer bucket; frame shifts from output-format to partnership-and-aspiration."
+      },
+      {
+        "pre": "luxury brand collabs with glassware provision",
+        "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+        "basis": "Same luxury-collab activity; frame shifts from free-provision transactions to strategic event placement."
+      },
+      {
+        "pre": "event placement at luxury events with influencers/celebrities",
+        "post": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events (fashion shows, private dinners, art exhibitions)",
+        "basis": "Same event-placement activity; frame shifts from celebrity attendees to venue categories."
+      },
+      {
+        "pre": "paparazzi/event photographer capturing images with wine/drink/snacks",
+        "post": "paparazzi/event photographers capturing organic moments",
+        "basis": "Same photographer-capture mechanism; frame shifts from prop-staged imagery to organic-moment framing."
+      },
+      {
+        "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+        "post": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+        "basis": "Same short-form aesthetic catalog content; frame shifts from audience-targeting to content-format enrichment."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "PR packages for Influencers - 30%",
+        "post_evidence": "30% Influencer Seeding & PR \u2013 Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+        "rationale": "Distribution/pr-package frame \u2192 seeding-and-organic-demand frame. Same territory, shifted organizing lens. No subsumption: organic-demand seeding is not a specific way of being PR-package distribution.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Visual guides by interiors - 25%",
+        "post_evidence": "25% Interior Styling & Design Guides \u2013 Partnering with interior designers to showcase how silverware elevates modern living spaces",
+        "rationale": "Format-focused frame \u2192 partnership-and-aspirational-lifestyle frame. PRE emphasized output format; POST reframes as designer partnership showcasing aspirational living. Same territory, different organizing principle.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "luxury brand collabs with glassware provision",
+        "post_evidence": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events",
+        "rationale": "Free-collaboration/provision frame \u2192 strategic-placement frame. Same activity, conceptual emphasis shifts from transactional provision to strategic event placement.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "event placement at luxury events with influencers/celebrities",
+        "post_evidence": "20% Event Placement & Luxury Brand Collabs \u2013 Strategically placing products at high-end events (fashion shows, private dinners, art exhibitions)",
+        "rationale": "Celebrity-attendee frame \u2192 high-end-venue frame. Same placement activity; organizing lens shifts from who attends to where placed.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "paparazzi/event photographer capturing images with wine/drink/snacks",
+        "post_evidence": "paparazzi/event photographers capturing organic moments",
+        "rationale": "Prop-staged imagery frame \u2192 organic-moment frame. Same capture mechanism; conceptual lens shifts from props-specification to organic-authenticity framing.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "aesthetic short-form content on brand catalogue targeting younger audiences",
+        "post_evidence": "25% Short-Form Aesthetic Content \u2013 High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+        "rationale": "Audience-targeting frame \u2192 content-format-enrichment frame. Same content bucket; lens shifts from demographic targeting to sensory/process format specification.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "skipCritic": false
+}

@@ -1,0 +1,78 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Instagram",
+      "post": "Instagram (reels)",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same platform retained; POST adds format specification (reels) within the same conceptual frame. Elaborated is correct; Reframed would require the organizing frame to change, not merely added detail."
+    },
+    {
+      "type": "confirm",
+      "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+      "post": "Xiaohongshu",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Same platform (\u5c0f\u7ea2\u4e66 = Xiaohongshu) but the organizing frame shifts from rejection ('tried but didn't work') to inclusion (listed among active platforms). Same semantic territory, shifted frame. Reframed is correct; Narrowed would require subsumption which does not hold here."
+    },
+    {
+      "type": "confirm",
+      "pre": "WeChat Channel",
+      "post": "WeChat Channel",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical platform reference; no transformation code applies. Treated as preserved/conceptual event."
+    },
+    {
+      "type": "confirm",
+      "pre": "\u6296\u97f3 (considering)",
+      "post": "\u6296\u97f3 (maybe)",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Same platform with both tentative framing; the hedging ('considering' \u2194 'maybe') is preserved. Treated as preserved/conceptual event."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Instagram",
+      "post": "Instagram (reels)",
+      "basis": "same platform, POST adds reels format specification"
+    },
+    {
+      "pre": "WeChat Channel",
+      "post": "WeChat Channel",
+      "basis": "identical platform reference"
+    },
+    {
+      "pre": "\u6296\u97f3 (considering)",
+      "post": "\u6296\u97f3 (maybe)",
+      "basis": "same platform with tentative framing preserved"
+    },
+    {
+      "pre": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+      "post": "Xiaohongshu",
+      "basis": "same platform (\u5c0f\u7ea2\u4e66 = Xiaohongshu); status shifts from rejected to included"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Instagram",
+      "post_evidence": "Instagram (reels)",
+      "rationale": "Same platform retained; POST adds a content-format specification (reels) within the same platform frame. Detail elaboration rather than frame change.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "\u5c0f\u7ea2\u4e66 (tried but didn't work)",
+      "post_evidence": "Xiaohongshu",
+      "rationale": "Same underlying platform; the organizing frame shifts from rejected/dismissed ('tried but didn't work') to included/active. Pre-frame: rejection. Post-frame: inclusion. Same semantic territory with a shifted organizing frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    }
+  ]
+}

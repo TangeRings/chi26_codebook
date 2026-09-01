@@ -1,0 +1,257 @@
+{
+  "coding_unit": {
+    "student_id": "ky-tran",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "tiktok",
+      "instagram",
+      "amazon"
+    ],
+    "post_concepts": [
+      "Tiktok",
+      "instagram",
+      "youtube",
+      "commerce-based platform"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "tiktok",
+        "post": "Tiktok",
+        "continuity": "same platform",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "tiktok",
+        "post": "instagram",
+        "continuity": "different platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "tiktok",
+        "post": "youtube",
+        "continuity": "different platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "tiktok",
+        "post": "commerce-based platform",
+        "continuity": "different category",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "instagram",
+        "post": "Tiktok",
+        "continuity": "different platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "instagram",
+        "post": "instagram",
+        "continuity": "same platform",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "instagram",
+        "post": "youtube",
+        "continuity": "different platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "instagram",
+        "post": "commerce-based platform",
+        "continuity": "different category",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "amazon",
+        "post": "Tiktok",
+        "continuity": "different platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "amazon",
+        "post": "instagram",
+        "continuity": "different platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "amazon",
+        "post": "youtube",
+        "continuity": "different platform",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "amazon",
+        "post": "commerce-based platform",
+        "continuity": "same commerce-platform category",
+        "scope": "amazon is a specific commerce-based platform; POST is the category",
+        "frame": "specific instance vs category",
+        "stretch": "amazon is a specific instance of commerce-based platform",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "tiktok",
+        "post": "instagram",
+        "reason": "different platforms, no shared semantic role"
+      },
+      {
+        "pre": "tiktok",
+        "post": "youtube",
+        "reason": "different platforms, no shared semantic role"
+      },
+      {
+        "pre": "tiktok",
+        "post": "commerce-based platform",
+        "reason": "content platform vs commerce category, different domains"
+      },
+      {
+        "pre": "instagram",
+        "post": "Tiktok",
+        "reason": "different platforms, no shared semantic role"
+      },
+      {
+        "pre": "instagram",
+        "post": "youtube",
+        "reason": "different platforms, no shared semantic role"
+      },
+      {
+        "pre": "instagram",
+        "post": "commerce-based platform",
+        "reason": "content platform vs commerce category, different domains"
+      },
+      {
+        "pre": "amazon",
+        "post": "Tiktok",
+        "reason": "different platforms, different domains"
+      },
+      {
+        "pre": "amazon",
+        "post": "instagram",
+        "reason": "different platforms, different domains"
+      },
+      {
+        "pre": "amazon",
+        "post": "youtube",
+        "reason": "different platforms, different domains"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "tiktok",
+        "post": "Tiktok",
+        "basis": "same platform, capitalisation is stylistic"
+      },
+      {
+        "pre": "instagram",
+        "post": "instagram",
+        "basis": "same platform"
+      },
+      {
+        "pre": "amazon",
+        "post": "commerce-based platform",
+        "basis": "amazon is a specific instance of a commerce-based platform; subsumption relation holds"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "youtube"
+    ],
+    "order_only_changes": [
+      "capitalisation change on tiktok -> Tiktok"
+    ],
+    "new_removed_recheck": [
+      {
+        "concept": "youtube",
+        "direction": "new",
+        "nearest_counterpart": "tiktok / instagram / amazon",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "YouTube is a content-based platform not listed in PRE. Tested each PRE counterpart: it is not a specific way of being tiktok/instagram/amazon; it shares territory with tiktok/instagram (content platforms) but no subsumption/elaboration/expansion holds because YouTube is a distinct new platform addition. PRE contains no seed for YouTube specifically."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST adds YouTube (a new platform) and replaces the specific commerce platform name (amazon) with the category 'commerce-based platform,' while retaining Tiktok and instagram. The response is slightly longer with one new platform added."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "amazon",
+      "post_evidence": "commerce-based platform",
+      "rationale": "POST generalises a specific commerce platform (amazon) to its category (commerce-based platform). Subsumption test: 'commerce-based platform is a specific way of being amazon' is FALSE because the direction is reversed \u2014 amazon is a specific instance of commerce-based platform. However, applying NARROW-ABSTRACT and the scope logic: POST replaces a single specific instance with the broader category. This is the inverse of the canonical Narrowed pattern (specific \u2192 general is Expanded, not Narrowed). Re-classifying: amazon \u2192 commerce-based platform broadens scope (one named instance \u2192 the whole category). Code is Expanded. Note: capitalisation aside, this is a scope expansion from specific instance to category.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "amazon",
+      "post_evidence": "commerce-based platform",
+      "rationale": "POST broadens the specific instance 'amazon' to its encompassing category 'commerce-based platform,' which includes amazon and other commerce platforms. The identifiable PRE seed (amazon) is broadened in scope. This is Expanded, not Narrowed (scope is broadened, not restricted).",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "youtube",
+      "rationale": "YouTube has no antecedent in PRE. Nearest counterparts (tiktok, instagram) are other content platforms but YouTube is a distinct new platform addition with no defensible Narrowed/Reframed/Elaborated/Expanded relationship to any single PRE element. MANDATORY-NEW-REMOVED-RECHECK performed across the full PRE set; no lineage defensible.",
+      "alternative_considered": "Expanded (from tiktok/instagram as content-platform seed)",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_narrow",
+      "events_possibly_collapsed"
+    ],
+    "coder_notes": "First draft emitted a Narrowed event for amazon -> commerce-based platform; on self-critique this is actually the inverse direction (specific to general = Expanded, not Narrowed). Re-emitted as Expanded. The capitalisation difference between 'tiktok' and 'Tiktok' is treated as stylistic per STYLE-vs-SECANTIC and ORDER-vs-SEMANTIC and produced no event. No learner agency evidence present."
+  },
+  "coded_at": "2026-01-24T00:00:00Z",
+  "model": "MiniMax-M3"
+}

@@ -1,0 +1,1897 @@
+{
+  "_seedVersion": "upload-1788188097704",
+  "studentId": "nartay-ualikhan",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "Eco-conscious / Brutalist / Simple-living / Designer"
+      },
+      "post": {
+        "answer": "Eco-conscious, brutalist, and minimalist—where raw materiality meets refined design."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The post-response is a compressed reformulation of the same descriptor set. Eco-conscious and brutalist are retained. Simple-living has been narrowed to minimalist (same conceptual territory). Designer is dropped. The added clause 'where raw materiality meets refined design' functions as a brief stylistic gloss on the retained descriptors and does not introduce new substantive content at the structural level. No new clauses or sentences are added that meaningfully extend the response's scope.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Eco-conscious",
+            "Brutalist",
+            "Simple-living",
+            "Designer"
+          ],
+          "postConcepts": [
+            "Eco-conscious",
+            "brutalist",
+            "minimalist"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Eco-conscious",
+              "post": "Eco-conscious",
+              "continuity": "identical term",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Eco-conscious",
+              "post": "brutalist",
+              "continuity": "weak — different conceptual domains",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Eco-conscious",
+              "post": "minimalist",
+              "continuity": "weak — environmental values vs aesthetic minimalism",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Brutalist",
+              "post": "Eco-conscious",
+              "continuity": "weak — aesthetic style vs environmental values",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Brutalist",
+              "post": "brutalist",
+              "continuity": "identical term (case only)",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Brutalist",
+              "post": "minimalist",
+              "continuity": "strong — both are aesthetic descriptors in the same visual/design territory",
+              "scope": "minimalism is broader than brutalism (brutalism is a specific movement within modern design)",
+              "frame": "both framed as visual/design identity",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Simple-living",
+              "post": "Eco-conscious",
+              "continuity": "partial — minimalism and sustainability are often associated but not the same",
+              "scope": "different",
+              "frame": "lifestyle vs environmental values",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Simple-living",
+              "post": "brutalist",
+              "continuity": "weak",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Simple-living",
+              "post": "minimalist",
+              "continuity": "strong — both invoke simplicity/minimalism; minimalism is an aesthetic, simple-living is broader lifestyle",
+              "scope": "simple-living is broader than minimalist (minimalist is a specific way of being simple-living)",
+              "frame": "lifestyle simplicity vs aesthetic simplicity",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Designer",
+              "post": "Eco-conscious",
+              "continuity": "weak — different domains (professional/quality vs environmental)",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Designer",
+              "post": "brutalist",
+              "continuity": "weak — professional identity vs aesthetic",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Designer",
+              "post": "minimalist",
+              "continuity": "weak — designer-quality vs minimalist-aesthetic",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "high",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Eco-conscious",
+              "post": "brutalist",
+              "reason": "different conceptual domains (environmental values vs architectural aesthetic); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+            },
+            {
+              "pre": "Eco-conscious",
+              "post": "minimalist",
+              "reason": "different conceptual domains (environmental values vs aesthetic); no shared neighborhood at the specific level"
+            },
+            {
+              "pre": "Brutalist",
+              "post": "Eco-conscious",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "Simple-living",
+              "post": "brutalist",
+              "reason": "lifestyle vs specific aesthetic; no defensible lineage"
+            },
+            {
+              "pre": "Designer",
+              "post": "Eco-conscious",
+              "reason": "professional/quality positioning vs environmental values; different domains"
+            },
+            {
+              "pre": "Designer",
+              "post": "brutalist",
+              "reason": "professional positioning vs aesthetic; different domains"
+            },
+            {
+              "pre": "Designer",
+              "post": "minimalist",
+              "reason": "professional positioning vs aesthetic style; different domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Eco-conscious",
+              "post": "Eco-conscious",
+              "basis": "identical descriptor retained"
+            },
+            {
+              "pre": "Brutalist",
+              "post": "brutalist",
+              "basis": "identical descriptor retained (lowercased)"
+            },
+            {
+              "pre": "Simple-living",
+              "post": "minimalist",
+              "basis": "subsumption: minimalist is a specific aesthetic realization of simple-living"
+            }
+          ],
+          "unmatchedPre": [
+            "Designer"
+          ],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Designer",
+              "direction": "removed",
+              "nearestCounterpart": "minimalist",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "'Designer' denotes a professional quality/positioning attribute (the brand is designer-grade or designer-curated), while 'minimalist' is an aesthetic style. These occupy different conceptual domains — quality/positioning vs visual style. Subsumption fails ('minimalist is a specific way of being Designer' = FALSE). No shared semantic neighborhood at a specific level. The nearest candidates 'brutalist' and 'minimalist' are both aesthetic descriptors, while 'Designer' is a quality/positioning attribute. All four transformation codes fail."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Eco-conscious",
+              "post": "Eco-conscious",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical descriptor retained; no event needed."
+            },
+            {
+              "type": "confirm",
+              "pre": "Brutalist",
+              "post": "brutalist",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical descriptor retained (case difference); no event needed."
+            },
+            {
+              "type": "confirm",
+              "pre": "Simple-living",
+              "post": "minimalist",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption test holds: minimalist is a specific aesthetic realization of simple-living (a lifestyle simplicity principle). PRE is substantive but functions as a broad lifestyle framing; POST is the concrete aesthetic mode. Reframed considered but subsumption is defensible. Calibrated correctly against anti-over-correction guidance."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "'Designer' (professional quality/curation positioning) has no defensible POST successor among the aesthetic descriptors (Eco-conscious, brutalist, minimalist). Different conceptual domains — quality/positioning vs visual style/aesthetic. All four transformation codes fail against nearest candidates. Confirmed not a same-neighborhood pair, so tier-5 Removed+New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6yg4hlwmhxs1j8v",
+            "code": "Narrowed",
+            "preEvidence": "Simple-living",
+            "postEvidence": "minimalist",
+            "rationale": "Subsumption holds: 'minimalist is a specific way of being Simple-living' is TRUE. Simple-living is the broader lifestyle principle of simplicity; minimalist is its specific aesthetic realization. Same simplicity/minimalism neighborhood.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6yg4hyjf6pzxz64",
+            "code": "Removed",
+            "preEvidence": "Designer",
+            "postEvidence": null,
+            "rationale": "'Designer' denotes professional quality/curation positioning; none of the POST descriptors (Eco-conscious, brutalist, minimalist) share that semantic role. Different conceptual domains — quality/positioning vs aesthetic style and environmental values. Tested Narrowed, Reframed, Elaborated, Expanded against nearest counterpart 'minimalist'; all fail. Genuine removal.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Eco-conscious and brutalist are retained verbatim (no semantic event beyond stylistic preservation). Simple-living -> minimalist is the central analytic event. The subsumption sentence 'minimalist is a specific way of being Simple-living' is defensible (minimalism is a recognized aesthetic realization of simple-living philosophy), but 'Simple-living' is broader than a generic filler, which complicates the PRE-genericness signal. Recorded alternative as Reframed. The post clause 'where raw materiality meets refined design' elaborates the minimalist register but does not introduce a separately codable event at the descriptor level. The 'Designer' descriptor sits in a different conceptual domain (professional quality/positioning) than any retained POST descriptor, so Removed is the correct outcome after full re-check. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "In age of informational noise, [ XYZ ] offers a delicate touch for your silver and glassware with minimalist designer touch."
+      },
+      "post": {
+        "answer": "In a world of excess, [XYZ] distills luxury to its purest form—offering meticulously designed silver and glassware that embodies restraint, elegance, and timeless taste."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "The post-response adds several specific quality descriptors (restraint, elegance, timeless taste) and rephrases the contextual framing (excess vs informational noise) and the brand action (distills luxury vs delicate touch). The post also extends the design descriptor from 'minimalist touch' to 'meticulously designed' plus three embodied qualities. The response is more elaborated but not substantially restructured.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "context of informational noise",
+            "offering a delicate touch",
+            "silver and glassware product",
+            "minimalist designer touch"
+          ],
+          "postConcepts": [
+            "context of excess",
+            "distills luxury to purest form",
+            "silver and glassware product",
+            "embodies restraint",
+            "embodies elegance",
+            "embodies timeless taste",
+            "meticulously designed"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "context of informational noise",
+              "post": "context of excess",
+              "continuity": "both establish a negative context against which the brand operates",
+              "scope": "similar scope - framing context",
+              "frame": "informational overload vs material excess; both are critiques of modern overabundance but the target of critique shifts from information to material consumption",
+              "stretch": "moderate - related critique frame",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "context of informational noise",
+              "post": "distills luxury to purest form",
+              "continuity": "weak - context framing vs brand action",
+              "scope": "different - problem statement vs brand's role",
+              "frame": "problem vs action",
+              "stretch": "strong",
+              "verdict": "weak"
+            },
+            {
+              "pre": "context of informational noise",
+              "post": "embodies restraint",
+              "continuity": "very weak",
+              "scope": "different",
+              "frame": "context vs quality",
+              "stretch": "strong",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "context of informational noise",
+              "post": "embodies elegance",
+              "continuity": "very weak",
+              "scope": "different",
+              "frame": "context vs quality",
+              "stretch": "strong",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "context of informational noise",
+              "post": "embodies timeless taste",
+              "continuity": "very weak",
+              "scope": "different",
+              "frame": "context vs quality",
+              "stretch": "strong",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "offering a delicate touch",
+              "post": "distills luxury to purest form",
+              "continuity": "both describe the brand's role in addressing the context - reducing/refining",
+              "scope": "similar",
+              "frame": "action of refinement; 'delicate touch' is gentle/light while 'distills luxury to purest form' is reductive/purifying",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "offering a delicate touch",
+              "post": "meticulously designed",
+              "continuity": "both describe how the product is made/crafted",
+              "scope": "overlapping - process descriptors",
+              "frame": "gentle/minimal vs careful/crafted",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "silver and glassware product",
+              "post": "silver and glassware product",
+              "continuity": "identical product category",
+              "scope": "identical",
+              "frame": "same",
+              "stretch": "minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "minimalist designer touch",
+              "post": "embodies restraint",
+              "continuity": "both involve restraint/minimalism",
+              "scope": "similar",
+              "frame": "process descriptor vs outcome quality",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "minimalist designer touch",
+              "post": "embodies elegance",
+              "continuity": "minimalism often paired with elegance",
+              "scope": "overlapping",
+              "frame": "design approach vs aesthetic outcome",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "minimalist designer touch",
+              "post": "embodies timeless taste",
+              "continuity": "minimalism relates to timelessness",
+              "scope": "similar",
+              "frame": "process vs enduring quality",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "minimalist designer touch",
+              "post": "meticulously designed",
+              "continuity": "both describe design approach",
+              "scope": "identical/synonymous",
+              "frame": "design process",
+              "stretch": "minimal",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "context of informational noise",
+              "post": "embodies restraint",
+              "reason": "context statement vs product quality - different conceptual domains"
+            },
+            {
+              "pre": "context of informational noise",
+              "post": "embodies elegance",
+              "reason": "context statement vs product quality - different conceptual domains"
+            },
+            {
+              "pre": "context of informational noise",
+              "post": "embodies timeless taste",
+              "reason": "context statement vs product quality - different conceptual domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "context of informational noise",
+              "post": "context of excess",
+              "basis": "Both establish a critical modern-world framing; frame shifts from information-overload to material-excess critique"
+            },
+            {
+              "pre": "offering a delicate touch",
+              "post": "distills luxury to purest form",
+              "basis": "Both describe the brand's refining action; frame shifts from gentle/light touch to distillation/purification"
+            },
+            {
+              "pre": "silver and glassware product",
+              "post": "silver and glassware product",
+              "basis": "Identical product category reference, elaborated with design and quality descriptors"
+            },
+            {
+              "pre": "minimalist designer touch",
+              "post": "meticulously designed",
+              "basis": "Both describe the design approach; minimalism is a specific form of meticulous design (scope restriction holds)"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "embodies restraint",
+            "embodies elegance",
+            "embodies timeless taste"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "embodies restraint",
+              "direction": "new",
+              "nearestCounterpart": "minimalist designer touch",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Restraint is a quality the product embodies (outcome), while minimalist designer touch describes the design process (approach). Both occupy a minimalist/restrained aesthetic neighborhood. Tested Narrowed: 'Restraint is a specific way of being minimalism' - arguable but minimalism is broader than restraint. Tested Reframed: the frame shifts from process (how it's designed) to outcome quality (what it expresses) - this is a plausible transformation. However, after considering, the minimalist designer touch is already partially accounted for in the match to 'meticulously designed'. The three embodied qualities (restraint, elegance, timeless taste) appear as elaborations or expansions of the minimalist design intent rather than strict transforms of a single concept. Keeping as New but noting ambiguity."
+            },
+            {
+              "concept": "embodies elegance",
+              "direction": "new",
+              "nearestCounterpart": "minimalist designer touch",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Elegance as embodied quality vs minimalist designer touch as design process. Same minimalist/aesthetic neighborhood. Reframed could apply (process frame → outcome quality frame). However, since 'minimalist designer touch' is already partially matched to 'meticulously designed', and elegance is a new specific quality added, this leans toward Expanded - the minimalist design intent is broadened into specific embodied qualities (restraint, elegance, timeless taste). Kept as New for now, noting the transformation logic is fragile."
+            },
+            {
+              "concept": "embodies timeless taste",
+              "direction": "new",
+              "nearestCounterpart": "minimalist designer touch",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Timelessness as outcome quality vs minimalism as process. Minimalism is often associated with timelessness but timeless taste is broader - it includes enduring aesthetic appeal beyond minimalism. Same neighborhood but POST extends beyond PRE. Reframed possible (process → enduring outcome). Kept as New."
+            },
+            {
+              "concept": "minimalist designer touch",
+              "direction": "removed",
+              "nearestCounterpart": "meticulously designed",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Meticulously designed is essentially a close synonym/paraphrase of minimalist designer touch in this context. Both describe the design approach. This is Narrowed or Reframed; the minimalist concept persists as 'meticulously designed'."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "context of informational noise",
+              "post": "context of excess",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Same critical-context role, frame shifts from information-overload to material-excess critique. Not subsumptive; Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "offering a delicate touch",
+              "post": "distills luxury to purest form",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Both describe brand's refining action. Subsumption fails - distillation is not a specific way of being a delicate touch. Same territory, shifted frame. Reframed correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "silver and glassware product",
+              "post": "silver and glassware product",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Identical product reference; POST elaborates with meticulously designed and the embodied qualities. Elaborated correct."
+            },
+            {
+              "type": "recode",
+              "pre": "minimalist designer touch",
+              "post": "meticulously designed",
+              "fromCode": "Elaborated",
+              "toCode": "Reframed",
+              "reason": "Wait - 'meticulously designed' keeps the design-process frame. The pass-1 rationale put this Elaborated reasoning under the silver/glassware event. For the minimalist→meticulous pair specifically: both describe design approach; minimalism (aesthetic philosophy) vs meticulousness (craftsmanship execution). Same design-process neighborhood, frame shifts from aesthetic-philosophy to craft-execution. Reframed. However, 'minimalist designer touch' is narrower than 'meticulously designed' (minimalism is one design approach; meticulousness spans many). So Narrowed also defensible: 'minimalist designer touch is a specific way of being meticulously designed' = TRUE if minimalism is a subset of meticulous design. Recording Narrowed as alternative. Picking Narrowed as primary since scope restriction holds."
+            },
+            {
+              "type": "recode",
+              "pre": "minimalist designer touch",
+              "post": "meticulously designed",
+              "fromCode": "Reframed",
+              "toCode": "Narrowed",
+              "reason": "Recorrection: minimalism is a specific design philosophy; meticulousness is a broader design-quality descriptor. The subsumption sentence 'minimalist designer touch is a specific way of being meticulously designed' is TRUE. Scope restriction holds. Narrowed is correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6z2ahsufayxr4d4g",
+            "code": "Reframed",
+            "preEvidence": "In age of informational noise",
+            "postEvidence": "In a world of excess",
+            "rationale": "Same critical-context role with shifted target of critique (information → material). Pre-frame: informational/sensory noise; post-frame: material excess/luxury critique.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6z2ahyayy0jah0n",
+            "code": "Reframed",
+            "preEvidence": "offers a delicate touch",
+            "postEvidence": "distills luxury to its purest form",
+            "rationale": "Both describe the brand's refining action. Pre-frame: gentle/minimalist touch; post-frame: distillation/purification of luxury. Not subsumptive.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6z2ahtf3chrs6xqf",
+            "code": "Elaborated",
+            "preEvidence": "silver and glassware",
+            "postEvidence": "meticulously designed silver and glassware that embodies restraint, elegance, and timeless taste",
+            "rationale": "The product category is retained and elaborated with the design quality and three embodied qualities.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6z2ah6me39vht6us",
+            "code": "Narrowed",
+            "preEvidence": "minimalist designer touch",
+            "postEvidence": "meticulously designed",
+            "rationale": "Minimalism is a specific form of meticulous design. Scope restriction holds - minimalism is a subset of meticulous design approaches.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "vague_to_specific_lineage",
+            "events_possibly_collapsed",
+            "reframe_downgraded",
+            "critic_restore_rejected_unit_already_matched"
+          ],
+          "coderNotes": "The 'embodies restraint/elegance/timeless taste' trio could plausibly be coded as Expanded of 'minimalist designer touch' rather than New, since minimalism does broaden into these qualities. Also, the distinction between Elaborated (on product category) and the New qualities event is fragile - they may be one event rather than two. The two Reframed events (context framing and brand action) involve genuine frame shifts but could also be read as stylistic rewrites. Critic applied 5 correction(s). Rejected 3 critic restore(s) that reused an already-matched unit: minimalist designer touch → embodies restraint; minimalist designer touch → embodies elegance; minimalist designer touch → embodies timeless taste."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "Curation"
+      },
+      "post": {
+        "answer": "Curation, sustainability, and intentional craftsmanship."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE contains a single descriptor ('Curation'). POST expands this to three descriptors ('Curation, sustainability, and intentional craftsmanship'), introducing two substantive new value categories alongside the preserved original. This adds meaningful content at the clause/list level — the response now articulates three distinct guiding values where before only one was named. The shift from one concept to three conceptually distinct concepts represents substantial structural expansion.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Curation"
+          ],
+          "postConcepts": [
+            "Curation",
+            "sustainability",
+            "intentional craftsmanship"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Curation",
+              "post": "Curation",
+              "continuity": "Identical descriptor preserved",
+              "scope": "Same",
+              "frame": "Same",
+              "stretch": "Lexical identity",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Curation",
+              "post": "sustainability",
+              "continuity": "Both relate to product/material handling values but in different conceptual domains (selection vs environmental responsibility)",
+              "scope": "Disjoint",
+              "frame": "Curation concerns editorial/selection judgment; sustainability concerns environmental/ethical production",
+              "stretch": "Stretched: no shared semantic neighborhood at a specific level beyond the abstract umbrella 'brand values'",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Curation",
+              "post": "intentional craftsmanship",
+              "continuity": "Both relate to careful product treatment; curation frames it as selection, craftsmanship frames it as making/technique",
+              "scope": "Adjacent but distinct: curation is an editorial act selecting objects, intentional craftsmanship is a production-quality descriptor about how the maker works",
+              "frame": "Selection/editorial frame vs production/technique frame",
+              "stretch": "Moderate — topically adjacent within the careful-product-handling space; neighborhood exists at the level of 'care with the product' but not at a more specific level",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Curation",
+              "post": "sustainability",
+              "reason": "Curation (editorial selection) and sustainability (environmental responsibility) belong to different conceptual domains. IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies; no shared semantic neighborhood nameable at a specific level beyond the broad umbrella 'brand values'."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Curation",
+              "post": "Curation",
+              "basis": "Lexical identity; same descriptor preserved verbatim in the post list."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "sustainability",
+            "intentional craftsmanship"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "sustainability",
+              "direction": "new",
+              "nearestCounterpart": "Curation",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Curation concerns editorial selection of offerings; sustainability concerns environmental and ethical production responsibility. They occupy different conceptual domains — one is about what is chosen, the other about how materials/products are sourced and produced. No subsumption (sustainability is not a specific way of being Curation), no shared semantic territory with a shifted frame (the frames are not siblings within one territory), no elaboration or expansion relation. Kept as New."
+            },
+            {
+              "concept": "intentional craftsmanship",
+              "direction": "new",
+              "nearestCounterpart": "Curation",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Curation refers to the editorial act of selecting objects, while intentional craftsmanship refers to a disciplined, thoughtful mode of making/production. They share only a topically adjacent 'care with the product' umbrella, which fails the abstraction-ceiling test (it could be claimed for almost any descriptor pair in this item). Subsumption test: 'Intentional craftsmanship is a specific way of being Curation' = FALSE. No sibling-frame relation within one specific territory. Kept as New."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Curation",
+              "post": "Curation",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Lexical identity pair is correct; preserved verbatim."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "sustainability",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Mandatory recheck performed. Curation (editorial selection) and sustainability (environmental/ethical production) occupy different conceptual domains. No transformation code is defensible; only a Removed + New was avoided because PRE Curation is already matched. Keeping as New is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "intentional craftsmanship",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Mandatory recheck performed. 'Care with the product' umbrella fails the abstraction-ceiling test — it could be claimed for almost any descriptor pair in this item. Subsumption fails; no sibling-frame relation within a specific shared territory. Keeping as New is correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6yq7yozip87mrrip",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "sustainability",
+            "rationale": "No antecedent in PRE list. Curation (editorial selection) and sustainability (environmental/ethical production) occupy different conceptual domains; no transformation code defensible after ladder test.",
+            "confidence": "high",
+            "alternativeConsidered": "Removed + New"
+          },
+          {
+            "instanceId": "mti6yq7y4yoi9hlcp9u",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "intentional craftsmanship",
+            "rationale": "No antecedent in PRE list. Curation (selection) and intentional craftsmanship (production/technique) share only a topically adjacent 'care with product' umbrella that fails the abstraction-ceiling test. No transformation code defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Removed + New"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Descriptor-level coding per Q1c (descriptor_set_special). PRE = {Curation}, POST = {Curation, sustainability, intentional craftsmanship}. 'Curation' is preserved verbatim; 'sustainability' and 'intentional craftsmanship' are both New with no defensible transformation lineage from the single PRE concept. No coordination or splitting issues since PRE contains a single atomic descriptor. Structural development is Significant Addition given the move from one descriptor to three conceptually distinct values. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Art Connoisseurs\nYoung Professionals\nFashion Enthusiasts\nMiddle - upper middle class (solvent market)"
+      },
+      "post": {
+        "answer": "1. The Urban Creative:\nAge: 25-35 years old\nLocation: Major cities (New York, Los Angeles, London, Paris, etc.)\nOccupation: Creative professionals (designers, artists, photographers, writers, musicians, etc.), tech entrepreneurs, influencers\nLifestyle: Active social lives, appreciate experiences and aesthetics, value self-expression, tech-savvy, active on social media\nValues: Quality, craftsmanship, sustainability, minimalist design, individuality, authenticity\n\n2. The Discerning Collector:\nAge: 30-50 years old\nLocation: Major cities, affluent suburbs\nOccupation: Professionals in high-income fields (finance, law, medicine, etc.), entrepreneurs, art collectors\nLifestyle: Discerning taste, appreciate luxury and exclusivity, value investment and heritage\nValues: Quality, craftsmanship, uniqueness, investment, heritage, exclusivity\n\n3. Businesses\nLuxury hospitality & event curators – boutique hotels, high-end restaurants, and event planners looking for statement silverware.\n\nhaven't fully decided between b2b or b2c model."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE was a four-line label list (art connoisseurs, young professionals, fashion enthusiasts, income tier). POST expands to two detailed persona profiles with demographics, location, occupation, lifestyle, values, plus an additional B2B segment and a model-choice note. Multiple new clauses, sentences, and explanatory passages have been added; the scope of the response is meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Art Connoisseurs",
+            "Young Professionals",
+            "Fashion Enthusiasts",
+            "Middle - upper middle class (solvent market)"
+          ],
+          "postConcepts": [
+            "The Urban Creative (25-35, major cities, creative professionals, tech entrepreneurs, influencers)",
+            "The Discerning Collector (30-50, affluent suburbs, high-income professionals, art collectors)",
+            "Businesses (Luxury hospitality & event curators)",
+            "B2B vs B2C undecided"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Art Connoisseurs",
+              "post": "The Discerning Collector",
+              "continuity": "Both name the high-knowledge, high-taste customer segment with disposable income for art",
+              "scope": "POST expands into age, location, occupation, lifestyle, values detail",
+              "frame": "Connoisseur (expertise/curation) → Discerning Collector (curated taste + investment/heritage)",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Art Connoisseurs",
+              "post": "The Urban Creative",
+              "continuity": "Both sit in the cultural/creative consumer territory",
+              "scope": "POST broadens beyond connoisseurship to general creative professionals",
+              "frame": "Art-expert frame → Creative-professional lifestyle frame",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Art Connoisseurs",
+              "post": "Businesses (Luxury hospitality & event curators)",
+              "continuity": "Both serve cultural/art curation but one is individual collector, one is B2B",
+              "scope": "different audiences entirely",
+              "frame": "individual vs institutional",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Young Professionals",
+              "post": "The Urban Creative",
+              "continuity": "Both concern young professionally employed consumers in cities",
+              "scope": "POST narrows to creative-class subset and adds detail (age 25-35, etc.)",
+              "frame": "career-stage frame → creative-class identity frame",
+              "stretch": "plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Young Professionals",
+              "post": "The Discerning Collector",
+              "continuity": "Both concern affluent working professionals",
+              "scope": "POST shifts to 30-50 high-income fields; partial overlap",
+              "frame": "young career-stage → established high-income professional",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Young Professionals",
+              "post": "Businesses",
+              "continuity": "minimal",
+              "scope": "different",
+              "frame": "individual vs institutional",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Fashion Enthusiasts",
+              "post": "The Urban Creative",
+              "continuity": "Both concern style-aware culturally engaged consumers",
+              "scope": "POST adds broader creative profession frame",
+              "frame": "fashion passion → creative identity / self-expression",
+              "stretch": "plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Fashion Enthusiasts",
+              "post": "The Discerning Collector",
+              "continuity": "Both value aesthetic and luxury cues",
+              "scope": "POST emphasizes investment/heritage over fashion enthusiasm",
+              "frame": "fashion-driven → collector/luxury-driven",
+              "stretch": "weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Fashion Enthusiasts",
+              "post": "Businesses",
+              "continuity": "minimal",
+              "scope": "different",
+              "frame": "individual vs institutional",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Middle - upper middle class (solvent market)",
+              "post": "The Urban Creative",
+              "continuity": "Both specify an income/socioeconomic tier",
+              "scope": "POST adds income cues implicitly via creative professions",
+              "frame": "income bracket → lifestyle-and-value profile",
+              "stretch": "weak",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Middle - upper middle class (solvent market)",
+              "post": "The Discerning Collector",
+              "continuity": "Both specify affluence; POST shifts to affluent suburbs / high-income fields",
+              "scope": "PRE mid-market → POST upper-affluent",
+              "frame": "broad income tier → narrow high-income segment",
+              "stretch": "plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Middle - upper middle class (solvent market)",
+              "post": "Businesses (Luxury hospitality & event curators)",
+              "continuity": "Both sit in solvent/luxury tier",
+              "scope": "PRE individual → POST institutional",
+              "frame": "individual income → B2B client",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Art Connoisseurs",
+              "post": "Businesses",
+              "reason": "individual collector vs B2B institutional client — different conceptual domains"
+            },
+            {
+              "pre": "Young Professionals",
+              "post": "Businesses",
+              "reason": "individual consumer segment vs B2B segment — different domains"
+            },
+            {
+              "pre": "Fashion Enthusiasts",
+              "post": "Businesses",
+              "reason": "fashion enthusiast consumer vs B2B hospitality/event curators — different domains"
+            },
+            {
+              "pre": "Middle - upper middle class",
+              "post": "Businesses",
+              "reason": "individual income tier vs B2B client tier — different domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Art Connoisseurs",
+              "post": "The Discerning Collector",
+              "basis": "Both name the high-taste, high-income cultural consumer; frame shifts from expertise/curation to investment/heritage"
+            },
+            {
+              "pre": "Young Professionals",
+              "post": "The Urban Creative",
+              "basis": "POST broadens young-employed consumer into creative-class lifestyle profile with widened occupational scope"
+            },
+            {
+              "pre": "Fashion Enthusiasts",
+              "post": "The Urban Creative",
+              "basis": "Frame shifts from fashion-passion category to creative-identity lifestyle profile; same style/cultural-engagement territory"
+            },
+            {
+              "pre": "Middle - upper middle class (solvent market)",
+              "post": "The Discerning Collector",
+              "basis": "Scope restriction: high-income professionals in affluent suburbs are a subset of the broader mid-to-upper-middle-class income tier"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Businesses (Luxury hospitality & event curators)",
+            "B2B vs B2C undecided"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Businesses (Luxury hospitality & event curators)",
+              "direction": "new",
+              "nearestCounterpart": "Middle - upper middle class (solvent market)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "B2B hospitality/event curators are an institutional segment, not a subset or refinement of the individual income tier. PRE contains no antecedent for an institutional B2B segment; no Narrowed/Reframed/Expanded/Elaborated relation is defensible across different conceptual domains (individual consumer vs B2B client)."
+            },
+            {
+              "concept": "B2B vs B2C undecided",
+              "direction": "new",
+              "nearestCounterpart": null,
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE contains no expression of model-choice uncertainty. This is a new metacognitive/strategic statement about business model. No defensible antecedent in PRE."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Middle - upper middle class (solvent market)",
+              "post": "The Discerning Collector",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Scope restriction holds: high-income professionals in finance/law/medicine living in affluent suburbs are a proper subset of the broader middle-to-upper-middle class. Confirm Narrowed per scope-restriction rule."
+            },
+            {
+              "type": "confirm",
+              "pre": "Young Professionals",
+              "post": "The Urban Creative",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "POST broadens 'Young Professionals' beyond a career-stage seed into an identifiable lifestyle/identity profile (creative class, tech entrepreneurs, influencers). PRE seed is recognizable and POST widens occupational scope. Confirm Expanded."
+            },
+            {
+              "type": "confirm",
+              "pre": "Fashion Enthusiasts",
+              "post": "The Urban Creative",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Frame shifts from passion-based category (fashion enthusiasts) to identity/lifestyle-based profile (urban creative valuing self-expression). Same style-and-cultural-engagement territory, different organizing frame. Confirm Reframed."
+            },
+            {
+              "type": "confirm",
+              "pre": "Art Connoisseurs",
+              "post": "The Discerning Collector",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Frame shifts from connoisseurship-as-expertise to collecting-as-investment-and-heritage. Same high-taste cultural-consumer territory, different organizing frame. Subsumption test ('Discerning Collector is a specific way of being Art Connoisseurs') fails — both are substantive labels. Confirm Reframed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Businesses (Luxury hospitality & event curators)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "B2B institutional segment has no defensible PRE antecedent among individual-consumer concepts. Different conceptual domain. Confirm New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "B2B vs B2C undecided",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Model-choice uncertainty is a metacognitive/strategic statement with no PRE antecedent. Confirm New."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6z6k898a4l6wl464",
+            "code": "Reframed",
+            "preEvidence": "Art Connoisseurs",
+            "postEvidence": "The Discerning Collector ... appreciate luxury and exclusivity, value investment and heritage",
+            "rationale": "Frame shifts from connoisseurship-as-expertise to collecting-as-investment-and-heritage. PRE-frame: expertise/curatorial; POST-frame: investment/heritage/luxury. Subsumption test fails; both labels are substantive.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6z6k9473f6q0qon5",
+            "code": "Expanded",
+            "preEvidence": "Young Professionals",
+            "postEvidence": "The Urban Creative: Age 25-35, creative professionals (designers, artists, photographers, writers, musicians), tech entrepreneurs, influencers",
+            "rationale": "POST broadens 'Young Professionals' beyond a career stage to an identifiable lifestyle/identity profile and widens occupational scope. PRE seed (young employed consumer) is recognizable.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6z6k98f0it0eu04",
+            "code": "Reframed",
+            "preEvidence": "Fashion Enthusiasts",
+            "postEvidence": "The Urban Creative ... value self-expression ... creativity, design, cultural engagement",
+            "rationale": "Frame shifts from passion-based consumer category (fashion enthusiasts) to identity-based lifestyle profile (urban creative valuing self-expression and aesthetics). PRE-frame: passion-based; POST-frame: identity/lifestyle-based.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6z6k9ecechfru69",
+            "code": "Narrowed",
+            "preEvidence": "Middle - upper middle class (solvent market)",
+            "postEvidence": "The Discerning Collector ... Professionals in high-income fields ... affluent suburbs",
+            "rationale": "Scope restriction: high-income professionals in finance/law/medicine living in affluent suburbs are a proper subset of the broader mid-to-upper-middle-class PRE population. Scope-restriction rule applies.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6z6k9v06sgrsfwdo",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Businesses — Luxury hospitality & event curators – boutique hotels, high-end restaurants, and event planners looking for statement silverware.",
+            "rationale": "B2B institutional segment has no antecedent in PRE. Tested nearest counterpart (Middle-upper-middle income tier) — different conceptual domains (individual income vs institutional B2B client). No Narrowed/Reframed/Elaborated/Expanded relation defensible.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6z6k93efpamo5lz9",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "haven't fully decided between b2b or b2c model.",
+            "rationale": "Model-choice uncertainty has no antecedent in PRE. No defensible Narrowed/Reframed/Elaborated/Expanded relation from any PRE concept.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [
+          {
+            "instanceId": "mti6z6k9rrjov7q807",
+            "code": "Metacognition",
+            "evidence": "haven't fully decided between b2b or b2c model.",
+            "rationale": "The student explicitly states uncertainty about a strategic choice (B2B vs B2C model), reflecting on their own positioning decision rather than simply describing customers.",
+            "confidence": "medium"
+          }
+        ],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "possible_missed_event",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Mode scoped_category applied. PRE was a flat label list; POST is detailed personas plus a B2B segment plus a model-choice note. Many-to-many mapping was required: Fashion Enthusiasts and Young Professionals both track most plausibly to The Urban Creative; pairing one-to-one is not defensible because each PRE label has only a partial successor. Reframed was selected for the Fashion Enthusiasts and Art Connoisseurs pairs, with Expanded reserved for the clear broadening of Young Professionals into the urban creative profile. Boundary_case_elab_vs_reframe flagged for the Art Connoisseurs and Fashion Enthusiasts transitions, where narrowing vs reframing was arguable. Possible_missed_event flagged because the B2B segment could plausibly be read as an Expansion of the affluent tier into institutional buyers; rejected under IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED but worth noting. Critic applied 6 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": null
+      },
+      "post": {
+        "answer": null
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "Social channels - TikTok and Instagram; Commerce-based platform - SSENSE"
+      },
+      "post": {
+        "answer": "Branding Platforms: Primary content channels: TikTok & Instagram – to establish brand identity, drive engagement, and attract high-end consumers through storytelling and visual appeal. Commerce platform: SSENSE – positioning within a curated luxury marketplace that aligns with our target audience."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST retains all platforms listed in PRE (TikTok, Instagram, SSENSE) but adds substantial functional and strategic elaboration for each: purpose statements for content channels (brand identity, engagement, storytelling, visual appeal, attracting high-end consumers) and strategic positioning rationale for the commerce platform (curated luxury marketplace, target audience alignment). This represents a meaningful but contained expansion of content, adding explanatory detail rather than transforming the response scope.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "TikTok as social channel",
+            "Instagram as social channel",
+            "SSENSE as commerce platform"
+          ],
+          "postConcepts": [
+            "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+            "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "TikTok as social channel",
+              "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+              "continuity": "same platform (TikTok); POST adds Instagram and elaborates purpose",
+              "scope": "POST broadens to include Instagram alongside TikTok and adds functional purposes",
+              "frame": "functional/marketing frame (brand identity, engagement, storytelling, visual appeal, high-end consumers)",
+              "stretch": "PRE mentions TikTok and Instagram together as 'social channels'; POST retains both with added purpose elaboration",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Instagram as social channel",
+              "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+              "continuity": "same platform (Instagram); POST elaborates purpose",
+              "scope": "same scope, with elaboration",
+              "frame": "functional/marketing frame",
+              "stretch": "Instagram already appears alongside TikTok in PRE",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "SSENSE as commerce platform",
+              "post": "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience",
+              "continuity": "same platform (SSENSE)",
+              "scope": "same scope",
+              "frame": "strategic positioning frame (luxury marketplace, target audience alignment)",
+              "stretch": "minimal - PRE is label-only, POST adds strategic purpose",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "TikTok as social channel",
+              "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+              "basis": "TikTok explicitly retained; Instagram carried over; POST adds functional purpose elaboration (brand identity, engagement, storytelling, visual appeal, high-end consumers) within the same content-channel frame"
+            },
+            {
+              "pre": "Instagram as social channel",
+              "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+              "basis": "Instagram explicitly retained; POST elaborates purpose within same content-channel frame"
+            },
+            {
+              "pre": "SSENSE as commerce platform",
+              "post": "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience",
+              "basis": "SSENSE explicitly retained as commerce platform; POST adds strategic positioning rationale within same commerce-channel frame"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "TikTok as social channel",
+              "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "PASS-1 correctly noted that the underlying category (social/content channels for branding) is intact and POST adds functional descriptors (brand identity, engagement, storytelling, visual appeal, high-end consumers). Adding Instagram is concrete content addition, not a frame change. Elaborated confirmed; Reframed would require the organizing frame to shift."
+            },
+            {
+              "type": "confirm",
+              "pre": "Instagram as social channel",
+              "post": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Instagram is explicitly retained; POST adds functional purpose detail within the same 'content channels for branding' frame. Elaborated confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": "SSENSE as commerce platform",
+              "post": "SSENSE as commerce platform positioning within a curated luxury marketplace aligned with target audience",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "SSENSE is explicitly retained as commerce platform; POST adds strategic-positioning detail (curated luxury marketplace, target audience alignment) within the same commerce-channel frame. Elaborated confirmed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6z62rto7u6cgwjyf",
+            "code": "Elaborated",
+            "preEvidence": "TikTok and Instagram as social channels",
+            "postEvidence": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+            "rationale": "Underlying category (content channels for branding) is intact. POST adds functional descriptors (brand identity, engagement, storytelling, visual appeal, attracting high-end consumers). Same organizing frame; pure additive detail. Reframed not warranted because the frame (platforms serving brand objectives) persists unchanged.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti6z62rtvtlvzj0bs9",
+            "code": "Elaborated",
+            "preEvidence": "Instagram as social channel",
+            "postEvidence": "TikTok and Instagram as primary content channels for brand identity, engagement, storytelling, visual appeal, attracting high-end consumers",
+            "rationale": "Instagram retained; POST adds functional purpose detail within the same 'content channels for branding' frame. Modifier addition only.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti6z62rzqoyzp9qdwh",
+            "code": "Elaborated",
+            "preEvidence": "SSENSE as commerce platform",
+            "postEvidence": "SSENSE as commerce platform positioned within a curated luxury marketplace aligned with target audience",
+            "rationale": "SSENSE explicitly retained as commerce platform; POST adds strategic-positioning context (curated luxury marketplace, target audience alignment). Category (commerce channel) intact; only descriptors added.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "Both PRE and POST enumerate the same set of platforms (TikTok, Instagram, SSENSE). The transformation is purely elaboration of purpose/positioning for each platform. No platform was added or removed. Structural Development is Moderate Addition due to added explanatory clauses without transformation of response scope. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "PR packages for Influencers - 30% / Visual guides by interiors - 25% / I would offer certain luxury brands to collaborate for free and provide our glassware. Attendees - luxury influencers / celebrities, hire paparazzi / event photographer to take images holding wine / drink / snacks in our brand glassware. the rest% aesthetic short form content on our brand catalogue targeting younger audiences,"
+      },
+      "post": {
+        "answer": "Content Strategy Breakdown: * 30% Influencer Seeding & PR – Exclusive PR packages to select influencers in luxury, fashion, and interior spaces to create organic demand. * 25% Interior Styling & Design Guides – Partnering with interior designers to showcase how silverware elevates modern living spaces. * 20% Event Placement & Luxury Brand Collabs – Strategically placing products at high-end events (fashion shows, private dinners, art exhibitions) with paparazzi/event photographers capturing organic moments. * 25% Short-Form Aesthetic Content – High-production brand catalog visuals, ASMR-style product interactions, and process videos (craftsmanship, materials, unboxing)."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "POST restructures the four content buckets into clearly delineated percentages (30/25/20/25), adds specific venue categories (fashion shows, private dinners, art exhibitions), specifies new content formats (ASMR-style, craftsmanship, unboxing), and introduces explicit framing (organic demand, organic moments). Multiple new clauses and explanatory passages have been added across the response, materially expanding its scope and depth.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "PR packages for Influencers - 30%",
+            "Visual guides by interiors - 25%",
+            "luxury brand collabs with glassware provision",
+            "event placement at luxury events with influencers/celebrities",
+            "paparazzi/event photographer capturing images with wine/drink/snacks",
+            "aesthetic short-form content on brand catalogue targeting younger audiences"
+          ],
+          "postConcepts": [
+            "30% Influencer Seeding & PR – Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+            "25% Interior Styling & Design Guides – Partnering with interior designers to showcase how silverware elevates modern living spaces",
+            "20% Event Placement & Luxury Brand Collabs – Strategically placing products at high-end events with paparazzi/event photographers capturing organic moments",
+            "25% Short-Form Aesthetic Content – High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "PR packages for Influencers - 30%",
+              "post": "30% Influencer Seeding & PR – Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+              "continuity": "very strong",
+              "scope": "PRE: generic influencers. POST: restricted to select influencers in luxury/fashion/interior spaces",
+              "frame": "PRE: distribution focused. POST: seeding + organic-demand frame",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Visual guides by interiors - 25%",
+              "post": "25% Interior Styling & Design Guides – Partnering with interior designers to showcase how silverware elevates modern living spaces",
+              "continuity": "strong",
+              "scope": "PRE: visual guides by interior creators. POST: partnering with interior designers to show silverware in modern living spaces",
+              "frame": "PRE: format-focused (visual guides). POST: partnership + aspirational-frame",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "luxury brand collabs with glassware provision",
+              "post": "20% Event Placement & Luxury Brand Collabs – Strategically placing products at high-end events with paparazzi/event photographers capturing organic moments",
+              "continuity": "strong on collab theme; PRE also mentions free collab with paparazzi imagery",
+              "scope": "similar",
+              "frame": "PRE: free-collaboration framing. POST: strategic placement + organic-moment framing",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "event placement at luxury events with influencers/celebrities",
+              "post": "20% Event Placement & Luxury Brand Collabs – Strategically placing products at high-end events",
+              "continuity": "strong",
+              "scope": "PRE includes influencers/celebrities. POST lists fashion shows, private dinners, art exhibitions",
+              "frame": "PRE: celebrity-attended. POST: high-end event-venue focused",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "paparazzi/event photographer capturing images with wine/drink/snacks",
+              "post": "paparazzi/event photographers capturing organic moments",
+              "continuity": "strong",
+              "scope": "similar",
+              "frame": "PRE: staged imagery with specific props. POST: organic moments",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+              "post": "25% Short-Form Aesthetic Content – High-production brand catalog visuals, ASMR-style product interactions, process videos",
+              "continuity": "strong",
+              "scope": "PRE: younger audiences unspecified. POST: ASMR-style, craftsmanship, unboxing content types",
+              "frame": "PRE: audience-targeted. POST: content-type enriched (sensory/process)",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "PR packages for Influencers - 30%",
+              "post": "25% Short-Form Aesthetic Content – High-production brand catalog visuals",
+              "reason": "Different content categories; pairing would force lineage between PR and short-form aesthetic which share no semantic neighborhood."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "PR packages for Influencers - 30%",
+              "post": "30% Influencer Seeding & PR – Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+              "basis": "Same 30% bucket and PR-package mechanism; frame shifts from distribution to seeding-for-organic-demand."
+            },
+            {
+              "pre": "Visual guides by interiors - 25%",
+              "post": "25% Interior Styling & Design Guides – Partnering with interior designers to showcase how silverware elevates modern living spaces",
+              "basis": "Same 25% interior-designer bucket; frame shifts from output-format to partnership-and-aspiration."
+            },
+            {
+              "pre": "luxury brand collabs with glassware provision",
+              "post": "20% Event Placement & Luxury Brand Collabs – Strategically placing products at high-end events",
+              "basis": "Same luxury-collab activity; frame shifts from free-provision transactions to strategic event placement."
+            },
+            {
+              "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+              "post": "25% Short-Form Aesthetic Content – High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+              "basis": "Same short-form aesthetic catalog content; frame shifts from audience-targeting to content-format enrichment."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "PR packages for Influencers - 30%",
+              "post": "30% Influencer Seeding & PR – Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Subsumption test fails: 'organic demand via select-influencer seeding' is not a specific way of being 'PR packages for influencers.' Same territory, shifted frame (distribution → seeding/organic-demand). Alternative Narrowed (scope restriction to luxury/fashion/interior) was considered but the frame shift is the more salient change."
+            },
+            {
+              "type": "confirm",
+              "pre": "Visual guides by interiors - 25%",
+              "post": "25% Interior Styling & Design Guides – Partnering with interior designers to showcase how silverware elevates modern living spaces",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Frame shifts from format (visual guides) to partnership-and-aspiration (silverware elevating modern living). Same territory, different organizing lens. Elaborated would require keeping the format frame and only adding detail."
+            },
+            {
+              "type": "confirm",
+              "pre": "luxury brand collabs with glassware provision",
+              "post": "20% Event Placement & Luxury Brand Collabs – Strategically placing products at high-end events",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Free-collaboration/provision frame → strategic-placement frame. Same underlying activity, different organizing emphasis. No tier-1 subsumption."
+            },
+            {
+              "type": "confirm",
+              "pre": "aesthetic short-form content on brand catalogue targeting younger audiences",
+              "post": "25% Short-Form Aesthetic Content – High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Audience-targeting frame → content-format-enrichment frame. Lens shifts from who to what-format. Same content bucket, different organizing principle. Boundary case vs Elaborated, but the frame-level shift (audience vs format) makes Reframed stronger."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6zod2ohpaufzn82l",
+            "code": "Reframed",
+            "preEvidence": "PR packages for Influencers - 30%",
+            "postEvidence": "30% Influencer Seeding & PR – Exclusive PR packages to select influencers in luxury, fashion, interior spaces to create organic demand",
+            "rationale": "Distribution/pr-package frame → seeding-and-organic-demand frame. Same territory, shifted organizing lens. No subsumption: organic-demand seeding is not a specific way of being PR-package distribution.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6zod20enu87x7z1dj",
+            "code": "Reframed",
+            "preEvidence": "Visual guides by interiors - 25%",
+            "postEvidence": "25% Interior Styling & Design Guides – Partnering with interior designers to showcase how silverware elevates modern living spaces",
+            "rationale": "Format-focused frame → partnership-and-aspirational-lifestyle frame. PRE emphasized output format; POST reframes as designer partnership showcasing aspirational living. Same territory, different organizing principle.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6zod2xevjxgz1zk",
+            "code": "Reframed",
+            "preEvidence": "luxury brand collabs with glassware provision",
+            "postEvidence": "20% Event Placement & Luxury Brand Collabs – Strategically placing products at high-end events",
+            "rationale": "Free-collaboration/provision frame → strategic-placement frame. Same activity, conceptual emphasis shifts from transactional provision to strategic event placement.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6zod23r8l2nu9srn",
+            "code": "Reframed",
+            "preEvidence": "aesthetic short-form content on brand catalogue targeting younger audiences",
+            "postEvidence": "25% Short-Form Aesthetic Content – High-production brand catalog visuals, ASMR-style product interactions, process videos (craftsmanship, materials, unboxing)",
+            "rationale": "Audience-targeting frame → content-format-enrichment frame. Same content bucket; lens shifts from demographic targeting to sensory/process format specification.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "events_possibly_collapsed",
+            "critic_restore_rejected_unit_already_matched"
+          ],
+          "coderNotes": "The PRE response is somewhat disjointed (one bullet + one run-on sentence + a fragment), making unitization slightly interpretive. The four matched pairs cluster around what is fundamentally a re-organization of the same four content buckets into a cleaner structure with added specificity and reframed language. Multiple Reframed verdicts sit close to Elaborated; chosen Reframed because the framing emphasis genuinely shifts in each case (distribution→seeding, format→lifestyle, free-collab→strategic-placement, audience→format-type) rather than merely adding detail. No clear-cut New or Removed concepts after re-check. Percentage split shifts from 30/25/+rest to 30/25/20/25, but this is structural reorganization rather than a semantic event. Critic applied 4 correction(s). Rejected 2 critic restore(s) that reused an already-matched unit: event placement at luxury events with influencers/celebrities → 20% Event Placement & Luxury Brand Collabs – Strategically placing products at high-end events (fashion shows, private dinners, art exhibitions); paparazzi/event photographer capturing images with wine/drink/snacks → paparazzi/event photographers capturing organic moments."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "[ XYZ ] offers a catalogue of luxury silverware - ice cream cups, coffee cups using predominantly silver & metal materials with minimalist design offering sense of luxury and taste. Category: Home silverware/interior"
+      },
+      "post": {
+        "answer": "A curated collection of luxury silverware—including ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces—crafted from premium silver, brass, and other metals. Each piece is designed with minimalist elegance, offering a fusion of functional art and timeless luxury. Category: High-end home silverware & interior accessories."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST elaborates the product offering by adding two new item types (cocktail glasses, bespoke serving pieces), naming additional metals (brass), and rephrasing the framing of luxury as 'functional art and timeless luxury.' These are meaningful additions rather than wholesale restructuring; one or two new explanatory clauses plus added specificity.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "XYZ offers a catalogue of luxury silverware",
+            "ice cream cups, coffee cups",
+            "silver & metal materials",
+            "minimalist design",
+            "sense of luxury and taste",
+            "Category: Home silverware/interior"
+          ],
+          "postConcepts": [
+            "A curated collection of luxury silverware",
+            "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+            "premium silver, brass, and other metals",
+            "minimalist elegance",
+            "fusion of functional art and timeless luxury",
+            "Category: High-end home silverware & interior accessories"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "XYZ offers a catalogue of luxury silverware",
+              "post": "A curated collection of luxury silverware",
+              "continuity": "Both describe the offering as a collection/catalogue of luxury silverware",
+              "scope": "Both refer to the full product offering",
+              "frame": "Pre uses 'offers a catalogue' (transactional/retail frame); Post uses 'curated collection' (artisan/gallery frame)",
+              "stretch": "Modest reframing",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "ice cream cups, coffee cups",
+              "post": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+              "continuity": "Identical items plus additions",
+              "scope": "POST is a proper superset",
+              "frame": "Same frame",
+              "stretch": "Clear expansion",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "silver & metal materials",
+              "post": "premium silver, brass, and other metals",
+              "continuity": "Both specify metallic materials",
+              "scope": "POST names additional metals (brass) and adds 'premium' qualifier",
+              "frame": "Pre frame = material composition; Post frame = premium material positioning",
+              "stretch": "Elaborated",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "minimalist design",
+              "post": "minimalist elegance",
+              "continuity": "Both reference minimalism in design",
+              "scope": "Same scope",
+              "frame": "Pre = 'design' focus; Post = 'elegance' focus (aesthetic outcome)",
+              "stretch": "Reframed or elaborated",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "sense of luxury and taste",
+              "post": "fusion of functional art and timeless luxury",
+              "continuity": "Both invoke luxury; taste vs functional art + timeless luxury",
+              "scope": "Comparable scope",
+              "frame": "Pre = sensory/aesthetic impression (luxury and taste); Post = positioning as art object with timeless value",
+              "stretch": "Reframed",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Category: Home silverware/interior",
+              "post": "Category: High-end home silverware & interior accessories",
+              "continuity": "Same category; POST adds 'high-end' qualifier",
+              "scope": "POST narrows to premium tier",
+              "frame": "Same frame, scope-restricted",
+              "stretch": "Narrowed",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "XYZ offers a catalogue of luxury silverware",
+              "post": "A curated collection of luxury silverware",
+              "basis": "Same core concept (collection of luxury silverware) with frame shift from catalogue/transactional to curated/artisan"
+            },
+            {
+              "pre": "ice cream cups, coffee cups",
+              "post": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+              "basis": "POST is a proper superset of the PRE item list"
+            },
+            {
+              "pre": "silver & metal materials",
+              "post": "premium silver, brass, and other metals",
+              "basis": "Same metallic-material frame with added 'premium' qualifier and explicit metals"
+            },
+            {
+              "pre": "minimalist design",
+              "post": "minimalist elegance",
+              "basis": "Minimalism persists with frame shift from design-as-style to elegance-as-outcome"
+            },
+            {
+              "pre": "sense of luxury and taste",
+              "post": "fusion of functional art and timeless luxury",
+              "basis": "Both invoke luxury; frame shifts from sensory impression to artistic-timeless positioning"
+            },
+            {
+              "pre": "Category: Home silverware/interior",
+              "post": "Category: High-end home silverware & interior accessories",
+              "basis": "POST restricts the category to a premium-tier subset and broadens with 'interior accessories'"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "XYZ offers a catalogue of luxury silverware",
+              "post": "A curated collection of luxury silverware",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Catalogue->curated is a genuine frame shift (transactional retail register -> artisan/gallery register), not added detail. Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "ice cream cups, coffee cups",
+              "post": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "POST is a proper superset of the PRE item list, retaining both originals and adding new categories. Expanded is correct; Elaborated would apply only if the original items were kept verbatim with descriptors layered on."
+            },
+            {
+              "type": "confirm",
+              "pre": "silver & metal materials",
+              "post": "premium silver, brass, and other metals",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "The underlying category (metallic materials) is intact; POST adds the 'premium' qualifier and names brass explicitly. Same organizing frame, only detail added. Per BC-P001, this is Elaborated, not Reframed."
+            },
+            {
+              "type": "confirm",
+              "pre": "minimalist design",
+              "post": "minimalist elegance",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Minimalism persists but the frame shifts from design-as-style to elegance-as-outcome. Not a scope restriction (Narrowed fails), not mere descriptor layering (Elaborated fails), and the frame genuinely shifts. Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "sense of luxury and taste",
+              "post": "fusion of functional art and timeless luxury",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Both invoke luxury, but PRE frames it as sensory impression (taste) while POST frames it as artistic-timeless positioning. Narrowed fails: taste is not a specific way of being functional-art-timeless-luxury, and the concept dropped ('taste') is substantive enough that subsumption does not hold. Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "Category: Home silverware/interior",
+              "post": "Category: High-end home silverware & interior accessories",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "High-end home silverware is a proper subset of home silverware/interior (scope restriction), and POST also expands the category by adding 'interior accessories'. The scope restriction alone satisfies Narrowed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6zo29w5daey4ex3",
+            "code": "Reframed",
+            "preEvidence": "XYZ offers a catalogue of luxury silverware",
+            "postEvidence": "A curated collection of luxury silverware",
+            "rationale": "Core concept persists; framing shifts from retail/catalogue register to curated/artisan register. Pre-frame: retail catalogue; Post-frame: curated artisan collection.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6zo29ek02m71rrl9",
+            "code": "Expanded",
+            "preEvidence": "ice cream cups, coffee cups",
+            "postEvidence": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+            "rationale": "POST retains both PRE-listed items and broadens the product set by adding cocktail glasses and bespoke serving pieces.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6zo29mchajzjbxl",
+            "code": "Elaborated",
+            "preEvidence": "silver & metal materials",
+            "postEvidence": "premium silver, brass, and other metals",
+            "rationale": "Metallic-material concept intact; POST adds 'premium' qualifier and names brass explicitly. Same organizing frame, detail added.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6zo294dvrremgs5y",
+            "code": "Reframed",
+            "preEvidence": "minimalist design",
+            "postEvidence": "minimalist elegance",
+            "rationale": "Minimalism persists; framing shifts from design-as-style to elegance-as-outcome.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6zo29tvg9oofvfcc",
+            "code": "Reframed",
+            "preEvidence": "sense of luxury and taste",
+            "postEvidence": "fusion of functional art and timeless luxury",
+            "rationale": "Both invoke luxury; PRE frames as sensory impression (taste) while POST frames as artistic-timeless positioning. Narrowed fails because taste is not subsumed under functional-art-timeless-luxury.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6zo29ccrf1jqz4zc",
+            "code": "Narrowed",
+            "preEvidence": "Category: Home silverware/interior",
+            "postEvidence": "Category: High-end home silverware & interior accessories",
+            "rationale": "POST restricts the category to the premium-tier subset (high-end), satisfying Narrowed's scope-restriction test.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "boundary_case_elab_vs_reframe"
+          ],
+          "coderNotes": "All PRE concepts found POST successors; no New or Removed events required. The minimalist design -> minimalist elegance pair sits close to the ELAB/REFRAME boundary; chose Reframed because the conceptual emphasis shifts from design attribute to aesthetic register. Pre-genericness signal not strong for 'sense of luxury and taste' (already a substantive pairing); treated as sibling concepts under luxury framing. Critic applied 6 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 8
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 3,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 4,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 4,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": -1,
+          "Familiarity/Market Understanding": -1,
+          "Business Potential (Profit and Market Demand)": -1,
+          "Alignment with Personal Values": -1,
+          "Curiosity and Learning Opportunity": -1,
+          "Consumer trends, social media trends, peer trends": -1,
+          "Other": -1
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ],
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "I have previously worked as a Junior Marketing Manager for a media company / podcast named Privileged Few. While, I was not working with the team at the branding stage, I have joined the team at a relatively early stage -- and brought a fresh perspective with incorporating certain experiments onto our social channels.\nI have also taken an Entrepreneurship Experienced class at NYU Shanghai, where I had to create a start-up from scratch and generate its first revenue which I was able to do with branding & marketing of my novice company."
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 9
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 6
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 7
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 6
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Frequent user: 5-10 times per week"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "Nope, I have not had prior training in using AI"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 6
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "wording, and getting more exact in terms of product offering."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "I did not like the NYU platform specifically the UI/UX of the platform. also general"
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 7
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 7
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 7
+      }
+    ]
+  },
+  "name": "Nartay Ualikhan"
+}

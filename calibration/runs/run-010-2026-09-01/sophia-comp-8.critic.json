@@ -1,0 +1,88 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "eco-friendly",
+      "post": "eco-friendly equipment",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Eco-friendly retains the same underlying attribute and is simply attached to the equipment noun. No frame change, no subsumption; modifiers added within same category. Elaborated is correct."
+    },
+    {
+      "type": "recode",
+      "pre": "pilates equipment",
+      "post": "eco-friendly equipment",
+      "from_code": "Reframed",
+      "to_code": "Elaborated",
+      "reason": "The product category (equipment) is retained; only the modifier shifts from implicit pilates-specific framing to explicit eco-friendly framing. The organizing frame around the product category is not fundamentally different \u2014 the noun/category stays intact and a new modifier is added. This is elaborated detail within the same conceptual frame, not a reframing."
+    },
+    {
+      "type": "confirm",
+      "pre": "safe",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Safety is a distinct product-quality attribute. No POST successor shares the safety semantic role; nearest counterparts (eco-friendly, packability) are different attributes. Correctly Removed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "easily packable for travel",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Travel packability is a distinct portability/use-condition attribute with no defensible PRE antecedent. Safety, eco-friendliness, and equipment-category are all different domains. Correctly New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "eco-friendly",
+      "post": "eco-friendly equipment",
+      "basis": "Environmental attribute is retained and attached to the equipment category."
+    },
+    {
+      "pre": "pilates equipment",
+      "post": "eco-friendly equipment",
+      "basis": "The product category (equipment) is retained; the descriptive modifier shifts from implicit pilates-specific to explicit eco-friendly, adding detail within the same frame."
+    }
+  ],
+  "unmatched_pre": [
+    "safe"
+  ],
+  "unmatched_post": [
+    "easily packable for travel"
+  ],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "eco-friendly",
+      "post_evidence": "Eco-friendly equipment",
+      "rationale": "The eco-friendly attribute is retained and made more explicit by attaching it to the equipment product category; no new conceptual direction or frame shift occurs.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "pilates equipment that are safe and eco-friendly",
+      "post_evidence": "Eco-friendly equipment",
+      "rationale": "The product category (equipment) is intact. The modifier emphasis shifts from a general pilates-specific frame to an explicit eco-friendly descriptor, but the organizing frame around the product category is not fundamentally changed \u2014 this is added/modified detail within the same conceptual frame.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "safe",
+      "post_evidence": null,
+      "rationale": "Safety is a distinct product-quality attribute. No POST concept occupies the safety semantic role; nearest counterparts are different attributes. All transformation tiers fail.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "easily packable for travel",
+      "rationale": "Travel packability is a distinct portability/use-condition attribute. No PRE antecedent shares this semantic role; safety, eco-friendliness, and the equipment category are all different domains.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ]
+}

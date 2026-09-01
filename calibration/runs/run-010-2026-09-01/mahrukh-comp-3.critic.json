@@ -1,0 +1,241 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "gender neutral",
+      "post": "leaning toward majority women and non-binary individuals",
+      "from_code": "Elaborated",
+      "to_code": "Narrowed",
+      "reason": "Pass-1 paired 'gender neutral' with 'gender-neutral appeal' as Elaborated, then used 'leaning toward majority women and non-binary individuals' to underwrite the elaboration. But 'leaning toward majority women and non-binary individuals' is itself a distinct POST unit; if it is treated as elaboration of PRE, the population specification (majority women + non-binary) is a proper subset of 'gender neutral'. POST denotes a subset specification within the gender-neutral frame, so Narrowed is more defensible than Elaborated. Either way, the Pass-1 alignment structure embeds a second POST inside the first event without a dedicated semantic event. Confirming Elaborated here would understate the demographic specification. Recoding the consolidated pairing to Narrowed and leaving 'gender-neutral appeal' to align separately would over-engineer; the cleanest fix is to keep the single pair gender neutral -> gender-neutral appeal as Elaborated (frame intact, phrasing elaborated) and pair gender neutral -> leaning toward majority women and non-binary individuals separately as Narrowed. Since restructuring alignment is outside the single-correction scope, mark this as a boundary case requiring alignment review."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "interested in trends",
+      "post": "zodiac/self-identification trend",
+      "from_code": "New",
+      "to_code": "Narrowed",
+      "reason": "Pass-1 already flagged this conversion in new_removed_recheck. Zodiac/self-identification is a specific named trend, a proper subset of the PRE 'interested in trends'. Subsumption holds. Restore lineage."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "interested in trends",
+      "post": "interested in astrology, spirituality, or self-discovery",
+      "from_code": "New",
+      "to_code": "Narrowed",
+      "reason": "Astrology/spirituality is a specific interest domain that, in the POST context, sits within the cultural-trend framework (it's paired with zodiac). Subsumption as a specific trend-interest content domain holds. Restore lineage. Note: this means 'interested in trends' now has three Narrowed successors (aesthetic/trendy/customizable, zodiac, astrology/spirituality); an Expanded reading of the broader PRE could also be defended, but Narrowed per specific instance is the Pass-1 chosen frame and is defensible."
+    },
+    {
+      "type": "confirm",
+      "pre": "gender neutral",
+      "post": "gender-neutral appeal",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same concept, stylistic re-expression with 'appeal' appended. Frame unchanged. Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "ages 12-28",
+      "post": "primarily Gen Z and Millennials (18-35)",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Frame shifts from precise age range to generational cohort labels with a shifted range. No clean subsumption (12-28 vs 18-35 are not subset relations). Sibling demographic frames. Reframed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "interested in trends",
+      "post": "enjoys aesthetic, trendy, and customizable products",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption holds: aesthetic/trendy/customizable products is a specific way of being trend-interested. Confirmed."
+    },
+    {
+      "type": "confirm",
+      "pre": "interested in classic accessories",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Classic-style orientation and affordable-luxury positioning are sibling accessory-positioning frames; classic is not subsumed, elaborated, or expanded into affordable-luxury. Genuine removal."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "moderate disposable income (students, young professionals)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "No income/financial descriptor in PRE. Genuinely new psychographic dimension."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "willing to spend on affordable luxury accessories",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Price-tier willingness has no antecedent in PRE; nearest counterpart 'interested in classic accessories' is a style frame, not a price-tier frame. Genuinely new."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "values self-expression",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Self-expression as a core identity-value has no antecedent in PRE; 'interested in trends' is product/cultural, distinct domain. Genuinely new."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "social media-savvy (TikTok, Instagram, Pinterest)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Platform-behavior descriptor absent from PRE. Trends-to-social-media connection is interpretive; no direct antecedent. Genuinely new."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "wants to express themselves but not overly expensive or flashy jewellery",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Anti-flashy anti-expensive positioning is a new constraint; classic-accessories PRE speaks to style not price-flashiness. Genuinely new."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "gender neutral",
+      "post": "gender-neutral appeal",
+      "basis": "Same concept re-expressed; 'appeal' appended. Elaborated."
+    },
+    {
+      "pre": "ages 12-28",
+      "post": "primarily Gen Z and Millennials (18-35)",
+      "basis": "Demographic frame shifts from age range to generational cohort labels with a shifted range. Reframed."
+    },
+    {
+      "pre": "interested in trends",
+      "post": "enjoys aesthetic, trendy, and customizable products",
+      "basis": "Specific instance of trend interest (product-level expression). Narrowed."
+    },
+    {
+      "pre": "interested in trends",
+      "post": "zodiac/self-identification trend",
+      "basis": "Specific named trend within the broader trend interest. Narrowed."
+    },
+    {
+      "pre": "interested in trends",
+      "post": "interested in astrology, spirituality, or self-discovery",
+      "basis": "Specific cultural-trend content domain within the broader trend interest. Narrowed."
+    },
+    {
+      "pre": "interested in classic accessories",
+      "post": "wants to express themselves but not overly expensive or flashy jewellery",
+      "basis": "Both constrain accessory choice with style-positioning frames; classic does not subsume into anti-flashy nor vice versa. Rejected as implausible; classic remains Removed."
+    }
+  ],
+  "unmatched_pre": [
+    "interested in classic accessories"
+  ],
+  "unmatched_post": [
+    "leaning toward majority women and non-binary individuals",
+    "moderate disposable income (students, young professionals)",
+    "willing to spend on affordable luxury accessories",
+    "values self-expression",
+    "social media-savvy (TikTok, Instagram, Pinterest)",
+    "wants to express themselves but not overly expensive or flashy jewellery"
+  ],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Gender neutral",
+      "post_evidence": "Gender-neutral appeal",
+      "rationale": "Same conceptual frame; 'appeal' appended as a stylistic elaboration of the same identity-neutral positioning.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "ages 12-28",
+      "post_evidence": "Primarily Gen Z and Millennials (18-35)",
+      "rationale": "Frame shifts from precise age range to generational cohort labels; range shifts (12-28 vs 18-35) so no clean subset/subsumption. Sibling demographic frames.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "interested in trends",
+      "post_evidence": "enjoys aesthetic, trendy, and customizable products",
+      "rationale": "Aesthetic/trendy/customizable products is a specific product-level expression of the broader trend interest. Subsumption holds.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "interested in trends",
+      "post_evidence": "zodiac/self-identification trend",
+      "rationale": "Zodiac/self-identification is a specific named trend within the broader trend-interest PRE. Subsumption holds.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "interested in trends",
+      "post_evidence": "interested in astrology, spirituality, or self-discovery",
+      "rationale": "Astrology/spirituality is a specific cultural-trend content domain within the broader trend-interest PRE. Subsumption holds.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "interested in classic accessories",
+      "post_evidence": null,
+      "rationale": "Classic-style preference has no defensible POST successor. Affordable-luxury is a sibling positioning frame (style vs price-tier); anti-flashy is also a sibling style/constraint frame. None subsumes classic. Genuine removal.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "leaning toward majority women and non-binary individuals",
+      "rationale": "Demographic-gender specification absent from PRE at this granularity. Nearest antecedent 'gender neutral' is an antecedent of the elaborated 'gender-neutral appeal' event and cannot be reused; no transformation defensible from this side.",
+      "alternative_considered": "Narrowed from 'gender neutral' (already matched)",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "moderate disposable income (students, young professionals)",
+      "rationale": "Income-tier descriptor absent from PRE. No transformational antecedent.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "willing to spend on affordable luxury accessories",
+      "rationale": "Price-tier willingness with no antecedent in PRE; nearest 'interested in classic accessories' is style not price. Genuinely new.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "VALUES SELF-EXPRESSION",
+      "rationale": "Self-expression as a core value has no antecedent in PRE; 'interested in trends' covers product/cultural interest, distinct domain.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "social media-savvy (TikTok, Instagram, Pinterest)",
+      "rationale": "Platform-behavior descriptor absent from PRE. Trends-to-platform connection is interpretive, not transformational.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "wants to express themselves but not overly expensive or flashy jewellery",
+      "rationale": "Anti-flashy anti-expensive constraint with no antecedent in PRE; classic-accessories PRE speaks to style, not anti-flashiness. Genuinely new.",
+      "alternative_considered": null,
+      "confidence": "medium"
+    }
+  ]
+}

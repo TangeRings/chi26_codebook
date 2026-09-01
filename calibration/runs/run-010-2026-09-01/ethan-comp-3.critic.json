@@ -1,0 +1,73 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "guitar players",
+      "post": "guitar players",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Identical anchor; pass-1 Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "all ages",
+      "post": "18-30 year olds (eco-friendly picks segment)",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Scope restriction: 18-30 is a proper subset of all ages; subsumption holds; pass-1 Narrowed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "all ages",
+      "post": "broader age range skewed towards older players (luxury picks segment)",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Scope restriction: post explicitly excludes the youngest segment and is skewed toward older players; proper subset of 'all ages'; Narrowed is correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "guitar players",
+      "post": "guitar players",
+      "basis": "Identical core audience anchor; persists across the response."
+    },
+    {
+      "pre": "all ages",
+      "post": "18-30 year olds (eco-friendly picks segment)",
+      "basis": "Both age-range descriptors; post restricts age scope to a specific product-line segment. Proper subset of PRE."
+    },
+    {
+      "pre": "all ages",
+      "post": "broader age range skewed towards older players (luxury picks segment)",
+      "basis": "Both age-range descriptors; post narrows away from the youngest segment and binds to a product line. Proper subset of PRE."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Guitar players",
+      "post_evidence": "guitar players",
+      "rationale": "Identical anchor persists verbatim; post adds product-line segmentation and age scoping around the same concept without changing its identity.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "all ages",
+      "post_evidence": "18-30 year olds (eco-friendly picks segment)",
+      "rationale": "Scope restriction. 18-30 year olds is a proper subset of all ages; subsumption holds. Product-line binding is added detail but does not change the narrowing verdict.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "all ages",
+      "post_evidence": "broader age range but slightly skewed towards older players (luxury picks segment)",
+      "rationale": "Scope restriction. Post explicitly excludes the youngest segment by skewing toward older players; a restricted subset of all ages; subsumption holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

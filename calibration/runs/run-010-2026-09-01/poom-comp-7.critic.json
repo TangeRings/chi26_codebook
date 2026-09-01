@@ -1,0 +1,94 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "meme content (25%)",
+      "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same content category (memes/comedy) retained; POST adds topical anchors (culture/travel/daily life) and a tonal label ('Relatable Comedy'). Underlying noun/category is intact \u2014 descriptors added, not reframed. Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "review content about life/places/moments (25%)",
+      "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Same review-of-life category preserved; POST adds geography (China) and sub-topics (cultural experiences, funny reflections). Frame unchanged; detail added. Elaborated is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "language learning content (25%)",
+      "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Subsumption test: 'Language & Cultural Learning is a specific way of being language learning' \u2014 partly true but POST adds a cultural-comparison dimension and bilingual framing (Thai-English-Chinese) that changes the organizing lens from pure linguistic learning to cultural-bilingual learning. Same territory, shifted frame. Reframed is correct; not Narrowed because the added cultural framing is more than scope/population restriction."
+    },
+    {
+      "type": "confirm",
+      "pre": "random content (25%)",
+      "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Both fill the residual fourth-bucket role, but PRE frames it as unplanned filler ('random') and POST reconceives that slot as deliberate 'Personal & Experimental Content' with named sub-genres. Same residual-bucket territory; organizing frame shifts from unplanned-catch-all to intentional personal/experimental. Reframed is correct."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "meme content (25%)",
+      "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+      "basis": "Same meme/comedy content category; POST adds topical anchors and tonal label"
+    },
+    {
+      "pre": "review content about life/places/moments (25%)",
+      "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+      "basis": "Same review-of-life category; POST specifies geography and sub-topics"
+    },
+    {
+      "pre": "language learning content (25%)",
+      "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+      "basis": "Both name language-learning content; POST shifts organizing frame from linguistic to cultural-bilingual comparison"
+    },
+    {
+      "pre": "random content (25%)",
+      "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+      "basis": "Both are the residual fourth bucket; PRE is unplanned catch-all, POST is deliberate personal/experimental"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "meme content (25%)",
+      "post_evidence": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+      "rationale": "Meme/comedy category retained; POST adds experiential anchors (culture/travel/daily life) and a relatability tone. Underlying category intact, detail added.",
+      "alternative_considered": "Narrowed \u2014 rejected because 'relatable comedy about culture/travel/daily life' is not a strict subset of 'meme content'; it adds a tonal and topical qualifier rather than restricting scope.",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "review content about life/places/moments (25%)",
+      "post_evidence": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+      "rationale": "Review-of-life category retained; POST specifies geography (China) and expands sub-topics (cultural experiences, funny reflections). Same frame, added detail.",
+      "alternative_considered": "Narrowed \u2014 rejected because POST broadens topics rather than restricting to a subset of the original review content.",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "language learning content (25%)",
+      "post_evidence": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+      "rationale": "Language-learning territory persists but the organizing frame shifts from pure linguistic learning to bilingual cultural comparison (Thai-English-Chinese) with a 'fun lessons' tone. Sibling/related concept on the same content-strategy territory, not a subtype.",
+      "alternative_considered": "Elaborated \u2014 rejected because POST introduces a cultural-comparison dimension that changes the organizing lens, not merely adds descriptors to the same category.",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "random content (25%)",
+      "post_evidence": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+      "rationale": "Same residual-fourth-bucket role, but PRE frames it as unplanned filler while POST reconceives it as deliberate personal/experimental content with named sub-genres. Frame shift from catch-all to intentional identity.",
+      "alternative_considered": "Elaborated \u2014 rejected because POST does not merely add modifiers to 'random'; it replaces the organizing concept (unplanned) with a different one (intentional personal/experimental).",
+      "confidence": "medium"
+    }
+  ]
+}

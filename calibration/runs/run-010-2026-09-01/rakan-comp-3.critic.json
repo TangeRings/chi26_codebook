@@ -1,0 +1,254 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "real estate developers in RAK",
+      "post": "Real Estate Developers in RAK",
+      "from_code": "Reframed",
+      "to_code": "Elaborated",
+      "reason": "Pass-1 issued both Reframed and Elaborated for the same pair with conflicting rationales. The category 'Real Estate Developers' is preserved intact; the change is added demographic/lifestyle/interest/behavior detail within the same organizing frame (developers as a target segment). That is Elaborated, not Reframed. The organizing frame did not shift."
+    },
+    {
+      "type": "reject_pairing",
+      "pre": "Behavior: value convenience, automation, and seamless home integration",
+      "post": "Interior Designers interests (design, home automation, eco-friendly, modern architecture, smart homes)",
+      "from_code": "Reframed",
+      "to_code": null,
+      "reason": "Forced pairing across different conceptual domains. PRE is end-user consumer value-behavior; POST is professional interest profile of an entirely new audience. Shared keyword overlap ('automation', 'smart homes') does not establish a semantic neighborhood \u2014 it is exactly the kind of thematic adjacency that the ladder cannot bridge. No neighborhood exists; tier 5 applies and the behavior stays Removed (matched with the New for Interior Designers in RAK)."
+    },
+    {
+      "type": "recode",
+      "pre": "Middle to Upper Middle Income home-owners",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Confirm Removed. Consumer home-owner end-users vs B2B professional audiences in POST occupy genuinely different conceptual domains; ladder fails at every tier."
+    },
+    {
+      "type": "recode",
+      "pre": "Foreign Investors",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Confirm Removed. Capital provider vs project operator \u2014 different conceptual domains; no defensible transformation."
+    },
+    {
+      "type": "recode",
+      "pre": "Businesspeople moving to RAK",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Confirm Removed. Transient relocating end-user vs established design professional \u2014 different conceptual domains; no lineage."
+    },
+    {
+      "type": "recode",
+      "pre": null,
+      "post": "Interior Designers in RAK",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Confirm New. No PRE antecedent exists for the Interior Designers audience; nearest counterparts (home-owners, businesspeople) are different-domain end-users."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Interior Designers demographics (age 30-55, income AED 10k-25k, job titles, location)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Demographic spec for a newly introduced B2B audience has no PRE antecedent; income-bracket overlap with home-owners is coincidental. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Interior Designers lifestyle (aesthetics, modern trends, cutting-edge tech, sustainability)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Lifestyle framing for the new professional audience has no PRE antecedent; end-user convenience behavior sits in a different frame. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Interior Designers interests (design, home automation, eco-friendly, modern architecture, smart homes)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "With the rejected forced pairing removed, this professional interest profile has no PRE antecedent. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Interior Designers behavior (Instagram, Pinterest, Houzz, industry events)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Channel/event behavior for a new B2B audience has no PRE antecedent. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Real Estate Developers demographics (age 35-60, high income, job titles, location)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Demographic detail added to the elaborated Real Estate Developers audience; subsumed under the Elaborated pairing rather than standing as a separate event. Carried forward as New to preserve the granular POST units, with the elaboration relationship documented."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Real Estate Developers lifestyle (high-quality, value-adding, innovative, future-proof)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Professional developer value-orientation; PRE behavior unit (end-user convenience) was rejected as forced pairing. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Real Estate Developers interests (real estate development, property management, bulk buying, smart home tech)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Professional interest profile for developers; no PRE antecedent survives the rejection of the behavior-unit pairing. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Real Estate Developers behavior (real estate expos, investment forums, scalable smart home solutions)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Channel/event behavior for B2B developers has no PRE antecedent. New stands."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "real estate developers in RAK",
+      "post": "Real Estate Developers in RAK",
+      "basis": "Same audience, same conceptual frame, detail added (demographics, lifestyle, interests, behavior). Elaborated."
+    }
+  ],
+  "unmatched_pre": [
+    "Middle to Upper Middle Income home-owners",
+    "Foreign Investors",
+    "Businesspeople moving to RAK",
+    "Behavior: value convenience, automation, and seamless home integration"
+  ],
+  "unmatched_post": [
+    "Interior Designers in RAK",
+    "Interior Designers demographics (age 30-55, income AED 10k-25k, job titles, location)",
+    "Interior Designers lifestyle (aesthetics, modern trends, cutting-edge tech, sustainability)",
+    "Interior Designers interests (design, home automation, eco-friendly, modern architecture, smart homes)",
+    "Interior Designers behavior (Instagram, Pinterest, Houzz, industry events)",
+    "Real Estate Developers demographics (age 35-60, high income, job titles, location)",
+    "Real Estate Developers lifestyle (high-quality, value-adding, innovative, future-proof)",
+    "Real Estate Developers interests (real estate development, property management, bulk buying, smart home tech)",
+    "Real Estate Developers behavior (real estate expos, investment forums, scalable smart home solutions)"
+  ],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "real estate developers in RAK",
+      "post_evidence": "Real Estate Developers in RAK, with demographic, lifestyle, interest, and behavior segmentation",
+      "rationale": "The category (Real Estate Developers) is preserved; the change is added demographic/lifestyle/interest/behavior detail within the same organizing frame. Organizing frame does not shift, so Elaborated is correct.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Middle to Upper Middle Income home-owners",
+      "post_evidence": null,
+      "rationale": "Consumer home-owner end-users vs B2B professional audiences in POST. No neighborhood; ladder fails at every tier.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Foreign Investors",
+      "post_evidence": null,
+      "rationale": "Capital provider vs project operator \u2014 different conceptual domains; no defensible transformation.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Businesspeople moving to RAK",
+      "post_evidence": null,
+      "rationale": "Transient relocating end-user vs established design professional \u2014 different conceptual domains; no lineage.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Behavior: value convenience, automation, and seamless home integration",
+      "post_evidence": null,
+      "rationale": "End-user consumer value-behavior has no defensible POST successor. Keyword overlap with developer/designer automation/smart-home interests is thematic adjacency only, not a semantic neighborhood. Forced pairing rejected.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Interior Designers in RAK",
+      "rationale": "Interior Designers as a target audience has no antecedent in PRE; nearest counterparts are different-domain end-users. Tested all four transformation codes; none defensible.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Interior Designers demographics (age 30-55, income AED 10k-25k, job titles, location)",
+      "rationale": "Demographic specification for the newly introduced Interior Designers audience; income-bracket overlap with home-owners is coincidental, not lineage.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Interior Designers lifestyle (aesthetics, modern trends, cutting-edge tech, sustainability)",
+      "rationale": "Lifestyle framing for a new professional audience has no PRE antecedent; end-user convenience behavior is a different frame.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Interior Designers interests (design, home automation, eco-friendly, modern architecture, smart homes)",
+      "rationale": "Professional interest profile for the new Interior Designers audience; PRE pairing rejected as forced across domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Interior Designers behavior (Instagram, Pinterest, Houzz, industry events)",
+      "rationale": "Channel/event behavior for a new B2B audience has no PRE antecedent.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Real Estate Developers demographics (age 35-60, high income, job titles, location)",
+      "rationale": "Demographic detail for the elaborated Real Estate Developers audience; carried as granular POST unit alongside the Elaborated event.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Real Estate Developers lifestyle (high-quality, value-adding, innovative, future-proof)",
+      "rationale": "Professional developer value-orientation has no PRE antecedent; PRE behavior pairing was rejected.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Real Estate Developers interests (real estate development, property management, bulk buying, smart home tech)",
+      "rationale": "Professional interest profile for developers; no PRE antecedent.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Real Estate Developers behavior (real estate expos, investment forums, scalable smart home solutions)",
+      "rationale": "Channel/event behavior for B2B developers has no PRE antecedent.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

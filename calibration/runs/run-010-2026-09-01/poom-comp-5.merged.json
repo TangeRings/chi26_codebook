@@ -1,0 +1,251 @@
+{
+  "coding_unit": {
+    "student_id": "poom",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "Young people who like to learn new cultures",
+      "Duolingo-like cultural learning audience"
+    ],
+    "post_concepts": [
+      "Thai students & expats in China",
+      "Trilingual (Thai/English/Chinese) storytellers",
+      "Humor-based cultural commentary creators",
+      "Multilingual Thai student living in China positioning"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Young people who like to learn new cultures",
+        "post": "Thai students & expats in China",
+        "continuity": "Both identify an audience around cross-cultural learning",
+        "scope": "Pre is broad (young people generally); Post restricts to Thai nationals navigating China",
+        "frame": "Pre frames audience by cultural-learning interest; Post frames audience by nationality + geographic situation",
+        "stretch": "Significant narrowing of audience scope with shift to nationality-based identity",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Young people who like to learn new cultures",
+        "post": "Trilingual (Thai/English/Chinese) storytellers",
+        "continuity": "Multilingual capability is a means of cross-cultural engagement",
+        "scope": "Post specifies a creator-side capability rather than audience; different role",
+        "frame": "Pre: audience with interest; Post: creator archetype with trilingual skill",
+        "stretch": "Different roles (audience vs creator positioning)",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Young people who like to learn new cultures",
+        "post": "Humor-based cultural commentary creators",
+        "continuity": "Humor + cultural commentary resonates with the cultural-learning interest",
+        "scope": "Post specifies tone (humor) and format (commentary); narrower format descriptor",
+        "frame": "Pre: learner audience; Post: content style/approach",
+        "stretch": "Different conceptual units",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Young people who like to learn new cultures",
+        "post": "Multilingual Thai student living in China positioning",
+        "continuity": "Personal positioning that enables cross-cultural content",
+        "scope": "Post is creator positioning, not audience",
+        "frame": "Identity vs audience",
+        "stretch": "Different roles",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Duolingo-like cultural learning audience",
+        "post": "Thai students & expats in China",
+        "continuity": "Both involve learning/operating in a foreign culture",
+        "scope": "Duolingo is language-learning analogy; Post is specific expat/student demographic",
+        "frame": "Pre: language-learning analogy; Post: lived expat experience demographic",
+        "stretch": "The Duolingo reference is illustrative in Pre; the audience it gestures at is broadly the same population (young people learning a new culture)",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Young people who like to learn new cultures",
+        "post": "Humor-based cultural commentary creators",
+        "reason": "Pre is an audience description; Post is a content-style/creator-archetype description. Different conceptual roles."
+      },
+      {
+        "pre": "Young people who like to learn new cultures",
+        "post": "Multilingual Thai student living in China positioning",
+        "reason": "Pre is audience; Post is creator self-positioning. Different domains."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Young people who like to learn new cultures",
+        "post": "Thai students & expats in China",
+        "basis": "Scope restriction: POST is a nationality + geographic subset of the PRE audience. Narrowed."
+      },
+      {
+        "pre": "Duolingo-like cultural learning audience",
+        "post": "Trilingual (Thai/English/Chinese) storytellers",
+        "basis": "POST broadens the PRE language-learning audience into a multilingual storytelling creator archetype within the same cross-cultural engagement neighborhood. Expanded."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Humor-based cultural commentary creators",
+      "Multilingual Thai student living in China positioning"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Duolingo-like cultural learning audience",
+        "direction": "removed",
+        "nearest_counterpart": "Trilingual (Thai/English/Chinese) storytellers",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Duolingo analogy is a language-learning reference; Trilingual Storyteller is a creator archetype combining Thai/English/Chinese. While both touch multilingual/cross-cultural engagement, Duolingo targets learners of a single new language; the Trilingual Storyteller niche targets audiences who appreciate multilingual storytelling. No subsumption (Trilingual Storyteller is not a subset of Duolingo-like learners), no shared organizing frame (learner vs storyteller), no elaboration, no broadening of the Duolingo reference. Adjacency is topical only."
+      },
+      {
+        "concept": "Trilingual (Thai/English/Chinese) storytellers",
+        "direction": "new",
+        "nearest_counterpart": "Young people who like to learn new cultures",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Trilingual Storyteller is a creator archetype (the student themselves as a trilingual content creator). PRE describes a learner audience interested in new cultures. No subsumption: a trilingual storyteller is not a specific subset of culture-curious young people. No shared organizing frame (creator archetype vs learner audience). Not elaboration or expansion of the audience concept. Different conceptual domains."
+      },
+      {
+        "concept": "Humor-based cultural commentary creators",
+        "direction": "new",
+        "nearest_counterpart": "Young people who like to learn new cultures",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Humor-based cultural commentary is a content style/tone descriptor for creators. PRE describes a learner audience. No subsumption, no shared frame (style descriptor vs audience), no elaboration/expansion. Different conceptual domains."
+      },
+      {
+        "concept": "Multilingual Thai student living in China positioning",
+        "direction": "new",
+        "nearest_counterpart": "Duolingo-like cultural learning audience",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Multilingual Thai student in China is creator self-positioning anchored in personal biography. PRE describes an audience interested in learning new cultures, with a Duolingo analogy for language learning. No subsumption: the personal creator position is not a subset of the audience. No shared organizing frame (self-identity vs audience). Different conceptual domains."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "recode",
+        "pre": "Duolingo-like cultural learning audience",
+        "post": "Trilingual (Thai/English/Chinese) storytellers",
+        "from_code": "Removed+New",
+        "to_code": "Expanded",
+        "reason": "Both concepts live in the same semantic neighborhood of multilingual/cross-cultural engagement. PRE is an audience anchored in learning new languages/cultures (Duolingo analogy); POST broadens to a creator archetype that uses multilingual capability to tell stories across cultures. Subsumption fails (storyteller not a subset of Duolingo audience) and frame differs (learner vs storyteller), so not Narrowed/Reframed. POST does broaden an identifiable PRE seed \u2014 the language-learning learner audience \u2014 into a multilingual storytelling creator. Expanded is defensible and beats Removed+New. Restoring lineage here consumes the only remaining PRE unit and the strongest counterpart POST unit."
+      },
+      {
+        "type": "restore_lineage",
+        "pre": "Duolingo-like cultural learning audience",
+        "post": "Trilingual (Thai/English/Chinese) storytellers",
+        "from_code": null,
+        "to_code": "Expanded",
+        "reason": "See recode correction. Replaces the provisional Removed + New pair with a single Expanded event."
+      },
+      {
+        "type": "confirm",
+        "pre": "Young people who like to learn new cultures",
+        "post": "Thai students & expats in China",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption test passes: Thai students & expats in China are a specific subset of young people interested in cross-cultural learning. PRE is broad; scope restriction holds. Confirmed per BC-004 and the anti-over-correction guard."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Humor-based cultural commentary creators",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Nearest antecedent (Duolingo-like learners) is now matched to Trilingual Storyteller and cannot be reused. Humor-based cultural commentary is a content-style descriptor with no remaining available PRE antecedent. New stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Multilingual Thai student living in China positioning",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Nearest antecedent (Young people who like to learn new cultures) is already matched to Thai students & expats in China and cannot be reused. Self-positioning concept has no available antecedent. New stands."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "The pre-response is a single sentence identifying one audience (young culture-learners) with a Duolingo analogy. The post-response is an extensive multi-paragraph expansion introducing three distinct niche formulations (Thai in China, Trilingual Storyteller, Comedy Meets Culture), each with intersection rationale, content ideas, and a comparative recommendation. This is a substantial structural addition at the clause, sentence, and explanation level."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Young people who like to learn new cultures",
+      "post_evidence": "Thai students & expats in China",
+      "rationale": "POST restricts PRE's broad 'young people interested in cross-cultural learning' audience to Thai nationals specifically navigating life in China. Thai students & expats in China are a specific subset; subsumption holds and PRE is generic.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "Duolingo-like cultural learning audience",
+      "post_evidence": "Trilingual (Thai/English/Chinese) storytellers",
+      "rationale": "PRE anchors a language-learning learner audience via the Duolingo analogy. POST broadens this seed into a multilingual storytelling creator archetype (Thai/English/Chinese). Same cross-cultural engagement neighborhood; subsumption fails (creator not a subset of learners), frame shifts (learner vs storyteller), but POST does broaden an identifiable PRE seed. Expanded.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Humor-based cultural commentary creators",
+      "rationale": "Content-style/format descriptor with no available PRE antecedent (the only candidate, Duolingo-like learners, is now matched to Trilingual Storyteller and cannot be reused). Neighborhood gate: cultural-engagement territory, but no defensible transformation with the remaining PRE pool.",
+      "alternative_considered": "Elaborated from Trilingual Storyteller",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Multilingual Thai student living in China positioning",
+      "rationale": "Creator self-positioning anchored in personal biography. Nearest antecedent (Young people who like to learn new cultures) is already matched and cannot be reused. No defensible transformation code against remaining PRE.",
+      "alternative_considered": "Narrowed from Young people who like to learn new cultures",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [
+    {
+      "code": "Personal Background",
+      "evidence": "you're living it",
+      "rationale": "The student is explicitly positioned through their lived experience as a Thai student living in China, anchoring the niche strategy in personal biography. This appears in the AI-quoted text but is presented as the student's own framing.",
+      "confidence": "low"
+    }
+  ],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "new_removed_recheck_passed",
+      "vague_to_specific_lineage",
+      "boundary_case_narrow_vs_reframe",
+      "lineage_restored_by_critic",
+      "neighborhood_protected"
+    ],
+    "coder_notes": "The post-response is explicitly framed as ChatGPT-generated output quoted by the student ('This is what ChatGPT told me...'), which complicates agency attribution. Agency evidence appears inside quoted AI text rather than in the student's own voice, so confidence is low and the event is included only tentatively. Several New/Removed events survive the re-check but cluster near topical adjacency, which is typical for an item where one short audience descriptor expands into multiple niche formulations. The Duolingo analogy removal is the most defensible Removed because the analogy itself does not reappear in any form in POST. Critic applied 5 correction(s). Lineage restored for 1 pair(s): Duolingo-like cultural learning audience \u2192 Trilingual (Thai/English/Chinese) storytellers."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

@@ -1,0 +1,253 @@
+{
+  "coding_unit": {
+    "student_id": "peter",
+    "item_id": "comp-1c"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Quality",
+      "Unique"
+    ],
+    "post_concepts": [
+      "Innovation",
+      "Quality",
+      "Cultural Fusion",
+      "Sustainability",
+      "Inclusivity"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Quality",
+        "post": "Innovation",
+        "continuity": "Both are aspirational brand values, but operational standards vs novelty orientation are different lenses",
+        "scope": "Both broad; no subset relation",
+        "frame": "Quality frame (craft/standard) vs Innovation frame (newness/originality)",
+        "stretch": "Moderate topical adjacency; not same semantic territory",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Quality",
+        "post": "Quality",
+        "continuity": "Identical term preserved",
+        "scope": "Identical",
+        "frame": "Identical",
+        "stretch": "None",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Quality",
+        "post": "Cultural Fusion",
+        "continuity": "Both touch on brand substance/content; weak continuity",
+        "scope": "No subset relation",
+        "frame": "Quality (excellence) vs Cultural Fusion (blending traditions)",
+        "stretch": "Topical adjacency only",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Quality",
+        "post": "Sustainability",
+        "continuity": "Both could relate to 'responsible' brand posture, but stretchy",
+        "scope": "No subset relation",
+        "frame": "Quality (excellence) vs Sustainability (environmental responsibility)",
+        "stretch": "Adjacent only at 'values' umbrella",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Quality",
+        "post": "Inclusivity",
+        "continuity": "Both aspirational values; weak continuity",
+        "scope": "No subset relation",
+        "frame": "Quality vs Inclusivity (audience/accessibility)",
+        "stretch": "Topical adjacency only",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Unique",
+        "post": "Innovation",
+        "continuity": "Both relate to originality/distinctiveness; potentially related sibling",
+        "scope": "No clear subset",
+        "frame": "Unique (being one-of-a-kind) vs Innovation (creating new things)",
+        "stretch": "Moderate stretch; could share 'originality' territory",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Unique",
+        "post": "Quality",
+        "continuity": "Distinctiveness vs excellence; minimal",
+        "scope": "No subset",
+        "frame": "Different frames",
+        "stretch": "Topical adjacency only",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Unique",
+        "post": "Cultural Fusion",
+        "continuity": "Distinctiveness and cultural blending share some originality territory",
+        "scope": "No clear subset",
+        "frame": "Unique (one-of-a-kind) vs Cultural Fusion (blending traditions)",
+        "stretch": "Possible shared 'differentiation' neighborhood, borderline",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Unique",
+        "post": "Sustainability",
+        "continuity": "Distinctiveness vs environmental responsibility; different domains",
+        "scope": "No subset",
+        "frame": "Different frames",
+        "stretch": "Topical adjacency only",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Unique",
+        "post": "Inclusivity",
+        "continuity": "Distinctiveness vs accessibility/welcome; arguably opposite impulses",
+        "scope": "No subset",
+        "frame": "Different frames",
+        "stretch": "Topical adjacency only",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Quality",
+        "post": "Cultural Fusion",
+        "reason": "Different conceptual domains (excellence vs cultural blending); same broad 'values' umbrella does not constitute a neighborhood (abstraction ceiling)"
+      },
+      {
+        "pre": "Quality",
+        "post": "Sustainability",
+        "reason": "Different conceptual domains; only topically adjacent at 'brand values' umbrella"
+      },
+      {
+        "pre": "Quality",
+        "post": "Inclusivity",
+        "reason": "Different conceptual domains; no shared semantic neighborhood"
+      },
+      {
+        "pre": "Unique",
+        "post": "Quality",
+        "reason": "Different conceptual domains; only topically adjacent"
+      },
+      {
+        "pre": "Unique",
+        "post": "Sustainability",
+        "reason": "Different conceptual domains; no shared neighborhood"
+      },
+      {
+        "pre": "Unique",
+        "post": "Inclusivity",
+        "reason": "Different conceptual domains; no shared neighborhood"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Quality",
+        "post": "Quality",
+        "basis": "Identical descriptor preserved across PRE and POST"
+      },
+      {
+        "pre": "Unique",
+        "post": "Innovation",
+        "basis": "Both relate to originality/distinctiveness; potential shared neighborhood (differentiation). Weak but defensible as the strongest non-conflicting successor for Unique. Walked the ladder to test."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Cultural Fusion",
+      "Sustainability",
+      "Inclusivity"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Cultural Fusion",
+        "direction": "new",
+        "nearest_counterpart": "Unique",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "Cultural Fusion is the brand-content angle; Unique is distinctiveness. Tested: Narrowed (Cultural Fusion is a specific way of being Unique? FALSE \u2014 distinctiveness and cultural blending are sibling concepts at best, and PRE-genericness does not save it since 'Unique' is moderately specific rather than generic filler). Instead, paired Unique\u2192Innovation and emitted Cultural Fusion as New after full search showed no better PRE antecedent."
+      },
+      {
+        "concept": "Sustainability",
+        "direction": "new",
+        "nearest_counterpart": "Quality",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Full-response search: Quality covers excellence but Sustainability covers environmental/social responsibility \u2014 different conceptual domains. Narrowed: FALSE (not a subset). Reframed: FALSE (no shared territory at a specific level; 'values' umbrella is over-abstracted). Elaborated/Expanded: no recognizable seed in PRE. Survival of New is justified."
+      },
+      {
+        "concept": "Inclusivity",
+        "direction": "new",
+        "nearest_counterpart": "Quality",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Full-response search: nearest candidates are Quality (excellence) and Unique (distinctiveness). Inclusivity is audience/accessibility \u2014 different domain. Narrowed/Reframed/Elaborated/Expanded all fail (no shared neighborhood at a specific level). Kept as New."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE contains two descriptors (Quality, Unique); POST contains five (Innovation, Quality, Cultural Fusion, Sustainability, Inclusivity). Three entirely new value concepts have been added, expanding the value system from a thin two-item list to a five-item elaborated value framework. The overall scope and depth of the response is meaningfully larger."
+  },
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "Unique",
+      "post_evidence": "Innovation",
+      "rationale": "Both descriptors sit in an 'originality/distinctiveness' neighborhood. Subsumption test: 'Innovation is a specific way of being Unique' is FALSE \u2014 innovation (creating new things) and uniqueness (being one-of-a-kind) are sibling framings, not a subtype relation. PRE 'Unique' is moderately specific (not a generic filler), so PRE-genericness signal does not apply. Same semantic territory (differentiation/originality) persists, but the organizing frame shifts: static distinctiveness \u2192 active novelty creation. Pre-frame: distinctiveness frame; Post-frame: novelty/origination frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Cultural Fusion",
+      "rationale": "After full-response search: nearest PRE antecedent is 'Unique' (distinctiveness), which paired to 'Innovation' on a differentiation neighborhood. Cultural Fusion (blending cultural traditions) is a brand-content concept with no defensible lineage from either PRE descriptor. Narrowed/Reframed/Elaborated/Expanded all fail \u2014 different conceptual domains (cultural content vs distinctiveness).",
+      "alternative_considered": "Reframed from Unique",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Sustainability",
+      "rationale": "After full-response search: nearest PRE antecedents are Quality and Unique. Neither is a defensible seed for environmental/social responsibility. Narrowed/Reframed/Elaborated/Expanded all fail \u2014 different conceptual domains. Kept as New.",
+      "alternative_considered": "Reframed from Quality",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Inclusivity",
+      "rationale": "After full-response search: nearest PRE antecedents are Quality and Unique. Neither covers audience/accessibility orientation. Narrowed/Reframed/Elaborated/Expanded all fail \u2014 different conceptual domains. Kept as New.",
+      "alternative_considered": "Reframed from Unique",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "neighborhood_lineage_only"
+    ],
+    "coder_notes": "The Unique\u2192Innovation pairing rests on a weak 'originality/differentiation' neighborhood; subsumption clearly fails so Reframed is the best-supported verdict, but the shared territory is moderately stretched. Alternative of assigning Unique=Removed and Innovation=New was considered and rejected because a defensible lineage exists via the differentiation neighborhood."
+  },
+  "coded_at": "2025-01-01T00:00:00Z",
+  "model": "MiniMax-M3"
+}

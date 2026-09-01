@@ -1,0 +1,234 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Moderate Addition",
+    "structuralRationale": "POST reframes the offering from a material-specification list to a product-line architecture (core + limited collaborations with indie designers). This adds structural description about the offering model and introduces the indie-designer collaboration concept, but the core subject (demi-fine jewelry) remains. One meaningful conceptual addition (collaborative limited releases); the prior material specs are dropped.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry"
+      ],
+      "postConcepts": [
+        "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+          "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+          "continuity": "Both center on demi-fine jewelry; PRE specifies materials (14k-20k Gold, 925 Sterling Silver, vermeil), POST specifies structural offering pattern (core + limited collaborations with indie designers)",
+          "scope": "POST reframes the offering from material specs to a collection/release architecture",
+          "frame": "PRE frame: material/composition specification; POST frame: product-line structure and collaboration model",
+          "stretch": "Moderate stretch \u2014 material specificity replaced by portfolio architecture",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [],
+      "matchedPairs": [
+        {
+          "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+          "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+          "basis": "Both describe the demi-fine jewelry product offering. PRE specifies material composition (14k-20k gold, 925 sterling silver, vermeil); POST specifies portfolio architecture (core collection supplemented by limited indie-designer collaborations). Same territory, different organizing frame."
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+          "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Pass-1 correctly identified same product-offering neighborhood with shifted organizing frame (material composition \u2192 portfolio/collection architecture). Subsumption fails (core collection is not a specific way of being material-spec), so Reframed is correct. Elaborated is a reasonable runner-up but the frame genuinely shifts."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6v5270r35jkolol8",
+        "code": "Reframed",
+        "preEvidence": "14k to 20k Gold and 925 Sterling Silver Demi-fine vermeil jewelry",
+        "postEvidence": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+        "rationale": "Both describe the same product offering (demi-fine jewelry). PRE's organizing frame is material/composition specification; POST's organizing frame is portfolio structure with collaborative limited drops. The underlying product is intact but the lens shifts from 'what it's made of' to 'how the line is structured and extended.'",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated (POST adds release structure but also reorients from material specs, so frame shift is genuine rather than mere detail addition)"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe"
+      ],
+      "coderNotes": "Single semantic event. The transformation could alternatively be read as Elaborated if one views the portfolio architecture as additional detail on top of the material specification, but the material specs are dropped (not retained) and a new organizing frame (collection structure + indie collaborations) is introduced, so Reframed is the better-supported code. The indie-designer collaboration element has no antecedent in PRE and is absorbed into the Reframed event because it is part of the new framing rather than a separately added concept. Critic applied 1 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "julia",
+      "item_id": "comp-8"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry"
+      ],
+      "post_concepts": [
+        "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+          "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+          "continuity": "Both center on demi-fine jewelry; PRE specifies materials (14k-20k Gold, 925 Sterling Silver, vermeil), POST specifies structural offering pattern (core + limited collaborations with indie designers)",
+          "scope": "POST reframes the offering from material specs to a collection/release architecture",
+          "frame": "PRE frame: material/composition specification; POST frame: product-line structure and collaboration model",
+          "stretch": "Moderate stretch \u2014 material specificity replaced by portfolio architecture",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+          "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+          "basis": "Both describe the demi-fine jewelry product offering. PRE specifies material composition (14k-20k gold, 925 sterling silver, vermeil); POST specifies portfolio architecture (core collection supplemented by limited indie-designer collaborations). Same territory, different organizing frame."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+          "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Pass-1 correctly identified same product-offering neighborhood with shifted organizing frame (material composition \u2192 portfolio/collection architecture). Subsumption fails (core collection is not a specific way of being material-spec), so Reframed is correct. Elaborated is a reasonable runner-up but the frame genuinely shifts."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "POST reframes the offering from a material-specification list to a product-line architecture (core + limited collaborations with indie designers). This adds structural description about the offering model and introduces the indie-designer collaboration concept, but the core subject (demi-fine jewelry) remains. One meaningful conceptual addition (collaborative limited releases); the prior material specs are dropped."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "14k to 20k Gold and 925 Sterling Silver Demi-fine vermeil jewelry",
+        "post_evidence": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+        "rationale": "Both describe the same product offering (demi-fine jewelry). PRE's organizing frame is material/composition specification; POST's organizing frame is portfolio structure with collaborative limited drops. The underlying product is intact but the lens shifts from 'what it's made of' to 'how the line is structured and extended.'",
+        "alternative_considered": "Elaborated (POST adds release structure but also reorients from material specs, so frame shift is genuine rather than mere detail addition)",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe"
+      ],
+      "coder_notes": "Single semantic event. The transformation could alternatively be read as Elaborated if one views the portfolio architecture as additional detail on top of the material specification, but the material specs are dropped (not retained) and a new organizing frame (collection structure + indie collaborations) is introduced, so Reframed is the better-supported code. The indie-designer collaboration element has no antecedent in PRE and is absorbed into the Reframed event because it is part of the new framing rather than a separately added concept. Critic applied 1 correction(s)."
+    },
+    "coded_at": "2025-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "julia",
+      "item_id": "comp-8"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry"
+      ],
+      "post_concepts": [
+        "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+          "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+          "continuity": "Both center on demi-fine jewelry; PRE specifies materials (14k-20k Gold, 925 Sterling Silver, vermeil), POST specifies structural offering pattern (core + limited collaborations with indie designers)",
+          "scope": "POST reframes the offering from material specs to a collection/release architecture",
+          "frame": "PRE frame: material/composition specification; POST frame: product-line structure and collaboration model",
+          "stretch": "Moderate stretch \u2014 material specificity replaced by portfolio architecture",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+          "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+          "basis": "Both responses describe the product offering centered on demi-fine jewelry. The specific material composition in PRE is reframed as a collection architecture in POST, with demi-fine jewelry as the common anchor."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "POST reframes the offering from a material-specification list to a product-line architecture (core + limited collaborations with indie designers). This adds structural description about the offering model and introduces the indie-designer collaboration concept, but the core subject (demi-fine jewelry) remains. One meaningful conceptual addition (collaborative limited releases); the prior material specs are dropped."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "14k to 20k Gold and 925 Sterling Silver Demi-fine vermeil jewelry",
+        "post_evidence": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+        "rationale": "Both responses describe the same product offering (demi-fine jewelry), but PRE frames it in terms of material composition (gold karats, sterling silver, vermeil) while POST frames it in terms of portfolio architecture (core collection supplemented by limited indie-designer collaborations). The organizing frame shifts from material specification to collection/release structure. PRE frame: material-composition specification; POST frame: portfolio structure with collaborative limited drops.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe"
+      ],
+      "coder_notes": "Single semantic event. The transformation could alternatively be read as Elaborated if one views the portfolio architecture as additional detail on top of the material specification, but the material specs are dropped (not retained) and a new organizing frame (collection structure + indie collaborations) is introduced, so Reframed is the better-supported code. The indie-designer collaboration element has no antecedent in PRE and is absorbed into the Reframed event because it is part of the new framing rather than a separately added concept."
+    },
+    "coded_at": "2025-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+        "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Pass-1 correctly identified same product-offering neighborhood with shifted organizing frame (material composition \u2192 portfolio/collection architecture). Subsumption fails (core collection is not a specific way of being material-spec), so Reframed is correct. Elaborated is a reasonable runner-up but the frame genuinely shifts."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+        "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+        "basis": "Both describe the demi-fine jewelry product offering. PRE specifies material composition (14k-20k gold, 925 sterling silver, vermeil); POST specifies portfolio architecture (core collection supplemented by limited indie-designer collaborations). Same territory, different organizing frame."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "14k to 20k Gold and 925 Sterling Silver Demi-fine vermeil jewelry",
+        "post_evidence": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+        "rationale": "Both describe the same product offering (demi-fine jewelry). PRE's organizing frame is material/composition specification; POST's organizing frame is portfolio structure with collaborative limited drops. The underlying product is intact but the lens shifts from 'what it's made of' to 'how the line is structured and extended.'",
+        "alternative_considered": "Elaborated (POST adds release structure but also reorients from material specs, so frame shift is genuine rather than mere detail addition)",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "skipCritic": false
+}

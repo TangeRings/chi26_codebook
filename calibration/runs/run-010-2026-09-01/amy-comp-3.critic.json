@@ -1,0 +1,136 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "female professionals",
+      "post": "female professionals aged 20-35 who work on their feet",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Subsumption test: 'female professionals aged 20-35 who work on their feet is a specific way of being female professionals' is false (population restriction). Same audience territory, frame shifts from demographic identity to occupational-function. Reframed is correct; do not downgrade to Narrowed."
+    },
+    {
+      "type": "confirm",
+      "pre": "gay men",
+      "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Gay-men seed is identifiable and explicitly broadened to include gender-fluid consumers (not a subset). Expanded is correct; Reframed would require a frame shift within the same population, but here population is widened."
+    },
+    {
+      "type": "recode",
+      "pre": "aged 20-30",
+      "post": "female professionals aged 20-35 who work on their feet",
+      "from_code": "Expanded",
+      "to_code": "Narrowed",
+      "reason": "Critical: aged 20-30 is being paired with the POST unit, but the POST unit already has its primary antecedent (female professionals). A second event cannot reuse the same POST. The 'aged 20-30' PRE concept is being absorbed/merged into the female-professionals pairing, not standing as an independent transformation. However, since this would force one POST into two events, the cleaner solution is: the aged 20-30 demographic detail is a component of the female-professionals \u2192 female-professionals-20-35-(work on feet) Narrowed pair (age restriction 20-30\u219220-35 is a proper-set widening of the bound). Remove the standalone 'aged 20-30' event; absorb as part of the Narrowed rationale."
+    },
+    {
+      "type": "confirm",
+      "pre": "fashionable functional artistic footwear",
+      "post": "comfort without losing out on wearability",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "POST keeps the same product-attribute frame and adds concrete detail (comfort + wearability) to the functional dimension. Same underlying category (functional footwear), descriptors added. Elaborated is correct; not Narrowed (comfort-with-wearability is not a specific way of being fashionable-functional-artistic footwear as a whole)."
+    },
+    {
+      "type": "recode",
+      "pre": "fashionable functional artistic footwear",
+      "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+      "from_code": "Expanded",
+      "to_code": "Narrowed",
+      "reason": "The POST specifies a particular use-case/audience for the artistic-footwear concept. 'Footwear for dancers and performers who need high-impact resistance' is a specific way of being artistic footwear (a proper subtype/realization of artistic footwear). Subsumption holds: artistic footwear intended for drag/ballroom/vogue performers IS a specific way of being artistic footwear. Narrowed, not Expanded."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest antecedent tested: gay men. Narrowed fails (gender-fluid is not a subset of gay men). Expanded holds but the gay-men antecedent is already matched. No other PRE unit is a defensible antecedent. The standalone sizing/inclusivity framing for gender-neutral heels is genuinely new. New is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "female students",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Pass-1 marked this as Removed but did not emit a standalone Removed event; female students is absorbed into the female-professionals pairing's scope rationale. Confirm it stays removed/converted."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "female professionals + aged 20-30",
+      "post": "female professionals aged 20-35 who work on their feet",
+      "basis": "Narrowed: female professionals who work on their feet is a specific subset of female professionals (occupational qualifier + age 20-35 superset of 20-30). The aged 20-30 PRE concept is absorbed into this pairing as the age-bound component."
+    },
+    {
+      "pre": "gay men",
+      "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+      "basis": "Expanded: gay-men seed broadened to include gender-fluid consumers with added sizing/inclusivity rationale."
+    },
+    {
+      "pre": "fashionable functional artistic footwear",
+      "post": "comfort without losing out on wearability",
+      "basis": "Elaborated: functional dimension made concrete as comfort + wearability within the same product-attribute frame."
+    },
+    {
+      "pre": "fashionable functional artistic footwear",
+      "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+      "basis": "Narrowed: performance/dance-specific high-impact footwear is a specific way of being artistic footwear."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels (as standalone sizing concept)"
+  ],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "female professionals; aged 20-30",
+      "post_evidence": "female professionals aged 20-35 who work on their feet",
+      "rationale": "Same audience (female professionals) with two scope restrictions: occupational (work on feet) and age (20-30 \u2192 20-35, a proper widening of the bound). The POST is a proper subset of female professionals and a proper widening of aged 20-30. Subsumption: 'female professionals aged 20-35 who work on their feet is a specific way of being female professionals' is TRUE (population restriction). Narrowed is correct.",
+      "alternative_considered": "Reframed (rejected: this is a scope restriction, not a frame shift)",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "gay men",
+      "post_evidence": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+      "rationale": "Gay-men segment preserved and explicitly broadened to include gender-fluid consumers. Gender-fluid is not a subset of gay men, so Narrowed fails. The population is widened with an added inclusivity/sizing rationale.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "fashionable functional artistic footwear",
+      "post_evidence": "comfort without losing out on wearability",
+      "rationale": "Functional dimension concretised as comfort + wearability within the same product-attribute frame. Detail added, not frame shifted.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "fashionable functional artistic footwear",
+      "post_evidence": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+      "rationale": "Performance/dance-specific high-impact footwear is a specific way of being artistic footwear \u2014 a proper subtype realization of the artistic-footwear concept with concrete use-case and functional rationale. Subsumption holds: 'footwear for drag/ballroom/vogue performers with high-impact resistance is a specific way of being artistic footwear' is TRUE.",
+      "alternative_considered": "Expanded (rejected: POST does not broaden the artistic-footwear seed; it specifies one particular use-case within it)",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+      "rationale": "Standalone gender-fluid sizing/inclusivity framing has no defensible PRE antecedent. Nearest counterpart (gay men) is already matched in the Expanded pair. Narrowed fails (gender-fluid not subset of gay men). Expanded already absorbed. No other PRE unit is in the same domain.",
+      "alternative_considered": "Expanded (absorbed into gay-men pairing as part of its scope)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "female students",
+      "post_evidence": null,
+      "rationale": "Female students as a distinct PRE concept has no direct POST successor. The female-professionals pairing partially overlaps in age but represents an occupational not educational frame. The 'students' concept was converted/absorbed into the female-professionals Narrowed pairing as a tacit scope consideration rather than a standalone match. Removed is recorded to account for the dropped educational framing.",
+      "alternative_considered": "Narrowed (rejected: students are not a specific way of being professionals)",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Guitar picks",
+      "post": "Guitar picks",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical product category with identical wording; no transformation, no semantic event. Pass-1 correctly produced no events and an identical alignment."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Guitar picks",
+      "post": "Guitar picks",
+      "basis": "identical wording and identical product category; no semantic or propositional difference"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

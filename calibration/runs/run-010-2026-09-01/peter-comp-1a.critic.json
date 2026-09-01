@@ -1,0 +1,79 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Innovative",
+      "post": "innovative",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Direct lexical continuity; no transformation code applies (identity match retained)."
+    },
+    {
+      "type": "confirm",
+      "pre": "Lively",
+      "post": "Fun",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption test passes: 'Fun is a specific way of being Lively.' PRE is a generic energy descriptor, POST is a substantive subtype within that frame. Narrowed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "exotic",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest counterpart Lively tested across all four transformation tiers; all fail (different conceptual domains: energy/playfulness vs unusualness/foreignness). No neighborhood at specific level; abstraction ceiling applies. Leave as New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "premium feel",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest counterpart Innovative tested across all four transformation tiers; all fail (different conceptual domains: novelty/originality vs luxury/quality positioning). No shared neighborhood. Leave as New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Innovative",
+      "post": "innovative",
+      "basis": "direct lexical continuity, same descriptor retained"
+    },
+    {
+      "pre": "Lively",
+      "post": "Fun",
+      "basis": "both describe energetic/playful experiential quality of brand"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "exotic",
+    "premium feel"
+  ],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Lively",
+      "post_evidence": "Fun",
+      "rationale": "Subsumption test: 'Fun is a specific way of being Lively' is TRUE. Lively is a generic energy descriptor that subsumes fun as a specific manifestation. PRE-genericness signal supports Narrowed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "exotic",
+      "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Lively tested: different conceptual domains (energy vs unusualness/foreignness). All four transformation tiers fail.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "premium feel",
+      "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Innovative tested: different conceptual domains (novelty vs luxury/quality positioning). All four transformation tiers fail.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    }
+  ]
+}

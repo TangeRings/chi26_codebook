@@ -1,0 +1,356 @@
+{
+  "coding_unit": {
+    "student_id": "julia",
+    "item_id": "comp-1b"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "redefine accessible luxury",
+      "demi-fine jewelry",
+      "blends simplicity and sophistication",
+      "new standard for sustainability and quality",
+      "mid-tier luxury",
+      "potential expansion into sustainable fashion"
+    ],
+    "post_concepts": [
+      "redefine mid-tier luxury jewelry",
+      "heirloom-quality pieces",
+      "bridge affordability and exclusivity",
+      "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+      "future expansion includes select boutique placements",
+      "potential growth into sustainable fashion"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "redefine accessible luxury",
+        "post": "redefine mid-tier luxury jewelry",
+        "continuity": "Both articulate a redefinition mission in the luxury space",
+        "scope": "PRE is broader ('accessible luxury'); POST specifies the category ('mid-tier luxury jewelry')",
+        "frame": "Same redefining frame",
+        "stretch": "Moderate; 'mid-tier luxury' is a subset of 'accessible luxury'",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "demi-fine jewelry",
+        "post": "redefine mid-tier luxury jewelry",
+        "continuity": "Both name the product category",
+        "scope": "PRE is a specific descriptor; POST uses category-level language",
+        "frame": "Both frame as category",
+        "stretch": "Weak; 'demi-fine' is more specific than 'mid-tier luxury jewelry'",
+        "verdict": "weak"
+      },
+      {
+        "pre": "blends simplicity and sophistication",
+        "post": "bridge affordability and exclusivity",
+        "continuity": "Both articulate the duality the brand offers",
+        "scope": "Comparable scope",
+        "frame": "PRE = aesthetic duality (simplicity/sophistication); POST = price-access duality (affordability/exclusivity)",
+        "stretch": "Plausible; sibling frames on the same duality concept",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "new standard for sustainability and quality",
+        "post": "heirloom-quality pieces",
+        "continuity": "Both concern quality dimension",
+        "scope": "PRE is broad (sustainability + quality); POST focuses on quality only as 'heirloom-quality'",
+        "frame": "PRE = standards/benchmark; POST = tangible quality attribute",
+        "stretch": "Plausible; partial overlap on quality",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "mid-tier luxury",
+        "post": "redefine mid-tier luxury jewelry",
+        "continuity": "Direct lexical overlap",
+        "scope": "Same scope",
+        "frame": "Same frame",
+        "stretch": "Strong",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "mid-tier luxury",
+        "post": "bridge affordability and exclusivity",
+        "continuity": "Both concern the mid-tier positioning",
+        "scope": "Same",
+        "frame": "Positioning-level framing",
+        "stretch": "Moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "potential expansion into sustainable fashion",
+        "post": "potential growth into sustainable fashion",
+        "continuity": "Near-identical phrasing",
+        "scope": "Same",
+        "frame": "Same",
+        "stretch": "Strong",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "demi-fine jewelry",
+        "post": "heirloom-quality pieces",
+        "continuity": "Both describe the product",
+        "scope": "PRE is a category label; POST is a quality attribute of products",
+        "frame": "Different frames",
+        "stretch": "Weak",
+        "verdict": "weak"
+      },
+      {
+        "pre": "demi-fine jewelry",
+        "post": "bridge affordability and exclusivity",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "Implausible across domains",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "new standard for sustainability and quality",
+        "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "Implausible across domains",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "blends simplicity and sophistication",
+        "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "Implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "blends simplicity and sophistication",
+        "post": "heirloom-quality pieces",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "Implausible",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "demi-fine jewelry",
+        "post": "redefine mid-tier luxury jewelry",
+        "reason": "demi-fine is subsumed under redefine mid-tier luxury jewelry, but the more direct lineage is demi-fine \u2192 heirloom-quality pieces (quality specification of product) or via redefine-arc"
+      },
+      {
+        "pre": "new standard for sustainability and quality",
+        "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+        "reason": "Different conceptual domains (standards/benchmark vs target-customer scoping)"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "redefine accessible luxury",
+        "post": "redefine mid-tier luxury jewelry",
+        "basis": "Same redefinition frame; POST narrows 'accessible luxury' to 'mid-tier luxury jewelry' (a specific way of being accessible luxury)"
+      },
+      {
+        "pre": "blends simplicity and sophistication",
+        "post": "bridge affordability and exclusivity",
+        "basis": "Sibling frame shift within brand-duality territory: aesthetic duality vs price-access duality"
+      },
+      {
+        "pre": "new standard for sustainability and quality",
+        "post": "heirloom-quality pieces",
+        "basis": "Sibling concepts on quality territory: PRE frames as standards/benchmark, POST frames as tangible product quality attribute"
+      },
+      {
+        "pre": "potential expansion into sustainable fashion",
+        "post": "potential growth into sustainable fashion",
+        "basis": "Near-paraphrase: same expansion concept with minor verb variation"
+      },
+      {
+        "pre": "demi-fine jewelry",
+        "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+        "basis": "Same demi-fine positioning frame; POST adds target-customer scoping detail"
+      }
+    ],
+    "unmatched_pre": [
+      "mid-tier luxury"
+    ],
+    "unmatched_post": [
+      "future expansion includes select boutique placements"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "mid-tier luxury",
+        "direction": "removed",
+        "nearest_counterpart": "redefine mid-tier luxury jewelry",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "'mid-tier luxury' as a standalone positioning phrase in PRE is absorbed into the redefinition phrase 'redefine mid-tier luxury jewelry' in POST; standalone phrase no longer surfaces separately. After absorption into another matched concept, the standalone form is removed."
+      },
+      {
+        "concept": "heirloom-quality pieces",
+        "direction": "new",
+        "nearest_counterpart": "new standard for sustainability and quality",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "heirloom-quality pieces is a specific quality register of the quality dimension present in PRE; subsumption holds ('heirloom-quality is a specific way of being the quality standard'), and PRE is generic. Converted to Narrowed via the matched pair with 'new standard for sustainability and quality'."
+      },
+      {
+        "concept": "future expansion includes select boutique placements",
+        "direction": "new",
+        "nearest_counterpart": "potential expansion into sustainable fashion",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "'select boutique placements' is an expansion channel with no antecedent in PRE; PRE mentions only sustainable fashion expansion. Full-response search confirms no defensible lineage to 'demi-fine jewelry', 'accessible luxury', or other PRE concepts. Different domain (retail placement vs product-category expansion)."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "redefine accessible luxury",
+        "post": "redefine mid-tier luxury jewelry",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption holds: mid-tier luxury jewelry is a specific way of being accessible luxury. Narrowed is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "blends simplicity and sophistication",
+        "post": "bridge affordability and exclusivity",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Sibling frame shift: aesthetic duality vs price-access duality. Subsumption does not hold. Reframed is correct."
+      },
+      {
+        "type": "recode",
+        "pre": "new standard for sustainability and quality",
+        "post": "heirloom-quality pieces",
+        "from_code": "Narrowed",
+        "to_code": "Reframed",
+        "reason": "Subsumption test fails: 'heirloom-quality is a specific way of being a new standard for sustainability and quality' is not true \u2014 a standard/benchmark is a different organizing frame from a tangible quality attribute. Both share quality territory, but PRE frames as standards/benchmark, POST frames as tangible product quality attribute. Sibling concepts on the same quality territory with shifted frame."
+      },
+      {
+        "type": "recode",
+        "pre": "potential expansion into sustainable fashion",
+        "post": "potential growth into sustainable fashion",
+        "from_code": "Reframed",
+        "to_code": "Elaborated",
+        "reason": "Near-paraphrase: POST keeps the same underlying expansion/growth concept and only varies the verb slightly ('expansion' vs 'growth'). Same frame, minor wording variation. This is elaboration within the same frame, not a frame shift. Elaborated is the better fit; Reframed overclaims a frame shift that doesn't exist."
+      },
+      {
+        "type": "confirm",
+        "pre": "demi-fine jewelry",
+        "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "POST keeps the demi-fine positioning intact and adds target-customer scoping detail. Same product-positioning frame with added detail. Elaborated is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "mid-tier luxury",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Standalone 'mid-tier luxury' is absorbed into the redefinition clause 'redefine mid-tier luxury jewelry'. No separate POST successor. Removed stands."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "future expansion includes select boutique placements",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Boutique placement is a retail channel with no antecedent in PRE (which covers only product-category expansion into sustainable fashion). Different domain. New stands."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST retains the core redefinition vision and adds meaningful new content: a target-customer scoping clause ('designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs'), an explicit retail-placement expansion detail ('select boutique placements'), and a quality specification ('heirloom-quality'). These are one-to-two added clauses plus elaboration of the existing duality idea, consistent with moderate addition rather than significant."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "To redefine accessible luxury",
+      "post_evidence": "To redefine mid-tier luxury jewelry",
+      "rationale": "POST specifies the PRE's 'accessible luxury' into the concrete category 'mid-tier luxury jewelry'. Subsumption holds: 'mid-tier luxury jewelry is a specific way of being accessible luxury'.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "blends simplicity and sophistication",
+      "post_evidence": "bridge affordability and exclusivity",
+      "rationale": "Both articulate the brand's duality, but the organizing frame shifts: PRE uses an aesthetic frame (simplicity/sophistication) while POST uses a price-access frame (affordability/exclusivity). Sibling concepts on the same duality territory; subsumption does not hold.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "new standard for sustainability and quality",
+      "post_evidence": "heirloom-quality pieces",
+      "rationale": "Both address quality, but the organizing frame shifts: PRE frames as standards/benchmark, POST frames as a tangible product quality attribute. Sibling concepts on the same quality territory; 'heirloom-quality is a specific way of being a new standard for sustainability and quality' is not true.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "demi-fine jewelry",
+      "post_evidence": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+      "rationale": "POST keeps the demi-fine positioning intact and adds target-customer scoping detail (relative to solid gold and fully custom designs). Same product-positioning frame with added detail.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "potential expansion into sustainable fashion",
+      "post_evidence": "potential growth into sustainable fashion",
+      "rationale": "Near-paraphrase: POST keeps the same expansion concept and varies only the verb ('expansion' vs 'growth'). Same frame; minor lexical variation, not a frame shift.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "mid-tier luxury",
+      "post_evidence": null,
+      "rationale": "The standalone 'mid-tier luxury' positioning phrase is absorbed into the redefinition clause 'redefine mid-tier luxury jewelry' and does not surface as a separate POST concept.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "future expansion includes select boutique placements",
+      "rationale": "POST introduces boutique placement as an expansion channel. Nearest PRE concept 'potential expansion into sustainable fashion' concerns product-category expansion, a different domain. Narrowed/Reframed/Elaborated/Expanded all fail.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_narrow",
+      "events_possibly_collapsed",
+      "neighborhood_protected",
+      "reframe_downgraded",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "The 'demi-fine jewelry' \u2192 'designed for those who appreciate craftsmanship and longevity...' pairing is the most uncertain: the POST clause reads as scoping who the product is for rather than redefining the product itself. Treated as Elaborated because the demi-fine positioning persists in the redefinition clause, and the customer-scoping clause adds target-market detail without shifting the product frame. The 'potential expansion into sustainable fashion' \u2192 'potential growth into sustainable fashion' event is coded Reframed with low confidence because the two phrasings are near-paraphrases; 'expansion' and 'growth' are near-synonyms and could arguably be style-only. Coded as Reframed rather than omitting because there is a subtle frame shift (expansion as noun vs growth as process). The 'new standard for sustainability and quality' \u2192 'heirloom-quality pieces' is coded Narrowed but only partial: sustainability is not carried forward in this matched pair (it is partially carried by 'longevity' elsewhere in POST). This is a contained limitation rather than a contradiction. Critic applied 7 correction(s)."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

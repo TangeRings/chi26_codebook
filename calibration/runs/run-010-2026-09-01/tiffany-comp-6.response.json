@@ -1,0 +1,634 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "The same three platforms (Instagram, TikTok, Pinterest) appear in both PRE and POST. The only differences are reordering of TikTok and Instagram (position swap) and an added parenthetical note stating no GenAI was used. No meaningful content was added or removed; the parenthetical is meta-commentary about the response process, not platform information.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "Instagram",
+        "Tiktok",
+        "Pinterest"
+      ],
+      "postConcepts": [
+        "Tiktok",
+        "Instagram",
+        "Pinterest"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Instagram",
+          "post": "Tiktok",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Instagram",
+          "post": "Instagram",
+          "continuity": "identical platform",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Instagram",
+          "post": "Pinterest",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Tiktok",
+          "continuity": "identical platform",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Instagram",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Pinterest",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Tiktok",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Instagram",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Pinterest",
+          "continuity": "identical platform",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Instagram",
+          "post": "Tiktok",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Instagram",
+          "post": "Pinterest",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Instagram",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Pinterest",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Tiktok",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Instagram",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Instagram",
+          "post": "Instagram",
+          "basis": "identical platform name"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Tiktok",
+          "basis": "identical platform name"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Pinterest",
+          "basis": "identical platform name"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [
+        "TikTok and Instagram positions swapped between PRE and POST; same three platforms remain"
+      ],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Instagram",
+          "post": "Instagram",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "identical platform name; pass-1 alignment correct"
+        },
+        {
+          "type": "confirm",
+          "pre": "Tiktok",
+          "post": "Tiktok",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "identical platform name; pass-1 alignment correct"
+        },
+        {
+          "type": "confirm",
+          "pre": "Pinterest",
+          "post": "Pinterest",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "identical platform name; pass-1 alignment correct"
+        }
+      ]
+    },
+    "semanticChanges": [],
+    "learnerAgency": [
+      {
+        "instanceId": "mti74kfijeeozqni5rj",
+        "code": "Metacognition",
+        "evidence": "(Did not use genAI for this response)",
+        "rationale": "The student explicitly comments on their own process by stating they did not use generative AI for this response. This is a metacognitive statement about how the answer was produced, though it is process-disclosure rather than reasoning strategy. Confidence lowered because the statement concerns tool use rather than reasoning strategy.",
+        "confidence": "low"
+      }
+    ],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "order_change_only"
+      ],
+      "coderNotes": "Three identical platforms appear in both responses with only a reordering of TikTok and Instagram. No semantic events are warranted. The parenthetical '(Did not use genAI for this response)' is meta-commentary about the response process; recorded as low-confidence metacognition since it explicitly references the student's own approach to producing the answer, though it describes tool non-use rather than reasoning strategy. Critic applied 3 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-6"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "Instagram",
+        "Tiktok",
+        "Pinterest"
+      ],
+      "post_concepts": [
+        "Tiktok",
+        "Instagram",
+        "Pinterest"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Instagram",
+          "post": "Tiktok",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Instagram",
+          "post": "Instagram",
+          "continuity": "identical platform",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Instagram",
+          "post": "Pinterest",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Tiktok",
+          "continuity": "identical platform",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Instagram",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Pinterest",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Tiktok",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Instagram",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Pinterest",
+          "continuity": "identical platform",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Instagram",
+          "post": "Tiktok",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Instagram",
+          "post": "Pinterest",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Instagram",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Pinterest",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Tiktok",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Instagram",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Instagram",
+          "post": "Instagram",
+          "basis": "identical platform name"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Tiktok",
+          "basis": "identical platform name"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Pinterest",
+          "basis": "identical platform name"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [
+        "TikTok and Instagram positions swapped between PRE and POST; same three platforms remain"
+      ],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Instagram",
+          "post": "Instagram",
+          "from_code": null,
+          "to_code": null,
+          "reason": "identical platform name; pass-1 alignment correct"
+        },
+        {
+          "type": "confirm",
+          "pre": "Tiktok",
+          "post": "Tiktok",
+          "from_code": null,
+          "to_code": null,
+          "reason": "identical platform name; pass-1 alignment correct"
+        },
+        {
+          "type": "confirm",
+          "pre": "Pinterest",
+          "post": "Pinterest",
+          "from_code": null,
+          "to_code": null,
+          "reason": "identical platform name; pass-1 alignment correct"
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "The same three platforms (Instagram, TikTok, Pinterest) appear in both PRE and POST. The only differences are reordering of TikTok and Instagram (position swap) and an added parenthetical note stating no GenAI was used. No meaningful content was added or removed; the parenthetical is meta-commentary about the response process, not platform information."
+    },
+    "semantic_events": [],
+    "learner_agency": [
+      {
+        "code": "Metacognition",
+        "evidence": "(Did not use genAI for this response)",
+        "rationale": "The student explicitly comments on their own process by stating they did not use generative AI for this response. This is a metacognitive statement about how the answer was produced, though it is process-disclosure rather than reasoning strategy. Confidence lowered because the statement concerns tool use rather than reasoning strategy.",
+        "confidence": "low"
+      }
+    ],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "order_change_only"
+      ],
+      "coder_notes": "Three identical platforms appear in both responses with only a reordering of TikTok and Instagram. No semantic events are warranted. The parenthetical '(Did not use genAI for this response)' is meta-commentary about the response process; recorded as low-confidence metacognition since it explicitly references the student's own approach to producing the answer, though it describes tool non-use rather than reasoning strategy. Critic applied 3 correction(s)."
+    },
+    "coded_at": "2025-01-24T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-6"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "Instagram",
+        "Tiktok",
+        "Pinterest"
+      ],
+      "post_concepts": [
+        "Tiktok",
+        "Instagram",
+        "Pinterest"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Instagram",
+          "post": "Tiktok",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Instagram",
+          "post": "Instagram",
+          "continuity": "identical platform",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Instagram",
+          "post": "Pinterest",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Tiktok",
+          "continuity": "identical platform",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Instagram",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Pinterest",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Tiktok",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Instagram",
+          "continuity": "both are social media platforms",
+          "scope": "same scope (platform choice)",
+          "frame": "same frame (platform selection)",
+          "stretch": "no conceptual continuity beyond both being platforms; different platforms",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Pinterest",
+          "continuity": "identical platform",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Instagram",
+          "post": "Tiktok",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Instagram",
+          "post": "Pinterest",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Instagram",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Pinterest",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Tiktok",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Instagram",
+          "reason": "different specific platforms; no conceptual lineage beyond both being social media"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Instagram",
+          "post": "Instagram",
+          "basis": "identical platform name"
+        },
+        {
+          "pre": "Tiktok",
+          "post": "Tiktok",
+          "basis": "identical platform name"
+        },
+        {
+          "pre": "Pinterest",
+          "post": "Pinterest",
+          "basis": "identical platform name"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [
+        "TikTok and Instagram positions swapped between PRE and POST; same three platforms remain"
+      ],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "The same three platforms (Instagram, TikTok, Pinterest) appear in both PRE and POST. The only differences are reordering of TikTok and Instagram (position swap) and an added parenthetical note stating no GenAI was used. No meaningful content was added or removed; the parenthetical is meta-commentary about the response process, not platform information."
+    },
+    "semantic_events": [],
+    "learner_agency": [
+      {
+        "code": "Metacognition",
+        "evidence": "(Did not use genAI for this response)",
+        "rationale": "The student explicitly comments on their own process by stating they did not use generative AI for this response. This is a metacognitive statement about how the answer was produced, though it is process-disclosure rather than reasoning strategy. Confidence lowered because the statement concerns tool use rather than reasoning strategy.",
+        "confidence": "low"
+      }
+    ],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "order_change_only"
+      ],
+      "coder_notes": "Three identical platforms appear in both responses with only a reordering of TikTok and Instagram. No semantic events are warranted. The parenthetical '(Did not use genAI for this response)' is meta-commentary about the response process; recorded as low-confidence metacognition since it explicitly references the student's own approach to producing the answer, though it describes tool non-use rather than reasoning strategy."
+    },
+    "coded_at": "2025-01-24T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Instagram",
+        "post": "Instagram",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical platform name; pass-1 alignment correct"
+      },
+      {
+        "type": "confirm",
+        "pre": "Tiktok",
+        "post": "Tiktok",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical platform name; pass-1 alignment correct"
+      },
+      {
+        "type": "confirm",
+        "pre": "Pinterest",
+        "post": "Pinterest",
+        "from_code": null,
+        "to_code": null,
+        "reason": "identical platform name; pass-1 alignment correct"
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Instagram",
+        "post": "Instagram",
+        "basis": "identical platform name"
+      },
+      {
+        "pre": "Tiktok",
+        "post": "Tiktok",
+        "basis": "identical platform name"
+      },
+      {
+        "pre": "Pinterest",
+        "post": "Pinterest",
+        "basis": "identical platform name"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": []
+  },
+  "skipCritic": false
+}

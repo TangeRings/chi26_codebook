@@ -1,0 +1,1824 @@
+{
+  "studentId": "peter",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "I'm currently creating a start-up"
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 7
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 10
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 7
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Heavy user: Multiple times (multiple chats) on a working day; reliant on AI deal with a significant portion of my work"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "No"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "Help me make my information more concise"
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "Sometimes it feels too general."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 10
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 8
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 10
+      }
+    ]
+  },
+  "_seedVersion": "upload-1788218779702",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "Innovative, Lively"
+      },
+      "post": {
+        "answer": "Fun, innovative, and exotic while maintaining a premium feel."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "PRE has two short descriptors. POST has four descriptors plus a connecting clause 'while maintaining a premium feel.' The response gains two new descriptors (Fun, exotic) and elaborates with a qualifying clause. This is meaningful content addition but not extensive restructuring - moderate addition.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Innovative",
+            "Lively"
+          ],
+          "postConcepts": [
+            "Fun",
+            "innovative",
+            "exotic",
+            "premium feel"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Innovative",
+              "post": "Fun",
+              "continuity": "weak - innovative refers to novelty/originality; fun refers to enjoyment/playfulness",
+              "scope": "unrelated",
+              "frame": "unrelated",
+              "stretch": "implausible - different conceptual domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Innovative",
+              "post": "innovative",
+              "continuity": "direct lexical match",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Innovative",
+              "post": "exotic",
+              "continuity": "weak - both suggest distinctiveness but different qualities",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Innovative",
+              "post": "premium feel",
+              "continuity": "weak - innovative is about novelty, premium feel is about quality/luxury positioning",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Lively",
+              "post": "Fun",
+              "continuity": "strong - both descriptors relate to energy/enjoyment/playfulness",
+              "scope": "similar",
+              "frame": "similar experiential quality",
+              "stretch": "plausible",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Lively",
+              "post": "innovative",
+              "continuity": "weak - lively is about energy; innovative about novelty",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Lively",
+              "post": "exotic",
+              "continuity": "moderate - both could connote vibrancy or unusualness",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Lively",
+              "post": "premium feel",
+              "continuity": "weak - lively is energetic, premium is luxurious/quality",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Innovative",
+              "post": "Fun",
+              "reason": "different conceptual domains - novelty vs enjoyment"
+            },
+            {
+              "pre": "Innovative",
+              "post": "exotic",
+              "reason": "different conceptual domains - novelty/originality vs unusualness"
+            },
+            {
+              "pre": "Lively",
+              "post": "innovative",
+              "reason": "different conceptual domains - energy vs novelty"
+            },
+            {
+              "pre": "Lively",
+              "post": "exotic",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "Lively",
+              "post": "premium feel",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "Innovative",
+              "post": "premium feel",
+              "reason": "different conceptual domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Innovative",
+              "post": "innovative",
+              "basis": "direct lexical continuity, same descriptor retained"
+            },
+            {
+              "pre": "Lively",
+              "post": "Fun",
+              "basis": "both describe energetic/playful experiential quality of brand"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "exotic",
+            "premium feel"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "exotic",
+              "direction": "new",
+              "nearestCounterpart": "Lively",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested all four. Narrowed: 'Exotic is a specific way of being Lively' - FALSE. Reframed: lively is about energy, exotic is about unusualness/foreignness; territory not shared. Elaborated: POST does not keep Lively intact. Expanded: no identifiable Lively seed broadened. All four fail across different conceptual domains."
+            },
+            {
+              "concept": "premium feel",
+              "direction": "new",
+              "nearestCounterpart": "Innovative",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Tested all four. Narrowed: 'Premium feel is a specific way of being Innovative' - FALSE. Reframed: innovative concerns novelty, premium concerns luxury/quality positioning; territory not shared. Elaborated: POST does not keep Innovative intact (innovative is also retained separately). Expanded: no broadening relationship. All four fail across different conceptual domains."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Innovative",
+              "post": "innovative",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Direct lexical continuity; no transformation code applies (identity match retained)."
+            },
+            {
+              "type": "confirm",
+              "pre": "Lively",
+              "post": "Fun",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption test passes: 'Fun is a specific way of being Lively.' PRE is a generic energy descriptor, POST is a substantive subtype within that frame. Narrowed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "exotic",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest counterpart Lively tested across all four transformation tiers; all fail (different conceptual domains: energy/playfulness vs unusualness/foreignness). No neighborhood at specific level; abstraction ceiling applies. Leave as New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "premium feel",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest counterpart Innovative tested across all four transformation tiers; all fail (different conceptual domains: novelty/originality vs luxury/quality positioning). No shared neighborhood. Leave as New."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6zhkz19392riv88j",
+            "code": "Narrowed",
+            "preEvidence": "Lively",
+            "postEvidence": "Fun",
+            "rationale": "Subsumption test: 'Fun is a specific way of being Lively' is TRUE. Lively is a generic energy descriptor that subsumes fun as a specific manifestation. PRE-genericness signal supports Narrowed.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6zhkzdt591269e6",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "exotic",
+            "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Lively tested: different conceptual domains (energy vs unusualness/foreignness). All four transformation tiers fail.",
+            "confidence": "medium",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti6zhkzcd72lqw7sdi",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "premium feel",
+            "rationale": "No PRE concept provides defensible lineage. Nearest counterpart Innovative tested: different conceptual domains (novelty vs luxury/quality positioning). All four transformation tiers fail.",
+            "confidence": "medium",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Lively → Fun coded as Narrowed because subsumption holds and Lively is a generic energy descriptor. Could alternatively be argued as Reframed if 'lively' is read as more about energy than fun, but the subsumption test passes clearly. The 'premium feel' is embedded in a clause rather than a standalone descriptor, but it functions as an independent brand quality claim and is coded accordingly. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "I want to create a product that no one ever taste before"
+      },
+      "post": {
+        "answer": "Bringing Thai flavors to everyday meals"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Reduction",
+        "structuralRationale": "PRE is a single aspirational sentence framing the brand vision around novelty. POST is a shorter, compressed phrase specifying cuisine and occasion. Both are concise, but POST drops the novelty framing and replaces it with a specific culinary positioning. Net structural change is a modest contraction: one idea removed (novelty) and one new specific idea introduced (Thai flavors, everyday meals). Flagged threshold uncertainty between Moderate Reduction and Significant Reduction given the short baseline length.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "create a product that no one has tasted before"
+          ],
+          "postConcepts": [
+            "bringing Thai flavors to everyday meals"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "create a product that no one has tasted before",
+              "post": "bringing Thai flavors to everyday meals",
+              "continuity": "both describe the product/vision offering, but the semantic content differs substantially — PRE is novelty-driven, POST is cuisine-and-occasion-driven",
+              "scope": "PRE scope is broad novelty/no-product-existed; POST scope is narrowed to a specific cuisine (Thai) and a specific use-occasion (everyday meals)",
+              "frame": "PRE frame = novelty/uniqueness; POST frame = cultural-culinary identity and accessibility/integration into daily life",
+              "stretch": "high stretch — the novelty claim and the Thai-flavor/everyday-meals claim sit in different conceptual territories",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "create a product that no one has tasted before",
+              "post": "bringing Thai flavors to everyday meals",
+              "reason": "different conceptual domains: novelty/never-existed vs specific cuisine-and-occasion. No shared semantic neighborhood. IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies."
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "create a product that no one has tasted before"
+          ],
+          "unmatchedPost": [
+            "bringing Thai flavors to everyday meals"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "create a product that no one has tasted before",
+              "direction": "removed",
+              "nearestCounterpart": "bringing Thai flavors to everyday meals",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Full-response search performed. Nearest counterpart is 'bringing Thai flavors to everyday meals.' Tested Narrowed: 'Thai flavors to everyday meals is a specific way of being a never-before-tasted product' — FALSE; novelty is not a mode of cuisine-occasion specification. Tested Reframed: novelty/uniqueness frame vs cultural-culinary-accessibility frame — different conceptual domains, no shared semantic territory. Tested Elaborated: POST does not retain the novelty frame and add detail. Tested Expanded: POST does not broaden an identifiable novelty seed. All four fail across different conceptual domains. Outcome kept as Removed."
+            },
+            {
+              "concept": "bringing Thai flavors to everyday meals",
+              "direction": "new",
+              "nearestCounterpart": "create a product that no one has tasted before",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Full-response search performed. Nearest antecedent is the novelty claim in PRE. Tested Narrowed: Thai-flavor everyday-meal framing is not a subtype of novelty. Tested Reframed: different conceptual domains (cuisine specificity vs uniqueness). Tested Elaborated: novelty frame is not retained. Tested Expanded: cuisine-occasion specification is not a broadening of a novelty seed. All four fail. Outcome kept as New."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Pass 1 correctly identified that 'create a product that no one has tasted before' (novelty/uniqueness framing) and 'bringing Thai flavors to everyday meals' (cuisine-specific, occasion-specific positioning) occupy different conceptual domains. No shared semantic neighborhood exists at any specific level — the only possible umbrella would be 'product vision,' which is the abstraction ceiling. All transformation codes were properly tested and failed. Removed + New is the correct verdict."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6ziibgq5t1r7d0nk",
+            "code": "Removed",
+            "preEvidence": "create a product that no one has tasted before",
+            "postEvidence": null,
+            "rationale": "Novelty/uniqueness framing has no defensible POST successor. The only candidate POST concept ('bringing Thai flavors to everyday meals') occupies a genuinely different conceptual domain (cuisine-and-occasion specification). No transformation code holds.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6ziibu2zcm7ewhv",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "bringing Thai flavors to everyday meals",
+            "rationale": "Cuisine-specific, occasion-specific positioning has no defensible PRE antecedent. The novelty framing in PRE is not in the same semantic territory and cannot serve as a basis for Narrowed, Reframed, Elaborated, or Expanded.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_structural_threshold",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "PRE and POST are both short single-clause/single-sentence responses, making Moderate vs No Change / Moderate Reduction judgment sensitive to baseline length. The PRE novelty frame and POST Thai-flavor/everyday-meal frame appear to occupy different conceptual domains (novelty vs culinary positioning), so no transformation code is defensible. However, the dramatic shift in brand vision raises a mild possibility that the student reframed rather than replaced; alternative_considered records Reframed as the runner-up for the New event but it was not defensible under the subsumption/territory tests. Structural threshold flagged because the response lengths are similar yet the propositional content has substantially changed — the structural rubric emphasizes content over length. Critic applied 1 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "Quality, Unique"
+      },
+      "post": {
+        "answer": "Innovation, Quality, Cultural Fusion, Sustainability, Inclusivity"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE contains two descriptors (Quality, Unique); POST contains five (Innovation, Quality, Cultural Fusion, Sustainability, Inclusivity). Three entirely new value concepts have been added, expanding the value system from a thin two-item list to a five-item elaborated value framework. The overall scope and depth of the response is meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "Quality",
+            "Unique"
+          ],
+          "postConcepts": [
+            "Innovation",
+            "Quality",
+            "Cultural Fusion",
+            "Sustainability",
+            "Inclusivity"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Quality",
+              "post": "Innovation",
+              "continuity": "Both are aspirational brand values, but operational standards vs novelty orientation are different lenses",
+              "scope": "Both broad; no subset relation",
+              "frame": "Quality frame (craft/standard) vs Innovation frame (newness/originality)",
+              "stretch": "Moderate topical adjacency; not same semantic territory",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Quality",
+              "post": "Quality",
+              "continuity": "Identical term preserved",
+              "scope": "Identical",
+              "frame": "Identical",
+              "stretch": "None",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Quality",
+              "post": "Cultural Fusion",
+              "continuity": "Both touch on brand substance/content; weak continuity",
+              "scope": "No subset relation",
+              "frame": "Quality (excellence) vs Cultural Fusion (blending traditions)",
+              "stretch": "Topical adjacency only",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Quality",
+              "post": "Sustainability",
+              "continuity": "Both could relate to 'responsible' brand posture, but stretchy",
+              "scope": "No subset relation",
+              "frame": "Quality (excellence) vs Sustainability (environmental responsibility)",
+              "stretch": "Adjacent only at 'values' umbrella",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Quality",
+              "post": "Inclusivity",
+              "continuity": "Both aspirational values; weak continuity",
+              "scope": "No subset relation",
+              "frame": "Quality vs Inclusivity (audience/accessibility)",
+              "stretch": "Topical adjacency only",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Unique",
+              "post": "Innovation",
+              "continuity": "Both relate to originality/distinctiveness; potentially related sibling",
+              "scope": "No clear subset",
+              "frame": "Unique (being one-of-a-kind) vs Innovation (creating new things)",
+              "stretch": "Moderate stretch; could share 'originality' territory",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Unique",
+              "post": "Quality",
+              "continuity": "Distinctiveness vs excellence; minimal",
+              "scope": "No subset",
+              "frame": "Different frames",
+              "stretch": "Topical adjacency only",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Unique",
+              "post": "Cultural Fusion",
+              "continuity": "Distinctiveness and cultural blending share some originality territory",
+              "scope": "No clear subset",
+              "frame": "Unique (one-of-a-kind) vs Cultural Fusion (blending traditions)",
+              "stretch": "Possible shared 'differentiation' neighborhood, borderline",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Unique",
+              "post": "Sustainability",
+              "continuity": "Distinctiveness vs environmental responsibility; different domains",
+              "scope": "No subset",
+              "frame": "Different frames",
+              "stretch": "Topical adjacency only",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Unique",
+              "post": "Inclusivity",
+              "continuity": "Distinctiveness vs accessibility/welcome; arguably opposite impulses",
+              "scope": "No subset",
+              "frame": "Different frames",
+              "stretch": "Topical adjacency only",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Quality",
+              "post": "Cultural Fusion",
+              "reason": "Different conceptual domains (excellence vs cultural blending); same broad 'values' umbrella does not constitute a neighborhood (abstraction ceiling)"
+            },
+            {
+              "pre": "Quality",
+              "post": "Sustainability",
+              "reason": "Different conceptual domains; only topically adjacent at 'brand values' umbrella"
+            },
+            {
+              "pre": "Quality",
+              "post": "Inclusivity",
+              "reason": "Different conceptual domains; no shared semantic neighborhood"
+            },
+            {
+              "pre": "Unique",
+              "post": "Quality",
+              "reason": "Different conceptual domains; only topically adjacent"
+            },
+            {
+              "pre": "Unique",
+              "post": "Sustainability",
+              "reason": "Different conceptual domains; no shared neighborhood"
+            },
+            {
+              "pre": "Unique",
+              "post": "Inclusivity",
+              "reason": "Different conceptual domains; no shared neighborhood"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Quality",
+              "post": "Quality",
+              "basis": "Identical descriptor preserved across PRE and POST"
+            },
+            {
+              "pre": "Unique",
+              "post": "Innovation",
+              "basis": "Shared differentiation/originality neighborhood; sibling concepts with shifted organizing frames (distinctiveness frame → novelty/origination frame). Subsumption fails."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Cultural Fusion",
+            "Sustainability",
+            "Inclusivity"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Cultural Fusion",
+              "direction": "new",
+              "nearestCounterpart": "Unique",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Cultural Fusion is the brand-content angle; Unique is distinctiveness. Tested: Narrowed (Cultural Fusion is a specific way of being Unique? FALSE — distinctiveness and cultural blending are sibling concepts at best, and PRE-genericness does not save it since 'Unique' is moderately specific rather than generic filler). Instead, paired Unique→Innovation and emitted Cultural Fusion as New after full search showed no better PRE antecedent."
+            },
+            {
+              "concept": "Sustainability",
+              "direction": "new",
+              "nearestCounterpart": "Quality",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Full-response search: Quality covers excellence but Sustainability covers environmental/social responsibility — different conceptual domains. Narrowed: FALSE (not a subset). Reframed: FALSE (no shared territory at a specific level; 'values' umbrella is over-abstracted). Elaborated/Expanded: no recognizable seed in PRE. Survival of New is justified."
+            },
+            {
+              "concept": "Inclusivity",
+              "direction": "new",
+              "nearestCounterpart": "Quality",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Full-response search: nearest candidates are Quality (excellence) and Unique (distinctiveness). Inclusivity is audience/accessibility — different domain. Narrowed/Reframed/Elaborated/Expanded all fail (no shared neighborhood at a specific level). Kept as New."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Quality",
+              "post": "Quality",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical descriptor preserved; no transformation code applies. Unchanged."
+            },
+            {
+              "type": "confirm",
+              "pre": "Unique",
+              "post": "Innovation",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Both sit in a differentiation/originality neighborhood. Subsumption test: 'Innovation is a specific way of being Unique' is FALSE (innovation = active novelty creation; uniqueness = static distinctiveness — sibling framings). PRE 'Unique' is moderately specific, not generic filler, so PRE-genericness signal does not apply. Same territory, shifted frame (distinctiveness → novelty/origination). Reframed is correct; do not downgrade to Narrowed."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Cultural Fusion",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "After full-response search and testing all four transformation tiers, no defensible PRE antecedent remains. Quality is already matched; Unique is already matched. Cultural content/blending is a different conceptual domain from distinctiveness. Abstraction ceiling rules out 'values' or 'differentiation' as a shared territory. Kept as New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Sustainability",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Environmental/social responsibility is a different conceptual domain from excellence (Quality) or distinctiveness (Unique). No neighborhood at a specific level; 'values' umbrella is above the abstraction ceiling. Kept as New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Inclusivity",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Audience/accessibility orientation differs from both Quality and Unique. No shared semantic neighborhood at a specific level. Kept as New."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti704s1v82w97jez5m",
+            "code": "Reframed",
+            "preEvidence": "Unique",
+            "postEvidence": "Innovation",
+            "rationale": "Both sit in a differentiation/originality neighborhood. Subsumption test fails ('Innovation is a specific way of being Unique' is FALSE — sibling framings, not subtype). PRE 'Unique' is moderately specific, not generic filler. Frame shifts from static distinctiveness to active novelty creation. Same semantic territory, different organizing frame.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti704s1inmqb287b5",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Cultural Fusion",
+            "rationale": "Nearest antecedents Quality and Unique are already matched or lack lineage. Cultural content/blending is a different conceptual domain from distinctiveness. No defensible transformation under the ladder.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed from Unique"
+          },
+          {
+            "instanceId": "mti704s1qaak761u0k",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Sustainability",
+            "rationale": "No defensible PRE antecedent. Environmental/social responsibility is a different conceptual domain from excellence or distinctiveness. 'Values' umbrella is above the abstraction ceiling.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed from Quality"
+          },
+          {
+            "instanceId": "mti704s1r6w5h3t0s9d",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Inclusivity",
+            "rationale": "No defensible PRE antecedent. Audience/accessibility orientation is a different conceptual domain. Quality and Unique are both already matched and lack lineage.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed from Unique"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "neighborhood_lineage_only",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The Unique→Innovation pairing rests on a weak 'originality/differentiation' neighborhood; subsumption clearly fails so Reframed is the best-supported verdict, but the shared territory is moderately stretched. Alternative of assigning Unique=Removed and Innovation=New was considered and rejected because a defensible lineage exists via the differentiation neighborhood. Critic applied 5 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 9
+      },
+      "post": {
+        "answer": 10
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Sauce Lovers. Asian Market Consumers. Plant-Based Eaters"
+      },
+      "post": {
+        "answer": "Thai Food Lovers, Sauce Enthusiasts"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Reduction",
+        "structuralRationale": "PRE contains three distinct audience segments (Sauce Lovers, Asian Market Consumers, Plant-Based Eaters); POST contains two narrower segments (Thai Food Lovers, Sauce Enthusiasts). One audience category was dropped (Plant-Based Eaters) and the remaining two were narrowed in scope. This is a meaningful contraction at the audience-segment level, but not a dramatic restructuring.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Sauce Lovers",
+            "Asian Market Consumers",
+            "Plant-Based Eaters"
+          ],
+          "postConcepts": [
+            "Thai Food Lovers",
+            "Sauce Enthusiasts"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Sauce Lovers",
+              "post": "Thai Food Lovers",
+              "continuity": "Both center sauce-related food affinity, but Thai narrows to a specific cuisine.",
+              "scope": "Thai is a subset of general sauce lover population",
+              "frame": "General sauce affinity → cuisine-specific sauce affinity",
+              "stretch": "Moderate; same food-sauce territory but narrowed to Thai specifically",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Sauce Lovers",
+              "post": "Sauce Enthusiasts",
+              "continuity": "Both designate the same sauce-affinity audience with enthusiasm framing",
+              "scope": "Enthusiasts is a subset of lovers (more intense engagement)",
+              "frame": "Affection-based identity → enthusiasm-based identity",
+              "stretch": "Low; near-paraphrase with intensification",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Asian Market Consumers",
+              "post": "Thai Food Lovers",
+              "continuity": "Thai is a subset of Asian cuisine/market",
+              "scope": "Thai Food Lovers is a proper subset of Asian Market Consumers",
+              "frame": "Pan-Asian market/cultural consumer → Thai-specific food lover",
+              "stretch": "Low; clear scope restriction",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Asian Market Consumers",
+              "post": "Sauce Enthusiasts",
+              "continuity": "Different conceptual axes: market/demographic vs food-passion",
+              "scope": "Different categories",
+              "frame": "Demographic/market positioning vs personal enthusiasm",
+              "stretch": "High; not the same territory",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Plant-Based Eaters",
+              "post": "Thai Food Lovers",
+              "continuity": "Different dietary vs cuisine-specific categories",
+              "scope": "Different",
+              "frame": "Dietary pattern vs cuisine preference",
+              "stretch": "High",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Plant-Based Eaters",
+              "post": "Sauce Enthusiasts",
+              "continuity": "Dietary identity vs food-passion identity; loosely adjacent in food territory",
+              "scope": "Different categories",
+              "frame": "Dietary choice vs sauce enthusiasm",
+              "stretch": "High",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Asian Market Consumers",
+              "post": "Sauce Enthusiasts",
+              "reason": "Different conceptual domains: market/demographic positioning vs personal enthusiasm; no defensible lineage"
+            },
+            {
+              "pre": "Plant-Based Eaters",
+              "post": "Thai Food Lovers",
+              "reason": "Different conceptual domains: dietary pattern vs cuisine-specific preference"
+            },
+            {
+              "pre": "Plant-Based Eaters",
+              "post": "Sauce Enthusiasts",
+              "reason": "Different conceptual domains: dietary identity vs sauce enthusiasm"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Sauce Lovers",
+              "post": "Sauce Enthusiasts",
+              "basis": "Enthusiasts is a more intense/engaged subset of lovers; scope restriction holds"
+            },
+            {
+              "pre": "Asian Market Consumers",
+              "post": "Thai Food Lovers",
+              "basis": "Thai Food Lovers is a proper subset of Asian Market Consumers (Thai cuisine is one Asian segment); scope restriction holds"
+            }
+          ],
+          "unmatchedPre": [
+            "Plant-Based Eaters"
+          ],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Plant-Based Eaters",
+              "direction": "removed",
+              "nearestCounterpart": "Thai Food Lovers",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Plant-Based Eaters denotes a dietary pattern/lifestyle segment; Thai Food Lovers denotes a cuisine-specific preference. These are different conceptual domains. Narrowed fails (Thai is not a subtype of plant-based); Reframed fails (territory not shared - diet vs cuisine); Elaborated fails (Thai preference does not retain plant-based dietary identity); Expanded fails (Thai preference does not broaden plant-based concept). Full-response search performed; no defensible lineage found."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Sauce Lovers",
+              "post": "Sauce Enthusiasts",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Enthusiasts is a proper subset of lovers (more intense engagement). Subsumption holds. Narrowed is correct per the scope-restriction rule."
+            },
+            {
+              "type": "confirm",
+              "pre": "Asian Market Consumers",
+              "post": "Thai Food Lovers",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Thai Food Lovers is a proper subset of Asian Market Consumers (Thai is one Asian cuisine). Scope restriction holds; Narrowed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Plant-Based Eaters (dietary pattern segment) has no defensible POST successor. Dietary identity vs cuisine preference are different conceptual domains; all four transformation codes legitimately fail. Removed is correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6zuxd1vrn1xj9sr4",
+            "code": "Narrowed",
+            "preEvidence": "Sauce Lovers",
+            "postEvidence": "Sauce Enthusiasts",
+            "rationale": "Enthusiasts are a proper subset of lovers; scope restriction holds and subsumption is true.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6zuxdtx1ub41k2x",
+            "code": "Narrowed",
+            "preEvidence": "Asian Market Consumers",
+            "postEvidence": "Thai Food Lovers",
+            "rationale": "Thai Food Lovers is a proper subset of Asian Market Consumers; scope restriction holds and subsumption is true.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6zuxdjtda0nhprzr",
+            "code": "Removed",
+            "preEvidence": "Plant-Based Eaters",
+            "postEvidence": null,
+            "rationale": "Dietary pattern segment vs cuisine-specific preference are different conceptual domains; no defensible POST successor. Narrowed, Reframed, Elaborated, and Expanded all fail.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "All scoped_category alignments follow scope-restriction rule. Plant-Based Eaters removal is genuine different-domain removal (dietary vs cuisine). No learner-agency evidence present in artifact text. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "Thai Food/Fruit Lovers. People who love trying new and unique foods."
+      },
+      "post": {
+        "answer": "Asian Market Consumers, Adventurous Foodies"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Reduction",
+        "structuralRationale": "PRE contains two descriptive units (a cuisine-specific audience 'Thai Food/Fruit Lovers' plus a fuller behavioral gloss 'People who love trying new and unique foods'). POST compresses to two terse category labels ('Asian Market Consumers, Adventurous Foodies'). The behavioral explanation is removed in favor of a label, and the fruit mention disappears. Net structural contraction at the clause/explanation level without being a major elimination of ideas.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Thai Food/Fruit Lovers",
+            "People who love trying new and unique foods"
+          ],
+          "postConcepts": [
+            "Asian Market Consumers",
+            "Adventurous Foodies"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Thai Food/Fruit Lovers",
+              "post": "Asian Market Consumers",
+              "continuity": "Both name an audience segment defined by ethnic/cultural cuisine interest; Thai is one cuisine within the broader Asian umbrella.",
+              "scope": "Asian Market Consumers is broader than Thai Food/Fruit Lovers (Asian encompasses Thai, Chinese, Japanese, Korean, Vietnamese, etc.). Possible Expansion candidate.",
+              "frame": "PRE frames by specific cuisine/national origin; POST frames by broader cultural-market category.",
+              "stretch": "Moderate — clear lineage via cuisine-to-cultural-market scope relation.",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Thai Food/Fruit Lovers",
+              "post": "Adventurous Foodies",
+              "continuity": "Weak. Both relate to food-oriented consumers, but Thai Food/Fruit Lovers is cuisine-defined and Adventurous Foodies is behavior-defined.",
+              "scope": "Not subset/superset; different defining axes (cuisine origin vs eating behavior).",
+              "frame": "Cuisine/origin frame vs adventurous-eater-behavior frame.",
+              "stretch": "Weak; different defining dimensions.",
+              "verdict": "weak"
+            },
+            {
+              "pre": "People who love trying new and unique foods",
+              "post": "Asian Market Consumers",
+              "continuity": "Weak; demographic/cultural vs behavioral/psychographic.",
+              "scope": "Different population definitions.",
+              "frame": "Behavior frame vs cultural-market frame.",
+              "stretch": "Weak — different conceptual dimensions.",
+              "verdict": "weak"
+            },
+            {
+              "pre": "People who love trying new and unique foods",
+              "post": "Adventurous Foodies",
+              "continuity": "Strong. Both describe food consumers characterized by willingness to try novel foods.",
+              "scope": "Adventurous Foodies names a more specific subset of food-interested people defined by the adventurous-eating trait. The PRE describes the defining behavior in full; POST names the category. Possible Narrowed (Adventurous Foodies IS a People-who-love-trying-new-foods) or Reframed.",
+              "frame": "PRE: behavioral description frame. POST: consumer-category label frame.",
+              "stretch": "Low — direct lineage.",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Thai Food/Fruit Lovers",
+              "post": "Adventurous Foodies",
+              "reason": "Different defining dimensions (cuisine origin vs eating behavior). Lineage testable but weak; inferior to the cross-mapping Thai→Asian and adventurous-describers→Adventurous Foodies."
+            },
+            {
+              "pre": "People who love trying new and unique foods",
+              "post": "Asian Market Consumers",
+              "reason": "Behavioral description vs cultural-market category — different conceptual dimensions; weak continuity. The cross with Adventurous Foodies is substantially stronger."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Thai Food/Fruit Lovers",
+              "post": "Asian Market Consumers",
+              "basis": "Thai cuisine interest broadened into the wider Asian cultural-market audience; cuisine-to-cultural-market scope expansion with frame preserved."
+            },
+            {
+              "pre": "People who love trying new and unique foods",
+              "post": "Adventurous Foodies",
+              "basis": "Adventurous Foodies names the consumer subset defined specifically by the adventurous-eating trait; scope restriction via subsumption."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Thai Food/Fruit Lovers",
+              "post": "Asian Market Consumers",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Thai is a proper subset of Asian; scope broadened from specific cuisine to cultural-market umbrella while frame (cultural-cuisine orientation) persists. Expanded is correct; Narrowed and Reframed both fail."
+            },
+            {
+              "type": "confirm",
+              "pre": "People who love trying new and unique foods",
+              "post": "Adventurous Foodies",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption holds: Adventurous Foodies is a specific way of being people who love trying new and unique foods (subset by adventurous-eating trait). Scope restriction per Narrowed-abstract rule. Both alignments correctly matched; no provisional New/Removed remain, so no restore_lineage duty fires."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti701v4ke4619e6j8",
+            "code": "Expanded",
+            "preEvidence": "Thai Food/Fruit Lovers",
+            "postEvidence": "Asian Market Consumers",
+            "rationale": "Thai (one cuisine) broadened to Asian (encompassing Thai + Chinese, Japanese, Korean, Vietnamese, etc.). Identifiable PRE seed broadened into a wider cultural-market audience; cultural-cuisine frame preserved.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (cuisine specificity -> broader cultural-market framing); rejected because scope expansion dominates and the organizing frame is preserved."
+          },
+          {
+            "instanceId": "mti701v5j4mkpay9ie",
+            "code": "Narrowed",
+            "preEvidence": "People who love trying new and unique foods",
+            "postEvidence": "Adventurous Foodies",
+            "rationale": "Subsumption holds: Adventurous Foodies is a specific way of being people who love trying new and unique foods. POST names the subset of food-interested people defined specifically by the adventurous-eating trait; scope restriction applies.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (behavioral-description frame -> consumer-label frame); rejected because scope restriction outranks frame shift."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "Mode C (scoped_category) applied. PRE 'Thai Food/Fruit Lovers' has a secondary 'Fruit Lovers' tail that has no clear successor — 'Asian Market Consumers' mostly absorbs the cuisine-of-origin dimension but drops the fruit-specificity. Treated as part of the cuisine-orientation seed absorbed into the Expanded event rather than a separate Removed, because the broader Asian market typically encompasses fruit-produce categories and the lineage is plausibly present at the cultural-cuisine level. No learner-agency textual evidence. Descriptor-level codes resolved cleanly: one Expansion (cuisine scope) and one Narrowing (population restriction on the adventurous-eater trait). Critic applied 2 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "Super Market in Thailand&China. IG&X&TikTok for advertisement"
+      },
+      "post": {
+        "answer": "China: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com Thailand: TikTok, Facebook Ads, Shopee, Lazada"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The PRE response is a brief two-clause note (~15 words) naming one commerce channel (supermarkets) and three ad platforms. The POST response is a substantially expanded enumeration that splits the strategy by country (China and Thailand), specifies multiple named commerce platforms (Tmall, JD.com, Shopee, Lazada) and multiple named advertising platforms (Douyin, Xiaohongshu, WeChat Ads, Facebook Ads, TikTok), and integrates commerce and advertising within each market. The scope and depth of the response is meaningfully larger at the clause and enumeration level, with multiple new explanatory passages added.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Supermarkets in Thailand and China as commerce platforms",
+            "Instagram, X, and TikTok for advertisement"
+          ],
+          "postConcepts": [
+            "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+            "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Supermarkets in Thailand and China as commerce platforms",
+              "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+              "continuity": "commerce-based selling channels in China",
+              "scope": "PRE: generic 'Super Market'; POST: specific named commerce platforms in China",
+              "frame": "PRE: physical retail/whole-market; POST: specific named digital and retail commerce platforms",
+              "stretch": "PRE mentioned one commerce channel ('Super Market'); POST enumerates multiple named commerce platforms in China (Tmall, JD.com, etc.) — likely an elaboration/specification of commerce-platform strategy",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Supermarkets in Thailand and China as commerce platforms",
+              "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+              "continuity": "commerce-based selling channels in Thailand",
+              "scope": "PRE: generic 'Super Market'; POST: specific named commerce platforms in Thailand",
+              "frame": "PRE: physical retail/whole-market; POST: specific named commerce platforms",
+              "stretch": "Same expansion from generic retail mention to named commerce platforms, but specific to Thailand",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Instagram, X, and TikTok for advertisement",
+              "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+              "continuity": "China-region advertising platforms",
+              "scope": "PRE: global social platforms; POST: China-specific platforms",
+              "frame": "PRE: global western social media; POST: China-specific ecosystem (Douyin/Xiaohongshu/WeChat)",
+              "stretch": "IG is banned in China; this is a region-appropriate replacement of ad platforms, not a continuation of the same platforms",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Instagram, X, and TikTok for advertisement",
+              "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+              "continuity": "advertising platforms for Thailand (with TikTok overlapping)",
+              "scope": "PRE: IG/X/TikTok; POST: TikTok + Facebook Ads + commerce",
+              "frame": "PRE: content/awareness ads via social; POST: TikTok retained, Facebook Ads added, commerce platforms layered in",
+              "stretch": "TikTok overlaps directly; Facebook is added; Shopee/Lazada are commerce, not strictly advertising — partial continuity",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Instagram, X, and TikTok for advertisement",
+              "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+              "reason": "While both are advertising platforms, IG/X/TikTok are global western social platforms while Douyin/Xiaohongshu/WeChat Ads are China-specific. TikTok overlaps with Douyin (same company, different region). Rather than collapsing into one match, this is better captured as Expanded because the PRE seed (TikTok) seeds the China-region expansion via Douyin and the China ecosystem adds WeChat Ads and other regional platforms."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Supermarkets in Thailand and China as commerce platforms",
+              "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+              "basis": "Commerce-platform strategy: generic 'supermarkets as commerce platforms' broadened into a named China-region mix of commerce and ad platforms (Tmall, JD.com, Douyin, Xiaohongshu, WeChat Ads)."
+            },
+            {
+              "pre": "Supermarkets in Thailand and China as commerce platforms",
+              "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+              "basis": "Commerce-platform strategy: generic 'supermarkets as commerce platforms' broadened into a named Thailand-region mix (Shopee, Lazada, TikTok, Facebook Ads)."
+            },
+            {
+              "pre": "Instagram, X, and TikTok for advertisement",
+              "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+              "basis": "Advertising-platform strategy: PRE set (IG, X, TikTok) reconceived for Thailand; TikTok retained, Facebook Ads replaces IG/X as region-appropriate, commerce platforms layered in. Broadens PRE seed into a market-appropriate ads+commerce mix."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Instagram",
+              "direction": "removed",
+              "nearestCounterpart": "China platforms: Douyin, Xiaohongshu, WeChat Ads (TikTok also retained in Thailand)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "IG is a western social platform with no Chinese equivalent. However, TikTok's Chinese counterpart is Douyin, and the broader advertising-platform role from PRE (advertisement via social) is absorbed into the China-platform list (WeChat Ads, Douyin ads). The PRE 'advertisement platforms' concept is captured in the matched pair above (Expanded to China ecosystem). IG itself is dropped without a clean Chinese counterpart, so on its own it could be Removed; but the broader PRE concept of 'advertising platforms' is Expanded, not Removed."
+            },
+            {
+              "concept": "X",
+              "direction": "removed",
+              "nearestCounterpart": "China platforms (WeChat Ads, Douyin) or Thailand (Facebook Ads)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "X has no direct Chinese or Thailand-region equivalent in POST. The advertising-platform role from PRE is absorbed into Expanded treatment via WeChat Ads (China) and Facebook Ads (Thailand). The PRE unit-level concept of advertising platforms is Expanded into region-appropriate platforms, so the broader PRE concept is not truly Removed — it is reconceived regionally."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Supermarkets in Thailand and China as commerce platforms",
+              "post": "China platforms: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Pass 1 correctly identified Expanded: generic 'supermarkets as commerce platforms' seed broadens into a named, market-specific commerce+ads platform list for China. Elaborated was the noted alternative; Expanded better captures the broadening from a single channel to a multi-platform mix. Confirming."
+            },
+            {
+              "type": "confirm",
+              "pre": "Supermarkets in Thailand and China as commerce platforms",
+              "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Symmetric to the China pair. Single generic retail mention expanded into multiple named commerce and ad platforms specific to Thailand. Confirming."
+            },
+            {
+              "type": "confirm",
+              "pre": "Instagram, X, and TikTok for advertisement",
+              "post": "Thailand platforms: TikTok, Facebook Ads, Shopee, Lazada",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "PRE advertising-platform set (IG, X, TikTok) reconceived for Thailand: TikTok retained, Facebook Ads substituted for IG/X (region-appropriateness), commerce platforms layered in. The PRE seed (ad platforms) broadens into a market-appropriate mix. Reframed was considered but the shift is scope/breadth rather than a fundamental reframe of the organizing principle, so Expanded is defensible. Confirming."
+            },
+            {
+              "type": "confirm",
+              "pre": "Instagram, X, and TikTok for advertisement",
+              "post": null,
+              "fromCode": null,
+              "toCode": null,
+              "reason": "No provisional New/Removed event fires for IG/X/TikTok PRE. The PRE is fully absorbed into the three matched Expanded pairs (China supermarkets, Thailand supermarkets, Thailand ads). IG and X drop out at the unit level but the broader advertising-platform concept is captured via Expanded. No standalone Removed event is needed."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti70biu68kd5a6kwm9",
+            "code": "Expanded",
+            "preEvidence": "Super Market in Thailand&China",
+            "postEvidence": "China: Douyin, Xiaohongshu, WeChat Ads, Tmall, JD.com",
+            "rationale": "Generic commerce-channel mention is broadened into a specific, named set of China-relevant commerce and advertising platforms. The commerce-platform seed persists; its scope expands from one generic channel to multiple region-appropriate platforms.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti70biuwwkii4xp87d",
+            "code": "Expanded",
+            "preEvidence": "Super Market in Thailand&China",
+            "postEvidence": "Thailand: TikTok, Facebook Ads, Shopee, Lazada",
+            "rationale": "Symmetric to the China pair: the PRE's generic Thailand commerce-channel mention is broadened into a specific list of Thailand-relevant commerce (Shopee, Lazada) and advertising (TikTok, Facebook Ads) platforms. PRE seed persists with broadened scope.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti70biu8cfq5mjsvb",
+            "code": "Expanded",
+            "preEvidence": "IG&X&TikTok for advertisement",
+            "postEvidence": "Thailand: TikTok, Facebook Ads, Shopee, Lazada",
+            "rationale": "PRE advertising-platform set is reconceived for Thailand: TikTok retained, Facebook Ads replaces IG/X, commerce platforms layered in. The advertising-platform role broadens into a market-appropriate mix integrating ads with commerce.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "vague_to_specific_lineage",
+            "duplicate_pre_antecedent"
+          ],
+          "coderNotes": "The PRE uses very compressed shorthand (e.g., 'Super Market', 'IG&X&TikTok for advertisement'). The POST substantially specifies these into named, region-appropriate platforms. The vague-to-specific signal supports treating the changes as Expanded (PRE seed preserved, scope broadened to specific platforms) rather than Removed + New. No learner-agency evidence is present in the artifact. The two PRE lines on China and Thailand are kept atomic at the 'commerce-platform strategy' level rather than splitting further, since the POST organizes by the same China/Thailand split and the original commerce-platform idea tracks to both regional lists. The third PRE line (IG/X/TikTok for advertisement) is paired with the Thailand POST list because TikTok is the only shared platform and Facebook Ads is the natural western-social replacement for IG/X in the Thailand context; the China POST list absorbs the broader advertising-platform role via Expanded treatment. Critic applied 4 correction(s). Consistency check: \"Super Market in Thailand&China\" serves as the antecedent of more than one event. The PRE span likely needs splitting — review before accepting."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "100% Product Review"
+      },
+      "post": {
+        "answer": "Recipe Content 33% Taste Testing Videos 33% Challenge Trends 33%"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The pre-response is a single declarative content category ('100% Product Review'). The post-response introduces a diversified three-stream content strategy with specific percentage allocations across three distinct content types. This represents substantial structural expansion with multiple new content categories and a quantified distribution.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Product Review"
+          ],
+          "postConcepts": [
+            "Recipe Content",
+            "Taste Testing Videos",
+            "Challenge Trends"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Product Review",
+              "post": "Recipe Content",
+              "continuity": "Both are product/brand-content categories shown on video platforms; recipe content is a form of product-related content",
+              "scope": "Recipe content is a sub-type of product-related content; Product Review is broader (could include non-food items too)",
+              "frame": "Product feature framing → culinary/applied-use framing",
+              "stretch": "Different vertical (food vs generic product); weak continuity",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Product Review",
+              "post": "Taste Testing Videos",
+              "continuity": "Taste testing is a specific form of product review format for consumable goods",
+              "scope": "Taste testing is a subset of product reviews (specifically for food/beverage)",
+              "frame": "Generic product review framing → specific sensory/evaluative review framing",
+              "stretch": "Plausible continuation; subsumption is arguable",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Product Review",
+              "post": "Challenge Trends",
+              "continuity": "Both are content categories on social platforms, but conceptually distinct (trend participation vs product evaluation)",
+              "scope": "Different categories; no scope relation",
+              "frame": "Product/brand review frame → trend/entertainment frame",
+              "stretch": "Weak; adjacency is topical only",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "Product Review",
+              "post": "Taste Testing Videos",
+              "basis": "Taste Testing Videos is a specific format of Product Review for food/beverage products; subsumption holds"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "Recipe Content",
+            "Challenge Trends"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "Recipe Content",
+              "direction": "new",
+              "nearestCounterpart": "Product Review",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Recipe Content is a specific category distinct from generic Product Review (which typically involves evaluation/comparison). Could argue Recipe Content is a form of product-focused content, but the narrower Taste Testing Videos claim was stronger. Recipe Content as a separate stream of content (showing how to use products) is not subsumed by Product Review; relationship is adjacency/relatedness only — recipe content can be seen as a complementary use-case format rather than a specific way of reviewing a product. No tier is clearly defensible for Recipe Content alone since Taste Testing Videos already absorbed the narrowest reading."
+            },
+            {
+              "concept": "Challenge Trends",
+              "direction": "new",
+              "nearestCounterpart": "Product Review",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Challenge Trends is a participation/trend-driven content format, conceptually distinct from product evaluation. No defensible transformation: Challenge Trends is not a specific way of being Product Review, does not elaborate it, does not expand its scope. Adjacency is topical only (both are social-platform content)."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Product Review",
+              "post": "Taste Testing Videos",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption test passes: 'Taste Testing Videos is a specific way of being Product Review.' PRE-genericness signal applies; Taste Testing Videos is a concrete format realization of the broader Product Review category. Confirm pass-1 verdict."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Recipe Content",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Recipe Content is application/use-case content, not evaluation; cannot be subsumed by, reframed within, elaborated from, or expanded from Product Review. Nearest PRE counterpart (Product Review) is already matched to Taste Testing Videos, so no antecedent is available. Stand as New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Challenge Trends",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Challenge Trends is trend-participation content, a different conceptual domain from product evaluation; no defensible transformation tier. Nearest PRE counterpart (Product Review) is already matched. Stand as New."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti7093pd6ouwcmv4k",
+            "code": "Narrowed",
+            "preEvidence": "Product Review",
+            "postEvidence": "Taste Testing Videos",
+            "rationale": "Taste Testing Videos is a specific format/realization of Product Review applied to food/beverage products. Subsumption test passes: 'Taste Testing Videos is a specific way of being Product Review.' PRE is generic and broad, POST is a concrete format within that category.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti7093pg7n8inz8mir",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Recipe Content",
+            "rationale": "Recipe Content is application/use-case content (showing how to use products in recipes), distinct from Product Review (which evaluates). Nearest PRE antecedent Product Review is already matched to Taste Testing Videos; Recipe Content is not a subtype, elaboration, or expansion of that match. Stand as New.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti7093p5v2diyqsifn",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Challenge Trends",
+            "rationale": "Challenge Trends is participation/trend-driven content, a different conceptual domain from product evaluation. Nearest PRE antecedent Product Review is already matched; no tier defensible. Stand as New.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "vague_to_specific_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Taste Testing Videos → Product Review is the strongest pairing but still arguable because Product Review in food/product domains could mean either tasting or recipe demos. Recipe Content could alternatively be read as part of the Product Review umbrella, which would convert it from New to Expanded or Narrowed; however, recipe content (showing how to cook) and taste-testing reviews (sensory evaluation) are distinct enough to keep separate. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "Durian/Coconut/Mango Mayonnaise Sauce"
+      },
+      "post": {
+        "answer": "Durian Mayonnaise/Coconut Mayonnaise/Mango Mayonnaise"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "All three product offerings retain the same fruits and the same product category (mayonnaise). The only change is the dropping of the word 'Sauce' from each. No clauses added or removed; structural scope is equivalent.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Durian Mayonnaise Sauce",
+            "Coconut Mayonnaise Sauce",
+            "Mango Mayonnaise Sauce"
+          ],
+          "postConcepts": [
+            "Durian Mayonnaise",
+            "Coconut Mayonnaise",
+            "Mango Mayonnaise"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Durian Mayonnaise Sauce",
+              "post": "Durian Mayonnaise",
+              "continuity": "Same product, fruit-flavored mayonnaise; only the word 'Sauce' dropped",
+              "scope": "Identical scope",
+              "frame": "Identical frame",
+              "stretch": "Minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Durian Mayonnaise Sauce",
+              "post": "Coconut Mayonnaise",
+              "continuity": "Same product format (fruit mayo)",
+              "scope": "Different flavor",
+              "frame": "Identical",
+              "stretch": "Cross-flavor",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Durian Mayonnaise Sauce",
+              "post": "Mango Mayonnaise",
+              "continuity": "Same product format",
+              "scope": "Different flavor",
+              "frame": "Identical",
+              "stretch": "Cross-flavor",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Coconut Mayonnaise Sauce",
+              "post": "Coconut Mayonnaise",
+              "continuity": "Same product",
+              "scope": "Identical",
+              "frame": "Identical",
+              "stretch": "Minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Coconut Mayonnaise Sauce",
+              "post": "Durian Mayonnaise",
+              "continuity": "Same format",
+              "scope": "Different flavor",
+              "frame": "Identical",
+              "stretch": "Cross-flavor",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Coconut Mayonnaise Sauce",
+              "post": "Mango Mayonnaise",
+              "continuity": "Same format",
+              "scope": "Different flavor",
+              "frame": "Identical",
+              "stretch": "Cross-flavor",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Mango Mayonnaise Sauce",
+              "post": "Mango Mayonnaise",
+              "continuity": "Same product",
+              "scope": "Identical",
+              "frame": "Identical",
+              "stretch": "Minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Mango Mayonnaise Sauce",
+              "post": "Durian Mayonnaise",
+              "continuity": "Same format",
+              "scope": "Different flavor",
+              "frame": "Identical",
+              "stretch": "Cross-flavor",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Mango Mayonnaise Sauce",
+              "post": "Coconut Mayonnaise",
+              "continuity": "Same format",
+              "scope": "Different flavor",
+              "frame": "Identical",
+              "stretch": "Cross-flavor",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Durian Mayonnaise Sauce",
+              "post": "Coconut Mayonnaise",
+              "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+            },
+            {
+              "pre": "Durian Mayonnaise Sauce",
+              "post": "Mango Mayonnaise",
+              "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+            },
+            {
+              "pre": "Coconut Mayonnaise Sauce",
+              "post": "Durian Mayonnaise",
+              "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+            },
+            {
+              "pre": "Coconut Mayonnaise Sauce",
+              "post": "Mango Mayonnaise",
+              "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+            },
+            {
+              "pre": "Mango Mayonnaise Sauce",
+              "post": "Durian Mayonnaise",
+              "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+            },
+            {
+              "pre": "Mango Mayonnaise Sauce",
+              "post": "Coconut Mayonnaise",
+              "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Durian Mayonnaise Sauce",
+              "post": "Durian Mayonnaise",
+              "basis": "Same product, same flavor; only 'Sauce' dropped from name."
+            },
+            {
+              "pre": "Coconut Mayonnaise Sauce",
+              "post": "Coconut Mayonnaise",
+              "basis": "Same product, same flavor; only 'Sauce' dropped from name."
+            },
+            {
+              "pre": "Mango Mayonnaise Sauce",
+              "post": "Mango Mayonnaise",
+              "basis": "Same product, same flavor; only 'Sauce' dropped from name."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "recode",
+              "pre": "Durian Mayonnaise Sauce",
+              "post": "Durian Mayonnaise",
+              "fromCode": null,
+              "toCode": "Narrowed",
+              "reason": "Pass 1 left provisional_code null. 'Durian Mayonnaise' is a specific way of being 'Durian Mayonnaise Sauce' (same product, only 'Sauce' dropped — scope-narrowing by removing the generic 'Sauce' qualifier). However, since the only change is dropping a word from the product name and the underlying product is the same, Narrowed is defensible. Confirming as Narrowed; Reframed/Elaborated are also arguable but Narrowed fits the scope restriction pattern."
+            },
+            {
+              "type": "recode",
+              "pre": "Coconut Mayonnaise Sauce",
+              "post": "Coconut Mayonnaise",
+              "fromCode": null,
+              "toCode": "Narrowed",
+              "reason": "Same pattern: POST is a specific (truncated-naming) realization of PRE. Narrowed is defensible; alternative Reframed recorded."
+            },
+            {
+              "type": "recode",
+              "pre": "Mango Mayonnaise Sauce",
+              "post": "Mango Mayonnaise",
+              "fromCode": null,
+              "toCode": "Narrowed",
+              "reason": "Same pattern: POST is a specific (truncated-naming) realization of PRE. Narrowed is defensible."
+            },
+            {
+              "type": "confirm",
+              "pre": "Durian Mayonnaise Sauce",
+              "post": "Coconut Mayonnaise",
+              "fromCode": "Rejected",
+              "toCode": "Rejected",
+              "reason": "Cross-flavor forced pairing correctly rejected."
+            },
+            {
+              "type": "confirm",
+              "pre": "Durian Mayonnaise Sauce",
+              "post": "Mango Mayonnaise",
+              "fromCode": "Rejected",
+              "toCode": "Rejected",
+              "reason": "Cross-flavor forced pairing correctly rejected."
+            },
+            {
+              "type": "confirm",
+              "pre": "Coconut Mayonnaise Sauce",
+              "post": "Durian Mayonnaise",
+              "fromCode": "Rejected",
+              "toCode": "Rejected",
+              "reason": "Cross-flavor forced pairing correctly rejected."
+            },
+            {
+              "type": "confirm",
+              "pre": "Coconut Mayonnaise Sauce",
+              "post": "Mango Mayonnaise",
+              "fromCode": "Rejected",
+              "toCode": "Rejected",
+              "reason": "Cross-flavor forced pairing correctly rejected."
+            },
+            {
+              "type": "confirm",
+              "pre": "Mango Mayonnaise Sauce",
+              "post": "Durian Mayonnaise",
+              "fromCode": "Rejected",
+              "toCode": "Rejected",
+              "reason": "Cross-flavor forced pairing correctly rejected."
+            },
+            {
+              "type": "confirm",
+              "pre": "Mango Mayonnaise Sauce",
+              "post": "Coconut Mayonnaise",
+              "fromCode": "Rejected",
+              "toCode": "Rejected",
+              "reason": "Cross-flavor forced pairing correctly rejected."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti70h6lxzuydmctm7m",
+            "code": "Narrowed",
+            "preEvidence": "Durian Mayonnaise Sauce",
+            "postEvidence": "Durian Mayonnaise",
+            "rationale": "POST is a specific (truncated-naming) realization of PRE: same flavor, same product category, only the generic 'Sauce' qualifier is dropped. The underlying product is intact; the change is scope-restrictive at the label level.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (dropping 'Sauce' could be read as reframing the product from sauce-format to a broader condiment/mayo format), but Narrowed fits the scope-restriction pattern more cleanly."
+          },
+          {
+            "instanceId": "mti70h6l1ei7575bmot",
+            "code": "Narrowed",
+            "preEvidence": "Coconut Mayonnaise Sauce",
+            "postEvidence": "Coconut Mayonnaise",
+            "rationale": "Same pattern as Durian pair: POST is a specific realization of PRE with only 'Sauce' removed.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (reformatting as 'Mayonnaise' rather than 'Mayonnaise Sauce' could indicate a category shift)."
+          },
+          {
+            "instanceId": "mti70h6l89pzsvv4b7g",
+            "code": "Narrowed",
+            "preEvidence": "Mango Mayonnaise Sauce",
+            "postEvidence": "Mango Mayonnaise",
+            "rationale": "Same pattern: POST drops only the 'Sauce' qualifier while keeping flavor and product identity intact.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (Mayonnaise vs Mayonnaise Sauce could indicate a broader/different condiment framing)."
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "order_change_only",
+            "possible_stylistic_rewrite"
+          ],
+          "coderNotes": "Each pair differs only by the omission of the word 'Sauce' ('Mayonnaise Sauce' → 'Mayonnaise'). This is a lexical/label reduction with no propositional content change: the product, the fruit, and the category remain identical. Per STYLE-vs-SEMANTIC, near-synonym removal where no meaningful difference in meaning persists is not a semantic event. No semantic events coded. Reordering of the slashes in the post string vs the pre string is also non-semantic. Structural development: No Change. Critic applied 9 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 10
+      },
+      "post": {
+        "answer": 10
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 4,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 4,
+          "Alignment with Personal Values": 4,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 4,
+          "Other": 4
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 4,
+          "Familiarity/Market Understanding": 3,
+          "Business Potential (Profit and Market Demand)": 4,
+          "Alignment with Personal Values": 4,
+          "Curiosity and Learning Opportunity": 4,
+          "Consumer trends, social media trends, peer trends": 4,
+          "Other": 4
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ],
+  "name": "Peter"
+}

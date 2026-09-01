@@ -1,0 +1,83 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-3"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "Female students",
+      "aged 18-25",
+      "interested in safe Pilates equipment"
+    ],
+    "post_concepts": [
+      "Female students",
+      "aged 18-25",
+      "interested in safe Pilates equipment"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Female students",
+        "post": "Female students",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "aged 18-25",
+        "post": "aged 18-25",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "interested in safe Pilates equipment",
+        "post": "interested in safe Pilates equipment",
+        "continuity": "identical",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "Female students",
+        "post": "Female students",
+        "basis": "verbatim identity"
+      },
+      {
+        "pre": "aged 18-25",
+        "post": "aged 18-25",
+        "basis": "verbatim identity"
+      },
+      {
+        "pre": "interested in safe Pilates equipment",
+        "post": "interested in safe Pilates equipment",
+        "basis": "verbatim identity"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "PRE and POST responses are character-for-character identical. No clauses, phrases, or sentences have been added or removed."
+  },
+  "semantic_events": [],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "Pre and post responses are identical. No semantic events to code; structural development is No Change."
+  },
+  "coded_at": "2026-01-23T12:00:00Z",
+  "model": "MiniMax-M3"
+}

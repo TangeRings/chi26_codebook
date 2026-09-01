@@ -1,0 +1,48 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Instagram",
+      "post": "Instagram",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical platform name; pass-1 alignment correct"
+    },
+    {
+      "type": "confirm",
+      "pre": "Tiktok",
+      "post": "Tiktok",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical platform name; pass-1 alignment correct"
+    },
+    {
+      "type": "confirm",
+      "pre": "Pinterest",
+      "post": "Pinterest",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical platform name; pass-1 alignment correct"
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Instagram",
+      "post": "Instagram",
+      "basis": "identical platform name"
+    },
+    {
+      "pre": "Tiktok",
+      "post": "Tiktok",
+      "basis": "identical platform name"
+    },
+    {
+      "pre": "Pinterest",
+      "post": "Pinterest",
+      "basis": "identical platform name"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

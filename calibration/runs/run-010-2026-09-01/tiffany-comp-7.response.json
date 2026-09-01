@@ -1,0 +1,903 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "The PRE response contains three short content type labels (packaging videos, behind-the-scenes content, staging videos), while the POST response contains four fully elaborated content pillars with detailed descriptions, multiple clauses per pillar, and explanatory elaboration. Multiple new sentences and explanatory passages have been added; the scope of the response is meaningfully larger.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "Packaging videos",
+        "behind-the-scenes content (for design/graphics)",
+        "staging videos"
+      ],
+      "postConcepts": [
+        "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+        "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+        "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+        "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Packaging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "continuity": "Both concern visual presentation of products; packaging videos are a form of showcasing products",
+          "scope": "PRE is narrow (packaging only); POST is broader (curated aesthetic across products)",
+          "frame": "PRE: instructional/operational focus on packaging step. POST: aspirational/positioning focus on designer mood",
+          "stretch": "Reasonable - both involve showing product visually",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Packaging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle",
+          "continuity": "Weak - packaging vs lifestyle staging",
+          "scope": "Different scope",
+          "frame": "Operational vs aspirational lifestyle",
+          "stretch": "Stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Packaging videos",
+          "post": "Design Inspiration: Offer tips and tricks for styling home",
+          "continuity": "Weak - instructional but about styling not packaging",
+          "scope": "Different",
+          "frame": "Instructional both, but different subject",
+          "stretch": "Stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Packaging videos",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "continuity": "Moderate - both are process/behind-the-scenes adjacent",
+          "scope": "PRE narrower",
+          "frame": "Production process vs design process",
+          "stretch": "Moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "continuity": "Weak - BTS vs curated aesthetic",
+          "scope": "Different",
+          "frame": "Process-reveal vs aspirational positioning",
+          "stretch": "Stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle",
+          "continuity": "Weak",
+          "scope": "Different",
+          "frame": "Process vs lifestyle",
+          "stretch": "Weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Design Inspiration: Offer tips and tricks for styling home",
+          "continuity": "Weak",
+          "scope": "Different",
+          "frame": "BTS vs styling tips",
+          "stretch": "Weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "continuity": "Strong - both are behind-the-scenes content",
+          "scope": "PRE: design/graphics BTS. POST: design process, craftsmanship, story",
+          "frame": "PRE: focused on design/graphics. POST: broader (craftsmanship and story)",
+          "stretch": "Close match",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "continuity": "Moderate - staging relates to curated aesthetic presentation",
+          "scope": "Different",
+          "frame": "PRE: practical staging activity. POST: aspirational aesthetic positioning",
+          "stretch": "Moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+          "continuity": "Strong - staging videos explicitly place pieces in stylish spaces",
+          "scope": "PRE: video format of staging. POST: expanded concept of lifestyle staging across spaces",
+          "frame": "PRE: operational. POST: aspirational lifestyle framing",
+          "stretch": "Close",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Design Inspiration: Offer tips and tricks for styling home using products as examples",
+          "continuity": "Moderate - both about arranging/presenting products",
+          "scope": "PRE narrower (staging videos); POST broader (tips and styling)",
+          "frame": "PRE: video content. POST: educational styling",
+          "stretch": "Moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "continuity": "Weak",
+          "scope": "Different",
+          "frame": "Staging vs design BTS",
+          "stretch": "Weak",
+          "verdict": "weak"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Curated Aesthetic",
+          "reason": "Different conceptual domains - process-reveal vs aspirational aesthetic positioning; weak continuity"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Urban Living",
+          "reason": "Different conceptual domains; weak lineage"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Design Inspiration",
+          "reason": "Different conceptual domains; weak lineage"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Curated Aesthetic",
+          "reason": "Operational vs aspirational; weak frame match; better alignment with Urban Living exists"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Design Inspiration",
+          "reason": "Staging videos vs styling tips; weak conceptual continuity"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Behind the Scenes",
+          "reason": "Different frames - staging vs design process reveal"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Packaging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "basis": "Operational packaging-video frame reframed as aspirational aesthetic-positioning frame; both involve visual product presentation with shifted organizing frame"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "basis": "Direct lineage; PRE seed (BTS design content) broadened to include craftsmanship and narrative dimensions"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+          "basis": "Operational staging-video frame reframed as aspirational urban-lifestyle positioning; both involve placing products in attractive settings"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [
+        "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+          "direction": "new",
+          "nearestCounterpart": "staging videos",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "staging videos and Design Inspiration share operational/presentation territory but staging is video-format-specific while Design Inspiration is broader educational styling content; subsumption test fails (Design Inspiration is not a specific way of being staging videos - they're sibling operational concepts); POST does not keep PRE intact (Elaborated fails); staging videos does not broaden to Design Inspiration since staging is a narrower activity. Reclassified as Reframed from staging videos."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Packaging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Pass-1 code is correct. Operational packaging-video frame shifts to aesthetic-positioning frame; subsumption fails; same visual-product-presentation territory persists with shifted organizing frame."
+        },
+        {
+          "type": "confirm",
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "fromCode": "Expanded",
+          "toCode": "Expanded",
+          "reason": "Pass-1 code is correct. PRE seed (BTS design content) broadens to encompass craftsmanship and story; POST keeps the BTS core intact and broadens scope rather than narrowing or merely elaborating. Elaborated would be defensible but Expanded better captures the scope broadening to craftsmanship and narrative dimensions."
+        },
+        {
+          "type": "confirm",
+          "pre": "staging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Pass-1 code is correct. Both involve placing products in attractive settings; frame shifts from operational/production (staging videos) to aspirational/lifestyle positioning (urban living). Subsumption fails; same semantic territory persists with shifted frame."
+        },
+        {
+          "type": "confirm",
+          "post": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "After re-check, Design Inspiration is an educational styling-tips content pillar. Nearest PRE counterpart (staging videos) was tested and fails all four tiers cleanly: Design Inspiration is not a specific way of being staging videos (Narrowed fails); no clear frame shift with same territory (Reframed weak - educational tips vs video staging are different operational concepts); staging videos is not simply added detail within Design Inspiration (Elaborated fails); Design Inspiration does not broaden an identifiable staging seed (Expanded fails). The recheck note initially considered Reframed but the rationale ultimately decided New. The New classification is defensible - no genuine lineage exists. Question D does not fire because this is genuinely a different conceptual domain (educational tips) from staging videos (video production), not a same-neighborhood forced pairing."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti759i8thdgltdljyl",
+        "code": "Reframed",
+        "preEvidence": "Packaging videos",
+        "postEvidence": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+        "rationale": "Packaging videos (operational/production-focused frame) is reconceived as a curated aesthetic (aspirational/positioning frame). Both involve visually presenting products with aesthetic intent, but the organizing frame shifts from a procedural content type to a brand-positioning concept. Subsumption test fails: a curated aesthetic is not a specific way of being packaging videos. Same semantic territory (product visual presentation) persists with shifted frame. Pre-frame: operational/procedural. Post-frame: aspirational/aesthetic positioning.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti759i8lejg7qa133",
+        "code": "Expanded",
+        "preEvidence": "behind-the-scenes content (for design/graphics)",
+        "postEvidence": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+        "rationale": "The PRE concept (behind-the-scenes content for design/graphics) is retained and broadened in POST to encompass the broader design process, craftsmanship, and the story behind products. The PRE seed (BTS design content) expands to include craftsmanship and narrative dimensions that were not specified in PRE. POST keeps the BTS concept intact and broadens its scope.",
+        "confidence": "high",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti759i8lhl853cii5",
+        "code": "Reframed",
+        "preEvidence": "staging videos",
+        "postEvidence": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+        "rationale": "Staging videos (operational/content-format frame focused on the activity of staging) is reconceived as Urban Living content (aspirational/lifestyle frame). Both involve placing products in visually appealing settings, but the organizing frame shifts from a production activity to a lifestyle positioning narrative. Subsumption test fails: Urban Living is not a specific way of being staging videos. Same semantic territory (product placement in attractive settings) persists with shifted frame. Pre-frame: operational/production. Post-frame: aspirational/lifestyle.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti759i86mpws3xqixs",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+        "rationale": "Design Inspiration is an educational styling-tips content pillar with no defensible PRE antecedent. Nearest counterpart (staging videos) was tested and fails all four tiers: Design Inspiration is not a specific way of being staging videos (Narrowed fails - educational tips is not subsumed by video staging); no clear frame shift with shared territory (Reframed fails - educational tips and video staging are different operational concepts, not a frame reorganization); staging videos is not simply added detail within Design Inspiration (Elaborated fails - the underlying category differs); Design Inspiration does not broaden an identifiable staging seed (Expanded fails - staging is a narrower activity, not a seed that broadens into educational content). No genuine lineage exists; Design Inspiration is a genuinely new content pillar.",
+        "confidence": "medium",
+        "alternativeConsidered": "Reframed from staging videos"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "possible_missed_event",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "The PRE response is a short list of content types while POST is a fully elaborated content strategy with four pillars. The match between Packaging videos and Curated Aesthetic requires interpretive stretch - both involve product visual presentation but the frame shift is substantial. The match between staging videos and Urban Living also involves frame shift from operational to aspirational. Design Inspiration as New is borderline - staging videos could be seen as a weaker Reframed match, but I maintained it as New after testing all four codes against staging videos as the nearest counterpart. The structural development is clearly Significant Addition given the expansion from three labels to four elaborated pillars. Critic applied 4 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "Packaging videos",
+        "behind-the-scenes content (for design/graphics)",
+        "staging videos"
+      ],
+      "post_concepts": [
+        "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+        "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+        "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+        "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Packaging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "continuity": "Both concern visual presentation of products; packaging videos are a form of showcasing products",
+          "scope": "PRE is narrow (packaging only); POST is broader (curated aesthetic across products)",
+          "frame": "PRE: instructional/operational focus on packaging step. POST: aspirational/positioning focus on designer mood",
+          "stretch": "Reasonable - both involve showing product visually",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Packaging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle",
+          "continuity": "Weak - packaging vs lifestyle staging",
+          "scope": "Different scope",
+          "frame": "Operational vs aspirational lifestyle",
+          "stretch": "Stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Packaging videos",
+          "post": "Design Inspiration: Offer tips and tricks for styling home",
+          "continuity": "Weak - instructional but about styling not packaging",
+          "scope": "Different",
+          "frame": "Instructional both, but different subject",
+          "stretch": "Stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Packaging videos",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "continuity": "Moderate - both are process/behind-the-scenes adjacent",
+          "scope": "PRE narrower",
+          "frame": "Production process vs design process",
+          "stretch": "Moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "continuity": "Weak - BTS vs curated aesthetic",
+          "scope": "Different",
+          "frame": "Process-reveal vs aspirational positioning",
+          "stretch": "Stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle",
+          "continuity": "Weak",
+          "scope": "Different",
+          "frame": "Process vs lifestyle",
+          "stretch": "Weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Design Inspiration: Offer tips and tricks for styling home",
+          "continuity": "Weak",
+          "scope": "Different",
+          "frame": "BTS vs styling tips",
+          "stretch": "Weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "continuity": "Strong - both are behind-the-scenes content",
+          "scope": "PRE: design/graphics BTS. POST: design process, craftsmanship, story",
+          "frame": "PRE: focused on design/graphics. POST: broader (craftsmanship and story)",
+          "stretch": "Close match",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "continuity": "Moderate - staging relates to curated aesthetic presentation",
+          "scope": "Different",
+          "frame": "PRE: practical staging activity. POST: aspirational aesthetic positioning",
+          "stretch": "Moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+          "continuity": "Strong - staging videos explicitly place pieces in stylish spaces",
+          "scope": "PRE: video format of staging. POST: expanded concept of lifestyle staging across spaces",
+          "frame": "PRE: operational. POST: aspirational lifestyle framing",
+          "stretch": "Close",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Design Inspiration: Offer tips and tricks for styling home using products as examples",
+          "continuity": "Moderate - both about arranging/presenting products",
+          "scope": "PRE narrower (staging videos); POST broader (tips and styling)",
+          "frame": "PRE: video content. POST: educational styling",
+          "stretch": "Moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "continuity": "Weak",
+          "scope": "Different",
+          "frame": "Staging vs design BTS",
+          "stretch": "Weak",
+          "verdict": "weak"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Curated Aesthetic",
+          "reason": "Different conceptual domains - process-reveal vs aspirational aesthetic positioning; weak continuity"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Urban Living",
+          "reason": "Different conceptual domains; weak lineage"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Design Inspiration",
+          "reason": "Different conceptual domains; weak lineage"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Curated Aesthetic",
+          "reason": "Operational vs aspirational; weak frame match; better alignment with Urban Living exists"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Design Inspiration",
+          "reason": "Staging videos vs styling tips; weak conceptual continuity"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Behind the Scenes",
+          "reason": "Different frames - staging vs design process reveal"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Packaging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "basis": "Operational packaging-video frame reframed as aspirational aesthetic-positioning frame; both involve visual product presentation with shifted organizing frame"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "basis": "Direct lineage; PRE seed (BTS design content) broadened to include craftsmanship and narrative dimensions"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+          "basis": "Operational staging-video frame reframed as aspirational urban-lifestyle positioning; both involve placing products in attractive settings"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+          "direction": "new",
+          "nearest_counterpart": "staging videos",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "staging videos and Design Inspiration share operational/presentation territory but staging is video-format-specific while Design Inspiration is broader educational styling content; subsumption test fails (Design Inspiration is not a specific way of being staging videos - they're sibling operational concepts); POST does not keep PRE intact (Elaborated fails); staging videos does not broaden to Design Inspiration since staging is a narrower activity. Reclassified as Reframed from staging videos."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Packaging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Pass-1 code is correct. Operational packaging-video frame shifts to aesthetic-positioning frame; subsumption fails; same visual-product-presentation territory persists with shifted organizing frame."
+        },
+        {
+          "type": "confirm",
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "from_code": "Expanded",
+          "to_code": "Expanded",
+          "reason": "Pass-1 code is correct. PRE seed (BTS design content) broadens to encompass craftsmanship and story; POST keeps the BTS core intact and broadens scope rather than narrowing or merely elaborating. Elaborated would be defensible but Expanded better captures the scope broadening to craftsmanship and narrative dimensions."
+        },
+        {
+          "type": "confirm",
+          "pre": "staging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Pass-1 code is correct. Both involve placing products in attractive settings; frame shifts from operational/production (staging videos) to aspirational/lifestyle positioning (urban living). Subsumption fails; same semantic territory persists with shifted frame."
+        },
+        {
+          "type": "confirm",
+          "post": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "After re-check, Design Inspiration is an educational styling-tips content pillar. Nearest PRE counterpart (staging videos) was tested and fails all four tiers cleanly: Design Inspiration is not a specific way of being staging videos (Narrowed fails); no clear frame shift with same territory (Reframed weak - educational tips vs video staging are different operational concepts); staging videos is not simply added detail within Design Inspiration (Elaborated fails); Design Inspiration does not broaden an identifiable staging seed (Expanded fails). The recheck note initially considered Reframed but the rationale ultimately decided New. The New classification is defensible - no genuine lineage exists. Question D does not fire because this is genuinely a different conceptual domain (educational tips) from staging videos (video production), not a same-neighborhood forced pairing."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "The PRE response contains three short content type labels (packaging videos, behind-the-scenes content, staging videos), while the POST response contains four fully elaborated content pillars with detailed descriptions, multiple clauses per pillar, and explanatory elaboration. Multiple new sentences and explanatory passages have been added; the scope of the response is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "Packaging videos",
+        "post_evidence": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+        "rationale": "Packaging videos (operational/production-focused frame) is reconceived as a curated aesthetic (aspirational/positioning frame). Both involve visually presenting products with aesthetic intent, but the organizing frame shifts from a procedural content type to a brand-positioning concept. Subsumption test fails: a curated aesthetic is not a specific way of being packaging videos. Same semantic territory (product visual presentation) persists with shifted frame. Pre-frame: operational/procedural. Post-frame: aspirational/aesthetic positioning.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "behind-the-scenes content (for design/graphics)",
+        "post_evidence": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+        "rationale": "The PRE concept (behind-the-scenes content for design/graphics) is retained and broadened in POST to encompass the broader design process, craftsmanship, and the story behind products. The PRE seed (BTS design content) expands to include craftsmanship and narrative dimensions that were not specified in PRE. POST keeps the BTS concept intact and broadens its scope.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "staging videos",
+        "post_evidence": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+        "rationale": "Staging videos (operational/content-format frame focused on the activity of staging) is reconceived as Urban Living content (aspirational/lifestyle frame). Both involve placing products in visually appealing settings, but the organizing frame shifts from a production activity to a lifestyle positioning narrative. Subsumption test fails: Urban Living is not a specific way of being staging videos. Same semantic territory (product placement in attractive settings) persists with shifted frame. Pre-frame: operational/production. Post-frame: aspirational/lifestyle.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+        "rationale": "Design Inspiration is an educational styling-tips content pillar with no defensible PRE antecedent. Nearest counterpart (staging videos) was tested and fails all four tiers: Design Inspiration is not a specific way of being staging videos (Narrowed fails - educational tips is not subsumed by video staging); no clear frame shift with shared territory (Reframed fails - educational tips and video staging are different operational concepts, not a frame reorganization); staging videos is not simply added detail within Design Inspiration (Elaborated fails - the underlying category differs); Design Inspiration does not broaden an identifiable staging seed (Expanded fails - staging is a narrower activity, not a seed that broadens into educational content). No genuine lineage exists; Design Inspiration is a genuinely new content pillar.",
+        "alternative_considered": "Reframed from staging videos",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "possible_missed_event",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "The PRE response is a short list of content types while POST is a fully elaborated content strategy with four pillars. The match between Packaging videos and Curated Aesthetic requires interpretive stretch - both involve product visual presentation but the frame shift is substantial. The match between staging videos and Urban Living also involves frame shift from operational to aspirational. Design Inspiration as New is borderline - staging videos could be seen as a weaker Reframed match, but I maintained it as New after testing all four codes against staging videos as the nearest counterpart. The structural development is clearly Significant Addition given the expansion from three labels to four elaborated pillars. Critic applied 4 correction(s)."
+    },
+    "coded_at": "2025-01-24T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "Packaging videos",
+        "behind-the-scenes content (for design/graphics)",
+        "staging videos"
+      ],
+      "post_concepts": [
+        "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+        "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+        "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+        "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Packaging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "continuity": "Both concern visual presentation of products; packaging videos are a form of showcasing products",
+          "scope": "PRE is narrow (packaging only); POST is broader (curated aesthetic across products)",
+          "frame": "PRE: instructional/operational focus on packaging step. POST: aspirational/positioning focus on designer mood",
+          "stretch": "Reasonable - both involve showing product visually",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Packaging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle",
+          "continuity": "Weak - packaging vs lifestyle staging",
+          "scope": "Different scope",
+          "frame": "Operational vs aspirational lifestyle",
+          "stretch": "Stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Packaging videos",
+          "post": "Design Inspiration: Offer tips and tricks for styling home",
+          "continuity": "Weak - instructional but about styling not packaging",
+          "scope": "Different",
+          "frame": "Instructional both, but different subject",
+          "stretch": "Stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Packaging videos",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "continuity": "Moderate - both are process/behind-the-scenes adjacent",
+          "scope": "PRE narrower",
+          "frame": "Production process vs design process",
+          "stretch": "Moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "continuity": "Weak - BTS vs curated aesthetic",
+          "scope": "Different",
+          "frame": "Process-reveal vs aspirational positioning",
+          "stretch": "Stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle",
+          "continuity": "Weak",
+          "scope": "Different",
+          "frame": "Process vs lifestyle",
+          "stretch": "Weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Design Inspiration: Offer tips and tricks for styling home",
+          "continuity": "Weak",
+          "scope": "Different",
+          "frame": "BTS vs styling tips",
+          "stretch": "Weak",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "continuity": "Strong - both are behind-the-scenes content",
+          "scope": "PRE: design/graphics BTS. POST: design process, craftsmanship, story",
+          "frame": "PRE: focused on design/graphics. POST: broader (craftsmanship and story)",
+          "stretch": "Close match",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "continuity": "Moderate - staging relates to curated aesthetic presentation",
+          "scope": "Different",
+          "frame": "PRE: practical staging activity. POST: aspirational aesthetic positioning",
+          "stretch": "Moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+          "continuity": "Strong - staging videos explicitly place pieces in stylish spaces",
+          "scope": "PRE: video format of staging. POST: expanded concept of lifestyle staging across spaces",
+          "frame": "PRE: operational. POST: aspirational lifestyle framing",
+          "stretch": "Close",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Design Inspiration: Offer tips and tricks for styling home using products as examples",
+          "continuity": "Moderate - both about arranging/presenting products",
+          "scope": "PRE narrower (staging videos); POST broader (tips and styling)",
+          "frame": "PRE: video content. POST: educational styling",
+          "stretch": "Moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "continuity": "Weak",
+          "scope": "Different",
+          "frame": "Staging vs design BTS",
+          "stretch": "Weak",
+          "verdict": "weak"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Curated Aesthetic",
+          "reason": "Different conceptual domains - process-reveal vs aspirational aesthetic positioning; weak continuity"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Urban Living",
+          "reason": "Different conceptual domains; weak lineage"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Design Inspiration",
+          "reason": "Different conceptual domains; weak lineage"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Curated Aesthetic",
+          "reason": "Operational vs aspirational; weak frame match; better alignment with Urban Living exists"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Design Inspiration",
+          "reason": "Staging videos vs styling tips; weak conceptual continuity"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Behind the Scenes",
+          "reason": "Different frames - staging vs design process reveal"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Packaging videos",
+          "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+          "basis": "Packaging videos are a specific operational form of curating/presenting products; both involve visual product presentation with aesthetic intent"
+        },
+        {
+          "pre": "behind-the-scenes content (for design/graphics)",
+          "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+          "basis": "Direct conceptual lineage - both are behind-the-scenes content revealing the design process; POST expands scope from design/graphics specifically to craftsmanship and story"
+        },
+        {
+          "pre": "staging videos",
+          "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+          "basis": "Staging videos directly correspond to placing/showcasing pieces in stylish spaces; POST reframes the staging activity into an aspirational urban lifestyle narrative"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+          "direction": "new",
+          "nearest_counterpart": "staging videos",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "staging videos and Design Inspiration share operational/presentation territory but staging is video-format-specific while Design Inspiration is broader educational styling content; subsumption test fails (Design Inspiration is not a specific way of being staging videos - they're sibling operational concepts); POST does not keep PRE intact (Elaborated fails); staging videos does not broaden to Design Inspiration since staging is a narrower activity. Reclassified as Reframed from staging videos."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "The PRE response contains three short content type labels (packaging videos, behind-the-scenes content, staging videos), while the POST response contains four fully elaborated content pillars with detailed descriptions, multiple clauses per pillar, and explanatory elaboration. Multiple new sentences and explanatory passages have been added; the scope of the response is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "Packaging videos",
+        "post_evidence": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+        "rationale": "Packaging videos (operational/production-focused frame) is reconceived as a curated aesthetic (aspirational/positioning frame). Both involve visually presenting products with aesthetic intent, but the organizing frame shifts from a procedural content type (how the product is packaged) to a brand-positioning concept (designer mood, curated aesthetic). Subsumption test fails: a curated aesthetic is not a specific way of being packaging videos. Same semantic territory (product visual presentation) persists with shifted frame. Pre-frame: operational/procedural. Post-frame: aspirational/aesthetic positioning.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "behind-the-scenes content (for design/graphics)",
+        "post_evidence": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+        "rationale": "The PRE concept (behind-the-scenes content for design/graphics) is retained and broadened in POST to encompass the broader design process, craftsmanship, and the story behind products. The PRE seed (BTS design content) expands to include craftsmanship and narrative dimensions that were not specified in PRE. POST keeps the BTS concept intact and broadens its scope.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "staging videos",
+        "post_evidence": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+        "rationale": "Staging videos (operational/content-format frame focused on the activity of staging) is reconceived as Urban Living content (aspirational/lifestyle frame). Both involve placing products in visually appealing settings, but the organizing frame shifts from a production activity (staging videos) to a lifestyle positioning narrative (modern urban living, stylish apartments, cafes). Subsumption test fails: Urban Living is not a specific way of being staging videos. Same semantic territory (product placement in attractive settings) persists with shifted frame. Pre-frame: operational/production. Post-frame: aspirational/lifestyle.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+        "rationale": "After mandatory re-check: nearest PRE counterparts tested were staging videos and packaging videos. Tested Narrowed (Design Inspiration is not a specific way of being staging videos - it is educational styling content vs video staging - FAIL). Tested Reframed - originally kept this as Reframed from staging videos but on closer examination, Design Inspiration is about offering tips and tricks for styling the home, while staging videos is about filming the staging of products; these are sibling operational concepts rather than clearly sharing an organizing frame shift. After re-examination, the cleanest read is that Design Inspiration introduces an educational/styling-tips content pillar with no clear antecedent in PRE. However, reclassifying as Reframed from staging videos since both involve operational product presentation activities. Final decision: this is a New content pillar (educational styling tips) that has no direct antecedent in the PRE's three operational content types. The nearest counterpart staging videos shares operational territory but Design Inspiration is educational/tips-oriented rather than video-staging-oriented. All four transformation codes fail across genuine conceptual shift from video-format operational content to educational styling content.",
+        "alternative_considered": "Reframed from staging videos",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "possible_missed_event",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "The PRE response is a short list of content types while POST is a fully elaborated content strategy with four pillars. The match between Packaging videos and Curated Aesthetic requires interpretive stretch - both involve product visual presentation but the frame shift is substantial. The match between staging videos and Urban Living also involves frame shift from operational to aspirational. Design Inspiration as New is borderline - staging videos could be seen as a weaker Reframed match, but I maintained it as New after testing all four codes against staging videos as the nearest counterpart. The structural development is clearly Significant Addition given the expansion from three labels to four elaborated pillars."
+    },
+    "coded_at": "2025-01-24T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Packaging videos",
+        "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Pass-1 code is correct. Operational packaging-video frame shifts to aesthetic-positioning frame; subsumption fails; same visual-product-presentation territory persists with shifted organizing frame."
+      },
+      {
+        "type": "confirm",
+        "pre": "behind-the-scenes content (for design/graphics)",
+        "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "Pass-1 code is correct. PRE seed (BTS design content) broadens to encompass craftsmanship and story; POST keeps the BTS core intact and broadens scope rather than narrowing or merely elaborating. Elaborated would be defensible but Expanded better captures the scope broadening to craftsmanship and narrative dimensions."
+      },
+      {
+        "type": "confirm",
+        "pre": "staging videos",
+        "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Pass-1 code is correct. Both involve placing products in attractive settings; frame shifts from operational/production (staging videos) to aspirational/lifestyle positioning (urban living). Subsumption fails; same semantic territory persists with shifted frame."
+      },
+      {
+        "type": "confirm",
+        "post": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "After re-check, Design Inspiration is an educational styling-tips content pillar. Nearest PRE counterpart (staging videos) was tested and fails all four tiers cleanly: Design Inspiration is not a specific way of being staging videos (Narrowed fails); no clear frame shift with same territory (Reframed weak - educational tips vs video staging are different operational concepts); staging videos is not simply added detail within Design Inspiration (Elaborated fails); Design Inspiration does not broaden an identifiable staging seed (Expanded fails). The recheck note initially considered Reframed but the rationale ultimately decided New. The New classification is defensible - no genuine lineage exists. Question D does not fire because this is genuinely a different conceptual domain (educational tips) from staging videos (video production), not a same-neighborhood forced pairing."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Packaging videos",
+        "post": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+        "basis": "Operational packaging-video frame reframed as aspirational aesthetic-positioning frame; both involve visual product presentation with shifted organizing frame"
+      },
+      {
+        "pre": "behind-the-scenes content (for design/graphics)",
+        "post": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+        "basis": "Direct lineage; PRE seed (BTS design content) broadened to include craftsmanship and narrative dimensions"
+      },
+      {
+        "pre": "staging videos",
+        "post": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+        "basis": "Operational staging-video frame reframed as aspirational urban-lifestyle positioning; both involve placing products in attractive settings"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look"
+    ],
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "Packaging videos",
+        "post_evidence": "Curated Aesthetic: Showcase products as part of a carefully curated aesthetic emphasizing designer mood and elevated feel",
+        "rationale": "Packaging videos (operational/production-focused frame) is reconceived as a curated aesthetic (aspirational/positioning frame). Both involve visually presenting products with aesthetic intent, but the organizing frame shifts from a procedural content type to a brand-positioning concept. Subsumption test fails: a curated aesthetic is not a specific way of being packaging videos. Same semantic territory (product visual presentation) persists with shifted frame. Pre-frame: operational/procedural. Post-frame: aspirational/aesthetic positioning.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "behind-the-scenes content (for design/graphics)",
+        "post_evidence": "Behind the Scenes: Give a glimpse into the design process, showcasing craftsmanship and the story behind products",
+        "rationale": "The PRE concept (behind-the-scenes content for design/graphics) is retained and broadened in POST to encompass the broader design process, craftsmanship, and the story behind products. The PRE seed (BTS design content) expands to include craftsmanship and narrative dimensions that were not specified in PRE. POST keeps the BTS concept intact and broadens its scope.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "staging videos",
+        "post_evidence": "Urban Living: Highlight how pieces fit into a modern urban lifestyle, showcasing them in stylish apartments, cafes, and trendy spaces",
+        "rationale": "Staging videos (operational/content-format frame focused on the activity of staging) is reconceived as Urban Living content (aspirational/lifestyle frame). Both involve placing products in visually appealing settings, but the organizing frame shifts from a production activity to a lifestyle positioning narrative. Subsumption test fails: Urban Living is not a specific way of being staging videos. Same semantic territory (product placement in attractive settings) persists with shifted frame. Pre-frame: operational/production. Post-frame: aspirational/lifestyle.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Design Inspiration: Offer tips and tricks for styling home using products as examples, focus on creating a cohesive and inspiring look",
+        "rationale": "Design Inspiration is an educational styling-tips content pillar with no defensible PRE antecedent. Nearest counterpart (staging videos) was tested and fails all four tiers: Design Inspiration is not a specific way of being staging videos (Narrowed fails - educational tips is not subsumed by video staging); no clear frame shift with shared territory (Reframed fails - educational tips and video staging are different operational concepts, not a frame reorganization); staging videos is not simply added detail within Design Inspiration (Elaborated fails - the underlying category differs); Design Inspiration does not broaden an identifiable staging seed (Expanded fails - staging is a narrower activity, not a seed that broadens into educational content). No genuine lineage exists; Design Inspiration is a genuinely new content pillar.",
+        "alternative_considered": "Reframed from staging videos",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "skipCritic": false
+}

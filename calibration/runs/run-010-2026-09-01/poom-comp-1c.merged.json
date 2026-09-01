@@ -1,0 +1,386 @@
+{
+  "coding_unit": {
+    "student_id": "poom",
+    "item_id": "comp-1c"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Inspiring",
+      "Exciting",
+      "Funny",
+      "Life-Long Learning"
+    ],
+    "post_concepts": [
+      "Guided by curiosity",
+      "Humor",
+      "Continuous growth",
+      "Inspires others to step outside their comfort zones",
+      "See the world differently"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Inspiring",
+        "post": "Guided by curiosity",
+        "continuity": "weak \u2014 different conceptual frame (output vs. internal driver)",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "too far",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Inspiring",
+        "post": "Humor",
+        "continuity": "weak \u2014 both affective but different",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Inspiring",
+        "post": "Continuous growth",
+        "continuity": "weak \u2014 output quality vs. ongoing process",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Inspiring",
+        "post": "Inspires others to step outside their comfort zones",
+        "continuity": "strong \u2014 explicit 'inspires' preserved, scope broadened from unspecified to stepping outside comfort zones",
+        "scope": "POST broadens who/where",
+        "frame": "output quality \u2192 transformative content effect",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Inspiring",
+        "post": "See the world differently",
+        "continuity": "moderate \u2014 inspirational outcome reframed as perceptual shift",
+        "scope": "n/a",
+        "frame": "inspirational effect \u2192 world-view change",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Exciting",
+        "post": "Guided by curiosity",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "too far",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Exciting",
+        "post": "Humor",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Exciting",
+        "post": "Continuous growth",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Exciting",
+        "post": "Inspires others to step outside their comfort zones",
+        "continuity": "weak \u2014 both high-arousal affective but different",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Exciting",
+        "post": "See the world differently",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Funny",
+        "post": "Guided by curiosity",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "too far",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Funny",
+        "post": "Humor",
+        "continuity": "strong \u2014 explicit lexical continuity",
+        "scope": "n/a",
+        "frame": "same",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Funny",
+        "post": "Continuous growth",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Funny",
+        "post": "Inspires others to step outside their comfort zones",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Funny",
+        "post": "See the world differently",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Life-Long Learning",
+        "post": "Guided by curiosity",
+        "continuity": "strong \u2014 curiosity is a specific disposition driving continuous learning",
+        "scope": "POST could be narrower seed of learning",
+        "frame": "process \u2192 underlying disposition",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Life-Long Learning",
+        "post": "Humor",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "too far",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Life-Long Learning",
+        "post": "Continuous growth",
+        "continuity": "strong \u2014 explicit semantic continuity",
+        "scope": "n/a",
+        "frame": "learning-as-process \u2192 growth-as-process",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Life-Long Learning",
+        "post": "Inspires others to step outside their comfort zones",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Life-Long Learning",
+        "post": "See the world differently",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "moderate",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Inspiring",
+        "post": "Guided by curiosity",
+        "reason": "Different conceptual domains (output quality vs. internal epistemic disposition); no shared neighborhood."
+      },
+      {
+        "pre": "Exciting",
+        "post": "Humor",
+        "reason": "Both affective but no defensible transformation; weaker than leaving Exciting unmatched."
+      },
+      {
+        "pre": "Funny",
+        "post": "Guided by curiosity",
+        "reason": "Different conceptual domains; no defensible lineage."
+      },
+      {
+        "pre": "Life-Long Learning",
+        "post": "Humor",
+        "reason": "Different conceptual domains; no defensible lineage."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Funny",
+        "post": "Humor",
+        "basis": "Direct lexical continuity; subsumption holds."
+      },
+      {
+        "pre": "Life-Long Learning",
+        "post": "Continuous growth",
+        "basis": "Same personal-development territory; frame shifts from explicit learning to broader growth."
+      },
+      {
+        "pre": "Life-Long Learning",
+        "post": "Guided by curiosity",
+        "basis": "Same developmental territory; frame shifts from behavioral outcome to underlying disposition."
+      },
+      {
+        "pre": "Inspiring",
+        "post": "Inspires others to step outside their comfort zones",
+        "basis": "Inspirational noun preserved; specificity added (audience + effect)."
+      },
+      {
+        "pre": "Exciting",
+        "post": "See the world differently",
+        "basis": "Shared experiential-shift neighborhood; frame shifts from affective arousal to perceptual reframing."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Exciting",
+        "direction": "removed",
+        "nearest_counterpart": "See the world differently",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Full POST set searched. Exciting concerns affective arousal/energy; the nearest candidates are 'Humor' (which is already paired with Funny) and the inspirational clauses. Neither shares a semantic neighborhood with affective excitement. 'See the world differently' is about perceptual/cognitive reframing, a different domain. All four transformation codes fail."
+      },
+      {
+        "concept": "See the world differently",
+        "direction": "new",
+        "nearest_counterpart": "Inspiring",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "Pairs with the 'Inspiring \u2192 inspires others to step outside their comfort zones' match; the perceptual reframing (see the world differently) extends the inspirational effect. Considered consolidating into the Inspiring match but the comfort-zone and perceptual-shift clauses are distinct propositions warranting separate events."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "recode",
+        "pre": "Inspiring",
+        "post": "Inspires others to step outside their comfort zones",
+        "from_code": "Expanded",
+        "to_code": "Elaborated",
+        "reason": "POST keeps the PRE noun intact ('inspires' preserved) and adds specificity (audience: others; effect: stepping outside comfort zones). The underlying inspirational frame is unchanged; only descriptors were added. Confirmed Elaborated."
+      },
+      {
+        "type": "restore_lineage",
+        "pre": "Exciting",
+        "post": "See the world differently",
+        "from_code": "Removed+New",
+        "to_code": "Reframed",
+        "reason": "Both occupy an affective resonance / experiential shift neighborhood: arousal/energy reframed as a perceptual/epistemic shift. 'See the world differently is a specific way of being Exciting' is FALSE (perceptual reframing is not a subtype of affective arousal), so Narrowed fails, but the same experiential-shift territory with a shifted organizing frame (arousal \u2192 perception) supports Reframed."
+      },
+      {
+        "type": "confirm",
+        "pre": "Funny",
+        "post": "Humor",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "'Humor is a specific way of being Funny' holds; PRE is generic affective filler, POST names the substantive form. Correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "Life-Long Learning",
+        "post": "Continuous growth",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Continuous growth is broader than learning, so subsumption fails. Same personal-development territory with shifted organizing frame (learning \u2192 growth). Reframed confirmed."
+      },
+      {
+        "type": "confirm",
+        "pre": "Life-Long Learning",
+        "post": "Guided by curiosity",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Same developmental-territory neighborhood; frame shifts from behavioral outcome to underlying disposition. No subsumption. Reframed confirmed."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE is a four-descriptor enumeration. POST is a complete sentence that names values (curiosity, humor, continuous growth), articulates a purpose ('inspires others to step outside their comfort zones'), and adds an aspirational outcome ('see the world differently'). The shift from a short list to a fully formed value-statement sentence constitutes substantial structural expansion across clause and sentence levels."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Funny",
+      "post_evidence": "Humor",
+      "rationale": "'Humor is a specific way of being Funny' holds; PRE is generic affective filler and POST names the substantive form.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Life-Long Learning",
+      "post_evidence": "Continuous growth",
+      "rationale": "Same continuous-personal-development territory; frame shifts from explicit learning to broader growth. No subsumption.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Life-Long Learning",
+      "post_evidence": "Guided by curiosity",
+      "rationale": "Same developmental territory; frame shifts from behavioral process to underlying epistemic disposition. No subsumption (curiosity is the engine, not a subtype).",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Inspiring",
+      "post_evidence": "Inspires others to step outside their comfort zones",
+      "rationale": "Inspirational frame intact; POST specifies audience (others) and effect (leaving comfort zones). Same underlying noun, added detail.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Exciting",
+      "post_evidence": "See the world differently",
+      "rationale": "Shared experiential-shift neighborhood. 'See the world differently is a specific way of being Exciting' is false (perceptual reframing is not a subtype of affective arousal), but the same experiential-shift territory with a shifted organizing frame supports Reframed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "new_removed_recheck_passed",
+      "vague_to_specific_lineage",
+      "lineage_restored_by_critic",
+      "neighborhood_protected",
+      "duplicate_pre_antecedent"
+    ],
+    "coder_notes": "Exciting is removed; full POST set searched and no defensible lineage found across different domains. See the world differently is new; no PRE antecedent. The two Life-Long Learning matches (continuous growth, guided by curiosity) both legitimate; the second is medium confidence because the subsumption test is arguable. Critic applied 5 correction(s). Lineage restored for 1 pair(s): Exciting \u2192 See the world differently. Consistency check: \"Life-Long Learning\" serves as the antecedent of more than one event. The PRE span likely needs splitting \u2014 review before accepting."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

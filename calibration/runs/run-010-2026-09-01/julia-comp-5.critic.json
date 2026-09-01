@@ -1,0 +1,79 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "sustainability",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Pass-1 removal is correct. sustainability (environmental/ethical value) has no defensible lineage to 'brand conscious but practical' (consumer-attitude descriptor). All four transformation codes fail; abstraction ceiling reached if attempting values umbrella."
+    },
+    {
+      "type": "confirm",
+      "pre": "quiet luxury",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Pass-1 removal is correct. quiet luxury is an aesthetic/market-positioning niche; POST is a consumer-mindset descriptor \u2014 different conceptual domains. Shared territory is only the 'positioning' umbrella, which fails the abstraction-ceiling test."
+    },
+    {
+      "type": "confirm",
+      "pre": "artistic minimalism",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Pass-1 removal is correct. Artistic/aesthetic style niche vs consumer behavioral descriptor \u2014 different domains. No defensible transformation tier holds; umbrella 'values/positioning' is above the abstraction ceiling."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "brand conscious but practical",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass-1 New is correct. Nearest PRE counterparts are all in different conceptual domains (value-driven, aesthetic positioning, aesthetic style). Narrowed, Reframed, Elaborated, and Expanded all fail. Genuinely new consumer-attitude descriptor."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "sustainability",
+    "quiet luxury",
+    "artistic minimalism"
+  ],
+  "unmatched_post": [
+    "brand conscious but practical"
+  ],
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "sustainability",
+      "post_evidence": null,
+      "rationale": "Sustainability is an environmental/ethical value concept. POST 'brand conscious but practical' is a consumer-attitude descriptor. Not a subtype, not a sibling within a specific neighborhood (shared 'values' umbrella is above abstraction ceiling), not an elaboration, not an expansion. Concept is genuinely absent from POST.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "quiet luxury",
+      "post_evidence": null,
+      "rationale": "Quiet luxury is an aesthetic/market-positioning niche; POST is a consumer-mindset descriptor. Different conceptual domains; nearest counterpairing would only share a 'positioning' umbrella, which fails the abstraction-ceiling test.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "artistic minimalism",
+      "post_evidence": null,
+      "rationale": "Artistic minimalism is an aesthetic-style niche; POST is a consumer behavioral descriptor. Different conceptual domains with no defensible transformation tier available.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "brand conscious but practical",
+      "rationale": "POST introduces a consumer-attitude descriptor (brand awareness + pragmatism). Nearest PRE counterparts (sustainability, quiet luxury, artistic minimalism) all sit in different conceptual domains; all four transformation codes tested and fail. Genuinely new concept with no available antecedent.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

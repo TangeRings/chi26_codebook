@@ -1,0 +1,52 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "women who are into health",
+      "post": "someone who might want to keep their pilates routine consistent and on the go",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption holds: keeping a pilates routine is a specific way of being into health. PRE is substantive but the POST is a concrete behavioral subset of the health-interest category, not a sibling domain. Narrowed is defensible; pass 1 is correct."
+    },
+    {
+      "type": "recode",
+      "pre": "active people",
+      "post": "someone who may travel frequently",
+      "from_code": "Narrowed",
+      "to_code": "Reframed",
+      "reason": "Subsumption test fails: 'someone who travels frequently is a specific way of being an active person' is not literally true. Frequent travel is not a subset of activeness \u2014 many active people never travel, and many travelers are sedentary. Both occupy activity/lifestyle territory but with different organizing frames: PRE frames around general physical/active engagement, POST frames around mobility/travel behavior. Sibling concepts, not subsumption. Reframed is correct; original conflation with the pilates-travel context should not bleed into this pairing."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "women who are into health",
+      "post": "someone who might want to keep their pilates routine consistent and on the go",
+      "basis": "health interest narrows into specific fitness practice (pilates) with use-case (on the go)"
+    },
+    {
+      "pre": "active people",
+      "post": "someone who may travel frequently",
+      "basis": "general activeness shifts frame to mobility/travel-oriented lifestyle; related territory, sibling concepts"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "women who are into health",
+      "post_evidence": "someone who might want to keep their pilates routine consistent and on the go",
+      "rationale": "Pilates routine maintenance is a specific realization of the broader health-interest orientation. Subsumption holds despite PRE being substantive, because POST is a concrete behavioral subset (specific fitness practice) rather than a sibling domain. Gender specification is dropped but lineage is preserved.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "active people",
+      "post_evidence": "someone who may travel frequently",
+      "rationale": "Subsumption fails: frequent travel is not a proper subset of activeness. Both occupy activity/lifestyle territory but with different organizing frames \u2014 PRE is general active engagement, POST is mobility/travel behavior. Same neighborhood (active lifestyle), shifted frame. Name both frames: general physical activeness \u2192 mobility-driven lifestyle.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    }
+  ]
+}

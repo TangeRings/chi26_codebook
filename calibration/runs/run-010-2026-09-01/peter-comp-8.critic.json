@@ -1,0 +1,121 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "Durian Mayonnaise Sauce",
+      "post": "Durian Mayonnaise",
+      "from_code": null,
+      "to_code": "Narrowed",
+      "reason": "Pass 1 left provisional_code null. 'Durian Mayonnaise' is a specific way of being 'Durian Mayonnaise Sauce' (same product, only 'Sauce' dropped \u2014 scope-narrowing by removing the generic 'Sauce' qualifier). However, since the only change is dropping a word from the product name and the underlying product is the same, Narrowed is defensible. Confirming as Narrowed; Reframed/Elaborated are also arguable but Narrowed fits the scope restriction pattern."
+    },
+    {
+      "type": "recode",
+      "pre": "Coconut Mayonnaise Sauce",
+      "post": "Coconut Mayonnaise",
+      "from_code": null,
+      "to_code": "Narrowed",
+      "reason": "Same pattern: POST is a specific (truncated-naming) realization of PRE. Narrowed is defensible; alternative Reframed recorded."
+    },
+    {
+      "type": "recode",
+      "pre": "Mango Mayonnaise Sauce",
+      "post": "Mango Mayonnaise",
+      "from_code": null,
+      "to_code": "Narrowed",
+      "reason": "Same pattern: POST is a specific (truncated-naming) realization of PRE. Narrowed is defensible."
+    },
+    {
+      "type": "confirm",
+      "pre": "Durian Mayonnaise Sauce",
+      "post": "Coconut Mayonnaise",
+      "from_code": "Rejected",
+      "to_code": "Rejected",
+      "reason": "Cross-flavor forced pairing correctly rejected."
+    },
+    {
+      "type": "confirm",
+      "pre": "Durian Mayonnaise Sauce",
+      "post": "Mango Mayonnaise",
+      "from_code": "Rejected",
+      "to_code": "Rejected",
+      "reason": "Cross-flavor forced pairing correctly rejected."
+    },
+    {
+      "type": "confirm",
+      "pre": "Coconut Mayonnaise Sauce",
+      "post": "Durian Mayonnaise",
+      "from_code": "Rejected",
+      "to_code": "Rejected",
+      "reason": "Cross-flavor forced pairing correctly rejected."
+    },
+    {
+      "type": "confirm",
+      "pre": "Coconut Mayonnaise Sauce",
+      "post": "Mango Mayonnaise",
+      "from_code": "Rejected",
+      "to_code": "Rejected",
+      "reason": "Cross-flavor forced pairing correctly rejected."
+    },
+    {
+      "type": "confirm",
+      "pre": "Mango Mayonnaise Sauce",
+      "post": "Durian Mayonnaise",
+      "from_code": "Rejected",
+      "to_code": "Rejected",
+      "reason": "Cross-flavor forced pairing correctly rejected."
+    },
+    {
+      "type": "confirm",
+      "pre": "Mango Mayonnaise Sauce",
+      "post": "Coconut Mayonnaise",
+      "from_code": "Rejected",
+      "to_code": "Rejected",
+      "reason": "Cross-flavor forced pairing correctly rejected."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Durian Mayonnaise Sauce",
+      "post": "Durian Mayonnaise",
+      "basis": "Same product, same flavor; only 'Sauce' dropped from name."
+    },
+    {
+      "pre": "Coconut Mayonnaise Sauce",
+      "post": "Coconut Mayonnaise",
+      "basis": "Same product, same flavor; only 'Sauce' dropped from name."
+    },
+    {
+      "pre": "Mango Mayonnaise Sauce",
+      "post": "Mango Mayonnaise",
+      "basis": "Same product, same flavor; only 'Sauce' dropped from name."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Durian Mayonnaise Sauce",
+      "post_evidence": "Durian Mayonnaise",
+      "rationale": "POST is a specific (truncated-naming) realization of PRE: same flavor, same product category, only the generic 'Sauce' qualifier is dropped. The underlying product is intact; the change is scope-restrictive at the label level.",
+      "alternative_considered": "Reframed (dropping 'Sauce' could be read as reframing the product from sauce-format to a broader condiment/mayo format), but Narrowed fits the scope-restriction pattern more cleanly.",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Coconut Mayonnaise Sauce",
+      "post_evidence": "Coconut Mayonnaise",
+      "rationale": "Same pattern as Durian pair: POST is a specific realization of PRE with only 'Sauce' removed.",
+      "alternative_considered": "Reframed (reformatting as 'Mayonnaise' rather than 'Mayonnaise Sauce' could indicate a category shift).",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Mango Mayonnaise Sauce",
+      "post_evidence": "Mango Mayonnaise",
+      "rationale": "Same pattern: POST drops only the 'Sauce' qualifier while keeping flavor and product identity intact.",
+      "alternative_considered": "Reframed (Mayonnaise vs Mayonnaise Sauce could indicate a broader/different condiment framing).",
+      "confidence": "high"
+    }
+  ]
+}

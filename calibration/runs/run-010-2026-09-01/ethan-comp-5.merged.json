@@ -1,0 +1,72 @@
+{
+  "coding_unit": {
+    "student_id": "ethan",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "no specific niche identified"
+    ],
+    "post_concepts": [
+      "eco-friendly musicians"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "no specific niche identified",
+        "post": "eco-friendly musicians",
+        "continuity": "Both address the existence/non-existence of a niche; PRE is a denial, POST acknowledges a possible niche",
+        "scope": "PRE scopes to absence; POST scopes to a specific population",
+        "frame": "PRE = null/denial frame; POST = qualified-exception frame with a concrete audience",
+        "stretch": "Stretching from a denial to a tentative exception with population specification",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "no specific niche identified",
+        "post": "eco-friendly musicians",
+        "basis": "Both address the existence/non-existence of a niche within the target market; PRE denies a niche, POST provides a tentative exception. Frame shifts from denial to qualified exception with a concrete population."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [],
+    "critic_corrections": [
+      {
+        "type": "recode",
+        "pre": "no specific niche identified",
+        "post": "eco-friendly musicians",
+        "from_code": "Narrowed",
+        "to_code": "Reframed",
+        "reason": "PRE is a substantive denial ('no specific niche identified'), not a generic filler, so the subsumption test fails: 'eco-friendly musicians (as a niche possibility) is a specific way of being no specific niche identified' is FALSE. The denial frame is being replaced by a qualified-exception frame with a population specification \u2014 same semantic territory (niche existence), different organizing frame (denial \u2192 tentative exception). This is textbook Reframed, not Narrowed."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "PRE is a terse two-word denial ('No idea'). POST adds a qualified claim ('Not necessarily, other than maybe eco-friendly musicians'), introducing a specific audience segment and a hedge. This adds meaningful content (a specific niche and a qualifier) at the clause level, but the response remains a single short sentence. Moderate Addition rather than Significant, because only one new clause-level idea is added."
+  },
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "no specific niche identified",
+      "post_evidence": "maybe eco-friendly musicians",
+      "rationale": "Same semantic territory (niche status within target market) with a shifted organizing frame: PRE operates in a denial/absence frame ('no specific niche'), POST operates in a qualified-exception frame that names a concrete population ('maybe eco-friendly musicians'). Subsumption does not hold because PRE is a substantive denial, not a generic possibility \u2014 Narrowed is therefore incorrect. Frames: PRE = null-denial frame; POST = tentative-exception frame with population specification.",
+      "alternative_considered": "Narrowed (subsumption test fails because 'eco-friendly musicians niche' is not a specific way of being 'no specific niche identified')",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe"
+    ],
+    "coder_notes": "The PRE 'No idea' is genuinely terse and could be read as (a) 'I have no niche idea' or (b) a more general 'I don't know.' Read (a) supports the Narrowed reading because the POST then offers one niche idea as an exception to the broader denial. Read (b) would weaken the semantic event to possibly No Change or Reframed. Interpreted here as (a), which is the more domain-appropriate reading for a Q2.2 niche question. Flagged boundary_case_narrow_vs_reframe because the subsumption sentence is arguable. Critic applied 1 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

@@ -1,0 +1,207 @@
+{
+  "coding_unit": {
+    "student_id": "ethan",
+    "item_id": "comp-6"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Internet ads",
+      "Instagram ads",
+      "YouTube ads",
+      "ecommerce platforms"
+    ],
+    "post_concepts": [
+      "commerce-based platforms",
+      "Instagram ads",
+      "YouTube ads"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Internet ads",
+        "post": "commerce-based platforms",
+        "continuity": "Internet ads are a form of digital advertising; commerce-based platforms focus on selling channels. Different sub-domains of digital commerce/presence.",
+        "scope": "Internet ads is media-outreach oriented; commerce-based platforms is sales-channel oriented. Not a subset relation.",
+        "frame": "broadcast/media exposure frame vs transaction/sales-channel frame",
+        "stretch": "Weak. Different purposes even if both digital.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Internet ads",
+        "post": "Instagram ads",
+        "continuity": "Instagram ads are a specific type of internet/digital advertising.",
+        "scope": "Internet ads is the broader category; Instagram ads is one specific channel within it. Clear subset.",
+        "frame": "both advertising-channel frame",
+        "stretch": "Plausible \u2014 Instagram ads is a specific way of being internet ads.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Internet ads",
+        "post": "YouTube ads",
+        "continuity": "YouTube ads are a specific type of internet/digital advertising.",
+        "scope": "Internet ads is broader; YouTube ads is one channel. Clear subset.",
+        "frame": "both advertising-channel frame",
+        "stretch": "Plausible.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram ads",
+        "post": "commerce-based platforms",
+        "continuity": "Instagram ads are advertising; commerce-based platforms are sales. Different purposes.",
+        "scope": "disjoint",
+        "frame": "advertising vs commerce",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Instagram ads",
+        "post": "Instagram ads",
+        "continuity": "identical",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "identical",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Instagram ads",
+        "post": "YouTube ads",
+        "continuity": "Both are social/video ad channels.",
+        "scope": "siblings",
+        "frame": "same advertising frame",
+        "stretch": "Sibling concepts \u2014 neither is a subset of the other.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "YouTube ads",
+        "post": "commerce-based platforms",
+        "continuity": "Different domains (advertising vs sales channels).",
+        "scope": "disjoint",
+        "frame": "advertising vs commerce",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "YouTube ads",
+        "post": "Instagram ads",
+        "continuity": "Both are social/video ad channels.",
+        "scope": "siblings",
+        "frame": "same advertising frame",
+        "stretch": "Weak sibling match.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "YouTube ads",
+        "post": "YouTube ads",
+        "continuity": "identical",
+        "scope": "same",
+        "frame": "same",
+        "stretch": "identical",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "ecommerce platforms",
+        "post": "commerce-based platforms",
+        "continuity": "Ecommerce platforms are a clear subcategory of commerce-based platforms.",
+        "scope": "ecommerce is a subset of commerce-based",
+        "frame": "commerce/transaction frame",
+        "stretch": "Plausible \u2014 ecommerce is essentially equivalent to commerce-based in this context.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "ecommerce platforms",
+        "post": "Instagram ads",
+        "continuity": "Different domains (commerce vs advertising).",
+        "scope": "disjoint",
+        "frame": "commerce vs advertising",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "ecommerce platforms",
+        "post": "YouTube ads",
+        "continuity": "Different domains (commerce vs advertising).",
+        "scope": "disjoint",
+        "frame": "commerce vs advertising",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Instagram ads",
+        "post": "YouTube ads",
+        "reason": "Siblings within advertising channels; choosing one over Instagram weakens the matched alignments and would be a forced pairing. Keep Instagram\u2192Instagram, YouTube\u2192YouTube, and let Internet ads surface its true successors."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Instagram ads",
+        "post": "Instagram ads",
+        "basis": "Identical concept carried over."
+      },
+      {
+        "pre": "YouTube ads",
+        "post": "YouTube ads",
+        "basis": "Identical concept carried over."
+      },
+      {
+        "pre": "ecommerce platforms",
+        "post": "commerce-based platforms",
+        "basis": "Same domain (transaction/sales channels); ecommerce is essentially a synonym/restatement of commerce-based in this context."
+      }
+    ],
+    "unmatched_pre": [
+      "Internet ads"
+    ],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Internet ads",
+        "direction": "removed",
+        "nearest_counterpart": "commerce-based platforms",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Internet ads is an advertising/media-buy concept while commerce-based platforms is a sales-channel concept. They belong to different conceptual domains (advertising vs commerce). Narrowed fails (commerce platforms are not a specific way of doing internet ads). Reframed fails (no shared semantic territory). Elaborated fails (nothing added). Expanded fails (different domain). Internet ads may have been subsumed by the broader 'ads' framing in POST but the specific Internet-generality is genuinely dropped \u2014 student removed the generic 'Internet ads' label while retaining Instagram and YouTube ads specifically. The true successors of 'Internet ads' are 'Instagram ads' and 'YouTube ads' which are already matched. The generic 'Internet' qualifier has no remaining POST counterpart."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The post-response adds a qualifier ('Likely... as well as') that signals hedging/justification, and re-labels 'ecommerce platforms' as the more explicit 'commerce-based platforms.' The set of platforms mentioned is essentially preserved (Instagram ads, YouTube ads, ecommerce/commerce-based), but the framing becomes more considered. The added framing language counts as Moderate Addition at the clause level without reaching Significant Addition."
+  },
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "Internet ads",
+      "post_evidence": null,
+      "rationale": "'Internet ads' as a generic label is dropped from POST. Its specific instances (Instagram ads, YouTube ads) survive and are matched separately, so the generic umbrella term is genuinely removed rather than absorbed elsewhere. Nearest counterpart 'commerce-based platforms' tested across all four transformation codes \u2014 all fail because Internet ads (advertising) and commerce-based platforms (sales channels) occupy different conceptual domains. No defensible lineage.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "ecommerce platforms",
+      "post_evidence": "commerce-based platforms",
+      "rationale": "'ecommerce platforms' is essentially a synonym-of-domain of 'commerce-based platforms' in this item's context \u2014 but if treated as a subset relation, ecommerce (online commerce) is a specific way of being commerce-based (which includes broader retail). The subsumption test passes: 'commerce-based platforms' as a parent category and ecommerce platforms as the online subset. However, since ecommerce is virtually synonymous in usage and the relation is more one of restatement/scope clarification, this could also read as Reframed (subordinate frame: 'online sales' \u2192 explicit business categorization 'commerce-based'). Narrowed chosen because ecommerce platforms is a specific realization of commerce-based platforms (the broader umbrella), satisfying subsumption.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "possible_stylistic_rewrite",
+      "boundary_case_elab_vs_narrow"
+    ],
+    "coder_notes": "The ecommerce\u2192commerce-based transition may be closer to a stylistic label-rewrite than a substantive narrowing. Borderline Narrowed vs Reframed vs style-only; recorded Narrowed with medium confidence. 'Internet ads' removal is partly a side-effect of the umbrella term dissolving once its specific children (Instagram, YouTube) were named individually \u2014 counted as Removed rather than Reframed because the generic-internet-ads concept no longer has a successor in POST."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}

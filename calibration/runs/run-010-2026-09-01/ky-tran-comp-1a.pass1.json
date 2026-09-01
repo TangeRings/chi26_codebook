@@ -1,0 +1,257 @@
+{
+  "coding_unit": {
+    "student_id": "ky-tran",
+    "item_id": "comp-1a"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "innovative",
+      "minimalist"
+    ],
+    "post_concepts": [
+      "Smart",
+      "wellness-focused",
+      "affordable",
+      "accessible for everyone"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "innovative",
+        "post": "Smart",
+        "continuity": "Both relate to intelligence/capability; 'smart' can be a specific mode of being innovative, but 'innovative' typically signals novelty/creativity while 'smart' signals intelligence/cleverness",
+        "scope": "Similar scope \u2014 both single-word qualitative descriptors of brand character",
+        "frame": "Innovation/creativity frame vs. intelligence/cleverness frame",
+        "stretch": "Moderate stretch \u2014 related but the emphasis differs. 'Smart' is arguably a specific way of being innovative in a cognitive/efficient sense, or could be a sibling quality (cleverness rather than novelty)",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "innovative",
+        "post": "wellness-focused",
+        "continuity": "Different conceptual domains \u2014 innovation vs. health/wellbeing orientation",
+        "scope": "Unrelated",
+        "frame": "Different frames entirely",
+        "stretch": "Implausible \u2014 no shared semantic neighborhood",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "innovative",
+        "post": "affordable",
+        "continuity": "Different domains \u2014 innovation vs. price positioning",
+        "scope": "Unrelated",
+        "frame": "Different frames",
+        "stretch": "Implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "innovative",
+        "post": "accessible for everyone",
+        "continuity": "Different domains \u2014 innovation vs. universal access/inclusivity",
+        "scope": "Unrelated",
+        "frame": "Different frames",
+        "stretch": "Implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "minimalist",
+        "post": "Smart",
+        "continuity": "Minimalism is about reduction/simplicity; 'smart' could mean intelligent/efficient. A 'smart' approach could imply efficient/minimal design, but the frames differ",
+        "scope": "Unrelated scope",
+        "frame": "Aesthetic-reduction frame vs. cognitive-intelligence frame",
+        "stretch": "Weak \u2014 could be a very loose stretch but no defensible lineage",
+        "verdict": "weak"
+      },
+      {
+        "pre": "minimalist",
+        "post": "wellness-focused",
+        "continuity": "Different domains \u2014 minimalism vs. wellness",
+        "scope": "Unrelated",
+        "frame": "Different frames",
+        "stretch": "Implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "minimalist",
+        "post": "affordable",
+        "continuity": "Different domains \u2014 aesthetic minimalism vs. price positioning",
+        "scope": "Unrelated",
+        "frame": "Different frames",
+        "stretch": "Implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "minimalist",
+        "post": "accessible for everyone",
+        "continuity": "Different domains \u2014 design/aesthetic minimalism vs. universal access",
+        "scope": "Unrelated",
+        "frame": "Different frames",
+        "stretch": "Implausible",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "innovative",
+        "post": "wellness-focused",
+        "reason": "Different conceptual domains \u2014 innovation vs. health orientation; no shared neighborhood"
+      },
+      {
+        "pre": "innovative",
+        "post": "affordable",
+        "reason": "Different conceptual domains \u2014 innovation vs. price positioning"
+      },
+      {
+        "pre": "innovative",
+        "post": "accessible for everyone",
+        "reason": "Different conceptual domains \u2014 innovation vs. inclusivity/access"
+      },
+      {
+        "pre": "minimalist",
+        "post": "Smart",
+        "reason": "Aesthetic-reduction frame vs. cognitive-intelligence frame; weak lineage only, no defensible subsumption or sibling relationship"
+      },
+      {
+        "pre": "minimalist",
+        "post": "wellness-focused",
+        "reason": "Different conceptual domains"
+      },
+      {
+        "pre": "minimalist",
+        "post": "affordable",
+        "reason": "Different conceptual domains"
+      },
+      {
+        "pre": "minimalist",
+        "post": "accessible for everyone",
+        "reason": "Different conceptual domains"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "innovative",
+        "post": "Smart",
+        "basis": "Both denote cognitive/capability qualities of the brand. 'Smart' can be read as a specific manifestation of innovation (smart innovation = clever, efficient innovation) rather than purely novelty-based innovation. They share a semantic neighborhood around brand intelligence/cleverness."
+      }
+    ],
+    "unmatched_pre": [
+      "minimalist"
+    ],
+    "unmatched_post": [
+      "wellness-focused",
+      "affordable",
+      "accessible for everyone"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "minimalist",
+        "direction": "removed",
+        "nearest_counterpart": "Smart",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Minimalism concerns aesthetic reduction/simplicity; Smart concerns intelligence/cleverness. Different frames. Subsumption test fails ('Smart is a specific way of being minimalist' is FALSE). Semantic territory not shared \u2014 minimalism is an aesthetic/design orientation, not a cognitive one. Full POST set searched; no closer counterpart exists."
+      },
+      {
+        "concept": "wellness-focused",
+        "direction": "new",
+        "nearest_counterpart": "innovative",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Wellness-focused concerns health/wellbeing orientation; innovative concerns novelty/creativity. Different conceptual domains. No shared semantic neighborhood. Subsumption fails; no sibling relationship in same territory. Full PRE set searched; no antecedent exists."
+      },
+      {
+        "concept": "affordable",
+        "direction": "new",
+        "nearest_counterpart": "innovative",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Affordable concerns price positioning; innovative concerns novelty/creativity. Different conceptual domains. No shared semantic neighborhood. No defensible lineage. Full PRE set searched."
+      },
+      {
+        "concept": "accessible for everyone",
+        "direction": "new",
+        "nearest_counterpart": "minimalist",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Accessible for everyone concerns universal inclusivity/access; minimalist concerns aesthetic reduction. Different conceptual domains. No shared neighborhood. No defensible transformation. Full PRE set searched."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE contains 2 short descriptors (3 words). POST contains 4 substantive descriptors including a multi-word phrase ('accessible for everyone'), substantially expanding the breadth of brand characteristics named. Multiple new concepts are introduced at the phrase/concept level, extending the response from a sparse two-word characterization to a four-point identity statement."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "innovative",
+      "post_evidence": "Smart",
+      "rationale": "Innovative is a relatively generic descriptor of brand capability; 'Smart' represents a specific cognitive/intelligent register of innovation (cleverness, intelligence rather than pure novelty). The subsumption test is defensible: 'Smart is a specific way of being innovative' is plausibly TRUE when innovative is read generically. PRE-genericness signal supports Narrowed here \u2014 innovative is a broad capability claim that smart specifies into a particular mode. Note: this is a borderline judgment; some coders may read these as sibling qualities rather than subsumed.",
+      "alternative_considered": "Reframed (innovation/creativity frame \u2192 intelligence/cleverness frame as sibling qualities without true subsumption)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "minimalist",
+      "post_evidence": null,
+      "rationale": "Minimalist (aesthetic reduction/simplicity) has no successor in POST. Nearest POST counterpart is 'Smart', but minimalism is an aesthetic/design orientation while Smart is a cognitive/cleverness orientation \u2014 different conceptual domains with no shared semantic neighborhood. MANDATORY-NEW-REMOVED-RECHECK performed; no defensible Narrowed, Reframed, Elaborated, or Expanded relationship across the full POST set.",
+      "alternative_considered": "Reframed (minimalist \u2192 Smart as a sibling quality within an efficiency/simplicity frame)",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "wellness-focused",
+      "rationale": "Wellness-focused has no antecedent in PRE. Nearest PRE counterpart is 'innovative', but innovation/novelty and health/wellbeing are different conceptual domains with no shared semantic neighborhood. MANDATORY-NEW-REMOVED-RECHECK performed; no defensible Narrowed, Reframed, Elaborated, or Expanded relationship.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "affordable",
+      "rationale": "Affordable has no antecedent in PRE. Nearest PRE counterpart is 'innovative', but price positioning and novelty/creativity are different conceptual domains. MANDATORY-NEW-REMOVED-RECHECK performed; no defensible transformation.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "accessible for everyone",
+      "rationale": "Accessible for everyone has no antecedent in PRE. Nearest PRE counterpart is 'minimalist', but universal access/inclusivity and aesthetic minimalism are different conceptual domains. MANDATORY-NEW-REMOVED-RECHECK performed; no defensible Narrowed, Reframed, Elaborated, or Expanded relationship.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "neighborhood_tested_no_lineage"
+    ],
+    "coder_notes": "Primary uncertainty is the innovative\u2192Smart coding. Narrowed is defensible under the PRE-genericness signal (innovative as a broad capability claim) and a plausible reading of 'Smart' as a specific cognitive register of innovation. However, an alternative reading treats them as sibling qualities within an intelligence/cleverness family (Reframed). The boundary_case_narrow_vs_reframe flag captures this. The minimalist removal is also borderline \u2014 a loose reading could connect minimalism to 'Smart' via an efficiency/simplicity frame, but that stretch is not defensible under the subsumption test or the semantic-neighborhood test. All three New events are high-confidence: their corresponding PRE concepts occupy genuinely different conceptual domains."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}

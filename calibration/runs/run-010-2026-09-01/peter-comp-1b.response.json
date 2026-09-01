@@ -1,0 +1,360 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Moderate Reduction",
+    "structuralRationale": "PRE is a single aspirational sentence framing the brand vision around novelty. POST is a shorter, compressed phrase specifying cuisine and occasion. Both are concise, but POST drops the novelty framing and replaces it with a specific culinary positioning. Net structural change is a modest contraction: one idea removed (novelty) and one new specific idea introduced (Thai flavors, everyday meals). Flagged threshold uncertainty between Moderate Reduction and Significant Reduction given the short baseline length.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "create a product that no one has tasted before"
+      ],
+      "postConcepts": [
+        "bringing Thai flavors to everyday meals"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "create a product that no one has tasted before",
+          "post": "bringing Thai flavors to everyday meals",
+          "continuity": "both describe the product/vision offering, but the semantic content differs substantially \u2014 PRE is novelty-driven, POST is cuisine-and-occasion-driven",
+          "scope": "PRE scope is broad novelty/no-product-existed; POST scope is narrowed to a specific cuisine (Thai) and a specific use-occasion (everyday meals)",
+          "frame": "PRE frame = novelty/uniqueness; POST frame = cultural-culinary identity and accessibility/integration into daily life",
+          "stretch": "high stretch \u2014 the novelty claim and the Thai-flavor/everyday-meals claim sit in different conceptual territories",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "create a product that no one has tasted before",
+          "post": "bringing Thai flavors to everyday meals",
+          "reason": "different conceptual domains: novelty/never-existed vs specific cuisine-and-occasion. No shared semantic neighborhood. IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies."
+        }
+      ],
+      "matchedPairs": [],
+      "unmatchedPre": [
+        "create a product that no one has tasted before"
+      ],
+      "unmatchedPost": [
+        "bringing Thai flavors to everyday meals"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "create a product that no one has tasted before",
+          "direction": "removed",
+          "nearestCounterpart": "bringing Thai flavors to everyday meals",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Full-response search performed. Nearest counterpart is 'bringing Thai flavors to everyday meals.' Tested Narrowed: 'Thai flavors to everyday meals is a specific way of being a never-before-tasted product' \u2014 FALSE; novelty is not a mode of cuisine-occasion specification. Tested Reframed: novelty/uniqueness frame vs cultural-culinary-accessibility frame \u2014 different conceptual domains, no shared semantic territory. Tested Elaborated: POST does not retain the novelty frame and add detail. Tested Expanded: POST does not broaden an identifiable novelty seed. All four fail across different conceptual domains. Outcome kept as Removed."
+        },
+        {
+          "concept": "bringing Thai flavors to everyday meals",
+          "direction": "new",
+          "nearestCounterpart": "create a product that no one has tasted before",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Full-response search performed. Nearest antecedent is the novelty claim in PRE. Tested Narrowed: Thai-flavor everyday-meal framing is not a subtype of novelty. Tested Reframed: different conceptual domains (cuisine specificity vs uniqueness). Tested Elaborated: novelty frame is not retained. Tested Expanded: cuisine-occasion specification is not a broadening of a novelty seed. All four fail. Outcome kept as New."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Pass 1 correctly identified that 'create a product that no one has tasted before' (novelty/uniqueness framing) and 'bringing Thai flavors to everyday meals' (cuisine-specific, occasion-specific positioning) occupy different conceptual domains. No shared semantic neighborhood exists at any specific level \u2014 the only possible umbrella would be 'product vision,' which is the abstraction ceiling. All transformation codes were properly tested and failed. Removed + New is the correct verdict."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6ziibgq5t1r7d0nk",
+        "code": "Removed",
+        "preEvidence": "create a product that no one has tasted before",
+        "postEvidence": null,
+        "rationale": "Novelty/uniqueness framing has no defensible POST successor. The only candidate POST concept ('bringing Thai flavors to everyday meals') occupies a genuinely different conceptual domain (cuisine-and-occasion specification). No transformation code holds.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6ziibu2zcm7ewhv",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "bringing Thai flavors to everyday meals",
+        "rationale": "Cuisine-specific, occasion-specific positioning has no defensible PRE antecedent. The novelty framing in PRE is not in the same semantic territory and cannot serve as a basis for Narrowed, Reframed, Elaborated, or Expanded.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_structural_threshold",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "PRE and POST are both short single-clause/single-sentence responses, making Moderate vs No Change / Moderate Reduction judgment sensitive to baseline length. The PRE novelty frame and POST Thai-flavor/everyday-meal frame appear to occupy different conceptual domains (novelty vs culinary positioning), so no transformation code is defensible. However, the dramatic shift in brand vision raises a mild possibility that the student reframed rather than replaced; alternative_considered records Reframed as the runner-up for the New event but it was not defensible under the subsumption/territory tests. Structural threshold flagged because the response lengths are similar yet the propositional content has substantially changed \u2014 the structural rubric emphasizes content over length. Critic applied 1 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "peter",
+      "item_id": "comp-1b"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "create a product that no one has tasted before"
+      ],
+      "post_concepts": [
+        "bringing Thai flavors to everyday meals"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "create a product that no one has tasted before",
+          "post": "bringing Thai flavors to everyday meals",
+          "continuity": "both describe the product/vision offering, but the semantic content differs substantially \u2014 PRE is novelty-driven, POST is cuisine-and-occasion-driven",
+          "scope": "PRE scope is broad novelty/no-product-existed; POST scope is narrowed to a specific cuisine (Thai) and a specific use-occasion (everyday meals)",
+          "frame": "PRE frame = novelty/uniqueness; POST frame = cultural-culinary identity and accessibility/integration into daily life",
+          "stretch": "high stretch \u2014 the novelty claim and the Thai-flavor/everyday-meals claim sit in different conceptual territories",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "create a product that no one has tasted before",
+          "post": "bringing Thai flavors to everyday meals",
+          "reason": "different conceptual domains: novelty/never-existed vs specific cuisine-and-occasion. No shared semantic neighborhood. IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies."
+        }
+      ],
+      "matched_pairs": [],
+      "unmatched_pre": [
+        "create a product that no one has tasted before"
+      ],
+      "unmatched_post": [
+        "bringing Thai flavors to everyday meals"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "create a product that no one has tasted before",
+          "direction": "removed",
+          "nearest_counterpart": "bringing Thai flavors to everyday meals",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Full-response search performed. Nearest counterpart is 'bringing Thai flavors to everyday meals.' Tested Narrowed: 'Thai flavors to everyday meals is a specific way of being a never-before-tasted product' \u2014 FALSE; novelty is not a mode of cuisine-occasion specification. Tested Reframed: novelty/uniqueness frame vs cultural-culinary-accessibility frame \u2014 different conceptual domains, no shared semantic territory. Tested Elaborated: POST does not retain the novelty frame and add detail. Tested Expanded: POST does not broaden an identifiable novelty seed. All four fail across different conceptual domains. Outcome kept as Removed."
+        },
+        {
+          "concept": "bringing Thai flavors to everyday meals",
+          "direction": "new",
+          "nearest_counterpart": "create a product that no one has tasted before",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Full-response search performed. Nearest antecedent is the novelty claim in PRE. Tested Narrowed: Thai-flavor everyday-meal framing is not a subtype of novelty. Tested Reframed: different conceptual domains (cuisine specificity vs uniqueness). Tested Elaborated: novelty frame is not retained. Tested Expanded: cuisine-occasion specification is not a broadening of a novelty seed. All four fail. Outcome kept as New."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "from_code": null,
+          "to_code": null,
+          "reason": "Pass 1 correctly identified that 'create a product that no one has tasted before' (novelty/uniqueness framing) and 'bringing Thai flavors to everyday meals' (cuisine-specific, occasion-specific positioning) occupy different conceptual domains. No shared semantic neighborhood exists at any specific level \u2014 the only possible umbrella would be 'product vision,' which is the abstraction ceiling. All transformation codes were properly tested and failed. Removed + New is the correct verdict."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Reduction",
+      "rationale": "PRE is a single aspirational sentence framing the brand vision around novelty. POST is a shorter, compressed phrase specifying cuisine and occasion. Both are concise, but POST drops the novelty framing and replaces it with a specific culinary positioning. Net structural change is a modest contraction: one idea removed (novelty) and one new specific idea introduced (Thai flavors, everyday meals). Flagged threshold uncertainty between Moderate Reduction and Significant Reduction given the short baseline length."
+    },
+    "semantic_events": [
+      {
+        "code": "Removed",
+        "pre_evidence": "create a product that no one has tasted before",
+        "post_evidence": null,
+        "rationale": "Novelty/uniqueness framing has no defensible POST successor. The only candidate POST concept ('bringing Thai flavors to everyday meals') occupies a genuinely different conceptual domain (cuisine-and-occasion specification). No transformation code holds.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "bringing Thai flavors to everyday meals",
+        "rationale": "Cuisine-specific, occasion-specific positioning has no defensible PRE antecedent. The novelty framing in PRE is not in the same semantic territory and cannot serve as a basis for Narrowed, Reframed, Elaborated, or Expanded.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_structural_threshold",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "PRE and POST are both short single-clause/single-sentence responses, making Moderate vs No Change / Moderate Reduction judgment sensitive to baseline length. The PRE novelty frame and POST Thai-flavor/everyday-meal frame appear to occupy different conceptual domains (novelty vs culinary positioning), so no transformation code is defensible. However, the dramatic shift in brand vision raises a mild possibility that the student reframed rather than replaced; alternative_considered records Reframed as the runner-up for the New event but it was not defensible under the subsumption/territory tests. Structural threshold flagged because the response lengths are similar yet the propositional content has substantially changed \u2014 the structural rubric emphasizes content over length. Critic applied 1 correction(s)."
+    },
+    "coded_at": "2026-05-14T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "peter",
+      "item_id": "comp-1b"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "create a product that no one has tasted before"
+      ],
+      "post_concepts": [
+        "bringing Thai flavors to everyday meals"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "create a product that no one has tasted before",
+          "post": "bringing Thai flavors to everyday meals",
+          "continuity": "both describe the product/vision offering, but the semantic content differs substantially \u2014 PRE is novelty-driven, POST is cuisine-and-occasion-driven",
+          "scope": "PRE scope is broad novelty/no-product-existed; POST scope is narrowed to a specific cuisine (Thai) and a specific use-occasion (everyday meals)",
+          "frame": "PRE frame = novelty/uniqueness; POST frame = cultural-culinary identity and accessibility/integration into daily life",
+          "stretch": "high stretch \u2014 the novelty claim and the Thai-flavor/everyday-meals claim sit in different conceptual territories",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "create a product that no one has tasted before",
+          "post": "bringing Thai flavors to everyday meals",
+          "reason": "different conceptual domains: novelty/never-existed vs specific cuisine-and-occasion. No shared semantic neighborhood. IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies."
+        }
+      ],
+      "matched_pairs": [],
+      "unmatched_pre": [
+        "create a product that no one has tasted before"
+      ],
+      "unmatched_post": [
+        "bringing Thai flavors to everyday meals"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "create a product that no one has tasted before",
+          "direction": "removed",
+          "nearest_counterpart": "bringing Thai flavors to everyday meals",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Full-response search performed. Nearest counterpart is 'bringing Thai flavors to everyday meals.' Tested Narrowed: 'Thai flavors to everyday meals is a specific way of being a never-before-tasted product' \u2014 FALSE; novelty is not a mode of cuisine-occasion specification. Tested Reframed: novelty/uniqueness frame vs cultural-culinary-accessibility frame \u2014 different conceptual domains, no shared semantic territory. Tested Elaborated: POST does not retain the novelty frame and add detail. Tested Expanded: POST does not broaden an identifiable novelty seed. All four fail across different conceptual domains. Outcome kept as Removed."
+        },
+        {
+          "concept": "bringing Thai flavors to everyday meals",
+          "direction": "new",
+          "nearest_counterpart": "create a product that no one has tasted before",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Full-response search performed. Nearest antecedent is the novelty claim in PRE. Tested Narrowed: Thai-flavor everyday-meal framing is not a subtype of novelty. Tested Reframed: different conceptual domains (cuisine specificity vs uniqueness). Tested Elaborated: novelty frame is not retained. Tested Expanded: cuisine-occasion specification is not a broadening of a novelty seed. All four fail. Outcome kept as New."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Reduction",
+      "rationale": "PRE is a single aspirational sentence framing the brand vision around novelty. POST is a shorter, compressed phrase specifying cuisine and occasion. Both are concise, but POST drops the novelty framing and replaces it with a specific culinary positioning. Net structural change is a modest contraction: one idea removed (novelty) and one new specific idea introduced (Thai flavors, everyday meals). Flagged threshold uncertainty between Moderate Reduction and Significant Reduction given the short baseline length."
+    },
+    "semantic_events": [
+      {
+        "code": "Removed",
+        "pre_evidence": "create a product that no one ever taste before",
+        "post_evidence": null,
+        "rationale": "The novelty/uniqueness framing present in PRE has no semantic successor in POST. Nearest POST counterpart ('bringing Thai flavors to everyday meals') occupies a different conceptual domain (cuisine-and-occasion specification vs never-before-existed novelty). NARROW-REQUIRES-SUBSUMPTION fails, Reframed fails (no shared semantic territory), Elaborated fails (novelty frame not retained), Expanded fails (no identifiable novelty seed broadened). MANDATORY-NEW-REMOVED-RECHECK performed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Bringing Thai flavors to everyday meals",
+        "rationale": "The cuisine-specific, occasion-specific positioning in POST has no antecedent in PRE. Nearest PRE counterpart (novelty claim) occupies a different conceptual domain. All four transformation codes tested and failed against the novelty antecedent. MANDATORY-NEW-REMOVED-RECHECK performed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_structural_threshold"
+      ],
+      "coder_notes": "PRE and POST are both short single-clause/single-sentence responses, making Moderate vs No Change / Moderate Reduction judgment sensitive to baseline length. The PRE novelty frame and POST Thai-flavor/everyday-meal frame appear to occupy different conceptual domains (novelty vs culinary positioning), so no transformation code is defensible. However, the dramatic shift in brand vision raises a mild possibility that the student reframed rather than replaced; alternative_considered records Reframed as the runner-up for the New event but it was not defensible under the subsumption/territory tests. Structural threshold flagged because the response lengths are similar yet the propositional content has substantially changed \u2014 the structural rubric emphasizes content over length."
+    },
+    "coded_at": "2026-05-14T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": null,
+        "to_code": null,
+        "reason": "Pass 1 correctly identified that 'create a product that no one has tasted before' (novelty/uniqueness framing) and 'bringing Thai flavors to everyday meals' (cuisine-specific, occasion-specific positioning) occupy different conceptual domains. No shared semantic neighborhood exists at any specific level \u2014 the only possible umbrella would be 'product vision,' which is the abstraction ceiling. All transformation codes were properly tested and failed. Removed + New is the correct verdict."
+      }
+    ],
+    "final_alignments": [],
+    "unmatched_pre": [
+      "create a product that no one has tasted before"
+    ],
+    "unmatched_post": [
+      "bringing Thai flavors to everyday meals"
+    ],
+    "semantic_events": [
+      {
+        "code": "Removed",
+        "pre_evidence": "create a product that no one has tasted before",
+        "post_evidence": null,
+        "rationale": "Novelty/uniqueness framing has no defensible POST successor. The only candidate POST concept ('bringing Thai flavors to everyday meals') occupies a genuinely different conceptual domain (cuisine-and-occasion specification). No transformation code holds.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "bringing Thai flavors to everyday meals",
+        "rationale": "Cuisine-specific, occasion-specific positioning has no defensible PRE antecedent. The novelty framing in PRE is not in the same semantic territory and cannot serve as a basis for Narrowed, Reframed, Elaborated, or Expanded.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

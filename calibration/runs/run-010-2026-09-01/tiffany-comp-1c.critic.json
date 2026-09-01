@@ -1,0 +1,61 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "Resourcefulness",
+      "post": "Form and Function",
+      "from_code": "Reframed",
+      "to_code": "Expanded",
+      "reason": "The provisional rationale uses the broad umbrella of pragmatic or efficient use rather than identifying a specific shared conceptual neighborhood. Resourcefulness is a process disposition, while Form and Function is a design principle; this is topical adjacency and does not establish a defensible Reframed relationship."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Creativity",
+      "post": "Self-Expression",
+      "basis": "Both concern originality and authorship, with a shift from generative capability to identity expression; Self-Expression is not a specific way of being Creativity."
+    }
+  ],
+  "unmatched_pre": [
+    "Resourcefulness",
+    "Customer Focus"
+  ],
+  "unmatched_post": [
+    "Form and Function",
+    "Narrative"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "Creativity",
+      "post_evidence": "Self-Expression",
+      "rationale": "Creativity and Self-Expression share an originality and authorship neighborhood, but the post concept is not a specific way of being creative. The frame shifts from generative capability to identity expression.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "Resourcefulness",
+      "post_evidence": "Form and Function",
+      "rationale": "Resourcefulness and Form and Function are topically adjacent through practical use, but no specific shared semantic neighborhood or organizing frame supports Reframed. The post concept is therefore treated as a new design principle rather than a transformation.",
+      "alternative_considered": "Reframed",
+      "confidence": "low"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Customer Focus",
+      "post_evidence": null,
+      "rationale": "No post concept occupies the audience-orientation neighborhood, and the proposed alternatives are in different conceptual domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Narrative",
+      "rationale": "Narrative is a storytelling and communication principle with no available antecedent in the unmatched pre concepts. Creativity and Resourcefulness are already matched, and Customer Focus is in a different domain.",
+      "alternative_considered": "Reframed relative to Creativity",
+      "confidence": "medium"
+    }
+  ]
+}

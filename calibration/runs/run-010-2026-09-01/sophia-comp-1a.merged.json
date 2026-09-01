@@ -1,0 +1,346 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-1a"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Pilates sets- mat, ring, wrist weights."
+    ],
+    "post_concepts": [
+      "Beginners at pilates",
+      "affordable but good quality",
+      "minimalist",
+      "mature",
+      "create a community",
+      "not just an item to sell"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "Beginners at pilates",
+        "continuity": "Both relate to pilates as the core activity",
+        "scope": "PRE lists equipment; POST names an audience segment for pilates",
+        "frame": "Product framing \u2192 audience/positioning framing",
+        "stretch": "Different semantic domains (product specification vs target audience)",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "affordable but good quality",
+        "continuity": "Different domains \u2014 equipment specification vs price/quality positioning",
+        "scope": "PRE is a product list; POST is a value/price positioning",
+        "frame": "Product-listing frame \u2192 value/price-quality frame",
+        "stretch": "High stretch; distinct conceptual domains",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "minimalist",
+        "continuity": "Both could be considered brand characteristics, but PRE is a product list not a brand descriptor",
+        "scope": "PRE is concrete product offering; POST is an aesthetic descriptor",
+        "frame": "Product frame \u2192 aesthetic/positioning frame",
+        "stretch": "Weak continuity; different levels of description",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "mature",
+        "continuity": "Different domains \u2014 equipment list vs audience descriptor",
+        "scope": "Concrete items vs audience descriptor",
+        "frame": "Product \u2192 audience positioning",
+        "stretch": "High stretch",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "create a community",
+        "continuity": "Different domains \u2014 equipment list vs relational/community concept",
+        "scope": "Product \u2192 social/community outcome",
+        "frame": "Product frame \u2192 community/relational frame",
+        "stretch": "High stretch",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "not just an item to sell",
+        "continuity": "PRE is literally an item; POST explicitly contrasts items-to-sell with community \u2014 partial negation/correction",
+        "scope": "Different \u2014 concrete product vs meta-positioning",
+        "frame": "Product-centric \u2192 relationship/experience-centric",
+        "stretch": "Interesting negation; PRE's 'item' is implicitly critiqued by POST",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "Beginners at pilates",
+        "reason": "Product specification and audience segment are different conceptual domains; no defensible lineage"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "affordable but good quality",
+        "reason": "Product list and price/quality positioning are different conceptual domains"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "minimalist",
+        "reason": "Concrete product list and abstract aesthetic descriptor are weakly related at best; rejected as implausible forced pairing"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "mature",
+        "reason": "Product list and audience descriptor are different conceptual domains"
+      },
+      {
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": "create a community",
+        "reason": "Product list and community-building concept are different conceptual domains"
+      }
+    ],
+    "matched_pairs": [],
+    "unmatched_pre": [
+      "Pilates sets- mat, ring, wrist weights."
+    ],
+    "unmatched_post": [
+      "Beginners at pilates",
+      "affordable but good quality",
+      "minimalist",
+      "mature",
+      "create a community",
+      "not just an item to sell"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Pilates sets- mat, ring, wrist weights.",
+        "direction": "removed",
+        "nearest_counterpart": "not just an item to sell",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE is a concrete product equipment list (mat, ring, wrist weights). The nearest POST counterpart is 'not just an item to sell', which is a meta-statement about items in general rather than a continuation of the specific equipment list. Narrowed fails (POST is not a specific kind of equipment); Reframed fails (no shared semantic territory \u2014 equipment list vs critique of transactional selling); Elaborated fails (POST does not keep the equipment list intact); Expanded fails (POST does not broaden the equipment list). Genuinely different conceptual domains."
+      },
+      {
+        "concept": "Beginners at pilates",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights.",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "POST introduces a target audience ('Beginners at pilates'). PRE contains only equipment. Narrowed fails (an audience is not a specific kind of equipment); Reframed fails (audience and product-list are different domains); Elaborated fails (POST does not retain equipment); Expanded fails (no equipment seed from which audience grows)."
+      },
+      {
+        "concept": "affordable but good quality",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights.",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "POST introduces price/quality positioning. PRE is equipment list. Different domains; no transformation defensible."
+      },
+      {
+        "concept": "minimalist",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights.",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "POST introduces aesthetic descriptor. PRE is equipment list. Different conceptual levels/domains. However 'minimalist' could arguably be an aesthetic applied to the equipment; still no defensible transformation because PRE does not name any aesthetic."
+      },
+      {
+        "concept": "mature",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights.",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "POST introduces audience/style descriptor. PRE is equipment list. Different domains."
+      },
+      {
+        "concept": "create a community",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights.",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "POST introduces community/relational concept. PRE is product list. Different conceptual domains."
+      },
+      {
+        "concept": "not just an item to sell",
+        "direction": "new",
+        "nearest_counterpart": "Pilates sets- mat, ring, wrist weights.",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "POST is a meta-positioning statement contrasting community with transactional selling. PRE is a concrete equipment list. While the word 'item' appears in POST, it functions as a generic counterpoint rather than a continuation of the equipment list. Different conceptual frames; no transformation defensible."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "Pilates sets- mat, ring, wrist weights.",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "PRE is a concrete equipment specification; nearest POST counterpart ('not just an item to sell') uses 'item' as a generic foil, not as continuation of the equipment list. Different conceptual domains; no transformation defensible. Stay Removed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Beginners at pilates",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Target audience segment has no defensible antecedent in the equipment list. Different domains (product specification vs audience). Stay New."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "affordable but good quality",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Price/quality positioning has no antecedent in equipment list. Different domains. Stay New."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "minimalist",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Aesthetic descriptor has no antecedent; PRE does not name any aesthetic. Different levels/domains. Stay New."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "mature",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Audience/style descriptor has no antecedent in equipment list. Different domains. Stay New."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "create a community",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Community/relational concept has no antecedent in equipment list. Different domains. Stay New."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "not just an item to sell",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Meta-positioning statement; 'item' is a generic foil critiquing transactional framing, not continuation of the specific equipment list. Different frames. Stay New."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE is a single short clause naming concrete equipment (mat, ring, wrist weights). POST expands substantially: it identifies a target audience (Beginners at pilates), specifies positioning (affordable but good quality, minimalist, mature), articulates a community-building goal, and includes an explicit meta-positioning statement ('not just an item to sell'). Multiple new clauses and dimensions added across the response."
+  },
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "Pilates sets- mat, ring, wrist weights.",
+      "post_evidence": null,
+      "rationale": "Concrete equipment specification (mat, ring, wrist weights) has no continuation in POST. The nearest POST counterpart ('not just an item to sell') uses 'item' as a generic foil critiquing transactional selling, not as a continuation of the equipment list. Different conceptual domains (product specification vs meta-positioning). All four transformation codes tested and failed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Beginners at pilates",
+      "rationale": "Target audience segment newly introduced. Nearest PRE antecedent is the equipment list, which occupies a different conceptual domain. No transformation defensible.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "affordable but good quality",
+      "rationale": "Price/quality positioning newly introduced. No PRE antecedent in a related domain.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "minimalist",
+      "rationale": "Aesthetic descriptor newly introduced. PRE names no aesthetic. Different conceptual levels/domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "mature",
+      "rationale": "Audience/style descriptor newly introduced. No PRE antecedent in equipment list. Different domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "create a community",
+      "rationale": "Community/relational concept newly introduced. No PRE antecedent in equipment list. Different domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "not just an item to sell",
+      "rationale": "Meta-positioning statement explicitly distinguishing the brand from transactional selling. 'Item' in POST is a generic foil, not a continuation of the specific equipment list. Different conceptual frames; no transformation defensible.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [
+    {
+      "code": "Metacognition",
+      "evidence": "I also want to create a community with this brand and not just an item to sell.",
+      "rationale": "The student explicitly articulates an intentional brand-building philosophy, distinguishing the brand's intended identity (community) from a default transactional framing. This is an explicit self-positioning statement about how they want to approach the brand.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "PRE response was structurally different from POST \u2014 PRE was a product-offering-style answer (equipment list) while POST shifted to brand-identity descriptors (audience, values, aesthetic, community). This shift is unusual for a Q1a descriptor set, suggesting the student may have misread the question at PRE. The Removed event captures the loss of the concrete product specification. Each New event was re-checked against the single PRE concept; all transformations failed because the domains differ (product list vs positioning/audience/aesthetic/community). Learner Agency flagged because 'I also want to create a community with this brand and not just an item to sell' contains explicit intentional language about the brand's identity \u2014 the student explicitly contrasts community-building with item-selling as a deliberate positioning choice. Critic applied 7 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

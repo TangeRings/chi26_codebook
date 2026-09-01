@@ -1,0 +1,66 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Product Review",
+      "post": "Taste Testing Videos",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption test passes: 'Taste Testing Videos is a specific way of being Product Review.' PRE-genericness signal applies; Taste Testing Videos is a concrete format realization of the broader Product Review category. Confirm pass-1 verdict."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Recipe Content",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Recipe Content is application/use-case content, not evaluation; cannot be subsumed by, reframed within, elaborated from, or expanded from Product Review. Nearest PRE counterpart (Product Review) is already matched to Taste Testing Videos, so no antecedent is available. Stand as New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Challenge Trends",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Challenge Trends is trend-participation content, a different conceptual domain from product evaluation; no defensible transformation tier. Nearest PRE counterpart (Product Review) is already matched. Stand as New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Product Review",
+      "post": "Taste Testing Videos",
+      "basis": "Taste Testing Videos is a specific format of Product Review for food/beverage products; subsumption holds"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "Recipe Content",
+    "Challenge Trends"
+  ],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Product Review",
+      "post_evidence": "Taste Testing Videos",
+      "rationale": "Taste Testing Videos is a specific format/realization of Product Review applied to food/beverage products. Subsumption test passes: 'Taste Testing Videos is a specific way of being Product Review.' PRE is generic and broad, POST is a concrete format within that category.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Recipe Content",
+      "rationale": "Recipe Content is application/use-case content (showing how to use products in recipes), distinct from Product Review (which evaluates). Nearest PRE antecedent Product Review is already matched to Taste Testing Videos; Recipe Content is not a subtype, elaboration, or expansion of that match. Stand as New.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Challenge Trends",
+      "rationale": "Challenge Trends is participation/trend-driven content, a different conceptual domain from product evaluation. Nearest PRE antecedent Product Review is already matched; no tier defensible. Stand as New.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

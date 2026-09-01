@@ -1,0 +1,162 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "active people",
+      "women who are into health"
+    ],
+    "post_concepts": [
+      "someone who may travel frequently",
+      "someone who might want to keep their pilates routine consistent and on the go"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "active people",
+        "post": "someone who may travel frequently",
+        "continuity": "both describe lifestyle characteristics of target niche",
+        "scope": "both are activity-based descriptors",
+        "frame": "general activity \u2192 specific travel context",
+        "stretch": "moderate; activity to specific activity (travel)",
+        "verdict": "weak"
+      },
+      {
+        "pre": "active people",
+        "post": "someone who might want to keep their pilates routine consistent and on the go",
+        "continuity": "active lifestyle connects to maintaining pilates routine on the go",
+        "scope": "broad active lifestyle \u2192 specific fitness maintenance need",
+        "frame": "general activity descriptor \u2192 specific use-case scenario",
+        "stretch": "moderate; activity scope to fitness routine",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "women who are into health",
+        "post": "someone who may travel frequently",
+        "continuity": "weak; health-oriented vs travel-oriented",
+        "scope": "different population framing (gender+health vs traveler)",
+        "frame": "demographic + interest \u2192 behavioral lifestyle",
+        "stretch": "strong; different conceptual domains",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "women who are into health",
+        "post": "someone who might want to keep their pilates routine consistent and on the go",
+        "continuity": "health/wellness interest aligns with pilates routine maintenance",
+        "scope": "women interested in health \u2192 someone maintaining pilates routine",
+        "frame": "demographic + health-oriented \u2192 specific fitness-maintenance persona",
+        "stretch": "moderate; health interest to pilates practice",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "women who are into health",
+        "post": "someone who may travel frequently",
+        "reason": "different conceptual domains \u2014 health/wellness orientation vs travel behavior; no shared semantic neighborhood"
+      },
+      {
+        "pre": "active people",
+        "post": "someone who may travel frequently",
+        "reason": "weak continuity; general activeness is not specifically travel-oriented, and 'travel frequently' is one narrow expression of an active lifestyle"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "women who are into health",
+        "post": "someone who might want to keep their pilates routine consistent and on the go",
+        "basis": "health interest narrows into specific fitness practice (pilates) with use-case (on the go)"
+      },
+      {
+        "pre": "active people",
+        "post": "someone who may travel frequently",
+        "basis": "general activeness shifts frame to mobility/travel-oriented lifestyle; related territory, sibling concepts"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "women who are into health",
+        "direction": "removed",
+        "nearest_counterpart": "someone who might want to keep their pilates routine consistent and on the go",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "health-interest predecessor maps to pilates-maintenance successor via Narrowed: pilates routine maintenance is a specific subset/expression of health interest"
+      },
+      {
+        "concept": "active people",
+        "direction": "removed",
+        "nearest_counterpart": "someone who may travel frequently",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "general 'active people' maps to specific travel-active persona via Narrowed: frequent travelers are a specific subset of active people"
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "women who are into health",
+        "post": "someone who might want to keep their pilates routine consistent and on the go",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption holds: keeping a pilates routine is a specific way of being into health. PRE is substantive but the POST is a concrete behavioral subset of the health-interest category, not a sibling domain. Narrowed is defensible; pass 1 is correct."
+      },
+      {
+        "type": "recode",
+        "pre": "active people",
+        "post": "someone who may travel frequently",
+        "from_code": "Narrowed",
+        "to_code": "Reframed",
+        "reason": "Subsumption test fails: 'someone who travels frequently is a specific way of being an active person' is not literally true. Frequent travel is not a subset of activeness \u2014 many active people never travel, and many travelers are sedentary. Both occupy activity/lifestyle territory but with different organizing frames: PRE frames around general physical/active engagement, POST frames around mobility/travel behavior. Sibling concepts, not subsumption. Reframed is correct; original conflation with the pilates-travel context should not bleed into this pairing."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST introduces a specific use-case scenario (travel + pilates maintenance) that elaborates on the more general PRE niche description, adding context about a concrete need-state without fundamentally restructuring the response"
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "women who are into health",
+      "post_evidence": "someone who might want to keep their pilates routine consistent and on the go",
+      "rationale": "Pilates routine maintenance is a specific realization of the broader health-interest orientation. Subsumption holds despite PRE being substantive, because POST is a concrete behavioral subset (specific fitness practice) rather than a sibling domain. Gender specification is dropped but lineage is preserved.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "active people",
+      "post_evidence": "someone who may travel frequently",
+      "rationale": "Subsumption fails: frequent travel is not a proper subset of activeness. Both occupy activity/lifestyle territory but with different organizing frames \u2014 PRE is general active engagement, POST is mobility/travel behavior. Same neighborhood (active lifestyle), shifted frame. Name both frames: general physical activeness \u2192 mobility-driven lifestyle.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_narrow_vs_reframe",
+      "vague_to_specific_lineage",
+      "alignment_null_by_choice"
+    ],
+    "coder_notes": "Both pairs test Narrowed vs Reframed. The generic-to-specific pattern (VAGUE-vs-SPECIFIC) supports Narrowed, but each POST descriptor could alternatively be read as a sibling concept (Reframed) rather than a strict subset. For 'active people \u2192 someone who travels frequently,' frequent travel is one expression of activity \u2014 defensible as Narrowed but not airtight. For 'women who are into health \u2192 someone maintaining pilates routine,' pilates is clearly within health, supporting Narrowed, though the gender specification in PRE is dropped in POST (scope actually broadens on that axis while narrowing on activity axis). Confidence is medium overall. No Removed or New events were emitted because lineage was defensible for all concepts. Critic applied 2 correction(s)."
+  },
+  "coded_at": "2026-01-01T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

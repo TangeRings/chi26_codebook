@@ -1,0 +1,754 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "Both responses consist of three short descriptors of comparable length. The number of atomic descriptors is preserved (3 \u2192 3); no clauses, sentences, or explanatory passages are added or removed. Differences are entirely at the descriptor/concept level.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "Customer Focus",
+        "Resourcefulness",
+        "Creativity"
+      ],
+      "postConcepts": [
+        "Self-Expression",
+        "Narrative",
+        "Form and Function"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Customer Focus",
+          "post": "Self-Expression",
+          "continuity": "Both concern where the brand directs its energy, but one prioritizes the audience while the other prioritizes user identity.",
+          "scope": "Different populations/loci of attention (audience vs individual user expression).",
+          "frame": "External/stakeholder-oriented vs internal/identity-oriented.",
+          "stretch": "Stretched; forces a connection that isn't supported.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Narrative",
+          "continuity": "Tangential; narrative serves the customer indirectly.",
+          "scope": "Different categories entirely: audience-orientation vs storytelling device.",
+          "frame": "Stakeholder-centric vs storytelling/communication frame.",
+          "stretch": "Stretched; very weak.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Form and Function",
+          "continuity": "Minimal; Form and Function is an aesthetic/utility principle, not an audience principle.",
+          "scope": "Different domains.",
+          "frame": "Audience frame vs design philosophy frame.",
+          "stretch": "Stretched.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Self-Expression",
+          "continuity": "Weak; both could relate to making the most of something, but the referents differ (efficient use of resources vs expression of identity).",
+          "scope": "Different frames.",
+          "frame": "Pragmatic/resource frame vs identity/expressive frame.",
+          "stretch": "Weak connection.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Narrative",
+          "continuity": "Weak; narrative could indirectly imply resource use via story economy, but is not the same semantic territory.",
+          "scope": "Different.",
+          "frame": "Resource/pragmatic vs storytelling.",
+          "stretch": "Weak.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Form and Function",
+          "continuity": "Closer; both relate to pragmatic use and intelligent use of constraints.",
+          "scope": "Comparable, not nested.",
+          "frame": "Process/resource-lean frame vs design-philosophy frame.",
+          "stretch": "Some neighborhood in pragmatic/efficient use; conceptually adjacent.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Creativity",
+          "post": "Self-Expression",
+          "continuity": "Strong; both concern bringing something into being, originality, and personal voice.",
+          "scope": "Comparable scope, possibly slight expansion.",
+          "frame": "Generative/inventive frame vs identity-expressive frame.",
+          "stretch": "Reasonable stretch \u2014 both inhabit an originality/authorship neighborhood.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Creativity",
+          "post": "Narrative",
+          "continuity": "Moderate; creativity can manifest through narrative, but Narrative names the medium/form rather than the original capability.",
+          "scope": "Comparable.",
+          "frame": "Originality/generative frame vs storytelling frame.",
+          "stretch": "Reasonable.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Creativity",
+          "post": "Form and Function",
+          "continuity": "Moderate; creativity applied to craft/design relates to Form and Function.",
+          "scope": "Comparable.",
+          "frame": "Generative/originality frame vs design philosophy frame.",
+          "stretch": "Reasonable.",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Customer Focus",
+          "post": "Self-Expression",
+          "reason": "Different conceptual domains (audience-orientation vs identity-expression); no shared semantic neighborhood."
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Narrative",
+          "reason": "Different conceptual domains (audience vs storytelling); no shared semantic neighborhood."
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Form and Function",
+          "reason": "Different conceptual domains (audience vs design philosophy); no shared semantic neighborhood."
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Self-Expression",
+          "reason": "Different conceptual domains (pragmatic/efficient use vs identity expression); weak adjacency only."
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Narrative",
+          "reason": "Different conceptual domains (pragmatic resource use vs storytelling); weak adjacency only."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Creativity",
+          "post": "Self-Expression",
+          "basis": "Both concern originality and authorship, with a shift from generative capability to identity expression; Self-Expression is not a specific way of being Creativity."
+        }
+      ],
+      "unmatchedPre": [
+        "Resourcefulness",
+        "Customer Focus"
+      ],
+      "unmatchedPost": [
+        "Form and Function",
+        "Narrative"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "Customer Focus",
+          "direction": "removed",
+          "nearestCounterpart": "Self-Expression",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Audience-orientation (Customer Focus) vs individual identity-expression (Self-Expression) are in different conceptual domains; no defensible lineage. Other POST candidates (Narrative, Form and Function) likewise fail. Customer Focus has no successor in POST."
+        },
+        {
+          "concept": "Narrative",
+          "direction": "new",
+          "nearestCounterpart": "Creativity",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Creativity \u2194 Narrative already paired as Reframed (matched pair). Narrative is the second POST concept not covered by the matched pairs; nearest counterpart among remaining PRE concepts is Resourcefulness, but Resourcefulness was paired to Form and Function, and narrative \u2194 resourcefulness offers no defensible transformation. Both Creativity and Resourcefulness already exhausted by matched pairs, leaving Customer Focus as the only unmatched PRE \u2014 different domain. Narrative survives as New."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "recode",
+          "pre": "Resourcefulness",
+          "post": "Form and Function",
+          "fromCode": "Reframed",
+          "toCode": "Expanded",
+          "reason": "The provisional rationale uses the broad umbrella of pragmatic or efficient use rather than identifying a specific shared conceptual neighborhood. Resourcefulness is a process disposition, while Form and Function is a design principle; this is topical adjacency and does not establish a defensible Reframed relationship."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti74w1ics2lssrps6w",
+        "code": "Reframed",
+        "preEvidence": "Creativity",
+        "postEvidence": "Self-Expression",
+        "rationale": "Creativity and Self-Expression share an originality and authorship neighborhood, but the post concept is not a specific way of being creative. The frame shifts from generative capability to identity expression.",
+        "confidence": "medium",
+        "alternativeConsidered": "Expanded"
+      },
+      {
+        "instanceId": "mti74w1i2gi3ioenmxk",
+        "code": "Expanded",
+        "preEvidence": "Resourcefulness",
+        "postEvidence": "Form and Function",
+        "rationale": "Resourcefulness and Form and Function are topically adjacent through practical use, but no specific shared semantic neighborhood or organizing frame supports Reframed. The post concept is therefore treated as a new design principle rather than a transformation.",
+        "confidence": "low",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti74w1iy2365i1sa1e",
+        "code": "Removed",
+        "preEvidence": "Customer Focus",
+        "postEvidence": null,
+        "rationale": "No post concept occupies the audience-orientation neighborhood, and the proposed alternatives are in different conceptual domains.",
+        "confidence": "medium",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti74w1ing50r9gboeo",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Narrative",
+        "rationale": "Narrative is a storytelling and communication principle with no available antecedent in the unmatched pre concepts. Creativity and Resourcefulness are already matched, and Customer Focus is in a different domain.",
+        "confidence": "medium",
+        "alternativeConsidered": "Reframed relative to Creativity"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_remove_vs_reframe",
+        "boundary_case_narrow_vs_reframe",
+        "reframe_downgraded",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "Three PRE descriptors and three POST descriptors with no lexical overlap pose several sibling-concept judgments. Resourcefulness \u2194 Form and Function has shared pragmatic territory but no subsumption; recorded as Reframed. Customer Focus and Narrative are coded as Removed/New after mandatory re-check across different conceptual domains. Structural Development set to No Change because structural expansion/contraction is at descriptor level, not clause/sentence level. Critic applied 1 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Customer Focus",
+        "Resourcefulness",
+        "Creativity"
+      ],
+      "post_concepts": [
+        "Self-Expression",
+        "Narrative",
+        "Form and Function"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Customer Focus",
+          "post": "Self-Expression",
+          "continuity": "Both concern where the brand directs its energy, but one prioritizes the audience while the other prioritizes user identity.",
+          "scope": "Different populations/loci of attention (audience vs individual user expression).",
+          "frame": "External/stakeholder-oriented vs internal/identity-oriented.",
+          "stretch": "Stretched; forces a connection that isn't supported.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Narrative",
+          "continuity": "Tangential; narrative serves the customer indirectly.",
+          "scope": "Different categories entirely: audience-orientation vs storytelling device.",
+          "frame": "Stakeholder-centric vs storytelling/communication frame.",
+          "stretch": "Stretched; very weak.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Form and Function",
+          "continuity": "Minimal; Form and Function is an aesthetic/utility principle, not an audience principle.",
+          "scope": "Different domains.",
+          "frame": "Audience frame vs design philosophy frame.",
+          "stretch": "Stretched.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Self-Expression",
+          "continuity": "Weak; both could relate to making the most of something, but the referents differ (efficient use of resources vs expression of identity).",
+          "scope": "Different frames.",
+          "frame": "Pragmatic/resource frame vs identity/expressive frame.",
+          "stretch": "Weak connection.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Narrative",
+          "continuity": "Weak; narrative could indirectly imply resource use via story economy, but is not the same semantic territory.",
+          "scope": "Different.",
+          "frame": "Resource/pragmatic vs storytelling.",
+          "stretch": "Weak.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Form and Function",
+          "continuity": "Closer; both relate to pragmatic use and intelligent use of constraints.",
+          "scope": "Comparable, not nested.",
+          "frame": "Process/resource-lean frame vs design-philosophy frame.",
+          "stretch": "Some neighborhood in pragmatic/efficient use; conceptually adjacent.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Creativity",
+          "post": "Self-Expression",
+          "continuity": "Strong; both concern bringing something into being, originality, and personal voice.",
+          "scope": "Comparable scope, possibly slight expansion.",
+          "frame": "Generative/inventive frame vs identity-expressive frame.",
+          "stretch": "Reasonable stretch \u2014 both inhabit an originality/authorship neighborhood.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Creativity",
+          "post": "Narrative",
+          "continuity": "Moderate; creativity can manifest through narrative, but Narrative names the medium/form rather than the original capability.",
+          "scope": "Comparable.",
+          "frame": "Originality/generative frame vs storytelling frame.",
+          "stretch": "Reasonable.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Creativity",
+          "post": "Form and Function",
+          "continuity": "Moderate; creativity applied to craft/design relates to Form and Function.",
+          "scope": "Comparable.",
+          "frame": "Generative/originality frame vs design philosophy frame.",
+          "stretch": "Reasonable.",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Customer Focus",
+          "post": "Self-Expression",
+          "reason": "Different conceptual domains (audience-orientation vs identity-expression); no shared semantic neighborhood."
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Narrative",
+          "reason": "Different conceptual domains (audience vs storytelling); no shared semantic neighborhood."
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Form and Function",
+          "reason": "Different conceptual domains (audience vs design philosophy); no shared semantic neighborhood."
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Self-Expression",
+          "reason": "Different conceptual domains (pragmatic/efficient use vs identity expression); weak adjacency only."
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Narrative",
+          "reason": "Different conceptual domains (pragmatic resource use vs storytelling); weak adjacency only."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Creativity",
+          "post": "Self-Expression",
+          "basis": "Both concern originality and authorship, with a shift from generative capability to identity expression; Self-Expression is not a specific way of being Creativity."
+        }
+      ],
+      "unmatched_pre": [
+        "Resourcefulness",
+        "Customer Focus"
+      ],
+      "unmatched_post": [
+        "Form and Function",
+        "Narrative"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Customer Focus",
+          "direction": "removed",
+          "nearest_counterpart": "Self-Expression",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Audience-orientation (Customer Focus) vs individual identity-expression (Self-Expression) are in different conceptual domains; no defensible lineage. Other POST candidates (Narrative, Form and Function) likewise fail. Customer Focus has no successor in POST."
+        },
+        {
+          "concept": "Narrative",
+          "direction": "new",
+          "nearest_counterpart": "Creativity",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Creativity \u2194 Narrative already paired as Reframed (matched pair). Narrative is the second POST concept not covered by the matched pairs; nearest counterpart among remaining PRE concepts is Resourcefulness, but Resourcefulness was paired to Form and Function, and narrative \u2194 resourcefulness offers no defensible transformation. Both Creativity and Resourcefulness already exhausted by matched pairs, leaving Customer Focus as the only unmatched PRE \u2014 different domain. Narrative survives as New."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "recode",
+          "pre": "Resourcefulness",
+          "post": "Form and Function",
+          "from_code": "Reframed",
+          "to_code": "Expanded",
+          "reason": "The provisional rationale uses the broad umbrella of pragmatic or efficient use rather than identifying a specific shared conceptual neighborhood. Resourcefulness is a process disposition, while Form and Function is a design principle; this is topical adjacency and does not establish a defensible Reframed relationship."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "Both responses consist of three short descriptors of comparable length. The number of atomic descriptors is preserved (3 \u2192 3); no clauses, sentences, or explanatory passages are added or removed. Differences are entirely at the descriptor/concept level."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "Creativity",
+        "post_evidence": "Self-Expression",
+        "rationale": "Creativity and Self-Expression share an originality and authorship neighborhood, but the post concept is not a specific way of being creative. The frame shifts from generative capability to identity expression.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "Resourcefulness",
+        "post_evidence": "Form and Function",
+        "rationale": "Resourcefulness and Form and Function are topically adjacent through practical use, but no specific shared semantic neighborhood or organizing frame supports Reframed. The post concept is therefore treated as a new design principle rather than a transformation.",
+        "alternative_considered": "Reframed",
+        "confidence": "low"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Customer Focus",
+        "post_evidence": null,
+        "rationale": "No post concept occupies the audience-orientation neighborhood, and the proposed alternatives are in different conceptual domains.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Narrative",
+        "rationale": "Narrative is a storytelling and communication principle with no available antecedent in the unmatched pre concepts. Creativity and Resourcefulness are already matched, and Customer Focus is in a different domain.",
+        "alternative_considered": "Reframed relative to Creativity",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_remove_vs_reframe",
+        "boundary_case_narrow_vs_reframe",
+        "reframe_downgraded",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "Three PRE descriptors and three POST descriptors with no lexical overlap pose several sibling-concept judgments. Resourcefulness \u2194 Form and Function has shared pragmatic territory but no subsumption; recorded as Reframed. Customer Focus and Narrative are coded as Removed/New after mandatory re-check across different conceptual domains. Structural Development set to No Change because structural expansion/contraction is at descriptor level, not clause/sentence level. Critic applied 1 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Customer Focus",
+        "Resourcefulness",
+        "Creativity"
+      ],
+      "post_concepts": [
+        "Self-Expression",
+        "Narrative",
+        "Form and Function"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Customer Focus",
+          "post": "Self-Expression",
+          "continuity": "Both concern where the brand directs its energy, but one prioritizes the audience while the other prioritizes user identity.",
+          "scope": "Different populations/loci of attention (audience vs individual user expression).",
+          "frame": "External/stakeholder-oriented vs internal/identity-oriented.",
+          "stretch": "Stretched; forces a connection that isn't supported.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Narrative",
+          "continuity": "Tangential; narrative serves the customer indirectly.",
+          "scope": "Different categories entirely: audience-orientation vs storytelling device.",
+          "frame": "Stakeholder-centric vs storytelling/communication frame.",
+          "stretch": "Stretched; very weak.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Form and Function",
+          "continuity": "Minimal; Form and Function is an aesthetic/utility principle, not an audience principle.",
+          "scope": "Different domains.",
+          "frame": "Audience frame vs design philosophy frame.",
+          "stretch": "Stretched.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Self-Expression",
+          "continuity": "Weak; both could relate to making the most of something, but the referents differ (efficient use of resources vs expression of identity).",
+          "scope": "Different frames.",
+          "frame": "Pragmatic/resource frame vs identity/expressive frame.",
+          "stretch": "Weak connection.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Narrative",
+          "continuity": "Weak; narrative could indirectly imply resource use via story economy, but is not the same semantic territory.",
+          "scope": "Different.",
+          "frame": "Resource/pragmatic vs storytelling.",
+          "stretch": "Weak.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Form and Function",
+          "continuity": "Closer; both relate to pragmatic use and intelligent use of constraints.",
+          "scope": "Comparable, not nested.",
+          "frame": "Process/resource-lean frame vs design-philosophy frame.",
+          "stretch": "Some neighborhood in pragmatic/efficient use; conceptually adjacent.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Creativity",
+          "post": "Self-Expression",
+          "continuity": "Strong; both concern bringing something into being, originality, and personal voice.",
+          "scope": "Comparable scope, possibly slight expansion.",
+          "frame": "Generative/inventive frame vs identity-expressive frame.",
+          "stretch": "Reasonable stretch \u2014 both inhabit an originality/authorship neighborhood.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Creativity",
+          "post": "Narrative",
+          "continuity": "Moderate; creativity can manifest through narrative, but Narrative names the medium/form rather than the original capability.",
+          "scope": "Comparable.",
+          "frame": "Originality/generative frame vs storytelling frame.",
+          "stretch": "Reasonable.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Creativity",
+          "post": "Form and Function",
+          "continuity": "Moderate; creativity applied to craft/design relates to Form and Function.",
+          "scope": "Comparable.",
+          "frame": "Generative/originality frame vs design philosophy frame.",
+          "stretch": "Reasonable.",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Customer Focus",
+          "post": "Self-Expression",
+          "reason": "Different conceptual domains (audience-orientation vs identity-expression); no shared semantic neighborhood."
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Narrative",
+          "reason": "Different conceptual domains (audience vs storytelling); no shared semantic neighborhood."
+        },
+        {
+          "pre": "Customer Focus",
+          "post": "Form and Function",
+          "reason": "Different conceptual domains (audience vs design philosophy); no shared semantic neighborhood."
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Self-Expression",
+          "reason": "Different conceptual domains (pragmatic/efficient use vs identity expression); weak adjacency only."
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Narrative",
+          "reason": "Different conceptual domains (pragmatic resource use vs storytelling); weak adjacency only."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Creativity",
+          "post": "Self-Expression",
+          "basis": "Both occupy an originality/authorship/self-making neighborhood; Creativity plausibly continues as the identity-expressive facet captured by Self-Expression. No subsumption (Self-Expression is not a specific way of being Creative, though they share authorship territory), and the conceptual emphasis shifts from generative capability to identity expression."
+        },
+        {
+          "pre": "Resourcefulness",
+          "post": "Form and Function",
+          "basis": "Both share pragmatic/efficient-use territory, but the organizing frames differ: Resourcefulness names a process disposition while Form and Function names a design-objective principle. No subsumption holds."
+        }
+      ],
+      "unmatched_pre": [
+        "Customer Focus"
+      ],
+      "unmatched_post": [
+        "Narrative"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Customer Focus",
+          "direction": "removed",
+          "nearest_counterpart": "Self-Expression",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Audience-orientation (Customer Focus) vs individual identity-expression (Self-Expression) are in different conceptual domains; no defensible lineage. Other POST candidates (Narrative, Form and Function) likewise fail. Customer Focus has no successor in POST."
+        },
+        {
+          "concept": "Narrative",
+          "direction": "new",
+          "nearest_counterpart": "Creativity",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "Creativity \u2194 Narrative already paired as Reframed (matched pair). Narrative is the second POST concept not covered by the matched pairs; nearest counterpart among remaining PRE concepts is Resourcefulness, but Resourcefulness was paired to Form and Function, and narrative \u2194 resourcefulness offers no defensible transformation. Both Creativity and Resourcefulness already exhausted by matched pairs, leaving Customer Focus as the only unmatched PRE \u2014 different domain. Narrative survives as New."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "Both responses consist of three short descriptors of comparable length. The number of atomic descriptors is preserved (3 \u2192 3); no clauses, sentences, or explanatory passages are added or removed. Differences are entirely at the descriptor/concept level."
+    },
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "Creativity",
+        "post_evidence": "Self-Expression",
+        "rationale": "Creativity (pre-frame: generative/originality capability) and Self-Expression (post-frame: identity-expression/authorial voice) share an authorship/originality neighborhood, but no subsumption holds \u2014 'Self-Expression is a specific way of being Creative' is not true. The organizing emphasis shifts from inventiveness to identity expression.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "Resourcefulness",
+        "post_evidence": "Form and Function",
+        "rationale": "Resourcefulness (pre-frame: pragmatic/resource-lean disposition) and Form and Function (post-frame: design-philosophy / utility-and-aesthetic principle) share pragmatic/efficient-use territory, but no subsumption holds \u2014 'Form and Function is a specific way of being Resourceful' is not true. The organizing emphasis shifts from a process disposition to an outcome-oriented design principle.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Customer Focus",
+        "post_evidence": null,
+        "rationale": "No POST concept occupies the audience-orientation neighborhood. Nearest counterpars tested (Self-Expression, Narrative, Form and Function) all sit in different conceptual domains from stakeholder/audience orientation. Customer Focus has no successor in POST.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Narrative",
+        "rationale": "Narrative introduces a storytelling/communication-oriented principle with no antecedent in PRE. Both Creativity and Resourcefulness are already accounted for in matched Reframed pairs; Customer Focus (the remaining PRE concept) lies in a different conceptual domain. No tier of the transformation ladder is defensible across different domains.",
+        "alternative_considered": "Reframed (relative to Creativity)",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_remove_vs_reframe",
+        "boundary_case_narrow_vs_reframe"
+      ],
+      "coder_notes": "Three PRE descriptors and three POST descriptors with no lexical overlap pose several sibling-concept judgments. Resourcefulness \u2194 Form and Function has shared pragmatic territory but no subsumption; recorded as Reframed. Customer Focus and Narrative are coded as Removed/New after mandatory re-check across different conceptual domains. Structural Development set to No Change because structural expansion/contraction is at descriptor level, not clause/sentence level."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "recode",
+        "pre": "Resourcefulness",
+        "post": "Form and Function",
+        "from_code": "Reframed",
+        "to_code": "Expanded",
+        "reason": "The provisional rationale uses the broad umbrella of pragmatic or efficient use rather than identifying a specific shared conceptual neighborhood. Resourcefulness is a process disposition, while Form and Function is a design principle; this is topical adjacency and does not establish a defensible Reframed relationship."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Creativity",
+        "post": "Self-Expression",
+        "basis": "Both concern originality and authorship, with a shift from generative capability to identity expression; Self-Expression is not a specific way of being Creativity."
+      }
+    ],
+    "unmatched_pre": [
+      "Resourcefulness",
+      "Customer Focus"
+    ],
+    "unmatched_post": [
+      "Form and Function",
+      "Narrative"
+    ],
+    "semantic_events": [
+      {
+        "code": "Reframed",
+        "pre_evidence": "Creativity",
+        "post_evidence": "Self-Expression",
+        "rationale": "Creativity and Self-Expression share an originality and authorship neighborhood, but the post concept is not a specific way of being creative. The frame shifts from generative capability to identity expression.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "Resourcefulness",
+        "post_evidence": "Form and Function",
+        "rationale": "Resourcefulness and Form and Function are topically adjacent through practical use, but no specific shared semantic neighborhood or organizing frame supports Reframed. The post concept is therefore treated as a new design principle rather than a transformation.",
+        "alternative_considered": "Reframed",
+        "confidence": "low"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Customer Focus",
+        "post_evidence": null,
+        "rationale": "No post concept occupies the audience-orientation neighborhood, and the proposed alternatives are in different conceptual domains.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Narrative",
+        "rationale": "Narrative is a storytelling and communication principle with no available antecedent in the unmatched pre concepts. Creativity and Resourcefulness are already matched, and Customer Focus is in a different domain.",
+        "alternative_considered": "Reframed relative to Creativity",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "skipCritic": false
+}

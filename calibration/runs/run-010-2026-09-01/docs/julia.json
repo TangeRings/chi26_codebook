@@ -1,0 +1,2666 @@
+{
+  "_seedVersion": "upload-1788188051510",
+  "name": "Julia",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "Intro to Marketing (NYU Shanghai), Business of Entertainment, Media & Technology minor (NYU New York), Marketing Intern at PlayHybrid (tech startup)"
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 4
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 7
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 7
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 5
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Occasional user: 2-4 times per week"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "No"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 6
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "Using AI helped refine my brand concept by expanding my vocabulary and articulating my ideas more clearly, ensuring my messaging aligns with my vision. It also helped elaborate on specific aspects, like positioning within mid-tier luxury, making the brand feel more intentional and structured."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "It often became too wordy, or restructured the formatting."
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 8
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 8
+      }
+    ]
+  },
+  "studentId": "julia",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "The brand embodies understated elegance, minimalist, timeless, and refined luxury."
+      },
+      "post": {
+        "answer": "The brand embodies understated elegance, minimalist design, and refined luxury, drawing inspiration from late 1900s fine jewelry. Every piece is crafted with high-quality materials—sterling silver and high-micron gold vermeil—not costume jewelry. It is timeless yet modern, offering sophisticated pieces that elevate everyday style with ease."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The pre-response is a single clause with four short descriptors. The post-response retains those descriptors, slightly elaborates two, and adds a full second sentence specifying inspiration source, material composition, an exclusion (not costume jewelry), a temporal register (timeless yet modern), and a functional positioning (elevate everyday style with ease). Multiple new clauses and explanatory passages have been added; the overall scope of the response is meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "understated elegance",
+            "minimalist",
+            "timeless",
+            "refined luxury"
+          ],
+          "postConcepts": [
+            "understated elegance",
+            "minimalist design",
+            "refined luxury",
+            "late 1900s fine jewelry inspiration",
+            "high-quality materials (sterling silver, high-micron gold vermeil)",
+            "not costume jewelry",
+            "timeless yet modern",
+            "sophisticated pieces",
+            "elevate everyday style with ease"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "understated elegance",
+              "post": "understated elegance",
+              "continuity": "identical phrase",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "minimalist design",
+              "continuity": "weak — different concept",
+              "scope": "different",
+              "frame": "different",
+              "stretch": "none",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "refined luxury",
+              "continuity": "partial — both signal restrained luxury",
+              "scope": "different facet",
+              "frame": "related aesthetic",
+              "verdict": "weak"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "late 1900s fine jewelry inspiration",
+              "continuity": "none — concrete inspiration source",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+              "continuity": "none",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "not costume jewelry",
+              "continuity": "partial — both signal quality/anti-tackiness",
+              "scope": "different",
+              "frame": "related but tangential",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "timeless yet modern",
+              "continuity": "partial — elegance shares timeless register",
+              "scope": "different",
+              "frame": "aesthetic register",
+              "verdict": "weak"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "sophisticated pieces",
+              "continuity": "partial — sophistication ≈ elegance",
+              "scope": "overlapping",
+              "frame": "aesthetic register",
+              "verdict": "weak"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "elevate everyday style with ease",
+              "continuity": "partial — elevate/ease share aspirational register",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "minimalist",
+              "post": "understated elegance",
+              "continuity": "partial — minimalist style overlaps with understated",
+              "scope": "overlapping",
+              "frame": "related aesthetic",
+              "verdict": "weak"
+            },
+            {
+              "pre": "minimalist",
+              "post": "minimalist design",
+              "continuity": "direct — minimalist becomes minimalist design",
+              "scope": "same with slight elaboration",
+              "frame": "same",
+              "stretch": "minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "minimalist",
+              "post": "refined luxury",
+              "continuity": "partial — both lean restrained",
+              "scope": "different facets",
+              "frame": "related aesthetic",
+              "verdict": "weak"
+            },
+            {
+              "pre": "minimalist",
+              "post": "late 1900s fine jewelry inspiration",
+              "continuity": "none",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "minimalist",
+              "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+              "continuity": "none",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "minimalist",
+              "post": "not costume jewelry",
+              "continuity": "none",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "minimalist",
+              "post": "timeless yet modern",
+              "continuity": "partial — minimalism often paired with timeless",
+              "scope": "related",
+              "frame": "adjacent aesthetic",
+              "verdict": "weak"
+            },
+            {
+              "pre": "minimalist",
+              "post": "sophisticated pieces",
+              "continuity": "partial",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "minimalist",
+              "post": "elevate everyday style with ease",
+              "continuity": "none",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "timeless",
+              "post": "understated elegance",
+              "continuity": "partial — timelessness overlaps with elegance",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "timeless",
+              "post": "minimalist design",
+              "continuity": "partial",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "timeless",
+              "post": "refined luxury",
+              "continuity": "partial — luxury often signals timelessness",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "timeless",
+              "post": "late 1900s fine jewelry inspiration",
+              "continuity": "partial — fine jewelry is a timeless reference",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "timeless",
+              "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+              "continuity": "partial — quality materials persist across time",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "timeless",
+              "post": "not costume jewelry",
+              "continuity": "none",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "timeless",
+              "post": "timeless yet modern",
+              "continuity": "direct — timeless is preserved and added to with 'yet modern'",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "timeless",
+              "post": "sophisticated pieces",
+              "continuity": "partial",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "timeless",
+              "post": "elevate everyday style with ease",
+              "continuity": "none",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "understated elegance",
+              "continuity": "partial — both signal restrained luxury",
+              "scope": "related",
+              "frame": "adjacent aesthetic",
+              "verdict": "weak"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "minimalist design",
+              "continuity": "partial — refined luxury often minimal",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "refined luxury",
+              "continuity": "identical phrase",
+              "scope": "same",
+              "frame": "same",
+              "stretch": "minimal",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "late 1900s fine jewelry inspiration",
+              "continuity": "partial — fine jewelry is a luxury domain",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+              "continuity": "partial — luxury is supported by quality materials",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "not costume jewelry",
+              "continuity": "partial — refined luxury is the antithesis of costume",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "timeless yet modern",
+              "continuity": "partial",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "sophisticated pieces",
+              "continuity": "strong — sophistication and luxury share territory",
+              "scope": "related",
+              "frame": "adjacent",
+              "verdict": "weak"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "elevate everyday style with ease",
+              "continuity": "partial — luxury positioning",
+              "scope": "different",
+              "frame": "different",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "understated elegance",
+              "post": "minimalist design",
+              "reason": "different descriptors, no defensible lineage"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "late 1900s fine jewelry inspiration",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "high-quality materials",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "not costume jewelry",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "understated elegance",
+              "post": "sophisticated pieces",
+              "reason": "tangentially related at best"
+            },
+            {
+              "pre": "minimalist",
+              "post": "understated elegance",
+              "reason": "weak overlap, not the strongest successor; minimalist→minimalist design is direct"
+            },
+            {
+              "pre": "minimalist",
+              "post": "refined luxury",
+              "reason": "different descriptors; minimalist is already matched to minimalist design"
+            },
+            {
+              "pre": "minimalist",
+              "post": "late 1900s fine jewelry inspiration",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "minimalist",
+              "post": "high-quality materials",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "minimalist",
+              "post": "timeless yet modern",
+              "reason": "timeless is the better predecessor for 'timeless yet modern'"
+            },
+            {
+              "pre": "minimalist",
+              "post": "sophisticated pieces",
+              "reason": "weak adjacency; better matches exist"
+            },
+            {
+              "pre": "timeless",
+              "post": "understated elegance",
+              "reason": "timeless already matched to 'timeless yet modern'"
+            },
+            {
+              "pre": "timeless",
+              "post": "late 1900s fine jewelry inspiration",
+              "reason": "weak adjacency; inspiration source is not a successor of timeless"
+            },
+            {
+              "pre": "timeless",
+              "post": "high-quality materials",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "sophisticated pieces",
+              "reason": "adjacency only; not a strong enough lineage to code as transformation"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "understated elegance",
+              "reason": "refined luxury is already matched to itself"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "understated elegance",
+              "post": "understated elegance",
+              "basis": "identical phrase preserved"
+            },
+            {
+              "pre": "minimalist",
+              "post": "minimalist design",
+              "basis": "minimalist preserved with mild noun addition (Elaborated)"
+            },
+            {
+              "pre": "timeless",
+              "post": "timeless yet modern",
+              "basis": "timeless preserved and augmented with complementary register (Elaborated)"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "refined luxury",
+              "basis": "identical phrase preserved"
+            },
+            {
+              "pre": "refined luxury",
+              "post": "sophisticated pieces",
+              "basis": "same semantic territory (restrained-upscale quality) with shifted frame from brand-positioning to product-characterization (Reframed)"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "late 1900s fine jewelry inspiration",
+            "high-quality materials (sterling silver, high-micron gold vermeil)",
+            "not costume jewelry",
+            "elevate everyday style with ease"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "late 1900s fine jewelry inspiration",
+              "direction": "new",
+              "nearestCounterpart": "timeless",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Narrowed: a historical inspiration source is not a specific way of being timeless. Reframed: no shared semantic frame — inspiration source vs timelessness-as-quality. Elaborated: timeless does not contain the seed for a concrete historical reference. Expanded: timeless does not broaden into a specific era. All four fail; concrete referent introduced."
+            },
+            {
+              "concept": "high-quality materials (sterling silver, high-micron gold vermeil)",
+              "direction": "new",
+              "nearestCounterpart": "refined luxury",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Narrowed: specific materials are not a specific way of being refined luxury. Reframed: different frames (material composition vs luxury positioning). Elaborated: refined luxury does not contain material seed. Expanded: refined luxury does not broaden into material specifics. All four fail; concrete material specification is genuinely new."
+            },
+            {
+              "concept": "not costume jewelry",
+              "direction": "new",
+              "nearestCounterpart": "refined luxury",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Narrowed: an exclusion category is not a specific way of being refined luxury. Reframed: anti-costume framing vs luxury positioning — different frames. Elaborated/Expanded: refined luxury does not contain the seed for a categorical exclusion. All four fail."
+            },
+            {
+              "concept": "sophisticated pieces",
+              "direction": "new",
+              "nearestCounterpart": "refined luxury",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Reframed: pre-frame = luxury positioning (refined luxury); post-frame = product-characterization (sophisticated pieces). Same semantic territory (restrained-upscale quality), but the organizing frame shifts from positioning-as-trait to the character of the products themselves. Sophisticated is a sibling descriptor, not a subtype of refined luxury. Testing Narrowed first: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE — sophisticated describes the artifacts, refined luxury describes the brand register. So Reframed holds at tier 2."
+            },
+            {
+              "concept": "elevate everyday style with ease",
+              "direction": "new",
+              "nearestCounterpart": "understated elegance",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Narrowed: a usage-positioning claim is not a specific way of being understated elegance. Reframed: different frames (functional benefit for the wearer vs aesthetic descriptor of the brand). Elaborated/Expanded: no seed in understated elegance for this usage-outcome claim. All four fail; new functional positioning added."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "understated elegance",
+              "post": "understated elegance",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical phrase preserved; correct to leave uncoded or as same-same match."
+            },
+            {
+              "type": "confirm",
+              "pre": "minimalist",
+              "post": "minimalist design",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Core descriptor preserved; 'design' is a noun addition specifying domain, not a scope restriction or frame shift. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "timeless",
+              "post": "timeless yet modern",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "PRE preserved verbatim; 'yet modern' augments with complementary register, not a frame shift or scope restriction. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "refined luxury",
+              "post": "refined luxury",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Identical phrase preserved."
+            },
+            {
+              "type": "confirm",
+              "pre": "refined luxury",
+              "post": "sophisticated pieces",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Lineage recovered in pass 1 with correct code. Same semantic territory (restrained-upscale quality), sibling descriptors, frames differ (brand-positioning register vs product-characterization). Subsumption test fails: sophisticated pieces ≠ a specific way of being refined luxury. Reframed is the right tier-2 verdict."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "late 1900s fine jewelry inspiration",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Concrete historical-era inspiration source has no defensible lineage against timeless or any other PRE concept. All four ladder tiers fail; New is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "high-quality materials (sterling silver, high-micron gold vermeil)",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Specific material composition has no antecedent in PRE; refined luxury does not contain the seed for material specifics. New is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "not costume jewelry",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Exclusion framing is not a subtype, frame-shift, elaboration, or broadening of refined luxury or any PRE concept. New is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "elevate everyday style with ease",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Functional/usage-positioning benefit claim has no defensible lineage against understated elegance or any PRE concept. New is correct."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6ug5y1aozr3hxxzp",
+            "code": "Elaborated",
+            "preEvidence": "minimalist",
+            "postEvidence": "minimalist design",
+            "rationale": "PRE descriptor preserved; 'design' specifies the domain without restricting scope or shifting the organizing frame.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6ug5ywzxjlws3rxq",
+            "code": "Elaborated",
+            "preEvidence": "timeless",
+            "postEvidence": "timeless yet modern",
+            "rationale": "PRE preserved verbatim; 'yet modern' adds a complementary register without shifting the timelessness-as-organizing-idea frame.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6ug5ysxldrhhpar",
+            "code": "Reframed",
+            "preEvidence": "refined luxury",
+            "postEvidence": "sophisticated pieces",
+            "rationale": "Pre-frame = brand-as-luxury-positioning register; post-frame = product-as-characterization. Same restrained-upscale quality territory, but the organizing lens shifts from brand register to the character of the products. Subsumption test: 'Sophisticated pieces is a specific way of being refined luxury' is FALSE (sophisticated describes artifacts; refined luxury describes brand register) → tier 2 holds.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6ug5y0cmqw62hql4",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "late 1900s fine jewelry inspiration",
+            "rationale": "Concrete historical-era inspiration source has no defensible antecedent in PRE. Tested against timeless — all four ladder tiers fail.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti6ug5yu58oy4znum",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "high-quality materials (sterling silver, high-micron gold vermeil)",
+            "rationale": "Specific material composition has no antecedent in PRE. Refined luxury does not contain the seed for material specifics.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti6ug5yotz487j3ta",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "not costume jewelry",
+            "rationale": "Exclusion framing has no antecedent in PRE. Not a subtype, frame-shift, elaboration, or broadening of refined luxury.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6ug5y7tz0txhp1ux",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "elevate everyday style with ease",
+            "rationale": "Functional/usage-positioning benefit claim has no antecedent in PRE. Tested against understated elegance — all four ladder tiers fail.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The Reframed code for refined luxury → sophisticated pieces sits close to New+Removed; the sibling descriptor reading is defensible but not certain. Alternative reading (sophisticated pieces as an independent new claim, refined luxury removed) was considered. The shared semantic territory of restrained-upscale quality and the clear frame shift from brand-register to product-characterization support Reframed at tier 2, but coder confidence is medium rather than high. Critic applied 9 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "To redefine accessible luxury by offering demi-fine jewelry that blends simplicity and sophistication. The goal is to set a new standard for sustainability and quality in mid-tier luxury, with potential expansion into sustainable fashion."
+      },
+      "post": {
+        "answer": "To redefine mid-tier luxury jewelry by offering heirloom-quality pieces that bridge affordability and exclusivity. The brand is designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs. Future expansion includes select boutique placements and potential growth into sustainable fashion."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST retains the core redefinition vision and adds meaningful new content: a target-customer scoping clause ('designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs'), an explicit retail-placement expansion detail ('select boutique placements'), and a quality specification ('heirloom-quality'). These are one-to-two added clauses plus elaboration of the existing duality idea, consistent with moderate addition rather than significant.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "redefine accessible luxury",
+            "demi-fine jewelry",
+            "blends simplicity and sophistication",
+            "new standard for sustainability and quality",
+            "mid-tier luxury",
+            "potential expansion into sustainable fashion"
+          ],
+          "postConcepts": [
+            "redefine mid-tier luxury jewelry",
+            "heirloom-quality pieces",
+            "bridge affordability and exclusivity",
+            "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+            "future expansion includes select boutique placements",
+            "potential growth into sustainable fashion"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "redefine accessible luxury",
+              "post": "redefine mid-tier luxury jewelry",
+              "continuity": "Both articulate a redefinition mission in the luxury space",
+              "scope": "PRE is broader ('accessible luxury'); POST specifies the category ('mid-tier luxury jewelry')",
+              "frame": "Same redefining frame",
+              "stretch": "Moderate; 'mid-tier luxury' is a subset of 'accessible luxury'",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "demi-fine jewelry",
+              "post": "redefine mid-tier luxury jewelry",
+              "continuity": "Both name the product category",
+              "scope": "PRE is a specific descriptor; POST uses category-level language",
+              "frame": "Both frame as category",
+              "stretch": "Weak; 'demi-fine' is more specific than 'mid-tier luxury jewelry'",
+              "verdict": "weak"
+            },
+            {
+              "pre": "blends simplicity and sophistication",
+              "post": "bridge affordability and exclusivity",
+              "continuity": "Both articulate the duality the brand offers",
+              "scope": "Comparable scope",
+              "frame": "PRE = aesthetic duality (simplicity/sophistication); POST = price-access duality (affordability/exclusivity)",
+              "stretch": "Plausible; sibling frames on the same duality concept",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "new standard for sustainability and quality",
+              "post": "heirloom-quality pieces",
+              "continuity": "Both concern quality dimension",
+              "scope": "PRE is broad (sustainability + quality); POST focuses on quality only as 'heirloom-quality'",
+              "frame": "PRE = standards/benchmark; POST = tangible quality attribute",
+              "stretch": "Plausible; partial overlap on quality",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "mid-tier luxury",
+              "post": "redefine mid-tier luxury jewelry",
+              "continuity": "Direct lexical overlap",
+              "scope": "Same scope",
+              "frame": "Same frame",
+              "stretch": "Strong",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "mid-tier luxury",
+              "post": "bridge affordability and exclusivity",
+              "continuity": "Both concern the mid-tier positioning",
+              "scope": "Same",
+              "frame": "Positioning-level framing",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "potential expansion into sustainable fashion",
+              "post": "potential growth into sustainable fashion",
+              "continuity": "Near-identical phrasing",
+              "scope": "Same",
+              "frame": "Same",
+              "stretch": "Strong",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "demi-fine jewelry",
+              "post": "heirloom-quality pieces",
+              "continuity": "Both describe the product",
+              "scope": "PRE is a category label; POST is a quality attribute of products",
+              "frame": "Different frames",
+              "stretch": "Weak",
+              "verdict": "weak"
+            },
+            {
+              "pre": "demi-fine jewelry",
+              "post": "bridge affordability and exclusivity",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "Implausible across domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "new standard for sustainability and quality",
+              "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "Implausible across domains",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "blends simplicity and sophistication",
+              "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "Implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "blends simplicity and sophistication",
+              "post": "heirloom-quality pieces",
+              "continuity": "Weak",
+              "scope": "Different",
+              "frame": "Different",
+              "stretch": "Implausible",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "demi-fine jewelry",
+              "post": "redefine mid-tier luxury jewelry",
+              "reason": "demi-fine is subsumed under redefine mid-tier luxury jewelry, but the more direct lineage is demi-fine → heirloom-quality pieces (quality specification of product) or via redefine-arc"
+            },
+            {
+              "pre": "new standard for sustainability and quality",
+              "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+              "reason": "Different conceptual domains (standards/benchmark vs target-customer scoping)"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "redefine accessible luxury",
+              "post": "redefine mid-tier luxury jewelry",
+              "basis": "Same redefinition frame; POST narrows 'accessible luxury' to 'mid-tier luxury jewelry' (a specific way of being accessible luxury)"
+            },
+            {
+              "pre": "blends simplicity and sophistication",
+              "post": "bridge affordability and exclusivity",
+              "basis": "Sibling frame shift within brand-duality territory: aesthetic duality vs price-access duality"
+            },
+            {
+              "pre": "new standard for sustainability and quality",
+              "post": "heirloom-quality pieces",
+              "basis": "Sibling concepts on quality territory: PRE frames as standards/benchmark, POST frames as tangible product quality attribute"
+            },
+            {
+              "pre": "potential expansion into sustainable fashion",
+              "post": "potential growth into sustainable fashion",
+              "basis": "Near-paraphrase: same expansion concept with minor verb variation"
+            },
+            {
+              "pre": "demi-fine jewelry",
+              "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+              "basis": "Same demi-fine positioning frame; POST adds target-customer scoping detail"
+            }
+          ],
+          "unmatchedPre": [
+            "mid-tier luxury"
+          ],
+          "unmatchedPost": [
+            "future expansion includes select boutique placements"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "mid-tier luxury",
+              "direction": "removed",
+              "nearestCounterpart": "redefine mid-tier luxury jewelry",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "'mid-tier luxury' as a standalone positioning phrase in PRE is absorbed into the redefinition phrase 'redefine mid-tier luxury jewelry' in POST; standalone phrase no longer surfaces separately. After absorption into another matched concept, the standalone form is removed."
+            },
+            {
+              "concept": "heirloom-quality pieces",
+              "direction": "new",
+              "nearestCounterpart": "new standard for sustainability and quality",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "heirloom-quality pieces is a specific quality register of the quality dimension present in PRE; subsumption holds ('heirloom-quality is a specific way of being the quality standard'), and PRE is generic. Converted to Narrowed via the matched pair with 'new standard for sustainability and quality'."
+            },
+            {
+              "concept": "future expansion includes select boutique placements",
+              "direction": "new",
+              "nearestCounterpart": "potential expansion into sustainable fashion",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "'select boutique placements' is an expansion channel with no antecedent in PRE; PRE mentions only sustainable fashion expansion. Full-response search confirms no defensible lineage to 'demi-fine jewelry', 'accessible luxury', or other PRE concepts. Different domain (retail placement vs product-category expansion)."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "redefine accessible luxury",
+              "post": "redefine mid-tier luxury jewelry",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption holds: mid-tier luxury jewelry is a specific way of being accessible luxury. Narrowed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "blends simplicity and sophistication",
+              "post": "bridge affordability and exclusivity",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Sibling frame shift: aesthetic duality vs price-access duality. Subsumption does not hold. Reframed is correct."
+            },
+            {
+              "type": "recode",
+              "pre": "new standard for sustainability and quality",
+              "post": "heirloom-quality pieces",
+              "fromCode": "Narrowed",
+              "toCode": "Reframed",
+              "reason": "Subsumption test fails: 'heirloom-quality is a specific way of being a new standard for sustainability and quality' is not true — a standard/benchmark is a different organizing frame from a tangible quality attribute. Both share quality territory, but PRE frames as standards/benchmark, POST frames as tangible product quality attribute. Sibling concepts on the same quality territory with shifted frame."
+            },
+            {
+              "type": "recode",
+              "pre": "potential expansion into sustainable fashion",
+              "post": "potential growth into sustainable fashion",
+              "fromCode": "Reframed",
+              "toCode": "Elaborated",
+              "reason": "Near-paraphrase: POST keeps the same underlying expansion/growth concept and only varies the verb slightly ('expansion' vs 'growth'). Same frame, minor wording variation. This is elaboration within the same frame, not a frame shift. Elaborated is the better fit; Reframed overclaims a frame shift that doesn't exist."
+            },
+            {
+              "type": "confirm",
+              "pre": "demi-fine jewelry",
+              "post": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "POST keeps the demi-fine positioning intact and adds target-customer scoping detail. Same product-positioning frame with added detail. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "mid-tier luxury",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Standalone 'mid-tier luxury' is absorbed into the redefinition clause 'redefine mid-tier luxury jewelry'. No separate POST successor. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "future expansion includes select boutique placements",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Boutique placement is a retail channel with no antecedent in PRE (which covers only product-category expansion into sustainable fashion). Different domain. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6upwkburusj2esie",
+            "code": "Narrowed",
+            "preEvidence": "To redefine accessible luxury",
+            "postEvidence": "To redefine mid-tier luxury jewelry",
+            "rationale": "POST specifies the PRE's 'accessible luxury' into the concrete category 'mid-tier luxury jewelry'. Subsumption holds: 'mid-tier luxury jewelry is a specific way of being accessible luxury'.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6upwkpphr6pd92q8",
+            "code": "Reframed",
+            "preEvidence": "blends simplicity and sophistication",
+            "postEvidence": "bridge affordability and exclusivity",
+            "rationale": "Both articulate the brand's duality, but the organizing frame shifts: PRE uses an aesthetic frame (simplicity/sophistication) while POST uses a price-access frame (affordability/exclusivity). Sibling concepts on the same duality territory; subsumption does not hold.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6upwkud1wl6dnk9m",
+            "code": "Reframed",
+            "preEvidence": "new standard for sustainability and quality",
+            "postEvidence": "heirloom-quality pieces",
+            "rationale": "Both address quality, but the organizing frame shifts: PRE frames as standards/benchmark, POST frames as a tangible product quality attribute. Sibling concepts on the same quality territory; 'heirloom-quality is a specific way of being a new standard for sustainability and quality' is not true.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6upwkjrvhcp9mltm",
+            "code": "Elaborated",
+            "preEvidence": "demi-fine jewelry",
+            "postEvidence": "designed for those who appreciate craftsmanship and longevity but aren't looking to invest in solid gold or fully custom designs",
+            "rationale": "POST keeps the demi-fine positioning intact and adds target-customer scoping detail (relative to solid gold and fully custom designs). Same product-positioning frame with added detail.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6upwkg5uyjxpbr9w",
+            "code": "Elaborated",
+            "preEvidence": "potential expansion into sustainable fashion",
+            "postEvidence": "potential growth into sustainable fashion",
+            "rationale": "Near-paraphrase: POST keeps the same expansion concept and varies only the verb ('expansion' vs 'growth'). Same frame; minor lexical variation, not a frame shift.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6upwkhsv3vbgdcrd",
+            "code": "Removed",
+            "preEvidence": "mid-tier luxury",
+            "postEvidence": null,
+            "rationale": "The standalone 'mid-tier luxury' positioning phrase is absorbed into the redefinition clause 'redefine mid-tier luxury jewelry' and does not surface as a separate POST concept.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6upwk6favvqvef7n",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "future expansion includes select boutique placements",
+            "rationale": "POST introduces boutique placement as an expansion channel. Nearest PRE concept 'potential expansion into sustainable fashion' concerns product-category expansion, a different domain. Narrowed/Reframed/Elaborated/Expanded all fail.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_narrow",
+            "events_possibly_collapsed",
+            "neighborhood_protected",
+            "reframe_downgraded",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The 'demi-fine jewelry' → 'designed for those who appreciate craftsmanship and longevity...' pairing is the most uncertain: the POST clause reads as scoping who the product is for rather than redefining the product itself. Treated as Elaborated because the demi-fine positioning persists in the redefinition clause, and the customer-scoping clause adds target-market detail without shifting the product frame. The 'potential expansion into sustainable fashion' → 'potential growth into sustainable fashion' event is coded Reframed with low confidence because the two phrasings are near-paraphrases; 'expansion' and 'growth' are near-synonyms and could arguably be style-only. Coded as Reframed rather than omitting because there is a subtle frame shift (expansion as noun vs growth as process). The 'new standard for sustainability and quality' → 'heirloom-quality pieces' is coded Narrowed but only partial: sustainability is not carried forward in this matched pair (it is partially carried by 'longevity' elsewhere in POST). This is a contained limitation rather than a contradiction. Critic applied 7 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "The brand will prioritize transparency in materials, ethical sourcing, responsible production, quality craftsmanship and timeless design to create pieces that endure beyond trends."
+      },
+      "post": {
+        "answer": "The brand will prioritize transparency in materials, ethical sourcing, responsible production, quality craftsmanship and timeless design to create pieces that endure beyond trends."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "Pre and post responses are character-for-character identical. No structural change at any level (phrase, clause, sentence, explanation).",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "transparency in materials",
+            "ethical sourcing",
+            "responsible production",
+            "quality craftsmanship",
+            "timeless design"
+          ],
+          "postConcepts": [
+            "transparency in materials",
+            "ethical sourcing",
+            "responsible production",
+            "quality craftsmanship",
+            "timeless design"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "transparency in materials",
+              "post": "transparency in materials",
+              "continuity": "identical concept",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "transparency in materials",
+              "post": "ethical sourcing",
+              "continuity": "overlapping ethical/supply-chain domain but different concepts",
+              "scope": "not subset",
+              "frame": "both production-process frames but distinct properties",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "transparency in materials",
+              "post": "responsible production",
+              "continuity": "overlapping ethical/production domain",
+              "scope": "not subset",
+              "frame": "distinct properties",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "transparency in materials",
+              "post": "quality craftsmanship",
+              "continuity": "distinct properties (transparency vs quality)",
+              "scope": "not subset",
+              "frame": "different frames",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "transparency in materials",
+              "post": "timeless design",
+              "continuity": "distinct properties (material transparency vs design longevity)",
+              "scope": "not subset",
+              "frame": "different frames",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "transparency in materials",
+              "continuity": "different concepts within supply-chain ethics",
+              "scope": "not subset",
+              "frame": "sourcing-frame vs material-frame",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "ethical sourcing",
+              "continuity": "identical concept",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "responsible production",
+              "continuity": "closely related ethical production concepts",
+              "scope": "not subset",
+              "frame": "sourcing vs production framing",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "quality craftsmanship",
+              "continuity": "distinct properties",
+              "scope": "not subset",
+              "frame": "different frames",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "timeless design",
+              "continuity": "distinct properties",
+              "scope": "not subset",
+              "frame": "different frames",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "responsible production",
+              "post": "transparency in materials",
+              "continuity": "different production-related concepts",
+              "scope": "not subset",
+              "frame": "distinct",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "responsible production",
+              "post": "ethical sourcing",
+              "continuity": "closely related ethical production concepts",
+              "scope": "not subset",
+              "frame": "production vs sourcing",
+              "stretch": "moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "responsible production",
+              "post": "responsible production",
+              "continuity": "identical concept",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "responsible production",
+              "post": "quality craftsmanship",
+              "continuity": "production concept vs output quality",
+              "scope": "not subset",
+              "frame": "distinct",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "responsible production",
+              "post": "timeless design",
+              "continuity": "distinct",
+              "scope": "not subset",
+              "frame": "distinct",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "quality craftsmanship",
+              "post": "transparency in materials",
+              "continuity": "distinct",
+              "scope": "not subset",
+              "frame": "distinct",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "quality craftsmanship",
+              "post": "ethical sourcing",
+              "continuity": "distinct",
+              "scope": "not subset",
+              "frame": "distinct",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "quality craftsmanship",
+              "post": "responsible production",
+              "continuity": "distinct",
+              "scope": "not subset",
+              "frame": "distinct",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "quality craftsmanship",
+              "post": "quality craftsmanship",
+              "continuity": "identical concept",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "timeless design",
+              "post": "transparency in materials",
+              "continuity": "distinct",
+              "scope": "not subset",
+              "frame": "distinct",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "timeless design",
+              "post": "ethical sourcing",
+              "continuity": "distinct",
+              "scope": "not subset",
+              "frame": "distinct",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "timeless design",
+              "post": "responsible production",
+              "continuity": "distinct",
+              "scope": "not subset",
+              "frame": "distinct",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "timeless design",
+              "post": "timeless design",
+              "continuity": "identical concept",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "transparency in materials",
+              "post": "ethical sourcing",
+              "reason": "different properties within ethical production; no shared semantic role"
+            },
+            {
+              "pre": "transparency in materials",
+              "post": "responsible production",
+              "reason": "different properties; no subsumption"
+            },
+            {
+              "pre": "transparency in materials",
+              "post": "quality craftsmanship",
+              "reason": "different conceptual domains (material transparency vs output quality)"
+            },
+            {
+              "pre": "transparency in materials",
+              "post": "timeless design",
+              "reason": "different conceptual domains"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "transparency in materials",
+              "reason": "different properties; sourcing vs material disclosure"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "responsible production",
+              "reason": "sibling concepts but no subsumption; rejected to preserve identity alignment"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "quality craftsmanship",
+              "reason": "different domains"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "timeless design",
+              "reason": "different domains"
+            },
+            {
+              "pre": "responsible production",
+              "post": "transparency in materials",
+              "reason": "different properties"
+            },
+            {
+              "pre": "responsible production",
+              "post": "ethical sourcing",
+              "reason": "sibling concepts but no subsumption; rejected to preserve identity alignment"
+            },
+            {
+              "pre": "responsible production",
+              "post": "quality craftsmanship",
+              "reason": "different domains"
+            },
+            {
+              "pre": "responsible production",
+              "post": "timeless design",
+              "reason": "different domains"
+            },
+            {
+              "pre": "quality craftsmanship",
+              "post": "transparency in materials",
+              "reason": "different domains"
+            },
+            {
+              "pre": "quality craftsmanship",
+              "post": "ethical sourcing",
+              "reason": "different domains"
+            },
+            {
+              "pre": "quality craftsmanship",
+              "post": "responsible production",
+              "reason": "different domains"
+            },
+            {
+              "pre": "timeless design",
+              "post": "transparency in materials",
+              "reason": "different domains"
+            },
+            {
+              "pre": "timeless design",
+              "post": "ethical sourcing",
+              "reason": "different domains"
+            },
+            {
+              "pre": "timeless design",
+              "post": "responsible production",
+              "reason": "different domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "transparency in materials",
+              "post": "transparency in materials",
+              "basis": "verbatim identity; strongest alignment"
+            },
+            {
+              "pre": "ethical sourcing",
+              "post": "ethical sourcing",
+              "basis": "verbatim identity; strongest alignment"
+            },
+            {
+              "pre": "responsible production",
+              "post": "responsible production",
+              "basis": "verbatim identity; strongest alignment"
+            },
+            {
+              "pre": "quality craftsmanship",
+              "post": "quality craftsmanship",
+              "basis": "verbatim identity; strongest alignment"
+            },
+            {
+              "pre": "timeless design",
+              "post": "timeless design",
+              "basis": "verbatim identity; strongest alignment"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "transparency in materials",
+              "post": "transparency in materials",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "verbatim identity; no transformation event warranted"
+            },
+            {
+              "type": "confirm",
+              "pre": "ethical sourcing",
+              "post": "ethical sourcing",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "verbatim identity; no transformation event warranted"
+            },
+            {
+              "type": "confirm",
+              "pre": "responsible production",
+              "post": "responsible production",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "verbatim identity; no transformation event warranted"
+            },
+            {
+              "type": "confirm",
+              "pre": "quality craftsmanship",
+              "post": "quality craftsmanship",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "verbatim identity; no transformation event warranted"
+            },
+            {
+              "type": "confirm",
+              "pre": "timeless design",
+              "post": "timeless design",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "verbatim identity; no transformation event warranted"
+            }
+          ]
+        },
+        "semanticChanges": [],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "Pre and post responses are identical strings. No semantic events warranted; structural development is No Change. No new/removed recheck entries needed because no New or Removed events are emitted. Critic applied 5 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "Modern, career-driven women aged 24-38 (120k+ a year) who appreciate minimalist luxury and invest in timeless, high-quality pieces over quantity of pieces, building a collection. (They prioritize ethical craftsmanship, follow brands like COS and The Row, and seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication.)"
+      },
+      "post": {
+        "answer": "High-achieving, career-driven, urban women aged 24-38, earning $120K+ annually, who appreciate minimalist luxury and invest in timeless, high-quality pieces to build a refined jewelry collection. They prioritize craftsmanship and longevity over trends, choosing understated elegance over flashy statement pieces. They follow brands like COS, The Row, and Toteme, value quiet luxury, and seek jewelry that seamlessly integrates into their wardrobe. While they appreciate ethical production, their primary focus is on quality, design, and exclusivity."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "The post-response adds several new clauses (choosing understated elegance over flashy statement pieces, value quiet luxury, seek jewelry that seamlessly integrates into their wardrobe, expanded brand list with Toteme, and a reframing of ethics as secondary). The core demographic skeleton is preserved; the expansion is in psychographic detail and prioritization. One or two meaningful added clauses plus an explicit priority statement qualify this as Moderate Addition rather than Significant.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "Modern, career-driven women aged 24-38",
+            "earning 120k+ a year",
+            "appreciate minimalist luxury",
+            "invest in timeless, high-quality pieces over quantity of pieces",
+            "building a collection",
+            "prioritize ethical craftsmanship",
+            "follow brands like COS and The Row",
+            "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication"
+          ],
+          "postConcepts": [
+            "High-achieving, career-driven, urban women aged 24-38",
+            "earning $120K+ annually",
+            "appreciate minimalist luxury",
+            "invest in timeless, high-quality pieces to build a refined jewelry collection",
+            "prioritize craftsmanship and longevity over trends",
+            "choosing understated elegance over flashy statement pieces",
+            "follow brands like COS, The Row, and Toteme",
+            "value quiet luxury",
+            "seek jewelry that seamlessly integrates into their wardrobe",
+            "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "High-achieving, career-driven, urban women aged 24-38",
+              "continuity": "Same demographic core (career-driven women, age 24-38); Modern replaced by High-achieving/urban and career-driven retained",
+              "scope": "Same age range, same career profile; descriptors refined",
+              "frame": "Demographic profile frame; descriptors updated",
+              "stretch": "Weak stretch - substantial descriptor replacement around same population",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "choosing understated elegance over flashy statement pieces",
+              "continuity": "Weak - descriptor-level, not core demographic",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "High stretch",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "value quiet luxury",
+              "continuity": "Weak - descriptor-level",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "High stretch",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "seek jewelry that seamlessly integrates into their wardrobe",
+              "continuity": "Weak - different aspect (aspiration vs integration)",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "High stretch",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity",
+              "continuity": "Weak - different aspect",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "High stretch",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "appreciate minimalist luxury",
+              "continuity": "Weak - same general aesthetic but not the demographic itself",
+              "scope": "N/A",
+              "frame": "N/A",
+              "stretch": "High stretch",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "earning 120k+ a year",
+              "post": "earning $120K+ annually",
+              "continuity": "Direct equivalent, same income band",
+              "scope": "Identical scope",
+              "frame": "Same income frame",
+              "stretch": "Minimal - stylistic only",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "appreciate minimalist luxury",
+              "post": "appreciate minimalist luxury",
+              "continuity": "Identical phrase preserved",
+              "scope": "Same",
+              "frame": "Same",
+              "stretch": "None",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "appreciate minimalist luxury",
+              "post": "value quiet luxury",
+              "continuity": "Related luxury aesthetic terms",
+              "scope": "Similar",
+              "frame": "Aesthetic-value frame",
+              "stretch": "Moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "invest in timeless, high-quality pieces over quantity of pieces",
+              "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+              "continuity": "Core investment philosophy preserved; quantity-over framing slightly modified",
+              "scope": "Same scope of investment behavior",
+              "frame": "Same frame (investment in quality)",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "invest in timeless, high-quality pieces over quantity of pieces",
+              "post": "prioritize craftsmanship and longevity over trends",
+              "continuity": "Related: quality-over-quantity maps to craftsmanship/longevity-over-trends",
+              "scope": "Same broader scope",
+              "frame": "Same investment-priorities frame",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "building a collection",
+              "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+              "continuity": "Collection-building embedded into investment phrase",
+              "scope": "Same scope",
+              "frame": "Same collection frame",
+              "stretch": "Weak-moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "prioritize ethical craftsmanship",
+              "post": "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity",
+              "continuity": "Same ethical production concept, but DOWNGRADED from priority to appreciated-but-not-primary",
+              "scope": "Narrower scope (secondary vs primary)",
+              "frame": "Same ethics frame but reframed as secondary",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "prioritize ethical craftsmanship",
+              "post": "prioritize craftsmanship and longevity over trends",
+              "continuity": "Craftsmanship term preserved; ethical qualifier stripped",
+              "scope": "Broader craftsmanship scope",
+              "frame": "Quality-investment frame rather than ethics frame",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "follow brands like COS and The Row",
+              "post": "follow brands like COS, The Row, and Toteme",
+              "continuity": "Same brand-following behavior; one brand added",
+              "scope": "Slightly broader (one more exemplar)",
+              "frame": "Same brand-aspiration frame",
+              "stretch": "Weak",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+              "post": "seek jewelry that seamlessly integrates into their wardrobe",
+              "continuity": "Related aspiration (elegant jewelry → jewelry integration) but different focus",
+              "scope": "Different aspect (aesthetic values → wardrobe integration)",
+              "frame": "Values frame → practicality/wardrobe frame",
+              "stretch": "Moderate",
+              "verdict": "weak"
+            },
+            {
+              "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+              "post": "choosing understated elegance over flashy statement pieces",
+              "continuity": "Related aesthetic: effortlessly elegant ↔ understated elegance; both reject excess",
+              "scope": "Aesthetic preference scope",
+              "frame": "Same aesthetic frame",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+              "post": "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity",
+              "continuity": "Values thread present (sustainability ↔ ethical production)",
+              "scope": "Values scope",
+              "frame": "Values frame, but with reframing of priority",
+              "stretch": "Moderate",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "choosing understated elegance over flashy statement pieces",
+              "reason": "Demographic core cannot pair with aesthetic-choice phrase; different conceptual units"
+            },
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "value quiet luxury",
+              "reason": "Demographic core cannot pair with value phrase; different conceptual units"
+            },
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "seek jewelry that seamlessly integrates into their wardrobe",
+              "reason": "Demographic core cannot pair with aspiration phrase"
+            },
+            {
+              "pre": "appreciate minimalist luxury",
+              "post": "value quiet luxury",
+              "reason": "Identical phrase preserved in POST as a separate concept; do not double-match"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "High-achieving, career-driven, urban women aged 24-38",
+              "basis": "Demographic core preserved; descriptor frame shifts"
+            },
+            {
+              "pre": "earning 120k+ a year",
+              "post": "earning $120K+ annually",
+              "basis": "Direct equivalent; stylistic rewrite"
+            },
+            {
+              "pre": "appreciate minimalist luxury",
+              "post": "value quiet luxury",
+              "basis": "Same aesthetic-luxury neighborhood; sibling idioms"
+            },
+            {
+              "pre": "invest in timeless, high-quality pieces over quantity of pieces",
+              "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+              "basis": "Core phrase preserved; POST adds collection-building elaboration"
+            },
+            {
+              "pre": "building a collection",
+              "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+              "basis": "Collection-building idea absorbed into elaborated investment phrase"
+            },
+            {
+              "pre": "invest in timeless, high-quality pieces over quantity of pieces",
+              "post": "prioritize craftsmanship and longevity over trends",
+              "basis": "Quality-over-quantity mapped to craftsmanship/longevity-over-trends"
+            },
+            {
+              "pre": "follow brands like COS and The Row",
+              "post": "follow brands like COS, The Row, and Toteme",
+              "basis": "Same brand-following behavior; one exemplar added"
+            },
+            {
+              "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+              "post": "choosing understated elegance over flashy statement pieces",
+              "basis": "Same aesthetic-aspiration territory; values-frame to anti-flashiness frame"
+            },
+            {
+              "pre": "prioritize ethical craftsmanship",
+              "post": "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity",
+              "basis": "Ethics criterion reframed as secondary; lead-priority frame shifts"
+            },
+            {
+              "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+              "post": "seek jewelry that seamlessly integrates into their wardrobe",
+              "basis": "Same jewelry-aspiration neighborhood; values-frame to wardrobe-integration frame"
+            },
+            {
+              "pre": "appreciate minimalist luxury",
+              "post": "appreciate minimalist luxury",
+              "basis": "Identical phrase preserved verbatim"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "building a collection",
+              "direction": "removed",
+              "nearestCounterpart": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "'building a collection' is absorbed/merged into the refined POST investment phrase ('build a refined jewelry collection'); Elaborated - the collection-building idea is retained within a richer investment phrase"
+            },
+            {
+              "concept": "invest in timeless, high-quality pieces over quantity of pieces",
+              "direction": "removed",
+              "nearestCounterpart": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Core phrase preserved verbatim ('invest in timeless, high-quality pieces'); POST elaborates with 'to build a refined jewelry collection' and shifts the contrast from 'quantity of pieces' to 'trends'. Same frame; Elaborated."
+            },
+            {
+              "concept": "value quiet luxury",
+              "direction": "new",
+              "nearestCounterpart": "appreciate minimalist luxury",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Both express aesthetic luxury valuation; quiet luxury and minimalist luxury occupy the same quiet-luxury neighborhood. PRE 'minimalist luxury' is retained as a verbatim match in POST, and 'quiet luxury' is an alternate phrasing of the same aesthetic. Reframed - minimalism-frame to quiet-luxury-frame within shared aesthetic-luxury territory."
+            },
+            {
+              "concept": "seek jewelry that seamlessly integrates into their wardrobe",
+              "direction": "new",
+              "nearestCounterpart": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Both describe what kind of jewelry they seek; both express a wearing-context relationship (elegance-aligning-with-values ↔ wardrobe-integration). Values-frame → practicality/wardrobe-frame; same jewelry-aspiration territory. Reframed."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Modern, career-driven women aged 24-38",
+              "post": "High-achieving, career-driven, urban women aged 24-38",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Demographic core preserved, descriptor frame shifts; Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "invest in timeless, high-quality pieces over quantity of pieces",
+              "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same investment frame; POST adds 'to build a refined jewelry collection'; modifiers added, frame intact. Per BC-P001-style guidance, Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "follow brands like COS and The Row",
+              "post": "follow brands like COS, The Row, and Toteme",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Same brand-following behavior; one exemplar added; scope broadened from seed."
+            },
+            {
+              "type": "confirm",
+              "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+              "post": "choosing understated elegance over flashy statement pieces",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Same aesthetic-aspiration territory; frame shifts from values-alignment to anti-flashiness contrast. Reframed is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "appreciate minimalist luxury",
+              "post": "value quiet luxury",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Same aesthetic-luxury neighborhood; minimalism-frame to quiet-luxury-frame. Reframed is appropriate (no subsumption; sibling idioms)."
+            },
+            {
+              "type": "recode",
+              "pre": "prioritize ethical craftsmanship",
+              "post": "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity",
+              "fromCode": "Narrowed",
+              "toCode": "Reframed",
+              "reason": "POST does not restrict PRE's scope to a proper subset; it reframes the ethics criterion as secondary rather than primary while shifting the lead priority to quality/design/exclusivity. Subsumption test fails: 'ethical production as secondary appreciation' is NOT a specific way of being 'prioritizing ethical craftsmanship' - it is a reweighting of priorities. Same values-criterion territory with shifted organizing frame (lead-priority frame → deprioritized-but-present frame). Reframed is the better-supported code."
+            },
+            {
+              "type": "confirm",
+              "pre": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+              "post": "seek jewelry that seamlessly integrates into their wardrobe",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Same jewelry-aspiration neighborhood; values-alignment frame shifts to wardrobe-integration frame. Reframed is correct."
+            },
+            {
+              "type": "recode",
+              "pre": "building a collection",
+              "post": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+              "fromCode": null,
+              "toCode": "Elaborated",
+              "reason": "'building a collection' is absorbed/merged into the elaborated POST investment phrase. This is a valid restore_lineage pairing: the collection-building idea is retained within a richer POST phrase. Same collection frame; Elaborated."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6v4dh15jn9bob1ca",
+            "code": "Reframed",
+            "preEvidence": "Modern, career-driven women aged 24-38",
+            "postEvidence": "High-achieving, career-driven, urban women aged 24-38",
+            "rationale": "Demographic core preserved; 'Modern' replaced by 'High-achieving' + 'urban'. Same population, shifted organizing frame from modern-lifestyle to high-achievement/urban-professional.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6v4dh1qj3pb3fqohj",
+            "code": "Elaborated",
+            "preEvidence": "invest in timeless, high-quality pieces over quantity of pieces",
+            "postEvidence": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+            "rationale": "Core investment phrase preserved verbatim; POST adds 'to build a refined jewelry collection'. Same investment-priorities frame; added detail within intact frame.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6v4dhhrq2ljpd0m5",
+            "code": "Elaborated",
+            "preEvidence": "building a collection",
+            "postEvidence": "invest in timeless, high-quality pieces to build a refined jewelry collection",
+            "rationale": "Collection-building idea absorbed into the elaborated POST investment phrase. Same collection frame; PRE noun retained within richer POST construction.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6v4dhtbzj3comodq",
+            "code": "Expanded",
+            "preEvidence": "follow brands like COS and The Row",
+            "postEvidence": "follow brands like COS, The Row, and Toteme",
+            "rationale": "Same brand-following behavior; Toteme added as third exemplar, broadening the brand-reference set.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6v4dhzc7zicgi8l9",
+            "code": "Reframed",
+            "preEvidence": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+            "postEvidence": "choosing understated elegance over flashy statement pieces",
+            "rationale": "Both express refined non-excessive elegance. PRE frames via values-alignment; POST frames via contrast with flashy statement pieces. Same jewelry-aspiration territory; shifted organizing frame.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6v4dh3x5hd3q6brc",
+            "code": "Reframed",
+            "preEvidence": "appreciate minimalist luxury",
+            "postEvidence": "value quiet luxury",
+            "rationale": "Both express aesthetic-luxury valuation. Same quiet-luxury neighborhood; frame shifts from minimalism to quiet-luxury idiom. No subsumption; sibling concepts.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6v4dhp175debsowf",
+            "code": "Reframed",
+            "preEvidence": "prioritize ethical craftsmanship",
+            "postEvidence": "While they appreciate ethical production, their primary focus is on quality, design, and exclusivity",
+            "rationale": "Same ethics-criterion territory; frame shifts from lead-priority to deprioritized-but-present while lead priority moves to quality/design/exclusivity. No proper-subset restriction; not Narrowed.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6v4dh1e040koi8cg",
+            "code": "Reframed",
+            "preEvidence": "seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication",
+            "postEvidence": "seek jewelry that seamlessly integrates into their wardrobe",
+            "rationale": "Both describe jewelry seeking and wearing-context fit. PRE frames via values-alignment; POST frames via wardrobe-integration. Same jewelry-aspiration territory; shifted organizing frame.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "vague_to_specific_lineage",
+            "neighborhood_lineage_only",
+            "duplicate_pre_antecedent"
+          ],
+          "coderNotes": "Several pairs sit near the Elaborated/Reframed boundary because POST preserves core PRE phrasing while reorienting emphasis (e.g., 'invest in timeless, high-quality pieces' is preserved while the contrast target shifts). Treated Reframed where a frame-level emphasis shift was clear. 'apprecie minimal luxury' appears twice in POST (once verbatim retained, once reframed as 'quiet luxury'), which is unusual; coded as a single Reframed event rather than double-counting. The 'prioritize ethical craftsmanship' → 'appreciate ethical production' mapping is coded Narrowed based on scope-restriction (priority demoted to secondary), but Reframed remains plausible. No direct textual evidence of learner agency (no first-person reflection, no metacognitive statement). Critic applied 8 correction(s). Consistency check: \"seek effortlessly elegant jewelry that aligns with their values of sustainability and sophistication\" serves as the antecedent of more than one event. The PRE span likely needs splitting — review before accepting."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "sustainability, quiet luxury, and artistic minimalism?"
+      },
+      "post": {
+        "answer": "Brand conscious but practical?"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Reduction",
+        "structuralRationale": "PRE names three specific niche descriptors (sustainability, quiet luxury, artistic minimalism); POST collapses all three into a single short consumer-attitude phrase. Three concepts removed, one retained as a single condensed label — a substantial reduction in scope and content at the sentence/explanation level.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "sustainability",
+            "quiet luxury",
+            "artistic minimalism"
+          ],
+          "postConcepts": [
+            "brand conscious but practical"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "sustainability",
+              "post": "brand conscious but practical",
+              "continuity": "sustainability refers to environmental/ethical values; brand conscious but practical refers to consumer awareness plus pragmatism — partial overlap in values orientation",
+              "scope": "PRE is value-specific (environmental); POST is broader consumer-attitude scope",
+              "frame": "PRE is value-driven; POST is attitude/behavioral (conscious + practical)",
+              "stretch": "stretchy",
+              "verdict": "weak"
+            },
+            {
+              "pre": "quiet luxury",
+              "post": "brand conscious but practical",
+              "continuity": "quiet luxury is a specific aesthetic/positioning; brand conscious but practical is a consumer stance — both touch on quality/considered consumption",
+              "scope": "PRE is a market positioning/aesthetic niche; POST is a consumer descriptor",
+              "frame": "PRE: product/aesthetic positioning. POST: consumer mindset",
+              "stretch": "stretchy",
+              "verdict": "weak"
+            },
+            {
+              "pre": "artistic minimalism",
+              "post": "brand conscious but practical",
+              "continuity": "artistic minimalism is an aesthetic positioning; brand conscious but practical is a behavioral consumer descriptor",
+              "scope": "different — aesthetic style vs consumer attitude",
+              "frame": "aesthetic vs behavioral",
+              "stretch": "stretchy",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "artistic minimalism",
+              "post": "brand conscious but practical",
+              "reason": "aesthetic positioning vs consumer-attitude stance are different conceptual domains; pairing is forced"
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "sustainability",
+            "quiet luxury",
+            "artistic minimalism"
+          ],
+          "unmatchedPost": [
+            "brand conscious but practical"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "brand conscious but practical",
+              "direction": "new",
+              "nearestCounterpart": "sustainability",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Narrowed: brand conscious but practical is not a specific way of being sustainability — fails. Reframed: both touch values but sustainability is environmental-ethical while brand conscious but practical is consumer-attitudinal — shared territory is too broad (umbrella 'values'). Elaborated: POST does not retain PRE sustainability intact. Expanded: POST does not broaden an identifiable sustainability seed; it shifts category. All four fail across different conceptual domains."
+            },
+            {
+              "concept": "sustainability",
+              "direction": "removed",
+              "nearestCounterpart": "brand conscious but practical",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Narrowed: brand conscious but practical is not a subset of sustainability. Reframed: environmental-ethical value vs consumer-attitude stance — only adjacent at the umbrella level of 'values'. Elaborated: sustainability is not retained in POST. Expanded: POST does not broaden sustainability. All four fail."
+            },
+            {
+              "concept": "quiet luxury",
+              "direction": "removed",
+              "nearestCounterpart": "brand conscious but practical",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Narrowed: brand conscious but practical is not a specific way of being quiet luxury. Reframed: aesthetic positioning vs consumer mindset — only adjacent topically. Elaborated: quiet luxury not retained. Expanded: POST does not broaden the quiet-luxury seed. All four fail."
+            },
+            {
+              "concept": "artistic minimalism",
+              "direction": "removed",
+              "nearestCounterpart": "brand conscious but practical",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Narrowed: brand conscious but practical is not a specific way of being artistic minimalism. Reframed: aesthetic style vs consumer behavior — different conceptual domains; shared umbrella is 'positioning' which fails the abstraction-ceiling test. Elaborated: PRE not retained. Expanded: POST does not broaden an artistic-minimalism seed. All four fail."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "sustainability",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass-1 removal is correct. sustainability (environmental/ethical value) has no defensible lineage to 'brand conscious but practical' (consumer-attitude descriptor). All four transformation codes fail; abstraction ceiling reached if attempting values umbrella."
+            },
+            {
+              "type": "confirm",
+              "pre": "quiet luxury",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass-1 removal is correct. quiet luxury is an aesthetic/market-positioning niche; POST is a consumer-mindset descriptor — different conceptual domains. Shared territory is only the 'positioning' umbrella, which fails the abstraction-ceiling test."
+            },
+            {
+              "type": "confirm",
+              "pre": "artistic minimalism",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass-1 removal is correct. Artistic/aesthetic style niche vs consumer behavioral descriptor — different domains. No defensible transformation tier holds; umbrella 'values/positioning' is above the abstraction ceiling."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "brand conscious but practical",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass-1 New is correct. Nearest PRE counterparts are all in different conceptual domains (value-driven, aesthetic positioning, aesthetic style). Narrowed, Reframed, Elaborated, and Expanded all fail. Genuinely new consumer-attitude descriptor."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6ut0szxhpynbhfo",
+            "code": "Removed",
+            "preEvidence": "sustainability",
+            "postEvidence": null,
+            "rationale": "Sustainability is an environmental/ethical value concept. POST 'brand conscious but practical' is a consumer-attitude descriptor. Not a subtype, not a sibling within a specific neighborhood (shared 'values' umbrella is above abstraction ceiling), not an elaboration, not an expansion. Concept is genuinely absent from POST.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6ut0s5ccj5jz1dd8",
+            "code": "Removed",
+            "preEvidence": "quiet luxury",
+            "postEvidence": null,
+            "rationale": "Quiet luxury is an aesthetic/market-positioning niche; POST is a consumer-mindset descriptor. Different conceptual domains; nearest counterpairing would only share a 'positioning' umbrella, which fails the abstraction-ceiling test.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6ut0s61atmepescf",
+            "code": "Removed",
+            "preEvidence": "artistic minimalism",
+            "postEvidence": null,
+            "rationale": "Artistic minimalism is an aesthetic-style niche; POST is a consumer behavioral descriptor. Different conceptual domains with no defensible transformation tier available.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6ut0sil6shb59ip",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "brand conscious but practical",
+            "rationale": "POST introduces a consumer-attitude descriptor (brand awareness + pragmatism). Nearest PRE counterparts (sustainability, quiet luxury, artistic minimalism) all sit in different conceptual domains; all four transformation codes tested and fail. Genuinely new concept with no available antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "neighborhood_tested_no_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Three PRE concepts (sustainability, quiet luxury, artistic minimalism) collapse into a single short POST consumer-attitude label. All three PRE items tested against the single POST item; all four transformation codes fail across different conceptual domains (aesthetic/environmental/positional niches vs consumer mindset). Abstraction-ceiling test applies: the only shared umbrella is 'values' or 'positioning', which would be claimed for almost any two descriptors in this item. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "nstagram, TikTok, and Pinterest for branding and engagement. SSENSE for direct sales and luxury positioning."
+      },
+      "post": {
+        "answer": "nstagram, TikTok, and Pinterest for branding and engagement. SSENSE for direct sales and luxury positioning."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "No Change",
+        "structuralRationale": "The PRE and POST responses are substantively identical: the same platform sets and stated functions are preserved.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Instagram, TikTok, and Pinterest for branding and engagement",
+            "SSENSE for direct sales and luxury positioning"
+          ],
+          "postConcepts": [
+            "Instagram, TikTok, and Pinterest for branding and engagement",
+            "SSENSE for direct sales and luxury positioning"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "continuity": "Identical platform set and stated functions",
+              "scope": "Identical",
+              "frame": "Identical branding and engagement frame",
+              "stretch": "None",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "post": "SSENSE for direct sales and luxury positioning",
+              "continuity": "Both name branding platforms, but functions differ",
+              "scope": "Different platform categories",
+              "frame": "Content branding/engagement versus direct sales/luxury positioning",
+              "stretch": "Weak; no basis for cross-domain match",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "SSENSE for direct sales and luxury positioning",
+              "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "continuity": "Both name branding platforms, but functions differ",
+              "scope": "Different platform categories",
+              "frame": "Direct sales/luxury positioning versus content branding/engagement",
+              "stretch": "Weak; no basis for cross-domain match",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "SSENSE for direct sales and luxury positioning",
+              "post": "SSENSE for direct sales and luxury positioning",
+              "continuity": "Identical platform and stated functions",
+              "scope": "Identical",
+              "frame": "Identical direct-sales and luxury-positioning frame",
+              "stretch": "None",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "post": "SSENSE for direct sales and luxury positioning",
+              "reason": "Different platform functions and conceptual roles; no semantic lineage beyond the shared branding context"
+            },
+            {
+              "pre": "SSENSE for direct sales and luxury positioning",
+              "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "reason": "Different platform functions and conceptual roles; no semantic lineage beyond the shared branding context"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "basis": "Exact preservation of the content-platform set and branding/engagement function"
+            },
+            {
+              "pre": "SSENSE for direct sales and luxury positioning",
+              "post": "SSENSE for direct sales and luxury positioning",
+              "basis": "Exact preservation of the commerce platform and direct-sales/luxury-positioning function"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Exact preservation; pass-1 alignment with no semantic change is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "SSENSE for direct sales and luxury positioning",
+              "post": "SSENSE for direct sales and luxury positioning",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Exact preservation; pass-1 alignment with no semantic change is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": null,
+              "fromCode": null,
+              "toCode": null,
+              "reason": "No provisional New or Removed events exist; nothing to recover and no cross-domain pairings to reject."
+            }
+          ]
+        },
+        "semanticChanges": [],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [],
+          "coderNotes": "The leading missing initial letter in both responses appears to be a transcription issue and does not constitute a semantic difference. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "50% styling and product showcases, 30% behind-the-scenes (ethical production, design process, brand story), 20% influencer collaborations and UGC."
+      },
+      "post": {
+        "answer": "50% styling and product showcases, 30% behind-the-scenes (ethical production, design process, brand story), 20% influencer collaborations and UGC. Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "The three percentage buckets are preserved verbatim. POST adds one additional sentence — 'Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community' — which specifies collaborator types and articulates a value rationale (creative identity, community connection). This is a contained addition (one new clause/sentence) rather than multiple new passages, supporting Moderate rather than Significant Addition.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "50% styling and product showcases",
+            "30% behind-the-scenes (ethical production, design process, brand story)",
+            "20% influencer collaborations and UGC"
+          ],
+          "postConcepts": [
+            "50% styling and product showcases",
+            "30% behind-the-scenes (ethical production, design process, brand story)",
+            "20% influencer collaborations and UGC",
+            "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "50% styling and product showcases",
+              "post": "50% styling and product showcases",
+              "continuity": "verbatim identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "30% behind-the-scenes (ethical production, design process, brand story)",
+              "post": "30% behind-the-scenes (ethical production, design process, brand story)",
+              "continuity": "verbatim identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "20% influencer collaborations and UGC",
+              "post": "20% influencer collaborations and UGC",
+              "continuity": "verbatim identical",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "20% influencer collaborations and UGC",
+              "post": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+              "continuity": "collaboration concept present in both; POST specifies types of collaborators and adds rationale (creative identity, community connection)",
+              "scope": "POST expands who collaborators are (models, artists, designers) and adds the purpose",
+              "frame": "PRE lists collaboration as a content bucket; POST reframes collaborations as something that ensures creative identity and community connection",
+              "stretch": "moderate — the collaboration concept carries through but POST shifts from bucket-listing to value-rationale framing",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "50% styling and product showcases",
+              "post": "50% styling and product showcases",
+              "basis": "verbatim identical content bucket; no semantic change"
+            },
+            {
+              "pre": "30% behind-the-scenes (ethical production, design process, brand story)",
+              "post": "30% behind-the-scenes (ethical production, design process, brand story)",
+              "basis": "verbatim identical content bucket; no semantic change"
+            },
+            {
+              "pre": "20% influencer collaborations and UGC",
+              "post": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+              "basis": "same underlying category (collaborations) with added descriptors and rationale; frame preserved"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "50% styling and product showcases",
+              "post": "50% styling and product showcases",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "verbatim identical content bucket; no semantic change"
+            },
+            {
+              "type": "confirm",
+              "pre": "30% behind-the-scenes (ethical production, design process, brand story)",
+              "post": "30% behind-the-scenes (ethical production, design process, brand story)",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "verbatim identical content bucket; no semantic change"
+            },
+            {
+              "type": "confirm",
+              "pre": "20% influencer collaborations and UGC",
+              "post": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Collaboration concept is retained as the same underlying noun/category; POST adds qualifying descriptors (models, artists, designers) and an explanatory clause about purpose. The organizing frame — 'collaborations as a content tactic' — is preserved; this is added detail, not a shifted frame. Elaborated is correct per BC-P001 guidance."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6v5qr0e3p0x2eldv",
+            "code": "Elaborated",
+            "preEvidence": "20% influencer collaborations and UGC",
+            "postEvidence": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+            "rationale": "The collaboration concept from PRE is retained and POST adds qualifying detail within the same frame: specifying collaborator types (models, artists, designers) and adding the purpose clause. The organizing frame — collaborations as a content bucket — is preserved; the additions are descriptors and rationale, not a shifted frame. Confirmed Elaborated.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed (collaboration-as-bucket → collaboration-as-identity/community-enabler)"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe"
+          ],
+          "coderNotes": "The elaborating sentence could alternatively be read as a Reframed event: PRE lists collaborations as a content bucket (a tactical/operational frame), while POST frames collaborations as ensuring creative identity and community connection (a values/strategic frame). I selected Elaborated because the underlying subject (collaborations as a content type) is preserved and the additions read as qualifying detail and rationale within the same collaboration frame, but the distinction is arguable. Flagged boundary_case_elab_vs_reframe. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "14k to 20k Gold and 925 Sterling Silver Demi-fine vermeil jewelry"
+      },
+      "post": {
+        "answer": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST reframes the offering from a material-specification list to a product-line architecture (core + limited collaborations with indie designers). This adds structural description about the offering model and introduces the indie-designer collaboration concept, but the core subject (demi-fine jewelry) remains. One meaningful conceptual addition (collaborative limited releases); the prior material specs are dropped.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry"
+          ],
+          "postConcepts": [
+            "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+              "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+              "continuity": "Both center on demi-fine jewelry; PRE specifies materials (14k-20k Gold, 925 Sterling Silver, vermeil), POST specifies structural offering pattern (core + limited collaborations with indie designers)",
+              "scope": "POST reframes the offering from material specs to a collection/release architecture",
+              "frame": "PRE frame: material/composition specification; POST frame: product-line structure and collaboration model",
+              "stretch": "Moderate stretch — material specificity replaced by portfolio architecture",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [],
+          "matchedPairs": [
+            {
+              "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+              "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+              "basis": "Both describe the demi-fine jewelry product offering. PRE specifies material composition (14k-20k gold, 925 sterling silver, vermeil); POST specifies portfolio architecture (core collection supplemented by limited indie-designer collaborations). Same territory, different organizing frame."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "14k to 20k Gold and 925 Sterling Silver demi-fine vermeil jewelry",
+              "post": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass-1 correctly identified same product-offering neighborhood with shifted organizing frame (material composition → portfolio/collection architecture). Subsumption fails (core collection is not a specific way of being material-spec), so Reframed is correct. Elaborated is a reasonable runner-up but the frame genuinely shifts."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6v5270r35jkolol8",
+            "code": "Reframed",
+            "preEvidence": "14k to 20k Gold and 925 Sterling Silver Demi-fine vermeil jewelry",
+            "postEvidence": "Core collection of demi-fine jewelry, supplemented with limited releases in collaboration with indie designers",
+            "rationale": "Both describe the same product offering (demi-fine jewelry). PRE's organizing frame is material/composition specification; POST's organizing frame is portfolio structure with collaborative limited drops. The underlying product is intact but the lens shifts from 'what it's made of' to 'how the line is structured and extended.'",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated (POST adds release structure but also reorients from material specs, so frame shift is genuine rather than mere detail addition)"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe"
+          ],
+          "coderNotes": "Single semantic event. The transformation could alternatively be read as Elaborated if one views the portfolio architecture as additional detail on top of the material specification, but the material specs are dropped (not retained) and a new organizing frame (collection structure + indie collaborations) is introduced, so Reframed is the better-supported code. The indie-designer collaboration element has no antecedent in PRE and is absorbed into the Reframed event because it is part of the new framing rather than a separately added concept. Critic applied 1 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 7
+      },
+      "post": {
+        "answer": 8
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 3,
+          "Consumer trends, social media trends, peer trends": 3,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ]
+}

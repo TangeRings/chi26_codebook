@@ -1,0 +1,23 @@
+{
+  "corrections": [],
+  "final_alignments": [
+    {
+      "pre": "50% product reviews",
+      "post": "50% product reviews",
+      "basis": "identical content, percentage, and order"
+    },
+    {
+      "pre": "30% influencer reviews",
+      "post": "30% influencer reviews",
+      "basis": "identical content, percentage, and order"
+    },
+    {
+      "pre": "20% product knowledge",
+      "post": "20% product knowledge",
+      "basis": "identical content, percentage, and order"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

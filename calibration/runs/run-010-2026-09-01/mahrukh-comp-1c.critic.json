@@ -1,0 +1,67 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Self identification and expression",
+      "post": "Self identification and expression",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical descriptor preserved verbatim; no transformation event needed."
+    },
+    {
+      "type": "confirm",
+      "pre": "Aesthetic",
+      "post": "Aesthetic",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical descriptor preserved verbatim; no transformation event needed."
+    },
+    {
+      "type": "confirm",
+      "pre": "trend",
+      "post": "trend",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical descriptor preserved verbatim; no transformation event needed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Emotional Connection",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest antecedent is 'Self identification and expression'. Tested Narrowed: 'Emotional Connection is a specific way of being Self identification and expression' is FALSE \u2014 identity expression is self-directed; emotional connection is relational/other-directed. Tested Reframed: claims of a shared identity/self-presentation neighborhood hit the abstraction ceiling (could apply to nearly any descriptor). Tested Elaborated/Expanded: 'Emotional Connection' does not add detail to or broaden 'Self identification and expression'; they target different objects (self vs other/brand-fan bond). All tiers fail; New is correct. Alternative considered: Reframed from Self identification and expression \u2014 rejected due to abstraction ceiling."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Self identification and expression",
+      "post": "Self identification and expression",
+      "basis": "identical descriptor preserved verbatim"
+    },
+    {
+      "pre": "Aesthetic",
+      "post": "Aesthetic",
+      "basis": "identical descriptor preserved verbatim"
+    },
+    {
+      "pre": "trend",
+      "post": "trend",
+      "basis": "identical descriptor preserved verbatim"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "Emotional Connection"
+  ],
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Emotional Connection",
+      "rationale": "Nearest PRE antecedent is 'Self identification and expression'. Subsumption fails (relational affect is not a specific way of being identity expression). A shared identity/self-presentation neighborhood claim is above the abstraction ceiling \u2014 it could be claimed for almost any descriptor. No elaboration or expansion defensible. Emotional Connection is a genuinely new relational/affective value.",
+      "alternative_considered": "Reframed from 'Self identification and expression' via shared identity/self-presentation neighborhood \u2014 rejected as abstraction-ceiling error.",
+      "confidence": "high"
+    }
+  ]
+}

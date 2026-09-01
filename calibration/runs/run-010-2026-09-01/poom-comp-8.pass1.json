@@ -1,0 +1,276 @@
+{
+  "coding_unit": {
+    "student_id": "poom",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "merchandise (t-shirts, hoodies, tote bags, etc.)",
+      "print-on-demand method (implicit/absent)",
+      "brand vibe/positioning (implicit/absent)"
+    ],
+    "post_concepts": [
+      "print-on-demand (POD) merchandise",
+      "fun",
+      "relatable",
+      "culture-inspired"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+        "post": "print-on-demand (POD) merchandise",
+        "continuity": "both specify merchandise as the product offering",
+        "scope": "PRE lists specific items (t-shirts, hoodies, tote bags); POST specifies the production method (POD) instead of item types",
+        "frame": "PRE frames as product types; POST frames as production model + brand qualities",
+        "stretch": "the product category (merchandise) is shared, but the descriptive axis has shifted from item types to method + qualities",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+        "post": "fun",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "cross-axis; merchandise is product type, fun is brand quality",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+        "post": "relatable",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "cross-axis",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+        "post": "culture-inspired",
+        "continuity": "weak",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "cross-axis",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "print-on-demand method (implicit/absent)",
+        "post": "print-on-demand (POD) merchandise",
+        "continuity": "direct lineage \u2014 the production method is now explicit",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "closest match",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "print-on-demand method (implicit/absent)",
+        "post": "fun",
+        "continuity": "none",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "cross-axis",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "print-on-demand method (implicit/absent)",
+        "post": "relatable",
+        "continuity": "none",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "cross-axis",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "print-on-demand method (implicit/absent)",
+        "post": "culture-inspired",
+        "continuity": "none",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "cross-axis",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "brand vibe/positioning (implicit/absent)",
+        "post": "fun",
+        "continuity": "some \u2014 the parenthetical 'i love tote bags' hints at personal/expressive intent, but no brand-quality statement is explicit",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "requires inference",
+        "verdict": "weak"
+      },
+      {
+        "pre": "brand vibe/positioning (implicit/absent)",
+        "post": "relatable",
+        "continuity": "none direct",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "requires inference",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "brand vibe/positioning (implicit/absent)",
+        "post": "culture-inspired",
+        "continuity": "none direct",
+        "scope": "n/a",
+        "frame": "n/a",
+        "stretch": "requires inference",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+        "post": "fun",
+        "reason": "different conceptual domains; merchandise is product category, fun is brand quality"
+      },
+      {
+        "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+        "post": "relatable",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+        "post": "culture-inspired",
+        "reason": "different conceptual domains"
+      },
+      {
+        "pre": "print-on-demand method (implicit/absent)",
+        "post": "fun",
+        "reason": "cross-axis"
+      },
+      {
+        "pre": "print-on-demand method (implicit/absent)",
+        "post": "relatable",
+        "reason": "cross-axis"
+      },
+      {
+        "pre": "print-on-demand method (implicit/absent)",
+        "post": "culture-inspired",
+        "reason": "cross-axis"
+      },
+      {
+        "pre": "brand vibe/positioning (implicit/absent)",
+        "post": "fun",
+        "reason": "no explicit brand-quality antecedent in PRE; would require inferring an implicit concept"
+      },
+      {
+        "pre": "brand vibe/positioning (implicit/absent)",
+        "post": "relatable",
+        "reason": "no explicit antecedent"
+      },
+      {
+        "pre": "brand vibe/positioning (implicit/absent)",
+        "post": "culture-inspired",
+        "reason": "no explicit antecedent"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "print-on-demand method (implicit/absent)",
+        "post": "print-on-demand (POD) merchandise",
+        "basis": "the production method is now explicitly named in POST; same semantic role of specifying how the merchandise is produced"
+      },
+      {
+        "pre": "merchandise (t-shirts, hoodies, tote bags, etc.)",
+        "post": "print-on-demand (POD) merchandise",
+        "basis": "merchandise is the shared product category; POST retains the category and substitutes descriptive axis from item types to production method + brand qualities"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "fun",
+      "relatable",
+      "culture-inspired"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "fun",
+        "direction": "new",
+        "nearest_counterpart": "(parenthetical 'i love tote bags')",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE contains no explicit brand-quality or experiential descriptor. The parenthetical is an affective aside about tote bags as personal objects, not a brand-positioning claim. Subsumption, frame continuity, elaboration, and expansion all fail \u2014 'fun' cannot be read as a specific way of being the parenthetical, nor as a reconception of it. Fun is genuinely new content."
+      },
+      {
+        "concept": "relatable",
+        "direction": "new",
+        "nearest_counterpart": "(parenthetical 'i love tote bags')",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE has no antecedent for an audience-relational claim. No subsumption, reframing, elaboration, or expansion is defensible from the parenthetical. Relatable is new."
+      },
+      {
+        "concept": "culture-inspired",
+        "direction": "new",
+        "nearest_counterpart": "(parenthetical 'i love tote bags')",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE contains no cultural-anchoring claim. The nearest PRE element is the personal aside about tote bags, which is not a culture/source claim. Culture-inspired is new."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "PRE is a single short sentence naming merchandise types and a personal aside. POST condenses the offering into a single descriptive phrase but adds three brand-quality descriptors (fun, relatable, culture-inspired) and an explicit production method (POD). The product-category content contracts (item examples dropped), but the descriptive and positioning content expands. Net: moderate addition \u2014 the response gained meaningful descriptive content while losing the item-type enumeration."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "merchandise like t-shirt, hoodie, tote bags etc.",
+      "post_evidence": "print-on-demand (POD) merchandise",
+      "rationale": "The PRE lists the product category broadly by item type. The POST retains 'merchandise' as the category but narrows the descriptive axis from enumerated item types to a specified production method (POD). The subsumption relation holds: 'print-on-demand merchandise' is a specific way of being the broader merchandise offering. Scope is restricted from any merchandise to merchandise produced via print-on-demand.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "fun",
+      "rationale": "PRE contains no explicit brand-quality or experiential descriptor. Nearest counterpart is the parenthetical 'i love tote bags', which is a personal affective aside, not a brand-positioning claim. All four transformation codes fail across genuinely different conceptual domains (personal preference vs brand descriptor). Fun is new content.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "relatable",
+      "rationale": "PRE contains no audience-relational or social-positioning claim. Nearest counterpart is the parenthetical 'i love tote bags'; no defensible lineage exists. All four transformation codes fail. Relatable is new.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "culture-inspired",
+      "rationale": "PRE contains no cultural-source or aesthetic-anchoring claim. Nearest counterpart is the parenthetical; no lineage. All four transformation codes fail. Culture-inspired is new.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "vague_to_specific_lineage"
+    ],
+    "coder_notes": "The PRE parenthetical '(i love tote bags!)' is personal expression but not a brand-positioning statement, so it does not provide lineage for the three new brand-quality descriptors. The merchandise-to-merchandise-POD pair is coded Narrowed on the basis of scope restriction (specifying production method narrows the offering category). Item-level item-type enumeration in PRE (t-shirts, hoodies, tote bags) is not separately coded as Removed because it is absorbed into the same merchandise category that the Narrowed event tracks; a separate Removed event would double-count. Structural Development judged Moderate Addition because positioning descriptors were added while item-type enumeration was compressed away, netting to a moderate expansion of descriptive content."
+  },
+  "coded_at": "2025-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

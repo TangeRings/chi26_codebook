@@ -1,0 +1,131 @@
+{
+  "coding_unit": {
+    "student_id": "peter",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "Thai Food/Fruit Lovers",
+      "People who love trying new and unique foods"
+    ],
+    "post_concepts": [
+      "Asian Market Consumers",
+      "Adventurous Foodies"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Thai Food/Fruit Lovers",
+        "post": "Asian Market Consumers",
+        "continuity": "Both name an audience segment defined by ethnic/cultural cuisine interest; Thai is one cuisine within the broader Asian umbrella.",
+        "scope": "Asian Market Consumers is broader than Thai Food/Fruit Lovers (Asian encompasses Thai, Chinese, Japanese, Korean, Vietnamese, etc.). Possible Expansion candidate.",
+        "frame": "PRE frames by specific cuisine/national origin; POST frames by broader cultural-market category.",
+        "stretch": "Moderate \u2014 clear lineage via cuisine-to-cultural-market scope relation.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Thai Food/Fruit Lovers",
+        "post": "Adventurous Foodies",
+        "continuity": "Weak. Both relate to food-oriented consumers, but Thai Food/Fruit Lovers is cuisine-defined and Adventurous Foodies is behavior-defined.",
+        "scope": "Not subset/superset; different defining axes (cuisine origin vs eating behavior).",
+        "frame": "Cuisine/origin frame vs adventurous-eater-behavior frame.",
+        "stretch": "Weak; different defining dimensions.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "People who love trying new and unique foods",
+        "post": "Asian Market Consumers",
+        "continuity": "Weak; demographic/cultural vs behavioral/psychographic.",
+        "scope": "Different population definitions.",
+        "frame": "Behavior frame vs cultural-market frame.",
+        "stretch": "Weak \u2014 different conceptual dimensions.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "People who love trying new and unique foods",
+        "post": "Adventurous Foodies",
+        "continuity": "Strong. Both describe food consumers characterized by willingness to try novel foods.",
+        "scope": "Adventurous Foodies names a more specific subset of food-interested people defined by the adventurous-eating trait. The PRE describes the defining behavior in full; POST names the category. Possible Narrowed (Adventurous Foodies IS a People-who-love-trying-new-foods) or Reframed.",
+        "frame": "PRE: behavioral description frame. POST: consumer-category label frame.",
+        "stretch": "Low \u2014 direct lineage.",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Thai Food/Fruit Lovers",
+        "post": "Adventurous Foodies",
+        "reason": "Different defining dimensions (cuisine origin vs eating behavior). Lineage testable but weak; inferior to the cross-mapping Thai\u2192Asian and adventurous-describers\u2192Adventurous Foodies."
+      },
+      {
+        "pre": "People who love trying new and unique foods",
+        "post": "Asian Market Consumers",
+        "reason": "Behavioral description vs cultural-market category \u2014 different conceptual dimensions; weak continuity. The cross with Adventurous Foodies is substantially stronger."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Thai Food/Fruit Lovers",
+        "post": "Asian Market Consumers",
+        "basis": "Thai cuisine interest broadened into the wider Asian cultural-market audience; cuisine-to-cultural-market scope expansion with frame preserved."
+      },
+      {
+        "pre": "People who love trying new and unique foods",
+        "post": "Adventurous Foodies",
+        "basis": "Adventurous Foodies names the consumer subset defined specifically by the adventurous-eating trait; scope restriction via subsumption."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "Thai Food/Fruit Lovers",
+        "post": "Asian Market Consumers",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "Thai is a proper subset of Asian; scope broadened from specific cuisine to cultural-market umbrella while frame (cultural-cuisine orientation) persists. Expanded is correct; Narrowed and Reframed both fail."
+      },
+      {
+        "type": "confirm",
+        "pre": "People who love trying new and unique foods",
+        "post": "Adventurous Foodies",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption holds: Adventurous Foodies is a specific way of being people who love trying new and unique foods (subset by adventurous-eating trait). Scope restriction per Narrowed-abstract rule. Both alignments correctly matched; no provisional New/Removed remain, so no restore_lineage duty fires."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Reduction",
+    "rationale": "PRE contains two descriptive units (a cuisine-specific audience 'Thai Food/Fruit Lovers' plus a fuller behavioral gloss 'People who love trying new and unique foods'). POST compresses to two terse category labels ('Asian Market Consumers, Adventurous Foodies'). The behavioral explanation is removed in favor of a label, and the fruit mention disappears. Net structural contraction at the clause/explanation level without being a major elimination of ideas."
+  },
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "Thai Food/Fruit Lovers",
+      "post_evidence": "Asian Market Consumers",
+      "rationale": "Thai (one cuisine) broadened to Asian (encompassing Thai + Chinese, Japanese, Korean, Vietnamese, etc.). Identifiable PRE seed broadened into a wider cultural-market audience; cultural-cuisine frame preserved.",
+      "alternative_considered": "Reframed (cuisine specificity -> broader cultural-market framing); rejected because scope expansion dominates and the organizing frame is preserved.",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "People who love trying new and unique foods",
+      "post_evidence": "Adventurous Foodies",
+      "rationale": "Subsumption holds: Adventurous Foodies is a specific way of being people who love trying new and unique foods. POST names the subset of food-interested people defined specifically by the adventurous-eating trait; scope restriction applies.",
+      "alternative_considered": "Reframed (behavioral-description frame -> consumer-label frame); rejected because scope restriction outranks frame shift.",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "Mode C (scoped_category) applied. PRE 'Thai Food/Fruit Lovers' has a secondary 'Fruit Lovers' tail that has no clear successor \u2014 'Asian Market Consumers' mostly absorbs the cuisine-of-origin dimension but drops the fruit-specificity. Treated as part of the cuisine-orientation seed absorbed into the Expanded event rather than a separate Removed, because the broader Asian market typically encompasses fruit-produce categories and the lineage is plausibly present at the cultural-cuisine level. No learner-agency textual evidence. Descriptor-level codes resolved cleanly: one Expansion (cuisine scope) and one Narrowing (population restriction on the adventurous-eater trait). Critic applied 2 correction(s)."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

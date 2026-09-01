@@ -1,0 +1,129 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Middle - upper middle class (solvent market)",
+      "post": "The Discerning Collector",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Scope restriction holds: high-income professionals in finance/law/medicine living in affluent suburbs are a proper subset of the broader middle-to-upper-middle class. Confirm Narrowed per scope-restriction rule."
+    },
+    {
+      "type": "confirm",
+      "pre": "Young Professionals",
+      "post": "The Urban Creative",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "POST broadens 'Young Professionals' beyond a career-stage seed into an identifiable lifestyle/identity profile (creative class, tech entrepreneurs, influencers). PRE seed is recognizable and POST widens occupational scope. Confirm Expanded."
+    },
+    {
+      "type": "confirm",
+      "pre": "Fashion Enthusiasts",
+      "post": "The Urban Creative",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Frame shifts from passion-based category (fashion enthusiasts) to identity/lifestyle-based profile (urban creative valuing self-expression). Same style-and-cultural-engagement territory, different organizing frame. Confirm Reframed."
+    },
+    {
+      "type": "confirm",
+      "pre": "Art Connoisseurs",
+      "post": "The Discerning Collector",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Frame shifts from connoisseurship-as-expertise to collecting-as-investment-and-heritage. Same high-taste cultural-consumer territory, different organizing frame. Subsumption test ('Discerning Collector is a specific way of being Art Connoisseurs') fails \u2014 both are substantive labels. Confirm Reframed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Businesses (Luxury hospitality & event curators)",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "B2B institutional segment has no defensible PRE antecedent among individual-consumer concepts. Different conceptual domain. Confirm New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "B2B vs B2C undecided",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Model-choice uncertainty is a metacognitive/strategic statement with no PRE antecedent. Confirm New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Art Connoisseurs",
+      "post": "The Discerning Collector",
+      "basis": "Both name the high-taste, high-income cultural consumer; frame shifts from expertise/curation to investment/heritage"
+    },
+    {
+      "pre": "Young Professionals",
+      "post": "The Urban Creative",
+      "basis": "POST broadens young-employed consumer into creative-class lifestyle profile with widened occupational scope"
+    },
+    {
+      "pre": "Fashion Enthusiasts",
+      "post": "The Urban Creative",
+      "basis": "Frame shifts from fashion-passion category to creative-identity lifestyle profile; same style/cultural-engagement territory"
+    },
+    {
+      "pre": "Middle - upper middle class (solvent market)",
+      "post": "The Discerning Collector",
+      "basis": "Scope restriction: high-income professionals in affluent suburbs are a subset of the broader mid-to-upper-middle-class income tier"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "Businesses (Luxury hospitality & event curators)",
+    "B2B vs B2C undecided"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "Art Connoisseurs",
+      "post_evidence": "The Discerning Collector ... appreciate luxury and exclusivity, value investment and heritage",
+      "rationale": "Frame shifts from connoisseurship-as-expertise to collecting-as-investment-and-heritage. PRE-frame: expertise/curatorial; POST-frame: investment/heritage/luxury. Subsumption test fails; both labels are substantive.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "Young Professionals",
+      "post_evidence": "The Urban Creative: Age 25-35, creative professionals (designers, artists, photographers, writers, musicians), tech entrepreneurs, influencers",
+      "rationale": "POST broadens 'Young Professionals' beyond a career stage to an identifiable lifestyle/identity profile and widens occupational scope. PRE seed (young employed consumer) is recognizable.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Fashion Enthusiasts",
+      "post_evidence": "The Urban Creative ... value self-expression ... creativity, design, cultural engagement",
+      "rationale": "Frame shifts from passion-based consumer category (fashion enthusiasts) to identity-based lifestyle profile (urban creative valuing self-expression and aesthetics). PRE-frame: passion-based; POST-frame: identity/lifestyle-based.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Middle - upper middle class (solvent market)",
+      "post_evidence": "The Discerning Collector ... Professionals in high-income fields ... affluent suburbs",
+      "rationale": "Scope restriction: high-income professionals in finance/law/medicine living in affluent suburbs are a proper subset of the broader mid-to-upper-middle-class PRE population. Scope-restriction rule applies.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Businesses \u2014 Luxury hospitality & event curators \u2013 boutique hotels, high-end restaurants, and event planners looking for statement silverware.",
+      "rationale": "B2B institutional segment has no antecedent in PRE. Tested nearest counterpart (Middle-upper-middle income tier) \u2014 different conceptual domains (individual income vs institutional B2B client). No Narrowed/Reframed/Elaborated/Expanded relation defensible.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "haven't fully decided between b2b or b2c model.",
+      "rationale": "Model-choice uncertainty has no antecedent in PRE. No defensible Narrowed/Reframed/Elaborated/Expanded relation from any PRE concept.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ]
+}

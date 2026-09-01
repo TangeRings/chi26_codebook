@@ -1,0 +1,389 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "PRE is a single short label (one clause naming a niche). POST expands into two fully elaborated secondary-audience segments, each with demographic descriptors, psychographic motivations, and product preferences. Multiple new clauses and explanatory passages have been added; the overall scope is meaningfully larger.",
+    "conceptAlignment": {
+      "unitizationMode": "scoped_category",
+      "preConcepts": [
+        "MBTI under the corporate setting"
+      ],
+      "postConcepts": [
+        "Corporate Professionals & Team-Oriented Individuals",
+        "Anime & Fandom Enthusiasts"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Corporate Professionals & Team-Oriented Individuals",
+          "continuity": "Both target corporate professionals using MBTI",
+          "scope": "PRE is a brief setting label; POST elaborates the same audience (young professionals, workplace teams) with detail about their use of personality frameworks and valued products",
+          "frame": "PRE frames niche as a setting/context; POST frames niche as a defined audience segment with attributes and product preferences",
+          "stretch": "Moderate \u2014 POST substantially elaborates the PRE niche into a full audience profile",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Anime & Fandom Enthusiasts",
+          "continuity": "Both relate to MBTI fandom/personality culture, but PRE explicitly names corporate setting",
+          "scope": "POST is a distinct audience segment unrelated to corporate context",
+          "frame": "Fandom/entertainment frame vs corporate setting frame",
+          "stretch": "High \u2014 connecting PRE's corporate niche to anime fandom requires dropping the corporate frame entirely",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Anime & Fandom Enthusiasts",
+          "reason": "Different conceptual domain: PRE specifies a corporate/professional setting, while POST audience 3 is a fandom/entertainment segment with no corporate antecedent. No shared semantic neighborhood; forced pairing would be implausible."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Corporate Professionals & Team-Oriented Individuals",
+          "basis": "Both identify the same corporate-MBTI niche; POST elaborates the PRE setting label into a full audience profile within the same conceptual frame."
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [
+        "Anime & Fandom Enthusiasts"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "Anime & Fandom Enthusiasts",
+          "direction": "new",
+          "nearestCounterpart": "MBTI under the corporate setting",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE concept is 'MBTI under the corporate setting.' Narrowed fails because anime/fandom enthusiasts are not a subset of a corporate setting. Reframed fails because the organizing frame shifts from corporate-professional to fandom-entertainment with no shared organizing territory. Elaborated fails because POST does not keep the PRE corporate context intact; it introduces a separate domain. Expanded fails because the PRE corporate setting is not a seed that broadens to include anime fandom \u2014 they are different audience domains. No defensible lineage; concept stands as New."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "MBTI under the corporate setting",
+          "post": "Corporate Professionals & Team-Oriented Individuals",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "POST retains the PRE corporate-MBTI niche and adds audience-profile detail within the same frame. Detail is added, not frame-shifted or scope-restricted. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Anime & Fandom Enthusiasts",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "Nearest PRE antecedent ('MBTI under the corporate setting') tested across all four transformation tiers and fails each: the corporate frame does not subsume, share territory with, or seed the fandom/entertainment audience segment. Different conceptual domain. Stays New."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6tqdct7o0pg8h9x",
+        "code": "Elaborated",
+        "preEvidence": "MBTI under the corporate setting",
+        "postEvidence": "Corporate Professionals & Team-Oriented Individuals \u2013 Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools.",
+        "rationale": "POST retains the PRE corporate-MBTI niche and adds demographics, motivations, and valued products. Underlying frame (corporate professionals using MBTI) is intact; only detail is added.",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded"
+      },
+      {
+        "instanceId": "mti6tqdcvibealfk9b",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "Anime & Fandom Enthusiasts \u2013 Fans of anime, gaming, and internet culture who actively engage in personality discussions, MBTI character typing, and fandom-driven merchandise. They seek aesthetic, collectible, and shareable products that reflect their identity.",
+        "rationale": "Anime/fandom audience has no defensible PRE antecedent. Nearest PRE ('MBTI under the corporate setting') was tested against Narrowed, Reframed, Elaborated, and Expanded \u2014 all fail because the corporate setting does not subsume, share an organizing frame with, or seed the fandom/entertainment audience. Different conceptual domain.",
+        "confidence": "high",
+        "alternativeConsidered": "Expanded"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "Item Q2.2 about niche within target market. PRE is a brief setting label; POST expands to two elaborated secondary-audience segments. Audience 2 maps cleanly as Elaborated of the PRE corporate-MBTI niche. Audience 3 (Anime & Fandom Enthusiasts) is a distinct segment added in POST with no antecedent; nearest-counterpart recheck confirms it cannot be claimed as a transformation of the PRE corporate niche. Critic applied 2 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-5"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "MBTI under the corporate setting"
+      ],
+      "post_concepts": [
+        "Corporate Professionals & Team-Oriented Individuals",
+        "Anime & Fandom Enthusiasts"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Corporate Professionals & Team-Oriented Individuals",
+          "continuity": "Both target corporate professionals using MBTI",
+          "scope": "PRE is a brief setting label; POST elaborates the same audience (young professionals, workplace teams) with detail about their use of personality frameworks and valued products",
+          "frame": "PRE frames niche as a setting/context; POST frames niche as a defined audience segment with attributes and product preferences",
+          "stretch": "Moderate \u2014 POST substantially elaborates the PRE niche into a full audience profile",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Anime & Fandom Enthusiasts",
+          "continuity": "Both relate to MBTI fandom/personality culture, but PRE explicitly names corporate setting",
+          "scope": "POST is a distinct audience segment unrelated to corporate context",
+          "frame": "Fandom/entertainment frame vs corporate setting frame",
+          "stretch": "High \u2014 connecting PRE's corporate niche to anime fandom requires dropping the corporate frame entirely",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Anime & Fandom Enthusiasts",
+          "reason": "Different conceptual domain: PRE specifies a corporate/professional setting, while POST audience 3 is a fandom/entertainment segment with no corporate antecedent. No shared semantic neighborhood; forced pairing would be implausible."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Corporate Professionals & Team-Oriented Individuals",
+          "basis": "Both identify the same corporate-MBTI niche; POST elaborates the PRE setting label into a full audience profile within the same conceptual frame."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "Anime & Fandom Enthusiasts"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Anime & Fandom Enthusiasts",
+          "direction": "new",
+          "nearest_counterpart": "MBTI under the corporate setting",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE concept is 'MBTI under the corporate setting.' Narrowed fails because anime/fandom enthusiasts are not a subset of a corporate setting. Reframed fails because the organizing frame shifts from corporate-professional to fandom-entertainment with no shared organizing territory. Elaborated fails because POST does not keep the PRE corporate context intact; it introduces a separate domain. Expanded fails because the PRE corporate setting is not a seed that broadens to include anime fandom \u2014 they are different audience domains. No defensible lineage; concept stands as New."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "MBTI under the corporate setting",
+          "post": "Corporate Professionals & Team-Oriented Individuals",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "POST retains the PRE corporate-MBTI niche and adds audience-profile detail within the same frame. Detail is added, not frame-shifted or scope-restricted. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "Anime & Fandom Enthusiasts",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "Nearest PRE antecedent ('MBTI under the corporate setting') tested across all four transformation tiers and fails each: the corporate frame does not subsume, share territory with, or seed the fandom/entertainment audience segment. Different conceptual domain. Stays New."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "PRE is a single short label (one clause naming a niche). POST expands into two fully elaborated secondary-audience segments, each with demographic descriptors, psychographic motivations, and product preferences. Multiple new clauses and explanatory passages have been added; the overall scope is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "MBTI under the corporate setting",
+        "post_evidence": "Corporate Professionals & Team-Oriented Individuals \u2013 Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools.",
+        "rationale": "POST retains the PRE corporate-MBTI niche and adds demographics, motivations, and valued products. Underlying frame (corporate professionals using MBTI) is intact; only detail is added.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Anime & Fandom Enthusiasts \u2013 Fans of anime, gaming, and internet culture who actively engage in personality discussions, MBTI character typing, and fandom-driven merchandise. They seek aesthetic, collectible, and shareable products that reflect their identity.",
+        "rationale": "Anime/fandom audience has no defensible PRE antecedent. Nearest PRE ('MBTI under the corporate setting') was tested against Narrowed, Reframed, Elaborated, and Expanded \u2014 all fail because the corporate setting does not subsume, share an organizing frame with, or seed the fandom/entertainment audience. Different conceptual domain.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "Item Q2.2 about niche within target market. PRE is a brief setting label; POST expands to two elaborated secondary-audience segments. Audience 2 maps cleanly as Elaborated of the PRE corporate-MBTI niche. Audience 3 (Anime & Fandom Enthusiasts) is a distinct segment added in POST with no antecedent; nearest-counterpart recheck confirms it cannot be claimed as a transformation of the PRE corporate niche. Critic applied 2 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-5"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "MBTI under the corporate setting"
+      ],
+      "post_concepts": [
+        "Corporate Professionals & Team-Oriented Individuals",
+        "Anime & Fandom Enthusiasts"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Corporate Professionals & Team-Oriented Individuals",
+          "continuity": "Both target corporate professionals using MBTI",
+          "scope": "PRE is a brief setting label; POST elaborates the same audience (young professionals, workplace teams) with detail about their use of personality frameworks and valued products",
+          "frame": "PRE frames niche as a setting/context; POST frames niche as a defined audience segment with attributes and product preferences",
+          "stretch": "Moderate \u2014 POST substantially elaborates the PRE niche into a full audience profile",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Anime & Fandom Enthusiasts",
+          "continuity": "Both relate to MBTI fandom/personality culture, but PRE explicitly names corporate setting",
+          "scope": "POST is a distinct audience segment unrelated to corporate context",
+          "frame": "Fandom/entertainment frame vs corporate setting frame",
+          "stretch": "High \u2014 connecting PRE's corporate niche to anime fandom requires dropping the corporate frame entirely",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Anime & Fandom Enthusiasts",
+          "reason": "Different conceptual domain: PRE specifies a corporate/professional setting, while POST audience 3 is a fandom/entertainment segment with no corporate antecedent. No shared semantic neighborhood; forced pairing would be implausible."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "MBTI under the corporate setting",
+          "post": "Corporate Professionals & Team-Oriented Individuals",
+          "basis": "Both identify the same niche: MBTI used by corporate professionals. POST elaborates the PRE setting-label into a full audience profile with psychographic and product-preference detail, keeping the MBTI/corporate frame intact."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [
+        "Anime & Fandom Enthusiasts"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Anime & Fandom Enthusiasts",
+          "direction": "new",
+          "nearest_counterpart": "MBTI under the corporate setting",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE concept is 'MBTI under the corporate setting.' Narrowed fails because anime/fandom enthusiasts are not a subset of a corporate setting. Reframed fails because the organizing frame shifts from corporate-professional to fandom-entertainment with no shared organizing territory. Elaborated fails because POST does not keep the PRE corporate context intact; it introduces a separate domain. Expanded fails because the PRE corporate setting is not a seed that broadens to include anime fandom \u2014 they are different audience domains. No defensible lineage; concept stands as New."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "PRE is a single short label (one clause naming a niche). POST expands into two fully elaborated secondary-audience segments, each with demographic descriptors, psychographic motivations, and product preferences. Multiple new clauses and explanatory passages have been added; the overall scope is meaningfully larger."
+    },
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "MBTI under the corporate setting",
+        "post_evidence": "Corporate Professionals & Team-Oriented Individuals \u2013 Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools.",
+        "rationale": "POST retains the PRE corporate-MBTI niche and elaborates it into a full audience profile (demographics, motivations, valued products) within the same conceptual frame. Detail is added without shifting the frame or restricting scope.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Anime & Fandom Enthusiasts \u2013 Fans of anime, gaming, and internet culture who actively engage in personality discussions, MBTI character typing, and fandom-driven merchandise. They seek aesthetic, collectible, and shareable products that reflect their identity.",
+        "rationale": "The anime/fandom audience segment has no antecedent in PRE. Nearest PRE concept ('MBTI under the corporate setting') was tested against Narrowed, Reframed, Elaborated, and Expanded \u2014 all failed because the PRE corporate setting does not subsume, share territory with, or seed the fandom audience. Different conceptual domain.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "Item Q2.2 about niche within target market. PRE is a brief setting label; POST expands to two elaborated secondary-audience segments. Audience 2 maps cleanly as Elaborated of the PRE corporate-MBTI niche. Audience 3 (Anime & Fandom Enthusiasts) is a distinct segment added in POST with no antecedent; nearest-counterpart recheck confirms it cannot be claimed as a transformation of the PRE corporate niche."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "MBTI under the corporate setting",
+        "post": "Corporate Professionals & Team-Oriented Individuals",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "POST retains the PRE corporate-MBTI niche and adds audience-profile detail within the same frame. Detail is added, not frame-shifted or scope-restricted. Elaborated is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "Anime & Fandom Enthusiasts",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Nearest PRE antecedent ('MBTI under the corporate setting') tested across all four transformation tiers and fails each: the corporate frame does not subsume, share territory with, or seed the fandom/entertainment audience segment. Different conceptual domain. Stays New."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "MBTI under the corporate setting",
+        "post": "Corporate Professionals & Team-Oriented Individuals",
+        "basis": "Both identify the same corporate-MBTI niche; POST elaborates the PRE setting label into a full audience profile within the same conceptual frame."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Anime & Fandom Enthusiasts"
+    ],
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "MBTI under the corporate setting",
+        "post_evidence": "Corporate Professionals & Team-Oriented Individuals \u2013 Young professionals and workplace teams who use personality frameworks for collaboration, self-awareness, and productivity, valuing stylish and functional MBTI-inspired office accessories and team-building tools.",
+        "rationale": "POST retains the PRE corporate-MBTI niche and adds demographics, motivations, and valued products. Underlying frame (corporate professionals using MBTI) is intact; only detail is added.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "Anime & Fandom Enthusiasts \u2013 Fans of anime, gaming, and internet culture who actively engage in personality discussions, MBTI character typing, and fandom-driven merchandise. They seek aesthetic, collectible, and shareable products that reflect their identity.",
+        "rationale": "Anime/fandom audience has no defensible PRE antecedent. Nearest PRE ('MBTI under the corporate setting') was tested against Narrowed, Reframed, Elaborated, and Expanded \u2014 all fail because the corporate setting does not subsume, share an organizing frame with, or seed the fandom/entertainment audience. Different conceptual domain.",
+        "alternative_considered": "Expanded",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

@@ -1,0 +1,83 @@
+{
+  "coding_unit": {
+    "student_id": "tiffany",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "home decor"
+    ],
+    "post_concepts": [
+      "Small Home Decor",
+      "specific item list (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "home decor",
+        "post": "Small Home Decor",
+        "continuity": "same product category (home decor); POST adds size qualifier 'Small'",
+        "scope": "POST narrows scope from all home decor to small home decor specifically",
+        "frame": "same conceptual frame (product category), with scope restriction",
+        "stretch": "low stretch; category persists",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "home decor",
+        "post": "specific item list (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)",
+        "continuity": "POST enumerates specific examples within the home decor category",
+        "scope": "POST elaborates within the same scope, adding detail via examples",
+        "frame": "same frame (product category), with instantiation",
+        "stretch": "low stretch",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "home decor",
+        "post": "Small Home Decor",
+        "basis": "POST is a scope-restricted version of PRE; 'Small Home Decor' is a subset of 'home decor'. Subsumption holds: 'Small Home Decor is a specific way of being home decor.' This is the cleanest scope-restriction pair, so it takes the Narrowed role."
+      },
+      {
+        "pre": "home decor",
+        "post": "specific item list (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases)",
+        "basis": "After the scope restriction to 'Small Home Decor' is captured, the enumerated examples add concrete detail about what the offering consists of. PRE 'home decor' is retained as the category, and POST adds instantiation/examples. Conceptual frame is the same; this is elaboration within the frame."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "Pre-response is a single two-word noun phrase ('home decor'). Post-response adds a size qualifier ('Small'), specifies the product space, and enumerates seven distinct product examples (Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases). This is a meaningful expansion in scope and specificity at the clause/explanation level, going from a category label to a defined, itemized offering."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "home decor",
+      "post_evidence": "Small Home Decor",
+      "rationale": "Scope restriction. 'Small Home Decor' denotes a proper subset of 'home decor' (size-restricted home goods). The subsumption test holds: 'Small Home Decor is a specific way of being home decor.' Per SCOPE-RESTRICTION-IS-ALWAYS-NARROWED, scope reduction outranks Reframed even though the qualifier phrasing was added. PRE was the broader category, POST restricts it. (SCOPE-RESTRICTION-IS-ALWAYS-NARROWED; NARROW-REQUIRES-SUBSUMPTION.)",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "home decor",
+      "post_evidence": "Soap Dishes, Candle Holders, Lamps, Trays, Dish Towels, Jewelry Holders, Bookcases",
+      "rationale": "POST retains the 'home decor' category and adds concrete enumerated examples within the same conceptual frame. The frame does not shift (still product offering within home decor); the post-response adds specificity by listing particular item types. This is detail added within the same frame, not a frame shift, so Elaborated. Alternative considered: Expanded \u2014 rejected because POST does not broaden 'home decor' to additional categories; it instantiates within it. Narrowed \u2014 rejected because the item list does not restrict scope (it sits inside the scope-restricted 'Small Home Decor' already captured by the Narrowed event).",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "Pre and POST share the same conceptual core ('home decor'). POST layers two changes onto that core: (1) a scope restriction to 'Small' (Narrowed) and (2) an enumeration of specific example products (Elaborated). Both transformations rest on the retained 'home decor' category, so no New or Removed events are needed and no nearest-counterpart recheck is required. Note: the post_evidence for the Elaborated event paraphrases the enumerated list rather than reproducing the full parenthetical to keep the evidence span readable."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}

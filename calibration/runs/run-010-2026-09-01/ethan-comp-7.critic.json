@@ -1,0 +1,31 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "no idea",
+      "post": "likely heavy focus on product reviews",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Pass-1 reading is sound: the 'No Idea' frame is preserved verbatim and a concrete content category (product reviews) is layered onto the same subject. Subsumption fails ('product reviews' is not 'a specific way of being no idea'), and the addition is a substantive new content category rather than pure qualification, so Expanded beats Elaborated. No neighborhood pairings to split or reject; both unmatched sets are already empty."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "no idea",
+      "post": "likely heavy focus on product reviews",
+      "basis": "Same subject (what content to create) is addressed across PRE and POST. PRE expresses no commitment; POST retains the 'No Idea' uncertainty marker and adds a specific tentative content category (product reviews). Underlying subject persists; scope broadens from zero specification to tentative specification."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "No idea",
+      "post_evidence": "No Idea (likely heavy focus on product reviews)",
+      "rationale": "The 'No Idea' frame is preserved verbatim and a concrete content category (product reviews) is layered onto the same subject. POST broadens an identifiable PRE seed (the unspecified admission) into a tentative specification. Subsumption does not hold, ruling out Narrowed. The addition is a substantively new content category rather than mere qualification, so Expanded is preferred over Elaborated.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    }
+  ]
+}

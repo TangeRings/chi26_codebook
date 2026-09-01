@@ -1,0 +1,166 @@
+{
+  "coding_unit": {
+    "student_id": "julia",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "sustainability",
+      "quiet luxury",
+      "artistic minimalism"
+    ],
+    "post_concepts": [
+      "brand conscious but practical"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "sustainability",
+        "post": "brand conscious but practical",
+        "continuity": "sustainability refers to environmental/ethical values; brand conscious but practical refers to consumer awareness plus pragmatism \u2014 partial overlap in values orientation",
+        "scope": "PRE is value-specific (environmental); POST is broader consumer-attitude scope",
+        "frame": "PRE is value-driven; POST is attitude/behavioral (conscious + practical)",
+        "stretch": "stretchy",
+        "verdict": "weak"
+      },
+      {
+        "pre": "quiet luxury",
+        "post": "brand conscious but practical",
+        "continuity": "quiet luxury is a specific aesthetic/positioning; brand conscious but practical is a consumer stance \u2014 both touch on quality/considered consumption",
+        "scope": "PRE is a market positioning/aesthetic niche; POST is a consumer descriptor",
+        "frame": "PRE: product/aesthetic positioning. POST: consumer mindset",
+        "stretch": "stretchy",
+        "verdict": "weak"
+      },
+      {
+        "pre": "artistic minimalism",
+        "post": "brand conscious but practical",
+        "continuity": "artistic minimalism is an aesthetic positioning; brand conscious but practical is a behavioral consumer descriptor",
+        "scope": "different \u2014 aesthetic style vs consumer attitude",
+        "frame": "aesthetic vs behavioral",
+        "stretch": "stretchy",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "artistic minimalism",
+        "post": "brand conscious but practical",
+        "reason": "aesthetic positioning vs consumer-attitude stance are different conceptual domains; pairing is forced"
+      }
+    ],
+    "matched_pairs": [],
+    "unmatched_pre": [
+      "sustainability",
+      "quiet luxury",
+      "artistic minimalism"
+    ],
+    "unmatched_post": [
+      "brand conscious but practical"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "brand conscious but practical",
+        "direction": "new",
+        "nearest_counterpart": "sustainability",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Narrowed: brand conscious but practical is not a specific way of being sustainability \u2014 fails. Reframed: both touch values but sustainability is environmental-ethical while brand conscious but practical is consumer-attitudinal \u2014 shared territory is too broad (umbrella 'values'). Elaborated: POST does not retain PRE sustainability intact. Expanded: POST does not broaden an identifiable sustainability seed; it shifts category. All four fail across different conceptual domains."
+      },
+      {
+        "concept": "sustainability",
+        "direction": "removed",
+        "nearest_counterpart": "brand conscious but practical",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Narrowed: brand conscious but practical is not a subset of sustainability. Reframed: environmental-ethical value vs consumer-attitude stance \u2014 only adjacent at the umbrella level of 'values'. Elaborated: sustainability is not retained in POST. Expanded: POST does not broaden sustainability. All four fail."
+      },
+      {
+        "concept": "quiet luxury",
+        "direction": "removed",
+        "nearest_counterpart": "brand conscious but practical",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Narrowed: brand conscious but practical is not a specific way of being quiet luxury. Reframed: aesthetic positioning vs consumer mindset \u2014 only adjacent topically. Elaborated: quiet luxury not retained. Expanded: POST does not broaden the quiet-luxury seed. All four fail."
+      },
+      {
+        "concept": "artistic minimalism",
+        "direction": "removed",
+        "nearest_counterpart": "brand conscious but practical",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Narrowed: brand conscious but practical is not a specific way of being artistic minimalism. Reframed: aesthetic style vs consumer behavior \u2014 different conceptual domains; shared umbrella is 'positioning' which fails the abstraction-ceiling test. Elaborated: PRE not retained. Expanded: POST does not broaden an artistic-minimalism seed. All four fail."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Reduction",
+    "rationale": "PRE names three specific niche descriptors (sustainability, quiet luxury, artistic minimalism); POST collapses all three into a single short consumer-attitude phrase. Three concepts removed, one retained as a single condensed label \u2014 a substantial reduction in scope and content at the sentence/explanation level."
+  },
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "sustainability",
+      "post_evidence": null,
+      "rationale": "Full-response search performed. Nearest POST counterpart is 'brand conscious but practical'; Narrowed fails (not a subtype of sustainability), Reframed fails (only adjacent under the umbrella 'values', which fails the abstraction-ceiling test), Elaborated and Expanded fail (sustainability is not retained and is not broadened by the POST concept). Concept is genuinely absent.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "quiet luxury",
+      "post_evidence": null,
+      "rationale": "Full-response search performed. Nearest POST counterpart is 'brand conscious but practical'; all four transformation codes tested and fail. Quiet luxury is an aesthetic/market-positioning niche; the POST concept is a consumer-attitude label \u2014 different conceptual domains.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "artistic minimalism",
+      "post_evidence": null,
+      "rationale": "Full-response search performed. Nearest POST counterpart is 'brand conscious but practical'; all four transformation codes tested and fail. Artistic minimalism is an aesthetic-style niche; the POST concept is a consumer behavioral descriptor \u2014 different conceptual domains with no defensible lineage.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "brand conscious but practical",
+      "rationale": "Full-response search performed. Nearest PRE counterparts are sustainability (value-driven), quiet luxury (aesthetic positioning), and artistic minimalism (aesthetic style). Narrowed fails (not a specific way of being any of these). Reframed fails (shared territory is only the umbrella 'values' or 'positioning', which fails the abstraction-ceiling test). Elaborated and Expanded fail (no PRE seed is retained or broadened). POST introduces a consumer-attitude descriptor with no antecedent in PRE.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "neighborhood_tested_no_lineage",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "Three PRE concepts (sustainability, quiet luxury, artistic minimalism) collapse into a single short POST consumer-attitude label. All three PRE items tested against the single POST item; all four transformation codes fail across different conceptual domains (aesthetic/environmental/positional niches vs consumer mindset). Abstraction-ceiling test applies: the only shared umbrella is 'values' or 'positioning', which would be claimed for almost any two descriptors in this item."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

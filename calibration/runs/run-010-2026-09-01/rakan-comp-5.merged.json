@@ -1,0 +1,73 @@
+{
+  "coding_unit": {
+    "student_id": "rakan",
+    "item_id": "comp-5"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "no idea"
+    ],
+    "post_concepts": [
+      "No idea yet"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "no idea",
+        "post": "No idea yet",
+        "continuity": "Both expressions state absence of knowledge/identification regarding a niche within the target market",
+        "scope": "Identical scope \u2014 a non-answer expressing lack of awareness",
+        "frame": "Identical frame \u2014 a direct admission of not having identified a niche",
+        "stretch": "Minimal \u2014 the only difference is the addition of the temporal qualifier 'yet'",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "no idea",
+        "post": "No idea yet",
+        "basis": "Same propositional content (admission of not knowing the niche) with only the addition of 'yet', which adds a temporal qualifier to the same statement without changing the underlying concept."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "no idea",
+        "post": "No idea yet",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Pass 1 is correct. Both versions admit no identified niche; 'yet' adds a temporal qualifier (openness to future knowledge) within the same frame (self-reported lack of niche identification). Underlying proposition and frame are intact; only a modifier was added. This is the textbook Elaborated case, not a frame shift. Confidence is genuinely low because the two utterances are nearly identical, but the code choice itself is defensible."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "The post-response is structurally equivalent to the pre-response. Both consist of a single short clause expressing lack of knowledge about a niche. The only difference is the addition of the single word 'yet', which is a minor stylistic/temporal modifier rather than a meaningful structural change."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "no idea",
+      "post_evidence": "No idea yet",
+      "rationale": "Both versions express self-reported lack of a niche. POST keeps the same frame (admission of non-identification) and adds only a temporal qualifier ('yet'), implying the state may change. No frame shift, no narrowing, no expansion \u2014 just a detail addition to the same proposition.",
+      "alternative_considered": "No Change (stylistic only) \u2014 rejected; 'yet' adds semantic content (temporal openness) beyond pure style, so some elaboration occurred even if minimal.",
+      "confidence": "low"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "low",
+    "flags": [
+      "possible_stylistic_rewrite",
+      "boundary_case_elab_vs_reframe"
+    ],
+    "coder_notes": "The only difference between PRE ('no idea') and POST ('No idea yet') is the addition of the temporal qualifier 'yet'. This could plausibly be coded as a purely stylistic change (no semantic event) or as a minor Elaborated event. The boundary between these is extremely thin here. Coded as Elaborated with low confidence because 'yet' does carry a slight temporal implication (current state that may evolve), which adds minimal semantic content within the same frame. If treated as purely stylistic, the response would have no semantic events and structural_development would remain 'No Change'. The matched pair is between two near-identical non-answers, leaving little room for confident semantic classification. Critic applied 1 correction(s)."
+  },
+  "coded_at": "2026-01-26T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

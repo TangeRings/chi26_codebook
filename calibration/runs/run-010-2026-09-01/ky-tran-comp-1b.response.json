@@ -1,0 +1,612 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Significant Addition",
+    "structuralRationale": "The post-response is a single full sentence, but it introduces multiple new conceptual dimensions (sleep in addition to wake-up, affordability, accessibility, refreshed, productive, natural rhythms) that were entirely absent from the pre-response. The vision expands from a single product feature description to a multi-clause mission statement covering outcome, access, and physiological alignment.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "make a clock",
+        "sunlight built-in feature",
+        "help wake up easily"
+      ],
+      "postConcepts": [
+        "make better sleep and wake-up experiences affordable and accessible",
+        "helping people feel more refreshed, productive, and in sync with their natural rhythms"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "make a clock",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "continuity": "both concern the core product/offering",
+          "scope": "POST broadens from a clock to sleep and wake-up experiences",
+          "frame": "product-focused \u2192 experience-and-accessibility-focused",
+          "stretch": "moderate stretch; both center on what the brand makes/offers",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "make a clock",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "continuity": "weak; clock is product, this is outcome",
+          "scope": "different scope levels (product vs. outcome)",
+          "frame": "product \u2192 human outcome",
+          "stretch": "stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "continuity": "weak; feature vs. positioning statement",
+          "scope": "specific feature vs. broad positioning",
+          "frame": "feature-spec \u2192 mission/positioning",
+          "stretch": "stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "continuity": "the sunlight feature relates to being in sync with natural rhythms",
+          "scope": "feature vs. outcome/rhythm",
+          "frame": "feature \u2192 natural alignment",
+          "stretch": "moderate stretch through shared natural-rhythms concept",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "help wake up easily",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "continuity": "both relate to wake-up experience",
+          "scope": "POST broadens to sleep + wake-up",
+          "frame": "ease-of-waking \u2192 broader sleep/wake experience + affordability/accessibility",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "help wake up easily",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "continuity": "waking easily connects to feeling refreshed",
+          "scope": "specific act vs. broader outcome",
+          "frame": "functional ease \u2192 emotional/physiological outcome",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "make a clock",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "reason": "Different levels of analysis (product vs. outcome); weaker than the other candidate pairings and superseded by the clock\u2192experiences alignment."
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "reason": "Feature specification vs. mission/positioning statement; no shared semantic frame beyond very broad adjacency."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "make a clock",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "basis": "A clock is a specific product realization of the broader sleep/wake-up experience category. Subsumption holds."
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "basis": "Feature-centric frame reconceived as purpose/accessibility-centric positioning within the same sleep/wake subject."
+        },
+        {
+          "pre": "help wake up easily",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "basis": "Functional ease-of-waking outcome is preserved and broadened to multiple outcomes and the full sleep\u2013wake cycle."
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "make a clock",
+          "direction": "removed",
+          "nearestCounterpart": "make better sleep and wake-up experiences affordable and accessible",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "A clock is a specific product realization of the broader sleep/wake-up experience category. Subsumption test: a clock is a specific way of delivering a sleep and wake-up experience (TRUE). PRE 'make a clock' is narrowed into the broader category in POST. Converted to a matched transformation rather than Removed."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "help wake up easily",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "fromCode": "Expanded",
+          "toCode": "Expanded",
+          "reason": "Expanded is correct: the functional ease-of-waking seed is preserved and broadened to multiple outcomes plus sleep\u2013wake cycle scope. Elaborated would understate the scope extension."
+        },
+        {
+          "type": "confirm",
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Reframed is correct: feature-centric frame \u2192 purpose/accessibility-centric frame. Subsumption fails ('sunlight built-in feature is a specific way of being sleep/wake experiences' is FALSE), so Narrowed is wrong. Same subject (brand role in sleep/wake), different organizing frame."
+        },
+        {
+          "type": "confirm",
+          "pre": "make a clock",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "fromCode": "Narrowed",
+          "toCode": "Narrowed",
+          "reason": "Subsumption test: 'a clock is a specific way of delivering sleep and wake-up experiences' is TRUE. PRE is a concrete product instance; POST lifts to the experience category. Narrowed is correct; alternative Expanded was correctly rejected since the frame shifts from product-instance to purpose-oriented category."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6w76rxjx2b7db3q",
+        "code": "Narrowed",
+        "preEvidence": "make a clock",
+        "postEvidence": "make better sleep and wake-up experiences affordable and accessible",
+        "rationale": "A clock is a specific way of delivering sleep and wake-up experiences (subsumption TRUE). PRE is a concrete product instance; POST lifts to the broader experience category it serves. PRE 'make a clock' is the generic product-level seed; POST narrows the scope up to purpose while the product-as-instance relation is preserved.",
+        "confidence": "medium",
+        "alternativeConsidered": "Expanded"
+      },
+      {
+        "instanceId": "mti6w76st8qdzzcsnn",
+        "code": "Reframed",
+        "preEvidence": "sunlight built-in feature",
+        "postEvidence": "make better sleep and wake-up experiences affordable and accessible",
+        "rationale": "Feature-centric / engineering specification frame is reconceived as purpose-centric / mission-and-access positioning. Same subject (brand's role in sleep/wake), different organizing frame. Subsumption fails.",
+        "confidence": "medium",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti6w76s7gdqx0w9k9r",
+        "code": "Expanded",
+        "preEvidence": "help wake up easily",
+        "postEvidence": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+        "rationale": "The functional ease-of-waking seed is preserved and broadened to multiple outcomes (refreshed, productive, aligned with natural rhythms) plus extended to the full sleep\u2013wake cycle.",
+        "confidence": "high",
+        "alternativeConsidered": "Elaborated"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "vague_to_specific_lineage",
+        "neighborhood_protected"
+      ],
+      "coderNotes": "The clock\u2192experiences pair sits between Narrowed (clock as a specific instance of sleep/wake experience) and Expanded (broadening from product to category). I selected Narrowed because subsumption holds, but Expanded is a defensible alternative. The sunlight-feature pair could plausibly be read as Elaborated (feature retained within a larger mission) rather than Reframed; I selected Reframed because the organizing frame shifts from feature-spec to mission/access positioning. The wake-up outcome pair is the cleanest Expanded of the three. Critic applied 3 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "ky-tran",
+      "item_id": "comp-1b"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "make a clock",
+        "sunlight built-in feature",
+        "help wake up easily"
+      ],
+      "post_concepts": [
+        "make better sleep and wake-up experiences affordable and accessible",
+        "helping people feel more refreshed, productive, and in sync with their natural rhythms"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "make a clock",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "continuity": "both concern the core product/offering",
+          "scope": "POST broadens from a clock to sleep and wake-up experiences",
+          "frame": "product-focused \u2192 experience-and-accessibility-focused",
+          "stretch": "moderate stretch; both center on what the brand makes/offers",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "make a clock",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "continuity": "weak; clock is product, this is outcome",
+          "scope": "different scope levels (product vs. outcome)",
+          "frame": "product \u2192 human outcome",
+          "stretch": "stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "continuity": "weak; feature vs. positioning statement",
+          "scope": "specific feature vs. broad positioning",
+          "frame": "feature-spec \u2192 mission/positioning",
+          "stretch": "stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "continuity": "the sunlight feature relates to being in sync with natural rhythms",
+          "scope": "feature vs. outcome/rhythm",
+          "frame": "feature \u2192 natural alignment",
+          "stretch": "moderate stretch through shared natural-rhythms concept",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "help wake up easily",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "continuity": "both relate to wake-up experience",
+          "scope": "POST broadens to sleep + wake-up",
+          "frame": "ease-of-waking \u2192 broader sleep/wake experience + affordability/accessibility",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "help wake up easily",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "continuity": "waking easily connects to feeling refreshed",
+          "scope": "specific act vs. broader outcome",
+          "frame": "functional ease \u2192 emotional/physiological outcome",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "make a clock",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "reason": "Different levels of analysis (product vs. outcome); weaker than the other candidate pairings and superseded by the clock\u2192experiences alignment."
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "reason": "Feature specification vs. mission/positioning statement; no shared semantic frame beyond very broad adjacency."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "make a clock",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "basis": "A clock is a specific product realization of the broader sleep/wake-up experience category. Subsumption holds."
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "basis": "Feature-centric frame reconceived as purpose/accessibility-centric positioning within the same sleep/wake subject."
+        },
+        {
+          "pre": "help wake up easily",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "basis": "Functional ease-of-waking outcome is preserved and broadened to multiple outcomes and the full sleep\u2013wake cycle."
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "make a clock",
+          "direction": "removed",
+          "nearest_counterpart": "make better sleep and wake-up experiences affordable and accessible",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "A clock is a specific product realization of the broader sleep/wake-up experience category. Subsumption test: a clock is a specific way of delivering a sleep and wake-up experience (TRUE). PRE 'make a clock' is narrowed into the broader category in POST. Converted to a matched transformation rather than Removed."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "help wake up easily",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "from_code": "Expanded",
+          "to_code": "Expanded",
+          "reason": "Expanded is correct: the functional ease-of-waking seed is preserved and broadened to multiple outcomes plus sleep\u2013wake cycle scope. Elaborated would understate the scope extension."
+        },
+        {
+          "type": "confirm",
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Reframed is correct: feature-centric frame \u2192 purpose/accessibility-centric frame. Subsumption fails ('sunlight built-in feature is a specific way of being sleep/wake experiences' is FALSE), so Narrowed is wrong. Same subject (brand role in sleep/wake), different organizing frame."
+        },
+        {
+          "type": "confirm",
+          "pre": "make a clock",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "from_code": "Narrowed",
+          "to_code": "Narrowed",
+          "reason": "Subsumption test: 'a clock is a specific way of delivering sleep and wake-up experiences' is TRUE. PRE is a concrete product instance; POST lifts to the experience category. Narrowed is correct; alternative Expanded was correctly rejected since the frame shifts from product-instance to purpose-oriented category."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "The post-response is a single full sentence, but it introduces multiple new conceptual dimensions (sleep in addition to wake-up, affordability, accessibility, refreshed, productive, natural rhythms) that were entirely absent from the pre-response. The vision expands from a single product feature description to a multi-clause mission statement covering outcome, access, and physiological alignment."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "make a clock",
+        "post_evidence": "make better sleep and wake-up experiences affordable and accessible",
+        "rationale": "A clock is a specific way of delivering sleep and wake-up experiences (subsumption TRUE). PRE is a concrete product instance; POST lifts to the broader experience category it serves. PRE 'make a clock' is the generic product-level seed; POST narrows the scope up to purpose while the product-as-instance relation is preserved.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "sunlight built-in feature",
+        "post_evidence": "make better sleep and wake-up experiences affordable and accessible",
+        "rationale": "Feature-centric / engineering specification frame is reconceived as purpose-centric / mission-and-access positioning. Same subject (brand's role in sleep/wake), different organizing frame. Subsumption fails.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "help wake up easily",
+        "post_evidence": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+        "rationale": "The functional ease-of-waking seed is preserved and broadened to multiple outcomes (refreshed, productive, aligned with natural rhythms) plus extended to the full sleep\u2013wake cycle.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "vague_to_specific_lineage",
+        "neighborhood_protected"
+      ],
+      "coder_notes": "The clock\u2192experiences pair sits between Narrowed (clock as a specific instance of sleep/wake experience) and Expanded (broadening from product to category). I selected Narrowed because subsumption holds, but Expanded is a defensible alternative. The sunlight-feature pair could plausibly be read as Elaborated (feature retained within a larger mission) rather than Reframed; I selected Reframed because the organizing frame shifts from feature-spec to mission/access positioning. The wake-up outcome pair is the cleanest Expanded of the three. Critic applied 3 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "ky-tran",
+      "item_id": "comp-1b"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "make a clock",
+        "sunlight built-in feature",
+        "help wake up easily"
+      ],
+      "post_concepts": [
+        "make better sleep and wake-up experiences affordable and accessible",
+        "helping people feel more refreshed, productive, and in sync with their natural rhythms"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "make a clock",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "continuity": "both concern the core product/offering",
+          "scope": "POST broadens from a clock to sleep and wake-up experiences",
+          "frame": "product-focused \u2192 experience-and-accessibility-focused",
+          "stretch": "moderate stretch; both center on what the brand makes/offers",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "make a clock",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "continuity": "weak; clock is product, this is outcome",
+          "scope": "different scope levels (product vs. outcome)",
+          "frame": "product \u2192 human outcome",
+          "stretch": "stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "continuity": "weak; feature vs. positioning statement",
+          "scope": "specific feature vs. broad positioning",
+          "frame": "feature-spec \u2192 mission/positioning",
+          "stretch": "stretched",
+          "verdict": "weak"
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "continuity": "the sunlight feature relates to being in sync with natural rhythms",
+          "scope": "feature vs. outcome/rhythm",
+          "frame": "feature \u2192 natural alignment",
+          "stretch": "moderate stretch through shared natural-rhythms concept",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "help wake up easily",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "continuity": "both relate to wake-up experience",
+          "scope": "POST broadens to sleep + wake-up",
+          "frame": "ease-of-waking \u2192 broader sleep/wake experience + affordability/accessibility",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "help wake up easily",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "continuity": "waking easily connects to feeling refreshed",
+          "scope": "specific act vs. broader outcome",
+          "frame": "functional ease \u2192 emotional/physiological outcome",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "make a clock",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "reason": "Different levels of analysis (product vs. outcome); weaker than the other candidate pairings and superseded by the clock\u2192experiences alignment."
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "reason": "Feature specification vs. mission/positioning statement; no shared semantic frame beyond very broad adjacency."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "help wake up easily",
+          "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+          "basis": "Both describe the desired wake-up outcome for the user; POST elaborates the experiential and physiological dimensions of waking easily."
+        },
+        {
+          "pre": "sunlight built-in feature",
+          "post": "make better sleep and wake-up experiences affordable and accessible",
+          "basis": "Sunlight is the technical means enabling the sleep\u2013wake experience; POST reframes the brand vision from feature-centric to purpose-centric positioning."
+        }
+      ],
+      "unmatched_pre": [
+        "make a clock"
+      ],
+      "unmatched_post": [
+        "helping people feel more refreshed, productive, and in sync with their natural rhythms"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "make a clock",
+          "direction": "removed",
+          "nearest_counterpart": "make better sleep and wake-up experiences affordable and accessible",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "converted",
+          "reason": "A clock is a specific product realization of the broader sleep/wake-up experience category. Subsumption test: a clock is a specific way of delivering a sleep and wake-up experience (TRUE). PRE 'make a clock' is narrowed into the broader category in POST. Converted to a matched transformation rather than Removed."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Significant Addition",
+      "rationale": "The post-response is a single full sentence, but it introduces multiple new conceptual dimensions (sleep in addition to wake-up, affordability, accessibility, refreshed, productive, natural rhythms) that were entirely absent from the pre-response. The vision expands from a single product feature description to a multi-clause mission statement covering outcome, access, and physiological alignment."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "make a clock",
+        "post_evidence": "make better sleep and wake-up experiences affordable and accessible",
+        "rationale": "Subsumption test: a clock is a specific way of delivering a sleep and wake-up experience (TRUE). PRE is a concrete product instance; POST lifts the scope to the broader experience category the product serves. This is not pure expansion because the product concept is reorganized around its experiential purpose rather than merely broadened in scope.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "sunlight built-in feature",
+        "post_evidence": "make better sleep and wake-up experiences affordable and accessible",
+        "rationale": "The pre-frame is a feature-centric / engineering specification view of the brand; the post-frame is a purpose-centric / mission-and-access positioning view. The sunlight feature is not contradicted but reconceived as one means within a broader accessibility-oriented vision. Same subject (the brand's role in sleep/wake), different organizing frame.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "help wake up easily",
+        "post_evidence": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+        "rationale": "The pre-version specifies one functional outcome (ease of waking). The post-version retains that seed and broadens it to multiple outcomes (refreshed, productive, aligned with natural rhythms) plus extends the temporal scope to the full sleep\u2013wake cycle. The pre idea is preserved and grew in scope.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_reframe",
+        "vague_to_specific_lineage",
+        "neighborhood_protected"
+      ],
+      "coder_notes": "The clock\u2192experiences pair sits between Narrowed (clock as a specific instance of sleep/wake experience) and Expanded (broadening from product to category). I selected Narrowed because subsumption holds, but Expanded is a defensible alternative. The sunlight-feature pair could plausibly be read as Elaborated (feature retained within a larger mission) rather than Reframed; I selected Reframed because the organizing frame shifts from feature-spec to mission/access positioning. The wake-up outcome pair is the cleanest Expanded of the three."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "help wake up easily",
+        "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "Expanded is correct: the functional ease-of-waking seed is preserved and broadened to multiple outcomes plus sleep\u2013wake cycle scope. Elaborated would understate the scope extension."
+      },
+      {
+        "type": "confirm",
+        "pre": "sunlight built-in feature",
+        "post": "make better sleep and wake-up experiences affordable and accessible",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Reframed is correct: feature-centric frame \u2192 purpose/accessibility-centric frame. Subsumption fails ('sunlight built-in feature is a specific way of being sleep/wake experiences' is FALSE), so Narrowed is wrong. Same subject (brand role in sleep/wake), different organizing frame."
+      },
+      {
+        "type": "confirm",
+        "pre": "make a clock",
+        "post": "make better sleep and wake-up experiences affordable and accessible",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption test: 'a clock is a specific way of delivering sleep and wake-up experiences' is TRUE. PRE is a concrete product instance; POST lifts to the experience category. Narrowed is correct; alternative Expanded was correctly rejected since the frame shifts from product-instance to purpose-oriented category."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "make a clock",
+        "post": "make better sleep and wake-up experiences affordable and accessible",
+        "basis": "A clock is a specific product realization of the broader sleep/wake-up experience category. Subsumption holds."
+      },
+      {
+        "pre": "sunlight built-in feature",
+        "post": "make better sleep and wake-up experiences affordable and accessible",
+        "basis": "Feature-centric frame reconceived as purpose/accessibility-centric positioning within the same sleep/wake subject."
+      },
+      {
+        "pre": "help wake up easily",
+        "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+        "basis": "Functional ease-of-waking outcome is preserved and broadened to multiple outcomes and the full sleep\u2013wake cycle."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "make a clock",
+        "post_evidence": "make better sleep and wake-up experiences affordable and accessible",
+        "rationale": "A clock is a specific way of delivering sleep and wake-up experiences (subsumption TRUE). PRE is a concrete product instance; POST lifts to the broader experience category it serves. PRE 'make a clock' is the generic product-level seed; POST narrows the scope up to purpose while the product-as-instance relation is preserved.",
+        "alternative_considered": "Expanded",
+        "confidence": "medium"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "sunlight built-in feature",
+        "post_evidence": "make better sleep and wake-up experiences affordable and accessible",
+        "rationale": "Feature-centric / engineering specification frame is reconceived as purpose-centric / mission-and-access positioning. Same subject (brand's role in sleep/wake), different organizing frame. Subsumption fails.",
+        "alternative_considered": "Elaborated",
+        "confidence": "medium"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "help wake up easily",
+        "post_evidence": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+        "rationale": "The functional ease-of-waking seed is preserved and broadened to multiple outcomes (refreshed, productive, aligned with natural rhythms) plus extended to the full sleep\u2013wake cycle.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

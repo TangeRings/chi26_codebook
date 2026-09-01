@@ -1,0 +1,1258 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "Pre and post responses are character-for-character identical. No structural change at any level (phrase, clause, sentence, explanation).",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "transparency in materials",
+        "ethical sourcing",
+        "responsible production",
+        "quality craftsmanship",
+        "timeless design"
+      ],
+      "postConcepts": [
+        "transparency in materials",
+        "ethical sourcing",
+        "responsible production",
+        "quality craftsmanship",
+        "timeless design"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "transparency in materials",
+          "post": "transparency in materials",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "ethical sourcing",
+          "continuity": "overlapping ethical/supply-chain domain but different concepts",
+          "scope": "not subset",
+          "frame": "both production-process frames but distinct properties",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "responsible production",
+          "continuity": "overlapping ethical/production domain",
+          "scope": "not subset",
+          "frame": "distinct properties",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "quality craftsmanship",
+          "continuity": "distinct properties (transparency vs quality)",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "timeless design",
+          "continuity": "distinct properties (material transparency vs design longevity)",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "transparency in materials",
+          "continuity": "different concepts within supply-chain ethics",
+          "scope": "not subset",
+          "frame": "sourcing-frame vs material-frame",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "ethical sourcing",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "responsible production",
+          "continuity": "closely related ethical production concepts",
+          "scope": "not subset",
+          "frame": "sourcing vs production framing",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "quality craftsmanship",
+          "continuity": "distinct properties",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "timeless design",
+          "continuity": "distinct properties",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "transparency in materials",
+          "continuity": "different production-related concepts",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "ethical sourcing",
+          "continuity": "closely related ethical production concepts",
+          "scope": "not subset",
+          "frame": "production vs sourcing",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "responsible production",
+          "post": "responsible production",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "quality craftsmanship",
+          "continuity": "production concept vs output quality",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "timeless design",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "transparency in materials",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "ethical sourcing",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "responsible production",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "quality craftsmanship",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "transparency in materials",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "ethical sourcing",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "responsible production",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "timeless design",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "transparency in materials",
+          "post": "ethical sourcing",
+          "reason": "different properties within ethical production; no shared semantic role"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "responsible production",
+          "reason": "different properties; no subsumption"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "quality craftsmanship",
+          "reason": "different conceptual domains (material transparency vs output quality)"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "timeless design",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "transparency in materials",
+          "reason": "different properties; sourcing vs material disclosure"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "responsible production",
+          "reason": "sibling concepts but no subsumption; rejected to preserve identity alignment"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "quality craftsmanship",
+          "reason": "different domains"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "timeless design",
+          "reason": "different domains"
+        },
+        {
+          "pre": "responsible production",
+          "post": "transparency in materials",
+          "reason": "different properties"
+        },
+        {
+          "pre": "responsible production",
+          "post": "ethical sourcing",
+          "reason": "sibling concepts but no subsumption; rejected to preserve identity alignment"
+        },
+        {
+          "pre": "responsible production",
+          "post": "quality craftsmanship",
+          "reason": "different domains"
+        },
+        {
+          "pre": "responsible production",
+          "post": "timeless design",
+          "reason": "different domains"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "transparency in materials",
+          "reason": "different domains"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "ethical sourcing",
+          "reason": "different domains"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "responsible production",
+          "reason": "different domains"
+        },
+        {
+          "pre": "timeless design",
+          "post": "transparency in materials",
+          "reason": "different domains"
+        },
+        {
+          "pre": "timeless design",
+          "post": "ethical sourcing",
+          "reason": "different domains"
+        },
+        {
+          "pre": "timeless design",
+          "post": "responsible production",
+          "reason": "different domains"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "transparency in materials",
+          "post": "transparency in materials",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "ethical sourcing",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "responsible production",
+          "post": "responsible production",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "quality craftsmanship",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "timeless design",
+          "post": "timeless design",
+          "basis": "verbatim identity; strongest alignment"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "transparency in materials",
+          "post": "transparency in materials",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        },
+        {
+          "type": "confirm",
+          "pre": "ethical sourcing",
+          "post": "ethical sourcing",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        },
+        {
+          "type": "confirm",
+          "pre": "responsible production",
+          "post": "responsible production",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        },
+        {
+          "type": "confirm",
+          "pre": "quality craftsmanship",
+          "post": "quality craftsmanship",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        },
+        {
+          "type": "confirm",
+          "pre": "timeless design",
+          "post": "timeless design",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        }
+      ]
+    },
+    "semanticChanges": [],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coderNotes": "Pre and post responses are identical strings. No semantic events warranted; structural development is No Change. No new/removed recheck entries needed because no New or Removed events are emitted. Critic applied 5 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "julia",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "transparency in materials",
+        "ethical sourcing",
+        "responsible production",
+        "quality craftsmanship",
+        "timeless design"
+      ],
+      "post_concepts": [
+        "transparency in materials",
+        "ethical sourcing",
+        "responsible production",
+        "quality craftsmanship",
+        "timeless design"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "transparency in materials",
+          "post": "transparency in materials",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "ethical sourcing",
+          "continuity": "overlapping ethical/supply-chain domain but different concepts",
+          "scope": "not subset",
+          "frame": "both production-process frames but distinct properties",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "responsible production",
+          "continuity": "overlapping ethical/production domain",
+          "scope": "not subset",
+          "frame": "distinct properties",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "quality craftsmanship",
+          "continuity": "distinct properties (transparency vs quality)",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "timeless design",
+          "continuity": "distinct properties (material transparency vs design longevity)",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "transparency in materials",
+          "continuity": "different concepts within supply-chain ethics",
+          "scope": "not subset",
+          "frame": "sourcing-frame vs material-frame",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "ethical sourcing",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "responsible production",
+          "continuity": "closely related ethical production concepts",
+          "scope": "not subset",
+          "frame": "sourcing vs production framing",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "quality craftsmanship",
+          "continuity": "distinct properties",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "timeless design",
+          "continuity": "distinct properties",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "transparency in materials",
+          "continuity": "different production-related concepts",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "ethical sourcing",
+          "continuity": "closely related ethical production concepts",
+          "scope": "not subset",
+          "frame": "production vs sourcing",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "responsible production",
+          "post": "responsible production",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "quality craftsmanship",
+          "continuity": "production concept vs output quality",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "timeless design",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "transparency in materials",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "ethical sourcing",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "responsible production",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "quality craftsmanship",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "transparency in materials",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "ethical sourcing",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "responsible production",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "timeless design",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "transparency in materials",
+          "post": "ethical sourcing",
+          "reason": "different properties within ethical production; no shared semantic role"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "responsible production",
+          "reason": "different properties; no subsumption"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "quality craftsmanship",
+          "reason": "different conceptual domains (material transparency vs output quality)"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "timeless design",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "transparency in materials",
+          "reason": "different properties; sourcing vs material disclosure"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "responsible production",
+          "reason": "sibling concepts but no subsumption; rejected to preserve identity alignment"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "quality craftsmanship",
+          "reason": "different domains"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "timeless design",
+          "reason": "different domains"
+        },
+        {
+          "pre": "responsible production",
+          "post": "transparency in materials",
+          "reason": "different properties"
+        },
+        {
+          "pre": "responsible production",
+          "post": "ethical sourcing",
+          "reason": "sibling concepts but no subsumption; rejected to preserve identity alignment"
+        },
+        {
+          "pre": "responsible production",
+          "post": "quality craftsmanship",
+          "reason": "different domains"
+        },
+        {
+          "pre": "responsible production",
+          "post": "timeless design",
+          "reason": "different domains"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "transparency in materials",
+          "reason": "different domains"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "ethical sourcing",
+          "reason": "different domains"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "responsible production",
+          "reason": "different domains"
+        },
+        {
+          "pre": "timeless design",
+          "post": "transparency in materials",
+          "reason": "different domains"
+        },
+        {
+          "pre": "timeless design",
+          "post": "ethical sourcing",
+          "reason": "different domains"
+        },
+        {
+          "pre": "timeless design",
+          "post": "responsible production",
+          "reason": "different domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "transparency in materials",
+          "post": "transparency in materials",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "ethical sourcing",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "responsible production",
+          "post": "responsible production",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "quality craftsmanship",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "timeless design",
+          "post": "timeless design",
+          "basis": "verbatim identity; strongest alignment"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "transparency in materials",
+          "post": "transparency in materials",
+          "from_code": null,
+          "to_code": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        },
+        {
+          "type": "confirm",
+          "pre": "ethical sourcing",
+          "post": "ethical sourcing",
+          "from_code": null,
+          "to_code": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        },
+        {
+          "type": "confirm",
+          "pre": "responsible production",
+          "post": "responsible production",
+          "from_code": null,
+          "to_code": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        },
+        {
+          "type": "confirm",
+          "pre": "quality craftsmanship",
+          "post": "quality craftsmanship",
+          "from_code": null,
+          "to_code": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        },
+        {
+          "type": "confirm",
+          "pre": "timeless design",
+          "post": "timeless design",
+          "from_code": null,
+          "to_code": null,
+          "reason": "verbatim identity; no transformation event warranted"
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "Pre and post responses are character-for-character identical. No structural change at any level (phrase, clause, sentence, explanation)."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "Pre and post responses are identical strings. No semantic events warranted; structural development is No Change. No new/removed recheck entries needed because no New or Removed events are emitted. Critic applied 5 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "julia",
+      "item_id": "comp-1c"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "transparency in materials",
+        "ethical sourcing",
+        "responsible production",
+        "quality craftsmanship",
+        "timeless design"
+      ],
+      "post_concepts": [
+        "transparency in materials",
+        "ethical sourcing",
+        "responsible production",
+        "quality craftsmanship",
+        "timeless design"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "transparency in materials",
+          "post": "transparency in materials",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "ethical sourcing",
+          "continuity": "overlapping ethical/supply-chain domain but different concepts",
+          "scope": "not subset",
+          "frame": "both production-process frames but distinct properties",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "responsible production",
+          "continuity": "overlapping ethical/production domain",
+          "scope": "not subset",
+          "frame": "distinct properties",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "quality craftsmanship",
+          "continuity": "distinct properties (transparency vs quality)",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "timeless design",
+          "continuity": "distinct properties (material transparency vs design longevity)",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "transparency in materials",
+          "continuity": "different concepts within supply-chain ethics",
+          "scope": "not subset",
+          "frame": "sourcing-frame vs material-frame",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "ethical sourcing",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "responsible production",
+          "continuity": "closely related ethical production concepts",
+          "scope": "not subset",
+          "frame": "sourcing vs production framing",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "quality craftsmanship",
+          "continuity": "distinct properties",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "timeless design",
+          "continuity": "distinct properties",
+          "scope": "not subset",
+          "frame": "different frames",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "transparency in materials",
+          "continuity": "different production-related concepts",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "ethical sourcing",
+          "continuity": "closely related ethical production concepts",
+          "scope": "not subset",
+          "frame": "production vs sourcing",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "responsible production",
+          "post": "responsible production",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "quality craftsmanship",
+          "continuity": "production concept vs output quality",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "responsible production",
+          "post": "timeless design",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "transparency in materials",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "ethical sourcing",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "responsible production",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "quality craftsmanship",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "transparency in materials",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "ethical sourcing",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "responsible production",
+          "continuity": "distinct",
+          "scope": "not subset",
+          "frame": "distinct",
+          "stretch": "forced",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "timeless design",
+          "post": "timeless design",
+          "continuity": "identical concept",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "transparency in materials",
+          "post": "ethical sourcing",
+          "reason": "different properties within ethical production; no shared semantic role"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "responsible production",
+          "reason": "different properties; no subsumption"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "quality craftsmanship",
+          "reason": "different conceptual domains (material transparency vs output quality)"
+        },
+        {
+          "pre": "transparency in materials",
+          "post": "timeless design",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "transparency in materials",
+          "reason": "different properties; sourcing vs material disclosure"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "responsible production",
+          "reason": "sibling concepts but no subsumption; rejected to preserve identity alignment"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "quality craftsmanship",
+          "reason": "different domains"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "timeless design",
+          "reason": "different domains"
+        },
+        {
+          "pre": "responsible production",
+          "post": "transparency in materials",
+          "reason": "different properties"
+        },
+        {
+          "pre": "responsible production",
+          "post": "ethical sourcing",
+          "reason": "sibling concepts but no subsumption; rejected to preserve identity alignment"
+        },
+        {
+          "pre": "responsible production",
+          "post": "quality craftsmanship",
+          "reason": "different domains"
+        },
+        {
+          "pre": "responsible production",
+          "post": "timeless design",
+          "reason": "different domains"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "transparency in materials",
+          "reason": "different domains"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "ethical sourcing",
+          "reason": "different domains"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "responsible production",
+          "reason": "different domains"
+        },
+        {
+          "pre": "timeless design",
+          "post": "transparency in materials",
+          "reason": "different domains"
+        },
+        {
+          "pre": "timeless design",
+          "post": "ethical sourcing",
+          "reason": "different domains"
+        },
+        {
+          "pre": "timeless design",
+          "post": "responsible production",
+          "reason": "different domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "transparency in materials",
+          "post": "transparency in materials",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "ethical sourcing",
+          "post": "ethical sourcing",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "responsible production",
+          "post": "responsible production",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "quality craftsmanship",
+          "post": "quality craftsmanship",
+          "basis": "verbatim identity; strongest alignment"
+        },
+        {
+          "pre": "timeless design",
+          "post": "timeless design",
+          "basis": "verbatim identity; strongest alignment"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "Pre and post responses are character-for-character identical. No structural change at any level (phrase, clause, sentence, explanation)."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "Pre and post responses are identical strings. No semantic events warranted; structural development is No Change. No new/removed recheck entries needed because no New or Removed events are emitted."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "transparency in materials",
+        "post": "transparency in materials",
+        "from_code": null,
+        "to_code": null,
+        "reason": "verbatim identity; no transformation event warranted"
+      },
+      {
+        "type": "confirm",
+        "pre": "ethical sourcing",
+        "post": "ethical sourcing",
+        "from_code": null,
+        "to_code": null,
+        "reason": "verbatim identity; no transformation event warranted"
+      },
+      {
+        "type": "confirm",
+        "pre": "responsible production",
+        "post": "responsible production",
+        "from_code": null,
+        "to_code": null,
+        "reason": "verbatim identity; no transformation event warranted"
+      },
+      {
+        "type": "confirm",
+        "pre": "quality craftsmanship",
+        "post": "quality craftsmanship",
+        "from_code": null,
+        "to_code": null,
+        "reason": "verbatim identity; no transformation event warranted"
+      },
+      {
+        "type": "confirm",
+        "pre": "timeless design",
+        "post": "timeless design",
+        "from_code": null,
+        "to_code": null,
+        "reason": "verbatim identity; no transformation event warranted"
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "transparency in materials",
+        "post": "transparency in materials",
+        "basis": "verbatim identity; strongest alignment"
+      },
+      {
+        "pre": "ethical sourcing",
+        "post": "ethical sourcing",
+        "basis": "verbatim identity; strongest alignment"
+      },
+      {
+        "pre": "responsible production",
+        "post": "responsible production",
+        "basis": "verbatim identity; strongest alignment"
+      },
+      {
+        "pre": "quality craftsmanship",
+        "post": "quality craftsmanship",
+        "basis": "verbatim identity; strongest alignment"
+      },
+      {
+        "pre": "timeless design",
+        "post": "timeless design",
+        "basis": "verbatim identity; strongest alignment"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": []
+  },
+  "skipCritic": false
+}

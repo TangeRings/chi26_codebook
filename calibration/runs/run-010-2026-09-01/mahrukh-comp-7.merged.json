@@ -1,0 +1,280 @@
+{
+  "coding_unit": {
+    "student_id": "mahrukh",
+    "item_id": "comp-7"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "50% product videos",
+      "25% in daily use",
+      "25% bts"
+    ],
+    "post_concepts": [
+      "25% product videos",
+      "25% in daily use",
+      "25% bts",
+      "25% consumer stories"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "50% product videos",
+        "post": "25% product videos",
+        "continuity": "Same content category (product videos), same wording.",
+        "scope": "Pre allocates 50% share, post reduces to 25% share. Same content type but smaller weight.",
+        "frame": "Distribution frame: percentage allocation across content categories.",
+        "stretch": "Minimal \u2014 only the percentage changes.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "50% product videos",
+        "post": "25% in daily use",
+        "continuity": "Different content categories.",
+        "scope": "Not applicable.",
+        "frame": "N/A",
+        "stretch": "Implausible \u2014 unrelated content categories.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "50% product videos",
+        "post": "25% bts",
+        "continuity": "Different content categories.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "50% product videos",
+        "post": "25% consumer stories",
+        "continuity": "Different content categories.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "25% in daily use",
+        "post": "25% product videos",
+        "continuity": "Different categories; same percentage weight.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible \u2014 no shared concept.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "25% in daily use",
+        "post": "25% in daily use",
+        "continuity": "Identical.",
+        "scope": "Identical.",
+        "frame": "Identical.",
+        "stretch": "None \u2014 direct match.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "25% in daily use",
+        "post": "25% bts",
+        "continuity": "Different categories.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "25% in daily use",
+        "post": "25% consumer stories",
+        "continuity": "Different categories.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "25% bts",
+        "post": "25% product videos",
+        "continuity": "Different categories.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "25% bts",
+        "post": "25% in daily use",
+        "continuity": "Different categories.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "25% bts",
+        "post": "25% bts",
+        "continuity": "Identical.",
+        "scope": "Identical.",
+        "frame": "Identical.",
+        "stretch": "None.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "25% bts",
+        "post": "25% consumer stories",
+        "continuity": "Different categories.",
+        "scope": "N/A",
+        "frame": "N/A",
+        "stretch": "Implausible.",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "50% product videos",
+        "post": "25% in daily use",
+        "reason": "Different content categories; no shared concept."
+      },
+      {
+        "pre": "50% product videos",
+        "post": "25% bts",
+        "reason": "Different content categories; no shared concept."
+      },
+      {
+        "pre": "50% product videos",
+        "post": "25% consumer stories",
+        "reason": "Different content categories; no shared concept."
+      },
+      {
+        "pre": "25% in daily use",
+        "post": "25% product videos",
+        "reason": "Different content categories; no shared concept."
+      },
+      {
+        "pre": "25% in daily use",
+        "post": "25% bts",
+        "reason": "Different content categories; no shared concept."
+      },
+      {
+        "pre": "25% in daily use",
+        "post": "25% consumer stories",
+        "reason": "Different content categories; no shared concept."
+      },
+      {
+        "pre": "25% bts",
+        "post": "25% product videos",
+        "reason": "Different content categories; no shared concept."
+      },
+      {
+        "pre": "25% bts",
+        "post": "25% in daily use",
+        "reason": "Different content categories; no shared concept."
+      },
+      {
+        "pre": "25% bts",
+        "post": "25% consumer stories",
+        "reason": "Different content categories; no shared concept."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "50% product videos",
+        "post": "25% product videos",
+        "basis": "Same content category (product videos); allocation reorganized from dominant (50%) to balanced quarter (25%)."
+      },
+      {
+        "pre": "25% in daily use",
+        "post": "25% in daily use",
+        "basis": "Identical concept and percentage."
+      },
+      {
+        "pre": "25% bts",
+        "post": "25% bts",
+        "basis": "Identical concept and percentage."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "25% consumer stories"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "25% consumer stories",
+        "direction": "new",
+        "nearest_counterpart": null,
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Consumer stories is an entirely distinct content category with no antecedent in the PRE response. No PRE concept shares semantic territory with consumer stories; no subsumption, reframing, elaboration, or expansion relationship is defensible. Full PRE set searched."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "recode",
+        "pre": "50% product videos",
+        "post": "25% product videos",
+        "from_code": "Narrowed",
+        "to_code": "Reframed",
+        "reason": "The Narrowed rationale applies the scope-restriction rule to a percentage allocation, but 'Narrowed' is reserved for cases where POST denotes a proper subset of PRE's population/category. Here POST is the same product videos category, not a subset. The organizing frame has shifted: PRE treats product videos as the dominant content type (50%), while POST reorganizes the mix into a balanced four-part distribution (25% each). The category persists but its role in the distribution frame changes \u2014 that is Reframed, not Narrowed."
+      },
+      {
+        "type": "confirm",
+        "pre": "25% in daily use",
+        "post": "25% in daily use",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical match; no semantic event needed."
+      },
+      {
+        "type": "confirm",
+        "pre": "25% bts",
+        "post": "25% bts",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical match; no semantic event needed."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "25% consumer stories",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Consumer stories is a distinct content category absent from PRE; no antecedent available. Stands as New."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The post-response adds one new content category (consumer stories at 25%) and rebalances the allocation by reducing product videos from 50% to 25%. The total expands from three categories to four, with one new clause/category added and one percentage adjustment made. This is a contained extension rather than a major restructuring."
+  },
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "50% product videos",
+      "post_evidence": "25% product videos",
+      "rationale": "The product videos category persists across PRE and POST, but its role in the content mix shifts: PRE treats it as the dominant allocation (50%), POST reorganizes the strategy into a balanced four-part distribution (25% each). The organizing frame moves from product-video-centric to evenly diversified mix. Same semantic territory, shifted frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "25% consumer stories",
+      "rationale": "Consumer stories is a new content category absent from the PRE response. No PRE concept shares semantic territory with consumer stories; no Narrowed/Reframed/Elaborated/Expanded relationship is defensible.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "Two of three PRE categories matched identically (in daily use, bts). Product videos matched across but with a percentage change treated as Narrowed (scope restriction on allocation). Consumer stories is New. The pre-existing categories 'in daily use' and 'bts' produced no semantic events because they are identical between PRE and POST. Critic applied 4 correction(s)."
+  },
+  "coded_at": "2026-01-26T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

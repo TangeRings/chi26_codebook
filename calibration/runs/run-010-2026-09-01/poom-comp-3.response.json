@@ -1,0 +1,1355 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Moderate Addition",
+    "structuralRationale": "POST adds one meaningful psychographic attribute ('appreciate humor and authenticity') that has no antecedent in PRE. The other PRE descriptors are retained or broadened, but the addition of this new dimension and the slightly longer phrasing constitute a modest structural expansion. Not significant because only one genuinely new clause-level addition is present; the rest is refinement of existing categories.",
+    "conceptAlignment": {
+      "unitizationMode": "scoped_category",
+      "preConcepts": [
+        "Male and female",
+        "from all over the world",
+        "aged 18-25",
+        "interested in learning about new cultures and new places"
+      ],
+      "postConcepts": [
+        "young (18-30)",
+        "globally-minded",
+        "want to explore new cultures, languages, and experiences",
+        "appreciate humor and authenticity"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Male and female",
+          "post": "young (18-30)",
+          "continuity": "Both describe core demographic attributes (sex and age). They overlap but do not fully correspond one-to-one.",
+          "scope": "Female/male is a sex scope; young (18-30) is an age scope. Different demographic dimensions.",
+          "frame": "Pre: explicit sex + age bands. Post: age band only.",
+          "stretch": "Weak; the two units occupy different demographic axes.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Male and female",
+          "post": "globally-minded",
+          "continuity": "No shared demographic dimension (sex vs global orientation).",
+          "scope": "Different dimensions.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Male and female",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "No shared demographic axis.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Male and female",
+          "post": "appreciate humor and authenticity",
+          "continuity": "No shared demographic axis.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "young (18-30)",
+          "continuity": "Geographic scope vs age scope; no direct overlap.",
+          "scope": "Different demographic dimensions.",
+          "frame": "Different.",
+          "stretch": "Weak.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "globally-minded",
+          "continuity": "Both concern global / worldwide orientation. Strong conceptual lineage.",
+          "scope": "Pre: a geographic fact (literally everywhere). Post: a psychographic orientation (interested in / oriented toward global matters). Post is narrower because globally-minded implies a specific attitude, while from all over the world is purely demographic.",
+          "frame": "Geographic / demographic frame \u2192 psychographic / attitudinal frame.",
+          "stretch": "Plausible; same territory reframed.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "Both touch exploration of the world, but pre is a geographic descriptor of where customers come from, while post is a behavior/aspiration.",
+          "scope": "Different dimensions.",
+          "frame": "Different.",
+          "stretch": "Weak.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "appreciate humor and authenticity",
+          "continuity": "No shared axis.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "young (18-30)",
+          "continuity": "Both specify age range. Strong lineage.",
+          "scope": "Post expands the upper bound (30 vs 25). POST is a superset of PRE (18-25 is a subset of 18-30).",
+          "frame": "Same demographic frame.",
+          "stretch": "Plausible; classic scope expansion.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "globally-minded",
+          "continuity": "Age vs psychographic orientation; different dimensions.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "Different dimensions (age vs behavior).",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "appreciate humor and authenticity",
+          "continuity": "Different dimensions.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "young (18-30)",
+          "continuity": "Different dimensions (interest vs age).",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "globally-minded",
+          "continuity": "Both describe orientation toward world / cultures. The interest in learning about cultures is a manifestation of being globally-minded.",
+          "scope": "Both are about the global/intercultural orientation. Pre is one expression of that orientation.",
+          "frame": "Pre: interest-as-behavior (learning). Post: orientation-as-identity (mindset).",
+          "stretch": "Plausible.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "Strong lineage \u2014 both express desire to engage with new cultures/places.",
+          "scope": "Pre: cultures and places. Post: cultures, languages, AND experiences (broadened).",
+          "frame": "Same conceptual frame (curiosity/engagement with the world).",
+          "stretch": "Plausible.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "appreciate humor and authenticity",
+          "continuity": "Different axes; no direct lineage.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Weak.",
+          "verdict": "weak"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Male and female",
+          "post": "globally-minded",
+          "reason": "Different demographic dimensions (sex vs psychographic orientation); implausible pairing."
+        },
+        {
+          "pre": "Male and female",
+          "post": "want to explore new cultures, languages, and experiences",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "Male and female",
+          "post": "appreciate humor and authenticity",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "from all over the world",
+          "post": "young (18-30)",
+          "reason": "Geographic descriptor vs age band; different dimensions."
+        },
+        {
+          "pre": "from all over the world",
+          "post": "appreciate humor and authenticity",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "globally-minded",
+          "reason": "Age vs psychographic orientation; different dimensions."
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "want to explore new cultures, languages, and experiences",
+          "reason": "Age vs behavioral aspiration; different dimensions."
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "appreciate humor and authenticity",
+          "reason": "Age vs psychographic; different dimensions."
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "young (18-30)",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "appreciate humor and authenticity",
+          "reason": "Different axes; no shared role."
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "aged 18-25",
+          "post": "young (18-30)",
+          "basis": "The age category is retained and its upper bound expands from 25 to 30."
+        },
+        {
+          "pre": "from all over the world",
+          "post": "globally-minded",
+          "basis": "Global orientation is reframed from geographic provenance to an attitudinal outlook."
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "want to explore new cultures, languages, and experiences",
+          "basis": "Intercultural curiosity is retained and broadened to additional domains of exploration."
+        }
+      ],
+      "unmatchedPre": [
+        "Male and female"
+      ],
+      "unmatchedPost": [
+        "appreciate humor and authenticity"
+      ],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearestCounterpart": "young (18-30)",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest counterpart is 'young (18-30)', which is an age descriptor. 'Male and female' is a sex descriptor. Different demographic dimensions. Narrowed fails (sex is not a subset of age). Reframed fails (no shared frame \u2014 sex vs age). Elaborated and Expanded fail (no shared concept to add detail to or broaden). No defensible lineage."
+        },
+        {
+          "concept": "appreciate humor and authenticity",
+          "direction": "new",
+          "nearestCounterpart": "Male and female",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'Male and female' (a sex descriptor). 'Appreciate humor and authenticity' is a psychographic / value orientation. Different conceptual domains (demographic vs psychographic). Narrowed/Reframed/Elaborated/Expanded all fail. No defensible lineage."
+        },
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearestCounterpart": "globally-minded",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Alternative nearest counterpart test. 'Globally-minded' is psychographic. 'Male and female' is demographic sex. No lineage defensible."
+        },
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearestCounterpart": "want to explore new cultures, languages, and experiences",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Sex descriptor vs behavioral aspiration; no shared role."
+        },
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearestCounterpart": "appreciate humor and authenticity",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Demographic sex vs value preference; different domains."
+        },
+        {
+          "concept": "appreciate humor and authenticity",
+          "direction": "new",
+          "nearestCounterpart": "interested in learning about new cultures and new places",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Pre is an interest in cultures/places (intercultural curiosity). Post is valuing humor and authenticity (general psychographic values). Both are psychographic, but the specific content differs \u2014 intercultural learning does not subsume or refame humor/authenticity, nor is humor/authenticity a subset, elaboration, or expansion of interest in cultures. No defensible lineage at any tier."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "aged 18-25",
+          "post": "young (18-30)",
+          "fromCode": "Expanded",
+          "toCode": "Expanded",
+          "reason": "The age range broadens from 18-25 to 18-30 while retaining the same demographic frame."
+        },
+        {
+          "type": "confirm",
+          "pre": "from all over the world",
+          "post": "globally-minded",
+          "fromCode": "Reframed",
+          "toCode": "Reframed",
+          "reason": "Global orientation persists but shifts from a geographic fact to an attitudinal frame; neither concept subsumes the other."
+        },
+        {
+          "type": "confirm",
+          "pre": "interested in learning about new cultures and new places",
+          "post": "want to explore new cultures, languages, and experiences",
+          "fromCode": "Expanded",
+          "toCode": "Expanded",
+          "reason": "The curiosity frame is retained and its scope expands to include languages and experiences."
+        },
+        {
+          "type": "confirm",
+          "pre": "Male and female",
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "No remaining POST unit concerns sex; age, global orientation, exploratory interests, humor, and authenticity are different attributes."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "appreciate humor and authenticity",
+          "fromCode": "New",
+          "toCode": "New",
+          "reason": "No unmatched PRE concept is a defensible antecedent; humor and authenticity are a new psychographic value preference."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti71g3jqugfz4j5kwp",
+        "code": "Expanded",
+        "preEvidence": "aged 18-25",
+        "postEvidence": "young (18-30)",
+        "rationale": "The age category broadens from 18-25 to 18-30 while retaining the same demographic frame.",
+        "confidence": "high",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti71g3jfseposhjwz",
+        "code": "Reframed",
+        "preEvidence": "from all over the world",
+        "postEvidence": "globally-minded",
+        "rationale": "The global-orientation territory persists, but the frame changes from geographic provenance to an attitudinal outlook; subsumption does not hold.",
+        "confidence": "high",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti71g3jbgjjjtgol7l",
+        "code": "Expanded",
+        "preEvidence": "interested in learning about new cultures and new places",
+        "postEvidence": "want to explore new cultures, languages, and experiences",
+        "rationale": "The core curiosity about cultures and places is retained and expands to include languages and experiences.",
+        "confidence": "high",
+        "alternativeConsidered": "Elaborated"
+      },
+      {
+        "instanceId": "mti71g3j9fmuxiaxqd8",
+        "code": "Removed",
+        "preEvidence": "Male and female",
+        "postEvidence": null,
+        "rationale": "No remaining POST unit expresses the sex dimension or is a defensible transformation of it.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti71g3jau68svo1kye",
+        "code": "New",
+        "preEvidence": null,
+        "postEvidence": "appreciate humor and authenticity",
+        "rationale": "No unmatched PRE concept is a defensible antecedent; this is a new psychographic value preference.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      }
+    ],
+    "learnerAgency": [
+      {
+        "instanceId": "mti71g3jfm6imqtc62e",
+        "code": "Metacognition",
+        "evidence": "I am thinking about young (18-30), globally-minded people who want to explore new cultures, languages, and experiences but also appreciate humor and authenticity",
+        "rationale": "The student uses the explicit metacognitive phrase 'I am thinking about', foregrounding their own reflective stance on the target customer definition rather than simply declaring it.",
+        "confidence": "medium"
+      }
+    ],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "neighborhood_tested_no_lineage",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "Three transformations (Expanded, Reframed, Expanded) plus a Removed + New pair for the sex descriptor and the humor/authenticity addition. The Removed (Male and female) reflects that sex is no longer specified; the New (humor and authenticity) reflects the addition of a new psychographic dimension. The 'I am thinking about' phrasing in POST registers as a low-strength metacognitive signal. No structural significance beyond the addition of one psychographic dimension. Critic applied 5 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "poom",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "Male and female",
+        "from all over the world",
+        "aged 18-25",
+        "interested in learning about new cultures and new places"
+      ],
+      "post_concepts": [
+        "young (18-30)",
+        "globally-minded",
+        "want to explore new cultures, languages, and experiences",
+        "appreciate humor and authenticity"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Male and female",
+          "post": "young (18-30)",
+          "continuity": "Both describe core demographic attributes (sex and age). They overlap but do not fully correspond one-to-one.",
+          "scope": "Female/male is a sex scope; young (18-30) is an age scope. Different demographic dimensions.",
+          "frame": "Pre: explicit sex + age bands. Post: age band only.",
+          "stretch": "Weak; the two units occupy different demographic axes.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Male and female",
+          "post": "globally-minded",
+          "continuity": "No shared demographic dimension (sex vs global orientation).",
+          "scope": "Different dimensions.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Male and female",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "No shared demographic axis.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Male and female",
+          "post": "appreciate humor and authenticity",
+          "continuity": "No shared demographic axis.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "young (18-30)",
+          "continuity": "Geographic scope vs age scope; no direct overlap.",
+          "scope": "Different demographic dimensions.",
+          "frame": "Different.",
+          "stretch": "Weak.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "globally-minded",
+          "continuity": "Both concern global / worldwide orientation. Strong conceptual lineage.",
+          "scope": "Pre: a geographic fact (literally everywhere). Post: a psychographic orientation (interested in / oriented toward global matters). Post is narrower because globally-minded implies a specific attitude, while from all over the world is purely demographic.",
+          "frame": "Geographic / demographic frame \u2192 psychographic / attitudinal frame.",
+          "stretch": "Plausible; same territory reframed.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "Both touch exploration of the world, but pre is a geographic descriptor of where customers come from, while post is a behavior/aspiration.",
+          "scope": "Different dimensions.",
+          "frame": "Different.",
+          "stretch": "Weak.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "appreciate humor and authenticity",
+          "continuity": "No shared axis.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "young (18-30)",
+          "continuity": "Both specify age range. Strong lineage.",
+          "scope": "Post expands the upper bound (30 vs 25). POST is a superset of PRE (18-25 is a subset of 18-30).",
+          "frame": "Same demographic frame.",
+          "stretch": "Plausible; classic scope expansion.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "globally-minded",
+          "continuity": "Age vs psychographic orientation; different dimensions.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "Different dimensions (age vs behavior).",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "appreciate humor and authenticity",
+          "continuity": "Different dimensions.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "young (18-30)",
+          "continuity": "Different dimensions (interest vs age).",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "globally-minded",
+          "continuity": "Both describe orientation toward world / cultures. The interest in learning about cultures is a manifestation of being globally-minded.",
+          "scope": "Both are about the global/intercultural orientation. Pre is one expression of that orientation.",
+          "frame": "Pre: interest-as-behavior (learning). Post: orientation-as-identity (mindset).",
+          "stretch": "Plausible.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "Strong lineage \u2014 both express desire to engage with new cultures/places.",
+          "scope": "Pre: cultures and places. Post: cultures, languages, AND experiences (broadened).",
+          "frame": "Same conceptual frame (curiosity/engagement with the world).",
+          "stretch": "Plausible.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "appreciate humor and authenticity",
+          "continuity": "Different axes; no direct lineage.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Weak.",
+          "verdict": "weak"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Male and female",
+          "post": "globally-minded",
+          "reason": "Different demographic dimensions (sex vs psychographic orientation); implausible pairing."
+        },
+        {
+          "pre": "Male and female",
+          "post": "want to explore new cultures, languages, and experiences",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "Male and female",
+          "post": "appreciate humor and authenticity",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "from all over the world",
+          "post": "young (18-30)",
+          "reason": "Geographic descriptor vs age band; different dimensions."
+        },
+        {
+          "pre": "from all over the world",
+          "post": "appreciate humor and authenticity",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "globally-minded",
+          "reason": "Age vs psychographic orientation; different dimensions."
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "want to explore new cultures, languages, and experiences",
+          "reason": "Age vs behavioral aspiration; different dimensions."
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "appreciate humor and authenticity",
+          "reason": "Age vs psychographic; different dimensions."
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "young (18-30)",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "appreciate humor and authenticity",
+          "reason": "Different axes; no shared role."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "aged 18-25",
+          "post": "young (18-30)",
+          "basis": "The age category is retained and its upper bound expands from 25 to 30."
+        },
+        {
+          "pre": "from all over the world",
+          "post": "globally-minded",
+          "basis": "Global orientation is reframed from geographic provenance to an attitudinal outlook."
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "want to explore new cultures, languages, and experiences",
+          "basis": "Intercultural curiosity is retained and broadened to additional domains of exploration."
+        }
+      ],
+      "unmatched_pre": [
+        "Male and female"
+      ],
+      "unmatched_post": [
+        "appreciate humor and authenticity"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearest_counterpart": "young (18-30)",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest counterpart is 'young (18-30)', which is an age descriptor. 'Male and female' is a sex descriptor. Different demographic dimensions. Narrowed fails (sex is not a subset of age). Reframed fails (no shared frame \u2014 sex vs age). Elaborated and Expanded fail (no shared concept to add detail to or broaden). No defensible lineage."
+        },
+        {
+          "concept": "appreciate humor and authenticity",
+          "direction": "new",
+          "nearest_counterpart": "Male and female",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'Male and female' (a sex descriptor). 'Appreciate humor and authenticity' is a psychographic / value orientation. Different conceptual domains (demographic vs psychographic). Narrowed/Reframed/Elaborated/Expanded all fail. No defensible lineage."
+        },
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearest_counterpart": "globally-minded",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Alternative nearest counterpart test. 'Globally-minded' is psychographic. 'Male and female' is demographic sex. No lineage defensible."
+        },
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearest_counterpart": "want to explore new cultures, languages, and experiences",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Sex descriptor vs behavioral aspiration; no shared role."
+        },
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearest_counterpart": "appreciate humor and authenticity",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Demographic sex vs value preference; different domains."
+        },
+        {
+          "concept": "appreciate humor and authenticity",
+          "direction": "new",
+          "nearest_counterpart": "interested in learning about new cultures and new places",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Pre is an interest in cultures/places (intercultural curiosity). Post is valuing humor and authenticity (general psychographic values). Both are psychographic, but the specific content differs \u2014 intercultural learning does not subsume or refame humor/authenticity, nor is humor/authenticity a subset, elaboration, or expansion of interest in cultures. No defensible lineage at any tier."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "aged 18-25",
+          "post": "young (18-30)",
+          "from_code": "Expanded",
+          "to_code": "Expanded",
+          "reason": "The age range broadens from 18-25 to 18-30 while retaining the same demographic frame."
+        },
+        {
+          "type": "confirm",
+          "pre": "from all over the world",
+          "post": "globally-minded",
+          "from_code": "Reframed",
+          "to_code": "Reframed",
+          "reason": "Global orientation persists but shifts from a geographic fact to an attitudinal frame; neither concept subsumes the other."
+        },
+        {
+          "type": "confirm",
+          "pre": "interested in learning about new cultures and new places",
+          "post": "want to explore new cultures, languages, and experiences",
+          "from_code": "Expanded",
+          "to_code": "Expanded",
+          "reason": "The curiosity frame is retained and its scope expands to include languages and experiences."
+        },
+        {
+          "type": "confirm",
+          "pre": "Male and female",
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "No remaining POST unit concerns sex; age, global orientation, exploratory interests, humor, and authenticity are different attributes."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": "appreciate humor and authenticity",
+          "from_code": "New",
+          "to_code": "New",
+          "reason": "No unmatched PRE concept is a defensible antecedent; humor and authenticity are a new psychographic value preference."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "POST adds one meaningful psychographic attribute ('appreciate humor and authenticity') that has no antecedent in PRE. The other PRE descriptors are retained or broadened, but the addition of this new dimension and the slightly longer phrasing constitute a modest structural expansion. Not significant because only one genuinely new clause-level addition is present; the rest is refinement of existing categories."
+    },
+    "semantic_events": [
+      {
+        "code": "Expanded",
+        "pre_evidence": "aged 18-25",
+        "post_evidence": "young (18-30)",
+        "rationale": "The age category broadens from 18-25 to 18-30 while retaining the same demographic frame.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "from all over the world",
+        "post_evidence": "globally-minded",
+        "rationale": "The global-orientation territory persists, but the frame changes from geographic provenance to an attitudinal outlook; subsumption does not hold.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "interested in learning about new cultures and new places",
+        "post_evidence": "want to explore new cultures, languages, and experiences",
+        "rationale": "The core curiosity about cultures and places is retained and expands to include languages and experiences.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Male and female",
+        "post_evidence": null,
+        "rationale": "No remaining POST unit expresses the sex dimension or is a defensible transformation of it.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "appreciate humor and authenticity",
+        "rationale": "No unmatched PRE concept is a defensible antecedent; this is a new psychographic value preference.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [
+      {
+        "code": "Metacognition",
+        "evidence": "I am thinking about young (18-30), globally-minded people who want to explore new cultures, languages, and experiences but also appreciate humor and authenticity",
+        "rationale": "The student uses the explicit metacognitive phrase 'I am thinking about', foregrounding their own reflective stance on the target customer definition rather than simply declaring it.",
+        "confidence": "medium"
+      }
+    ],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "neighborhood_tested_no_lineage",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "Three transformations (Expanded, Reframed, Expanded) plus a Removed + New pair for the sex descriptor and the humor/authenticity addition. The Removed (Male and female) reflects that sex is no longer specified; the New (humor and authenticity) reflects the addition of a new psychographic dimension. The 'I am thinking about' phrasing in POST registers as a low-strength metacognitive signal. No structural significance beyond the addition of one psychographic dimension. Critic applied 5 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "poom",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "Male and female",
+        "from all over the world",
+        "aged 18-25",
+        "interested in learning about new cultures and new places"
+      ],
+      "post_concepts": [
+        "young (18-30)",
+        "globally-minded",
+        "want to explore new cultures, languages, and experiences",
+        "appreciate humor and authenticity"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Male and female",
+          "post": "young (18-30)",
+          "continuity": "Both describe core demographic attributes (sex and age). They overlap but do not fully correspond one-to-one.",
+          "scope": "Female/male is a sex scope; young (18-30) is an age scope. Different demographic dimensions.",
+          "frame": "Pre: explicit sex + age bands. Post: age band only.",
+          "stretch": "Weak; the two units occupy different demographic axes.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Male and female",
+          "post": "globally-minded",
+          "continuity": "No shared demographic dimension (sex vs global orientation).",
+          "scope": "Different dimensions.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Male and female",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "No shared demographic axis.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Male and female",
+          "post": "appreciate humor and authenticity",
+          "continuity": "No shared demographic axis.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "young (18-30)",
+          "continuity": "Geographic scope vs age scope; no direct overlap.",
+          "scope": "Different demographic dimensions.",
+          "frame": "Different.",
+          "stretch": "Weak.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "globally-minded",
+          "continuity": "Both concern global / worldwide orientation. Strong conceptual lineage.",
+          "scope": "Pre: a geographic fact (literally everywhere). Post: a psychographic orientation (interested in / oriented toward global matters). Post is narrower because globally-minded implies a specific attitude, while from all over the world is purely demographic.",
+          "frame": "Geographic / demographic frame \u2192 psychographic / attitudinal frame.",
+          "stretch": "Plausible; same territory reframed.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "Both touch exploration of the world, but pre is a geographic descriptor of where customers come from, while post is a behavior/aspiration.",
+          "scope": "Different dimensions.",
+          "frame": "Different.",
+          "stretch": "Weak.",
+          "verdict": "weak"
+        },
+        {
+          "pre": "from all over the world",
+          "post": "appreciate humor and authenticity",
+          "continuity": "No shared axis.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "young (18-30)",
+          "continuity": "Both specify age range. Strong lineage.",
+          "scope": "Post expands the upper bound (30 vs 25). POST is a superset of PRE (18-25 is a subset of 18-30).",
+          "frame": "Same demographic frame.",
+          "stretch": "Plausible; classic scope expansion.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "globally-minded",
+          "continuity": "Age vs psychographic orientation; different dimensions.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "Different dimensions (age vs behavior).",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "appreciate humor and authenticity",
+          "continuity": "Different dimensions.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "young (18-30)",
+          "continuity": "Different dimensions (interest vs age).",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Implausible.",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "globally-minded",
+          "continuity": "Both describe orientation toward world / cultures. The interest in learning about cultures is a manifestation of being globally-minded.",
+          "scope": "Both are about the global/intercultural orientation. Pre is one expression of that orientation.",
+          "frame": "Pre: interest-as-behavior (learning). Post: orientation-as-identity (mindset).",
+          "stretch": "Plausible.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "want to explore new cultures, languages, and experiences",
+          "continuity": "Strong lineage \u2014 both express desire to engage with new cultures/places.",
+          "scope": "Pre: cultures and places. Post: cultures, languages, AND experiences (broadened).",
+          "frame": "Same conceptual frame (curiosity/engagement with the world).",
+          "stretch": "Plausible.",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "appreciate humor and authenticity",
+          "continuity": "Different axes; no direct lineage.",
+          "scope": "Different.",
+          "frame": "Different.",
+          "stretch": "Weak.",
+          "verdict": "weak"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Male and female",
+          "post": "globally-minded",
+          "reason": "Different demographic dimensions (sex vs psychographic orientation); implausible pairing."
+        },
+        {
+          "pre": "Male and female",
+          "post": "want to explore new cultures, languages, and experiences",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "Male and female",
+          "post": "appreciate humor and authenticity",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "from all over the world",
+          "post": "young (18-30)",
+          "reason": "Geographic descriptor vs age band; different dimensions."
+        },
+        {
+          "pre": "from all over the world",
+          "post": "appreciate humor and authenticity",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "globally-minded",
+          "reason": "Age vs psychographic orientation; different dimensions."
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "want to explore new cultures, languages, and experiences",
+          "reason": "Age vs behavioral aspiration; different dimensions."
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "appreciate humor and authenticity",
+          "reason": "Age vs psychographic; different dimensions."
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "young (18-30)",
+          "reason": "Different dimensions; no shared role."
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "appreciate humor and authenticity",
+          "reason": "Different axes; no shared role."
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "aged 18-25",
+          "post": "young (18-30)",
+          "basis": "Same demographic attribute (age); POST broadens the upper bound (25\u219230), so 18-25 is a subset of 18-30. Classic scope expansion."
+        },
+        {
+          "pre": "from all over the world",
+          "post": "globally-minded",
+          "basis": "Both refer to global orientation; PRE is geographic/demographic, POST is psychographic/attitudinal. Conceptual lineage with shifted frame."
+        },
+        {
+          "pre": "interested in learning about new cultures and new places",
+          "post": "want to explore new cultures, languages, and experiences",
+          "basis": "Same core interest (engagement with new cultures/places); POST broadens the seed by adding languages and experiences and uses 'explore' instead of 'learning'."
+        }
+      ],
+      "unmatched_pre": [
+        "Male and female"
+      ],
+      "unmatched_post": [
+        "appreciate humor and authenticity"
+      ],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearest_counterpart": "young (18-30)",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest counterpart is 'young (18-30)', which is an age descriptor. 'Male and female' is a sex descriptor. Different demographic dimensions. Narrowed fails (sex is not a subset of age). Reframed fails (no shared frame \u2014 sex vs age). Elaborated and Expanded fail (no shared concept to add detail to or broaden). No defensible lineage."
+        },
+        {
+          "concept": "appreciate humor and authenticity",
+          "direction": "new",
+          "nearest_counterpart": "Male and female",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Nearest PRE counterpart is 'Male and female' (a sex descriptor). 'Appreciate humor and authenticity' is a psychographic / value orientation. Different conceptual domains (demographic vs psychographic). Narrowed/Reframed/Elaborated/Expanded all fail. No defensible lineage."
+        },
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearest_counterpart": "globally-minded",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Alternative nearest counterpart test. 'Globally-minded' is psychographic. 'Male and female' is demographic sex. No lineage defensible."
+        },
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearest_counterpart": "want to explore new cultures, languages, and experiences",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Sex descriptor vs behavioral aspiration; no shared role."
+        },
+        {
+          "concept": "Male and female",
+          "direction": "removed",
+          "nearest_counterpart": "appreciate humor and authenticity",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Demographic sex vs value preference; different domains."
+        },
+        {
+          "concept": "appreciate humor and authenticity",
+          "direction": "new",
+          "nearest_counterpart": "interested in learning about new cultures and new places",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "Pre is an interest in cultures/places (intercultural curiosity). Post is valuing humor and authenticity (general psychographic values). Both are psychographic, but the specific content differs \u2014 intercultural learning does not subsume or refame humor/authenticity, nor is humor/authenticity a subset, elaboration, or expansion of interest in cultures. No defensible lineage at any tier."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "POST adds one meaningful psychographic attribute ('appreciate humor and authenticity') that has no antecedent in PRE. The other PRE descriptors are retained or broadened, but the addition of this new dimension and the slightly longer phrasing constitute a modest structural expansion. Not significant because only one genuinely new clause-level addition is present; the rest is refinement of existing categories."
+    },
+    "semantic_events": [
+      {
+        "code": "Expanded",
+        "pre_evidence": "aged 18-25",
+        "post_evidence": "young (18-30)",
+        "rationale": "POST broadens the age upper bound from 25 to 30. 18-25 is a proper subset of 18-30, so POST is an expansion of the same demographic attribute. The lower bound (18) and the framing of the age band are retained.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "from all over the world",
+        "post_evidence": "globally-minded",
+        "rationale": "Pre-frame: geographic / demographic (customers literally come from everywhere). Post-frame: psychographic / attitudinal (customers identify with or are oriented toward global perspectives). The same broad territory (global orientation) persists but is reconceived from a demographic fact to a mindset. Subsumption test fails \u2014 being from all over the world is not a specific way of being globally-minded (you can be globally-minded without being from everywhere).",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "interested in learning about new cultures and new places",
+        "post_evidence": "want to explore new cultures, languages, and experiences",
+        "rationale": "POST keeps the core interest in new cultures/places and broadens it by adding 'languages' and 'experiences' as additional objects of curiosity, and by switching from 'learning about' to 'explore'. The pre seed (interest in new cultures/places) is identifiable and has grown in scope.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Male and female",
+        "post_evidence": null,
+        "rationale": "The sex descriptor (Male and female) is no longer present in POST and has no defensible successor. The nearest POST units (young 18-30, globally-minded, want to explore..., appreciate humor and authenticity) all concern different demographic/psychographic dimensions. Sex is not subsumed, reframed, elaborated, or expanded by any POST unit. Full-response search performed; no lineage defensible.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "appreciate humor and authenticity",
+        "rationale": "This psychographic value orientation (humor and authenticity) has no antecedent in PRE. Nearest PRE counterparts (Male and female, from all over the world, aged 18-25, interested in new cultures/places) all concern different attributes; none subsumes, reframes, elaborates, or expands into humor/authenticity. Full-response search performed.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [
+      {
+        "code": "Metacognition",
+        "evidence": "I am thinking about young (18-30), globally-minded people who want to explore new cultures, languages, and experiences but also appreciate humor and authenticity",
+        "rationale": "The student uses the explicit metacognitive phrase 'I am thinking about', foregrounding their own reflective stance on the target customer definition rather than simply declaring it.",
+        "confidence": "medium"
+      }
+    ],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [
+        "neighborhood_tested_no_lineage"
+      ],
+      "coder_notes": "Three transformations (Expanded, Reframed, Expanded) plus a Removed + New pair for the sex descriptor and the humor/authenticity addition. The Removed (Male and female) reflects that sex is no longer specified; the New (humor and authenticity) reflects the addition of a new psychographic dimension. The 'I am thinking about' phrasing in POST registers as a low-strength metacognitive signal. No structural significance beyond the addition of one psychographic dimension."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "aged 18-25",
+        "post": "young (18-30)",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "The age range broadens from 18-25 to 18-30 while retaining the same demographic frame."
+      },
+      {
+        "type": "confirm",
+        "pre": "from all over the world",
+        "post": "globally-minded",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Global orientation persists but shifts from a geographic fact to an attitudinal frame; neither concept subsumes the other."
+      },
+      {
+        "type": "confirm",
+        "pre": "interested in learning about new cultures and new places",
+        "post": "want to explore new cultures, languages, and experiences",
+        "from_code": "Expanded",
+        "to_code": "Expanded",
+        "reason": "The curiosity frame is retained and its scope expands to include languages and experiences."
+      },
+      {
+        "type": "confirm",
+        "pre": "Male and female",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "No remaining POST unit concerns sex; age, global orientation, exploratory interests, humor, and authenticity are different attributes."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "appreciate humor and authenticity",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "No unmatched PRE concept is a defensible antecedent; humor and authenticity are a new psychographic value preference."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "aged 18-25",
+        "post": "young (18-30)",
+        "basis": "The age category is retained and its upper bound expands from 25 to 30."
+      },
+      {
+        "pre": "from all over the world",
+        "post": "globally-minded",
+        "basis": "Global orientation is reframed from geographic provenance to an attitudinal outlook."
+      },
+      {
+        "pre": "interested in learning about new cultures and new places",
+        "post": "want to explore new cultures, languages, and experiences",
+        "basis": "Intercultural curiosity is retained and broadened to additional domains of exploration."
+      }
+    ],
+    "unmatched_pre": [
+      "Male and female"
+    ],
+    "unmatched_post": [
+      "appreciate humor and authenticity"
+    ],
+    "semantic_events": [
+      {
+        "code": "Expanded",
+        "pre_evidence": "aged 18-25",
+        "post_evidence": "young (18-30)",
+        "rationale": "The age category broadens from 18-25 to 18-30 while retaining the same demographic frame.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Reframed",
+        "pre_evidence": "from all over the world",
+        "post_evidence": "globally-minded",
+        "rationale": "The global-orientation territory persists, but the frame changes from geographic provenance to an attitudinal outlook; subsumption does not hold.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Expanded",
+        "pre_evidence": "interested in learning about new cultures and new places",
+        "post_evidence": "want to explore new cultures, languages, and experiences",
+        "rationale": "The core curiosity about cultures and places is retained and expands to include languages and experiences.",
+        "alternative_considered": "Elaborated",
+        "confidence": "high"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Male and female",
+        "post_evidence": null,
+        "rationale": "No remaining POST unit expresses the sex dimension or is a defensible transformation of it.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      },
+      {
+        "code": "New",
+        "pre_evidence": null,
+        "post_evidence": "appreciate humor and authenticity",
+        "rationale": "No unmatched PRE concept is a defensible antecedent; this is a new psychographic value preference.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

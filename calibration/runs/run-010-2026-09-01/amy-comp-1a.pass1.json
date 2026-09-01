@@ -1,0 +1,217 @@
+{
+  "coding_unit": {
+    "student_id": "amy",
+    "item_id": "comp-1a"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "artsy",
+      "camp",
+      "comfort"
+    ],
+    "post_concepts": [
+      "Shoes brand based on comfort and style",
+      "high heels at the forefront"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "artsy",
+        "post": "Shoes brand based on comfort and style",
+        "continuity": "artsy is an aesthetic/creative descriptor; the post describes a brand category and two qualities (comfort, style). No direct conceptual overlap.",
+        "scope": "artsy concerns an expressive/aesthetic sensibility; post defines category + functional qualities",
+        "frame": "pre-frame: aesthetic identity; post-frame: product category + dual-quality positioning",
+        "stretch": "artsy might loosely relate to 'style' as a stylistic notion, but artsy implies creative/artistic orientation whereas 'style' is a general design/appearance quality",
+        "verdict": "weak"
+      },
+      {
+        "pre": "artsy",
+        "post": "high heels at the forefront",
+        "continuity": "artsy concerns creative/aesthetic identity; high heels is a specific product focal point",
+        "scope": "artsy is an identity descriptor; high heels is a specific product type",
+        "frame": "pre-frame: aesthetic identity; post-frame: product focus",
+        "stretch": "artsy could be read as expressive but high heels as a specific category is not a subtype of artsy",
+        "verdict": "weak"
+      },
+      {
+        "pre": "camp",
+        "post": "Shoes brand based on comfort and style",
+        "continuity": "camp is an aesthetic sensibility (deliberately stylized, theatrical); post describes product category with two qualities",
+        "scope": "camp is identity/aesthetic; post is category + quality positioning",
+        "frame": "pre-frame: aesthetic sensibility; post-frame: product category + qualities",
+        "stretch": "camp and 'style' might both relate to fashion sensibility but camp implies a specific ironic/theatrical mode that 'style' does not convey",
+        "verdict": "weak"
+      },
+      {
+        "pre": "camp",
+        "post": "high heels at the forefront",
+        "continuity": "camp is aesthetic identity; high heels is a specific product type",
+        "scope": "different levels of abstraction",
+        "frame": "aesthetic identity vs product focus",
+        "stretch": "high heels is not a subtype of camp; no conceptual lineage defensible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "comfort",
+        "post": "Shoes brand based on comfort and style",
+        "continuity": "comfort is one of the two explicit bases named in the post",
+        "scope": "comfort is a quality; in post it is preserved as one of the named foundations",
+        "frame": "pre-frame: standalone descriptor; post-frame: integrated into a product category positioning",
+        "stretch": "comfort is preserved verbatim in the post; the post elaborates the surrounding context (shoes brand, paired with style)",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "comfort",
+        "post": "high heels at the forefront",
+        "continuity": "comfort is a quality; high heels is a product type",
+        "scope": "different conceptual levels",
+        "frame": "quality vs product category",
+        "stretch": "high heels is not a more specific way of being comfortable; in fact high heels are typically associated with low comfort, weakening lineage further",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "camp",
+        "post": "high heels at the forefront",
+        "reason": "camp is an aesthetic sensibility; high heels is a specific product category. Different conceptual domains. No defensible transformation."
+      },
+      {
+        "pre": "comfort",
+        "post": "high heels at the forefront",
+        "reason": "comfort is a quality; high heels is a product type. Different conceptual domains. Moreover high heels conventionally contradict comfort, so no lineage defensible."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "comfort",
+        "post": "Shoes brand based on comfort and style",
+        "basis": "comfort is preserved verbatim as one of the two named foundations of the post-response; the post adds a product category (shoes brand) and a paired quality (style). This is a framing elaboration within the same quality territory."
+      }
+    ],
+    "unmatched_pre": [
+      "artsy",
+      "camp"
+    ],
+    "unmatched_post": [
+      "high heels at the forefront"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "artsy",
+        "direction": "removed",
+        "nearest_counterpart": "Shoes brand based on comfort and style",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested Narrowed: 'Shoes brand based on comfort and style is a specific way of being artsy' \u2014 FALSE; comfort/style is not a subtype of artsy. Tested Reframed: artsy concerns an aesthetic/creative sensibility while the post concerns product category + functional qualities; territory only topically adjacent (style/aesthetic). Tested Elaborated: post does not keep artsy intact. Tested Expanded: no identifiable broadening of an artsy seed. All four fail; artsy is genuinely absent."
+      },
+      {
+        "concept": "camp",
+        "direction": "removed",
+        "nearest_counterpart": "Shoes brand based on comfort and style",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested Narrowed: 'Shoes brand based on comfort and style is a specific way of being camp' \u2014 FALSE; the post is not a theatrical/ironic mode. Tested Reframed: camp is a specific aesthetic sensibility (theatrical, stylized) while post names a product category and two qualities; only topical adjacency at the level of 'fashion/aesthetic'. Tested Elaborated: post does not keep camp intact. Tested Expanded: no identifiable broadening of camp. All four fail; camp is genuinely absent."
+      },
+      {
+        "concept": "high heels at the forefront",
+        "direction": "new",
+        "nearest_counterpart": "artsy",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested Narrowed: 'High heels at the forefront is a specific way of being artsy' \u2014 FALSE; a product focus is not a subtype of an aesthetic sensibility. Tested Reframed: artsy concerns creative identity; high heels concerns product specificity; different conceptual domains. Tested Elaborated: post does not keep artsy intact. Tested Expanded: no identifiable broadening of artsy into a product focus. All four fail."
+      },
+      {
+        "concept": "high heels at the forefront",
+        "direction": "new",
+        "nearest_counterpart": "comfort",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested Narrowed: high heels is a product type, not a more specific way of being comfortable; conventionally the opposite. Tested Reframed: different conceptual domains (product category vs quality). Tested Elaborated: does not keep comfort intact. Tested Expanded: does not broaden comfort. All four fail."
+      },
+      {
+        "concept": "high heels at the forefront",
+        "direction": "new",
+        "nearest_counterpart": "camp",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Tested Narrowed: high heels is not a specific way of being camp. Tested Reframed: product category vs aesthetic sensibility; different conceptual domains. Tested Elaborated: does not keep camp intact. Tested Expanded: does not broaden camp. All four fail."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The pre-response is a short three-descriptor list. The post-response introduces a product category (shoes brand), names a second quality (style), and specifies a product focal point (high heels). This adds meaningful content beyond what was present while retaining the comfort descriptor. The expansion is contained to a few added clauses rather than multiple new explanatory passages, so Moderate Addition fits better than Significant Addition."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "comfort",
+      "post_evidence": "Shoes brand based on comfort and style",
+      "rationale": "The pre descriptor 'comfort' is preserved verbatim in the post and is integrated into a broader product category positioning that adds a paired quality (style) and product context. This adds detail within the same conceptual frame of comfort as a brand quality without shifting its meaning.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "artsy",
+      "post_evidence": null,
+      "rationale": "No POST concept serves as a successor for the PRE aesthetic/creative descriptor 'artsy'. The post is framed around product category and functional qualities. Mandatory re-check against all POST concepts failed across all four transformation codes (see new_removed_recheck).",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "camp",
+      "post_evidence": null,
+      "rationale": "No POST concept serves as a successor for the PRE aesthetic sensibility 'camp'. The post names product category and qualities rather than an aesthetic mode. Mandatory re-check against all POST concepts failed across all four transformation codes (see new_removed_recheck).",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "high heels at the forefront",
+      "rationale": "The post introduces a specific product focal point (high heels) with no meaningful antecedent in the pre-response. Mandatory re-check against artsy, comfort, and camp failed across all four transformation codes (see new_removed_recheck).",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "neighborhood_tested_no_lineage",
+      "possible_stylistic_rewrite"
+    ],
+    "coder_notes": "The 'comfort' elaboration is the most defensible event. Removed and New events survived the mandatory re-check, but the weakness of the lineage between the aesthetic PRE descriptors (artsy, camp) and the product-focused POST is notable. The Elaboration could alternatively be read as Reframed since the post pairs comfort with a new organizing frame (product category + style); however, comfort as a quality is preserved intact, so Elaborated is the dominant direction. Flagged for calibration review."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

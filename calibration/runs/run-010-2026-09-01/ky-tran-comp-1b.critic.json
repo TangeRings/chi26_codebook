@@ -1,0 +1,73 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "help wake up easily",
+      "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Expanded is correct: the functional ease-of-waking seed is preserved and broadened to multiple outcomes plus sleep\u2013wake cycle scope. Elaborated would understate the scope extension."
+    },
+    {
+      "type": "confirm",
+      "pre": "sunlight built-in feature",
+      "post": "make better sleep and wake-up experiences affordable and accessible",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Reframed is correct: feature-centric frame \u2192 purpose/accessibility-centric frame. Subsumption fails ('sunlight built-in feature is a specific way of being sleep/wake experiences' is FALSE), so Narrowed is wrong. Same subject (brand role in sleep/wake), different organizing frame."
+    },
+    {
+      "type": "confirm",
+      "pre": "make a clock",
+      "post": "make better sleep and wake-up experiences affordable and accessible",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Subsumption test: 'a clock is a specific way of delivering sleep and wake-up experiences' is TRUE. PRE is a concrete product instance; POST lifts to the experience category. Narrowed is correct; alternative Expanded was correctly rejected since the frame shifts from product-instance to purpose-oriented category."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "make a clock",
+      "post": "make better sleep and wake-up experiences affordable and accessible",
+      "basis": "A clock is a specific product realization of the broader sleep/wake-up experience category. Subsumption holds."
+    },
+    {
+      "pre": "sunlight built-in feature",
+      "post": "make better sleep and wake-up experiences affordable and accessible",
+      "basis": "Feature-centric frame reconceived as purpose/accessibility-centric positioning within the same sleep/wake subject."
+    },
+    {
+      "pre": "help wake up easily",
+      "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+      "basis": "Functional ease-of-waking outcome is preserved and broadened to multiple outcomes and the full sleep\u2013wake cycle."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "make a clock",
+      "post_evidence": "make better sleep and wake-up experiences affordable and accessible",
+      "rationale": "A clock is a specific way of delivering sleep and wake-up experiences (subsumption TRUE). PRE is a concrete product instance; POST lifts to the broader experience category it serves. PRE 'make a clock' is the generic product-level seed; POST narrows the scope up to purpose while the product-as-instance relation is preserved.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "sunlight built-in feature",
+      "post_evidence": "make better sleep and wake-up experiences affordable and accessible",
+      "rationale": "Feature-centric / engineering specification frame is reconceived as purpose-centric / mission-and-access positioning. Same subject (brand's role in sleep/wake), different organizing frame. Subsumption fails.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "help wake up easily",
+      "post_evidence": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+      "rationale": "The functional ease-of-waking seed is preserved and broadened to multiple outcomes (refreshed, productive, aligned with natural rhythms) plus extended to the full sleep\u2013wake cycle.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    }
+  ]
+}

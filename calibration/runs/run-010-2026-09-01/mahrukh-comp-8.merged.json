@@ -1,0 +1,221 @@
+{
+  "coding_unit": {
+    "student_id": "mahrukh",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "jewellery",
+      "zodiac"
+    ],
+    "post_concepts": [
+      "self-expressive",
+      "minimalistic",
+      "maybe work jewellery"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "jewellery",
+        "post": "self-expressive",
+        "continuity": "weak \u2014 jewellery is a product category; self-expressive is a design/aesthetic orientation",
+        "scope": "different scopes (product vs aesthetic)",
+        "frame": "product-frame \u2192 expression-frame",
+        "stretch": "high; no direct conceptual continuity",
+        "verdict": "weak"
+      },
+      {
+        "pre": "jewellery",
+        "post": "minimalistic",
+        "continuity": "weak \u2014 jewellery as product vs minimalism as design style",
+        "scope": "different scopes",
+        "frame": "product-frame \u2192 style-frame",
+        "stretch": "high",
+        "verdict": "weak"
+      },
+      {
+        "pre": "jewellery",
+        "post": "maybe work jewellery",
+        "continuity": "strong \u2014 same product category, hedged in POST",
+        "scope": "same product, now tentative",
+        "frame": "product category \u2192 same product with uncertainty",
+        "stretch": "low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "zodiac",
+        "post": "self-expressive",
+        "continuity": "moderate \u2014 zodiac is a thematic motif linked to personal identity",
+        "scope": "thematic motif \u2192 broader self-expression orientation",
+        "frame": "motif-frame \u2192 expression-frame",
+        "stretch": "moderate",
+        "verdict": "weak"
+      },
+      {
+        "pre": "zodiac",
+        "post": "minimalistic",
+        "continuity": "weak \u2014 zodiac motif vs minimalist design",
+        "scope": "different",
+        "frame": "motif-frame \u2192 style-frame",
+        "stretch": "high",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "zodiac",
+        "post": "maybe work jewellery",
+        "continuity": "weak \u2014 zodiac as a thematic anchor does not map to hedged jewellery",
+        "scope": "different",
+        "frame": "motif-frame \u2192 product-frame with hedge",
+        "stretch": "high",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "zodiac",
+        "post": "minimalistic",
+        "reason": "different conceptual domains (thematic motif vs design style); no defensible lineage"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "jewellery",
+        "post": "maybe work jewellery",
+        "basis": "same product category retained; POST adds epistemic hedging, shifting the organizing frame from confident category to tentative offering"
+      }
+    ],
+    "unmatched_pre": [
+      "zodiac"
+    ],
+    "unmatched_post": [
+      "self-expressive",
+      "minimalistic"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "zodiac",
+        "direction": "removed",
+        "nearest_counterpart": "self-expressive",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "zodiac is a specific thematic motif (astrology-based personal-identity anchor). self-expressive is a broader aesthetic orientation. Narrowed: 'self-expressive is a specific way of being zodiac' \u2014 false. Reframed: shared self-expression/identity neighborhood but the frames differ (motif of astrology vs generic aesthetic of self-expression); subsumption fails and the organizing frame shift is from a content-domain motif to a design philosophy. Could be argued as Reframed but the leap from astrological zodiac motif to generic self-expressive aesthetic is more substitution than reconception. Elaborated: POST does not keep zodiac intact. Expanded: POST does not broaden zodiac into a wider concept \u2014 it drops the motif and replaces with a different orientation. After testing, the zodiac motif is genuinely absent from POST without a clear successor; kept as Removed."
+      },
+      {
+        "concept": "self-expressive",
+        "direction": "new",
+        "nearest_counterpart": "zodiac",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "self-expressive is a design/aesthetic orientation. Nearest PRE antecedent is zodiac (a thematic motif). Narrowed: self-expressive is not a specific way of being zodiac. Reframed: same broad identity neighborhood, but zodiac is a content motif while self-expressive is a design philosophy \u2014 organizing frame is not just shifted but reconceived; the lexical and conceptual link is loose. Elaborated: POST does not retain zodiac. Expanded: zodiac does not seed self-expression in any clear way. No defensible transformation; kept as New."
+      },
+      {
+        "concept": "minimalistic",
+        "direction": "new",
+        "nearest_counterpart": "jewellery",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "minimalistic is a design aesthetic. Nearest PRE antecedent is jewellery (product category). Narrowed: minimalist is not a specific way of being jewellery. Reframed: jewellery and minimalism are different conceptual domains (product vs style). Elaborated: POST does not retain jewellery as its primary subject \u2014 it pairs it with self-expressive. Expanded: no seed in PRE for a minimalist aesthetic. No defensible transformation; kept as New."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "jewellery",
+        "post": "maybe work jewellery",
+        "from_code": "Reframed",
+        "to_code": "Reframed",
+        "reason": "Pass-1 reasoning is sound. The product category 'jewellery' is retained but its epistemic status shifts from a confident category to a hedged possibility \u2014 same underlying product, shifted organizing frame. Elaborated would require POST to retain the product frame and merely add detail, but here the framing change (confident \u2192 tentative offering) is the substantive shift. Reframed is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "zodiac",
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Pass-1 correctly tested lineage. Zodiac is a specific astrological content motif; its nearest counterpart is self-expressive, which is a generic aesthetic orientation. Subsumption fails. While both touch personal identity, the organizing frames differ (thematic content motif vs design philosophy) \u2014 zodiac does not seed self-expression, and self-expression is not a reframing of zodiac so much as a different orientation. No defensible transformation; Removed stands."
+      },
+      {
+        "type": "confirm",
+        "pre": "zodiac",
+        "post": null,
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Self-expressive has no defensible PRE antecedent. Zodiac is the nearest counterpart but fails all four ladder tiers as documented. The identity neighborhood is above the abstraction ceiling for this pair \u2014 both can be claimed to touch self-presentation but that umbrella proves nothing. No lineage to restore."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "minimalistic",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Minimalistic has no defensible PRE antecedent. Jewellery is a product category; minimalism is a design aesthetic \u2014 different conceptual domains. No shared neighborhood at a specific level. The style/product pairing is a category error, not a transformation. New stands."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "PRE is a terse two-item product list ('jewellry, zodiac'). POST adds an aesthetic framing ('Self-expressive but minimalistic') while carrying forward (with hedging) the jewellery item. The response gains a clause-level design orientation that was absent in PRE, while losing the zodiac motif. Net result: one or two meaningful clauses added \u2014 a Moderate Addition."
+  },
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "jewellery",
+      "post_evidence": "maybe work jewellery",
+      "rationale": "The underlying product category is preserved, but the organizing frame shifts: PRE presents jewellery as a confident product offering, while POST re-frames it as a tentative possibility ('maybe work jewellery'). The epistemic status changes while the product identity persists \u2014 a shift in framing, not a change of category or added detail.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "zodiac",
+      "post_evidence": null,
+      "rationale": "The zodiac astrological motif is absent from POST with no defensible successor. Nearest counterpart 'self-expressive' tested across all ladder tiers: subsumption fails, reframing requires a shared organizing frame but zodiac (content motif) and self-expressive (design philosophy) are different frames, elaboration requires retaining zodiac, expansion requires zodiac to seed a broader concept. No defensible transformation; zodiac is genuinely dropped.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "self-expressive",
+      "rationale": "A self-expressive design orientation appears in POST with no antecedent in PRE. Nearest PRE counterpart 'zodiac' tested and rejected: zodiac is a specific astrological content motif, not a seed for a generic aesthetic philosophy. The identity-adjacent territory shared between them is at the abstraction ceiling and does not establish lineage.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "minimalistic",
+      "rationale": "A minimalist design aesthetic is introduced in POST with no antecedent in PRE. Nearest PRE counterpart 'jewellery' is a product category; minimalism is a style aesthetic. Different conceptual domains; no shared semantic neighborhood at a specific level. No defensible transformation.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_remove_vs_reframe",
+      "boundary_case_expand_vs_new",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "The zodiac\u2192self-expressive pair is arguable as Reframed given a shared identity/self-expression neighborhood, but the leap from an astrological content motif to a generic aesthetic orientation stretches the frame shift beyond a clean reconception. Recorded as Removed+New with the Reframed alternative noted. The jewellery\u2192maybe-work-jewellery pair is borderline Reframed vs Elaborated; the hedge ('Maybe') changes the status of the offering rather than elaborating the product itself, so Reframed is the better-supported verdict. Critic applied 4 correction(s)."
+  },
+  "coded_at": "2026-01-15T12:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

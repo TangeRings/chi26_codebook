@@ -1,0 +1,43 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+      "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Exact preservation; pass-1 alignment with no semantic change is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "SSENSE for direct sales and luxury positioning",
+      "post": "SSENSE for direct sales and luxury positioning",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Exact preservation; pass-1 alignment with no semantic change is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": null,
+      "to_code": null,
+      "reason": "No provisional New or Removed events exist; nothing to recover and no cross-domain pairings to reject."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Instagram, TikTok, and Pinterest for branding and engagement",
+      "post": "Instagram, TikTok, and Pinterest for branding and engagement",
+      "basis": "Exact preservation of the content-platform set and branding/engagement function"
+    },
+    {
+      "pre": "SSENSE for direct sales and luxury positioning",
+      "post": "SSENSE for direct sales and luxury positioning",
+      "basis": "Exact preservation of the commerce platform and direct-sales/luxury-positioning function"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

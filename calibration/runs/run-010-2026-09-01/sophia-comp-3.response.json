@@ -1,0 +1,345 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "PRE and POST responses are character-for-character identical. No clauses, phrases, or sentences have been added or removed.",
+    "conceptAlignment": {
+      "unitizationMode": "scoped_category",
+      "preConcepts": [
+        "Female students",
+        "aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "postConcepts": [
+        "Female students",
+        "aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Female students",
+          "post": "Female students",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "aged 18-25",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [],
+      "matchedPairs": [
+        {
+          "pre": "Female students",
+          "post": "Female students",
+          "basis": "verbatim identity"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "aged 18-25",
+          "basis": "verbatim identity"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "basis": "verbatim identity"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Female students",
+          "post": "Female students",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+        },
+        {
+          "type": "confirm",
+          "pre": "aged 18-25",
+          "post": "aged 18-25",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+        },
+        {
+          "type": "confirm",
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+        }
+      ]
+    },
+    "semanticChanges": [],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coderNotes": "Pre and post responses are identical. No semantic events to code; structural development is No Change. Critic applied 3 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "Female students",
+        "aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "post_concepts": [
+        "Female students",
+        "aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Female students",
+          "post": "Female students",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "aged 18-25",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "Female students",
+          "post": "Female students",
+          "basis": "verbatim identity"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "aged 18-25",
+          "basis": "verbatim identity"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "basis": "verbatim identity"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Female students",
+          "post": "Female students",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+        },
+        {
+          "type": "confirm",
+          "pre": "aged 18-25",
+          "post": "aged 18-25",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+        },
+        {
+          "type": "confirm",
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "PRE and POST responses are character-for-character identical. No clauses, phrases, or sentences have been added or removed."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "Pre and post responses are identical. No semantic events to code; structural development is No Change. Critic applied 3 correction(s)."
+    },
+    "coded_at": "2026-01-23T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "sophia",
+      "item_id": "comp-3"
+    },
+    "concept_alignment": {
+      "unitization_mode": "scoped_category",
+      "pre_concepts": [
+        "Female students",
+        "aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "post_concepts": [
+        "Female students",
+        "aged 18-25",
+        "interested in safe Pilates equipment"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Female students",
+          "post": "Female students",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "aged 18-25",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "continuity": "identical",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "Female students",
+          "post": "Female students",
+          "basis": "verbatim identity"
+        },
+        {
+          "pre": "aged 18-25",
+          "post": "aged 18-25",
+          "basis": "verbatim identity"
+        },
+        {
+          "pre": "interested in safe Pilates equipment",
+          "post": "interested in safe Pilates equipment",
+          "basis": "verbatim identity"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "PRE and POST responses are character-for-character identical. No clauses, phrases, or sentences have been added or removed."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "Pre and post responses are identical. No semantic events to code; structural development is No Change."
+    },
+    "coded_at": "2026-01-23T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Female students",
+        "post": "Female students",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+      },
+      {
+        "type": "confirm",
+        "pre": "aged 18-25",
+        "post": "aged 18-25",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+      },
+      {
+        "type": "confirm",
+        "pre": "interested in safe Pilates equipment",
+        "post": "interested in safe Pilates equipment",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Female students",
+        "post": "Female students",
+        "basis": "verbatim identity"
+      },
+      {
+        "pre": "aged 18-25",
+        "post": "aged 18-25",
+        "basis": "verbatim identity"
+      },
+      {
+        "pre": "interested in safe Pilates equipment",
+        "post": "interested in safe Pilates equipment",
+        "basis": "verbatim identity"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": []
+  },
+  "skipCritic": false
+}

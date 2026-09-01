@@ -1,0 +1,84 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "comfort",
+      "post": "Shoes brand based on comfort and style",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "comfort is preserved verbatim in the post and only adds product category context and a paired quality (style). Same underlying category, modifiers/context added. Per BC-P001, this is Elaborated, not Reframed. Pass-1 is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "artsy",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Tested against all POST units. artsy is an aesthetic/creative sensibility; neither 'Shoes brand based on comfort and style' nor 'high heels at the forefront' is a specific way of being artsy, a sibling territory, an elaboration, or an expansion. The only adjacency is the abstraction-ceiling umbrella of 'style/aesthetic' which proves nothing. Genuine Removed."
+    },
+    {
+      "type": "confirm",
+      "pre": "camp",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Tested against all POST units. camp is a specific ironic/theatrical aesthetic mode. Neither post concept is a specific way of being camp, a sibling frame, an elaboration, or an expansion. Adjacency to 'fashion/aesthetic' is at the abstraction ceiling only. Genuine Removed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "high heels at the forefront",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Tested against all PRE units. High heels is a specific product focal point; not a subtype, sibling frame, elaboration, or expansion of artsy/camp/comfort. The camp\u2194high heels candidate was implausible on its face. Genuine New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "comfort",
+      "post": "Shoes brand based on comfort and style",
+      "basis": "comfort is preserved verbatim as one of the two named foundations of the post-response; the post adds product category (shoes brand) and a paired quality (style). Same underlying category with added context/modifiers."
+    }
+  ],
+  "unmatched_pre": [
+    "artsy",
+    "camp"
+  ],
+  "unmatched_post": [
+    "high heels at the forefront"
+  ],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "comfort",
+      "post_evidence": "Shoes brand based on comfort and style",
+      "rationale": "comfort is preserved verbatim in the post and integrated into a product-category positioning that adds a paired quality (style) and product context (shoes brand). The underlying category is intact; only surrounding context is added.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "artsy",
+      "post_evidence": null,
+      "rationale": "No POST concept is a successor for the aesthetic/creative descriptor 'artsy'. Tested Narrowed, Reframed, Elaborated, and Expanded against all POST concepts. Only adjacency is the broad 'style/aesthetic' umbrella, which is above the abstraction ceiling.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "camp",
+      "post_evidence": null,
+      "rationale": "No POST concept is a successor for the theatrical/ironic aesthetic mode 'camp'. Tested Narrowed, Reframed, Elaborated, and Expanded against all POST concepts. Only adjacency is at the abstraction ceiling ('fashion/aesthetic').",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "high heels at the forefront",
+      "rationale": "The post introduces a specific product focal point (high heels) with no defensible antecedent in the pre-response. Tested Narrowed, Reframed, Elaborated, and Expanded against artsy, comfort, and camp \u2014 all fail.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ]
+}

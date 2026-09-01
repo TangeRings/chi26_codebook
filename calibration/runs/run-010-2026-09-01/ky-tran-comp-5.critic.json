@@ -1,0 +1,79 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "no idea (absence of niche conception)",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Pass 1 is correct. PRE expresses epistemic absence of any niche conception. POST set contains three specific audience segments but none reconceives 'absence of niche.' No subsumption, no shared audience frame, no identifiable seed to narrow, reframe, elaborate, or expand. The concept genuinely shifted from non-conception to three concrete subgroups \u2014 these are genuinely new relative to an absent antecedent."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "shift workers",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass 1 is correct. Nearest PRE antecedent ('no idea') is an epistemic absence, not a vague audience. Shift workers is the first concrete niche segment \u2014 no transformation defensible across different conceptual domains (absence of conception vs occupational audience)."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "people without access to direct sunlight",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass 1 is correct. Same reasoning as shift workers \u2014 PRE's absence-of-niche cannot be narrowed, reframed, elaborated, or expanded into this environmental-access audience segment."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "tech workers exposed to blue light",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Pass 1 is correct. Same reasoning \u2014 occupational-exposure audience is a genuinely new niche segment relative to epistemic absence in PRE."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "no idea (absence of niche conception)"
+  ],
+  "unmatched_post": [
+    "shift workers",
+    "people without access to direct sunlight",
+    "tech workers exposed to blue light"
+  ],
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "no idea",
+      "post_evidence": null,
+      "rationale": "Student reported having no conception of a niche in PRE. This is epistemic absence, not a vague audience. No POST unit is a reconception of that absence \u2014 POST contains three specific audience segments that constitute the student's first niche ideas. No transformation defensible.",
+      "alternative_considered": "Reframed (absence reframed as audience) \u2014 rejected because PRE has no audience content to reframe.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "shift worker",
+      "rationale": "First concrete niche segment identified by the student. PRE offers no audience concept to serve as antecedent; absence of niche is not a vague audience to be narrowed or reframed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "people who live in place that dont have access to direct sunlight",
+      "rationale": "Second distinct niche segment defined by environmental access. No PRE antecedent available beyond the absence-of-niche statement.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "tech worker who expose to lots of blue light",
+      "rationale": "Third distinct niche segment defined by occupational light exposure. No PRE antecedent available beyond the absence-of-niche statement.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Instagram",
+      "post": "Instagram",
+      "from_code": null,
+      "to_code": "Unchanged",
+      "reason": "Identical platform name preserved across pre and post. No transformation needed; this is continuity, not a change event."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "TikTok",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE counterpart is eBay (commerce marketplace). TikTok is a content-based social platform. Different conceptual domains \u2014 no neighborhood. All four transformation codes fail. Confirmed New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Pinterest",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE counterpart is Noon (commerce marketplace). Pinterest is a content-based social platform. Different conceptual domains \u2014 no neighborhood. All four transformation codes fail. Confirmed New."
+    },
+    {
+      "type": "confirm",
+      "pre": "eBay",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "eBay (commerce marketplace) has no POST successor. Nearest counterpart TikTok is a different conceptual domain. No lineage defensible. Confirmed Removed."
+    },
+    {
+      "type": "confirm",
+      "pre": "Noon",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Noon (commerce marketplace) has no POST successor. Nearest counterpart Pinterest is a different conceptual domain. No lineage defensible. Confirmed Removed."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Instagram",
+      "post": "Instagram",
+      "basis": "identical platform name preserved across pre and post (continuity, not change)"
+    }
+  ],
+  "unmatched_pre": [
+    "eBay",
+    "Noon"
+  ],
+  "unmatched_post": [
+    "TikTok",
+    "Pinterest"
+  ],
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "TikTok",
+      "rationale": "TikTok (content-based social platform) has no antecedent in PRE. Nearest PRE counterpart is eBay, a commerce-based marketplace \u2014 different conceptual domain. All four transformation codes tested and failed: Narrowed fails (TikTok is not a specific way of being eBay), Reframed fails (no shared semantic territory between commerce marketplace and content social platform), Elaborated fails (POST does not keep PRE intact), Expanded fails (POST does not broaden PRE).",
+      "alternative_considered": "Reframed, but rejected \u2014 commerce marketplace vs content social platform are different domains, not sibling concepts.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Pinterest",
+      "rationale": "Pinterest (content-based social platform) has no antecedent in PRE. Nearest PRE counterpart is Noon, a commerce-based marketplace \u2014 different conceptual domain. All four transformation codes tested and failed: Narrowed fails (Pinterest is not a specific way of being Noon), Reframed fails (no shared semantic territory), Elaborated fails (POST does not keep PRE intact), Expanded fails (POST does not broaden PRE).",
+      "alternative_considered": "Reframed, but rejected \u2014 commerce marketplace vs content social platform are different domains, not sibling concepts.",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "eBay",
+      "post_evidence": null,
+      "rationale": "eBay (commerce-based marketplace platform) is absent from POST with no successor. Nearest POST counterpart is TikTok, a content-based social platform \u2014 different conceptual domain. No transformation code defensible.",
+      "alternative_considered": "Reframed, but rejected \u2014 different domains.",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "Noon",
+      "post_evidence": null,
+      "rationale": "Noon (commerce-based marketplace platform) is absent from POST with no successor. Nearest POST counterpart is Pinterest, a content-based social platform \u2014 different conceptual domain. No transformation code defensible.",
+      "alternative_considered": "Reframed, but rejected \u2014 different domains.",
+      "confidence": "high"
+    }
+  ]
+}

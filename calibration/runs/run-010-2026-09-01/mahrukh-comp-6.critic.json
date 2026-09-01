@@ -1,0 +1,61 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "instagram",
+      "post": "instagram",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical platform label; no transformation needed, same concept preserved"
+    },
+    {
+      "type": "confirm",
+      "pre": "tiktok",
+      "post": "tiktok",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical platform label; no transformation needed"
+    },
+    {
+      "type": "confirm",
+      "pre": "xhs",
+      "post": "xhs",
+      "from_code": null,
+      "to_code": null,
+      "reason": "identical platform label; no transformation needed"
+    },
+    {
+      "type": "confirm",
+      "pre": "esty",
+      "post": "etsy",
+      "from_code": null,
+      "to_code": null,
+      "reason": "typo correction (letter transposition) on the same platform; pass-1 correctly treated as identical pair via spelling normalization"
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "instagram",
+      "post": "instagram",
+      "basis": "identical platform label"
+    },
+    {
+      "pre": "tiktok",
+      "post": "tiktok",
+      "basis": "identical platform label"
+    },
+    {
+      "pre": "xhs",
+      "post": "xhs",
+      "basis": "identical platform label"
+    },
+    {
+      "pre": "esty",
+      "post": "etsy",
+      "basis": "same platform, corrected spelling (transposition typo)"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

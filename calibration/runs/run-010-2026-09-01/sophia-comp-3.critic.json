@@ -1,0 +1,48 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Female students",
+      "post": "Female students",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+    },
+    {
+      "type": "confirm",
+      "pre": "aged 18-25",
+      "post": "aged 18-25",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+    },
+    {
+      "type": "confirm",
+      "pre": "interested in safe Pilates equipment",
+      "post": "interested in safe Pilates equipment",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Verbatim identity; no transformation needed, so no semantic event fires."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Female students",
+      "post": "Female students",
+      "basis": "verbatim identity"
+    },
+    {
+      "pre": "aged 18-25",
+      "post": "aged 18-25",
+      "basis": "verbatim identity"
+    },
+    {
+      "pre": "interested in safe Pilates equipment",
+      "post": "interested in safe Pilates equipment",
+      "basis": "verbatim identity"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": []
+}

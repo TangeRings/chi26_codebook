@@ -1,0 +1,51 @@
+{
+  "coding_unit": {
+    "student_id": "ethan",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Guitar picks"
+    ],
+    "post_concepts": [
+      "Guitar picks"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Guitar picks",
+        "post": "Guitar picks",
+        "continuity": "identical product category",
+        "scope": "identical",
+        "frame": "identical",
+        "stretch": "none",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "Guitar picks",
+        "post": "Guitar picks",
+        "basis": "identical wording and identical product category; no semantic or propositional difference"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "The pre and post responses contain identical wording ('Guitar picks') with no additions, removals, or restructuring. No structural change at phrase, clause, sentence, or explanation level."
+  },
+  "semantic_events": [],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "Pre and post responses are identical ('Guitar picks'). No semantic events warranted; no structural change. No learner-agency text present."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

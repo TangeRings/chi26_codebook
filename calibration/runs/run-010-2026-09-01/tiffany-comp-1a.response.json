@@ -1,0 +1,709 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "Moderate Addition",
+    "structuralRationale": "POST preserves all three PRE descriptors as head terms but appends a bracketed qualifier to each, adding three short explanatory clauses. This is a contained adjustment \u2014 the descriptor inventory is unchanged at the head-term level, but each descriptor is elaborated with one qualifier. Not significant because no new dimension or concept is introduced; not no-change because substantive bracketed content is added to each item.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "Urban",
+        "Curated",
+        "Subversive"
+      ],
+      "postConcepts": [
+        "Urban [Eclectic and Functional for Everyday Living]",
+        "Curated [Elevated and Designer Mood]",
+        "Subversive [Thought-Provoking]"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Urban",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "continuity": "Same core descriptor preserved as head term; bracket content adds elaboration",
+          "scope": "Scope not restricted; elaboration is descriptive",
+          "frame": "Same urban frame; bracket specifies the everyday-living application",
+          "stretch": "Low \u2014 clear continuity via shared head term",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Urban",
+          "post": "Curated [Elevated and Designer Mood]",
+          "continuity": "Different descriptors; no shared head term",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Urban",
+          "post": "Subversive [Thought-Provoking]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Curated",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Curated",
+          "post": "Curated [Elevated and Designer Mood]",
+          "continuity": "Same core descriptor preserved; bracket content elaborates",
+          "scope": "Not restricted",
+          "frame": "Same curated frame; bracket specifies aesthetic register",
+          "stretch": "Low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Curated",
+          "post": "Subversive [Thought-Provoking]",
+          "continuity": "Different descriptors; no shared head term",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Curated [Elevated and Designer Mood]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Subversive [Thought-Provoking]",
+          "continuity": "Same core descriptor preserved; bracket content elaborates",
+          "scope": "Not restricted",
+          "frame": "Same subversive frame; bracket specifies the intellectual register",
+          "stretch": "Low",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Urban",
+          "post": "Curated [Elevated and Designer Mood]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Urban",
+          "post": "Subversive [Thought-Provoking]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Curated",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Curated",
+          "post": "Subversive [Thought-Provoking]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Curated [Elevated and Designer Mood]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Urban",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "basis": "Identical head term preserved; bracket content adds elaboration within same urban frame"
+        },
+        {
+          "pre": "Curated",
+          "post": "Curated [Elevated and Designer Mood]",
+          "basis": "Identical head term preserved; bracket content adds elaboration within same curated frame"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Subversive [Thought-Provoking]",
+          "basis": "Identical head term preserved; bracket content adds elaboration within same subversive frame"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Urban",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "Same head term preserved; bracket content adds descriptive modifiers within the urban frame. No scope restriction (Urban [Eclectic...] is not a subset of Urban). Subsumption holds trivially but the change is additive elaboration, not restriction. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "Curated",
+          "post": "Curated [Elevated and Designer Mood]",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "Same head term preserved; bracket content adds aesthetic-register descriptors within the curated frame. No scope restriction; elaboration only. Correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "Subversive",
+          "post": "Subversive [Thought-Provoking]",
+          "fromCode": "Elaborated",
+          "toCode": "Elaborated",
+          "reason": "Same head term preserved; bracket content specifies the intellectual mode of subversion. No scope restriction; elaboration only. Correct."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti74agxdk1235j5eqi",
+        "code": "Elaborated",
+        "preEvidence": "Urban",
+        "postEvidence": "Urban [Eclectic and Functional for Everyday Living]",
+        "rationale": "Head term Urban preserved; bracketed modifiers ('Eclectic and Functional for Everyday Living') elaborate how the urban character manifests without restricting scope. Same conceptual frame, additive detail.",
+        "confidence": "high",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti74agxj39jthhjih",
+        "code": "Elaborated",
+        "preEvidence": "Curated",
+        "postEvidence": "Curated [Elevated and Designer Mood]",
+        "rationale": "Head term Curated preserved; bracketed modifiers ('Elevated and Designer Mood') specify the aesthetic register of curation without restricting scope. Same frame, additive detail.",
+        "confidence": "high",
+        "alternativeConsidered": "Narrowed"
+      },
+      {
+        "instanceId": "mti74agxf0s9si5she",
+        "code": "Elaborated",
+        "preEvidence": "Subversive",
+        "postEvidence": "Subversive [Thought-Provoking]",
+        "rationale": "Head term Subversive preserved; bracketed modifier ('Thought-Provoking') specifies the intellectual mode of subversion without restricting scope. Same frame, additive detail.",
+        "confidence": "high",
+        "alternativeConsidered": "Narrowed"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_narrow"
+      ],
+      "coderNotes": "All three pairs share an identical structure (head term preserved + bracketed elaboration). The subsumption sentence is literally true for each pair (e.g., 'Urban [Eclectic...] is a specific way of being Urban'), which would technically support Narrowed, but the bracketed additions are descriptive elaborations rather than scope restrictions \u2014 the underlying 'Urban' idea remains intact rather than being restricted to a subset. Following ELAB-vs-NARROW, additive descriptors without restriction are Elaborated. Flagging boundary_case_elab_vs_narrow because the bracket-plus-head-term pattern makes the subsumption test formally true even though no scope restriction is intended. Critic applied 3 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Urban",
+        "Curated",
+        "Subversive"
+      ],
+      "post_concepts": [
+        "Urban [Eclectic and Functional for Everyday Living]",
+        "Curated [Elevated and Designer Mood]",
+        "Subversive [Thought-Provoking]"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Urban",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "continuity": "Same core descriptor preserved as head term; bracket content adds elaboration",
+          "scope": "Scope not restricted; elaboration is descriptive",
+          "frame": "Same urban frame; bracket specifies the everyday-living application",
+          "stretch": "Low \u2014 clear continuity via shared head term",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Urban",
+          "post": "Curated [Elevated and Designer Mood]",
+          "continuity": "Different descriptors; no shared head term",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Urban",
+          "post": "Subversive [Thought-Provoking]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Curated",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Curated",
+          "post": "Curated [Elevated and Designer Mood]",
+          "continuity": "Same core descriptor preserved; bracket content elaborates",
+          "scope": "Not restricted",
+          "frame": "Same curated frame; bracket specifies aesthetic register",
+          "stretch": "Low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Curated",
+          "post": "Subversive [Thought-Provoking]",
+          "continuity": "Different descriptors; no shared head term",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Curated [Elevated and Designer Mood]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Subversive [Thought-Provoking]",
+          "continuity": "Same core descriptor preserved; bracket content elaborates",
+          "scope": "Not restricted",
+          "frame": "Same subversive frame; bracket specifies the intellectual register",
+          "stretch": "Low",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Urban",
+          "post": "Curated [Elevated and Designer Mood]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Urban",
+          "post": "Subversive [Thought-Provoking]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Curated",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Curated",
+          "post": "Subversive [Thought-Provoking]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Curated [Elevated and Designer Mood]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Urban",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "basis": "Identical head term preserved; bracket content adds elaboration within same urban frame"
+        },
+        {
+          "pre": "Curated",
+          "post": "Curated [Elevated and Designer Mood]",
+          "basis": "Identical head term preserved; bracket content adds elaboration within same curated frame"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Subversive [Thought-Provoking]",
+          "basis": "Identical head term preserved; bracket content adds elaboration within same subversive frame"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Urban",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "Same head term preserved; bracket content adds descriptive modifiers within the urban frame. No scope restriction (Urban [Eclectic...] is not a subset of Urban). Subsumption holds trivially but the change is additive elaboration, not restriction. Elaborated is correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "Curated",
+          "post": "Curated [Elevated and Designer Mood]",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "Same head term preserved; bracket content adds aesthetic-register descriptors within the curated frame. No scope restriction; elaboration only. Correct."
+        },
+        {
+          "type": "confirm",
+          "pre": "Subversive",
+          "post": "Subversive [Thought-Provoking]",
+          "from_code": "Elaborated",
+          "to_code": "Elaborated",
+          "reason": "Same head term preserved; bracket content specifies the intellectual mode of subversion. No scope restriction; elaboration only. Correct."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "POST preserves all three PRE descriptors as head terms but appends a bracketed qualifier to each, adding three short explanatory clauses. This is a contained adjustment \u2014 the descriptor inventory is unchanged at the head-term level, but each descriptor is elaborated with one qualifier. Not significant because no new dimension or concept is introduced; not no-change because substantive bracketed content is added to each item."
+    },
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Urban",
+        "post_evidence": "Urban [Eclectic and Functional for Everyday Living]",
+        "rationale": "Head term Urban preserved; bracketed modifiers ('Eclectic and Functional for Everyday Living') elaborate how the urban character manifests without restricting scope. Same conceptual frame, additive detail.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Curated",
+        "post_evidence": "Curated [Elevated and Designer Mood]",
+        "rationale": "Head term Curated preserved; bracketed modifiers ('Elevated and Designer Mood') specify the aesthetic register of curation without restricting scope. Same frame, additive detail.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Subversive",
+        "post_evidence": "Subversive [Thought-Provoking]",
+        "rationale": "Head term Subversive preserved; bracketed modifier ('Thought-Provoking') specifies the intellectual mode of subversion without restricting scope. Same frame, additive detail.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_narrow"
+      ],
+      "coder_notes": "All three pairs share an identical structure (head term preserved + bracketed elaboration). The subsumption sentence is literally true for each pair (e.g., 'Urban [Eclectic...] is a specific way of being Urban'), which would technically support Narrowed, but the bracketed additions are descriptive elaborations rather than scope restrictions \u2014 the underlying 'Urban' idea remains intact rather than being restricted to a subset. Following ELAB-vs-NARROW, additive descriptors without restriction are Elaborated. Flagging boundary_case_elab_vs_narrow because the bracket-plus-head-term pattern makes the subsumption test formally true even though no scope restriction is intended. Critic applied 3 correction(s)."
+    },
+    "coded_at": "2026-05-14T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "tiffany",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Urban",
+        "Curated",
+        "Subversive"
+      ],
+      "post_concepts": [
+        "Urban [Eclectic and Functional for Everyday Living]",
+        "Curated [Elevated and Designer Mood]",
+        "Subversive [Thought-Provoking]"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Urban",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "continuity": "Same core descriptor preserved as head term; bracket content adds elaboration",
+          "scope": "Scope not restricted; elaboration is descriptive",
+          "frame": "Same urban frame; bracket specifies the everyday-living application",
+          "stretch": "Low \u2014 clear continuity via shared head term",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Urban",
+          "post": "Curated [Elevated and Designer Mood]",
+          "continuity": "Different descriptors; no shared head term",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Urban",
+          "post": "Subversive [Thought-Provoking]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Curated",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Curated",
+          "post": "Curated [Elevated and Designer Mood]",
+          "continuity": "Same core descriptor preserved; bracket content elaborates",
+          "scope": "Not restricted",
+          "frame": "Same curated frame; bracket specifies aesthetic register",
+          "stretch": "Low",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Curated",
+          "post": "Subversive [Thought-Provoking]",
+          "continuity": "Different descriptors; no shared head term",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Curated [Elevated and Designer Mood]",
+          "continuity": "Different descriptors",
+          "scope": "Different",
+          "frame": "Different",
+          "stretch": "High",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Subversive [Thought-Provoking]",
+          "continuity": "Same core descriptor preserved; bracket content elaborates",
+          "scope": "Not restricted",
+          "frame": "Same subversive frame; bracket specifies the intellectual register",
+          "stretch": "Low",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Urban",
+          "post": "Curated [Elevated and Designer Mood]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Urban",
+          "post": "Subversive [Thought-Provoking]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Curated",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Curated",
+          "post": "Subversive [Thought-Provoking]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Curated [Elevated and Designer Mood]",
+          "reason": "Different domains; no shared semantic role or neighborhood"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Urban",
+          "post": "Urban [Eclectic and Functional for Everyday Living]",
+          "basis": "Identical head term preserved; bracket content adds elaboration within same urban frame"
+        },
+        {
+          "pre": "Curated",
+          "post": "Curated [Elevated and Designer Mood]",
+          "basis": "Identical head term preserved; bracket content adds elaboration within same curated frame"
+        },
+        {
+          "pre": "Subversive",
+          "post": "Subversive [Thought-Provoking]",
+          "basis": "Identical head term preserved; bracket content adds elaboration within same subversive frame"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "Moderate Addition",
+      "rationale": "POST preserves all three PRE descriptors as head terms but appends a bracketed qualifier to each, adding three short explanatory clauses. This is a contained adjustment \u2014 the descriptor inventory is unchanged at the head-term level, but each descriptor is elaborated with one qualifier. Not significant because no new dimension or concept is introduced; not no-change because substantive bracketed content is added to each item."
+    },
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Urban",
+        "post_evidence": "Urban [Eclectic and Functional for Everyday Living]",
+        "rationale": "The POST retains the PRE descriptor 'Urban' as the head term and adds bracketed specification ('Eclectic and Functional for Everyday Living') that elaborates how the urban character manifests. The conceptual frame (urban) is unchanged; detail is added within the same frame. Subsumption test: 'Urban [Eclectic and Functional for Everyday Living] is a specific way of being Urban' is true, but the change is additive rather than restrictive \u2014 no scope restriction occurs and the broader urban idea remains intact. Best read as Elaborated.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Curated",
+        "post_evidence": "Curated [Elevated and Designer Mood]",
+        "rationale": "The POST retains the PRE descriptor 'Curated' as the head term and adds bracketed specification ('Elevated and Designer Mood') that elaborates the aesthetic register of curation. The curated frame is preserved; detail is added within that frame. No scope restriction; the concept is qualified, not narrowed.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Subversive",
+        "post_evidence": "Subversive [Thought-Provoking]",
+        "rationale": "The POST retains the PRE descriptor 'Subversive' as the head term and adds bracketed specification ('Thought-Provoking') that elaborates the intellectual mode of subversion. The subversive frame is preserved; detail is added within that frame. No scope restriction.",
+        "alternative_considered": "Narrowed",
+        "confidence": "medium"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_elab_vs_narrow"
+      ],
+      "coder_notes": "All three pairs share an identical structure (head term preserved + bracketed elaboration). The subsumption sentence is literally true for each pair (e.g., 'Urban [Eclectic...] is a specific way of being Urban'), which would technically support Narrowed, but the bracketed additions are descriptive elaborations rather than scope restrictions \u2014 the underlying 'Urban' idea remains intact rather than being restricted to a subset. Following ELAB-vs-NARROW, additive descriptors without restriction are Elaborated. Flagging boundary_case_elab_vs_narrow because the bracket-plus-head-term pattern makes the subsumption test formally true even though no scope restriction is intended."
+    },
+    "coded_at": "2026-05-14T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Urban",
+        "post": "Urban [Eclectic and Functional for Everyday Living]",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Same head term preserved; bracket content adds descriptive modifiers within the urban frame. No scope restriction (Urban [Eclectic...] is not a subset of Urban). Subsumption holds trivially but the change is additive elaboration, not restriction. Elaborated is correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "Curated",
+        "post": "Curated [Elevated and Designer Mood]",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Same head term preserved; bracket content adds aesthetic-register descriptors within the curated frame. No scope restriction; elaboration only. Correct."
+      },
+      {
+        "type": "confirm",
+        "pre": "Subversive",
+        "post": "Subversive [Thought-Provoking]",
+        "from_code": "Elaborated",
+        "to_code": "Elaborated",
+        "reason": "Same head term preserved; bracket content specifies the intellectual mode of subversion. No scope restriction; elaboration only. Correct."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Urban",
+        "post": "Urban [Eclectic and Functional for Everyday Living]",
+        "basis": "Identical head term preserved; bracket content adds elaboration within same urban frame"
+      },
+      {
+        "pre": "Curated",
+        "post": "Curated [Elevated and Designer Mood]",
+        "basis": "Identical head term preserved; bracket content adds elaboration within same curated frame"
+      },
+      {
+        "pre": "Subversive",
+        "post": "Subversive [Thought-Provoking]",
+        "basis": "Identical head term preserved; bracket content adds elaboration within same subversive frame"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": [
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Urban",
+        "post_evidence": "Urban [Eclectic and Functional for Everyday Living]",
+        "rationale": "Head term Urban preserved; bracketed modifiers ('Eclectic and Functional for Everyday Living') elaborate how the urban character manifests without restricting scope. Same conceptual frame, additive detail.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Curated",
+        "post_evidence": "Curated [Elevated and Designer Mood]",
+        "rationale": "Head term Curated preserved; bracketed modifiers ('Elevated and Designer Mood') specify the aesthetic register of curation without restricting scope. Same frame, additive detail.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      },
+      {
+        "code": "Elaborated",
+        "pre_evidence": "Subversive",
+        "post_evidence": "Subversive [Thought-Provoking]",
+        "rationale": "Head term Subversive preserved; bracketed modifier ('Thought-Provoking') specifies the intellectual mode of subversion without restricting scope. Same frame, additive detail.",
+        "alternative_considered": "Narrowed",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

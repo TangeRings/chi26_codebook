@@ -1,0 +1,73 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "heels",
+      "post": "comfortable and stylish heels",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Pass 1 correct. Core product (heels) intact; only qualitative descriptors added. No frame shift, no scope restriction. Elaborated holds; Narrowed would require subsumption (comfortable+stylish heels as a specific way of being heels), which is not true \u2014 these are attributes, not a subtype."
+    },
+    {
+      "type": "recode",
+      "pre": "heels",
+      "post": "heeled boots",
+      "from_code": "Expanded",
+      "to_code": "Narrowed",
+      "reason": "Heeled boots are a specific subset/silhouette within the heels category \u2014 boots is one footwear type among heels. 'Heeled boots is a specific way of being heels' is defensible (a sub-type). This is proper subset relationship, so Narrowed, not Expanded. Pass 1 rationale itself acknowledged boots are a specific type of heeled footwear."
+    },
+    {
+      "type": "recode",
+      "pre": "heels",
+      "post": "low-mid heels",
+      "from_code": "Expanded",
+      "to_code": "Narrowed",
+      "reason": "Low-mid heels is a heel-height restriction \u2014 a proper subset of all heels (which span low, mid, high). 'Low-mid heels is a specific way of being heels' is true via scope restriction. Narrowed is correct; this is population/scope narrowing, not broadening."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "heels",
+      "post": "comfortable and stylish heels",
+      "basis": "Same product preserved with added qualitative descriptors (comfortable, stylish) within the same product frame"
+    },
+    {
+      "pre": "heels",
+      "post": "heeled boots",
+      "basis": "Heeled boots are a specific footwear sub-type (silhouette) within the heels category"
+    },
+    {
+      "pre": "heels",
+      "post": "low-mid heels",
+      "basis": "Low-mid heels is a heel-height-restricted subset of the broader heels category"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "heels",
+      "post_evidence": "comfortable and stylish heels",
+      "rationale": "Core product (heels) retained; qualitative descriptors (comfortable, stylish) added within the same product frame. No frame shift; just attribute-level detail.",
+      "alternative_considered": "Narrowed \u2014 rejected because comfortable+stylish are attributes, not a specific subtype",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "heels",
+      "post_evidence": "heeled boots",
+      "rationale": "Heeled boots is a specific footwear silhouette/sub-type within the heels category. Proper subset relationship holds: 'heeled boots is a specific way of being heels' is defensible.",
+      "alternative_considered": "Expanded \u2014 rejected because POST is a subset, not a broadening",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "heels",
+      "post_evidence": "low-mid heels",
+      "rationale": "Low-mid heels restricts the heel-height range, denoting a proper subset of all heels (which span low, mid, high). Scope restriction = Narrowed.",
+      "alternative_considered": "Expanded \u2014 rejected because POST narrows by scope, does not broaden",
+      "confidence": "high"
+    }
+  ]
+}

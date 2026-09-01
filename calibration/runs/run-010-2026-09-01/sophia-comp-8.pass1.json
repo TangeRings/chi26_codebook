@@ -1,0 +1,192 @@
+{
+  "coding_unit": {
+    "student_id": "sophia",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "pilates equipment",
+      "safe",
+      "eco-friendly"
+    ],
+    "post_concepts": [
+      "eco-friendly equipment",
+      "easily packable for travel"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "pilates equipment",
+        "post": "eco-friendly equipment",
+        "continuity": "Both identify the product category as equipment and retain eco-friendliness.",
+        "scope": "The category is retained without a clear restriction or expansion.",
+        "frame": "The frame shifts from a general pilates-equipment description to an eco-friendly equipment emphasis.",
+        "stretch": "Moderate; the product category is not explicitly repeated but is clearly implied by equipment.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "pilates equipment",
+        "post": "easily packable for travel",
+        "continuity": "Both concern product characteristics, but travel packability is a distinct attribute.",
+        "scope": "No clear subset or scope relation; the POST attribute adds a use condition.",
+        "frame": "The post frame emphasizes portability for travel rather than the original product-category frame.",
+        "stretch": "Weak to plausible; no explicit product-category connection is stated in the POST phrase.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "safe",
+        "post": "eco-friendly equipment",
+        "continuity": "Both are product qualities, but safety and environmental friendliness are distinct attributes.",
+        "scope": "Neither is a subset of the other.",
+        "frame": "The post frame concerns environmental sustainability rather than safety.",
+        "stretch": "Weak; both are product attributes but not the same semantic role.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "safe",
+        "post": "easily packable for travel",
+        "continuity": "Both are product attributes, but safety and travel packability are distinct qualities.",
+        "scope": "Neither is a subset of the other.",
+        "frame": "The post frame concerns portability and travel use rather than safety.",
+        "stretch": "Weak; both are attributes but do not share a specific semantic neighborhood beyond generic product quality.",
+        "verdict": "weak"
+      },
+      {
+        "pre": "eco-friendly",
+        "post": "eco-friendly equipment",
+        "continuity": "The explicit environmental attribute is retained and attached to equipment.",
+        "scope": "The quality is retained; POST does not materially restrict or broaden it.",
+        "frame": "The frame moves from a standalone descriptor to a product description with an explicit eco-friendly modifier.",
+        "stretch": "Plausible and specific.",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "eco-friendly",
+        "post": "easily packable for travel",
+        "continuity": "Both describe product characteristics, but environmental friendliness and travel packability differ.",
+        "scope": "Neither is a subset of the other.",
+        "frame": "The post frame emphasizes portability for travel rather than environmental sustainability.",
+        "stretch": "Weak; shared generic product-description territory is too broad to establish lineage.",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "pilates equipment",
+        "post": "easily packable for travel",
+        "reason": "The POST phrase does not retain the product category and only adds a travel-related attribute; no clear semantic successor exists."
+      },
+      {
+        "pre": "safe",
+        "post": "eco-friendly equipment",
+        "reason": "Safety and eco-friendliness are distinct product qualities, not a narrowing or reframing of the same concept."
+      },
+      {
+        "pre": "safe",
+        "post": "easily packable for travel",
+        "reason": "Safety and packability are distinct attributes; the shared level of generic product characteristics is insufficient for lineage."
+      },
+      {
+        "pre": "eco-friendly",
+        "post": "easily packable for travel",
+        "reason": "Environmental friendliness and travel packability are different product qualities with no defensible transformation."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "eco-friendly",
+        "post": "eco-friendly equipment",
+        "basis": "The environmental attribute is explicitly retained and incorporated into the equipment description."
+      },
+      {
+        "pre": "pilates equipment",
+        "post": "eco-friendly equipment",
+        "basis": "The equipment product category and its eco-friendly attribute remain central, with only a minor wording shift."
+      }
+    ],
+    "unmatched_pre": [
+      "safe"
+    ],
+    "unmatched_post": [
+      "easily packable for travel"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "safe",
+        "direction": "removed",
+        "nearest_counterpart": "easily packable for travel",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "The full POST response was searched. Safety and travel packability are different product attributes; no transformation is defensible."
+      },
+      {
+        "concept": "easily packable for travel",
+        "direction": "new",
+        "nearest_counterpart": "safe",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "The full PRE response was searched. Travel packability and safety are different product attributes; no transformation is defensible."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "The POST retains the eco-friendly equipment concept and adds the distinct travel-packability attribute, adding one meaningful product dimension without substantially expanding the response."
+  },
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "pilates equipment that are safe and eco-friendly",
+      "post_evidence": "Eco-friendly equipment",
+      "rationale": "The product-category and eco-friendly framing is retained, while the organizing emphasis shifts from a general safe and eco-friendly description to an explicitly eco-friendly equipment description. The pre-frame is general product attributes, and the post-frame is environmental sustainability attached to the product category.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "eco-friendly",
+      "post_evidence": "Eco-friendly equipment",
+      "rationale": "The environmental attribute is retained and made more explicit by being attached to the equipment product category; no new conceptual direction is introduced.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "safe",
+      "post_evidence": null,
+      "rationale": "A full-response search found the nearest POST concept, easily packable for travel, to be a different product attribute. Narrowed, Reframed, Elaborated, and Expanded all fail because safety is not a subtype, elaboration, or broadening of travel packability.",
+      "alternative_considered": "Removed+New",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "easily packable for travel",
+      "rationale": "A full-response search found the nearest PRE concept, safe, to be a different product attribute. Narrowed, Reframed, Elaborated, and Expanded all fail because travel packability is not a subtype, elaboration, or broadening of safety.",
+      "alternative_considered": "Removed+New",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "neighborhood_tested_no_lineage",
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "The paired eco-friendly concepts are retained, while safety and travel packability remain distinct. The structural change is a moderate addition because one meaningful attribute is added."
+  },
+  "coded_at": "2025-01-01T00:00:00Z",
+  "model": "MiniMax-M3"
+}

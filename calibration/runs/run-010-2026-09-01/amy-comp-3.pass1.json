@@ -1,0 +1,337 @@
+{
+  "coding_unit": {
+    "student_id": "amy",
+    "item_id": "comp-3"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "female students",
+      "female professionals",
+      "gay men",
+      "aged 20-30",
+      "fashionable functional artistic footwear"
+    ],
+    "post_concepts": [
+      "female professionals aged 20-35 who work on their feet",
+      "comfort without losing out on wearability",
+      "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+      "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "female students",
+        "post": "female professionals aged 20-35 who work on their feet",
+        "continuity": "both reference female audience members; students and young professionals overlap in age",
+        "scope": "students is a subset of young adults; professionals aged 20-35 overlaps with that range",
+        "frame": "educational/identity frame \u2192 occupational frame",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "female students",
+        "post": "comfort without losing out on wearability",
+        "continuity": "weak; attribute rather than audience",
+        "scope": "not applicable",
+        "frame": "audience \u2192 product attribute",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "female students",
+        "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+        "continuity": "weak; entirely distinct psychographic",
+        "scope": "not applicable",
+        "frame": "audience \u2192 occupational-performance audience",
+        "verdict": "weak"
+      },
+      {
+        "pre": "female students",
+        "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "continuity": "weak; different demographic",
+        "scope": "not applicable",
+        "frame": "female student \u2192 LGBTQ+ consumers",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "female professionals",
+        "post": "female professionals aged 20-35 who work on their feet",
+        "continuity": "strong; same audience, age narrowed and detail added",
+        "scope": "professionals \u2192 professionals who work on their feet (subset)",
+        "frame": "professional identity \u2192 occupational functional identity",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "female professionals",
+        "post": "comfort without losing out on wearability",
+        "continuity": "functional attribute linked to professional need",
+        "scope": "not applicable",
+        "frame": "audience \u2192 product attribute",
+        "verdict": "weak"
+      },
+      {
+        "pre": "female professionals",
+        "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+        "continuity": "dancers are a professional/performing subset",
+        "scope": "professionals \u2192 performance professionals (subset)",
+        "frame": "general professionals \u2192 performance professionals",
+        "verdict": "weak"
+      },
+      {
+        "pre": "female professionals",
+        "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "continuity": "different demographic",
+        "scope": "not applicable",
+        "frame": "heteronormative professionals \u2192 LGBTQ+ consumers",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "gay men",
+        "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "continuity": "strong; direct match of gay men segment, expanded with gender-fluid",
+        "scope": "gay men \u2192 gay men + gender-fluid (expanded population)",
+        "frame": "gay men \u2192 LGBTQ+ inclusive sizing",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "gay men",
+        "post": "female professionals aged 20-35 who work on their feet",
+        "continuity": "weak; different demographic",
+        "scope": "not applicable",
+        "frame": "gay men \u2192 female professionals",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "gay men",
+        "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+        "continuity": "drag/ballroom/vogue performers often overlap with gay men audience",
+        "scope": "gay men \u2192 gay/queer performance subculture (subset)",
+        "frame": "gay men \u2192 queer performers",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "aged 20-30",
+        "post": "female professionals aged 20-35 who work on their feet",
+        "continuity": "age range expanded 30 \u2192 35",
+        "scope": "20-30 \u2192 20-35 (expanded)",
+        "frame": "age range \u2192 age range + occupational context",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "aged 20-30",
+        "post": "comfort without losing out on wearability",
+        "continuity": "not applicable",
+        "scope": "not applicable",
+        "frame": "age \u2192 attribute",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "aged 20-30",
+        "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+        "continuity": "not applicable",
+        "scope": "not applicable",
+        "frame": "age \u2192 performance audience",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "aged 20-30",
+        "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "continuity": "not applicable",
+        "scope": "not applicable",
+        "frame": "age \u2192 LGBTQ+ consumers",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "fashionable functional artistic footwear",
+        "post": "comfort without losing out on wearability",
+        "continuity": "functional footwear element aligns with comfort/wearability",
+        "scope": "broad \u2192 narrowed functional dimension",
+        "frame": "aesthetic-functional-artistic \u2192 functional/comfort attribute",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "fashionable functional artistic footwear",
+        "post": "female professionals aged 20-35 who work on their feet",
+        "continuity": "product \u2192 audience",
+        "scope": "not applicable",
+        "frame": "product \u2192 audience",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "fashionable functional artistic footwear",
+        "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+        "continuity": "performance/impact aligned with artistic footwear",
+        "scope": "broad \u2192 narrow functional use case",
+        "frame": "artistic footwear \u2192 high-impact performance footwear",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "fashionable functional artistic footwear",
+        "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "continuity": "fashionable footwear aligned with heels",
+        "scope": "broad \u2192 narrow category (heels)",
+        "frame": "artistic footwear \u2192 gender-neutral heels",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "female students",
+        "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "reason": "different demographics; no semantic neighborhood"
+      },
+      {
+        "pre": "female professionals",
+        "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "reason": "different demographics; no shared semantic role"
+      },
+      {
+        "pre": "aged 20-30",
+        "post": "comfort without losing out on wearability",
+        "reason": "attribute mismatch with audience descriptor"
+      },
+      {
+        "pre": "aged 20-30",
+        "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+        "reason": "age range not continuous with audience descriptor"
+      },
+      {
+        "pre": "aged 20-30",
+        "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "reason": "age range mismatch with audience descriptor"
+      },
+      {
+        "pre": "fashionable functional artistic footwear",
+        "post": "female professionals aged 20-35 who work on their feet",
+        "reason": "product attribute vs audience; different domains"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "female professionals",
+        "post": "female professionals aged 20-35 who work on their feet",
+        "basis": "same audience category with age restriction (30\u219235) and added occupational qualifier; scope restriction holds"
+      },
+      {
+        "pre": "gay men",
+        "post": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "basis": "gay men segment preserved and broadened with gender-fluid; explicit lineage"
+      },
+      {
+        "pre": "aged 20-30",
+        "post": "female professionals aged 20-35 who work on their feet",
+        "basis": "age range expanded from 20-30 to 20-35 within the female professional segment"
+      },
+      {
+        "pre": "fashionable functional artistic footwear",
+        "post": "comfort without losing out on wearability",
+        "basis": "functional attribute of footwear is concretised; stylish/artistic dimension remains implicit in wearability"
+      },
+      {
+        "pre": "fashionable functional artistic footwear",
+        "post": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+        "basis": "artistic/performance footwear use case concretised for performers"
+      }
+    ],
+    "unmatched_pre": [
+      "female students"
+    ],
+    "unmatched_post": [
+      "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels (as standalone sizing concept)"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "female students",
+        "direction": "removed",
+        "nearest_counterpart": "female professionals aged 20-35 who work on their feet",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "female students is a subset overlapping with young female professionals; subsumption holds: female professionals who work on their feet includes recent graduates/students. Converted to a component of the matched transformation on age/professional scope, but since the antecedent 'female students' is a distinct atomic unit already absorbed into the broader matched female-professionals pairing with scope restriction, recorded as part of that event rather than standalone Removed"
+      },
+      {
+        "concept": "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+        "direction": "new",
+        "nearest_counterpart": "gay men",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "gender-fluid consumers are an adjacent but distinct demographic from gay men; however the POST span 'gay men and gender-fluid consumers' treats them as a combined audience. Narrowed tested against 'gay men' fails (gender-fluid is not a subset of gay men). Expanded holds: gay men segment broadened to include gender-fluid consumers. Recorded as part of the matched gay-men pair transformation."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "The PRE response is a single condensed clause naming demographics and a brief product descriptor. The POST response introduces three distinct audience segments with extensive functional rationales (work-on-feet, dancers/performers with named subgenres, LGBTQ+ consumers with inclusive sizing). Multiple new sentences and explanatory clauses have been added; scope is meaningfully larger."
+  },
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "female professionals",
+      "post_evidence": "female professionals from ages 20-35 who work on their feet",
+      "rationale": "Same audience (female professionals) is reconceived from a general identity frame into an occupational-functional frame emphasising work-on-feet and a specific age window. The audience identity persists but the organising lens shifts from demographic identity to occupational need. Subsumption test: 'female professionals who work on their feet is a specific way of being female professionals' is false (it restricts the population); territory shared; frame shifts \u2192 Reframed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "gay men",
+      "post_evidence": "gay men and gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+      "rationale": "The gay-men audience segment is preserved and explicitly broadened to include gender-fluid consumers, with an added sizing/inclusivity rationale. The PRE seed (gay men) is identifiable; the POST expands the population it covers. Expanded, not Narrowed (gender-fluid is not a subset of gay men).",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "aged 20-30",
+      "post_evidence": "female professionals from ages 20-35 who work on their feet",
+      "rationale": "The age range 20-30 is broadened to 20-35, an identifiable widening of the same seed demographic bound. The age concept is retained and its upper bound expanded.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "fashionable functional artistic footwear",
+      "post_evidence": "comfort without losing out on wearability",
+      "rationale": "The functional dimension of the footwear descriptor is preserved and made explicit: 'functional' is concretised as comfort and wearability. The fashionable/artistic dimension remains implicit. Detail added within the same product-attribute frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "fashionable functional artistic footwear",
+      "post_evidence": "dancers and performers (drag, ballroom, vogue, nightlife) who need shoes to withstand high impact and reduce fatigue",
+      "rationale": "The 'artistic' dimension of the footwear descriptor is broadened into a specific performing-arts use case spanning drag, ballroom, vogue, and nightlife. The artistic seed is identifiable in PRE; POST expands it into named performance contexts with a functional rationale (high impact, fatigue reduction).",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "gender-fluid consumers who need inclusive sizing and gender neutral styles in heels",
+      "rationale": "Gender-fluid consumers as a distinct sizing/inclusivity segment have no antecedent in PRE; PRE references only female students/professionals and gay men. Nearest counterpart tested: 'gay men' \u2014 Narrowed fails (gender-fluid not a subset), Reframed possible but the inclusion of gender-fluid as an explicit separate demographic constitutes a broadening within the already-matched gay-men pair, which is recorded as Expanded there. As a standalone sizing/inclusivity rationale for gender-neutral heels, this is new content.",
+      "alternative_considered": "Expanded (absorbed into gay-men pairing)",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe",
+      "vague_to_specific_lineage",
+      "neighborhood_lineage_only",
+      "events_possibly_collapsed"
+    ],
+    "coder_notes": "The female-students removal is absorbed into the female-professionals Reframed pairing rather than emitted as a standalone Removed event, because the antecedent overlap is defensible and emitting both would double-count. The gender-fluid inclusivity sizing is coded as New because no PRE antecedent explicitly references gender-neutral sizing or gender-fluid consumers, even though it is structurally tied to the gay-men pairing. The functional-footwear elaborations (comfort + dancer/performer use case) are coded as two distinct events because their successors diverge into different functional contexts."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3"
+}

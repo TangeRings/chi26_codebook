@@ -1,0 +1,57 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "50% styling and product showcases",
+      "post": "50% styling and product showcases",
+      "from_code": null,
+      "to_code": null,
+      "reason": "verbatim identical content bucket; no semantic change"
+    },
+    {
+      "type": "confirm",
+      "pre": "30% behind-the-scenes (ethical production, design process, brand story)",
+      "post": "30% behind-the-scenes (ethical production, design process, brand story)",
+      "from_code": null,
+      "to_code": null,
+      "reason": "verbatim identical content bucket; no semantic change"
+    },
+    {
+      "type": "confirm",
+      "pre": "20% influencer collaborations and UGC",
+      "post": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Collaboration concept is retained as the same underlying noun/category; POST adds qualifying descriptors (models, artists, designers) and an explanatory clause about purpose. The organizing frame \u2014 'collaborations as a content tactic' \u2014 is preserved; this is added detail, not a shifted frame. Elaborated is correct per BC-P001 guidance."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "50% styling and product showcases",
+      "post": "50% styling and product showcases",
+      "basis": "verbatim identical content bucket; no semantic change"
+    },
+    {
+      "pre": "30% behind-the-scenes (ethical production, design process, brand story)",
+      "post": "30% behind-the-scenes (ethical production, design process, brand story)",
+      "basis": "verbatim identical content bucket; no semantic change"
+    },
+    {
+      "pre": "20% influencer collaborations and UGC",
+      "post": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+      "basis": "same underlying category (collaborations) with added descriptors and rationale; frame preserved"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "20% influencer collaborations and UGC",
+      "post_evidence": "Collaborations with models, artists, and designers ensure a strong creative identity and connection to the brand's community",
+      "rationale": "The collaboration concept from PRE is retained and POST adds qualifying detail within the same frame: specifying collaborator types (models, artists, designers) and adding the purpose clause. The organizing frame \u2014 collaborations as a content bucket \u2014 is preserved; the additions are descriptors and rationale, not a shifted frame. Confirmed Elaborated.",
+      "alternative_considered": "Reframed (collaboration-as-bucket \u2192 collaboration-as-identity/community-enabler)",
+      "confidence": "medium"
+    }
+  ]
+}

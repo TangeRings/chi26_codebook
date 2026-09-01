@@ -1,0 +1,209 @@
+{
+  "coding_unit": {
+    "student_id": "rakan",
+    "item_id": "comp-7"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "No idea yet"
+    ],
+    "post_concepts": [
+      "30% tutorials",
+      "40% product reviews",
+      "30% behind-the-scene content"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "No idea yet",
+        "post": "30% tutorials",
+        "continuity": "no semantic continuity \u2014 PRE is an explicit statement of non-knowledge; POST is a concrete content type",
+        "scope": "PRE has no defined scope; POST specifies a content category and allocation percentage",
+        "frame": "PRE frame is non-committal; POST frame is concrete content mix planning",
+        "stretch": "any attempt at lineage would be forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "No idea yet",
+        "post": "40% product reviews",
+        "continuity": "no semantic continuity",
+        "scope": "PRE undefined; POST a specific content type",
+        "frame": "non-committal \u2192 concrete mix",
+        "stretch": "forced",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "No idea yet",
+        "post": "30% behind-the-scene content",
+        "continuity": "no semantic continuity",
+        "scope": "PRE undefined; POST specific content type",
+        "frame": "non-committal \u2192 concrete mix",
+        "stretch": "forced",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "No idea yet",
+        "post": "30% tutorials",
+        "reason": "PRE is a meta-statement of having no plan; POST is a concrete content allocation. No defensible lineage \u2014 different conceptual domains (meta-cognitive state vs concrete content mix)."
+      },
+      {
+        "pre": "No idea yet",
+        "post": "40% product reviews",
+        "reason": "Same as above \u2014 PRE is meta-cognitive non-knowledge; POST is concrete content type. No defensible transformation."
+      },
+      {
+        "pre": "No idea yet",
+        "post": "30% behind-the-scene content",
+        "reason": "Same \u2014 PRE is non-committal; POST is concrete content type. No defensible transformation."
+      }
+    ],
+    "matched_pairs": [],
+    "unmatched_pre": [
+      "No idea yet"
+    ],
+    "unmatched_post": [
+      "30% tutorials",
+      "40% product reviews",
+      "30% behind-the-scene content"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "No idea yet",
+        "direction": "removed",
+        "nearest_counterpart": "30% tutorials",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE 'No idea yet' is a meta-statement of absence of plan; POST content categories are concrete content allocations. There is no identifiable antecedent that has been narrowed, reframed, elaborated, or expanded. The student moved from having no plan to having a specific content mix; this is the PRE concept ceasing to apply (because they now have an idea), not a transformation of the 'no idea' idea itself."
+      },
+      {
+        "concept": "30% tutorials",
+        "direction": "new",
+        "nearest_counterpart": "No idea yet",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE counterpart is 'No idea yet'. No content-type antecedent exists in PRE. Narrowed/Reframed/Elaborated/Expanded all fail because there is no concrete concept to transform \u2014 only a statement of non-knowledge. The student introduced a new content allocation where none existed before."
+      },
+      {
+        "concept": "40% product reviews",
+        "direction": "new",
+        "nearest_counterpart": "No idea yet",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE counterpart is 'No idea yet'. No content-type antecedent exists. All four transformation codes fail for the same reason as above \u2014 no concrete seed concept in PRE to transform."
+      },
+      {
+        "concept": "30% behind-the-scene content",
+        "direction": "new",
+        "nearest_counterpart": "No idea yet",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Nearest PRE counterpart is 'No idea yet'. No content-type antecedent exists. All four transformation codes fail \u2014 no seed concept in PRE to narrow, reframe, elaborate, or expand."
+      }
+    ],
+    "critic_corrections": [
+      {
+        "type": "confirm",
+        "pre": "No idea yet",
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "Pass 1 is correct. PRE 'No idea yet' is a meta-statement of absence/non-knowledge, not a concrete content concept. No POST unit (tutorials, product reviews, behind-the-scene) is a specific way of being 'no idea', nor does any share semantic territory with it. The student ceased to be in the 'no idea' state by forming a concrete content mix \u2014 this is genuine removal of a meta-state, not a transformation."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "30% tutorials",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Pass 1 is correct. No PRE antecedent exists for tutorials content; 'No idea yet' is an absence-statement, not a seed content category. Lineage recovery would require manufacturing a transformation from non-knowledge to a content type, which the ladder does not support."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "40% product reviews",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Pass 1 is correct. No PRE antecedent exists for product reviews; same reasoning as above."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": "30% behind-the-scene content",
+        "from_code": "New",
+        "to_code": "New",
+        "reason": "Pass 1 is correct. No PRE antecedent exists for behind-the-scene content; same reasoning as above."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE is a single three-word non-answer ('No idea yet'); POST introduces an entirely new concrete content mix with three specific content categories and percentage allocations. The response has gone from zero content planning to a fully articulated content mix. Multiple new clauses and explanatory elements have been introduced where none existed."
+  },
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "No idea yet",
+      "post_evidence": null,
+      "rationale": "PRE is a meta-statement of non-knowledge about content strategy. The student has moved from 'no idea' to a defined 30/40/30 mix, so the 'no idea' state no longer applies. No POST concept is a transformation of 'no idea' \u2014 tutorials, product reviews, and behind-the-scene are concrete content categories, not a specific way of being 'no idea'. Genuine removal.",
+      "alternative_considered": "Reframed (absence-of-idea reframed as presence-of-idea), rejected because reframing requires both frames to reference the same underlying subject; here PRE references absence while POST references the plan itself.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "30% tutorials",
+      "rationale": "No content-type antecedent exists in PRE. The single PRE unit is a meta-statement of non-knowledge, not a seed concept that could be narrowed, reframed, elaborated, or expanded into tutorials. Genuinely new content allocation.",
+      "alternative_considered": "Expanded (of 'no idea yet' into a concrete plan), rejected because Expanded requires an identifiable PRE seed that broadens; an absence-statement is not such a seed.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "40% product reviews",
+      "rationale": "No antecedent for product reviews in PRE. Same reasoning \u2014 'No idea yet' is a meta-state, not a content category, and cannot serve as a transformation seed.",
+      "alternative_considered": "Expanded, rejected for same reason as above.",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "30% behind-the-scene content",
+      "rationale": "No antecedent for behind-the-scene content in PRE. 'No idea yet' cannot be narrowed, reframed, elaborated, or expanded into a specific content format.",
+      "alternative_considered": "Expanded, rejected for same reason as above.",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "new_removed_recheck_passed"
+    ],
+    "coder_notes": "PRE 'No idea yet' is a meta-cognitive absence statement rather than a content concept. The PRE\u2192POST shift is therefore from non-planning to planning, which produces a Removed event for the absence statement and New events for each of the three introduced content categories. No transformations are defensible because there is no concrete PRE seed concept that any POST content category could narrow, reframe, elaborate, or expand. The pair (Removed + New x3) is appropriate because PRE and POST occupy different conceptual domains (meta-state of not-knowing vs concrete content mix). Critic applied 4 correction(s)."
+  },
+  "coded_at": "2026-01-15T00:00:00Z",
+  "model": "MiniMax-M3+critic"
+}

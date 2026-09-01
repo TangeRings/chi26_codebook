@@ -1,0 +1,84 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "exclusivity",
+      "post": "inclusive",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Both occupy the access/audience-scope neighborhood with inverted polarity. Subsumption test: 'Inclusive is a specific way of being Exclusivity' is FALSE (incompatible, not subset). Same territory, shifted frame from restriction to welcome \u2014 Reframed is correct. Alternative Removed+New correctly rejected because a shared neighborhood exists at a specific level (access scope)."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "art",
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Re-checked: nearest POST successor would be Fashionable, but art (creative practice) and fashionable (style category) occupy different conceptual domains. Any shared territory would require climbing to a 'brand quality' or 'aesthetic' umbrella \u2014 abstraction ceiling. Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Fashionable",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE antecedent is art, but no transformation code is defensible across different domains (creative practice vs style category). New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "comfortable",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Comfort/utility has no defensible PRE antecedent. art and exclusivity occupy creative-practice and access-restriction domains respectively; comfort is a distinct sensory/utility domain. New stands."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "exclusivity",
+      "post": "inclusive",
+      "basis": "same access/audience-scope neighborhood with inverted polarity; frame shifts from restriction to welcome"
+    }
+  ],
+  "unmatched_pre": [
+    "art"
+  ],
+  "unmatched_post": [
+    "Fashionable",
+    "comfortable"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "exclusivity",
+      "post_evidence": "inclusive",
+      "rationale": "Both occupy the access/audience-scope neighborhood. The organizing frame inverts from restricting access (selective, limited membership) to broadening access (welcoming, broad membership). Subsumption fails \u2014 inclusive is not a specific way of being exclusivity \u2014 but semantic territory is shared at a specific level (who the brand is for), so Reframed is the correct tier-2 code.",
+      "alternative_considered": "Removed + New (rejected: shared neighborhood at specific level exists)",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "art",
+      "post_evidence": null,
+      "rationale": "No POST successor. Nearest counterpart Fashionable fails all four transformations and would require an 'aesthetic' or 'brand quality' umbrella to claim shared territory (abstraction ceiling). art (creative practice) and Fashionable (style category) occupy different domains.",
+      "alternative_considered": "Reframed (art\u2192Fashionable); rejected as above",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Fashionable",
+      "rationale": "No defensible PRE antecedent. art is the nearest candidate but occupies a different conceptual domain (creative practice vs style category). All four transformations fail.",
+      "alternative_considered": null,
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "comfortable",
+      "rationale": "Comfort/utility has no antecedent in PRE. Both PRE concepts (creative practice; access restriction) belong to different domains from comfort/sensory experience.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ]
+}

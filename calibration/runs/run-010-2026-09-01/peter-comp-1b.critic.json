@@ -1,0 +1,37 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": null,
+      "to_code": null,
+      "reason": "Pass 1 correctly identified that 'create a product that no one has tasted before' (novelty/uniqueness framing) and 'bringing Thai flavors to everyday meals' (cuisine-specific, occasion-specific positioning) occupy different conceptual domains. No shared semantic neighborhood exists at any specific level \u2014 the only possible umbrella would be 'product vision,' which is the abstraction ceiling. All transformation codes were properly tested and failed. Removed + New is the correct verdict."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "create a product that no one has tasted before"
+  ],
+  "unmatched_post": [
+    "bringing Thai flavors to everyday meals"
+  ],
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "create a product that no one has tasted before",
+      "post_evidence": null,
+      "rationale": "Novelty/uniqueness framing has no defensible POST successor. The only candidate POST concept ('bringing Thai flavors to everyday meals') occupies a genuinely different conceptual domain (cuisine-and-occasion specification). No transformation code holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "bringing Thai flavors to everyday meals",
+      "rationale": "Cuisine-specific, occasion-specific positioning has no defensible PRE antecedent. The novelty framing in PRE is not in the same semantic territory and cannot serve as a basis for Narrowed, Reframed, Elaborated, or Expanded.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    }
+  ]
+}

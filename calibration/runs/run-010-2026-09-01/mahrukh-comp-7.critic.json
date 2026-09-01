@@ -1,0 +1,75 @@
+{
+  "corrections": [
+    {
+      "type": "recode",
+      "pre": "50% product videos",
+      "post": "25% product videos",
+      "from_code": "Narrowed",
+      "to_code": "Reframed",
+      "reason": "The Narrowed rationale applies the scope-restriction rule to a percentage allocation, but 'Narrowed' is reserved for cases where POST denotes a proper subset of PRE's population/category. Here POST is the same product videos category, not a subset. The organizing frame has shifted: PRE treats product videos as the dominant content type (50%), while POST reorganizes the mix into a balanced four-part distribution (25% each). The category persists but its role in the distribution frame changes \u2014 that is Reframed, not Narrowed."
+    },
+    {
+      "type": "confirm",
+      "pre": "25% in daily use",
+      "post": "25% in daily use",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical match; no semantic event needed."
+    },
+    {
+      "type": "confirm",
+      "pre": "25% bts",
+      "post": "25% bts",
+      "from_code": null,
+      "to_code": null,
+      "reason": "Identical match; no semantic event needed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "25% consumer stories",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Consumer stories is a distinct content category absent from PRE; no antecedent available. Stands as New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "50% product videos",
+      "post": "25% product videos",
+      "basis": "Same content category (product videos); allocation reorganized from dominant (50%) to balanced quarter (25%)."
+    },
+    {
+      "pre": "25% in daily use",
+      "post": "25% in daily use",
+      "basis": "Identical concept and percentage."
+    },
+    {
+      "pre": "25% bts",
+      "post": "25% bts",
+      "basis": "Identical concept and percentage."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "25% consumer stories"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "50% product videos",
+      "post_evidence": "25% product videos",
+      "rationale": "The product videos category persists across PRE and POST, but its role in the content mix shifts: PRE treats it as the dominant allocation (50%), POST reorganizes the strategy into a balanced four-part distribution (25% each). The organizing frame moves from product-video-centric to evenly diversified mix. Same semantic territory, shifted frame.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "25% consumer stories",
+      "rationale": "Consumer stories is a new content category absent from the PRE response. No PRE concept shares semantic territory with consumer stories; no Narrowed/Reframed/Elaborated/Expanded relationship is defensible.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ]
+}

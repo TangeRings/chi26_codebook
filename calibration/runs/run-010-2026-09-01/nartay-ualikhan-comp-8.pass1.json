@@ -1,0 +1,182 @@
+{
+  "coding_unit": {
+    "student_id": "nartay-ualikhan",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "XYZ offers a catalogue of luxury silverware",
+      "ice cream cups, coffee cups",
+      "silver & metal materials",
+      "minimalist design",
+      "sense of luxury and taste",
+      "Category: Home silverware/interior"
+    ],
+    "post_concepts": [
+      "A curated collection of luxury silverware",
+      "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+      "premium silver, brass, and other metals",
+      "minimalist elegance",
+      "fusion of functional art and timeless luxury",
+      "Category: High-end home silverware & interior accessories"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "XYZ offers a catalogue of luxury silverware",
+        "post": "A curated collection of luxury silverware",
+        "continuity": "Both describe the offering as a collection/catalogue of luxury silverware",
+        "scope": "Both refer to the full product offering",
+        "frame": "Pre uses 'offers a catalogue' (transactional/retail frame); Post uses 'curated collection' (artisan/gallery frame)",
+        "stretch": "Modest reframing",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "ice cream cups, coffee cups",
+        "post": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+        "continuity": "Identical items plus additions",
+        "scope": "POST is a proper superset",
+        "frame": "Same frame",
+        "stretch": "Clear expansion",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "silver & metal materials",
+        "post": "premium silver, brass, and other metals",
+        "continuity": "Both specify metallic materials",
+        "scope": "POST names additional metals (brass) and adds 'premium' qualifier",
+        "frame": "Pre frame = material composition; Post frame = premium material positioning",
+        "stretch": "Elaborated",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "minimalist design",
+        "post": "minimalist elegance",
+        "continuity": "Both reference minimalism in design",
+        "scope": "Same scope",
+        "frame": "Pre = 'design' focus; Post = 'elegance' focus (aesthetic outcome)",
+        "stretch": "Reframed or elaborated",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "sense of luxury and taste",
+        "post": "fusion of functional art and timeless luxury",
+        "continuity": "Both invoke luxury; taste vs functional art + timeless luxury",
+        "scope": "Comparable scope",
+        "frame": "Pre = sensory/aesthetic impression (luxury and taste); Post = positioning as art object with timeless value",
+        "stretch": "Reframed",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Category: Home silverware/interior",
+        "post": "Category: High-end home silverware & interior accessories",
+        "continuity": "Same category; POST adds 'high-end' qualifier",
+        "scope": "POST narrows to premium tier",
+        "frame": "Same frame, scope-restricted",
+        "stretch": "Narrowed",
+        "verdict": "plausible"
+      }
+    ],
+    "rejected_alignments": [],
+    "matched_pairs": [
+      {
+        "pre": "XYZ offers a catalogue of luxury silverware",
+        "post": "A curated collection of luxury silverware",
+        "basis": "Same core concept (collection of luxury silverware) with shifted framing from catalogue/transactional to curated/artisan"
+      },
+      {
+        "pre": "ice cream cups, coffee cups",
+        "post": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+        "basis": "POST retains both PRE items and adds cocktail glasses and bespoke serving pieces; clear superset"
+      },
+      {
+        "pre": "silver & metal materials",
+        "post": "premium silver, brass, and other metals",
+        "basis": "POST keeps metallic material concept and elaborates with specific metals and premium qualifier"
+      },
+      {
+        "pre": "minimalist design",
+        "post": "minimalist elegance",
+        "basis": "Minimalism kept; post frames it as elegance (aesthetic register) rather than design attribute"
+      },
+      {
+        "pre": "sense of luxury and taste",
+        "post": "fusion of functional art and timeless luxury",
+        "basis": "Both invoke luxury; PRE frames as sensory impression, POST frames as art-meets-timelessness positioning"
+      },
+      {
+        "pre": "Category: Home silverware/interior",
+        "post": "Category: High-end home silverware & interior accessories",
+        "basis": "Same category line with 'high-end' qualifier narrowing to premium tier"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "Moderate Addition",
+    "rationale": "POST elaborates the product offering by adding two new item types (cocktail glasses, bespoke serving pieces), naming additional metals (brass), and rephrasing the framing of luxury as 'functional art and timeless luxury.' These are meaningful additions rather than wholesale restructuring; one or two new explanatory clauses plus added specificity."
+  },
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "XYZ offers a catalogue of luxury silverware",
+      "post_evidence": "A curated collection of luxury silverware",
+      "rationale": "The core concept (a collection of luxury silverware) persists, but the framing shifts from a transactional/catalogue register to a curated/artisan register. Pre-frame: retail catalogue; Post-frame: curated artisan collection.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "ice cream cups, coffee cups",
+      "post_evidence": "ice cream cups, coffee cups, cocktail glasses, and bespoke serving pieces",
+      "rationale": "POST retains both PRE-listed items and broadens the product set by adding cocktail glasses and bespoke serving pieces. Identifiable PRE seed (ice cream cups, coffee cups) expanded.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "silver & metal materials",
+      "post_evidence": "premium silver, brass, and other metals",
+      "rationale": "POST keeps the metallic-material concept intact and adds the 'premium' qualifier plus specific metals (brass). The frame of material composition is preserved.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "minimalist design",
+      "post_evidence": "minimalist elegance",
+      "rationale": "Minimalism persists, but the framing shifts from a design-attribute focus to an aesthetic-register focus. Pre-frame: design style; Post-frame: elegance as outcome.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "sense of luxury and taste",
+      "post_evidence": "fusion of functional art and timeless luxury",
+      "rationale": "Both invoke luxury, but PRE frames it as a sensory/aesthetic impression (luxury and taste) while POST frames it as a positioning claim (functional art + timeless luxury). Pre-frame: sensory impression; Post-frame: artistic-timeless positioning. 'Taste' does not cleanly subsume under 'functional art and timeless luxury,' so Reframed rather than Narrowed.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Category: Home silverware/interior",
+      "post_evidence": "Category: High-end home silverware & interior accessories",
+      "rationale": "POST adds the 'high-end' qualifier, restricting the category to a premium tier. High-end home silverware is a subset of home silverware/interior, satisfying the subsumption test for Narrowed.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "boundary_case_elab_vs_reframe"
+    ],
+    "coder_notes": "All PRE concepts found POST successors; no New or Removed events required. The minimalist design -> minimalist elegance pair sits close to the ELAB/REFRAME boundary; chose Reframed because the conceptual emphasis shifts from design attribute to aesthetic register. Pre-genericness signal not strong for 'sense of luxury and taste' (already a substantive pairing); treated as sibling concepts under luxury framing."
+  },
+  "coded_at": "2025-01-01T00:00:00Z",
+  "model": "MiniMax-M3"
+}

@@ -1,0 +1,124 @@
+{
+  "coding_unit": {
+    "student_id": "nartay-ualikhan",
+    "item_id": "comp-1c"
+  },
+  "concept_alignment": {
+    "unitization_mode": "descriptor_set_special",
+    "pre_concepts": [
+      "Curation"
+    ],
+    "post_concepts": [
+      "Curation",
+      "sustainability",
+      "intentional craftsmanship"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Curation",
+        "post": "Curation",
+        "continuity": "Identical descriptor preserved",
+        "scope": "Same",
+        "frame": "Same",
+        "stretch": "Lexical identity",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Curation",
+        "post": "sustainability",
+        "continuity": "Both relate to product/material handling values but in different conceptual domains (selection vs environmental responsibility)",
+        "scope": "Disjoint",
+        "frame": "Curation concerns editorial/selection judgment; sustainability concerns environmental/ethical production",
+        "stretch": "Stretched: no shared semantic neighborhood at a specific level beyond the abstract umbrella 'brand values'",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Curation",
+        "post": "intentional craftsmanship",
+        "continuity": "Both relate to careful product treatment; curation frames it as selection, craftsmanship frames it as making/technique",
+        "scope": "Adjacent but distinct: curation is an editorial act selecting objects, intentional craftsmanship is a production-quality descriptor about how the maker works",
+        "frame": "Selection/editorial frame vs production/technique frame",
+        "stretch": "Moderate \u2014 topically adjacent within the careful-product-handling space; neighborhood exists at the level of 'care with the product' but not at a more specific level",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Curation",
+        "post": "sustainability",
+        "reason": "Curation (editorial selection) and sustainability (environmental responsibility) belong to different conceptual domains. IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies; no shared semantic neighborhood nameable at a specific level beyond the broad umbrella 'brand values'."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Curation",
+        "post": "Curation",
+        "basis": "Lexical identity; same descriptor preserved verbatim in the post list."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "sustainability",
+      "intentional craftsmanship"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "sustainability",
+        "direction": "new",
+        "nearest_counterpart": "Curation",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Curation concerns editorial selection of offerings; sustainability concerns environmental and ethical production responsibility. They occupy different conceptual domains \u2014 one is about what is chosen, the other about how materials/products are sourced and produced. No subsumption (sustainability is not a specific way of being Curation), no shared semantic territory with a shifted frame (the frames are not siblings within one territory), no elaboration or expansion relation. Kept as New."
+      },
+      {
+        "concept": "intentional craftsmanship",
+        "direction": "new",
+        "nearest_counterpart": "Curation",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "Curation refers to the editorial act of selecting objects, while intentional craftsmanship refers to a disciplined, thoughtful mode of making/production. They share only a topically adjacent 'care with the product' umbrella, which fails the abstraction-ceiling test (it could be claimed for almost any descriptor pair in this item). Subsumption test: 'Intentional craftsmanship is a specific way of being Curation' = FALSE. No sibling-frame relation within one specific territory. Kept as New."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE contains a single descriptor ('Curation'). POST expands this to three descriptors ('Curation, sustainability, and intentional craftsmanship'), introducing two substantive new value categories alongside the preserved original. This adds meaningful content at the clause/list level \u2014 the response now articulates three distinct guiding values where before only one was named. The shift from one concept to three conceptually distinct concepts represents substantial structural expansion."
+  },
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "sustainability",
+      "rationale": "No antecedent exists in the PRE list ('Curation'). Sustainability as an environmental/ethical production value occupies a different conceptual domain than curation (editorial selection). MANDATORY-NEW-REMOVED-RECHECK against the nearest PRE counterpart (Curation) was performed and all four transformation codes failed: Narrowed (sustainability is not a specific way of being Curation), Reframed (no shared specific semantic territory), Elaborated (does not keep Curation intact and add detail), Expanded (no identifiable Curation seed being broadened).",
+      "alternative_considered": "Removed + New",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "intentional craftsmanship",
+      "rationale": "No antecedent exists in the PRE list ('Curation'). Intentional craftsmanship concerns disciplined making/production technique, a different conceptual domain from curation as editorial selection. MANDATORY-NEW-REMOVED-RECHECK against the nearest PRE counterpart (Curation) was performed and all four transformation codes failed: Narrowed ('intentional craftsmanship is a specific way of being Curation' = FALSE), Reframed (topical adjacency only, fails abstraction-ceiling test), Elaborated (does not retain Curation), Expanded (no identifiable seed).",
+      "alternative_considered": "Removed + New",
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [],
+    "coder_notes": "Descriptor-level coding per Q1c (descriptor_set_special). PRE = {Curation}, POST = {Curation, sustainability, intentional craftsmanship}. 'Curation' is preserved verbatim; 'sustainability' and 'intentional craftsmanship' are both New with no defensible transformation lineage from the single PRE concept. No coordination or splitting issues since PRE contains a single atomic descriptor. Structural development is Significant Addition given the move from one descriptor to three conceptually distinct values."
+  },
+  "coded_at": "2026-05-14T12:00:00Z",
+  "model": "MiniMax-M3"
+}

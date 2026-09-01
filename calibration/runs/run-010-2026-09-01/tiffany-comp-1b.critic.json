@@ -1,0 +1,66 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "everyday delights",
+      "post": "elevate everyday living",
+      "from_code": "Expanded",
+      "to_code": "Expanded",
+      "reason": "Pass-1 Expanded is correct: 'everyday' seed preserved, scope broadens from 'delights' (small joys) to 'elevate everyday living' (fuller aspirational enhancement). Reframed is the alternative considered; Expanded better captures the scope growth while retaining the seed."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "redefining home",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest counterpart 'everyday delights' tested across all four tiers; 'home' is a distinct life domain from affective 'delights', and the only shared territory is the broad 'aspirational everyday life' umbrella (abstraction ceiling). No defensible lineage. Confirmed New."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "curated collection of design-driven and functional pieces",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest counterpart 'everyday delights' tested; product-offering frame differs from affective frame, and PRE has no product antecedent. No Narrowed/Reframed/Elaborated/Expanded pathway defensible. Confirmed New."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "everyday delights",
+      "post": "elevate everyday living",
+      "basis": "Shared 'everyday' anchor; PRE seed preserved while scope broadens from affective 'delights' to fuller aspirational enhancement of daily life."
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "redefining home",
+    "curated collection of design-driven and functional pieces"
+  ],
+  "semantic_events": [
+    {
+      "code": "Expanded",
+      "pre_evidence": "Everyday delights",
+      "post_evidence": "elevate everyday living",
+      "rationale": "The 'everyday' seed from PRE is preserved and broadened in POST: 'delights' (small affective joys) becomes 'elevate everyday living' (a wider aspirational enhancement of daily life). Recognizable antecedent retained while scope grows.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Redefining home",
+      "rationale": "No defensible PRE antecedent. Tested 'everyday delights' across Narrowed/Reframed/Elaborated/Expanded: 'home' is a distinct life domain from affective 'delights', and any shared territory only exists at the 'aspirational everyday life' umbrella (abstraction ceiling).",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "curated collection of design-driven and functional pieces",
+      "rationale": "No defensible PRE antecedent. Product-offering frame differs from affective/experiential frame; PRE has no product seed to elaborate, expand, narrow, or reframe from.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    }
+  ]
+}

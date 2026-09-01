@@ -1,0 +1,73 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Cute small accessory",
+      "post": "Cute small accessory",
+      "from_code": null,
+      "to_code": "Elaborated",
+      "reason": "Identical phrase carried verbatim; pass-1 marked null but the only defensible code for verbatim carryover with no semantic change is Elaborated (or rather, no-change identity). Confirming alignment is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": "higher price because of zodiac identification",
+      "post": "higher price because of zodiac identification",
+      "from_code": null,
+      "to_code": "Elaborated",
+      "reason": "Identical phrase carried verbatim; alignment is correct. No semantic change."
+    },
+    {
+      "type": "confirm",
+      "pre": "Possibility of expansion into other jewelry types",
+      "post": "Possibility of expansion into other jewelry types",
+      "from_code": null,
+      "to_code": "Elaborated",
+      "reason": "Identical phrase carried verbatim; alignment is correct. No semantic change."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "Cute small accessory",
+      "post": "Cute small accessory",
+      "basis": "identical phrase carried over verbatim; no semantic change"
+    },
+    {
+      "pre": "higher price because of zodiac identification",
+      "post": "higher price because of zodiac identification",
+      "basis": "identical phrase carried over verbatim; no semantic change"
+    },
+    {
+      "pre": "Possibility of expansion into other jewelry types",
+      "post": "Possibility of expansion into other jewelry types",
+      "basis": "identical phrase carried over verbatim; no semantic change"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [],
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Cute small accessory",
+      "post_evidence": "Cute small accessory",
+      "rationale": "Identical phrase carried over verbatim with no addition, narrowing, or reframing. Treated as a stable/elaborated carryover (identity within Elaborated tier).",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "higher price because of zodiac identification",
+      "post_evidence": "higher price because of zodiac identification",
+      "rationale": "Identical phrase carried over verbatim; no semantic change between pre and post.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Possibility of expansion into other jewelry types",
+      "post_evidence": "Possibility of expansion into other jewelry types",
+      "rationale": "Identical phrase carried over verbatim; no semantic change between pre and post.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ]
+}

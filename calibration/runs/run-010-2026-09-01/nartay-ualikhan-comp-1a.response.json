@@ -1,0 +1,852 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "The post-response is a compressed reformulation of the same descriptor set. Eco-conscious and brutalist are retained. Simple-living has been narrowed to minimalist (same conceptual territory). Designer is dropped. The added clause 'where raw materiality meets refined design' functions as a brief stylistic gloss on the retained descriptors and does not introduce new substantive content at the structural level. No new clauses or sentences are added that meaningfully extend the response's scope.",
+    "conceptAlignment": {
+      "unitizationMode": "descriptor_set_special",
+      "preConcepts": [
+        "Eco-conscious",
+        "Brutalist",
+        "Simple-living",
+        "Designer"
+      ],
+      "postConcepts": [
+        "Eco-conscious",
+        "brutalist",
+        "minimalist"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Eco-conscious",
+          "post": "Eco-conscious",
+          "continuity": "identical term",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Eco-conscious",
+          "post": "brutalist",
+          "continuity": "weak \u2014 different conceptual domains",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Eco-conscious",
+          "post": "minimalist",
+          "continuity": "weak \u2014 environmental values vs aesthetic minimalism",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "Eco-conscious",
+          "continuity": "weak \u2014 aesthetic style vs environmental values",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "brutalist",
+          "continuity": "identical term (case only)",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "minimalist",
+          "continuity": "strong \u2014 both are aesthetic descriptors in the same visual/design territory",
+          "scope": "minimalism is broader than brutalism (brutalism is a specific movement within modern design)",
+          "frame": "both framed as visual/design identity",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "Eco-conscious",
+          "continuity": "partial \u2014 minimalism and sustainability are often associated but not the same",
+          "scope": "different",
+          "frame": "lifestyle vs environmental values",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "brutalist",
+          "continuity": "weak",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "minimalist",
+          "continuity": "strong \u2014 both invoke simplicity/minimalism; minimalism is an aesthetic, simple-living is broader lifestyle",
+          "scope": "simple-living is broader than minimalist (minimalist is a specific way of being simple-living)",
+          "frame": "lifestyle simplicity vs aesthetic simplicity",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Designer",
+          "post": "Eco-conscious",
+          "continuity": "weak \u2014 different domains (professional/quality vs environmental)",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Designer",
+          "post": "brutalist",
+          "continuity": "weak \u2014 professional identity vs aesthetic",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Designer",
+          "post": "minimalist",
+          "continuity": "weak \u2014 designer-quality vs minimalist-aesthetic",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Eco-conscious",
+          "post": "brutalist",
+          "reason": "different conceptual domains (environmental values vs architectural aesthetic); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+        },
+        {
+          "pre": "Eco-conscious",
+          "post": "minimalist",
+          "reason": "different conceptual domains (environmental values vs aesthetic); no shared neighborhood at the specific level"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "Eco-conscious",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "brutalist",
+          "reason": "lifestyle vs specific aesthetic; no defensible lineage"
+        },
+        {
+          "pre": "Designer",
+          "post": "Eco-conscious",
+          "reason": "professional/quality positioning vs environmental values; different domains"
+        },
+        {
+          "pre": "Designer",
+          "post": "brutalist",
+          "reason": "professional positioning vs aesthetic; different domains"
+        },
+        {
+          "pre": "Designer",
+          "post": "minimalist",
+          "reason": "professional positioning vs aesthetic style; different domains"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Eco-conscious",
+          "post": "Eco-conscious",
+          "basis": "identical descriptor retained"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "brutalist",
+          "basis": "identical descriptor retained (lowercased)"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "minimalist",
+          "basis": "subsumption: minimalist is a specific aesthetic realization of simple-living"
+        }
+      ],
+      "unmatchedPre": [
+        "Designer"
+      ],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [
+        {
+          "concept": "Designer",
+          "direction": "removed",
+          "nearestCounterpart": "minimalist",
+          "codesTested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "'Designer' denotes a professional quality/positioning attribute (the brand is designer-grade or designer-curated), while 'minimalist' is an aesthetic style. These occupy different conceptual domains \u2014 quality/positioning vs visual style. Subsumption fails ('minimalist is a specific way of being Designer' = FALSE). No shared semantic neighborhood at a specific level. The nearest candidates 'brutalist' and 'minimalist' are both aesthetic descriptors, while 'Designer' is a quality/positioning attribute. All four transformation codes fail."
+        }
+      ],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Eco-conscious",
+          "post": "Eco-conscious",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical descriptor retained; no event needed."
+        },
+        {
+          "type": "confirm",
+          "pre": "Brutalist",
+          "post": "brutalist",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Identical descriptor retained (case difference); no event needed."
+        },
+        {
+          "type": "confirm",
+          "pre": "Simple-living",
+          "post": "minimalist",
+          "fromCode": "Narrowed",
+          "toCode": "Narrowed",
+          "reason": "Subsumption test holds: minimalist is a specific aesthetic realization of simple-living (a lifestyle simplicity principle). PRE is substantive but functions as a broad lifestyle framing; POST is the concrete aesthetic mode. Reframed considered but subsumption is defensible. Calibrated correctly against anti-over-correction guidance."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "fromCode": "Removed",
+          "toCode": "Removed",
+          "reason": "'Designer' (professional quality/curation positioning) has no defensible POST successor among the aesthetic descriptors (Eco-conscious, brutalist, minimalist). Different conceptual domains \u2014 quality/positioning vs visual style/aesthetic. All four transformation codes fail against nearest candidates. Confirmed not a same-neighborhood pair, so tier-5 Removed+New stands."
+        }
+      ]
+    },
+    "semanticChanges": [
+      {
+        "instanceId": "mti6yg4hlwmhxs1j8v",
+        "code": "Narrowed",
+        "preEvidence": "Simple-living",
+        "postEvidence": "minimalist",
+        "rationale": "Subsumption holds: 'minimalist is a specific way of being Simple-living' is TRUE. Simple-living is the broader lifestyle principle of simplicity; minimalist is its specific aesthetic realization. Same simplicity/minimalism neighborhood.",
+        "confidence": "medium",
+        "alternativeConsidered": "Reframed"
+      },
+      {
+        "instanceId": "mti6yg4hyjf6pzxz64",
+        "code": "Removed",
+        "preEvidence": "Designer",
+        "postEvidence": null,
+        "rationale": "'Designer' denotes professional quality/curation positioning; none of the POST descriptors (Eco-conscious, brutalist, minimalist) share that semantic role. Different conceptual domains \u2014 quality/positioning vs aesthetic style and environmental values. Tested Narrowed, Reframed, Elaborated, Expanded against nearest counterpart 'minimalist'; all fail. Genuine removal.",
+        "confidence": "high",
+        "alternativeConsidered": "Reframed"
+      }
+    ],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coderNotes": "Eco-conscious and brutalist are retained verbatim (no semantic event beyond stylistic preservation). Simple-living -> minimalist is the central analytic event. The subsumption sentence 'minimalist is a specific way of being Simple-living' is defensible (minimalism is a recognized aesthetic realization of simple-living philosophy), but 'Simple-living' is broader than a generic filler, which complicates the PRE-genericness signal. Recorded alternative as Reframed. The post clause 'where raw materiality meets refined design' elaborates the minimalist register but does not introduce a separately codable event at the descriptor level. The 'Designer' descriptor sits in a different conceptual domain (professional quality/positioning) than any retained POST descriptor, so Removed is the correct outcome after full re-check. Critic applied 4 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "nartay-ualikhan",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Eco-conscious",
+        "Brutalist",
+        "Simple-living",
+        "Designer"
+      ],
+      "post_concepts": [
+        "Eco-conscious",
+        "brutalist",
+        "minimalist"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Eco-conscious",
+          "post": "Eco-conscious",
+          "continuity": "identical term",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Eco-conscious",
+          "post": "brutalist",
+          "continuity": "weak \u2014 different conceptual domains",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Eco-conscious",
+          "post": "minimalist",
+          "continuity": "weak \u2014 environmental values vs aesthetic minimalism",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "Eco-conscious",
+          "continuity": "weak \u2014 aesthetic style vs environmental values",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "brutalist",
+          "continuity": "identical term (case only)",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "minimalist",
+          "continuity": "strong \u2014 both are aesthetic descriptors in the same visual/design territory",
+          "scope": "minimalism is broader than brutalism (brutalism is a specific movement within modern design)",
+          "frame": "both framed as visual/design identity",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "Eco-conscious",
+          "continuity": "partial \u2014 minimalism and sustainability are often associated but not the same",
+          "scope": "different",
+          "frame": "lifestyle vs environmental values",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "brutalist",
+          "continuity": "weak",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "minimalist",
+          "continuity": "strong \u2014 both invoke simplicity/minimalism; minimalism is an aesthetic, simple-living is broader lifestyle",
+          "scope": "simple-living is broader than minimalist (minimalist is a specific way of being simple-living)",
+          "frame": "lifestyle simplicity vs aesthetic simplicity",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Designer",
+          "post": "Eco-conscious",
+          "continuity": "weak \u2014 different domains (professional/quality vs environmental)",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Designer",
+          "post": "brutalist",
+          "continuity": "weak \u2014 professional identity vs aesthetic",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Designer",
+          "post": "minimalist",
+          "continuity": "weak \u2014 designer-quality vs minimalist-aesthetic",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Eco-conscious",
+          "post": "brutalist",
+          "reason": "different conceptual domains (environmental values vs architectural aesthetic); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+        },
+        {
+          "pre": "Eco-conscious",
+          "post": "minimalist",
+          "reason": "different conceptual domains (environmental values vs aesthetic); no shared neighborhood at the specific level"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "Eco-conscious",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "brutalist",
+          "reason": "lifestyle vs specific aesthetic; no defensible lineage"
+        },
+        {
+          "pre": "Designer",
+          "post": "Eco-conscious",
+          "reason": "professional/quality positioning vs environmental values; different domains"
+        },
+        {
+          "pre": "Designer",
+          "post": "brutalist",
+          "reason": "professional positioning vs aesthetic; different domains"
+        },
+        {
+          "pre": "Designer",
+          "post": "minimalist",
+          "reason": "professional positioning vs aesthetic style; different domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Eco-conscious",
+          "post": "Eco-conscious",
+          "basis": "identical descriptor retained"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "brutalist",
+          "basis": "identical descriptor retained (lowercased)"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "minimalist",
+          "basis": "subsumption: minimalist is a specific aesthetic realization of simple-living"
+        }
+      ],
+      "unmatched_pre": [
+        "Designer"
+      ],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Designer",
+          "direction": "removed",
+          "nearest_counterpart": "minimalist",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "'Designer' denotes a professional quality/positioning attribute (the brand is designer-grade or designer-curated), while 'minimalist' is an aesthetic style. These occupy different conceptual domains \u2014 quality/positioning vs visual style. Subsumption fails ('minimalist is a specific way of being Designer' = FALSE). No shared semantic neighborhood at a specific level. The nearest candidates 'brutalist' and 'minimalist' are both aesthetic descriptors, while 'Designer' is a quality/positioning attribute. All four transformation codes fail."
+        }
+      ],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Eco-conscious",
+          "post": "Eco-conscious",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical descriptor retained; no event needed."
+        },
+        {
+          "type": "confirm",
+          "pre": "Brutalist",
+          "post": "brutalist",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Identical descriptor retained (case difference); no event needed."
+        },
+        {
+          "type": "confirm",
+          "pre": "Simple-living",
+          "post": "minimalist",
+          "from_code": "Narrowed",
+          "to_code": "Narrowed",
+          "reason": "Subsumption test holds: minimalist is a specific aesthetic realization of simple-living (a lifestyle simplicity principle). PRE is substantive but functions as a broad lifestyle framing; POST is the concrete aesthetic mode. Reframed considered but subsumption is defensible. Calibrated correctly against anti-over-correction guidance."
+        },
+        {
+          "type": "confirm",
+          "pre": null,
+          "post": null,
+          "from_code": "Removed",
+          "to_code": "Removed",
+          "reason": "'Designer' (professional quality/curation positioning) has no defensible POST successor among the aesthetic descriptors (Eco-conscious, brutalist, minimalist). Different conceptual domains \u2014 quality/positioning vs visual style/aesthetic. All four transformation codes fail against nearest candidates. Confirmed not a same-neighborhood pair, so tier-5 Removed+New stands."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "The post-response is a compressed reformulation of the same descriptor set. Eco-conscious and brutalist are retained. Simple-living has been narrowed to minimalist (same conceptual territory). Designer is dropped. The added clause 'where raw materiality meets refined design' functions as a brief stylistic gloss on the retained descriptors and does not introduce new substantive content at the structural level. No new clauses or sentences are added that meaningfully extend the response's scope."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Simple-living",
+        "post_evidence": "minimalist",
+        "rationale": "Subsumption holds: 'minimalist is a specific way of being Simple-living' is TRUE. Simple-living is the broader lifestyle principle of simplicity; minimalist is its specific aesthetic realization. Same simplicity/minimalism neighborhood.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Designer",
+        "post_evidence": null,
+        "rationale": "'Designer' denotes professional quality/curation positioning; none of the POST descriptors (Eco-conscious, brutalist, minimalist) share that semantic role. Different conceptual domains \u2014 quality/positioning vs aesthetic style and environmental values. Tested Narrowed, Reframed, Elaborated, Expanded against nearest counterpart 'minimalist'; all fail. Genuine removal.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "Eco-conscious and brutalist are retained verbatim (no semantic event beyond stylistic preservation). Simple-living -> minimalist is the central analytic event. The subsumption sentence 'minimalist is a specific way of being Simple-living' is defensible (minimalism is a recognized aesthetic realization of simple-living philosophy), but 'Simple-living' is broader than a generic filler, which complicates the PRE-genericness signal. Recorded alternative as Reframed. The post clause 'where raw materiality meets refined design' elaborates the minimalist register but does not introduce a separately codable event at the descriptor level. The 'Designer' descriptor sits in a different conceptual domain (professional quality/positioning) than any retained POST descriptor, so Removed is the correct outcome after full re-check. Critic applied 4 correction(s)."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "nartay-ualikhan",
+      "item_id": "comp-1a"
+    },
+    "concept_alignment": {
+      "unitization_mode": "descriptor_set_special",
+      "pre_concepts": [
+        "Eco-conscious",
+        "Brutalist",
+        "Simple-living",
+        "Designer"
+      ],
+      "post_concepts": [
+        "Eco-conscious",
+        "brutalist",
+        "minimalist"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Eco-conscious",
+          "post": "Eco-conscious",
+          "continuity": "identical term",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Eco-conscious",
+          "post": "brutalist",
+          "continuity": "weak \u2014 different conceptual domains",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Eco-conscious",
+          "post": "minimalist",
+          "continuity": "weak \u2014 environmental values vs aesthetic minimalism",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "Eco-conscious",
+          "continuity": "weak \u2014 aesthetic style vs environmental values",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "brutalist",
+          "continuity": "identical term (case only)",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "minimalist",
+          "continuity": "strong \u2014 both are aesthetic descriptors in the same visual/design territory",
+          "scope": "minimalism is broader than brutalism (brutalism is a specific movement within modern design)",
+          "frame": "both framed as visual/design identity",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "Eco-conscious",
+          "continuity": "partial \u2014 minimalism and sustainability are often associated but not the same",
+          "scope": "different",
+          "frame": "lifestyle vs environmental values",
+          "stretch": "moderate",
+          "verdict": "weak"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "brutalist",
+          "continuity": "weak",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "minimalist",
+          "continuity": "strong \u2014 both invoke simplicity/minimalism; minimalism is an aesthetic, simple-living is broader lifestyle",
+          "scope": "simple-living is broader than minimalist (minimalist is a specific way of being simple-living)",
+          "frame": "lifestyle simplicity vs aesthetic simplicity",
+          "stretch": "moderate",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Designer",
+          "post": "Eco-conscious",
+          "continuity": "weak \u2014 different domains (professional/quality vs environmental)",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Designer",
+          "post": "brutalist",
+          "continuity": "weak \u2014 professional identity vs aesthetic",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Designer",
+          "post": "minimalist",
+          "continuity": "weak \u2014 designer-quality vs minimalist-aesthetic",
+          "scope": "n/a",
+          "frame": "n/a",
+          "stretch": "high",
+          "verdict": "implausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Eco-conscious",
+          "post": "brutalist",
+          "reason": "different conceptual domains (environmental values vs architectural aesthetic); IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED applies"
+        },
+        {
+          "pre": "Eco-conscious",
+          "post": "minimalist",
+          "reason": "different conceptual domains (environmental values vs aesthetic); no shared neighborhood at the specific level"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "Eco-conscious",
+          "reason": "different conceptual domains"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "brutalist",
+          "reason": "lifestyle vs specific aesthetic; no defensible lineage"
+        },
+        {
+          "pre": "Designer",
+          "post": "Eco-conscious",
+          "reason": "professional/quality positioning vs environmental values; different domains"
+        },
+        {
+          "pre": "Designer",
+          "post": "brutalist",
+          "reason": "professional positioning vs aesthetic; different domains"
+        },
+        {
+          "pre": "Designer",
+          "post": "minimalist",
+          "reason": "professional positioning vs aesthetic style; different domains"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Eco-conscious",
+          "post": "Eco-conscious",
+          "basis": "identical descriptor retained"
+        },
+        {
+          "pre": "Brutalist",
+          "post": "brutalist",
+          "basis": "identical descriptor retained (lowercased in post)"
+        },
+        {
+          "pre": "Simple-living",
+          "post": "minimalist",
+          "basis": "simple-living is a broader lifestyle simplicity concept; minimalist is a specific aesthetic realization of that same simplicity principle \u2014 share a simplicity/minimalism semantic neighborhood; subsumption test: 'minimalist is a specific way of being simple-living' is TRUE (a minimalist aesthetic is one way of expressing simple-living)"
+        }
+      ],
+      "unmatched_pre": [
+        "Designer"
+      ],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [
+        {
+          "concept": "Designer",
+          "direction": "removed",
+          "nearest_counterpart": "minimalist",
+          "codes_tested": [
+            "Narrowed",
+            "Reframed",
+            "Elaborated",
+            "Expanded"
+          ],
+          "outcome": "kept",
+          "reason": "'Designer' denotes a professional quality/positioning attribute (the brand is designer-grade or designer-curated), while 'minimalist' is an aesthetic style. These occupy different conceptual domains \u2014 quality/positioning vs visual style. Subsumption fails ('minimalist is a specific way of being Designer' = FALSE). No shared semantic neighborhood at a specific level. The nearest candidates 'brutalist' and 'minimalist' are both aesthetic descriptors, while 'Designer' is a quality/positioning attribute. All four transformation codes fail."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "The post-response is a compressed reformulation of the same descriptor set. Eco-conscious and brutalist are retained. Simple-living has been narrowed to minimalist (same conceptual territory). Designer is dropped. The added clause 'where raw materiality meets refined design' functions as a brief stylistic gloss on the retained descriptors and does not introduce new substantive content at the structural level. No new clauses or sentences are added that meaningfully extend the response's scope."
+    },
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Simple-living",
+        "post_evidence": "minimalist",
+        "rationale": "Subsumption test: 'minimalist is a specific way of being Simple-living' is TRUE. Simple-living is a broader lifestyle concept; minimalist is the aesthetic/specific mode of expressing that simplicity. PRE is somewhat broader (lifestyle simplicity); POST is the specific aesthetic realization. Same semantic neighborhood (simplicity/minimalism). Per NARROW-REQUIRES-SUBSUMPTION and NARROW-ABSTRACT, scope restriction / concretization with subsumption holding yields Narrowed. The surrounding clause 'where raw materiality meets refined design' further elaborates the minimalist register without shifting the frame.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Designer",
+        "post_evidence": null,
+        "rationale": "'Designer' (professional quality/curation positioning) has no semantic successor in POST. Nearest counterparts in POST (minimalist, brutalist, Eco-conscious) are aesthetic and value descriptors, not quality/positioning descriptors. Tested all four transformations against 'minimalist': Narrowed fails ('minimalist is a specific way of being Designer' = FALSE); Reframed fails (no shared semantic territory at a specific level \u2014 quality vs aesthetic); Elaborated fails (POST does not keep PRE intact); Expanded fails (POST does not broaden a 'Designer' seed). Genuinely different conceptual domains; outcome kept per MANDATORY-NEW-REMOVED-RECHECK.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      }
+    ],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "medium",
+      "flags": [
+        "boundary_case_narrow_vs_reframe",
+        "new_removed_recheck_passed"
+      ],
+      "coder_notes": "Eco-conscious and brutalist are retained verbatim (no semantic event beyond stylistic preservation). Simple-living -> minimalist is the central analytic event. The subsumption sentence 'minimalist is a specific way of being Simple-living' is defensible (minimalism is a recognized aesthetic realization of simple-living philosophy), but 'Simple-living' is broader than a generic filler, which complicates the PRE-genericness signal. Recorded alternative as Reframed. The post clause 'where raw materiality meets refined design' elaborates the minimalist register but does not introduce a separately codable event at the descriptor level. The 'Designer' descriptor sits in a different conceptual domain (professional quality/positioning) than any retained POST descriptor, so Removed is the correct outcome after full re-check."
+    },
+    "coded_at": "2026-01-15T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Eco-conscious",
+        "post": "Eco-conscious",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical descriptor retained; no event needed."
+      },
+      {
+        "type": "confirm",
+        "pre": "Brutalist",
+        "post": "brutalist",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Identical descriptor retained (case difference); no event needed."
+      },
+      {
+        "type": "confirm",
+        "pre": "Simple-living",
+        "post": "minimalist",
+        "from_code": "Narrowed",
+        "to_code": "Narrowed",
+        "reason": "Subsumption test holds: minimalist is a specific aesthetic realization of simple-living (a lifestyle simplicity principle). PRE is substantive but functions as a broad lifestyle framing; POST is the concrete aesthetic mode. Reframed considered but subsumption is defensible. Calibrated correctly against anti-over-correction guidance."
+      },
+      {
+        "type": "confirm",
+        "pre": null,
+        "post": null,
+        "from_code": "Removed",
+        "to_code": "Removed",
+        "reason": "'Designer' (professional quality/curation positioning) has no defensible POST successor among the aesthetic descriptors (Eco-conscious, brutalist, minimalist). Different conceptual domains \u2014 quality/positioning vs visual style/aesthetic. All four transformation codes fail against nearest candidates. Confirmed not a same-neighborhood pair, so tier-5 Removed+New stands."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Eco-conscious",
+        "post": "Eco-conscious",
+        "basis": "identical descriptor retained"
+      },
+      {
+        "pre": "Brutalist",
+        "post": "brutalist",
+        "basis": "identical descriptor retained (lowercased)"
+      },
+      {
+        "pre": "Simple-living",
+        "post": "minimalist",
+        "basis": "subsumption: minimalist is a specific aesthetic realization of simple-living"
+      }
+    ],
+    "unmatched_pre": [
+      "Designer"
+    ],
+    "unmatched_post": [],
+    "semantic_events": [
+      {
+        "code": "Narrowed",
+        "pre_evidence": "Simple-living",
+        "post_evidence": "minimalist",
+        "rationale": "Subsumption holds: 'minimalist is a specific way of being Simple-living' is TRUE. Simple-living is the broader lifestyle principle of simplicity; minimalist is its specific aesthetic realization. Same simplicity/minimalism neighborhood.",
+        "alternative_considered": "Reframed",
+        "confidence": "medium"
+      },
+      {
+        "code": "Removed",
+        "pre_evidence": "Designer",
+        "post_evidence": null,
+        "rationale": "'Designer' denotes professional quality/curation positioning; none of the POST descriptors (Eco-conscious, brutalist, minimalist) share that semantic role. Different conceptual domains \u2014 quality/positioning vs aesthetic style and environmental values. Tested Narrowed, Reframed, Elaborated, Expanded against nearest counterpart 'minimalist'; all fail. Genuine removal.",
+        "alternative_considered": "Reframed",
+        "confidence": "high"
+      }
+    ]
+  },
+  "skipCritic": false
+}

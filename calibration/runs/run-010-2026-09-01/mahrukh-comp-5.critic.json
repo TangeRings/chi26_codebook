@@ -1,0 +1,31 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": null,
+      "from_code": null,
+      "to_code": null,
+      "reason": "Pass-1 correctly treated PRE as epistemic non-answer ('no idea' / 'no specific audience/niche identified') and POST as emerging niche identification. No semantic neighborhood exists between epistemic acknowledgment and product-category/attitude descriptors; lineage cannot be manufactured. New event is defensible."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "no idea",
+    "no specific audience/niche identified"
+  ],
+  "unmatched_post": [
+    "Work jewellery",
+    "more fun"
+  ],
+  "semantic_events": [
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Work jewellery but more fun?",
+      "rationale": "POST introduces a specific niche (work jewellery with a 'more fun' differentiator) where PRE contained only epistemic acknowledgments ('no idea', 'no specific audience/niche identified'). PRE and POST occupy different conceptual domains \u2014 epistemic state versus market segment. Narrowed, Reframed, Elaborated, and Expanded all fail against every nearest PRE counterpart. Cannot derive a product category or attitude descriptor from an absence-of-knowledge statement.",
+      "alternative_considered": "Removed+New for 'no idea' matched to 'Work jewellery' \u2014 same failure as above; the pair has no shared semantic neighborhood.",
+      "confidence": "high"
+    }
+  ]
+}

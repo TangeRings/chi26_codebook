@@ -1,0 +1,2350 @@
+{
+  "_seedVersion": "upload-1788218706811",
+  "additionalSurveyData": {
+    "pre": [
+      {
+        "id": "pre-1",
+        "questionId": "Pre-Survey 1",
+        "label": "Prior Marketing Experience",
+        "questionText": "What is your prior experience in branding and marketing? (such as courses taken, your internship, or other types exposure to the industry)",
+        "answer": "I used to take EE, and had a small startup business."
+      },
+      {
+        "id": "pre-2",
+        "questionId": "Pre-Survey 2",
+        "label": "Personal Brand Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 2
+      },
+      {
+        "id": "pre-3",
+        "questionId": "Pre-Survey 3",
+        "label": "Sense of Control",
+        "questionText": "On a scale of 1-10, how much do you think you have a sense of CONTROL to complete this project?",
+        "answer": 2
+      },
+      {
+        "id": "pre-4",
+        "questionId": "Pre-Survey 4",
+        "label": "Independent Brand Creation Confidence (Pre)",
+        "questionText": "On a scale of 1-10, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 5
+      }
+    ],
+    "post": [
+      {
+        "id": "post-1",
+        "questionId": "Post-Survey 1",
+        "label": "Overall AI Prompting Skills",
+        "questionText": "How would you rate your overall AI prompting skills? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-2",
+        "questionId": "Post-Survey 1.1",
+        "label": "AI Usage Frequency",
+        "questionText": "How often do you use LLM-based AI models (ChatGPT, Claude, DeepSeek etc.) in your daily life?",
+        "answer": "Frequent user: 5-10 times per week"
+      },
+      {
+        "id": "post-3",
+        "questionId": "Post-Survey 1.2",
+        "label": "Prior Training in AI Prompting",
+        "questionText": "Have you had any prior training in AI prompting? If yes, explain in what nature (youtube videos, in other classes, other workshops).",
+        "answer": "I have not"
+      },
+      {
+        "id": "post-4",
+        "questionId": "Q5.1",
+        "label": "AI Suggestions Overall Impact",
+        "questionText": "To what extent do you feel that AI suggestions improved your overall brand concept (brand identity, target audience, product offerings, and platform strategy)? (Scale 1-10)",
+        "answer": 8
+      },
+      {
+        "id": "post-5",
+        "questionId": "Q5.2",
+        "label": "Most Helpful Aspects of AI",
+        "questionText": "What aspects of using AI did you find most helpful in refining your brand concept?",
+        "answer": "AI helped me take my idea from just a sunlight alarm clock to a full multi-sensory gadget. It made it easier to refine the concept, explore new market opportunities, and spot user needs I hadn't thought of before. With AI's insights, I've been able to position my brand better and make the idea more solid and innovative."
+      },
+      {
+        "id": "post-6",
+        "questionId": "Q5.3",
+        "label": "Challenges When Using AI",
+        "questionText": "What challenges, if any, did you encounter when using AI to refine your brand ideas?",
+        "answer": "Some of the ai suggestions are not realistic and practice"
+      },
+      {
+        "id": "post-7",
+        "questionId": "Q5.4",
+        "label": "Helpfulness of Example Prompts",
+        "questionText": "To what extent do you find my guiding/example prompts helpful? (Scale 1-10)",
+        "answer": 7
+      },
+      {
+        "id": "post-8",
+        "questionId": "Post-Survey 2",
+        "label": "Personal Brand Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating a small personal brand on social media at the moment?",
+        "answer": 7
+      },
+      {
+        "id": "post-9",
+        "questionId": "Post-Survey 3",
+        "label": "Independent Creation Confidence (Post)",
+        "questionText": "On a scale of 1-5, how confident are you about creating this brand all by yourself at the moment?",
+        "answer": 6
+      }
+    ]
+  },
+  "name": "Ky Tran",
+  "studentId": "ky-tran",
+  "comparisons": [
+    {
+      "id": "comp-1a",
+      "questionId": "Q1a",
+      "label": "Brand Identity",
+      "questionText": "What are the key characteristics of your brand? (e.g., innovative, sustainable, luxurious, fun, minimalist, sporty, lively)",
+      "pre": {
+        "answer": "innovative, minialist"
+      },
+      "post": {
+        "answer": "Smart, wellness-focused, affordable, and accessible for everyone."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE contains 2 short descriptors (3 words). POST contains 4 substantive descriptors including a multi-word phrase ('accessible for everyone'), substantially expanding the breadth of brand characteristics named. Multiple new concepts are introduced at the phrase/concept level, extending the response from a sparse two-word characterization to a four-point identity statement.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "innovative",
+            "minimalist"
+          ],
+          "postConcepts": [
+            "Smart",
+            "wellness-focused",
+            "affordable",
+            "accessible for everyone"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "innovative",
+              "post": "Smart",
+              "continuity": "Both relate to intelligence/capability; 'smart' can be a specific mode of being innovative, but 'innovative' typically signals novelty/creativity while 'smart' signals intelligence/cleverness",
+              "scope": "Similar scope — both single-word qualitative descriptors of brand character",
+              "frame": "Innovation/creativity frame vs. intelligence/cleverness frame",
+              "stretch": "Moderate stretch — related but the emphasis differs. 'Smart' is arguably a specific way of being innovative in a cognitive/efficient sense, or could be a sibling quality (cleverness rather than novelty)",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "innovative",
+              "post": "wellness-focused",
+              "continuity": "Different conceptual domains — innovation vs. health/wellbeing orientation",
+              "scope": "Unrelated",
+              "frame": "Different frames entirely",
+              "stretch": "Implausible — no shared semantic neighborhood",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "innovative",
+              "post": "affordable",
+              "continuity": "Different domains — innovation vs. price positioning",
+              "scope": "Unrelated",
+              "frame": "Different frames",
+              "stretch": "Implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "innovative",
+              "post": "accessible for everyone",
+              "continuity": "Different domains — innovation vs. universal access/inclusivity",
+              "scope": "Unrelated",
+              "frame": "Different frames",
+              "stretch": "Implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "minimalist",
+              "post": "Smart",
+              "continuity": "Minimalism is about reduction/simplicity; 'smart' could mean intelligent/efficient. A 'smart' approach could imply efficient/minimal design, but the frames differ",
+              "scope": "Unrelated scope",
+              "frame": "Aesthetic-reduction frame vs. cognitive-intelligence frame",
+              "stretch": "Weak — could be a very loose stretch but no defensible lineage",
+              "verdict": "weak"
+            },
+            {
+              "pre": "minimalist",
+              "post": "wellness-focused",
+              "continuity": "Different domains — minimalism vs. wellness",
+              "scope": "Unrelated",
+              "frame": "Different frames",
+              "stretch": "Implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "minimalist",
+              "post": "affordable",
+              "continuity": "Different domains — aesthetic minimalism vs. price positioning",
+              "scope": "Unrelated",
+              "frame": "Different frames",
+              "stretch": "Implausible",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "minimalist",
+              "post": "accessible for everyone",
+              "continuity": "Different domains — design/aesthetic minimalism vs. universal access",
+              "scope": "Unrelated",
+              "frame": "Different frames",
+              "stretch": "Implausible",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "innovative",
+              "post": "wellness-focused",
+              "reason": "Different conceptual domains — innovation vs. health orientation; no shared neighborhood"
+            },
+            {
+              "pre": "innovative",
+              "post": "affordable",
+              "reason": "Different conceptual domains — innovation vs. price positioning"
+            },
+            {
+              "pre": "innovative",
+              "post": "accessible for everyone",
+              "reason": "Different conceptual domains — innovation vs. inclusivity/access"
+            },
+            {
+              "pre": "minimalist",
+              "post": "Smart",
+              "reason": "Aesthetic-reduction frame vs. cognitive-intelligence frame; weak lineage only, no defensible subsumption or sibling relationship"
+            },
+            {
+              "pre": "minimalist",
+              "post": "wellness-focused",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "minimalist",
+              "post": "affordable",
+              "reason": "Different conceptual domains"
+            },
+            {
+              "pre": "minimalist",
+              "post": "accessible for everyone",
+              "reason": "Different conceptual domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "innovative",
+              "post": "Smart",
+              "basis": "Both denote brand capability/cleverness. Smart narrows the generic innovation claim into a specific cognitive/intelligent register."
+            }
+          ],
+          "unmatchedPre": [
+            "minimalist"
+          ],
+          "unmatchedPost": [
+            "wellness-focused",
+            "affordable",
+            "accessible for everyone"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "minimalist",
+              "direction": "removed",
+              "nearestCounterpart": "Smart",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Minimalism concerns aesthetic reduction/simplicity; Smart concerns intelligence/cleverness. Different frames. Subsumption test fails ('Smart is a specific way of being minimalist' is FALSE). Semantic territory not shared — minimalism is an aesthetic/design orientation, not a cognitive one. Full POST set searched; no closer counterpart exists."
+            },
+            {
+              "concept": "wellness-focused",
+              "direction": "new",
+              "nearestCounterpart": "innovative",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Wellness-focused concerns health/wellbeing orientation; innovative concerns novelty/creativity. Different conceptual domains. No shared semantic neighborhood. Subsumption fails; no sibling relationship in same territory. Full PRE set searched; no antecedent exists."
+            },
+            {
+              "concept": "affordable",
+              "direction": "new",
+              "nearestCounterpart": "innovative",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Affordable concerns price positioning; innovative concerns novelty/creativity. Different conceptual domains. No shared semantic neighborhood. No defensible lineage. Full PRE set searched."
+            },
+            {
+              "concept": "accessible for everyone",
+              "direction": "new",
+              "nearestCounterpart": "minimalist",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Accessible for everyone concerns universal inclusivity/access; minimalist concerns aesthetic reduction. Different conceptual domains. No shared neighborhood. No defensible transformation. Full PRE set searched."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "innovative",
+              "post": "Smart",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Pass 1 code is correct. PRE-genericness signal applies: innovative is a generic capability claim. Subsumption test 'Smart is a specific way of being innovative' is defensible (smart = clever/efficient innovation). Narrowed is appropriate."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "minimalist",
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass 1 is correct. Minimalism (aesthetic reduction) has no defensible POST successor. Searched full POST set: Smart is cognitive/cleverness, not aesthetic; remaining POSTs are unrelated domains. No shared neighborhood. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "wellness-focused",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. Wellness/health orientation has no PRE antecedent. Innovation and wellness occupy different conceptual domains. No defensible transformation across the ladder."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "affordable",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. Price positioning has no PRE antecedent. Innovation and minimalism are unrelated to affordability. No shared neighborhood."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "accessible for everyone",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. Universal access/inclusivity has no PRE antecedent. Different conceptual domain from both PRE concepts. No defensible transformation."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6vrb09408djrpz8c",
+            "code": "Narrowed",
+            "preEvidence": "innovative",
+            "postEvidence": "Smart",
+            "rationale": "Innovative is a generic capability descriptor; Smart specifies it into a cognitive/cleverness register. Subsumption test is defensible: 'Smart is a specific way of being innovative' holds when innovative is read as a broad capability claim.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed (innovation frame vs intelligence frame as sibling qualities)"
+          },
+          {
+            "instanceId": "mti6vrb074doh8yfmxq",
+            "code": "Removed",
+            "preEvidence": "minimalist",
+            "postEvidence": null,
+            "rationale": "Minimalism (aesthetic reduction/simplicity) has no successor in POST. Searched full POST set: Smart is cognitive, remaining POSTs are in unrelated domains (wellness, pricing, access). No shared semantic neighborhood.",
+            "confidence": "medium",
+            "alternativeConsidered": "Reframed (minimalism → Smart under an efficiency frame)"
+          },
+          {
+            "instanceId": "mti6vrb08jz5n0xrmzu",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "wellness-focused",
+            "rationale": "Wellness-focused has no antecedent in PRE. Innovation and minimalism do not share a neighborhood with health/wellbeing orientation.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6vrb0fcde3frgtse",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "affordable",
+            "rationale": "Affordable has no antecedent in PRE. Price positioning is a different conceptual domain from both PRE concepts.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6vrb0tqxxxgf0gub",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "accessible for everyone",
+            "rationale": "Accessible for everyone has no antecedent in PRE. Universal access/inclusivity is a different conceptual domain from both PRE concepts.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "neighborhood_tested_no_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "Primary uncertainty is the innovative→Smart coding. Narrowed is defensible under the PRE-genericness signal (innovative as a broad capability claim) and a plausible reading of 'Smart' as a specific cognitive register of innovation. However, an alternative reading treats them as sibling qualities within an intelligence/cleverness family (Reframed). The boundary_case_narrow_vs_reframe flag captures this. The minimalist removal is also borderline — a loose reading could connect minimalism to 'Smart' via an efficiency/simplicity frame, but that stretch is not defensible under the subsumption test or the semantic-neighborhood test. All three New events are high-confidence: their corresponding PRE concepts occupy genuinely different conceptual domains. Critic applied 5 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1b",
+      "questionId": "Q1b",
+      "label": "Brand Vision",
+      "questionText": "What future do you hope to create with this brand?",
+      "pre": {
+        "answer": "make a clock with a sunlight built in feature to help wake up easily"
+      },
+      "post": {
+        "answer": "To make better sleep and wake-up experiences affordable and accessible, helping people feel more refreshed, productive, and in sync with their natural rhythms."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The post-response is a single full sentence, but it introduces multiple new conceptual dimensions (sleep in addition to wake-up, affordability, accessibility, refreshed, productive, natural rhythms) that were entirely absent from the pre-response. The vision expands from a single product feature description to a multi-clause mission statement covering outcome, access, and physiological alignment.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "make a clock",
+            "sunlight built-in feature",
+            "help wake up easily"
+          ],
+          "postConcepts": [
+            "make better sleep and wake-up experiences affordable and accessible",
+            "helping people feel more refreshed, productive, and in sync with their natural rhythms"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "make a clock",
+              "post": "make better sleep and wake-up experiences affordable and accessible",
+              "continuity": "both concern the core product/offering",
+              "scope": "POST broadens from a clock to sleep and wake-up experiences",
+              "frame": "product-focused → experience-and-accessibility-focused",
+              "stretch": "moderate stretch; both center on what the brand makes/offers",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "make a clock",
+              "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+              "continuity": "weak; clock is product, this is outcome",
+              "scope": "different scope levels (product vs. outcome)",
+              "frame": "product → human outcome",
+              "stretch": "stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "sunlight built-in feature",
+              "post": "make better sleep and wake-up experiences affordable and accessible",
+              "continuity": "weak; feature vs. positioning statement",
+              "scope": "specific feature vs. broad positioning",
+              "frame": "feature-spec → mission/positioning",
+              "stretch": "stretched",
+              "verdict": "weak"
+            },
+            {
+              "pre": "sunlight built-in feature",
+              "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+              "continuity": "the sunlight feature relates to being in sync with natural rhythms",
+              "scope": "feature vs. outcome/rhythm",
+              "frame": "feature → natural alignment",
+              "stretch": "moderate stretch through shared natural-rhythms concept",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "help wake up easily",
+              "post": "make better sleep and wake-up experiences affordable and accessible",
+              "continuity": "both relate to wake-up experience",
+              "scope": "POST broadens to sleep + wake-up",
+              "frame": "ease-of-waking → broader sleep/wake experience + affordability/accessibility",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "help wake up easily",
+              "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+              "continuity": "waking easily connects to feeling refreshed",
+              "scope": "specific act vs. broader outcome",
+              "frame": "functional ease → emotional/physiological outcome",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "make a clock",
+              "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+              "reason": "Different levels of analysis (product vs. outcome); weaker than the other candidate pairings and superseded by the clock→experiences alignment."
+            },
+            {
+              "pre": "sunlight built-in feature",
+              "post": "make better sleep and wake-up experiences affordable and accessible",
+              "reason": "Feature specification vs. mission/positioning statement; no shared semantic frame beyond very broad adjacency."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "make a clock",
+              "post": "make better sleep and wake-up experiences affordable and accessible",
+              "basis": "A clock is a specific product realization of the broader sleep/wake-up experience category. Subsumption holds."
+            },
+            {
+              "pre": "sunlight built-in feature",
+              "post": "make better sleep and wake-up experiences affordable and accessible",
+              "basis": "Feature-centric frame reconceived as purpose/accessibility-centric positioning within the same sleep/wake subject."
+            },
+            {
+              "pre": "help wake up easily",
+              "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+              "basis": "Functional ease-of-waking outcome is preserved and broadened to multiple outcomes and the full sleep–wake cycle."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "make a clock",
+              "direction": "removed",
+              "nearestCounterpart": "make better sleep and wake-up experiences affordable and accessible",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "A clock is a specific product realization of the broader sleep/wake-up experience category. Subsumption test: a clock is a specific way of delivering a sleep and wake-up experience (TRUE). PRE 'make a clock' is narrowed into the broader category in POST. Converted to a matched transformation rather than Removed."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "help wake up easily",
+              "post": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Expanded is correct: the functional ease-of-waking seed is preserved and broadened to multiple outcomes plus sleep–wake cycle scope. Elaborated would understate the scope extension."
+            },
+            {
+              "type": "confirm",
+              "pre": "sunlight built-in feature",
+              "post": "make better sleep and wake-up experiences affordable and accessible",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Reframed is correct: feature-centric frame → purpose/accessibility-centric frame. Subsumption fails ('sunlight built-in feature is a specific way of being sleep/wake experiences' is FALSE), so Narrowed is wrong. Same subject (brand role in sleep/wake), different organizing frame."
+            },
+            {
+              "type": "confirm",
+              "pre": "make a clock",
+              "post": "make better sleep and wake-up experiences affordable and accessible",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Subsumption test: 'a clock is a specific way of delivering sleep and wake-up experiences' is TRUE. PRE is a concrete product instance; POST lifts to the experience category. Narrowed is correct; alternative Expanded was correctly rejected since the frame shifts from product-instance to purpose-oriented category."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6w76rxjx2b7db3q",
+            "code": "Narrowed",
+            "preEvidence": "make a clock",
+            "postEvidence": "make better sleep and wake-up experiences affordable and accessible",
+            "rationale": "A clock is a specific way of delivering sleep and wake-up experiences (subsumption TRUE). PRE is a concrete product instance; POST lifts to the broader experience category it serves. PRE 'make a clock' is the generic product-level seed; POST narrows the scope up to purpose while the product-as-instance relation is preserved.",
+            "confidence": "medium",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti6w76st8qdzzcsnn",
+            "code": "Reframed",
+            "preEvidence": "sunlight built-in feature",
+            "postEvidence": "make better sleep and wake-up experiences affordable and accessible",
+            "rationale": "Feature-centric / engineering specification frame is reconceived as purpose-centric / mission-and-access positioning. Same subject (brand's role in sleep/wake), different organizing frame. Subsumption fails.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6w76s7gdqx0w9k9r",
+            "code": "Expanded",
+            "preEvidence": "help wake up easily",
+            "postEvidence": "helping people feel more refreshed, productive, and in sync with their natural rhythms",
+            "rationale": "The functional ease-of-waking seed is preserved and broadened to multiple outcomes (refreshed, productive, aligned with natural rhythms) plus extended to the full sleep–wake cycle.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_reframe",
+            "vague_to_specific_lineage",
+            "neighborhood_protected"
+          ],
+          "coderNotes": "The clock→experiences pair sits between Narrowed (clock as a specific instance of sleep/wake experience) and Expanded (broadening from product to category). I selected Narrowed because subsumption holds, but Expanded is a defensible alternative. The sunlight-feature pair could plausibly be read as Elaborated (feature retained within a larger mission) rather than Reframed; I selected Reframed because the organizing frame shifts from feature-spec to mission/access positioning. The wake-up outcome pair is the cleanest Expanded of the three. Critic applied 3 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-1c",
+      "questionId": "Q1c",
+      "label": "Core Values",
+      "questionText": "What values will guide your brand? (e.g., eco-friendliness, customer-centricity, quality)",
+      "pre": {
+        "answer": "quality, customer-centricity"
+      },
+      "post": {
+        "answer": "Wellness & Balance – Helping users both fall asleep faster and wake up naturally.\nInnovation & Simplicity – Using technology in a way that is effective, easy to use, and intuitive.\nAffordability & Accessibility – Making sleep technology accessible to everyone, not just premium users.\nUser-Centric Design – Focused on real-world needs, ensuring effortless use and convenience.\nSustainability – Using eco-conscious materials and energy-efficient solutions."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "The PRE response is a terse two-descriptor list. The POST response elaborates the brand's core values into five named values, each accompanied by an explanatory clause (e.g., 'Helping users both fall asleep faster and wake up naturally'). This is a substantial expansion in the number of values, scope, and explanatory depth — multiple new clauses and explanatory passages added.",
+        "conceptAlignment": {
+          "unitizationMode": "descriptor_set_special",
+          "preConcepts": [
+            "quality",
+            "customer-centricity"
+          ],
+          "postConcepts": [
+            "Wellness & Balance",
+            "Innovation & Simplicity",
+            "Affordability & Accessibility",
+            "User-Centric Design",
+            "Sustainability"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "quality",
+              "post": "Wellness & Balance",
+              "continuity": "quality is generic; wellness/balance touches product outcome, not a quality standard",
+              "scope": "different scope dimensions",
+              "frame": "quality-as-attribute → outcome-of-use frame",
+              "stretch": "weak — only topically related through product",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "quality",
+              "post": "Innovation & Simplicity",
+              "continuity": "different conceptual domains — quality as standard vs innovation/design",
+              "scope": "different scope dimensions",
+              "frame": "quality frame vs innovation/process frame",
+              "stretch": "weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "quality",
+              "post": "Affordability & Accessibility",
+              "continuity": "different conceptual domains — quality standard vs accessibility",
+              "scope": "different scope dimensions",
+              "frame": "quality frame vs access/cost frame",
+              "stretch": "weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "quality",
+              "post": "User-Centric Design",
+              "continuity": "different conceptual domains — quality standard vs user-focused design",
+              "scope": "different scope dimensions",
+              "frame": "quality frame vs user-centeredness frame",
+              "stretch": "weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "quality",
+              "post": "Sustainability",
+              "continuity": "different conceptual domains — quality standard vs environmental",
+              "scope": "different scope dimensions",
+              "frame": "quality frame vs eco frame",
+              "stretch": "implausible — completely unrelated",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "customer-centricity",
+              "post": "Wellness & Balance",
+              "continuity": "different — customer-centricity concerns audience focus; wellness concerns product outcome",
+              "scope": "audience vs product",
+              "frame": "audience-orientation vs product-outcome frame",
+              "stretch": "weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "customer-centricity",
+              "post": "Innovation & Simplicity",
+              "continuity": "different conceptual domains — audience focus vs product/process",
+              "scope": "audience vs product design",
+              "frame": "audience-orientation vs process frame",
+              "stretch": "weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "customer-centricity",
+              "post": "Affordability & Accessibility",
+              "continuity": "different conceptual domains — focused on customer vs removing cost barriers",
+              "scope": "audience focus vs accessibility scope",
+              "frame": "audience orientation vs inclusion/access frame",
+              "stretch": "weak",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "customer-centricity",
+              "post": "User-Centric Design",
+              "continuity": "strong — both centered on the user/customer; same brand-orientation neighborhood",
+              "scope": "both oriented to user; shared semantic territory",
+              "frame": "audience-customer orientation → user-as-design-recipient frame",
+              "stretch": "modest — narrow shift from generic orientation to operational design focus",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "customer-centricity",
+              "post": "Sustainability",
+              "continuity": "different conceptual domains — user focus vs eco focus",
+              "scope": "audience vs environment",
+              "frame": "audience frame vs environmental frame",
+              "stretch": "implausible",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "quality",
+              "post": "Wellness & Balance",
+              "reason": "different conceptual domains; quality as attribute standard vs wellness as product outcome — only topically related"
+            },
+            {
+              "pre": "quality",
+              "post": "Innovation & Simplicity",
+              "reason": "different conceptual domains; quality standard vs innovation/process"
+            },
+            {
+              "pre": "quality",
+              "post": "Affordability & Accessibility",
+              "reason": "different conceptual domains; quality standard vs access/cost"
+            },
+            {
+              "pre": "quality",
+              "post": "User-Centric Design",
+              "reason": "different conceptual domains; quality standard vs user-focused design"
+            },
+            {
+              "pre": "quality",
+              "post": "Sustainability",
+              "reason": "different conceptual domains; quality standard vs environmental material/sourcing"
+            },
+            {
+              "pre": "customer-centricity",
+              "post": "Wellness & Balance",
+              "reason": "different conceptual domains; customer orientation vs product outcome"
+            },
+            {
+              "pre": "customer-centricity",
+              "post": "Innovation & Simplicity",
+              "reason": "different conceptual domains; customer orientation vs design process"
+            },
+            {
+              "pre": "customer-centricity",
+              "post": "Affordability & Accessibility",
+              "reason": "different conceptual domains; customer orientation vs cost/access"
+            },
+            {
+              "pre": "customer-centricity",
+              "post": "Sustainability",
+              "reason": "different conceptual domains; customer orientation vs environmental concern"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "customer-centricity",
+              "post": "User-Centric Design",
+              "basis": "Shared user/customer-centered semantic neighborhood; PRE frames as audience-orientation, POST frames as operational design-recipient principle. Frame shift without subsumption."
+            }
+          ],
+          "unmatchedPre": [
+            "quality"
+          ],
+          "unmatchedPost": [
+            "Wellness & Balance",
+            "Innovation & Simplicity",
+            "Affordability & Accessibility",
+            "Sustainability"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "quality",
+              "direction": "removed",
+              "nearestCounterpart": "User-Centric Design",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Quality as an attribute/product standard and User-Centric Design as user-focused design are different conceptual domains. Tested Narrowed (quality as user-centric design subsumption: false), Reframed (no shared semantic territory: false), Elaborated (no detail added to quality: false), Expanded (no broadening of quality into user-focus: false). Survives as Removed."
+            },
+            {
+              "concept": "Wellness & Balance",
+              "direction": "new",
+              "nearestCounterpart": "quality",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Wellness/Balance as product outcome and quality as attribute standard are different conceptual domains. No tier of the ladder is defensible; nearest PRE concept is quality and all four transformations fail."
+            },
+            {
+              "concept": "Innovation & Simplicity",
+              "direction": "new",
+              "nearestCounterpart": "quality",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Innovation/technology-simplicity and product-quality standard are different conceptual domains. Full-response search finds no defensive transformation; nearest PRE is quality."
+            },
+            {
+              "concept": "Affordability & Accessibility",
+              "direction": "new",
+              "nearestCounterpart": "customer-centricity",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Cost/accessibility and customer-centricity are different conceptual domains. Tested Narrowed (accessibility is a kind of customer focus: false — accessibility is a different value axis), Reframed/Elaborated/Expanded: all fail. Remains New."
+            },
+            {
+              "concept": "Sustainability",
+              "direction": "new",
+              "nearestCounterpart": "quality",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Environmental/material-sustainability and product-quality standard are genuinely different conceptual domains. No defensible transformation; remains New."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "customer-centricity",
+              "post": "User-Centric Design",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Pass-1 Reframed is correct. Subsumption test fails ('User-Centric Design is a specific way of being customer-centricity' is not clearly true — UCD is an operational design principle, not a strict subtype of customer orientation), but the pair shares the user/customer-centered semantic neighborhood and the organizing frame shifts from audience-orientation to design-recipient frame. PRE is substantive (customer-centricity), so the sibling reading is appropriate. Confirm Reframed."
+            },
+            {
+              "type": "confirm",
+              "pre": "quality",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "After full-response recheck against all five POST concepts, no tier of the ladder is defensible. Quality (attribute/standard) vs User-Centric Design (user-focus), Wellness & Balance (outcome), Innovation & Simplicity (process), Affordability & Accessibility (cost/access), Sustainability (environmental): all are different conceptual domains. Confirmed non-neighborhood; Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Wellness & Balance",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE (quality) is in a different conceptual domain (attribute standard vs product health-outcome). No transformation tier holds. Confirmed New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Innovation & Simplicity",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE (quality) is in a different conceptual domain (attribute standard vs process/design). No transformation tier holds. Confirmed New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Affordability & Accessibility",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE (customer-centricity) is in a different conceptual domain (audience orientation vs cost/access axis). Narrowed test fails (accessibility targets non-customers too). No transformation tier holds. Confirmed New."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Sustainability",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Nearest PRE (quality) is in a different conceptual domain (attribute standard vs environmental/material sourcing). No transformation tier holds. Confirmed New."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6vp91p8ummtaequ8",
+            "code": "Reframed",
+            "preEvidence": "customer-centricity",
+            "postEvidence": "User-Centric Design – Focused on real-world needs, ensuring effortless use and convenience.",
+            "rationale": "Both occupy the user/customer-centered neighborhood. The organizing frame shifts from audience-orientation (centering the customer) to a design-recipient frame (centering the user as the object of design decisions). Subsumption test fails — User-Centric Design is an operational sibling of customer-centricity, not a strict subtype — so tier 2 (Reframed) is the correct verdict. PRE is substantive, reinforcing the sibling reading over a subsumption reading.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed (rejected: 'User-Centric Design is a specific way of being customer-centricity' is not literally true; UCD is a design-methodology sibling rather than a customer-orientation subtype)"
+          },
+          {
+            "instanceId": "mti6vp91qpwngihy7en",
+            "code": "Removed",
+            "preEvidence": "quality",
+            "postEvidence": null,
+            "rationale": "After exhaustive recheck against all five POST concepts, quality (as an attribute/standard) sits in a different conceptual domain from each candidate: User-Centric Design (user-focus), Wellness & Balance (product outcome), Innovation & Simplicity (process), Affordability & Accessibility (cost/access), Sustainability (environmental). No tier of the transformation ladder is defensible; no neighborhood is shared.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed against User-Centric Design (rejected: no shared semantic territory at a specific level — 'attribute standard' and 'user-centered design' are different domains, and the only umbrella would be 'brand value', which hits the abstraction ceiling)"
+          },
+          {
+            "instanceId": "mti6vp91e4rirapo8mc",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Wellness & Balance – Helping users both fall asleep faster and wake up naturally.",
+            "rationale": "Nearest PRE concept is quality, which occupies a different conceptual domain (attribute standard vs product health-outcome). Full ladder test fails across all four tiers; no PRE antecedent exists.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6vp91glapto2ovv",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Innovation & Simplicity – Using technology in a way that is effective, easy to use, and intuitive.",
+            "rationale": "Nearest PRE concept is quality, which sits in a different conceptual domain (attribute standard vs innovation/process-design). No transformation tier holds.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6vp916rj7t1953vi",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Affordability & Accessibility – Making sleep technology accessible to everyone, not just premium users.",
+            "rationale": "Nearest PRE concept is customer-centricity. Narrowed test fails (accessibility targets non-customers as well, so it is not a subset of customer focus); Reframed/Elaborated/Expanded also fail because cost/access is a different value axis from audience orientation. No PRE antecedent exists.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          },
+          {
+            "instanceId": "mti6vp91wt1rb2kqpk",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Sustainability – Using eco-conscious materials and energy-efficient solutions.",
+            "rationale": "Nearest PRE concept is quality, in a different conceptual domain (attribute standard vs environmental/material sourcing). No transformation tier holds.",
+            "confidence": "high",
+            "alternativeConsidered": null
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "neighborhood_protected",
+            "new_removed_recheck_passed",
+            "boundary_case_narrow_vs_reframe"
+          ],
+          "coderNotes": "POST is structured as five elaborated core-value statements with explanatory clauses, while PRE is a bare two-descriptor list. The transformation is dominated by additions (New) plus one Reframed for the customer/user-centric concept. Quality is removed after recheck because it sits in a different conceptual domain from any POST value. Critic applied 6 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-2",
+      "questionId": "Q1.1",
+      "label": "Brand Concept Confidence",
+      "questionText": "How confident are you in your current brand concept and the direction you're heading? (Scale 1-10)",
+      "pre": {
+        "answer": 5
+      },
+      "post": {
+        "answer": 6
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-3",
+      "questionId": "Q2",
+      "label": "Target Customer Identification",
+      "questionText": "Who are your target customers? Define your audience as specifically as possible. (Demographics, Psychographics)",
+      "pre": {
+        "answer": "student, office worker. People who have day work and need to wake up early in the morning. Sleep Improvement Seekers, people struggling with alarms and poor sleep cycles). Can be use in hospitality."
+      },
+      "post": {
+        "answer": "Students & Young Professionals (18–34 years old) - Often struggle with inconsistent sleep schedules due to studying, social life, or work. Many live in small dorms or apartments with poor natural light. Low adoption of AI curtains due to rental constraints or affordability concerns. Tech-savvy and more likely to try innovative solutions.\n\nSleep Improvement Seekers (All Ages) - Includes insomniacs, light sleepers, and those suffering from sleep disorders. Likely already buying melatonin, white noise machines, or wake-up lights. Open to trying new sleep technology to optimize rest.\n\nDaytime Workers & Shift Workers - Many struggle with irregular sleep patterns due to work schedules. AI curtains don't help them because they need controlled artificial daylight. Strong need for circadian rhythm alignment and portable light therapy."
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE is a single ~30-word sentence naming three audience labels with minimal qualification. POST contains three fully elaborated audience segments with specific age ranges, sub-segments, psychographics, current behaviors (e.g., melatonin, white noise machines), adoption barriers, and product-need framings. Multiple new sentences and explanatory passages have been added; the scope and depth of the response is meaningfully larger.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "students",
+            "office workers",
+            "daytime workers",
+            "Sleep Improvement Seekers",
+            "hospitality users"
+          ],
+          "postConcepts": [
+            "Students & Young Professionals (18–34)",
+            "Sleep Improvement Seekers (All Ages)",
+            "Daytime Workers & Shift Workers",
+            "insomniacs/light sleepers/sleep disorder sufferers (sub-segment of Sleep Improvement Seekers)",
+            "small dorm/apartment dwellers (sub-segment of Students)",
+            "AI-curtain rental-constrained non-adopters (sub-segment)",
+            "Tech-savvy early adopters (sub-segment)",
+            "insomniacs using melatonin/white noise/wake-up lights (sub-sub-segment)",
+            "circadian rhythm alignment need (sub-segment need)",
+            "portable light therapy need (sub-segment need)"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "students",
+              "post": "Students & Young Professionals (18–34)",
+              "continuity": "same broad audience category (students)",
+              "scope": "POST is narrower — restricts to 18–34 and adds young professionals",
+              "frame": "PRE labels by role only; POST adds age range, living conditions, tech-savviness",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "students",
+              "post": "Sleep Improvement Seekers (All Ages)",
+              "continuity": "weak — both are audiences but defined by different axes (role vs. need)",
+              "scope": "not directly comparable",
+              "frame": "role-based vs. need-based",
+              "stretch": "high",
+              "verdict": "weak"
+            },
+            {
+              "pre": "students",
+              "post": "Daytime Workers & Shift Workers",
+              "continuity": "weak — both are working/scheduled populations",
+              "scope": "not directly comparable",
+              "frame": "role/age vs. shift pattern",
+              "stretch": "high",
+              "verdict": "weak"
+            },
+            {
+              "pre": "office workers",
+              "post": "Students & Young Professionals (18–34)",
+              "continuity": "office workers generally older than 18–34 students; partial overlap possible",
+              "scope": "different populations",
+              "frame": "role-based vs. age-based",
+              "stretch": "high",
+              "verdict": "weak"
+            },
+            {
+              "pre": "office workers",
+              "post": "Daytime Workers & Shift Workers",
+              "continuity": "daytime workers include office workers",
+              "scope": "POST is broader (encompasses office workers plus shift workers)",
+              "frame": "work schedule vs. occupational role",
+              "stretch": "moderate",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "office workers",
+              "post": "Sleep Improvement Seekers (All Ages)",
+              "continuity": "weak",
+              "scope": "different axes",
+              "frame": "role vs. need",
+              "stretch": "high",
+              "verdict": "weak"
+            },
+            {
+              "pre": "daytime workers",
+              "post": "Daytime Workers & Shift Workers",
+              "continuity": "direct overlap; POST adds shift workers",
+              "scope": "POST broader",
+              "frame": "daytime work → daytime + shift work schedule",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "daytime workers",
+              "post": "Students & Young Professionals (18–34)",
+              "continuity": "weak",
+              "scope": "different",
+              "frame": "work schedule vs. age/life stage",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "daytime workers",
+              "post": "Sleep Improvement Seekers (All Ages)",
+              "continuity": "weak",
+              "scope": "different",
+              "frame": "schedule vs. need",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "Sleep Improvement Seekers",
+              "post": "Sleep Improvement Seekers (All Ages)",
+              "continuity": "direct match, POST adds age qualifier",
+              "scope": "PRE not age-restricted; POST explicitly all ages (similar)",
+              "frame": "same label, POST elaborates with examples",
+              "stretch": "low",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Sleep Improvement Seekers",
+              "post": "Students & Young Professionals (18–34)",
+              "continuity": "weak — both are audiences but defined differently",
+              "scope": "not directly comparable",
+              "frame": "need-based vs. role-based",
+              "stretch": "high",
+              "verdict": "weak"
+            },
+            {
+              "pre": "Sleep Improvement Seekers",
+              "post": "Daytime Workers & Shift Workers",
+              "continuity": "weak",
+              "scope": "different axes",
+              "frame": "need vs. schedule",
+              "stretch": "high",
+              "verdict": "weak"
+            },
+            {
+              "pre": "hospitality users",
+              "post": "Students & Young Professionals (18–34)",
+              "continuity": "weak",
+              "scope": "different segments",
+              "frame": "B2B/hospitality vs. consumer",
+              "stretch": "high",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "hospitality users",
+              "post": "Sleep Improvement Seekers (All Ages)",
+              "continuity": "weak — hospitality guests overlap with sleep seekers but different frame",
+              "scope": "different",
+              "frame": "B2B application vs. consumer need",
+              "stretch": "high",
+              "verdict": "weak"
+            },
+            {
+              "pre": "hospitality users",
+              "post": "Daytime Workers & Shift Workers",
+              "continuity": "weak",
+              "scope": "different",
+              "frame": "B2B application vs. worker audience",
+              "stretch": "high",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "daytime workers",
+              "post": "Sleep Improvement Seekers (All Ages)",
+              "reason": "different conceptual domains (schedule-based role vs. need-based audience); no shared semantic neighborhood driving the match"
+            },
+            {
+              "pre": "hospitality users",
+              "post": "Students & Young Professionals (18–34)",
+              "reason": "different domains (B2B application segment vs. consumer demographic); no defensible lineage"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Sleep Improvement Seekers",
+              "post": "Sleep Improvement Seekers (All Ages)",
+              "basis": "Same labeled segment; POST elaborates with sub-segments and behaviors within the same conceptual frame."
+            },
+            {
+              "pre": "students",
+              "post": "Students & Young Professionals (18–34)",
+              "basis": "Students segment retained with an explicit 18–34 age restriction and expanded to include young professionals. Scope restriction layered onto the original student population."
+            },
+            {
+              "pre": "daytime workers",
+              "post": "Daytime Workers & Shift Workers",
+              "basis": "Daytime workers are retained and shift workers are added, broadening the segment from one schedule type to two."
+            }
+          ],
+          "unmatchedPre": [
+            "office workers",
+            "hospitality users"
+          ],
+          "unmatchedPost": [
+            "insomniacs/light sleepers/sleep disorder sufferers (sub-segment of Sleep Improvement Seekers)",
+            "small dorm/apartment dwellers (sub-segment of Students)",
+            "AI-curtain rental-constrained non-adopters (sub-segment)",
+            "Tech-savvy early adopters (sub-segment)",
+            "insomniacs using melatonin/white noise/wake-up lights (sub-sub-segment)",
+            "circadian rhythm alignment need (sub-segment need)",
+            "portable light therapy need (sub-segment need)"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "hospitality users",
+              "direction": "removed",
+              "nearestCounterpart": "Sleep Improvement Seekers (All Ages)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "POST contains no hospitality/B2B-application audience. 'Sleep Improvement Seekers' in POST is a consumer-need segment, not a hospitality application context. Subsumption fails (hospitality is not a subset of consumer sleep seekers). Same territory does not hold (B2B venue vs. individual consumer). No elaboration or expansion of hospitality use is present. Lineage not defensible across different conceptual frames."
+            },
+            {
+              "concept": "circadian rhythm alignment need",
+              "direction": "new",
+              "nearestCounterpart": "Sleep Improvement Seekers",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE contains no mention of circadian rhythm alignment. The Daytime Workers line in PRE mentions needing to 'wake up early in the morning' but does not name circadian rhythm as a concept. Circadian rhythm framing represents a new organizing concept in POST. Narrowed fails (circadian rhythm need is not a subtype of sleep-improvement seekers). Reframed fails (no shared organizing frame at the conceptual level for this specific need). Elaborated/Expanded fail because PRE has no antecedent for this specific need."
+            },
+            {
+              "concept": "portable light therapy need",
+              "direction": "new",
+              "nearestCounterpart": "daytime workers",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE does not mention portability or light therapy. POST explicitly notes 'AI curtains don't help them because they need controlled artificial daylight' and 'portable light therapy' — these are new product-need framings absent from PRE. No antecedent found."
+            },
+            {
+              "concept": "rental constraints / affordability non-adopters",
+              "direction": "new",
+              "nearestCounterpart": "students",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Students in PRE (and POST's Students & Young Professionals) are the population for whom rental/affordability constraints apply. POST elaborates the Students segment by adding this constraint as a sub-segment characteristic. Converting this as part of the elaboration of the Students segment rather than a separate New event."
+            },
+            {
+              "concept": "tech-savvy early adopters",
+              "direction": "new",
+              "nearestCounterpart": "students",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Tech-savviness is a psychographic elaboration of the Students & Young Professionals segment in POST. No standalone PRE antecedent, but it functions as an elaboration of the matched Students pair. Recording as part of that elaboration."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Sleep Improvement Seekers",
+              "post": "Sleep Improvement Seekers (All Ages)",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Same labeled segment persists; POST adds sub-segments and behavioral detail within the same 'people seeking better sleep' frame. No frame shift. Elaborated is correct."
+            },
+            {
+              "type": "confirm",
+              "pre": "students",
+              "post": "Students & Young Professionals (18–34)",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "POST applies an explicit age restriction (18–34) and adds 'Young Professionals' as a population restriction layered onto 'students'. Scope restriction holds. Narrowed is correct per the calibrated rule."
+            },
+            {
+              "type": "recode",
+              "pre": "daytime workers",
+              "post": "Daytime Workers & Shift Workers",
+              "fromCode": "Expanded",
+              "toCode": "Expanded",
+              "reason": "Pass-1 code is correct. POST adds shift workers alongside daytime workers, broadening the segment from one schedule type to two. Confirm Expanded."
+            },
+            {
+              "type": "confirm",
+              "pre": "office workers",
+              "post": "Daytime Workers & Shift Workers",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Pass-1 rationale notes 'narrowing-into-parent' rather than a clean alignment. 'office workers' is subsumed by 'Daytime Workers' which then pairs with 'daytime workers' PRE. The pairing is semantically forced: office workers are a daytime worker subtype mapped to the broader parent category. Given the better antecedent for daytime workers is already used, the cleanest resolution is to flag office workers as subsumed by the daytime-workers pairing and remove this redundant alignment. Recording as Removed (office workers fully subsumed by the daytime workers → Daytime Workers & Shift Workers pairing)."
+            },
+            {
+              "type": "confirm",
+              "pre": "hospitality users",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Confirmed non-neighborhood: B2B hospitality application context vs. consumer demographic segments. No POST successor at any tier. Removed stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "circadian rhythm alignment need",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "No PRE antecedent names circadian rhythm. The nearest counterpart ('wake up early in the morning' under daytime workers) is at best a vague thematic adjacency; the organized concept of circadian rhythm alignment is genuinely new. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "portable light therapy need",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "No PRE antecedent names portability or light therapy as a need. Genuinely new framing. New stands."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "AI-curtain rental-constrained non-adopters",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Although pass-1 recheck proposed converting this into the Students elaboration, the structural rule forbids reusing a PRE unit already inside a matched pair. 'students' is already matched to 'Students & Young Professionals (18–34)'; rental-constrained non-adopters cannot be a second event from the same antecedent. New stands as a separate event."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Tech-savvy early adopters",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Same structural constraint: 'students' is already matched. Tech-savvy early adopters cannot be folded into a second event from the same antecedent. New stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6wtua5tw1qlph5x8",
+            "code": "Elaborated",
+            "preEvidence": "Sleep Improvement Seekers, people struggling with alarms and poor sleep cycles",
+            "postEvidence": "Sleep Improvement Seekers (All Ages) - Includes insomniacs, light sleepers, and those suffering from sleep disorders. Likely already buying melatonin, white noise machines, or wake-up lights. Open to trying new sleep technology to optimize rest.",
+            "rationale": "Same labeled segment persists in POST; POST retains the label and adds sub-segments, existing product behaviors, and openness to new sleep technology within the same 'people seeking better sleep' frame. No frame shift.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6wtuapw4g9q5p7cs",
+            "code": "Narrowed",
+            "preEvidence": "students; office workers",
+            "postEvidence": "Students & Young Professionals (18–34 years old)",
+            "rationale": "POST applies an explicit age band (18–34) that restricts the original 'students' pool and adds young professionals within that band. Scope restriction holds: young professionals 18–34 plus students in that age range is a proper subset of all students. Narrowed is correct per the calibrated SCOPE-RESTRICTION-ALWAYS-NARROWED rule.",
+            "confidence": "medium",
+            "alternativeConsidered": "Elaborated"
+          },
+          {
+            "instanceId": "mti6wtuat4a0kl4ckgh",
+            "code": "Expanded",
+            "preEvidence": "daytime workers. People who have day work and need to wake up early in the morning.",
+            "postEvidence": "Daytime Workers & Shift Workers - Many struggle with irregular sleep patterns due to work schedules.",
+            "rationale": "PRE names only daytime workers; POST adds shift workers alongside daytime workers, broadening the segment from one schedule type to two. POST is broader than PRE, so Expanded is correct over Narrowed.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6wtuach2guq7g12s",
+            "code": "Removed",
+            "preEvidence": "office workers are a kind of daytime worker; the daytime-workers pairing subsumes office workers",
+            "postEvidence": null,
+            "rationale": "Office workers are a subtype of daytime workers and have already been subsumed under the matched daytime-workers → Daytime Workers & Shift Workers pairing. No independent POST successor exists for office workers. Recording as Removed because the concept is fully covered by the sibling pairing and has no standalone successor.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed (would require pairing office workers directly with Daytime Workers & Shift Workers, but that duplicates the daytime-workers antecedent)"
+          },
+          {
+            "instanceId": "mti6wtuap43rzgfu97a",
+            "code": "Removed",
+            "preEvidence": "Can be use in hospitality.",
+            "postEvidence": null,
+            "rationale": "PRE includes a hospitality/B2B application context. POST contains no hospitality audience or application mention. 'Sleep Improvement Seekers' in POST is framed as consumer individuals. Subsumption, reframing, elaboration, and expansion all fail across different conceptual frames (B2B application vs. consumer demographic).",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6wtuaov4w474fglh",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Strong need for circadian rhythm alignment and portable light therapy.",
+            "rationale": "POST introduces circadian rhythm alignment as a need for Daytime Workers & Shift Workers. PRE mentions 'wake up early in the morning' but does not name circadian rhythm. The Daytime Workers PRE concept is already matched to its POST successor and cannot serve as a second antecedent. Narrowed, Reframed, Elaborated, and Expanded all fail: circadian rhythm is a new organizing concept with no PRE antecedent.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti6wtuaryo414pc9jl",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "AI curtains don't help them because they need controlled artificial daylight; portable light therapy is a separate need.",
+            "rationale": "POST introduces portable light therapy as a need. PRE does not mention portability or light therapy. The daytime-workers antecedent is already matched. No PRE span maps to portable light therapy. New stands.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded"
+          },
+          {
+            "instanceId": "mti6wtuagoo0eumiug",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "AI-curtain rental-constrained non-adopters (sub-segment)",
+            "rationale": "POST identifies a rental/affordability-constrained sub-segment within the broader consumer base. PRE does not name this constraint, and the 'students' antecedent is already matched to its POST successor. Cannot fold into the students pairing without violating the one-antecedent-per-event rule. New stands.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated (folded into students pairing — blocked by structural rule)"
+          },
+          {
+            "instanceId": "mti6wtuaku5ac7ssxwn",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "Tech-savvy early adopters (sub-segment)",
+            "rationale": "POST introduces a tech-savvy psychographic sub-segment. PRE does not name tech-savviness or early-adopter status. The 'students' antecedent is already matched. Cannot fold into the students pairing. New stands.",
+            "confidence": "high",
+            "alternativeConsidered": "Elaborated (folded into students pairing — blocked by structural rule)"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "vague_to_specific_lineage",
+            "alignment_null_by_choice",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "The Students pair is arguable between Narrowed (age restriction to 18–34) and Expanded (adding young professionals alongside students). The dominant direction is restriction (18–34 is narrower than all students and all office workers), so Narrowed is coded, but confidence is medium. The two sub-segment psychographic details (rental constraints, tech-savvy) were rechecked against the matched Students pair and absorbed as elaboration rather than emitted as separate New events to avoid fragmentation. Hospitality users were confirmed as a genuine Removed after full-response search — no POST element serves as a B2B successor. Critic applied 9 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-4",
+      "questionId": "Q2.1",
+      "label": "Target Customer Confidence",
+      "questionText": "How confident are you that you've correctly identified your target customer? (Scale 1-10)",
+      "pre": {
+        "answer": 4
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-5",
+      "questionId": "Q2.2",
+      "label": "Niche",
+      "questionText": "Do you see a niche within your target market that you can serve?",
+      "pre": {
+        "answer": "no idea"
+      },
+      "post": {
+        "answer": "shift worker, people who live in place that dont have access to direct sunlight, tech worker who expose to lots of blue light"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Significant Addition",
+        "structuralRationale": "PRE is a two-word expression of having no niche ('no idea'). POST introduces three distinct, specifically defined audience segments with occupational and environmental qualifiers. The artifact moves from epistemic absence to a multi-part substantive audience definition, representing substantial new content at the clause and concept level.",
+        "conceptAlignment": {
+          "unitizationMode": "scoped_category",
+          "preConcepts": [
+            "no idea (absence of niche conception)"
+          ],
+          "postConcepts": [
+            "shift workers",
+            "people without access to direct sunlight",
+            "tech workers exposed to blue light"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "no idea (absence of niche conception)",
+              "post": "shift workers",
+              "continuity": "none — absence vs specific audience",
+              "scope": "undefined vs specific subgroup",
+              "frame": "no frame vs occupational/environmental",
+              "stretch": "extreme",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "no idea (absence of niche conception)",
+              "post": "people without access to direct sunlight",
+              "continuity": "none",
+              "scope": "undefined vs specific subgroup",
+              "frame": "no frame vs environmental-access frame",
+              "stretch": "extreme",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "no idea (absence of niche conception)",
+              "post": "tech workers exposed to blue light",
+              "continuity": "none",
+              "scope": "undefined vs specific subgroup",
+              "frame": "no frame vs occupational-exposure frame",
+              "stretch": "extreme",
+              "verdict": "implausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "no idea (absence of niche conception)",
+              "post": "shift workers",
+              "reason": "PRE expresses absence of any niche conception, not a vague niche. POST is a specific audience. Different domains (epistemic absence vs audience definition)."
+            },
+            {
+              "pre": "no idea (absence of niche conception)",
+              "post": "people without access to direct sunlight",
+              "reason": "Same: PRE is epistemic non-conception; POST is specific audience."
+            },
+            {
+              "pre": "no idea (absence of niche conception)",
+              "post": "tech workers exposed to blue light",
+              "reason": "Same: PRE is epistemic non-conception; POST is specific audience."
+            }
+          ],
+          "matchedPairs": [],
+          "unmatchedPre": [
+            "no idea (absence of niche conception)"
+          ],
+          "unmatchedPost": [
+            "shift workers",
+            "people without access to direct sunlight",
+            "tech workers exposed to blue light"
+          ],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "shift workers",
+              "direction": "new",
+              "nearestCounterpart": "no idea (absence of niche conception)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "PRE expresses epistemic absence ('no idea'), not a vague audience concept. No subsumption, no shared audience/territory frame, no seed to elaborate or broaden. All four transformation codes fail across different conceptual domains (absence-of-knowledge vs audience definition)."
+            },
+            {
+              "concept": "people without access to direct sunlight",
+              "direction": "new",
+              "nearestCounterpart": "no idea (absence of niche conception)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Same reason: PRE is absence of niche conception, POST is specific audience. Different conceptual domains."
+            },
+            {
+              "concept": "tech workers exposed to blue light",
+              "direction": "new",
+              "nearestCounterpart": "no idea (absence of niche conception)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Same reason: PRE is absence of niche conception, POST is specific audience. Different conceptual domains."
+            },
+            {
+              "concept": "no idea (absence of niche conception)",
+              "direction": "removed",
+              "nearestCounterpart": "shift workers (and the other two audience segments)",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Full POST search performed. The three audience segments are specific subgroup definitions, not reconceptions of an absent niche. PRE is epistemic absence, not an audience scope. No transformation defensible."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "no idea (absence of niche conception)",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass 1 is correct. PRE expresses epistemic absence of any niche conception. POST set contains three specific audience segments but none reconceives 'absence of niche.' No subsumption, no shared audience frame, no identifiable seed to narrow, reframe, elaborate, or expand. The concept genuinely shifted from non-conception to three concrete subgroups — these are genuinely new relative to an absent antecedent."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "shift workers",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. Nearest PRE antecedent ('no idea') is an epistemic absence, not a vague audience. Shift workers is the first concrete niche segment — no transformation defensible across different conceptual domains (absence of conception vs occupational audience)."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "people without access to direct sunlight",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. Same reasoning as shift workers — PRE's absence-of-niche cannot be narrowed, reframed, elaborated, or expanded into this environmental-access audience segment."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "tech workers exposed to blue light",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "Pass 1 is correct. Same reasoning — occupational-exposure audience is a genuinely new niche segment relative to epistemic absence in PRE."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6w7pj3pfb08waast",
+            "code": "Removed",
+            "preEvidence": "no idea",
+            "postEvidence": null,
+            "rationale": "Student reported having no conception of a niche in PRE. This is epistemic absence, not a vague audience. No POST unit is a reconception of that absence — POST contains three specific audience segments that constitute the student's first niche ideas. No transformation defensible.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed (absence reframed as audience) — rejected because PRE has no audience content to reframe."
+          },
+          {
+            "instanceId": "mti6w7pjbcyc2ufhf69",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "shift worker",
+            "rationale": "First concrete niche segment identified by the student. PRE offers no audience concept to serve as antecedent; absence of niche is not a vague audience to be narrowed or reframed.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6w7pjy1w52ecpubg",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "people who live in place that dont have access to direct sunlight",
+            "rationale": "Second distinct niche segment defined by environmental access. No PRE antecedent available beyond the absence-of-niche statement.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6w7pjflsoycjrzs4",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "tech worker who expose to lots of blue light",
+            "rationale": "Third distinct niche segment defined by occupational light exposure. No PRE antecedent available beyond the absence-of-niche statement.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "high",
+          "flags": [
+            "neighborhood_tested_no_lineage",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "PRE 'no idea' is an epistemic-absence statement rather than a niche concept. Treated as Removed because the post introduces specific audiences that share no lineage with the absence. Three independent New events correspond to the three audience segments; splitting is required because each is a distinct atomic audience category. No learner-agency evidence in the artifact. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-6",
+      "questionId": "Q3",
+      "label": "Platforms for Branding",
+      "questionText": "What are the main platforms you plan to use for branding? Choose from content-based platforms (e.g., Instagram, TikTok) or commerce-based platforms (e.g., Etsy, Amazon, eBay).",
+      "pre": {
+        "answer": "tiktok, instagram, amazon"
+      },
+      "post": {
+        "answer": "Tiktok, instagram, youtube and some comerce-based platform"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "POST adds YouTube (a new platform) and replaces the specific commerce platform name (amazon) with the category 'commerce-based platform,' while retaining Tiktok and instagram. The response is slightly longer with one new platform added.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "tiktok",
+            "instagram",
+            "amazon"
+          ],
+          "postConcepts": [
+            "Tiktok",
+            "instagram",
+            "youtube",
+            "commerce-based platform"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "tiktok",
+              "post": "Tiktok",
+              "continuity": "same platform",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "tiktok",
+              "post": "instagram",
+              "continuity": "different platform",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "tiktok",
+              "post": "youtube",
+              "continuity": "different platform",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "tiktok",
+              "post": "commerce-based platform",
+              "continuity": "different category",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "instagram",
+              "post": "Tiktok",
+              "continuity": "different platform",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "instagram",
+              "post": "instagram",
+              "continuity": "same platform",
+              "scope": "identical",
+              "frame": "identical",
+              "stretch": "none",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "instagram",
+              "post": "youtube",
+              "continuity": "different platform",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "instagram",
+              "post": "commerce-based platform",
+              "continuity": "different category",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "amazon",
+              "post": "Tiktok",
+              "continuity": "different platform",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "amazon",
+              "post": "instagram",
+              "continuity": "different platform",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "amazon",
+              "post": "youtube",
+              "continuity": "different platform",
+              "scope": "n/a",
+              "frame": "n/a",
+              "stretch": "forced",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "amazon",
+              "post": "commerce-based platform",
+              "continuity": "same commerce-platform category",
+              "scope": "amazon is a specific commerce-based platform; POST is the category",
+              "frame": "specific instance vs category",
+              "stretch": "amazon is a specific instance of commerce-based platform",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "tiktok",
+              "post": "instagram",
+              "reason": "different platforms, no shared semantic role"
+            },
+            {
+              "pre": "tiktok",
+              "post": "youtube",
+              "reason": "different platforms, no shared semantic role"
+            },
+            {
+              "pre": "tiktok",
+              "post": "commerce-based platform",
+              "reason": "content platform vs commerce category, different domains"
+            },
+            {
+              "pre": "instagram",
+              "post": "Tiktok",
+              "reason": "different platforms, no shared semantic role"
+            },
+            {
+              "pre": "instagram",
+              "post": "youtube",
+              "reason": "different platforms, no shared semantic role"
+            },
+            {
+              "pre": "instagram",
+              "post": "commerce-based platform",
+              "reason": "content platform vs commerce category, different domains"
+            },
+            {
+              "pre": "amazon",
+              "post": "Tiktok",
+              "reason": "different platforms, different domains"
+            },
+            {
+              "pre": "amazon",
+              "post": "instagram",
+              "reason": "different platforms, different domains"
+            },
+            {
+              "pre": "amazon",
+              "post": "youtube",
+              "reason": "different platforms, different domains"
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "tiktok",
+              "post": "Tiktok",
+              "basis": "same platform, capitalisation stylistic"
+            },
+            {
+              "pre": "instagram",
+              "post": "instagram",
+              "basis": "same platform"
+            },
+            {
+              "pre": "amazon",
+              "post": "commerce-based platform",
+              "basis": "amazon broadened to its encompassing category (commerce-based platform)"
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [
+            "youtube"
+          ],
+          "orderOnlyChanges": [
+            "capitalisation change on tiktok -> Tiktok"
+          ],
+          "newRemovedRecheck": [
+            {
+              "concept": "youtube",
+              "direction": "new",
+              "nearestCounterpart": "tiktok / instagram / amazon",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "YouTube is a content-based platform not listed in PRE. Tested each PRE counterpart: it is not a specific way of being tiktok/instagram/amazon; it shares territory with tiktok/instagram (content platforms) but no subsumption/elaboration/expansion holds because YouTube is a distinct new platform addition. PRE contains no seed for YouTube specifically."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "tiktok",
+              "post": "Tiktok",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Same platform; identical match. Capitalisation is stylistic only."
+            },
+            {
+              "type": "confirm",
+              "pre": "instagram",
+              "post": "instagram",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Same platform; identical match."
+            },
+            {
+              "type": "recode",
+              "pre": "amazon",
+              "post": "commerce-based platform",
+              "fromCode": "Narrowed",
+              "toCode": "Expanded",
+              "reason": "Pass 1 emitted two contradictory events (both Narrowed and Expanded) for the same pair. Applying the ladder correctly: 'commerce-based platform is a specific way of being amazon' is FALSE — the direction is reversed. Amazon is a specific instance of commerce-based platform, so POST broadens the specific PRE instance to its encompassing category. This is Expanded (specific → category). Narrowed is rejected because subsumption does not hold in the POST→PRE direction."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "youtube",
+              "fromCode": "New",
+              "toCode": "New",
+              "reason": "youtube is a genuinely new platform addition. Nearest PRE counterparts are tiktok and instagram (other content/social platforms), but none is a defensible antecedent: YouTube is not a specific way of being any of them (Narrowed fails), shares territory but is a sibling platform not a frame-shift of one (Reframed fails), is not the same category with added detail (Elaborated fails), and is not a scope broadening of any single PRE seed (Expanded fails). Stage 1 neighborhood gate: all three PRE platforms share a 'platform for branding' territory, but a platform addition without lineage to a specific PRE platform is still a New — Expanded would require an identifiable PRE seed broadened, which youtube lacks."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6wcji2w62det56e5",
+            "code": "Expanded",
+            "preEvidence": "amazon",
+            "postEvidence": "commerce-based platform",
+            "rationale": "POST broadens the specific instance 'amazon' to the encompassing category 'commerce-based platform.' Subsumption test: 'commerce-based platform is a specific way of being amazon' is FALSE; rather, 'amazon is a specific way of being commerce-based platform' is TRUE, which is the Expanded direction (specific → category).",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6wcjilluedic1hrk",
+            "code": "New",
+            "preEvidence": null,
+            "postEvidence": "youtube",
+            "rationale": "youtube has no defensible PRE antecedent. Tested Narrowed, Reframed, Elaborated, Expanded against all three PRE platforms (tiktok, instagram, amazon); none holds. YouTube is a distinct new platform in the POST set.",
+            "confidence": "high",
+            "alternativeConsidered": "Expanded from tiktok/instagram as content-platform seed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_elab_vs_narrow",
+            "events_possibly_collapsed",
+            "new_removed_recheck_passed"
+          ],
+          "coderNotes": "First draft emitted a Narrowed event for amazon -> commerce-based platform; on self-critique this is actually the inverse direction (specific to general = Expanded, not Narrowed). Re-emitted as Expanded. The capitalisation difference between 'tiktok' and 'Tiktok' is treated as stylistic per STYLE-vs-SECANTIC and ORDER-vs-SEMANTIC and produced no event. No learner agency evidence present. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-7",
+      "questionId": "Q3.3",
+      "label": "Content Strategy",
+      "questionText": "If you're planning to use content-based platforms (like Instagram or TikTok), what type of content do you want to create to drive traffic?",
+      "pre": {
+        "answer": "70% product review, 30% influencer review"
+      },
+      "post": {
+        "answer": "Health awareness content with influencers that have credible background. product review"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "The PRE is a terse two-clause allocation (70/30 split between two content types). The POST introduces a new thematic content category ('health awareness content'), adds a credibility qualifier for influencers ('that have credible background'), and retains 'product review' in bare form. Net change: one new content type introduced, one qualifier introduced, the original ratio framing is dropped, and existing categories are partly re-described. This is more than stylistic — a new content pillar and a credibility criterion were added — but it does not reach the level of multiple new sentences or explanatory passages; it is a contained expansion at the clause level.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "70% product review",
+            "30% influencer review"
+          ],
+          "postConcepts": [
+            "Health awareness content with influencers that have credible background",
+            "product review"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "70% product review",
+              "post": "Health awareness content with influencers that have credible background",
+              "continuity": "weak — product review vs health awareness content are distinct content categories; the 'with influencers' element partially overlaps with the influencer review concept",
+              "scope": "product review is a specific content type; health awareness content is a different content type",
+              "frame": "ratio-allocation frame (70/30) vs thematic-content frame (health awareness)",
+              "stretch": "forced — these occupy different conceptual territories regarding what type of content drives traffic",
+              "verdict": "implausible"
+            },
+            {
+              "pre": "70% product review",
+              "post": "product review",
+              "continuity": "strong — direct lexical and conceptual overlap",
+              "scope": "70% allocation qualifier is dropped; bare 'product review' in post",
+              "frame": "ratio frame vs bare category frame",
+              "stretch": "minimal — same content category, just stripped of allocation",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "30% influencer review",
+              "post": "Health awareness content with influencers that have credible background",
+              "continuity": "partial — both involve influencers; review shifts to credibility/background qualification",
+              "scope": "influencer review is a content type; post embeds influencers within a broader health awareness content category with a credibility qualifier",
+              "frame": "ratio-allocation frame vs thematic-content-plus-qualifier frame",
+              "stretch": "moderate — shared influencer involvement, but the role of influencers and the content type surrounding them differ",
+              "verdict": "plausible"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "70% product review",
+              "post": "Health awareness content with influencers that have credible background",
+              "reason": "Product review and health awareness content are different content categories; only weak overlap on 'influencers'; pair forces across different conceptual domains — rejected under IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "70% product review",
+              "post": "product review",
+              "basis": "Content category (product review) persists; the 70% allocation qualifier is dropped — POST is the bare content category realization of the PRE phrase."
+            },
+            {
+              "pre": "30% influencer review",
+              "post": "Health awareness content with influencers that have credible background",
+              "basis": "Same influencer-driven content neighborhood; organizing frame shifts from ratio-allocated product review to thematically-organized health awareness content delivered by credentialed influencers."
+            }
+          ],
+          "unmatchedPre": [],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "health awareness content with credible background",
+              "direction": "new",
+              "nearestCounterpart": "30% influencer review",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "converted",
+              "reason": "Tested 'health awareness content with credible background' as a transformation of '30% influencer review'. Narrowed: 'Health awareness content with credible background' is not a specific way of being influencer review (different content categories — product/service review vs health awareness education). Reframed: while both involve influencers, the organizing frame shifts from 'review of product' to 'health awareness content with credible endorsement', which is more than a frame shift on the same territory — the content category itself changes. Elaborated: '30% influencer review' does not contain a seed that yields health awareness content when detail is added; adding 'health awareness' introduces a new content domain. Expanded: cannot identify a pre-antecedent that broadens into health awareness. All four fail as standalone transformations of the influencer review concept. However, treating 'health awareness content' as a New event alongside a matched 'influencer review → influencers with credible background' split would double-count the POST span. The defensible reading is that the POST concept bundles two ideas (influencer involvement + health awareness content type) that partially map back to PRE; the influencer element finds a successor but the health awareness content type does not. Per the mandatory re-check, the influencer portion converts into the matched pair already coded, and the health-awareness content category portion is absorbed into that event's evidence rather than emitted as a separate New. The single matched pair '30% influencer review → Health awareness content with influencers that have credible background' captures the transformation, with the thematic-content shift noted in the rationale."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "70% product review",
+              "post": "product review",
+              "fromCode": null,
+              "toCode": null,
+              "reason": "Pass-1 outcome (bare 'product review' as the closest match, with 70% allocation qualifier absent) is handled by the Removed event on the 70% allocation. The category-level pair itself is not coded as a transformation because the allocation number has no POST counterpart. Confirming the alignment as a category persistence noted inside the Removed event's rationale."
+            },
+            {
+              "type": "confirm",
+              "pre": "30% influencer review",
+              "post": "Health awareness content with influencers that have credible background",
+              "fromCode": "Reframed",
+              "toCode": "Reframed",
+              "reason": "Both share the influencer-driven content neighborhood. Subsumption test: 'Health awareness content with credible-background influencers' is a specific way of being '30% influencer review' — FALSE (different content categories, review vs health awareness). Reframed is correct: same influencer-driven territory, shifted organizing frame from ratio-allocated product review to thematically-organized health awareness content with a credibility qualifier. Narrowed is not defensible here; confirmed as runner-up."
+            },
+            {
+              "type": "recode",
+              "pre": "70% product review",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Narrowed",
+              "reason": "Testing the transformation ladder against the matched pair '70% product review → product review': 'Bare product review' is a specific way of being '70% product review' in the sense that it strips the allocation qualifier and retains the content category — but subsumption is borderline. The 70% allocation is a quantitative frame element, not a category subtype. Stronger reading: the content category (product review) persists intact and the 70% allocation is a dropped qualifier. This is closer to Narrowed (POST is a subset realization: bare review without the allocation envelope) than to a standalone Removed. Recoding to Narrowed so the 70% allocation's loss is captured as a transformation of the full PRE phrase rather than an orphan Removed event. Alternative: Removed (previously considered); Narrowed selected because 'product review' is a proper subset reading of '70% product review' (review without the allocation envelope)."
+            },
+            {
+              "type": "confirm",
+              "pre": null,
+              "post": "Health awareness content with credible-background qualifier (the thematic content type itself)",
+              "fromCode": "New",
+              "toCode": null,
+              "reason": "After absorbing the category-level persistence into a Narrowed event on the 70% product review pair and confirming the Reframed on the influencer pair, no standalone New remains in the unmatched_post inventory as coded. The 'Health awareness content with influencers that have credible background' concept is fully accounted for by the Reframed event. The unmatched_post list from pass-1 is cleared. Confirming that no orphan New is emitted."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6x4a9k5yran5ddr",
+            "code": "Narrowed",
+            "preEvidence": "70% product review",
+            "postEvidence": "product review",
+            "rationale": "POST ('product review') is the bare content-category realization of PRE ('70% product review'): the review category persists while the 70% allocation envelope is dropped. Narrowed captures the subset/scope-restriction reading — bare product review is the content category without the quantitative allocation frame. Alternative considered: Removed (previously coded in pass-1); rejected because the category itself persists via this pair, so it is a transformation, not an orphan removal.",
+            "confidence": "medium",
+            "alternativeConsidered": "Removed"
+          },
+          {
+            "instanceId": "mti6x4a9na7pg11aai",
+            "code": "Reframed",
+            "preEvidence": "30% influencer review",
+            "postEvidence": "Health awareness content with influencers that have credible background",
+            "rationale": "Same influencer-driven content neighborhood; organizing frame shifts from a ratio-allocated product/influencer review to a thematically-organized health-awareness content model where the influencer carries a credible-background qualifier. Subsumption test fails (health awareness content is not a specific way of being influencer review — different content categories). Reframed is the correct tier: sibling concepts under the influencer-content umbrella with shifted frames.",
+            "confidence": "medium",
+            "alternativeConsidered": "Narrowed"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "alignment_null_by_choice"
+          ],
+          "coderNotes": "The 70% allocation qualifier in PRE ('70% product review') is treated as Removed because no POST element carries the ratio figure; the bare content category 'product review' is retained via the matched pair. The 30% influencer review tracks to the influencer portion of the POST concept, but the health-awareness content type is new. Because splitting the POST span across two events would risk double-counting, the influencer-to-credible-influencer transition is captured as a single Reframed event with the full POST span as evidence and the thematic shift noted in the rationale. The health-awareness content type is not emitted as a separate New event because it is bundled inside the matched pair's post_evidence; this is a judgment call documented for auditability. Confidence is medium due to the bundled-POST-span treatment. Critic applied 4 correction(s)."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-8",
+      "questionId": "Q4",
+      "label": "Product Offerings",
+      "questionText": "What are your product offerings? Be specific if you already have a clear idea.",
+      "pre": {
+        "answer": "Health and personal care, home gadgets"
+      },
+      "post": {
+        "answer": "My product falls under the sleep & wellness technology category, with a focus on affordable, easy-to-use sleep aids"
+      },
+      "artifactCoding": {
+        "structuralDevelopment": "Moderate Addition",
+        "structuralRationale": "PRE is a short two-item list ('Health and personal care, home gadgets'). POST adds framing as a single category ('sleep & wellness technology category') and elaborates with attributes ('affordable, easy-to-use sleep aids'). One to two meaningful clauses added; existing category name is reframed rather than fully restructured. Extends rather than transforms the response scope.",
+        "conceptAlignment": {
+          "unitizationMode": "semantic_phrase",
+          "preConcepts": [
+            "Health and personal care",
+            "home gadgets"
+          ],
+          "postConcepts": [
+            "sleep & wellness technology category",
+            "affordable, easy-to-use sleep aids"
+          ],
+          "candidateAlignments": [
+            {
+              "pre": "Health and personal care",
+              "post": "sleep & wellness technology category",
+              "continuity": "Wellness/personal care broad domain vs sleep-specific technology category",
+              "scope": "POST is narrower subset of personal care/wellness",
+              "frame": "Personal care framing → sleep/wellness technology framing",
+              "stretch": "Moderate; both sit in wellness territory but orientation differs (care vs technology)",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "Health and personal care",
+              "post": "affordable, easy-to-use sleep aids",
+              "continuity": "Personal care products vs sleep aids",
+              "scope": "POST is a subset (sleep aids are a category of personal care)",
+              "frame": "Care → aids",
+              "stretch": "Moderate; sleep aids can be a subset of health/personal care",
+              "verdict": "plausible"
+            },
+            {
+              "pre": "home gadgets",
+              "post": "sleep & wellness technology category",
+              "continuity": "Both are technology-adjacent; home gadgets covers general smart-home items",
+              "scope": "POST is narrower tech subset",
+              "frame": "Home gadgets → sleep/wellness tech",
+              "stretch": "Weak; home gadgets is broad and the sleep/wellness framing is a reconception",
+              "verdict": "weak"
+            },
+            {
+              "pre": "home gadgets",
+              "post": "affordable, easy-to-use sleep aids",
+              "continuity": "Both are physical products",
+              "scope": "Different — generic home gadgets vs specific sleep aids",
+              "frame": "Generic tech → specific aid",
+              "stretch": "Weak; home gadgets does not naturally subsume sleep aids (which are health/personal care)",
+              "verdict": "weak"
+            }
+          ],
+          "rejectedAlignments": [
+            {
+              "pre": "home gadgets",
+              "post": "sleep & wellness technology category",
+              "reason": "Home gadgets is general home-tech; sleep/wellness tech is a reconception. The subsumption test fails. Tested but cannot defensibly narrow, reframe, elaborate, or expand home gadgets into sleep/wellness tech — home gadgets could include kitchen, cleaning, security devices with no wellness connection. Kept as weak candidate only for the cross-product enumeration; not selected as final match."
+            },
+            {
+              "pre": "home gadgets",
+              "post": "affordable, easy-to-use sleep aids",
+              "reason": "Home gadgets (e.g., kitchen, cleaning, smart-home) and sleep aids (personal care/wellness) belong to different conceptual domains. An implausible match is worse than Removed + New."
+            }
+          ],
+          "matchedPairs": [
+            {
+              "pre": "Health and personal care",
+              "post": "sleep & wellness technology category",
+              "basis": "Narrowed — sleep & wellness technology is a specific subcategory of health and personal care."
+            },
+            {
+              "pre": "Health and personal care",
+              "post": "affordable, easy-to-use sleep aids",
+              "basis": "Elaborated — same health/personal-care product frame with added descriptors (affordable, easy-to-use, sleep-focused)."
+            }
+          ],
+          "unmatchedPre": [
+            "home gadgets"
+          ],
+          "unmatchedPost": [],
+          "orderOnlyChanges": [],
+          "newRemovedRecheck": [
+            {
+              "concept": "home gadgets",
+              "direction": "removed",
+              "nearestCounterpart": "sleep & wellness technology category",
+              "codesTested": [
+                "Narrowed",
+                "Reframed",
+                "Elaborated",
+                "Expanded"
+              ],
+              "outcome": "kept",
+              "reason": "Home gadgets (generic smart-home / household devices) and sleep & wellness technology category (a specific wellness subcategory) belong to different conceptual domains. Tested Narrowed: 'sleep/wellness tech is a specific way of being home gadgets' = FALSE (a kitchen appliance is a home gadget but not sleep/wellness tech). Tested Reframed: territory not genuinely shared — home gadgets spans kitchen/cleaning/security, not wellness. Tested Elaborated/Expanded: no detail can be added to 'home gadgets' that turns it into sleep/wellness tech without abandoning the original reference. Full-response POST search performed; no other POST concept serves as a defensible successor for home gadgets."
+            }
+          ],
+          "criticCorrections": [
+            {
+              "type": "confirm",
+              "pre": "Health and personal care",
+              "post": "sleep & wellness technology category",
+              "fromCode": "Narrowed",
+              "toCode": "Narrowed",
+              "reason": "Pass 1 correct. 'Sleep & wellness technology category is a specific way of being Health and personal care' is TRUE. PRE is generic; POST concretises into a sub-niche. Scope restriction holds. Narrowed confirmed."
+            },
+            {
+              "type": "confirm",
+              "pre": "Health and personal care",
+              "post": "affordable, easy-to-use sleep aids",
+              "fromCode": "Elaborated",
+              "toCode": "Elaborated",
+              "reason": "Pass 1 correct. POST keeps the same underlying category (health/personal-care products) and only adds descriptors (affordable, easy-to-use, sleep-focused). Frame is intact; no reconception. Elaborated is correct; recoding to Reframed would be the over-correction flagged in the instructions."
+            },
+            {
+              "type": "confirm",
+              "pre": "home gadgets",
+              "post": null,
+              "fromCode": "Removed",
+              "toCode": "Removed",
+              "reason": "Pass 1 correct. Home gadgets (generic household/smart-home devices) and both POST concepts (sleep & wellness technology, affordable sleep aids) sit in a different conceptual domain. Subsumption test fails for both; no shared semantic territory at a specific level. Full-response POST search returned no defensible successor. Removed stands."
+            }
+          ]
+        },
+        "semanticChanges": [
+          {
+            "instanceId": "mti6wshrbm5o09hg5kc",
+            "code": "Narrowed",
+            "preEvidence": "Health and personal care",
+            "postEvidence": "sleep & wellness technology category",
+            "rationale": "Sleep & wellness technology is a specific subcategory within health and personal care. The subsumption sentence 'sleep & wellness technology is a specific way of being health and personal care' is TRUE. PRE is generic filler; POST concretises into a sleep/wellness-tech niche. Scope restriction holds.",
+            "confidence": "high",
+            "alternativeConsidered": "Reframed"
+          },
+          {
+            "instanceId": "mti6wshruz5m2n5jfx",
+            "code": "Elaborated",
+            "preEvidence": "Health and personal care",
+            "postEvidence": "affordable, easy-to-use sleep aids",
+            "rationale": "POST preserves the underlying category (health/personal-care products) and adds qualifying descriptors (affordable, easy-to-use, sleep-focused). The organizing frame does not change; only detail is added. Per BC-P001, added modifiers to the same noun/category = Elaborated, not Reframed.",
+            "confidence": "high",
+            "alternativeConsidered": "Narrowed"
+          },
+          {
+            "instanceId": "mti6wshrcvptsn1wio6",
+            "code": "Removed",
+            "preEvidence": "home gadgets",
+            "postEvidence": null,
+            "rationale": "Home gadgets (generic smart-home / household devices) and both POST concepts (sleep & wellness technology, affordable sleep aids) occupy a different conceptual domain. Subsumption test fails for both candidates; 'sleep & wellness technology is a specific way of being home gadgets' = FALSE (a kitchen appliance is a home gadget but not sleep/wellness tech). No shared specific-level semantic territory; full-response POST search returned no defensible successor. An implausible match would be worse than Removed + New.",
+            "confidence": "high",
+            "alternativeConsidered": "New"
+          }
+        ],
+        "learnerAgency": [],
+        "uncertainty": {
+          "confidence": "medium",
+          "flags": [
+            "boundary_case_narrow_vs_reframe",
+            "vague_to_specific_lineage",
+            "new_removed_recheck_passed",
+            "duplicate_pre_antecedent"
+          ],
+          "coderNotes": "The pairing of 'Health and personal care' with two distinct POST concepts (sleep & wellness technology category AND affordable, easy-to-use sleep aids) creates a one-to-many issue; both events share the same pre_evidence. The two POST concepts could plausibly be read as a single elaborated clause ('sleep & wellness technology category, with a focus on affordable, easy-to-use sleep aids') rather than two separate atomic units. Treated as two events because each POST phrase carries distinct semantic content (category identity vs product attributes). The 'home gadgets → sleep & wellness tech' pairing was tested as weak (Reframed candidate) but ultimately rejected because home gadgets is too generic and includes non-wellness devices; tier 5 outcome. Critic applied 3 correction(s). Consistency check: \"Health and personal care\" serves as the antecedent of more than one event. The PRE span likely needs splitting — review before accepting."
+        }
+      },
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-9",
+      "questionId": "Q4.1",
+      "label": "Product Offerings Confidence",
+      "questionText": "How confident are you in the product offerings you've selected for your brand? (Scale 1-10)",
+      "pre": {
+        "answer": 3
+      },
+      "post": {
+        "answer": 7
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    },
+    {
+      "id": "comp-10",
+      "questionId": "Q4.2",
+      "label": "Product Category Decision Influences",
+      "questionText": "Why did you choose this product category? On a scale of 0-4, choose the influence on your decision. (0: no influence, 1: a little, 2: some, 3: major, 4: decisive)",
+      "pre": {
+        "answer": {
+          "Passion/Interest": 2,
+          "Familiarity/Market Understanding": 1,
+          "Business Potential (Profit and Market Demand)": 2,
+          "Alignment with Personal Values": 3,
+          "Curiosity and Learning Opportunity": 2,
+          "Consumer trends, social media trends, peer trends": 1,
+          "Other": 0
+        }
+      },
+      "post": {
+        "answer": {
+          "Passion/Interest": 1,
+          "Familiarity/Market Understanding": 2,
+          "Business Potential (Profit and Market Demand)": 3,
+          "Alignment with Personal Values": 2,
+          "Curiosity and Learning Opportunity": 2,
+          "Consumer trends, social media trends, peer trends": 2,
+          "Other": 0
+        }
+      },
+      "artifactCoding": null,
+      "coderNotes": ""
+    }
+  ]
+}

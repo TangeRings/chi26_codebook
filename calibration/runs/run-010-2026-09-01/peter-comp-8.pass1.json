@@ -1,0 +1,171 @@
+{
+  "coding_unit": {
+    "student_id": "peter",
+    "item_id": "comp-8"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "Durian Mayonnaise Sauce",
+      "Coconut Mayonnaise Sauce",
+      "Mango Mayonnaise Sauce"
+    ],
+    "post_concepts": [
+      "Durian Mayonnaise",
+      "Coconut Mayonnaise",
+      "Mango Mayonnaise"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Durian Mayonnaise Sauce",
+        "post": "Durian Mayonnaise",
+        "continuity": "Same product, fruit-flavored mayonnaise; only the word 'Sauce' dropped",
+        "scope": "Identical scope",
+        "frame": "Identical frame",
+        "stretch": "Minimal",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Durian Mayonnaise Sauce",
+        "post": "Coconut Mayonnaise",
+        "continuity": "Same product format (fruit mayo)",
+        "scope": "Different flavor",
+        "frame": "Identical",
+        "stretch": "Cross-flavor",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Durian Mayonnaise Sauce",
+        "post": "Mango Mayonnaise",
+        "continuity": "Same product format",
+        "scope": "Different flavor",
+        "frame": "Identical",
+        "stretch": "Cross-flavor",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Coconut Mayonnaise Sauce",
+        "post": "Coconut Mayonnaise",
+        "continuity": "Same product",
+        "scope": "Identical",
+        "frame": "Identical",
+        "stretch": "Minimal",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Coconut Mayonnaise Sauce",
+        "post": "Durian Mayonnaise",
+        "continuity": "Same format",
+        "scope": "Different flavor",
+        "frame": "Identical",
+        "stretch": "Cross-flavor",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Coconut Mayonnaise Sauce",
+        "post": "Mango Mayonnaise",
+        "continuity": "Same format",
+        "scope": "Different flavor",
+        "frame": "Identical",
+        "stretch": "Cross-flavor",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Mango Mayonnaise Sauce",
+        "post": "Mango Mayonnaise",
+        "continuity": "Same product",
+        "scope": "Identical",
+        "frame": "Identical",
+        "stretch": "Minimal",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Mango Mayonnaise Sauce",
+        "post": "Durian Mayonnaise",
+        "continuity": "Same format",
+        "scope": "Different flavor",
+        "frame": "Identical",
+        "stretch": "Cross-flavor",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Mango Mayonnaise Sauce",
+        "post": "Coconut Mayonnaise",
+        "continuity": "Same format",
+        "scope": "Different flavor",
+        "frame": "Identical",
+        "stretch": "Cross-flavor",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Durian Mayonnaise Sauce",
+        "post": "Coconut Mayonnaise",
+        "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+      },
+      {
+        "pre": "Durian Mayonnaise Sauce",
+        "post": "Mango Mayonnaise",
+        "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+      },
+      {
+        "pre": "Coconut Mayonnaise Sauce",
+        "post": "Durian Mayonnaise",
+        "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+      },
+      {
+        "pre": "Coconut Mayonnaise Sauce",
+        "post": "Mango Mayonnaise",
+        "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+      },
+      {
+        "pre": "Mango Mayonnaise Sauce",
+        "post": "Durian Mayonnaise",
+        "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+      },
+      {
+        "pre": "Mango Mayonnaise Sauce",
+        "post": "Coconut Mayonnaise",
+        "reason": "Cross-flavor pairing forced by position; not a conceptual successor."
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Durian Mayonnaise Sauce",
+        "post": "Durian Mayonnaise",
+        "basis": "Exact flavor match; only 'Sauce' dropped. Conceptual continuity high."
+      },
+      {
+        "pre": "Coconut Mayonnaise Sauce",
+        "post": "Coconut Mayonnaise",
+        "basis": "Exact flavor match; only 'Sauce' dropped. Conceptual continuity high."
+      },
+      {
+        "pre": "Mango Mayonnaise Sauce",
+        "post": "Mango Mayonnaise",
+        "basis": "Exact flavor match; only 'Sauce' dropped. Conceptual continuity high."
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": []
+  },
+  "structural_development": {
+    "code": "No Change",
+    "rationale": "All three product offerings retain the same fruits and the same product category (mayonnaise). The only change is the dropping of the word 'Sauce' from each. No clauses added or removed; structural scope is equivalent."
+  },
+  "semantic_events": [],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "order_change_only",
+      "possible_stylistic_rewrite"
+    ],
+    "coder_notes": "Each pair differs only by the omission of the word 'Sauce' ('Mayonnaise Sauce' \u2192 'Mayonnaise'). This is a lexical/label reduction with no propositional content change: the product, the fruit, and the category remain identical. Per STYLE-vs-SEMANTIC, near-synonym removal where no meaningful difference in meaning persists is not a semantic event. No semantic events coded. Reordering of the slashes in the post string vs the pre string is also non-semantic. Structural development: No Change."
+  },
+  "coded_at": "2025-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}

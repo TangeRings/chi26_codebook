@@ -1,0 +1,225 @@
+{
+  "corrections": [
+    {
+      "type": "restore_lineage",
+      "pre": "funny",
+      "post": "humorous",
+      "from_code": null,
+      "to_code": "Narrowed",
+      "reason": "funny is a generic tone descriptor; humorous subsumes it. Add code to the direct synonymic pair that was left uncoded in pass 1."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "traveling",
+      "post": "travel",
+      "from_code": null,
+      "to_code": "Narrowed",
+      "reason": "Pass 1 left this direct synonym uncoded; traveling is generic activity, travel is its specific instance form."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "culture",
+      "post": "culture",
+      "from_code": null,
+      "to_code": "Narrowed",
+      "reason": "Exact-match preserved descriptor must be coded, not left null."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "lifestyle",
+      "post": "lifestyle",
+      "from_code": null,
+      "to_code": "Narrowed",
+      "reason": "Exact-match preserved descriptor must be coded, not left null."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "help navigate new places",
+      "post": "help navigate new places",
+      "from_code": null,
+      "to_code": "Narrowed",
+      "reason": "Exact-match preserved descriptor must be coded, not left null."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "share life experience",
+      "post": "blending humor, cultural insights, and real-life experiences",
+      "from_code": "Elaborated",
+      "to_code": "Reframed",
+      "reason": "Reframe check: PRE frame is 'activity of sharing life experience'; POST reorganizes that idea into a 'blend/content-pillar' frame (three pillars combined). The organizing frame shifts from activity to content-mix. Frame change, not added modifiers \u2014 code as Reframed, not Elaborated."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "help navigate new places",
+      "post": "embrace new cultures with confidence",
+      "from_code": "Expanded",
+      "to_code": "Reframed",
+      "reason": "PRE frame: navigational help (utility/assistance). POST frame: outcome of confident cultural embrace (aspirational outcome). These are sibling concepts in adjacent frames \u2014 help-with vs confident-embrace-of. No subsumption; organizing frame changes from utility-assistance to aspirational-outcome. Reframed is stronger than Expanded."
+    },
+    {
+      "type": "restore_lineage",
+      "pre": "funny",
+      "post": "humorous",
+      "from_code": null,
+      "to_code": "Narrowed",
+      "reason": "Reaffirm coding on the direct funny \u2192 humorous match (already corrected above)."
+    },
+    {
+      "type": "confirm",
+      "pre": "Thai student",
+      "post": "multilingual Thai student",
+      "from_code": "Elaborated",
+      "to_code": "Elaborated",
+      "reason": "Identity frame preserved; descriptive attribute added within same frame. BC-P001 rule confirms Elaborated."
+    },
+    {
+      "type": "confirm",
+      "pre": "share life experience",
+      "post": "sharing life in China",
+      "from_code": "Narrowed",
+      "to_code": "Narrowed",
+      "reason": "Scope restriction: life-in-China is a proper subset of life experience broadly. Subsumption holds. Calibrated Narrowed."
+    },
+    {
+      "type": "reject_pairing",
+      "pre": null,
+      "post": "relatable",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Re-tested lineage recovery from funny. 'Relatable is a specific way of being funny' \u2014 subsumption fails: relatability is audience-effect, funniness is content-trait. Reframed: same territory? arguable but the frame genuinely shifts from content-trait (humor register) to audience-effect (reception quality) \u2014 this would force pairing funny with two successors. Expanded/Elaborated fail. funny is already matched to humorous (its strongest counterpart). Per structural constraint, nearest antecedent is unavailable. New stands."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "funny",
+      "post": "humorous",
+      "basis": "direct synonymic match on tone register; subsumption holds"
+    },
+    {
+      "pre": "traveling",
+      "post": "travel",
+      "basis": "same content domain; traveling is generic, travel is its specific descriptor form"
+    },
+    {
+      "pre": "culture",
+      "post": "culture",
+      "basis": "exact-match preserved descriptor"
+    },
+    {
+      "pre": "lifestyle",
+      "post": "lifestyle",
+      "basis": "exact-match preserved descriptor"
+    },
+    {
+      "pre": "Thai student",
+      "post": "multilingual Thai student",
+      "basis": "identity frame preserved; qualifying attribute added"
+    },
+    {
+      "pre": "share life experience",
+      "post": "sharing life in China",
+      "basis": "activity frame narrowed to specific country context (life-in-China subset of life-experience)"
+    },
+    {
+      "pre": "share life experience",
+      "post": "blending humor, cultural insights, and real-life experiences",
+      "basis": "activity frame reorganized as content-pillar blend; organizing frame shifts from sharing-activity to content-mix"
+    },
+    {
+      "pre": "help navigate new places",
+      "post": "help navigate new places",
+      "basis": "exact-match preserved descriptor"
+    },
+    {
+      "pre": "help navigate new places",
+      "post": "embrace new cultures with confidence",
+      "basis": "navigational-utility frame shifts to aspirational-embrace outcome frame; sibling in adjacent territories"
+    }
+  ],
+  "unmatched_pre": [],
+  "unmatched_post": [
+    "relatable"
+  ],
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "funny",
+      "post_evidence": "humorous",
+      "rationale": "funny is a generic tone descriptor; humorous is its specific lexical realization. Subsumption holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "traveling",
+      "post_evidence": "travel",
+      "rationale": "Traveling is the generic activity; travel is its specific descriptor form. Subsumption holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "culture",
+      "post_evidence": "culture",
+      "rationale": "Exact descriptor preserved as a direct instance of itself.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "lifestyle",
+      "post_evidence": "lifestyle",
+      "rationale": "Exact descriptor preserved as a direct instance of itself.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "help navigate new places",
+      "post_evidence": "help navigate new places",
+      "rationale": "Exact descriptor preserved as a direct instance of itself.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "Thai student",
+      "post_evidence": "multilingual Thai student",
+      "rationale": "Identity frame preserved; descriptive attribute (multilingual) added within the same frame. BC-P001 confirms Elaborated.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Narrowed",
+      "pre_evidence": "share life experience",
+      "post_evidence": "sharing life in China",
+      "rationale": "life-in-China is a proper subset of life experience broadly. Scope restriction, subsumption holds.",
+      "alternative_considered": "Reframed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "share life experience",
+      "post_evidence": "blending humor, cultural insights, and real-life experiences",
+      "rationale": "Frame shifts from 'sharing-activity' (one act) to 'content-pillar blend' (three pillars combined). Organizing frame changes, not just added detail.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "help navigate new places",
+      "post_evidence": "embrace new cultures with confidence",
+      "rationale": "Frame shifts from navigational-utility (help with places) to aspirational-cultural-embrace (confident embrace of cultures). Adjacent but sibling frames; no subsumption. Reframed is stronger than Expanded.",
+      "alternative_considered": "Expanded",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "relatable",
+      "rationale": "Nearest antecedent funny is already matched to humorous and unavailable. Relatability (audience-effect) does not subsume under funniness (content-trait); no tier holds. New stands.",
+      "alternative_considered": "Reframed from funny",
+      "confidence": "medium"
+    }
+  ]
+}

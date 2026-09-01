@@ -1,0 +1,84 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "artistic footwear",
+      "post": "make fashionable shoes",
+      "from_code": "Reframed",
+      "to_code": "Reframed",
+      "reason": "Subsumption test: 'fashionable shoes is a specific way of being artistic footwear' is FALSE \u2014 fashionable and artistic are sibling aesthetic registers, not subtype/genus. Product category persists, frame shifts from artistic/design register to fashion/style register. Reframed is correct; Narrowed was correctly rejected."
+    },
+    {
+      "type": "confirm",
+      "pre": "aimed at performers",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Nearest POST counterpart is LGBTQ representation. Tested Narrowed (no subtype relation between performers and LGBTQ individuals), Reframed (shared territory is only the umbrella 'audience', fails abstraction ceiling), Elaborated (POST does not add detail to performers), Expanded (no broadening). All four fail; Removed stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "without compromising comfort",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE counterpart 'artistic footwear' is a product category, not a constraint. Narrowed fails (comfort is not a subtype of artistic footwear), Reframed fails (only shared umbrella is 'product quality', abstraction ceiling), Elaborated fails (artistic footwear is not retained and elaborated with comfort qualifier in POST), Expanded fails. New stands."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "create representation in the fashion world for LGBTQ individuals",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Nearest PRE counterpart is 'aimed at performers'. Narrowed fails (no subtype relation), Reframed fails (only shared umbrella is 'audience', abstraction ceiling \u2014 explicit human-verified non-neighborhood pattern: distinct audience populations), Elaborated fails (POST does not elaborate performers), Expanded fails (performers not broadened into LGBTQ individuals as wider set). New stands."
+    }
+  ],
+  "final_alignments": [
+    {
+      "pre": "artistic footwear",
+      "post": "make fashionable shoes",
+      "basis": "Both name designed footwear at the core of the brand. Same product category persists; the aesthetic frame shifts from artistic/design register to fashion/style register. Sibling qualities within aesthetic design."
+    }
+  ],
+  "unmatched_pre": [
+    "aimed at performers"
+  ],
+  "unmatched_post": [
+    "without compromising comfort",
+    "create representation in the fashion world for LGBTQ individuals"
+  ],
+  "semantic_events": [
+    {
+      "code": "Reframed",
+      "pre_evidence": "artistic footwear",
+      "post_evidence": "make fashionable shoes",
+      "rationale": "Same product category (designed footwear) persists, but the organizing aesthetic frame shifts from 'artistic' to 'fashionable'. 'Fashionable shoes is a specific way of being artistic footwear' is FALSE \u2014 sibling aesthetic registers, not subsumption. Pre-frame: artistic/design register; post-frame: fashion/style register.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "Removed",
+      "pre_evidence": "aimed at performers",
+      "post_evidence": null,
+      "rationale": "The 'performers' audience is absent from the post-response and has no defensible successor. Nearest POST counterpart (LGBTQ representation) names a different audience population; only shared territory is the umbrella 'audience', which fails the abstraction ceiling. Narrowed, Reframed, Elaborated, and Expanded all fail.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "without compromising comfort",
+      "rationale": "A product-constraint principle (comfort) is introduced with no antecedent in the pre-response. Nearest PRE counterpart ('artistic footwear') is a product-category concept, not a constraint; only shared territory is the umbrella 'product quality', which fails the abstraction ceiling. All four transformation codes fail.",
+      "alternative_considered": "Elaborated",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "create representation in the fashion world for LGBTQ individuals",
+      "rationale": "An explicit social-representation mission for a named population (LGBTQ individuals) is introduced with no antecedent in the pre-response. Nearest PRE counterpart ('aimed at performers') names a different concrete audience; only shared territory is the umbrella 'audience', which fails the abstraction ceiling. All four transformation codes fail.",
+      "alternative_considered": "Expanded",
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "corrections": [
+    {
+      "type": "confirm",
+      "pre": "Make RAK's Real Estate market the world's smartest",
+      "post": null,
+      "from_code": "Removed",
+      "to_code": "Removed",
+      "reason": "Confirmed. 'Same' is a meta-reference, not a substantive re-expression. The PRE propositional content is not restated as a successor concept; treating it as a transformation would force a pairing between propositional content and a meta-statement. Neighborhood gate fails: 'Same' occupies a different conceptual domain (meta-confirmation) than the PRE brand-vision proposition. Removed is correct."
+    },
+    {
+      "type": "confirm",
+      "pre": null,
+      "post": "Same",
+      "from_code": "New",
+      "to_code": "New",
+      "reason": "Confirmed. 'Same' is a meta-level artifact indicating continuity of the prior answer, not a substantive new brand-vision concept. The pass-1 MANDATORY-NEW-REMOVED-RECHECK correctly tested Narrowed, Reframed, Elaborated, Expanded against the PRE brand vision and found none defensible. New is the correct code, though with a caveat that 'Same' is more accurately a meta-annotation than a new semantic concept."
+    }
+  ],
+  "final_alignments": [],
+  "unmatched_pre": [
+    "Make RAK's Real Estate market the world's smartest"
+  ],
+  "unmatched_post": [
+    "Same"
+  ],
+  "semantic_events": [
+    {
+      "code": "Removed",
+      "pre_evidence": "Make RAK's Real Estate market the world's smartest",
+      "post_evidence": null,
+      "rationale": "POST does not restate the PRE brand-vision proposition. The only POST content is the meta-statement 'Same', which is not a semantic successor. Lineage recovery tested via the ladder (Narrowed, Reframed, Elaborated, Expanded) fails because 'Same' carries no propositional content to relate to PRE. Neighborhood gate fails: meta-reference vs. propositional content are different conceptual domains.",
+      "alternative_considered": "New (for 'Same') paired with implicit persistence of PRE",
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Same",
+      "rationale": "POST introduces 'Same' as a meta-confirmation of continuity rather than a substantive re-expression of the brand vision. It is not a semantic transformation of the PRE content. The recheck correctly tested all four transformation codes against the nearest PRE counterpart and found none defensible. 'Same' functions as a meta-annotation artifact.",
+      "alternative_considered": "No Change (treating 'Same' as confirmation rather than a new semantic unit)",
+      "confidence": "medium"
+    }
+  ]
+}

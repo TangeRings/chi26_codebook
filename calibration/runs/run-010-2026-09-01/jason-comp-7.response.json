@@ -1,0 +1,270 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "PRE and POST responses are character-for-character identical. No additions, removals, rewording, or reordering occurred.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "postConcepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "continuity": "identical content and percentage",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "continuity": "identical content and percentage",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "continuity": "identical content and percentage",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [],
+      "matchedPairs": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "basis": "identical content, percentage, and order"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "basis": "identical content, percentage, and order"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "basis": "identical content, percentage, and order"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": []
+    },
+    "semanticChanges": [],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coderNotes": "PRE and POST are identical strings. No semantic change to code. Critic confirmed pass-1 with no corrections."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "post_concepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "continuity": "identical content and percentage",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "continuity": "identical content and percentage",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "continuity": "identical content and percentage",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "basis": "identical content, percentage, and order"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "basis": "identical content, percentage, and order"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "basis": "identical content, percentage, and order"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "PRE and POST responses are character-for-character identical. No additions, removals, rewording, or reordering occurred."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "PRE and POST are identical strings. No semantic change to code. Critic confirmed pass-1 with no corrections."
+    },
+    "coded_at": "2026-01-30T00:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-7"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "post_concepts": [
+        "50% product reviews",
+        "30% influencer reviews",
+        "20% product knowledge"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "continuity": "identical content and percentage",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "continuity": "identical content and percentage",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "continuity": "identical content and percentage",
+          "scope": "identical",
+          "frame": "identical",
+          "stretch": "none",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [],
+      "matched_pairs": [
+        {
+          "pre": "50% product reviews",
+          "post": "50% product reviews",
+          "basis": "identical content, percentage, and order"
+        },
+        {
+          "pre": "30% influencer reviews",
+          "post": "30% influencer reviews",
+          "basis": "identical content, percentage, and order"
+        },
+        {
+          "pre": "20% product knowledge",
+          "post": "20% product knowledge",
+          "basis": "identical content, percentage, and order"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "PRE and POST responses are character-for-character identical. No additions, removals, rewording, or reordering occurred."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "PRE and POST are identical strings. No semantic change to code."
+    },
+    "coded_at": "2026-01-30T00:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [],
+    "final_alignments": [
+      {
+        "pre": "50% product reviews",
+        "post": "50% product reviews",
+        "basis": "identical content, percentage, and order"
+      },
+      {
+        "pre": "30% influencer reviews",
+        "post": "30% influencer reviews",
+        "basis": "identical content, percentage, and order"
+      },
+      {
+        "pre": "20% product knowledge",
+        "post": "20% product knowledge",
+        "basis": "identical content, percentage, and order"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": []
+  },
+  "skipCritic": false
+}

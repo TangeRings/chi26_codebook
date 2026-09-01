@@ -1,0 +1,355 @@
+{
+  "success": true,
+  "coding": {
+    "structuralDevelopment": "No Change",
+    "structuralRationale": "The two responses are identical in content, scope, and structure. The only difference is capitalization of the brand name 'EBay' to 'Ebay', which is a stylistic/formatting change and does not constitute structural change.",
+    "conceptAlignment": {
+      "unitizationMode": "semantic_phrase",
+      "preConcepts": [
+        "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "Commerce-Based Platforms: Amazon + EBay"
+      ],
+      "postConcepts": [
+        "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "Commerce-Based Platforms: Amazon + Ebay"
+      ],
+      "candidateAlignments": [
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "continuity": "Identical",
+          "scope": "Identical",
+          "frame": "Identical",
+          "stretch": "No stretch",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "continuity": "None",
+          "scope": "Different domain",
+          "frame": "Different frame",
+          "stretch": "Implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "continuity": "None",
+          "scope": "Different domain",
+          "frame": "Different frame",
+          "stretch": "Implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "continuity": "Near-identical (capitalization)",
+          "scope": "Identical",
+          "frame": "Identical",
+          "stretch": "No stretch",
+          "verdict": "plausible"
+        }
+      ],
+      "rejectedAlignments": [
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "reason": "Different platform categories (content vs commerce); no semantic overlap"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "reason": "Different platform categories (commerce vs content); no semantic overlap"
+        }
+      ],
+      "matchedPairs": [
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "basis": "Identical content and structure preserved across the response"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "basis": "Identical platform list; capitalization-only stylistic difference"
+        }
+      ],
+      "unmatchedPre": [],
+      "unmatchedPost": [],
+      "orderOnlyChanges": [],
+      "newRemovedRecheck": [],
+      "criticCorrections": [
+        {
+          "type": "confirm",
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Pair is identical content; no transformation applies. Confirmed as a faithful preservation."
+        },
+        {
+          "type": "confirm",
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "fromCode": null,
+          "toCode": null,
+          "reason": "Only capitalization difference (EBay \u2192 Ebay); platform list unchanged. Confirmed as a faithful preservation."
+        }
+      ]
+    },
+    "semanticChanges": [],
+    "learnerAgency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coderNotes": "Only difference between PRE and POST is capitalization of 'Ebay' (stylistic only). No semantic events warranted per STYLE-vs-SEMANTIC and ORDER-vs-SEMANTIC rules. Critic applied 2 correction(s)."
+    }
+  },
+  "rawOutput": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-6"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "Commerce-Based Platforms: Amazon + EBay"
+      ],
+      "post_concepts": [
+        "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "Commerce-Based Platforms: Amazon + Ebay"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "continuity": "Identical",
+          "scope": "Identical",
+          "frame": "Identical",
+          "stretch": "No stretch",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "continuity": "None",
+          "scope": "Different domain",
+          "frame": "Different frame",
+          "stretch": "Implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "continuity": "None",
+          "scope": "Different domain",
+          "frame": "Different frame",
+          "stretch": "Implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "continuity": "Near-identical (capitalization)",
+          "scope": "Identical",
+          "frame": "Identical",
+          "stretch": "No stretch",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "reason": "Different platform categories (content vs commerce); no semantic overlap"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "reason": "Different platform categories (commerce vs content); no semantic overlap"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "basis": "Identical content and structure preserved across the response"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "basis": "Identical platform list; capitalization-only stylistic difference"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": [],
+      "critic_corrections": [
+        {
+          "type": "confirm",
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Pair is identical content; no transformation applies. Confirmed as a faithful preservation."
+        },
+        {
+          "type": "confirm",
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "from_code": null,
+          "to_code": null,
+          "reason": "Only capitalization difference (EBay \u2192 Ebay); platform list unchanged. Confirmed as a faithful preservation."
+        }
+      ]
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "The two responses are identical in content, scope, and structure. The only difference is capitalization of the brand name 'EBay' to 'Ebay', which is a stylistic/formatting change and does not constitute structural change."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "Only difference between PRE and POST is capitalization of 'Ebay' (stylistic only). No semantic events warranted per STYLE-vs-SEMANTIC and ORDER-vs-SEMANTIC rules. Critic applied 2 correction(s)."
+    },
+    "coded_at": "2025-01-15T12:00:00Z",
+    "model": "MiniMax-M3+critic"
+  },
+  "pass1Output": {
+    "coding_unit": {
+      "student_id": "jason",
+      "item_id": "comp-6"
+    },
+    "concept_alignment": {
+      "unitization_mode": "semantic_phrase",
+      "pre_concepts": [
+        "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "Commerce-Based Platforms: Amazon + EBay"
+      ],
+      "post_concepts": [
+        "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "Commerce-Based Platforms: Amazon + Ebay"
+      ],
+      "candidate_alignments": [
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "continuity": "Identical",
+          "scope": "Identical",
+          "frame": "Identical",
+          "stretch": "No stretch",
+          "verdict": "plausible"
+        },
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "continuity": "None",
+          "scope": "Different domain",
+          "frame": "Different frame",
+          "stretch": "Implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "continuity": "None",
+          "scope": "Different domain",
+          "frame": "Different frame",
+          "stretch": "Implausible",
+          "verdict": "implausible"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "continuity": "Near-identical (capitalization)",
+          "scope": "Identical",
+          "frame": "Identical",
+          "stretch": "No stretch",
+          "verdict": "plausible"
+        }
+      ],
+      "rejected_alignments": [
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "reason": "Different platform categories (content vs commerce); no semantic overlap"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "reason": "Different platform categories (commerce vs content); no semantic overlap"
+        }
+      ],
+      "matched_pairs": [
+        {
+          "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+          "basis": "Identical content and structure; only formatting preserved across the response"
+        },
+        {
+          "pre": "Commerce-Based Platforms: Amazon + EBay",
+          "post": "Commerce-Based Platforms: Amazon + Ebay",
+          "basis": "Identical platform list; only capitalization difference (EBay \u2192 Ebay) is stylistic"
+        }
+      ],
+      "unmatched_pre": [],
+      "unmatched_post": [],
+      "order_only_changes": [],
+      "new_removed_recheck": []
+    },
+    "structural_development": {
+      "code": "No Change",
+      "rationale": "The two responses are identical in content, scope, and structure. The only difference is capitalization of the brand name 'EBay' to 'Ebay', which is a stylistic/formatting change and does not constitute structural change."
+    },
+    "semantic_events": [],
+    "learner_agency": [],
+    "uncertainty": {
+      "confidence": "high",
+      "flags": [],
+      "coder_notes": "Only difference between PRE and POST is capitalization of 'Ebay' (stylistic only). No semantic events warranted per STYLE-vs-SEMANTIC and ORDER-vs-SEMANTIC rules."
+    },
+    "coded_at": "2025-01-15T12:00:00Z",
+    "model": "MiniMax-M3"
+  },
+  "criticOutput": {
+    "corrections": [
+      {
+        "type": "confirm",
+        "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Pair is identical content; no transformation applies. Confirmed as a faithful preservation."
+      },
+      {
+        "type": "confirm",
+        "pre": "Commerce-Based Platforms: Amazon + EBay",
+        "post": "Commerce-Based Platforms: Amazon + Ebay",
+        "from_code": null,
+        "to_code": null,
+        "reason": "Only capitalization difference (EBay \u2192 Ebay); platform list unchanged. Confirmed as a faithful preservation."
+      }
+    ],
+    "final_alignments": [
+      {
+        "pre": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "post": "Content-Based Platforms: Instagram + TikTok (Active MBTI audience)",
+        "basis": "Identical content and structure preserved across the response"
+      },
+      {
+        "pre": "Commerce-Based Platforms: Amazon + EBay",
+        "post": "Commerce-Based Platforms: Amazon + Ebay",
+        "basis": "Identical platform list; capitalization-only stylistic difference"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "semantic_events": []
+  },
+  "skipCritic": false
+}

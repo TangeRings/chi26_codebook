@@ -1,0 +1,281 @@
+{
+  "coding_unit": {
+    "student_id": "nartay-ualikhan",
+    "item_id": "comp-3"
+  },
+  "concept_alignment": {
+    "unitization_mode": "scoped_category",
+    "pre_concepts": [
+      "Art Connoisseurs",
+      "Young Professionals",
+      "Fashion Enthusiasts",
+      "Middle - upper middle class (solvent market)"
+    ],
+    "post_concepts": [
+      "The Urban Creative (25-35, major cities, creative professionals, tech entrepreneurs, influencers)",
+      "The Discerning Collector (30-50, affluent suburbs, high-income professionals, art collectors)",
+      "Businesses (Luxury hospitality & event curators)",
+      "B2B vs B2C undecided"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "Art Connoisseurs",
+        "post": "The Discerning Collector",
+        "continuity": "Both name the high-knowledge, high-taste customer segment with disposable income for art",
+        "scope": "POST expands into age, location, occupation, lifestyle, values detail",
+        "frame": "Connoisseur (expertise/curation) \u2192 Discerning Collector (curated taste + investment/heritage)",
+        "stretch": "moderate",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Art Connoisseurs",
+        "post": "The Urban Creative",
+        "continuity": "Both sit in the cultural/creative consumer territory",
+        "scope": "POST broadens beyond connoisseurship to general creative professionals",
+        "frame": "Art-expert frame \u2192 Creative-professional lifestyle frame",
+        "stretch": "weak",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Art Connoisseurs",
+        "post": "Businesses (Luxury hospitality & event curators)",
+        "continuity": "Both serve cultural/art curation but one is individual collector, one is B2B",
+        "scope": "different audiences entirely",
+        "frame": "individual vs institutional",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Young Professionals",
+        "post": "The Urban Creative",
+        "continuity": "Both concern young professionally employed consumers in cities",
+        "scope": "POST narrows to creative-class subset and adds detail (age 25-35, etc.)",
+        "frame": "career-stage frame \u2192 creative-class identity frame",
+        "stretch": "plausible",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Young Professionals",
+        "post": "The Discerning Collector",
+        "continuity": "Both concern affluent working professionals",
+        "scope": "POST shifts to 30-50 high-income fields; partial overlap",
+        "frame": "young career-stage \u2192 established high-income professional",
+        "stretch": "weak",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Young Professionals",
+        "post": "Businesses",
+        "continuity": "minimal",
+        "scope": "different",
+        "frame": "individual vs institutional",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Fashion Enthusiasts",
+        "post": "The Urban Creative",
+        "continuity": "Both concern style-aware culturally engaged consumers",
+        "scope": "POST adds broader creative profession frame",
+        "frame": "fashion passion \u2192 creative identity / self-expression",
+        "stretch": "plausible",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Fashion Enthusiasts",
+        "post": "The Discerning Collector",
+        "continuity": "Both value aesthetic and luxury cues",
+        "scope": "POST emphasizes investment/heritage over fashion enthusiasm",
+        "frame": "fashion-driven \u2192 collector/luxury-driven",
+        "stretch": "weak",
+        "verdict": "weak"
+      },
+      {
+        "pre": "Fashion Enthusiasts",
+        "post": "Businesses",
+        "continuity": "minimal",
+        "scope": "different",
+        "frame": "individual vs institutional",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "Middle - upper middle class (solvent market)",
+        "post": "The Urban Creative",
+        "continuity": "Both specify an income/socioeconomic tier",
+        "scope": "POST adds income cues implicitly via creative professions",
+        "frame": "income bracket \u2192 lifestyle-and-value profile",
+        "stretch": "weak",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Middle - upper middle class (solvent market)",
+        "post": "The Discerning Collector",
+        "continuity": "Both specify affluence; POST shifts to affluent suburbs / high-income fields",
+        "scope": "PRE mid-market \u2192 POST upper-affluent",
+        "frame": "broad income tier \u2192 narrow high-income segment",
+        "stretch": "plausible",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "Middle - upper middle class (solvent market)",
+        "post": "Businesses (Luxury hospitality & event curators)",
+        "continuity": "Both sit in solvent/luxury tier",
+        "scope": "PRE individual \u2192 POST institutional",
+        "frame": "individual income \u2192 B2B client",
+        "stretch": "implausible",
+        "verdict": "implausible"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "Art Connoisseurs",
+        "post": "Businesses",
+        "reason": "individual collector vs B2B institutional client \u2014 different conceptual domains"
+      },
+      {
+        "pre": "Young Professionals",
+        "post": "Businesses",
+        "reason": "individual consumer segment vs B2B segment \u2014 different domains"
+      },
+      {
+        "pre": "Fashion Enthusiasts",
+        "post": "Businesses",
+        "reason": "fashion enthusiast consumer vs B2B hospitality/event curators \u2014 different domains"
+      },
+      {
+        "pre": "Middle - upper middle class",
+        "post": "Businesses",
+        "reason": "individual income tier vs B2B client tier \u2014 different domains"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "Art Connoisseurs",
+        "post": "The Discerning Collector",
+        "basis": "Both identify the high-taste, high-income cultural consumer; POST adds age, location, occupation, values detail"
+      },
+      {
+        "pre": "Young Professionals",
+        "post": "The Urban Creative",
+        "basis": "Both target young, employed, culturally active consumers; POST narrows to creative-class subset and elaborates"
+      },
+      {
+        "pre": "Fashion Enthusiasts",
+        "post": "The Urban Creative",
+        "basis": "Both concern style/creative engaged consumers; POST broadens to creative professionals more generally"
+      },
+      {
+        "pre": "Middle - upper middle class (solvent market)",
+        "post": "The Discerning Collector",
+        "basis": "Both specify an affluent socioeconomic tier; POST narrows to a more affluent segment"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [
+      "Businesses (Luxury hospitality & event curators)",
+      "B2B vs B2C undecided"
+    ],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "Businesses (Luxury hospitality & event curators)",
+        "direction": "new",
+        "nearest_counterpart": "Middle - upper middle class (solvent market)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "B2B hospitality/event curators are an institutional segment, not a subset or refinement of the individual income tier. PRE contains no antecedent for an institutional B2B segment; no Narrowed/Reframed/Expanded/Elaborated relation is defensible across different conceptual domains (individual consumer vs B2B client)."
+      },
+      {
+        "concept": "B2B vs B2C undecided",
+        "direction": "new",
+        "nearest_counterpart": null,
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "kept",
+        "reason": "PRE contains no expression of model-choice uncertainty. This is a new metacognitive/strategic statement about business model. No defensible antecedent in PRE."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "PRE was a four-line label list (art connoisseurs, young professionals, fashion enthusiasts, income tier). POST expands to two detailed persona profiles with demographics, location, occupation, lifestyle, values, plus an additional B2B segment and a model-choice note. Multiple new clauses, sentences, and explanatory passages have been added; the scope of the response is meaningfully larger."
+  },
+  "semantic_events": [
+    {
+      "code": "Narrowed",
+      "pre_evidence": "Middle - upper middle class (solvent market)",
+      "post_evidence": "Discerning Collector ... Professionals in high-income fields (finance, law, medicine, etc.) ... affluent suburbs",
+      "rationale": "Scope restriction: POST specifies a more affluent subset of the PRE income tier (high-income fields, affluent suburbs, luxury/exclusivity). 'High-income professionals' is a proper subset of the broader middle-to-upper-middle-class PRE population. SCOPE-RESTRICTION rule applies; the rewording of affluence cues does not convert this into Reframed.",
+      "alternative_considered": "Reframed",
+      "confidence": "high"
+    },
+    {
+      "code": "Expanded",
+      "pre_evidence": "Young Professionals",
+      "post_evidence": "The Urban Creative: Age 25-35, creative professionals (designers, artists, photographers, writers, musicians), tech entrepreneurs, influencers",
+      "rationale": "The Urban Creative broadens 'Young Professionals' beyond a career stage to an identifiable lifestyle/identity profile (creative class in major cities) and explicitly widens the occupational scope to designers, artists, photographers, writers, musicians, tech entrepreneurs, influencers. The PRE seed (young employed consumer) is recognizable, and POST broadens it.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Fashion Enthusiasts",
+      "post_evidence": "The Urban Creative ... value self-expression ... creativity, design, cultural engagement",
+      "rationale": "The frame shifts from a passion/category-based label (fashion enthusiasts) to an identity/lifestyle-based profile (the urban creative who values self-expression and aesthetics). Both sit in style-and-cultural-engagement territory, but the organizing frame moves from 'fashion-driven enthusiast' to 'creative-identity-driven professional consumer'. PRE-frame: passion-based consumer category; POST-frame: identity-based lifestyle profile.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "Art Connoisseurs",
+      "post_evidence": "The Discerning Collector ... appreciate luxury and exclusivity, value investment and heritage",
+      "rationale": "Both identify the high-taste cultural consumer, but the frame shifts from connoisseurship-as-expertise to collecting-as-investment-and-heritage. The subject persists, but what is said about the customer (their relationship to objects) has changed. PRE-frame: expertise/curatorial; POST-frame: investment/heritage/luxury.",
+      "alternative_considered": "Narrowed",
+      "confidence": "medium"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "Businesses \u2014 Luxury hospitality & event curators \u2013 boutique hotels, high-end restaurants, and event planners looking for statement silverware.",
+      "rationale": "B2B hospitality/event-curator segment has no antecedent in PRE. Tested nearest counterpart (Middle-upper-middle income tier) \u2014 different conceptual domains (individual income vs institutional B2B client). No Narrowed/Reframed/Elaborated/Expanded relation defensible. Survived MANDATORY-NEW-REMOVED-RECHECK.",
+      "alternative_considered": null,
+      "confidence": "high"
+    },
+    {
+      "code": "New",
+      "pre_evidence": null,
+      "post_evidence": "haven't fully decided between b2b or b2c model.",
+      "rationale": "Model-choice uncertainty has no antecedent in PRE. No defensible Narrowed/Reframed/Elaborated/Expanded relation from any PRE concept.",
+      "alternative_considered": null,
+      "confidence": "high"
+    }
+  ],
+  "learner_agency": [
+    {
+      "code": "Metacognition",
+      "evidence": "haven't fully decided between b2b or b2c model.",
+      "rationale": "The student explicitly states uncertainty about a strategic choice (B2B vs B2C model), reflecting on their own positioning decision rather than simply describing customers.",
+      "confidence": "medium"
+    }
+  ],
+  "uncertainty": {
+    "confidence": "medium",
+    "flags": [
+      "boundary_case_elab_vs_reframe",
+      "possible_missed_event"
+    ],
+    "coder_notes": "Mode scoped_category applied. PRE was a flat label list; POST is detailed personas plus a B2B segment plus a model-choice note. Many-to-many mapping was required: Fashion Enthusiasts and Young Professionals both track most plausibly to The Urban Creative; pairing one-to-one is not defensible because each PRE label has only a partial successor. Reframed was selected for the Fashion Enthusiasts and Art Connoisseurs pairs, with Expanded reserved for the clear broadening of Young Professionals into the urban creative profile. Boundary_case_elab_vs_reframe flagged for the Art Connoisseurs and Fashion Enthusiasts transitions, where narrowing vs reframing was arguable. Possible_missed_event flagged because the B2B segment could plausibly be read as an Expansion of the affluent tier into institutional buyers; rejected under IMPLAUSIBLE-MATCH-WORSE-THAN-NEW-REMOVED but worth noting."
+  },
+  "coded_at": "2025-01-01T00:00:00Z",
+  "model": "MiniMax-M3"
+}

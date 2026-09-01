@@ -1,0 +1,317 @@
+{
+  "coding_unit": {
+    "student_id": "poom",
+    "item_id": "comp-7"
+  },
+  "concept_alignment": {
+    "unitization_mode": "semantic_phrase",
+    "pre_concepts": [
+      "meme content (25%)",
+      "review content about life/places/moments (25%)",
+      "language learning content (25%)",
+      "random content (25%)"
+    ],
+    "post_concepts": [
+      "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+      "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+      "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+      "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)"
+    ],
+    "candidate_alignments": [
+      {
+        "pre": "meme content (25%)",
+        "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+        "continuity": "Both refer to meme/comedy content as a content category",
+        "scope": "PRE is generic meme category; POST specifies that memes are relatable comedy tied to culture/travel/daily life",
+        "frame": "PRE: vague 'meme' as filler category. POST: same idea, now framed as 'relatable comedy' anchored in specific experiential topics",
+        "stretch": "Modest \u2014 wording differs but conceptual role preserved",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "meme content (25%)",
+        "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+        "continuity": "Weak \u2014 memes and reviews are different content types",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "meme content (25%)",
+        "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "meme content (25%)",
+        "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+        "continuity": "Weak overlap only via 'trends' which could include memes",
+        "scope": "Different primary categories",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "review content about life/places/moments (25%)",
+        "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+        "continuity": "Both touch life/daily content but genres differ (review vs meme)",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "review content about life/places/moments (25%)",
+        "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+        "continuity": "Direct \u2014 both are review-of-life-places content",
+        "scope": "POST specifies geography (China), expands topics (cultural experiences, funny reflections)",
+        "frame": "PRE: generic review of life/places/moments. POST: same review frame with concrete geographic and topical anchors",
+        "stretch": "Low \u2014 clear lineage",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "review content about life/places/moments (25%)",
+        "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "review content about life/places/moments (25%)",
+        "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "language learning content (25%)",
+        "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "language learning content (25%)",
+        "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "language learning content (25%)",
+        "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+        "continuity": "Direct \u2014 both refer to language-learning content",
+        "scope": "POST adds cultural learning and specifies Thai-English-Chinese; PRE is bare 'language learning'",
+        "frame": "PRE: generic language learning. POST: same idea with bilingual comparison and cultural framing",
+        "stretch": "Low",
+        "verdict": "plausible"
+      },
+      {
+        "pre": "language learning content (25%)",
+        "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "random content (25%)",
+        "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+        "continuity": "Weak \u2014 random is a residual catch-all",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "random content (25%)",
+        "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "random content (25%)",
+        "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+        "continuity": "Weak",
+        "scope": "Different",
+        "frame": "Different",
+        "stretch": "High",
+        "verdict": "implausible"
+      },
+      {
+        "pre": "random content (25%)",
+        "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+        "continuity": "Partial \u2014 both are non-thematic catch-all categories, but PRE is explicitly unplanned filler",
+        "scope": "POST narrows the 'random' idea into personal/experimental content with named sub-genres",
+        "frame": "PRE: unplanned generic. POST: same residual-but-now-deliberate idea",
+        "stretch": "Moderate \u2014 could be lineage",
+        "verdict": "weak"
+      }
+    ],
+    "rejected_alignments": [
+      {
+        "pre": "meme content (25%)",
+        "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+        "reason": "Different content genres; memes \u2260 reviews"
+      },
+      {
+        "pre": "meme content (25%)",
+        "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+        "reason": "Different content genres"
+      },
+      {
+        "pre": "meme content (25%)",
+        "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+        "reason": "Different content genres"
+      },
+      {
+        "pre": "review content about life/places/moments (25%)",
+        "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+        "reason": "Reviews and memes are different content genres"
+      },
+      {
+        "pre": "review content about life/places/moments (25%)",
+        "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+        "reason": "Reviews and language lessons are different genres"
+      },
+      {
+        "pre": "review content about life/places/moments (25%)",
+        "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+        "reason": "Reviews and vlogs/challenges are different genres"
+      },
+      {
+        "pre": "language learning content (25%)",
+        "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+        "reason": "Different content genres"
+      },
+      {
+        "pre": "language learning content (25%)",
+        "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+        "reason": "Different content genres"
+      },
+      {
+        "pre": "language learning content (25%)",
+        "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+        "reason": "Different content genres"
+      },
+      {
+        "pre": "random content (25%)",
+        "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+        "reason": "Random is a residual catch-all; memes are a specific genre"
+      },
+      {
+        "pre": "random content (25%)",
+        "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+        "reason": "Random is a residual catch-all; reviews are a specific genre"
+      },
+      {
+        "pre": "random content (25%)",
+        "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+        "reason": "Random is a residual catch-all; language learning is a specific genre"
+      }
+    ],
+    "matched_pairs": [
+      {
+        "pre": "meme content (25%)",
+        "post": "Relatable Comedy & Memes about culture/travel/daily life (30%)",
+        "basis": "Both name meme as a core content category; POST elaborates and qualifies"
+      },
+      {
+        "pre": "review content about life/places/moments (25%)",
+        "post": "Reviews about life in China/places/cultural experiences/funny reflections (30%)",
+        "basis": "Both refer to review-of-life content; POST adds geography and topical specifics"
+      },
+      {
+        "pre": "language learning content (25%)",
+        "post": "Language & Cultural Learning including Thai-English-Chinese comparison and fun lessons (20%)",
+        "basis": "Both explicitly name language learning; POST specifies languages and adds cultural framing"
+      },
+      {
+        "pre": "random content (25%)",
+        "post": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+        "basis": "Both function as a residual/personal category; POST gives the catch-all a concrete identity"
+      }
+    ],
+    "unmatched_pre": [],
+    "unmatched_post": [],
+    "order_only_changes": [],
+    "new_removed_recheck": [
+      {
+        "concept": "random content (25%)",
+        "direction": "removed",
+        "nearest_counterpart": "Personal & Experimental Content including trends/vlogs/behind-the-scenes/challenges (20%)",
+        "codes_tested": [
+          "Narrowed",
+          "Reframed",
+          "Elaborated",
+          "Expanded"
+        ],
+        "outcome": "converted",
+        "reason": "Nearest POST counterpart is 'Personal & Experimental Content'; tested all four: subsumption does not strictly hold (random \u2260 a specific way of being personal/experimental), but conceptual lineage exists \u2014 PRE is the unplanned catch-all bucket that POST has now given a deliberate identity. Reframed is the best-supported verdict (residual/personal frame shift). Converted into matched pair."
+      }
+    ]
+  },
+  "structural_development": {
+    "code": "Significant Addition",
+    "rationale": "POST substantially elaborates every content category with named sub-genres, specific geographic anchors (China, Thai-English-Chinese), and topical detail (culture, travel, daily life, vlogs, behind-the-scenes, challenges). The four categories each receive multi-clause specification, and percentages are added. Overall scope and depth are meaningfully larger than the brief PRE list."
+  },
+  "semantic_events": [
+    {
+      "code": "Elaborated",
+      "pre_evidence": "25% meme",
+      "post_evidence": "30% Relatable Comedy & Memes (Culture + Travel + Daily Life)",
+      "rationale": "The meme category is retained and qualified with three specific experiential anchors (culture, travel, daily life) and re-labeled as 'Relatable Comedy'. POST stays within the same content frame and adds topical specificity without shifting what kind of content it is.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Elaborated",
+      "pre_evidence": "25% review (life, places, moment in life)",
+      "post_evidence": "30% Reviews (Life in China, Places, Cultural Experiences, Funny Reflections)",
+      "rationale": "The review category is retained and specified with geography (China) and additional sub-topics (cultural experiences, funny reflections). Same review frame; detail added rather than reconceived.",
+      "alternative_considered": "Narrowed",
+      "confidence": "high"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "25% language learning",
+      "post_evidence": "20% Language & Cultural Learning (Thai-English-Chinese Comparison & Fun Lessons)",
+      "rationale": "The content-category frame persists (language learning content) but the organizing lens shifts from 'language learning' alone to 'Language & Cultural Learning' with explicit bilingual comparison framing (Thai-English-Chinese) and a 'fun lessons' tone. The conceptual emphasis has moved from purely linguistic learning to cultural-bilingual learning \u2014 same territory, shifted organizing frame.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    },
+    {
+      "code": "Reframed",
+      "pre_evidence": "25% random",
+      "post_evidence": "20% Personal & Experimental Content (Trends, Vlogs, Behind-the-Scenes, Challenges)",
+      "rationale": "Both function as a residual fourth content bucket, but PRE frames it as unplanned filler ('random') while POST reconceives that slot as an intentional 'Personal & Experimental Content' category with named sub-genres. The same residual bucket is reframed from unplanned catch-all to deliberate personal-experimental content. PRE-frame: unplanned residual. POST-frame: deliberate personal/experimental.",
+      "alternative_considered": "Elaborated",
+      "confidence": "medium"
+    }
+  ],
+  "learner_agency": [],
+  "uncertainty": {
+    "confidence": "high",
+    "flags": [
+      "boundary_case_elab_vs_reframe"
+    ],
+    "coder_notes": "The meme and review events are clean Elaborated cases. The language-learning and 'random'-to-Personal-Experimental events sit close to the Elaborated/Reframed boundary; Reframed was selected because in both cases the organizing frame shifted (linguistic \u2192 cultural-bilingual; unplanned \u2192 deliberate). The 'random \u2192 Personal & Experimental Content' lineage required the new/removed re-check and was converted from an initial Removed+New framing into a Reframed matched pair."
+  },
+  "coded_at": "2025-01-15T12:00:00Z",
+  "model": "MiniMax-M3"
+}
